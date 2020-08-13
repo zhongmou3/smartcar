@@ -41,8 +41,8 @@
 
 
 //------------PIT中断参数相关定义------------
-#define CCU6_0_CH0_INT_SERVICE	1	//定义CCU6_0 PIT通道0中断服务类型，即中断是由谁响应处理 0:CPU0 1:CPU1 3:DMA  不可设置为其他值
-#define CCU6_0_CH0_ISR_PRIORITY 30	//定义CCU6_0 PIT通道0中断优先级 优先级范围1-255 越大优先级越高 与平时使用的单片机不一样
+#define CCU6_0_CH0_INT_SERVICE	0	//定义CCU6_0 PIT通道0中断服务类型，即中断是由谁响应处理 0:CPU0 1:CPU1 3:DMA  不可设置为其他值
+#define CCU6_0_CH0_ISR_PRIORITY 230	//定义CCU6_0 PIT通道0中断优先级 优先级范围1-255 越大优先级越高 与平时使用的单片机不一样
 
 #define CCU6_0_CH1_INT_SERVICE	0
 #define CCU6_0_CH1_ISR_PRIORITY 31
@@ -70,7 +70,7 @@
 
 //通道3与通道7是公用一个中断函数 在中断内部通过标志位判断是谁触发的中断
 #define ERU_CH3_CH7_INT_SERVICE 0	//定义ERU通道3和通道7中断服务类型，同上
-#define ERU_CH3_CH7_INT_PRIO  	43	//定义ERU通道3和通道7中断优先级 同上
+#define ERU_CH3_CH7_INT_PRIO  	231	//定义ERU通道3和通道7中断优先级 同上
 
 
 //------------DMA中断参数相关定义------------

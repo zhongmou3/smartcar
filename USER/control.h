@@ -18,6 +18,7 @@ extern uint8 out_begin;    //是否出环岛
 extern float kp,ki,kd;     //增量式PID参数
 extern float out_increment;//增量式PID输出增量
 extern float out;          //输出量
+extern int cardegree;
 //extern uint8 start_prepare_flag;
 //extern uint8 start_flag;
 //extern uint8 start_count;

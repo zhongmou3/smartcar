@@ -20,12 +20,38 @@
 
 #include "isr_config.h"
 #include "isr.h"
+#include "control.h"
 
 //PIT中断函数  示例
 IFX_INTERRUPT(cc60_pit_ch0_isr, CCU6_0_CH0_INT_SERVICE, CCU6_0_CH0_ISR_PRIORITY)
 {
+	double xishu;
+	int16 temp_speed;
+	int encoder_counter;
+	int encoder_counter2;
 	PIT_CLEAR_FLAG(CCU6_0, PIT_CH0);
-
+	encoder_counter = gpt12_get(GPT12_T5);					//右后轮速度(编码器)
+	gpt12_clear(GPT12_T5);
+	encoder_counter2 = gpt12_get(GPT12_T2);					//右后轮速度(编码器)
+	gpt12_clear(GPT12_T2);
+	//encoder_counter2 = encoder_counter2;
+	encoder_counter = - encoder_counter;
+	float Ratio_Encoder = 200 / (1175 * 0.01);  			//右后轮速度=counter*左轮周长(mm)/(左轮转一圈对应的脉冲数*程序周期)
+	speed = (encoder_counter+encoder_counter2)/2*Ratio_Encoder;
+	//printf("speed: %d\n", speed);
+	/*if(cardegree<0)
+	{
+		//后轮差速部分
+		int d;
+		d=-cardegree;
+		xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
+	}
+	//右转弯
+	else
+   	{
+   	    xishu=B*(-0.000147*cardegree*cardegree+0.016*cardegree-0.00493)/(2*H);
+	}
+	speed = temp_speed/(1-0.9*xishu);*/
 }
 
 
@@ -93,7 +119,7 @@ IFX_INTERRUPT(eru_ch1_ch5_isr, ERU_CH1_CH5_INT_SERVICE, ERU_CH1_CH5_INT_PRIO)
 
 
 
-IFX_INTERRUPT(eru_ch3_ch7_isr, ERU_CH3_CH7_INT_SERVICE, ERU_CH3_CH7_INT_PRIO)
+IFX_INTERRUPT(eru_ch3_ch7_isr, ERU_CH3_CH7_INT_SERVICE, ERU_CH3_CH7_INT_PRIO)//摄像头场中断
 {
 	if(GET_GPIO_FLAG(ERU_CH3_REQ6_P02_0))//通道3中断
 	{
@@ -111,7 +137,7 @@ IFX_INTERRUPT(eru_ch3_ch7_isr, ERU_CH3_CH7_INT_SERVICE, ERU_CH3_CH7_INT_PRIO)
 
 
 
-IFX_INTERRUPT(dma_ch5_isr, ERU_DMA_INT_SERVICE, ERU_DMA_INT_PRIO)
+IFX_INTERRUPT(dma_ch5_isr, ERU_DMA_INT_SERVICE, ERU_DMA_INT_PRIO)//摄像头DMA中断
 {
 
 	if		(1 == camera_type)	mt9v03x_dma();

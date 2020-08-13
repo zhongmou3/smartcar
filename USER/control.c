@@ -9,7 +9,7 @@
 #include "control.h"
 
 
-int16 speed;
+int16 speed=0;
 uint8 Lx[MT9V03X_H];                    //左引导线中心点列号
 uint8 Rx[MT9V03X_H];                    //右引导线中心点列号
 uint8 Midx[MT9V03X_H];
@@ -27,6 +27,7 @@ float kp,ki,kd;     //增量式PID参数
 int16 ek=0,ek1=0,ek2=0;   //前后三次误差
 float out_increment=0;//增量式PID输出增量
 float out=1200;          //输出量
+int cardegree=0;
 //uint8 start_prepare_flag=0;
 //uint8 start_flag=0;
 //int start_count=0;
@@ -91,20 +92,20 @@ int speedctrl_calculation(int degree)
 		degree = -degree;
 	}
 	if(degree<=25)
-		set_speed=180;
+		set_speed=2000;
 	/*else if(degree<=65)
 		set_speed=250-2*degree;*/
-	else
-		set_speed=180;
+	//else
+		//set_speed=6000;
 
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
 	ek = set_speed - speed;//计算当前误差
 
 	//设置PID系数
-	kp = 8.5;
-	ki = 0.15;
-	kd = 0.45;
+	kp = 1.70;
+	ki = 0;
+	kd = 0;
 
 	//进行增量式PID运算
 	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
@@ -126,8 +127,8 @@ int speedctrl_calculation(int degree)
 	}
 
 	uart_putchar(UART_0 ,'\n');
-	if(out>3300)out = 3300;     //输出限幅 不能超过占空比最大值
-	if(out<-3300)out = -3300;
+	if(out>3000)out = 3000;     //输出限幅 不能超过占空比最大值
+	if(out<-3000)out = -3000;
 	//out=1000.123;
 	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
 	return speedctrl;
@@ -145,10 +146,10 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 	double xishu=0.1;                             	//后轮差速系数值
 	int16 temp_speed;
 
-	temp_speed = gpt12_get(GPT12_T5);					//右后轮速度(编码器)
-	gpt12_clear(GPT12_T5);
-	printf("temp_speed: %d\n", temp_speed);
-	temp_speed = -temp_speed;
+	//temp_speed = gpt12_get(GPT12_T5);					//右后轮速度(编码器)
+	//gpt12_clear(GPT12_T5);
+	//printf("temp_speed: %d\n", temp_speed);
+	//temp_speed = -temp_speed;
 
 	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
 	{
@@ -202,6 +203,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		//speedctrl = speedctrl+200;
 		//pwm_duty(ATOM2_CH0_P33_4, MID_STEER-1);
 		//改变电机占空比
+		degree = 80;
 		int ideal_speedctrl = speedctrl_calculation(80);
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
@@ -218,8 +220,6 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 		out=0;
 		mt9v03x_init();	//初始化摄像头
-		//out=100;
-		//in_huandao=0;
 		in_huandao_end=1;
 	}
 	else										//正常行驶
@@ -229,36 +229,17 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		{
     		//后轮差速部分
 			int d;
-			//degree=degree;
 			d=-degree;
-			data1=d;
-			for (i=0;i<6;i++)
-			{
-				temp[i]=data1%10;
-				data1=(data1-temp[i])/10;
-			}
-			xishu=B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
-			speed=temp_speed/(1+0.9*xishu);
+			xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
 		}
 		//右转弯
 		else
     	{
-    	  //r_speed=car_speed+car_speed*B*tan(degree-MID_STEER)/(2*H);
-    	  //l_speed=car_speed-car_speed*B*tan(degree-MID_STEER)/(2*H);
-    	    //degree=degree*1.2;
     	    xishu=B*(-0.000147*degree*degree+0.016*degree-0.00493)/(2*H);
-    	    speed=temp_speed/(1-0.9*xishu);
-    	    data1=degree;
-    	    for (i=0;i<6;i++)
-    	    {
-    	        temp[i]=data1%10;
-    	        data1=(data1-temp[i])/10;
-    	    }
 		}
 		int ideal_speedctrl = speedctrl_calculation(degree);
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
-		//speedctrl = speedctrl+600;
     	if(zebra_flag==0)
     	{
     		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);

@@ -62,7 +62,10 @@ int core1_main(void)
 			searchline_image(mt9v03x_image[0]);
     		change_image(mt9v03x_image[0]);
     		oled_dis_bmp(MT9V03X_H,MT9V03X_W,mt9v03x_image[0],whiteRoad);
-    		//oled_int16(40, 2, speed);
+    		oled_int16(40, 2, speed);
+    		oled_int16(40, 3, ek);
+    		int16 ou16= (int16)out;
+    		oled_int16(40, 4, ou16);
 			mt9v03x_finish_flag = 0;//在图像使用完毕后  务必清除标志位，否则不会开始采集下一幅图像
 			//注意：一定要在图像使用完毕后在清除此标志位
     	}

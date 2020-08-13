@@ -91,8 +91,8 @@ int speedctrl_calculation(int degree)
 	{
 		degree = -degree;
 	}
-	if(degree<=25)
-		set_speed=2000;
+	//if(degree<=25)
+	set_speed = 3000;
 	/*else if(degree<=65)
 		set_speed=250-2*degree;*/
 	//else
@@ -101,35 +101,19 @@ int speedctrl_calculation(int degree)
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
 	ek = set_speed - speed;//计算当前误差
+	//oled_int16(40, 3, ek);
 
 	//设置PID系数
-	kp = 1.70;
+	kp = 0.25;
 	ki = 0;
 	kd = 0;
 
 	//进行增量式PID运算
 	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
-	out += out_increment;       //输出增量
-	data=out;
-	uart_putchar(UART_0 ,'o');
-	uart_putchar(UART_0 ,':');
-	int i;
-	uint8 temp[8];
-	for (i=0;i<7;i++)
-	{
-		temp[i]=data%10+'0';
-		data=(data-temp[i])/10;
-	}
-	temp[i]=0;
-	for (i=0;i<7;i++)
-	{
-		uart_putchar(UART_0 ,temp[i]+48);
-	}
+	out = out + out_increment;       //输出增量
 
-	uart_putchar(UART_0 ,'\n');
-	if(out>3000)out = 3000;     //输出限幅 不能超过占空比最大值
-	if(out<-3000)out = -3000;
-	//out=1000.123;
+	if(out>4000) out = 4000;     //输出限幅 不能超过占空比最大值
+	if(out<-4000) out = -4000;
 	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
 	return speedctrl;
 }
@@ -145,11 +129,6 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 	int temp[6];                                  	//串口发送数据
 	double xishu=0.1;                             	//后轮差速系数值
 	int16 temp_speed;
-
-	//temp_speed = gpt12_get(GPT12_T5);					//右后轮速度(编码器)
-	//gpt12_clear(GPT12_T5);
-	//printf("temp_speed: %d\n", temp_speed);
-	//temp_speed = -temp_speed;
 
 	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
 	{
@@ -199,9 +178,6 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 	}
 	else if(in_huandao==1&&in_huandao_end==0)
 	{
-		//speedctrl = speedctrl_calculation(20);
-		//speedctrl = speedctrl+200;
-		//pwm_duty(ATOM2_CH0_P33_4, MID_STEER-1);
 		//改变电机占空比
 		degree = 80;
 		int ideal_speedctrl = speedctrl_calculation(80);
@@ -218,7 +194,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
 		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-		out=0;
+//out=0;
 		mt9v03x_init();	//初始化摄像头
 		in_huandao_end=1;
 	}

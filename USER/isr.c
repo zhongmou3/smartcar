@@ -32,26 +32,13 @@ IFX_INTERRUPT(cc60_pit_ch0_isr, CCU6_0_CH0_INT_SERVICE, CCU6_0_CH0_ISR_PRIORITY)
 	PIT_CLEAR_FLAG(CCU6_0, PIT_CH0);
 	encoder_counter = gpt12_get(GPT12_T5);					//右后轮速度(编码器)
 	gpt12_clear(GPT12_T5);
-	encoder_counter2 = gpt12_get(GPT12_T2);					//右后轮速度(编码器)
+	encoder_counter2 = gpt12_get(GPT12_T2);					//左后轮速度(编码器)
 	gpt12_clear(GPT12_T2);
 	//encoder_counter2 = encoder_counter2;
 	encoder_counter = - encoder_counter;
 	float Ratio_Encoder = 200 / (1175 * 0.01);  			//右后轮速度=counter*左轮周长(mm)/(左轮转一圈对应的脉冲数*程序周期)
-	speed = (encoder_counter+encoder_counter2)/2*Ratio_Encoder;
-	//printf("speed: %d\n", speed);
-	/*if(cardegree<0)
-	{
-		//后轮差速部分
-		int d;
-		d=-cardegree;
-		xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
-	}
-	//右转弯
-	else
-   	{
-   	    xishu=B*(-0.000147*cardegree*cardegree+0.016*cardegree-0.00493)/(2*H);
-	}
-	speed = temp_speed/(1-0.9*xishu);*/
+	speed = (encoder_counter + encoder_counter2)/2 * Ratio_Encoder;
+	
 }
 
 

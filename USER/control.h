@@ -16,6 +16,7 @@ extern uint8 in_huandao_end;
 extern uint8 huandao_count;
 extern uint8 out_begin;    //是否出环岛
 extern float kp,ki,kd;     //增量式PID参数
+extern int16 ek,ek1,ek2;   //前后三次误差
 extern float out_increment;//增量式PID输出增量
 extern float out;          //输出量
 extern int cardegree;

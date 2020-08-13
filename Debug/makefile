@@ -3,7 +3,7 @@
 ################################################################################
 
 PROJ 	= new_car_tc264_v1.3
-PRODDIR = C:\Program Files\TASKING\TriCore v6.3r1\ctc
+PRODDIR = D:\tasking\ctc
 
 -include "..\makefile.init"
 
@@ -112,7 +112,7 @@ all : "Tasking_TC264.elf"
 	@"${PRODDIR}\bin\cctc" -f ".Tasking_TC264.elf.opt"
 
 ".Tasking_TC264.elf.opt" : .refresh
-	@argfile ".Tasking_TC264.elf.opt" -o "Tasking_TC264.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc26x --lsl-core=vtc -t -I"C:\Users\zxy\Desktop\new_car_v1.8\new_car_v1.4\image_processing1.0" ""C:\Users\zxy\Desktop\new_car_v1.8\new_car_v1.4\image_processing1.0\Lcf_Tasking_Tricore_Tc.lsl"" -Wl-OtxycL --no-map-file -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=3 --c++=14 -Wl--dep-file=".Tasking_TC264.elf.d" -Wl--make-target="Tasking_TC264.elf"
+	@argfile ".Tasking_TC264.elf.opt" -o "Tasking_TC264.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc26x --lsl-core=vtc -t -I"D:\smartcar\smartcar" ""D:\smartcar\smartcar\Lcf_Tasking_Tricore_Tc.lsl"" -Wl-OtxycL --no-map-file -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=3 --c++=14 -Wl--dep-file=".Tasking_TC264.elf.d" -Wl--make-target="Tasking_TC264.elf"
 DEPENDENCY_FILES += ".Tasking_TC264.elf.d"
 -include $(DEPENDENCY_FILES)
 

@@ -388,17 +388,17 @@ Tasking_TC264.elf : .\USER\control.o
 .\USER\control.o :
 Tasking_TC264.elf : .\USER\isr.o
 .\USER\isr.o :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\inttab0.lsl"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\inttab0.lsl" :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\tc1v1_6_x.lsl"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\tc1v1_6_x.lsl" :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\tc_mc_arch.lsl"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include.lsl\tc_mc_arch.lsl" :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\libcs_fpu.a"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\libcs_fpu.a" :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\libfp_fpu.a"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\libfp_fpu.a" :
-Tasking_TC264.elf : "C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\librt.a"
-"C:\Program Files\TASKING\TriCore v6.3r1\ctc\lib\tc16x\librt.a" :
-Tasking_TC264.elf : "C:\Users\zxy\Desktop\new_car_v1.8\new_car_v1.4\image_processing1.0\Lcf_Tasking_Tricore_Tc.lsl"
-"C:\Users\zxy\Desktop\new_car_v1.8\new_car_v1.4\image_processing1.0\Lcf_Tasking_Tricore_Tc.lsl" :
+Tasking_TC264.elf : "D:\smartcar\smartcar\Lcf_Tasking_Tricore_Tc.lsl"
+"D:\smartcar\smartcar\Lcf_Tasking_Tricore_Tc.lsl" :
+Tasking_TC264.elf : "D:\tasking\ctc\include.lsl\inttab0.lsl"
+"D:\tasking\ctc\include.lsl\inttab0.lsl" :
+Tasking_TC264.elf : "D:\tasking\ctc\include.lsl\tc1v1_6_x.lsl"
+"D:\tasking\ctc\include.lsl\tc1v1_6_x.lsl" :
+Tasking_TC264.elf : "D:\tasking\ctc\include.lsl\tc_mc_arch.lsl"
+"D:\tasking\ctc\include.lsl\tc_mc_arch.lsl" :
+Tasking_TC264.elf : "D:\tasking\ctc\lib\tc16x\libcs_fpu.a"
+"D:\tasking\ctc\lib\tc16x\libcs_fpu.a" :
+Tasking_TC264.elf : "D:\tasking\ctc\lib\tc16x\libfp_fpu.a"
+"D:\tasking\ctc\lib\tc16x\libfp_fpu.a" :
+Tasking_TC264.elf : "D:\tasking\ctc\lib\tc16x\librt.a"
+"D:\tasking\ctc\lib\tc16x\librt.a" :

@@ -14,7 +14,7 @@
  * @Software 		tasking v6.3r1
  * @Target core		TC264D
  * @Taobao   		https://seekfree.taobao.com/
- * @date       		2020-3-23
+ * @date       		2020-8-13
  ********************************************************************************************************************/
 
 
@@ -85,7 +85,7 @@ void core0_main(void)
         pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
         pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
         pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-		if(speed>500)
+		if(speed>300)
     	{
     	   	start_count++;
     	}
@@ -99,7 +99,6 @@ void core0_main(void)
     {
 		//用户在此处编写任务代码
 
-    	//else startpre_count=0;
     	cardegree=degree_calculation();
     	rotate(cardegree);
 

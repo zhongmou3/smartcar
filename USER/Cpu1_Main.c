@@ -198,6 +198,18 @@ void searchline_image(uint8 *p)
 		    {
 		        CurPoint=Cur_Offset;
 	            int crossing_num=0;//斑马线的数量
+	            uint8 stop_count=0;
+	            for(i=40;i<90;i++)
+	            {
+	                for(j=62;j>=5;j--)
+	            	{
+	            	    if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+	            		{
+	            		  	stop_count++;
+	            		  	break;
+	            		}
+	            	}
+	            }
 	            while ( CurPoint > 0 )         //向右扫描寻找斑马线
 	            {
 		            if ( *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )
@@ -234,7 +246,7 @@ void searchline_image(uint8 *p)
 		            }
 	            }
 	            CurPoint = Cur_Offset;
-	            if(crossing_num >= 11)
+	            if(crossing_num >= 11&&stop_count<=35)
 		    	{
 	            	zebra_flag = 1;
 	            }

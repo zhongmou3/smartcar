@@ -44,7 +44,7 @@ $TC16X
 ; ..\USER\Cpu1_Main.c	    29  
 ; ..\USER\Cpu1_Main.c	    30  int core1_main(void)
 ; Function core1_main
-.L123:
+.L132:
 core1_main:	.type	func
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	     1  /**
@@ -702,7 +702,7 @@ core1_main:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   653      Ifx_CPU_ICR reg;
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   654      reg.U = __mfcr(CPU_ICR);
 	mfcr	d15,#65068
-.L260:
+.L270:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   655      return reg.B.IE != 0;      (inlined)
 	j	.L2
@@ -720,11 +720,11 @@ core1_main:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   662      enabled = IfxCpu_areInterruptsEnabled();
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   663      __disable();
 	disable
-.L734:
+.L782:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   664      __nop();
 	nop
-.L735:
+.L783:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   665      return enabled;      (inlined)
 	j	.L3
@@ -742,7 +742,7 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    32  
 ; ..\USER\Cpu1_Main.c	    33  
 	call	get_clk
-.L736:
+.L784:
 
 ; ..\USER\Cpu1_Main.c	    34  	//目前的库采集总钻风 图像最后一列为固定的黑色
 ; ..\USER\Cpu1_Main.c	    35  	//这是由于单片机造成的，不是摄像头的问题
@@ -750,12 +750,12 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    37      oled_fill(0);
 ; ..\USER\Cpu1_Main.c	    38  	//ips114_init();	//初始化IPS屏幕
 	call	oled_init
-.L737:
+.L785:
 
 ; ..\USER\Cpu1_Main.c	    39  	//ips114_showstr(0, 0, "SEEKFREE MT9V03x");
 	mov	d4,#0
 	call	oled_fill
-.L738:
+.L786:
 
 ; ..\USER\Cpu1_Main.c	    40  	//ips114_showstr(0, 1, "Initializing...");
 ; ..\USER\Cpu1_Main.c	    41  	//如果屏幕没有任何显示，请检查屏幕接线
@@ -765,7 +765,7 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    45  	//如果屏幕一直显示初始化信息，请检查摄像头接线
 ; ..\USER\Cpu1_Main.c	    46      //如果使用主板，一直卡在while(!uart_receive_flag)，请检查是否电池连接OK?或者摄像头的配置串口与单片机连接是否正确
 	call	mt9v03x_init
-.L252:
+.L262:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	     1  /**
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	     2   * \file IfxCpu.h
@@ -1439,7 +1439,7 @@ core1_main:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   670  {
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   671      __enable();
 	enable
-.L253:
+.L263:
 
 ; ..\USER\Cpu1_Main.c	    47  采集一次，请检查场信号(VSY)是否连接OK?
 ; ..\USER\Cpu1_Main.c	    48  	enableInterrupts();
@@ -1455,9 +1455,9 @@ core1_main:	.type	func
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
 	ld.bu	d15,[a15]
-.L739:
+.L787:
 	jeq	d15,#0,.L7
-.L740:
+.L788:
 
 ; ..\USER\Cpu1_Main.c	    55      		//摄像头通过中断读取到mt9v03x_image,128*64,首地址为mt9v03x_image[0]
 ; ..\USER\Cpu1_Main.c	    56      		//后期会提升像素。
@@ -1467,107 +1467,107 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    60  			searchline_image(mt9v03x_image[0]);
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
-.L741:
+.L789:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L742:
+.L790:
 	call	GetMeanThreshold
-.L743:
+.L791:
 	st.w	[a15],d2
-.L744:
+.L792:
 
 ; ..\USER\Cpu1_Main.c	    61      		change_image(mt9v03x_image[0]);
 ; ..\USER\Cpu1_Main.c	    62      		oled_dis_bmp(MT9V03X_H,MT9V03X_W,mt9v03x_image[0],whiteRoad);
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L745:
+.L793:
 	call	searchline_image
-.L746:
+.L794:
 
 ; ..\USER\Cpu1_Main.c	    63      		oled_int16(40, 2, speed);
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L747:
+.L795:
 	call	change_image
-.L748:
+.L796:
 
 ; ..\USER\Cpu1_Main.c	    64      		oled_int16(40, 3, ek);
 	mov	d4,#64
-.L749:
+.L797:
 	mov	d5,#128
-.L750:
+.L798:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L751:
+.L799:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d15,[a15]
 	extr.u	d6,d15,#0,#8
 	call	oled_dis_bmp
-.L752:
+.L800:
 
 ; ..\USER\Cpu1_Main.c	    65      		int16 ou16= (int16)out;
 	mov	d4,#40
-.L753:
+.L801:
 	mov	d5,#2
-.L754:
+.L802:
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d6,[a15]
 	call	oled_int16
-.L755:
+.L803:
 
 ; ..\USER\Cpu1_Main.c	    66      		oled_int16(40, 4, ou16);
 	mov	d4,#40
-.L756:
+.L804:
 	mov	d5,#3
-.L757:
+.L805:
 	movh.a	a15,#@his(ek)
 	lea	a15,[a15]@los(ek)
 	ld.h	d6,[a15]
 	call	oled_int16
-.L257:
+.L267:
 
 ; ..\USER\Cpu1_Main.c	    67  			mt9v03x_finish_flag = 0;//在图像使用完毕后  务必清除标志位，否则不会开始采集下一幅图像
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
 	ld.w	d15,[a15]
-.L758:
+.L806:
 	ftoiz	d6,d15
-.L261:
+.L271:
 	sat.h	d6
-.L759:
+.L807:
 
 ; ..\USER\Cpu1_Main.c	    68  			//注意：一定要在图像使用完毕后在清除此标志位
 	mov	d4,#40
-.L760:
+.L808:
 	mov	d5,#4
-.L761:
+.L809:
 	call	oled_int16
-.L262:
+.L272:
 
 ; ..\USER\Cpu1_Main.c	    69      	}
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L762:
+.L810:
 	mov	d15,#0
-.L763:
+.L811:
 	st.b	[a15],d15
 .L7:
 .L5:
 	j	.L6
-.L764:
+.L812:
 
 ; ..\USER\Cpu1_Main.c	    70      }
 ; ..\USER\Cpu1_Main.c	    71  }
 ; ..\USER\Cpu1_Main.c	    72  
 ; ..\USER\Cpu1_Main.c	    73  void change_image(uint8 *p) //把左线，中线和右线放到数组之中
 	ret
-.L241:
+.L251:
 	
 __core1_main_function_end:
 	.size	core1_main,__core1_main_function_end-core1_main
-.L153:
+.L162:
 	; End of function
 	
 	.sdecl	'.text.Cpu1_Main.change_image',code,cluster('change_image')
@@ -1579,84 +1579,84 @@ __core1_main_function_end:
 ; ..\USER\Cpu1_Main.c	    74  {
 ; ..\USER\Cpu1_Main.c	    75  	int CurL=0,Start=0;
 ; Function change_image
-.L125:
+.L134:
 change_image:	.type	func
 
 ; ..\USER\Cpu1_Main.c	    76  	for ( CurL = MT9V03X_H-1; CurL >=Start; --CurL )
 ; ..\USER\Cpu1_Main.c	    77  	{
 ; ..\USER\Cpu1_Main.c	    78  		*(p + CurL * MT9V03X_W +Rx[CurL] )=80;
 	mov	d0,#63
-.L263:
+.L273:
 	j	.L8
 .L9:
 
 ; ..\USER\Cpu1_Main.c	    79  		*(p + CurL * MT9V03X_W +Lx[CurL] )=80;
 ; ..\USER\Cpu1_Main.c	    80  		*(p + CurL * MT9V03X_W +Midx[CurL])=80;
 	mul	d15,d0,#128
-.L688:
+.L736:
 	addsc.a	a15,a4,d15,#0
-.L689:
+.L737:
 	movh.a	a2,#@his(Rx)
 	lea	a2,[a2]@los(Rx)
-.L690:
+.L738:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L691:
+.L739:
 	addsc.a	a15,a15,d15,#0
-.L692:
+.L740:
 	mov	d15,#80
-.L693:
+.L741:
 	st.b	[a15],d15
-.L694:
+.L742:
 
 ; ..\USER\Cpu1_Main.c	    81  	}
 	mul	d15,d0,#128
-.L695:
+.L743:
 	addsc.a	a15,a4,d15,#0
-.L696:
+.L744:
 	movh.a	a2,#@his(Lx)
 	lea	a2,[a2]@los(Lx)
-.L697:
+.L745:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L698:
+.L746:
 	addsc.a	a15,a15,d15,#0
-.L699:
+.L747:
 	mov	d15,#80
-.L700:
+.L748:
 	st.b	[a15],d15
-.L701:
+.L749:
 
 ; ..\USER\Cpu1_Main.c	    82  }
 	mul	d15,d0,#128
-.L702:
+.L750:
 	addsc.a	a15,a4,d15,#0
-.L703:
+.L751:
 	movh.a	a2,#@his(Midx)
 	lea	a2,[a2]@los(Midx)
-.L704:
+.L752:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L705:
+.L753:
 	addsc.a	a15,a15,d15,#0
-.L706:
+.L754:
 	mov	d15,#80
-.L707:
+.L755:
 	st.b	[a15],d15
-.L708:
+.L756:
 	add	d0,#-1
 .L8:
 	jge	d0,#0,.L9
-.L709:
+.L757:
 
 ; ..\USER\Cpu1_Main.c	    83  
 ; ..\USER\Cpu1_Main.c	    84  /// <summary>
 	ret
-.L220:
+.L230:
 	
 __change_image_function_end:
 	.size	change_image,__change_image_function_end-change_image
-.L143:
+.L152:
 	; End of function
 	
 	.sdecl	'.text.Cpu1_Main.GetMeanThreshold',code,cluster('GetMeanThreshold')
@@ -1673,17 +1673,17 @@ __change_image_function_end:
 ; ..\USER\Cpu1_Main.c	    90  {
 ; ..\USER\Cpu1_Main.c	    91  	int HistGram[256];//灰度图像的直方图
 ; Function GetMeanThreshold
-.L127:
+.L136:
 GetMeanThreshold:	.type	func
 	lea	a10,[a10]-1024
-.L229:
+.L239:
 
 ; ..\USER\Cpu1_Main.c	    92  	uint8 i=0;
 ; ..\USER\Cpu1_Main.c	    93  	for (int Y = 0; Y < 256; Y++)
 ; ..\USER\Cpu1_Main.c	    94      {
 ; ..\USER\Cpu1_Main.c	    95  		HistGram[Y]=0;
 	mov	d0,#0
-.L264:
+.L274:
 	j	.L10
 .L11:
 
@@ -1691,42 +1691,42 @@ GetMeanThreshold:	.type	func
 ; ..\USER\Cpu1_Main.c	    97      for(int CurL=0;CurL<MT9V03X_H;CurL++)
 	mul	d15,d0,#4
 	addsc.a	a15,a10,d15,#0
-.L714:
+.L762:
 	mov	d15,#0
-.L715:
+.L763:
 	st.w	[a15],d15
-.L716:
+.L764:
 	add	d0,#1
 .L10:
 	mov	d15,#256
-.L717:
+.L765:
 	jlt	d0,d15,.L11
-.L230:
+.L240:
 
 ; ..\USER\Cpu1_Main.c	    98  	{
 ; ..\USER\Cpu1_Main.c	    99          for(int CurPoint=0;CurPoint<MT9V03X_W;CurPoint++)
 	mov	d0,#0
-.L265:
+.L275:
 	j	.L12
 .L13:
 
 ; ..\USER\Cpu1_Main.c	   100  		{
 ; ..\USER\Cpu1_Main.c	   101  			i=*(p + CurL * MT9V03X_W + CurPoint);
 	mov	d1,#0
-.L267:
+.L277:
 	j	.L14
 .L15:
 
 ; ..\USER\Cpu1_Main.c	   102  			HistGram[i]++;
 ; ..\USER\Cpu1_Main.c	   103  		}
 	mul	d15,d0,#128
-.L718:
+.L766:
 	addsc.a	a15,a4,d15,#0
-.L719:
+.L767:
 	addsc.a	a15,a15,d1,#0
-.L720:
+.L768:
 	ld.bu	d2,[a15]
-.L268:
+.L278:
 
 ; ..\USER\Cpu1_Main.c	   104  	}
 	mul	d15,d2,#4
@@ -1734,34 +1734,34 @@ GetMeanThreshold:	.type	func
 	mul	d15,d2,#4
 	addsc.a	a2,a10,d15,#0
 	ld.w	d15,[a2]
-.L721:
+.L769:
 	add	d15,#1
 	st.w	[a15],d15
-.L722:
+.L770:
 	add	d1,#1
 .L14:
 	mov	d15,#128
-.L723:
+.L771:
 	jlt	d1,d15,.L15
-.L234:
+.L244:
 	add	d0,#1
 .L12:
 	mov	d15,#64
-.L724:
+.L772:
 	jlt	d0,d15,.L13
-.L232:
+.L242:
 
 ; ..\USER\Cpu1_Main.c	   105      int Sum = 0, Amount = 0;
 ; ..\USER\Cpu1_Main.c	   106      for (int Y = 0; Y < 256; Y++)
 ; ..\USER\Cpu1_Main.c	   107      {
 	mov	d0,#0
-.L266:
+.L276:
 	mov	d1,#0
-.L238:
+.L248:
 
 ; ..\USER\Cpu1_Main.c	   108          Amount +=HistGram[Y];
 	mov	d2,#0
-.L269:
+.L279:
 	j	.L16
 .L17:
 
@@ -1770,38 +1770,38 @@ GetMeanThreshold:	.type	func
 	mul	d15,d2,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d15,[a15]
-.L725:
+.L773:
 	add	d1,d15
-.L726:
+.L774:
 
 ; ..\USER\Cpu1_Main.c	   111      return Sum / Amount;
 	mul	d15,d2,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d15,[a15]
-.L727:
+.L775:
 	madd	d0,d0,d2,d15
-.L728:
+.L776:
 	add	d2,#1
 .L16:
 	mov	d15,#256
-.L729:
+.L777:
 	jlt	d2,d15,.L17
-.L239:
+.L249:
 
 ; ..\USER\Cpu1_Main.c	   112  }
 ; ..\USER\Cpu1_Main.c	   113  void searchline_image(uint8 *p)
 	div	e2,d0,d1
-.L270:
+.L280:
 	j	.L18
 
 ; ..\USER\Cpu1_Main.c	   114  {
 .L18:
 	ret
-.L224:
+.L234:
 	
 __GetMeanThreshold_function_end:
 	.size	GetMeanThreshold,__GetMeanThreshold_function_end-GetMeanThreshold
-.L148:
+.L157:
 	; End of function
 	
 	.sdecl	'.text.Cpu1_Main.searchline_image',code,cluster('searchline_image')
@@ -1812,18 +1812,18 @@ __GetMeanThreshold_function_end:
 
 ; ..\USER\Cpu1_Main.c	   115  	int	CurL= 0, Start =0;             // CurL  ?前行   Start ?始??的行  第一行?0?始
 ; Function searchline_image
-.L129:
+.L138:
 searchline_image:	.type	func
-	lea	a10,[a10]-384
-.L271:
+	lea	a10,[a10]-392
+.L281:
 	mov.aa	a12,a4
-.L273:
+.L283:
 
 ; ..\USER\Cpu1_Main.c	   116  	uint8   Cur_Offset	= 64;     	// 初始中心64，为摄像头所有像素点中心中心
 ; ..\USER\Cpu1_Main.c	   117    	uint8   CurPoint = Cur_Offset;          // CurPoint为之前正在描的中心点
 ; ..\USER\Cpu1_Main.c	   118  
 	mov	d4,#64
-.L274:
+.L284:
 
 ; ..\USER\Cpu1_Main.c	   119    	//最小二乘法各变量(拟合)
 ; ..\USER\Cpu1_Main.c	   120    	int FitCur_A=0, FitCur_B=0, FitCur_C=0, FitCur_D=0,FitCur_E=0;
@@ -1853,38 +1853,40 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   144  	uint8 right_flag_count = 0;                  //计算第一个flag为0
 ; ..\USER\Cpu1_Main.c	   145  	//int zebra_flag=0;                           //遇到斑马线的停止flag,为1停止
 	mov	d5,#0
-.L275:
+.L286:
 
 ; ..\USER\Cpu1_Main.c	   146      uint8 left_non[MT9V03X_H];               //左边是否未检测到边线,默认有未检测到边线则为0，反之为1
 	mov	d6,#0
-.L277:
+.L288:
 
 ; ..\USER\Cpu1_Main.c	   147  	uint8 right_non[MT9V03X_H];              //右边是否未检测到边线,默认有未检测到边线则为0，反之为1
 ; ..\USER\Cpu1_Main.c	   148  	uint8 count_left_non=0;               //左边有几次未检测到边线
 ; ..\USER\Cpu1_Main.c	   149  	uint8 count_right_non=0;              //右边有几次未检测到边线
 ; ..\USER\Cpu1_Main.c	   150  	uint8 count_right_exist=0;              //右边有几次检测到边线
 	mov	d7,#0
-.L279:
+.L290:
 
 ; ..\USER\Cpu1_Main.c	   151  	uint8 count_left_non1=0;               //左边有几次未检测到边线
-	mov	d9,#0
-.L281:
+	mov	d8,#0
+.L292:
 
 ; ..\USER\Cpu1_Main.c	   152  	uint8 count_right_non1=0;              //右边有几次未检测到边线
 ; ..\USER\Cpu1_Main.c	   153  	uint8 count_left_non2=0;               //左边有几次未检测到边线
 ; ..\USER\Cpu1_Main.c	   154  	uint8 count_right_non2=0;              //右边有几次未检测到边线
 ; ..\USER\Cpu1_Main.c	   155  	uint8 turning_point;                   //由减到增的转折点
 ; ..\USER\Cpu1_Main.c	   156  	uint8 turning_point1;
-	mov	d8,#0
-.L283:
+	mov	d15,#0
+.L294:
+	st.w	[a10]388,d15
+.L295:
 
 ; ..\USER\Cpu1_Main.c	   157  	uint8 count_dec=0;                       //本应增加却减少的次数
 ; ..\USER\Cpu1_Main.c	   158  	uint8 count_inc=0;                       //本应减少却增加的次数
 ; ..\USER\Cpu1_Main.c	   159  	uint8 black_count=0;
 ; ..\USER\Cpu1_Main.c	   160  	uint8 huandao_after=0;
 ; ..\USER\Cpu1_Main.c	   161  	uint8 huandao_before=0;
-	mov	d10,#0
-.L285:
+	mov	d9,#0
+.L296:
 
 ; ..\USER\Cpu1_Main.c	   162  	uint16 i;
 ; ..\USER\Cpu1_Main.c	   163  	uint16 j;
@@ -1895,96 +1897,96 @@ searchline_image:	.type	func
 	movh.a	a15,#@his(zebra_end_flag)
 	lea	a15,[a15]@los(zebra_end_flag)
 	ld.bu	d0,[a15]
-.L351:
+.L377:
 	jne	d0,#1,.L19
-.L205:
+.L214:
 
 ; ..\USER\Cpu1_Main.c	   168  	  		//uint8 i;
 ; ..\USER\Cpu1_Main.c	   169  	  		//uint8 j;
 	mov	d2,#0
-.L287:
+.L298:
 
 ; ..\USER\Cpu1_Main.c	   170  	  		for(i=40;i<90;i++)
 ; ..\USER\Cpu1_Main.c	   171  	  		{
 ; ..\USER\Cpu1_Main.c	   172  	  			for(j=10;j<62;j++)
 	mov	d3,#40
-.L289:
+.L300:
 	j	.L20
 .L21:
 
 ; ..\USER\Cpu1_Main.c	   173  	  			{
 ; ..\USER\Cpu1_Main.c	   174  	  				if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
-	mov	d11,#10
-.L290:
+	mov	d10,#10
+.L301:
 	j	.L22
 .L23:
 
 ; ..\USER\Cpu1_Main.c	   175  	  				{
 ; ..\USER\Cpu1_Main.c	   176  	  					stop_count++;
-	mul	d15,d11,#128
-.L352:
+	mul	d15,d10,#128
+.L378:
 	addsc.a	a15,a12,d15,#0
-.L353:
+.L379:
 	addsc.a	a15,a15,d3,#0
-.L354:
+.L380:
 	ld.bu	d0,[a15]
-.L355:
+.L381:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d1,[a15]
-.L356:
+.L382:
 	jge	d1,d0,.L24
-.L357:
-	add	d15,d11,#1
-.L358:
+.L383:
+	add	d15,d10,#1
+.L384:
 	mul	d15,d15,#128
-.L359:
+.L385:
 	addsc.a	a15,a12,d15,#0
-.L360:
+.L386:
 	addsc.a	a15,a15,d3,#0
-.L361:
+.L387:
 	ld.bu	d0,[a15]
-.L362:
+.L388:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d15,[a15]
-.L363:
-	jge	d15,d0,.L25
-.L364:
-	add	d15,d11,#-1
-.L365:
+	ld.w	d1,[a15]
+.L389:
+	jge	d1,d0,.L25
+.L390:
+	add	d15,d10,#-1
+.L391:
 	mul	d15,d15,#128
-.L366:
+.L392:
 	addsc.a	a15,a12,d15,#0
-.L367:
+.L393:
 	addsc.a	a15,a15,d3,#0
-.L368:
+.L394:
 	ld.bu	d15,[a15]
-.L369:
+.L395:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
-.L370:
+.L396:
 	jge	d15,d0,.L26
-.L371:
+.L397:
 
 ; ..\USER\Cpu1_Main.c	   177  	  					break;
 ; ..\USER\Cpu1_Main.c	   178  	  				}
 	add	d2,#1
-.L288:
+.L299:
 	extr.u	d2,d2,#0,#8
-.L291:
+.L302:
 
 ; ..\USER\Cpu1_Main.c	   179  				}
 	j	.L27
 .L26:
 .L25:
 .L24:
-	add	d11,#1
+	add	d10,#1
 .L22:
 	mov	d15,#62
-.L372:
-	jlt.u	d11,d15,.L23
+.L398:
+	jlt.u	d10,d15,.L23
 
 ; ..\USER\Cpu1_Main.c	   180  	  		}
 ; ..\USER\Cpu1_Main.c	   181  	  		//printf("stop_count: %d\n", stop_count);
@@ -1993,25 +1995,25 @@ searchline_image:	.type	func
 	add	d3,#1
 .L20:
 	mov	d15,#90
-.L373:
+.L399:
 	jlt.u	d3,d15,.L21
-.L374:
+.L400:
 
 ; ..\USER\Cpu1_Main.c	   183  	  			stop_flag = 1;
 ; ..\USER\Cpu1_Main.c	   184  			else
 	mov	d15,#40
-.L375:
+.L401:
 	jge.u	d15,d2,.L28
-.L376:
+.L402:
 
 ; ..\USER\Cpu1_Main.c	   185  	  		{
 	movh.a	a15,#@his(stop_flag)
 	lea	a15,[a15]@los(stop_flag)
-.L377:
+.L403:
 	mov	d15,#1
-.L378:
+.L404:
 	st.b	[a15],d15
-.L379:
+.L405:
 	j	.L29
 .L28:
 
@@ -2024,1547 +2026,1661 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   189  	for( CurL = MT9V03X_H; CurL >= Start; --CurL )
 ; ..\USER\Cpu1_Main.c	   190  	{
 ; ..\USER\Cpu1_Main.c	   191  		CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线 */
-	mov	d1,#64
-.L292:
+	mov	d3,#64
+.L303:
 	j	.L30
 .L31:
 
 ; ..\USER\Cpu1_Main.c	   192  		uint8 right_flag = 0;               //边界是否扫描到
 ; ..\USER\Cpu1_Main.c	   193  		uint8 left_flag = 0;
-	mov	d11,d4
-.L207:
+	mov	d0,d4
+.L216:
 
 ; ..\USER\Cpu1_Main.c	   194  
-	mov	d2,#0
-.L294:
+	mov	d10,#0
+.L305:
 
 ; ..\USER\Cpu1_Main.c	   195  		if(CurL<MT9V03X_H-5 && CurL>28)
-	mov	d3,#0
-.L295:
+	mov	d11,#0
+.L306:
 
 ; ..\USER\Cpu1_Main.c	   196  		    {
 ; ..\USER\Cpu1_Main.c	   197  		        CurPoint=Cur_Offset;
 	mov	d15,#59
-.L380:
-	jge	d1,d15,.L32
-.L381:
+.L406:
+	jge	d3,d15,.L32
+.L407:
 	mov	d15,#28
-.L382:
-	jge	d15,d1,.L33
-.L383:
+.L408:
+	jge	d15,d3,.L33
+.L409:
 
 ; ..\USER\Cpu1_Main.c	   198  	            int crossing_num=0;//斑马线的数量
-; ..\USER\Cpu1_Main.c	   199  	            while ( CurPoint > 0 )         //向右扫描寻找斑马线
-	mov	d11,d4
-.L211:
+; ..\USER\Cpu1_Main.c	   199  	            uint8 stop_count=0;
+	mov	d1,d4
+.L220:
 
-; ..\USER\Cpu1_Main.c	   200  	            {
+; ..\USER\Cpu1_Main.c	   200  	            for(i=40;i<90;i++)
+	mov	d2,#0
+.L308:
+
+; ..\USER\Cpu1_Main.c	   201  	            {
 	mov	d12,#0
-.L297:
+.L309:
 
-; ..\USER\Cpu1_Main.c	   201  		            if ( *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )
+; ..\USER\Cpu1_Main.c	   202  	                for(j=62;j>=5;j--)
+	mov	d13,#40
+.L311:
 	j	.L34
 .L35:
 
-; ..\USER\Cpu1_Main.c	   202  		            {
-; ..\USER\Cpu1_Main.c	   203  		    	        crossing_num=crossing_num+1;
-	mul	d15,d1,#128
-.L384:
+; ..\USER\Cpu1_Main.c	   203  	            	{
+; ..\USER\Cpu1_Main.c	   204  	            	    if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+	mov	d15,#62
+.L312:
+	st.w	[a10]384,d15
+.L314:
+	j	.L36
+.L37:
+
+; ..\USER\Cpu1_Main.c	   205  	            		{
+; ..\USER\Cpu1_Main.c	   206  	            		  	stop_count++;
+	mul	d15,d15,#128
+.L313:
 	addsc.a	a15,a12,d15,#0
-.L385:
-	addsc.a	a15,a15,d11,#0
-.L386:
-	ld.bu	d15,[a15]1
-.L387:
+.L410:
+	addsc.a	a15,a15,d13,#0
+.L411:
+	ld.bu	d0,[a15]
+.L412:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L388:
-	jge	d0,d15,.L36
-.L389:
-	mul	d15,d1,#128
-.L390:
-	addsc.a	a15,a12,d15,#0
-.L391:
-	addsc.a	a15,a15,d11,#0
-.L392:
-	ld.bu	d15,[a15]
-.L393:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L394:
-	jge	d15,d0,.L37
-.L395:
-	mul	d15,d1,#128
-.L396:
-	addsc.a	a15,a12,d15,#0
-.L397:
-	addsc.a	a15,a15,d11,#0
-.L398:
-	ld.bu	d15,[a15]-1
-.L399:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L400:
+	ld.w	d15,[a15]
+.L413:
 	jge	d15,d0,.L38
-.L401:
-	mul	d15,d1,#128
-.L402:
+.L414:
+	ld.w	d15,[a10]384
+.L315:
+	add	d15,#1
+.L316:
+	mul	d15,d15,#128
+.L415:
 	addsc.a	a15,a12,d15,#0
-.L403:
-	addsc.a	a15,a15,d11,#0
-.L404:
-	ld.bu	d15,[a15]-2
-.L405:
+.L416:
+	addsc.a	a15,a15,d13,#0
+.L417:
+	ld.bu	d15,[a15]
+.L418:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
-.L406:
-	jge	d15,d0,.L39
-.L407:
+.L419:
+	jge	d0,d15,.L39
+.L420:
+	ld.w	d15,[a10]384
+.L317:
+	add	d15,#-1
+.L318:
+	mul	d15,d15,#128
+.L421:
+	addsc.a	a15,a12,d15,#0
+.L422:
+	addsc.a	a15,a15,d13,#0
+.L423:
+	ld.bu	d15,[a15]
+.L424:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L425:
+	jge	d15,d0,.L40
+.L426:
 
-; ..\USER\Cpu1_Main.c	   204  		    			 -- CurPoint;
-; ..\USER\Cpu1_Main.c	   205  		            }  //由白变为黑
+; ..\USER\Cpu1_Main.c	   207  	            		  	break;
+; ..\USER\Cpu1_Main.c	   208  	            		}
 	add	d12,#1
-.L408:
+.L310:
+	extr.u	d12,d12,#0,#8
+.L319:
 
-; ..\USER\Cpu1_Main.c	   206  		            else if ( *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) > whiteRoad )
-	add	d11,#-1
-.L409:
-	j	.L40
+; ..\USER\Cpu1_Main.c	   209  	            	}
+	j	.L41
+.L40:
 .L39:
 .L38:
-.L37:
+	ld.w	d15,[a10]384
+.L320:
+	add	d15,#-1
+	st.w	[a10]384,d15
 .L36:
+	jge.u	d15,#5,.L37
 
-; ..\USER\Cpu1_Main.c	   207  		            {
-; ..\USER\Cpu1_Main.c	   208  		                crossing_num=crossing_num+1;
-	mul	d15,d1,#128
-.L410:
-	addsc.a	a15,a12,d15,#0
-.L411:
-	addsc.a	a15,a15,d11,#0
-.L412:
-	ld.bu	d15,[a15]1
-.L413:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L414:
-	jge	d15,d0,.L41
-.L415:
-	mul	d15,d1,#128
-.L416:
-	addsc.a	a15,a12,d15,#0
-.L417:
-	addsc.a	a15,a15,d11,#0
-.L418:
-	ld.bu	d15,[a15]
-.L419:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L420:
-	jge	d0,d15,.L42
-.L421:
-	mul	d15,d1,#128
-.L422:
-	addsc.a	a15,a12,d15,#0
-.L423:
-	addsc.a	a15,a15,d11,#0
-.L424:
-	ld.bu	d15,[a15]-1
-.L425:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L426:
-	jge	d0,d15,.L43
-.L427:
-	mul	d15,d1,#128
-.L428:
-	addsc.a	a15,a12,d15,#0
-.L429:
-	addsc.a	a15,a15,d11,#0
-.L430:
-	ld.bu	d15,[a15]-2
-.L431:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L432:
-	jge	d0,d15,.L44
-.L433:
-
-; ..\USER\Cpu1_Main.c	   209  		    			 -- CurPoint;
-; ..\USER\Cpu1_Main.c	   210  		            }  //由黑变为白
-	add	d12,#1
-.L434:
-
-; ..\USER\Cpu1_Main.c	   211                  	else
-	add	d11,#-1
-.L435:
-	j	.L45
-.L44:
-.L43:
-.L42:
+; ..\USER\Cpu1_Main.c	   210  	            }
+; ..\USER\Cpu1_Main.c	   211  	            while ( CurPoint > 0 )         //向右扫描寻找斑马线
+; ..\USER\Cpu1_Main.c	   212  	            {
 .L41:
-
-; ..\USER\Cpu1_Main.c	   212        	            {//没找到
-; ..\USER\Cpu1_Main.c	   213  		    	        -- CurPoint;
-; ..\USER\Cpu1_Main.c	   214  		            }
-; ..\USER\Cpu1_Main.c	   215  	            }
-	add	d11,#-1
-.L45:
-.L40:
+	add	d13,#1
 .L34:
-	jge.u	d11,#1,.L35
-.L436:
+	mov	d15,#90
+.L427:
+	jlt.u	d13,d15,.L35
+.L428:
 
-; ..\USER\Cpu1_Main.c	   216                  CurPoint = Cur_Offset;
-; ..\USER\Cpu1_Main.c	   217                  while ( CurPoint < MT9V03X_W )         //向左扫描寻找斑马线
-; ..\USER\Cpu1_Main.c	   218  	            {
-	mov	d13,d4
-.L293:
+; ..\USER\Cpu1_Main.c	   213  		            if ( *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )
+	j	.L42
+.L43:
 
-; ..\USER\Cpu1_Main.c	   219  		            if ( *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-	j	.L46
-.L47:
-
-; ..\USER\Cpu1_Main.c	   220  		            {
-; ..\USER\Cpu1_Main.c	   221  		    	        crossing_num=crossing_num+1;
-	mul	d15,d1,#128
-.L437:
+; ..\USER\Cpu1_Main.c	   214  		            {
+; ..\USER\Cpu1_Main.c	   215  		    	        crossing_num=crossing_num+1;
+	mul	d15,d3,#128
+.L429:
 	addsc.a	a15,a12,d15,#0
-.L438:
-	addsc.a	a15,a15,d13,#0
-.L439:
-	ld.bu	d0,[a15]-1
-.L440:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d11,[a15]
-.L441:
-	jge	d11,d0,.L48
-.L442:
-	mul	d15,d1,#128
-.L443:
-	addsc.a	a15,a12,d15,#0
-.L444:
-	addsc.a	a15,a15,d13,#0
-.L445:
-	ld.bu	d15,[a15]
-.L446:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L447:
-	jge	d15,d0,.L49
-.L448:
-	mul	d15,d1,#128
-.L449:
-	addsc.a	a15,a12,d15,#0
-.L450:
-	addsc.a	a15,a15,d13,#0
-.L451:
+.L430:
+	addsc.a	a15,a15,d1,#0
+.L431:
 	ld.bu	d15,[a15]1
-.L452:
+.L432:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
+.L433:
+	jge	d0,d15,.L44
+.L434:
+	mul	d15,d3,#128
+.L435:
+	addsc.a	a15,a12,d15,#0
+.L436:
+	addsc.a	a15,a15,d1,#0
+.L437:
+	ld.bu	d15,[a15]
+.L438:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L439:
+	jge	d15,d0,.L45
+.L440:
+	mul	d15,d3,#128
+.L441:
+	addsc.a	a15,a12,d15,#0
+.L442:
+	addsc.a	a15,a15,d1,#0
+.L443:
+	ld.bu	d15,[a15]-1
+.L444:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L445:
+	jge	d15,d0,.L46
+.L446:
+	mul	d15,d3,#128
+.L447:
+	addsc.a	a15,a12,d15,#0
+.L448:
+	addsc.a	a15,a15,d1,#0
+.L449:
+	ld.bu	d15,[a15]-2
+.L450:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L451:
+	jge	d15,d0,.L47
+.L452:
+
+; ..\USER\Cpu1_Main.c	   216  		    			 -- CurPoint;
+; ..\USER\Cpu1_Main.c	   217  		            }  //由白变为黑
+	add	d2,#1
 .L453:
-	jge	d15,d0,.L50
+
+; ..\USER\Cpu1_Main.c	   218  		            else if ( *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) > whiteRoad )
+	add	d1,#-1
 .L454:
-	mul	d15,d1,#128
+	j	.L48
+.L47:
+.L46:
+.L45:
+.L44:
+
+; ..\USER\Cpu1_Main.c	   219  		            {
+; ..\USER\Cpu1_Main.c	   220  		                crossing_num=crossing_num+1;
+	mul	d15,d3,#128
 .L455:
 	addsc.a	a15,a12,d15,#0
 .L456:
-	addsc.a	a15,a15,d13,#0
+	addsc.a	a15,a15,d1,#0
 .L457:
-	ld.bu	d15,[a15]2
+	ld.bu	d15,[a15]1
 .L458:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
 .L459:
-	jge	d15,d0,.L51
+	jge	d15,d0,.L49
 .L460:
-
-; ..\USER\Cpu1_Main.c	   222  		    			++ CurPoint;
-; ..\USER\Cpu1_Main.c	   223  		            }  //由白变为黑
-	add	d12,#1
+	mul	d15,d3,#128
 .L461:
-
-; ..\USER\Cpu1_Main.c	   224  		            else if ( *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) > whiteRoad )
-	add	d13,#1
+	addsc.a	a15,a12,d15,#0
 .L462:
-	j	.L52
+	addsc.a	a15,a15,d1,#0
+.L463:
+	ld.bu	d15,[a15]
+.L464:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L465:
+	jge	d0,d15,.L50
+.L466:
+	mul	d15,d3,#128
+.L467:
+	addsc.a	a15,a12,d15,#0
+.L468:
+	addsc.a	a15,a15,d1,#0
+.L469:
+	ld.bu	d15,[a15]-1
+.L470:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L471:
+	jge	d0,d15,.L51
+.L472:
+	mul	d15,d3,#128
+.L473:
+	addsc.a	a15,a12,d15,#0
+.L474:
+	addsc.a	a15,a15,d1,#0
+.L475:
+	ld.bu	d15,[a15]-2
+.L476:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L477:
+	jge	d0,d15,.L52
+.L478:
+
+; ..\USER\Cpu1_Main.c	   221  		    			 -- CurPoint;
+; ..\USER\Cpu1_Main.c	   222  		            }  //由黑变为白
+	add	d2,#1
+.L479:
+
+; ..\USER\Cpu1_Main.c	   223                  	else
+	add	d1,#-1
+.L480:
+	j	.L53
+.L52:
 .L51:
 .L50:
 .L49:
-.L48:
 
-; ..\USER\Cpu1_Main.c	   225  		            {
-; ..\USER\Cpu1_Main.c	   226  		    	        crossing_num=crossing_num+1;
-	mul	d15,d1,#128
-.L463:
-	addsc.a	a15,a12,d15,#0
-.L464:
-	addsc.a	a15,a15,d13,#0
-.L465:
-	ld.bu	d15,[a15]-1
-.L466:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L467:
-	jge	d15,d0,.L53
-.L468:
-	mul	d15,d1,#128
-.L469:
-	addsc.a	a15,a12,d15,#0
-.L470:
-	addsc.a	a15,a15,d13,#0
-.L471:
-	ld.bu	d15,[a15]
-.L472:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L473:
-	jge	d0,d15,.L54
-.L474:
-	mul	d15,d1,#128
-.L475:
-	addsc.a	a15,a12,d15,#0
-.L476:
-	addsc.a	a15,a15,d13,#0
-.L477:
-	ld.bu	d15,[a15]1
-.L478:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L479:
-	jge	d0,d15,.L55
-.L480:
-	mul	d15,d1,#128
-.L481:
-	addsc.a	a15,a12,d15,#0
-.L482:
-	addsc.a	a15,a15,d13,#0
-.L483:
-	ld.bu	d15,[a15]2
-.L484:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L485:
-	jge	d0,d15,.L56
-.L486:
-
-; ..\USER\Cpu1_Main.c	   227  		    			++ CurPoint;
-; ..\USER\Cpu1_Main.c	   228  		            }  //由黑变为白
-	add	d12,#1
-.L487:
-
-; ..\USER\Cpu1_Main.c	   229        	            else
-	add	d13,#1
-.L488:
-	j	.L57
-.L56:
-.L55:
-.L54:
+; ..\USER\Cpu1_Main.c	   224        	            {//没找到
+; ..\USER\Cpu1_Main.c	   225  		    	        -- CurPoint;
+; ..\USER\Cpu1_Main.c	   226  		            }
+; ..\USER\Cpu1_Main.c	   227  	            }
+	add	d1,#-1
 .L53:
+.L48:
+.L42:
+	jge.u	d1,#1,.L43
+.L481:
 
-; ..\USER\Cpu1_Main.c	   230        	            {//没找到
-; ..\USER\Cpu1_Main.c	   231  		    	        ++ CurPoint;
-; ..\USER\Cpu1_Main.c	   232  		            }
-; ..\USER\Cpu1_Main.c	   233  	            }
-	add	d13,#1
-.L57:
-.L52:
-.L46:
-	mov	d15,#128
+; ..\USER\Cpu1_Main.c	   228                  CurPoint = Cur_Offset;
+; ..\USER\Cpu1_Main.c	   229                  while ( CurPoint < MT9V03X_W )         //向左扫描寻找斑马线
+; ..\USER\Cpu1_Main.c	   230  	            {
+	mov	d13,d4
+.L307:
+
+; ..\USER\Cpu1_Main.c	   231  		            if ( *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+	j	.L54
+.L55:
+
+; ..\USER\Cpu1_Main.c	   232  		            {
+; ..\USER\Cpu1_Main.c	   233  		    	        crossing_num=crossing_num+1;
+	mul	d15,d3,#128
+.L482:
+	addsc.a	a15,a12,d15,#0
+.L483:
+	addsc.a	a15,a15,d13,#0
+.L484:
+	ld.bu	d0,[a15]-1
+.L485:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d1,[a15]
+.L486:
+	jge	d1,d0,.L56
+.L487:
+	mul	d15,d3,#128
+.L488:
+	addsc.a	a15,a12,d15,#0
 .L489:
-	jlt.u	d13,d15,.L47
+	addsc.a	a15,a15,d13,#0
 .L490:
-
-; ..\USER\Cpu1_Main.c	   234  	            CurPoint = Cur_Offset;
-; ..\USER\Cpu1_Main.c	   235  	            if(crossing_num >= 11)
-; ..\USER\Cpu1_Main.c	   236  		    	{
-	mov	d11,d4
-.L298:
-
-; ..\USER\Cpu1_Main.c	   237  	            	zebra_flag = 1;
-	mov	d15,#11
-.L491:
-	jlt	d12,d15,.L58
-.L492:
-
-; ..\USER\Cpu1_Main.c	   238  	            }
-; ..\USER\Cpu1_Main.c	   239                  else
-	movh.a	a15,#@his(zebra_flag)
-	lea	a15,[a15]@los(zebra_flag)
-.L493:
-	mov	d0,#1
-.L494:
-	st.b	[a15],d0
-.L495:
-	j	.L59
-.L58:
-
-; ..\USER\Cpu1_Main.c	   240  	            {
-; ..\USER\Cpu1_Main.c	   241  		            crossing_num=0;
-.L59:
-.L33:
-.L32:
-
-; ..\USER\Cpu1_Main.c	   242  	            }
-; ..\USER\Cpu1_Main.c	   243  		    	//printf("zebra_flag: %d\n", zebra_flag);
-; ..\USER\Cpu1_Main.c	   244  		    }
-; ..\USER\Cpu1_Main.c	   245  
-; ..\USER\Cpu1_Main.c	   246              while ( CurPoint > 0 )         //扫描原始右边界
-; ..\USER\Cpu1_Main.c	   247      		{
-; ..\USER\Cpu1_Main.c	   248      			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
-	j	.L60
-.L61:
-
-; ..\USER\Cpu1_Main.c	   249      			{
-; ..\USER\Cpu1_Main.c	   250      				Rx[CurL] = CurPoint;
-	mul	d15,d1,#128
-.L496:
-	addsc.a	a15,a12,d15,#0
-.L497:
-	addsc.a	a15,a15,d11,#0
-.L498:
 	ld.bu	d15,[a15]
-.L499:
+.L491:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
-.L500:
-	jge	d15,d0,.L62
-.L501:
-	mul	d15,d1,#128
-.L502:
+.L492:
+	jge	d15,d0,.L57
+.L493:
+	mul	d15,d3,#128
+.L494:
 	addsc.a	a15,a12,d15,#0
-.L503:
-	addsc.a	a15,a15,d11,#0
-.L504:
-	ld.bu	d15,[a15]-1
-.L505:
+.L495:
+	addsc.a	a15,a15,d13,#0
+.L496:
+	ld.bu	d15,[a15]1
+.L497:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
+.L498:
+	jge	d15,d0,.L58
+.L499:
+	mul	d15,d3,#128
+.L500:
+	addsc.a	a15,a12,d15,#0
+.L501:
+	addsc.a	a15,a15,d13,#0
+.L502:
+	ld.bu	d15,[a15]2
+.L503:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L504:
+	jge	d15,d0,.L59
+.L505:
+
+; ..\USER\Cpu1_Main.c	   234  		    			++ CurPoint;
+; ..\USER\Cpu1_Main.c	   235  		            }  //由白变为黑
+	add	d2,#1
 .L506:
-	jge	d15,d0,.L63
+
+; ..\USER\Cpu1_Main.c	   236  		            else if ( *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) > whiteRoad )
+	add	d13,#1
 .L507:
-	mul	d15,d1,#128
+	j	.L60
+.L59:
+.L58:
+.L57:
+.L56:
+
+; ..\USER\Cpu1_Main.c	   237  		            {
+; ..\USER\Cpu1_Main.c	   238  		    	        crossing_num=crossing_num+1;
+	mul	d15,d3,#128
 .L508:
 	addsc.a	a15,a12,d15,#0
 .L509:
-	addsc.a	a15,a15,d11,#0
+	addsc.a	a15,a15,d13,#0
 .L510:
-	ld.bu	d15,[a15]-2
+	ld.bu	d15,[a15]-1
 .L511:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d0,[a15]
 .L512:
-	jge	d15,d0,.L64
+	jge	d15,d0,.L61
 .L513:
-
-; ..\USER\Cpu1_Main.c	   251      				Rx1[CurL] = Rx[CurL];
-; ..\USER\Cpu1_Main.c	   252      		        right_flag = 1;
-	movh.a	a15,#@his(Rx)
-	lea	a15,[a15]@los(Rx)
+	mul	d15,d3,#128
 .L514:
-	addsc.a	a15,a15,d1,#0
+	addsc.a	a15,a12,d15,#0
 .L515:
-	st.b	[a15],d11
+	addsc.a	a15,a15,d13,#0
 .L516:
-
-; ..\USER\Cpu1_Main.c	   253      				right_non[CurL]=1;
-	addsc.a	a15,a10,d1,#0
+	ld.bu	d15,[a15]
 .L517:
-	st.b	[a15]64,d11
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
 .L518:
-
-; ..\USER\Cpu1_Main.c	   254      				break;
-	mov	d2,#1
+	jge	d0,d15,.L62
 .L519:
-
-; ..\USER\Cpu1_Main.c	   255      			}
-	addsc.a	a15,a10,d1,#0
+	mul	d15,d3,#128
 .L520:
-	mov	d15,#1
+	addsc.a	a15,a12,d15,#0
 .L521:
-	st.b	[a15]320,d15
+	addsc.a	a15,a15,d13,#0
 .L522:
+	ld.bu	d15,[a15]1
+.L523:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L524:
+	jge	d0,d15,.L63
+.L525:
+	mul	d15,d3,#128
+.L526:
+	addsc.a	a15,a12,d15,#0
+.L527:
+	addsc.a	a15,a15,d13,#0
+.L528:
+	ld.bu	d15,[a15]2
+.L529:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L530:
+	jge	d0,d15,.L64
+.L531:
 
-; ..\USER\Cpu1_Main.c	   256      	  		else
+; ..\USER\Cpu1_Main.c	   239  		    			++ CurPoint;
+; ..\USER\Cpu1_Main.c	   240  		            }  //由黑变为白
+	add	d2,#1
+.L532:
+
+; ..\USER\Cpu1_Main.c	   241        	            else
+	add	d13,#1
+.L533:
 	j	.L65
 .L64:
 .L63:
 .L62:
+.L61:
 
-; ..\USER\Cpu1_Main.c	   257      	  		{//没找到
-; ..\USER\Cpu1_Main.c	   258      	  			right_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   259      	  			-- CurPoint;
-; ..\USER\Cpu1_Main.c	   260      	  			right_flag = 0;
-	addsc.a	a15,a10,d1,#0
-.L523:
-	mov	d15,#0
-.L524:
-	st.b	[a15]320,d15
-.L525:
-
-; ..\USER\Cpu1_Main.c	   261      	  			right_flag_count = right_flag_count + 1;
-	add	d11,#-1
-.L526:
-
-; ..\USER\Cpu1_Main.c	   262      			}
-	mov	d2,#0
-.L527:
-
-; ..\USER\Cpu1_Main.c	   263      		}
-	add	d6,#1
-.L278:
-	extr.u	d6,d6,#0,#8
-.L60:
-	jge.u	d11,#1,.L61
-
-; ..\USER\Cpu1_Main.c	   264      		CurPoint = Cur_Offset;
-; ..\USER\Cpu1_Main.c	   265  
-; ..\USER\Cpu1_Main.c	   266      		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+; ..\USER\Cpu1_Main.c	   242        	            {//没找到
+; ..\USER\Cpu1_Main.c	   243  		    	        ++ CurPoint;
+; ..\USER\Cpu1_Main.c	   244  		            }
+; ..\USER\Cpu1_Main.c	   245  	            }
+	add	d13,#1
 .L65:
-
-; ..\USER\Cpu1_Main.c	   267      		{
-; ..\USER\Cpu1_Main.c	   268      			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-	j	.L66
-.L67:
-
-; ..\USER\Cpu1_Main.c	   269      			{
-; ..\USER\Cpu1_Main.c	   270      				Lx[CurL] = CurPoint;
-	mul	d15,d1,#128
-.L528:
-	addsc.a	a15,a12,d15,#0
-.L299:
-	addsc.a	a15,a15,d4,#0
-.L300:
-	ld.bu	d0,[a15]
-.L529:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d3,[a15]
-.L296:
-	jge	d0,d3,.L68
-.L530:
-	mul	d15,d1,#128
-.L531:
-	addsc.a	a15,a12,d15,#0
-.L301:
-	addsc.a	a15,a15,d4,#0
-.L302:
-	ld.bu	d15,[a15]1
-.L532:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
-.L533:
-	jge	d15,d0,.L69
+.L60:
+.L54:
+	mov	d15,#128
 .L534:
-	mul	d15,d1,#128
+	jlt.u	d13,d15,.L55
 .L535:
-	addsc.a	a15,a12,d15,#0
-.L303:
-	addsc.a	a15,a15,d4,#0
-.L304:
-	ld.bu	d15,[a15]2
+
+; ..\USER\Cpu1_Main.c	   246  	            CurPoint = Cur_Offset;
+; ..\USER\Cpu1_Main.c	   247  	            if(crossing_num >= 11&&stop_count<=35)
+; ..\USER\Cpu1_Main.c	   248  		    	{
+	mov	d0,d4
+.L321:
+
+; ..\USER\Cpu1_Main.c	   249  	            	zebra_flag = 1;
+	mov	d15,#11
 .L536:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d0,[a15]
+	jlt	d2,d15,.L66
 .L537:
-	jge	d15,d0,.L70
+	mov	d15,#35
 .L538:
-
-; ..\USER\Cpu1_Main.c	   271      				//left_old=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   272      				Lx1[CurL]=Lx[CurL];
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
+	jlt.u	d15,d12,.L67
 .L539:
-	addsc.a	a15,a15,d1,#0
-.L305:
-	st.b	[a15],d4
-.L306:
 
-; ..\USER\Cpu1_Main.c	   273      				left_flag=1;
-; ..\USER\Cpu1_Main.c	   274      			    left_non[CurL]=1;
-	addsc.a	a15,a10,d1,#0
-.L307:
-	st.b	[a15],d4
-.L308:
-
-; ..\USER\Cpu1_Main.c	   275      				break;
-	mov	d3,#1
-.L309:
-
-; ..\USER\Cpu1_Main.c	   276      			}
-	addsc.a	a15,a10,d1,#0
+; ..\USER\Cpu1_Main.c	   250  	            }
+; ..\USER\Cpu1_Main.c	   251                  else
+	movh.a	a15,#@his(zebra_flag)
+	lea	a15,[a15]@los(zebra_flag)
 .L540:
 	mov	d15,#1
 .L541:
-	st.b	[a15]256,d15
+	st.b	[a15],d15
 .L542:
-
-; ..\USER\Cpu1_Main.c	   277      	   		else
-	j	.L71
-.L70:
-.L69:
-.L68:
-
-; ..\USER\Cpu1_Main.c	   278      	  		{//没找到
-; ..\USER\Cpu1_Main.c	   279      	   			left_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   280      	   			++CurPoint;
-; ..\USER\Cpu1_Main.c	   281      	   			left_flag=0;
-	addsc.a	a15,a10,d1,#0
-.L543:
-	mov	d15,#0
-.L544:
-	st.b	[a15]256,d15
-.L310:
-
-; ..\USER\Cpu1_Main.c	   282      	   			left_flag_count=left_flag_count+1;
-	add	d4,#1
-.L545:
-
-; ..\USER\Cpu1_Main.c	   283      		  	}
-	mov	d3,#0
-.L311:
-
-; ..\USER\Cpu1_Main.c	   284      		}
-	add	d5,#1
-.L276:
-	extr.u	d5,d5,#0,#8
+	j	.L68
+.L67:
 .L66:
-	mov	d15,#128
-.L312:
-	jlt.u	d4,d15,.L67
 
-; ..\USER\Cpu1_Main.c	   285  			if(right_flag == 0)
-; ..\USER\Cpu1_Main.c	   286  			{
-; ..\USER\Cpu1_Main.c	   287  				Rx[CurL] = 0;
-.L71:
-	jne	d2,#0,.L72
+; ..\USER\Cpu1_Main.c	   252  	            {
+; ..\USER\Cpu1_Main.c	   253  		            crossing_num=0;
+.L68:
+.L33:
+.L32:
+
+; ..\USER\Cpu1_Main.c	   254  	            }
+; ..\USER\Cpu1_Main.c	   255  		    	//printf("zebra_flag: %d\n", zebra_flag);
+; ..\USER\Cpu1_Main.c	   256  		    }
+; ..\USER\Cpu1_Main.c	   257  
+; ..\USER\Cpu1_Main.c	   258              while ( CurPoint > 0 )         //扫描原始右边界
+; ..\USER\Cpu1_Main.c	   259      		{
+; ..\USER\Cpu1_Main.c	   260      			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+	j	.L69
+.L70:
+
+; ..\USER\Cpu1_Main.c	   261      			{
+; ..\USER\Cpu1_Main.c	   262      				Rx[CurL] = CurPoint;
+	mul	d15,d3,#128
+.L543:
+	addsc.a	a15,a12,d15,#0
+.L544:
+	addsc.a	a15,a15,d0,#0
+.L545:
+	ld.bu	d15,[a15]
 .L546:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d1,[a15]
+.L547:
+	jge	d15,d1,.L71
+.L548:
+	mul	d15,d3,#128
+.L549:
+	addsc.a	a15,a12,d15,#0
+.L550:
+	addsc.a	a15,a15,d0,#0
+.L551:
+	ld.bu	d15,[a15]-1
+.L552:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d1,[a15]
+.L553:
+	jge	d15,d1,.L72
+.L554:
+	mul	d15,d3,#128
+.L555:
+	addsc.a	a15,a12,d15,#0
+.L556:
+	addsc.a	a15,a15,d0,#0
+.L557:
+	ld.bu	d15,[a15]-2
+.L558:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d1,[a15]
+.L559:
+	jge	d15,d1,.L73
+.L560:
 
-; ..\USER\Cpu1_Main.c	   288  			}
-; ..\USER\Cpu1_Main.c	   289  			if(left_flag==0)
+; ..\USER\Cpu1_Main.c	   263      				Rx1[CurL] = Rx[CurL];
+; ..\USER\Cpu1_Main.c	   264      		        right_flag = 1;
 	movh.a	a15,#@his(Rx)
 	lea	a15,[a15]@los(Rx)
-.L547:
-	addsc.a	a15,a15,d1,#0
-.L548:
-	mov	d15,#0
-.L549:
-	st.b	[a15],d15
-.L72:
-
-; ..\USER\Cpu1_Main.c	   290  			{
-; ..\USER\Cpu1_Main.c	   291  				Lx[CurL]=MT9V03X_W-1;
-	jne	d3,#0,.L73
-.L550:
-
-; ..\USER\Cpu1_Main.c	   292  			}
-; ..\USER\Cpu1_Main.c	   293  
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
-.L551:
-	addsc.a	a15,a15,d1,#0
-.L552:
-	mov	d15,#127
-.L553:
-	st.b	[a15],d15
-.L73:
-
-; ..\USER\Cpu1_Main.c	   294      		//先找左右边线，找到则直接求中线
-; ..\USER\Cpu1_Main.c	   295      		//在任何情况下，考虑到车头中心总应该在赛道内，因此，
-; ..\USER\Cpu1_Main.c	   296      		//扫描从最靠近车头的那一行开始，并且起始点为该行中心
-; ..\USER\Cpu1_Main.c	   297      		//注意：由于考虑到中线应该是连续的，扫描边线时起点应该从上一次的中线开始
-; ..\USER\Cpu1_Main.c	   298      		//这样可以避免因为弯道较大的因素，每次从中点开始找找不到中线。
-; ..\USER\Cpu1_Main.c	   299  
-; ..\USER\Cpu1_Main.c	   300     /* 	while ( CurPoint > 0 )         //扫描原始右边界
-; ..\USER\Cpu1_Main.c	   301      	{
-; ..\USER\Cpu1_Main.c	   302      		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
-; ..\USER\Cpu1_Main.c	   303      		{
-; ..\USER\Cpu1_Main.c	   304      			Rx[CurL] = CurPoint;
-; ..\USER\Cpu1_Main.c	   305      			Rx1[CurL] = Rx[CurL];
-; ..\USER\Cpu1_Main.c	   306      			right_flag = 1;
-; ..\USER\Cpu1_Main.c	   307  				right_non[CurL]=1;
-; ..\USER\Cpu1_Main.c	   308      			break;
-; ..\USER\Cpu1_Main.c	   309      		}
-; ..\USER\Cpu1_Main.c	   310      		else
-; ..\USER\Cpu1_Main.c	   311      		{//没找到
-; ..\USER\Cpu1_Main.c	   312  			    right_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   313      			-- CurPoint;
-; ..\USER\Cpu1_Main.c	   314      			right_flag = 0;
-; ..\USER\Cpu1_Main.c	   315      			right_flag_count = right_flag_count + 1;
-; ..\USER\Cpu1_Main.c	   316      		}
-; ..\USER\Cpu1_Main.c	   317      	}
-; ..\USER\Cpu1_Main.c	   318      	CurPoint = Cur_Offset;
-; ..\USER\Cpu1_Main.c	   319  
-; ..\USER\Cpu1_Main.c	   320      	while ( CurPoint < MT9V03X_W )     //扫描原始左边界
-; ..\USER\Cpu1_Main.c	   321      	{
-; ..\USER\Cpu1_Main.c	   322      		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-; ..\USER\Cpu1_Main.c	   323      		{
-; ..\USER\Cpu1_Main.c	   324      			Lx[CurL] = CurPoint;
-; ..\USER\Cpu1_Main.c	   325      	  		//left_old=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   326      	  		Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   327      	  		left_flag=1;
-; ..\USER\Cpu1_Main.c	   328  				left_non[CurL]=1;
-; ..\USER\Cpu1_Main.c	   329      			break;
-; ..\USER\Cpu1_Main.c	   330      		}
-; ..\USER\Cpu1_Main.c	   331      	 	else
-; ..\USER\Cpu1_Main.c	   332      		{//没找到
-; ..\USER\Cpu1_Main.c	   333  				left_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   334      			++CurPoint;
-; ..\USER\Cpu1_Main.c	   335      	  		left_flag=0;
-; ..\USER\Cpu1_Main.c	   336      	  		left_flag_count=left_flag_count+1;
-; ..\USER\Cpu1_Main.c	   337      	  	}
-; ..\USER\Cpu1_Main.c	   338      	}
-; ..\USER\Cpu1_Main.c	   339  
-; ..\USER\Cpu1_Main.c	   340      	if(CurL < MT9V03X_H - 2)                //舍弃斜率过于平坦的点
-; ..\USER\Cpu1_Main.c	   341      	{
-; ..\USER\Cpu1_Main.c	   342      	  	if(left_flag==1 && (2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]>50 || 2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]<-50)) //如果边界找到，但与上一个点连线几乎是平的
-; ..\USER\Cpu1_Main.c	   343      	  	  	Lx[CurL]=Lx[CurL+1];
-; ..\USER\Cpu1_Main.c	   344      	  	if(right_flag==1 && (2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]>50 || 2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]<-50))
-; ..\USER\Cpu1_Main.c	   345      	  	  	Rx[CurL]=Rx[CurL+1];                             //放弃找到的边线的点，取上一个点
-; ..\USER\Cpu1_Main.c	   346      	}
-; ..\USER\Cpu1_Main.c	   347      	if(left_flag==0 && CurL==MT9V03X_H-1)
-; ..\USER\Cpu1_Main.c	   348      	{
-; ..\USER\Cpu1_Main.c	   349      	  	Lx[CurL]=MT9V03X_W;
-; ..\USER\Cpu1_Main.c	   350      	  	Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   351      	  	fitting_flag1=1;
-; ..\USER\Cpu1_Main.c	   352      	}
-; ..\USER\Cpu1_Main.c	   353      	if(left_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
-; ..\USER\Cpu1_Main.c	   354      	{
-; ..\USER\Cpu1_Main.c	   355      	  	Lx[CurL]=Lx[CurL+1];                                  //
-; ..\USER\Cpu1_Main.c	   356      	  	Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   357      	  	fitting_flag1=1;
-; ..\USER\Cpu1_Main.c	   358      	}
-; ..\USER\Cpu1_Main.c	   359      	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==0)          //符合拟合条件
-; ..\USER\Cpu1_Main.c	   360      	{
-; ..\USER\Cpu1_Main.c	   361      	    FitCur_A=0;
-; ..\USER\Cpu1_Main.c	   362      	    FitCur_B=0;
-; ..\USER\Cpu1_Main.c	   363      	    FitCur_C=0;
-; ..\USER\Cpu1_Main.c	   364      	    FitCur_D=0;
-; ..\USER\Cpu1_Main.c	   365      	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
-; ..\USER\Cpu1_Main.c	   366      	    {
-; ..\USER\Cpu1_Main.c	   367      	      FitCur_A=FitCur_A+i;                        //sum yi
-; ..\USER\Cpu1_Main.c	   368      	      FitCur_B=FitCur_B+Lx[i];                    //sum xi
-; ..\USER\Cpu1_Main.c	   369      	      FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
-; ..\USER\Cpu1_Main.c	   370      	      FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
-; ..\USER\Cpu1_Main.c	   371      	    }
-; ..\USER\Cpu1_Main.c	   372      	    FitCur_k=(double)(8*FitCur_C-FitCur_A*FitCur_B)/(8*FitCur_D-FitCur_B*FitCur_B);
-; ..\USER\Cpu1_Main.c	   373      	    FitCur_b=(double)(FitCur_A-FitCur_k*FitCur_B)/8;
-; ..\USER\Cpu1_Main.c	   374      	    Lx[CurL]=(CurL-FitCur_b)/FitCur_k;
-; ..\USER\Cpu1_Main.c	   375      	    Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   376      	}                                      //根据第一次leftflag为0时的前八个点拟合
-; ..\USER\Cpu1_Main.c	   377      	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==1)
-; ..\USER\Cpu1_Main.c	   378      	{
-; ..\USER\Cpu1_Main.c	   379      	  	Lx[CurL]=Lx[CurL+1];
-; ..\USER\Cpu1_Main.c	   380      	  	Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   381      	}                                             //
-; ..\USER\Cpu1_Main.c	   382      	if(right_flag==0&&CurL>=MT9V03X_H-1)
-; ..\USER\Cpu1_Main.c	   383      	{
-; ..\USER\Cpu1_Main.c	   384      	  	Rx[CurL]=0;
-; ..\USER\Cpu1_Main.c	   385      	  	Rx1[CurL]=Rx[CurL];
-; ..\USER\Cpu1_Main.c	   386      	  	fitting_flag2=1;
-; ..\USER\Cpu1_Main.c	   387      	}
-; ..\USER\Cpu1_Main.c	   388      	if(right_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
-; ..\USER\Cpu1_Main.c	   389      	{
-; ..\USER\Cpu1_Main.c	   390      	  	Rx[CurL]=Rx[CurL+1];
-; ..\USER\Cpu1_Main.c	   391      	  	Rx1[CurL]=Rx[CurL];
-; ..\USER\Cpu1_Main.c	   392      	  	fitting_flag2=1;
-; ..\USER\Cpu1_Main.c	   393      	}
-; ..\USER\Cpu1_Main.c	   394      	if(right_flag==0&&CurL<MT9V03X_H-8&&fitting_flag2==0)          //符合拟合条件
-; ..\USER\Cpu1_Main.c	   395      	{
-; ..\USER\Cpu1_Main.c	   396      	    FitCur_A1=0;
-; ..\USER\Cpu1_Main.c	   397      	    FitCur_B1=0;
-; ..\USER\Cpu1_Main.c	   398      	    FitCur_C1=0;
-; ..\USER\Cpu1_Main.c	   399      	    FitCur_D1=0;
-; ..\USER\Cpu1_Main.c	   400      	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
-; ..\USER\Cpu1_Main.c	   401      	    {
-; ..\USER\Cpu1_Main.c	   402      	      	FitCur_A1=FitCur_A1+i;                        //sum yi
-; ..\USER\Cpu1_Main.c	   403      	      	FitCur_B1=FitCur_B1+Rx[i];                    //sum xi
-; ..\USER\Cpu1_Main.c	   404      	      	FitCur_C1=FitCur_C1+i*Rx[i];                  //sum xiyi
-; ..\USER\Cpu1_Main.c	   405      	      	FitCur_D1=FitCur_D1+Rx[i]*Rx[i];              //sum xi^2
-; ..\USER\Cpu1_Main.c	   406      	    }
-; ..\USER\Cpu1_Main.c	   407      	    FitCur_k1=(double)(8*FitCur_C1-FitCur_A1*FitCur_B1)/(8*FitCur_D1-FitCur_B1*FitCur_B1);
-; ..\USER\Cpu1_Main.c	   408      	    FitCur_b1=(double)(FitCur_A1-FitCur_k1*FitCur_B1)/8;
-; ..\USER\Cpu1_Main.c	   409      	    Rx[CurL]=(CurL-FitCur_b1)/FitCur_k1;
-; ..\USER\Cpu1_Main.c	   410      	    Rx1[CurL]=Rx[CurL];
-; ..\USER\Cpu1_Main.c	   411      	}                                      //根据第一次leftflag为0时的前八个点拟合
-; ..\USER\Cpu1_Main.c	   412      	if(right_flag==0 && CurL<MT9V03X_H-8 && fitting_flag2==1)
-; ..\USER\Cpu1_Main.c	   413      	{
-; ..\USER\Cpu1_Main.c	   414      	  	Rx[CurL]=Rx[CurL+1];
-; ..\USER\Cpu1_Main.c	   415      	  	Rx1[CurL]=Rx[CurL];
-; ..\USER\Cpu1_Main.c	   416      	}
-; ..\USER\Cpu1_Main.c	   417  	    */
-; ..\USER\Cpu1_Main.c	   418      	Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
-; ..\USER\Cpu1_Main.c	   419      	Cur_Offset= Midx[CurL];
-; ..\USER\Cpu1_Main.c	   420      }//	endfor
-	movh.a	a15,#@his(Midx)
-	lea	a15,[a15]@los(Midx)
-.L554:
-	addsc.a	a15,a15,d1,#0
-.L555:
-	movh.a	a2,#@his(Lx)
-	lea	a2,[a2]@los(Lx)
-.L556:
-	addsc.a	a2,a2,d1,#0
-	ld.bu	d15,[a2]
-.L557:
-	movh.a	a2,#@his(Rx)
-	lea	a2,[a2]@los(Rx)
-.L558:
-	addsc.a	a2,a2,d1,#0
-	ld.bu	d0,[a2]
-.L559:
-	add	d15,d0
-.L560:
-	sha	d15,#-1
 .L561:
-	st.b	[a15],d15
+	addsc.a	a15,a15,d3,#0
 .L562:
-
-; ..\USER\Cpu1_Main.c	   421  	for(int t=5; t<35; t++)	//出环岛边线条件
-	movh.a	a15,#@his(Midx)
-	lea	a15,[a15]@los(Midx)
+	st.b	[a15],d0
 .L563:
-	addsc.a	a15,a15,d1,#0
-	ld.bu	d4,[a15]
-.L208:
-	add	d1,#-1
-.L30:
-	jge	d1,#0,.L31
-.L213:
 
-; ..\USER\Cpu1_Main.c	   422  	{
-; ..\USER\Cpu1_Main.c	   423  		if(right_non[t]==0)
-	mov	d0,#5
-.L313:
-	j	.L74
-.L75:
-
-; ..\USER\Cpu1_Main.c	   424  		    count_right_non++;
-; ..\USER\Cpu1_Main.c	   425  		if(left_non[t]==0)
-	addsc.a	a15,a10,d0,#0
-	ld.bu	d15,[a15]320
+; ..\USER\Cpu1_Main.c	   265      				right_non[CurL]=1;
+	addsc.a	a15,a10,d3,#0
 .L564:
-	jne	d15,#0,.L76
+	st.b	[a15]64,d0
 .L565:
 
-; ..\USER\Cpu1_Main.c	   426  		    count_left_non++;
-	add	d9,#1
-.L282:
-	extr.u	d9,d9,#0,#8
-.L76:
-
-; ..\USER\Cpu1_Main.c	   427  		//if(right_non[t]==1 && t>MT9V03X_H-32)
-	addsc.a	a15,a10,d0,#0
-	ld.bu	d15,[a15]256
+; ..\USER\Cpu1_Main.c	   266      				break;
+	mov	d10,#1
 .L566:
-	jne	d15,#0,.L77
+
+; ..\USER\Cpu1_Main.c	   267      			}
+	addsc.a	a15,a10,d3,#0
 .L567:
-
-; ..\USER\Cpu1_Main.c	   428  		//  count_right_exist++;
-	add	d7,#1
-.L280:
-	extr.u	d7,d7,#0,#8
-.L77:
-	add	d0,#1
-.L74:
-	mov	d15,#35
+	mov	d15,#1
 .L568:
-	jlt	d0,d15,.L75
-.L214:
-
-; ..\USER\Cpu1_Main.c	   429  	}
-; ..\USER\Cpu1_Main.c	   430      if(count_left_non>=20 && count_right_non>=20&&out_begin==1)//检测是否出环岛，首先满足左右没有边线的条件
-; ..\USER\Cpu1_Main.c	   431  	{
-; ..\USER\Cpu1_Main.c	   432  		for(i=40;i<90;i++)     //找底线
-	mov	d15,#20
+	st.b	[a15]320,d15
 .L569:
-	jlt.u	d7,d15,.L78
+
+; ..\USER\Cpu1_Main.c	   268      	  		else
+	j	.L74
+.L73:
+.L72:
+.L71:
+
+; ..\USER\Cpu1_Main.c	   269      	  		{//没找到
+; ..\USER\Cpu1_Main.c	   270      	  			right_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   271      	  			-- CurPoint;
+; ..\USER\Cpu1_Main.c	   272      	  			right_flag = 0;
+	addsc.a	a15,a10,d3,#0
 .L570:
-	mov	d15,#20
+	mov	d15,#0
 .L571:
-	jlt.u	d9,d15,.L79
+	st.b	[a15]320,d15
 .L572:
-	movh.a	a15,#@his(out_begin)
-	lea	a15,[a15]@los(out_begin)
-	ld.bu	d15,[a15]
+
+; ..\USER\Cpu1_Main.c	   273      	  			right_flag_count = right_flag_count + 1;
+	add	d0,#-1
 .L573:
-	jne	d15,#1,.L80
+
+; ..\USER\Cpu1_Main.c	   274      			}
+	mov	d10,#0
 .L574:
 
-; ..\USER\Cpu1_Main.c	   433  		{
-; ..\USER\Cpu1_Main.c	   434  			for(j=2;j<30;j++)
-	mov	d3,#40
-.L315:
-	j	.L81
+; ..\USER\Cpu1_Main.c	   275      		}
+	add	d6,#1
+.L289:
+	extr.u	d6,d6,#0,#8
+.L69:
+	jge.u	d0,#1,.L70
+
+; ..\USER\Cpu1_Main.c	   276      		CurPoint = Cur_Offset;
+; ..\USER\Cpu1_Main.c	   277  
+; ..\USER\Cpu1_Main.c	   278      		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+.L74:
+
+; ..\USER\Cpu1_Main.c	   279      		{
+; ..\USER\Cpu1_Main.c	   280      			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+	j	.L75
+.L76:
+
+; ..\USER\Cpu1_Main.c	   281      			{
+; ..\USER\Cpu1_Main.c	   282      				Lx[CurL] = CurPoint;
+	mul	d15,d3,#128
+.L575:
+	addsc.a	a15,a12,d15,#0
+.L322:
+	addsc.a	a15,a15,d4,#0
+.L323:
+	ld.bu	d0,[a15]
+.L576:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d1,[a15]
+.L577:
+	jge	d0,d1,.L77
+.L578:
+	mul	d15,d3,#128
+.L579:
+	addsc.a	a15,a12,d15,#0
+.L324:
+	addsc.a	a15,a15,d4,#0
+.L325:
+	ld.bu	d15,[a15]1
+.L580:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L581:
+	jge	d15,d0,.L78
+.L582:
+	mul	d15,d3,#128
+.L583:
+	addsc.a	a15,a12,d15,#0
+.L326:
+	addsc.a	a15,a15,d4,#0
+.L327:
+	ld.bu	d15,[a15]2
+.L584:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d0,[a15]
+.L585:
+	jge	d15,d0,.L79
+.L586:
+
+; ..\USER\Cpu1_Main.c	   283      				//left_old=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   284      				Lx1[CurL]=Lx[CurL];
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L587:
+	addsc.a	a15,a15,d3,#0
+.L328:
+	st.b	[a15],d4
+.L329:
+
+; ..\USER\Cpu1_Main.c	   285      				left_flag=1;
+; ..\USER\Cpu1_Main.c	   286      			    left_non[CurL]=1;
+	addsc.a	a15,a10,d3,#0
+.L330:
+	st.b	[a15],d4
+.L331:
+
+; ..\USER\Cpu1_Main.c	   287      				break;
+	mov	d11,#1
+.L588:
+
+; ..\USER\Cpu1_Main.c	   288      			}
+	addsc.a	a15,a10,d3,#0
+.L589:
+	mov	d15,#1
+.L590:
+	st.b	[a15]256,d15
+.L591:
+
+; ..\USER\Cpu1_Main.c	   289      	   		else
+	j	.L80
+.L79:
+.L78:
+.L77:
+
+; ..\USER\Cpu1_Main.c	   290      	  		{//没找到
+; ..\USER\Cpu1_Main.c	   291      	   			left_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   292      	   			++CurPoint;
+; ..\USER\Cpu1_Main.c	   293      	   			left_flag=0;
+	addsc.a	a15,a10,d3,#0
+.L592:
+	mov	d15,#0
+.L593:
+	st.b	[a15]256,d15
+.L332:
+
+; ..\USER\Cpu1_Main.c	   294      	   			left_flag_count=left_flag_count+1;
+	add	d4,#1
+.L594:
+
+; ..\USER\Cpu1_Main.c	   295      		  	}
+	mov	d11,#0
+.L595:
+
+; ..\USER\Cpu1_Main.c	   296      		}
+	add	d5,#1
+.L287:
+	extr.u	d5,d5,#0,#8
+.L75:
+	mov	d15,#128
+.L333:
+	jlt.u	d4,d15,.L76
+
+; ..\USER\Cpu1_Main.c	   297  			if(right_flag == 0)
+; ..\USER\Cpu1_Main.c	   298  			{
+; ..\USER\Cpu1_Main.c	   299  				Rx[CurL] = 0;
+.L80:
+	jne	d10,#0,.L81
+.L596:
+
+; ..\USER\Cpu1_Main.c	   300  			}
+; ..\USER\Cpu1_Main.c	   301  			if(left_flag==0)
+	movh.a	a15,#@his(Rx)
+	lea	a15,[a15]@los(Rx)
+.L597:
+	addsc.a	a15,a15,d3,#0
+.L598:
+	mov	d15,#0
+.L599:
+	st.b	[a15],d15
+.L81:
+
+; ..\USER\Cpu1_Main.c	   302  			{
+; ..\USER\Cpu1_Main.c	   303  				Lx[CurL]=MT9V03X_W-1;
+	jne	d11,#0,.L82
+.L600:
+
+; ..\USER\Cpu1_Main.c	   304  			}
+; ..\USER\Cpu1_Main.c	   305  
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L601:
+	addsc.a	a15,a15,d3,#0
+.L602:
+	mov	d15,#127
+.L603:
+	st.b	[a15],d15
 .L82:
 
-; ..\USER\Cpu1_Main.c	   435  			{
-; ..\USER\Cpu1_Main.c	   436  				if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
-	mov	d0,#2
-.L316:
+; ..\USER\Cpu1_Main.c	   306      		//先找左右边线，找到则直接求中线
+; ..\USER\Cpu1_Main.c	   307      		//在任何情况下，考虑到车头中心总应该在赛道内，因此，
+; ..\USER\Cpu1_Main.c	   308      		//扫描从最靠近车头的那一行开始，并且起始点为该行中心
+; ..\USER\Cpu1_Main.c	   309      		//注意：由于考虑到中线应该是连续的，扫描边线时起点应该从上一次的中线开始
+; ..\USER\Cpu1_Main.c	   310      		//这样可以避免因为弯道较大的因素，每次从中点开始找找不到中线。
+; ..\USER\Cpu1_Main.c	   311  
+; ..\USER\Cpu1_Main.c	   312     /* 	while ( CurPoint > 0 )         //扫描原始右边界
+; ..\USER\Cpu1_Main.c	   313      	{
+; ..\USER\Cpu1_Main.c	   314      		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+; ..\USER\Cpu1_Main.c	   315      		{
+; ..\USER\Cpu1_Main.c	   316      			Rx[CurL] = CurPoint;
+; ..\USER\Cpu1_Main.c	   317      			Rx1[CurL] = Rx[CurL];
+; ..\USER\Cpu1_Main.c	   318      			right_flag = 1;
+; ..\USER\Cpu1_Main.c	   319  				right_non[CurL]=1;
+; ..\USER\Cpu1_Main.c	   320      			break;
+; ..\USER\Cpu1_Main.c	   321      		}
+; ..\USER\Cpu1_Main.c	   322      		else
+; ..\USER\Cpu1_Main.c	   323      		{//没找到
+; ..\USER\Cpu1_Main.c	   324  			    right_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   325      			-- CurPoint;
+; ..\USER\Cpu1_Main.c	   326      			right_flag = 0;
+; ..\USER\Cpu1_Main.c	   327      			right_flag_count = right_flag_count + 1;
+; ..\USER\Cpu1_Main.c	   328      		}
+; ..\USER\Cpu1_Main.c	   329      	}
+; ..\USER\Cpu1_Main.c	   330      	CurPoint = Cur_Offset;
+; ..\USER\Cpu1_Main.c	   331  
+; ..\USER\Cpu1_Main.c	   332      	while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+; ..\USER\Cpu1_Main.c	   333      	{
+; ..\USER\Cpu1_Main.c	   334      		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+; ..\USER\Cpu1_Main.c	   335      		{
+; ..\USER\Cpu1_Main.c	   336      			Lx[CurL] = CurPoint;
+; ..\USER\Cpu1_Main.c	   337      	  		//left_old=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   338      	  		Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   339      	  		left_flag=1;
+; ..\USER\Cpu1_Main.c	   340  				left_non[CurL]=1;
+; ..\USER\Cpu1_Main.c	   341      			break;
+; ..\USER\Cpu1_Main.c	   342      		}
+; ..\USER\Cpu1_Main.c	   343      	 	else
+; ..\USER\Cpu1_Main.c	   344      		{//没找到
+; ..\USER\Cpu1_Main.c	   345  				left_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   346      			++CurPoint;
+; ..\USER\Cpu1_Main.c	   347      	  		left_flag=0;
+; ..\USER\Cpu1_Main.c	   348      	  		left_flag_count=left_flag_count+1;
+; ..\USER\Cpu1_Main.c	   349      	  	}
+; ..\USER\Cpu1_Main.c	   350      	}
+; ..\USER\Cpu1_Main.c	   351  
+; ..\USER\Cpu1_Main.c	   352      	if(CurL < MT9V03X_H - 2)                //舍弃斜率过于平坦的点
+; ..\USER\Cpu1_Main.c	   353      	{
+; ..\USER\Cpu1_Main.c	   354      	  	if(left_flag==1 && (2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]>50 || 2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]<-50)) //如果边界找到，但与上一个点连线几乎是平的
+; ..\USER\Cpu1_Main.c	   355      	  	  	Lx[CurL]=Lx[CurL+1];
+; ..\USER\Cpu1_Main.c	   356      	  	if(right_flag==1 && (2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]>50 || 2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]<-50))
+; ..\USER\Cpu1_Main.c	   357      	  	  	Rx[CurL]=Rx[CurL+1];                             //放弃找到的边线的点，取上一个点
+; ..\USER\Cpu1_Main.c	   358      	}
+; ..\USER\Cpu1_Main.c	   359      	if(left_flag==0 && CurL==MT9V03X_H-1)
+; ..\USER\Cpu1_Main.c	   360      	{
+; ..\USER\Cpu1_Main.c	   361      	  	Lx[CurL]=MT9V03X_W;
+; ..\USER\Cpu1_Main.c	   362      	  	Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   363      	  	fitting_flag1=1;
+; ..\USER\Cpu1_Main.c	   364      	}
+; ..\USER\Cpu1_Main.c	   365      	if(left_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
+; ..\USER\Cpu1_Main.c	   366      	{
+; ..\USER\Cpu1_Main.c	   367      	  	Lx[CurL]=Lx[CurL+1];                                  //
+; ..\USER\Cpu1_Main.c	   368      	  	Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   369      	  	fitting_flag1=1;
+; ..\USER\Cpu1_Main.c	   370      	}
+; ..\USER\Cpu1_Main.c	   371      	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==0)          //符合拟合条件
+; ..\USER\Cpu1_Main.c	   372      	{
+; ..\USER\Cpu1_Main.c	   373      	    FitCur_A=0;
+; ..\USER\Cpu1_Main.c	   374      	    FitCur_B=0;
+; ..\USER\Cpu1_Main.c	   375      	    FitCur_C=0;
+; ..\USER\Cpu1_Main.c	   376      	    FitCur_D=0;
+; ..\USER\Cpu1_Main.c	   377      	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
+; ..\USER\Cpu1_Main.c	   378      	    {
+; ..\USER\Cpu1_Main.c	   379      	      FitCur_A=FitCur_A+i;                        //sum yi
+; ..\USER\Cpu1_Main.c	   380      	      FitCur_B=FitCur_B+Lx[i];                    //sum xi
+; ..\USER\Cpu1_Main.c	   381      	      FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
+; ..\USER\Cpu1_Main.c	   382      	      FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
+; ..\USER\Cpu1_Main.c	   383      	    }
+; ..\USER\Cpu1_Main.c	   384      	    FitCur_k=(double)(8*FitCur_C-FitCur_A*FitCur_B)/(8*FitCur_D-FitCur_B*FitCur_B);
+; ..\USER\Cpu1_Main.c	   385      	    FitCur_b=(double)(FitCur_A-FitCur_k*FitCur_B)/8;
+; ..\USER\Cpu1_Main.c	   386      	    Lx[CurL]=(CurL-FitCur_b)/FitCur_k;
+; ..\USER\Cpu1_Main.c	   387      	    Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   388      	}                                      //根据第一次leftflag为0时的前八个点拟合
+; ..\USER\Cpu1_Main.c	   389      	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==1)
+; ..\USER\Cpu1_Main.c	   390      	{
+; ..\USER\Cpu1_Main.c	   391      	  	Lx[CurL]=Lx[CurL+1];
+; ..\USER\Cpu1_Main.c	   392      	  	Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   393      	}                                             //
+; ..\USER\Cpu1_Main.c	   394      	if(right_flag==0&&CurL>=MT9V03X_H-1)
+; ..\USER\Cpu1_Main.c	   395      	{
+; ..\USER\Cpu1_Main.c	   396      	  	Rx[CurL]=0;
+; ..\USER\Cpu1_Main.c	   397      	  	Rx1[CurL]=Rx[CurL];
+; ..\USER\Cpu1_Main.c	   398      	  	fitting_flag2=1;
+; ..\USER\Cpu1_Main.c	   399      	}
+; ..\USER\Cpu1_Main.c	   400      	if(right_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
+; ..\USER\Cpu1_Main.c	   401      	{
+; ..\USER\Cpu1_Main.c	   402      	  	Rx[CurL]=Rx[CurL+1];
+; ..\USER\Cpu1_Main.c	   403      	  	Rx1[CurL]=Rx[CurL];
+; ..\USER\Cpu1_Main.c	   404      	  	fitting_flag2=1;
+; ..\USER\Cpu1_Main.c	   405      	}
+; ..\USER\Cpu1_Main.c	   406      	if(right_flag==0&&CurL<MT9V03X_H-8&&fitting_flag2==0)          //符合拟合条件
+; ..\USER\Cpu1_Main.c	   407      	{
+; ..\USER\Cpu1_Main.c	   408      	    FitCur_A1=0;
+; ..\USER\Cpu1_Main.c	   409      	    FitCur_B1=0;
+; ..\USER\Cpu1_Main.c	   410      	    FitCur_C1=0;
+; ..\USER\Cpu1_Main.c	   411      	    FitCur_D1=0;
+; ..\USER\Cpu1_Main.c	   412      	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
+; ..\USER\Cpu1_Main.c	   413      	    {
+; ..\USER\Cpu1_Main.c	   414      	      	FitCur_A1=FitCur_A1+i;                        //sum yi
+; ..\USER\Cpu1_Main.c	   415      	      	FitCur_B1=FitCur_B1+Rx[i];                    //sum xi
+; ..\USER\Cpu1_Main.c	   416      	      	FitCur_C1=FitCur_C1+i*Rx[i];                  //sum xiyi
+; ..\USER\Cpu1_Main.c	   417      	      	FitCur_D1=FitCur_D1+Rx[i]*Rx[i];              //sum xi^2
+; ..\USER\Cpu1_Main.c	   418      	    }
+; ..\USER\Cpu1_Main.c	   419      	    FitCur_k1=(double)(8*FitCur_C1-FitCur_A1*FitCur_B1)/(8*FitCur_D1-FitCur_B1*FitCur_B1);
+; ..\USER\Cpu1_Main.c	   420      	    FitCur_b1=(double)(FitCur_A1-FitCur_k1*FitCur_B1)/8;
+; ..\USER\Cpu1_Main.c	   421      	    Rx[CurL]=(CurL-FitCur_b1)/FitCur_k1;
+; ..\USER\Cpu1_Main.c	   422      	    Rx1[CurL]=Rx[CurL];
+; ..\USER\Cpu1_Main.c	   423      	}                                      //根据第一次leftflag为0时的前八个点拟合
+; ..\USER\Cpu1_Main.c	   424      	if(right_flag==0 && CurL<MT9V03X_H-8 && fitting_flag2==1)
+; ..\USER\Cpu1_Main.c	   425      	{
+; ..\USER\Cpu1_Main.c	   426      	  	Rx[CurL]=Rx[CurL+1];
+; ..\USER\Cpu1_Main.c	   427      	  	Rx1[CurL]=Rx[CurL];
+; ..\USER\Cpu1_Main.c	   428      	}
+; ..\USER\Cpu1_Main.c	   429  	    */
+; ..\USER\Cpu1_Main.c	   430      	Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
+; ..\USER\Cpu1_Main.c	   431      	Cur_Offset= Midx[CurL];
+; ..\USER\Cpu1_Main.c	   432      }//	endfor
+	movh.a	a15,#@his(Midx)
+	lea	a15,[a15]@los(Midx)
+.L604:
+	addsc.a	a15,a15,d3,#0
+.L605:
+	movh.a	a2,#@his(Lx)
+	lea	a2,[a2]@los(Lx)
+.L606:
+	addsc.a	a2,a2,d3,#0
+	ld.bu	d15,[a2]
+.L607:
+	movh.a	a2,#@his(Rx)
+	lea	a2,[a2]@los(Rx)
+.L608:
+	addsc.a	a2,a2,d3,#0
+	ld.bu	d0,[a2]
+.L609:
+	add	d15,d0
+.L610:
+	sha	d15,#-1
+.L611:
+	st.b	[a15],d15
+.L612:
+
+; ..\USER\Cpu1_Main.c	   433  	for(int t=5; t<35; t++)	//出环岛边线条件
+	movh.a	a15,#@his(Midx)
+	lea	a15,[a15]@los(Midx)
+.L613:
+	addsc.a	a15,a15,d3,#0
+	ld.bu	d4,[a15]
+.L217:
+	add	d3,#-1
+.L30:
+	jge	d3,#0,.L31
+.L223:
+
+; ..\USER\Cpu1_Main.c	   434  	{
+; ..\USER\Cpu1_Main.c	   435  		if(right_non[t]==0)
+	mov	d0,#5
+.L334:
 	j	.L83
 .L84:
 
-; ..\USER\Cpu1_Main.c	   437  				{
-; ..\USER\Cpu1_Main.c	   438  					black_count++;
-	mul	d15,d0,#128
-.L575:
-	addsc.a	a15,a12,d15,#0
-.L576:
-	addsc.a	a15,a15,d3,#0
-.L577:
-	ld.bu	d1,[a15]
-.L578:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L579:
-	jge	d2,d1,.L85
-.L580:
-	add	d15,d0,#1
-.L581:
-	mul	d15,d15,#128
-.L582:
-	addsc.a	a15,a12,d15,#0
-.L583:
-	addsc.a	a15,a15,d3,#0
-.L584:
-	ld.bu	d1,[a15]
-.L585:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L586:
-	jge	d2,d1,.L86
-.L587:
-	add	d15,d0,#-1
-.L588:
-	mul	d15,d15,#128
-.L589:
-	addsc.a	a15,a12,d15,#0
-.L590:
-	addsc.a	a15,a15,d3,#0
-.L591:
-	ld.bu	d1,[a15]
-.L592:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L593:
-	jge	d1,d2,.L87
-.L594:
-
-; ..\USER\Cpu1_Main.c	   439  					break;
-; ..\USER\Cpu1_Main.c	   440  				}
-	add	d10,#1
-.L286:
-	extr.u	d10,d10,#0,#8
-.L317:
-
-; ..\USER\Cpu1_Main.c	   441  			}
-	j	.L88
-.L87:
-.L86:
-.L85:
-	add	d0,#1
-.L83:
-	mov	d15,#30
-.L595:
-	jlt.u	d0,d15,.L84
-
-; ..\USER\Cpu1_Main.c	   442  		}
-; ..\USER\Cpu1_Main.c	   443  		if(black_count>40)	//还要满足找到底线的条件
-; ..\USER\Cpu1_Main.c	   444  		{
-.L88:
-	add	d3,#1
-.L81:
-	mov	d15,#90
-.L596:
-	jlt.u	d3,d15,.L82
-.L597:
-
-; ..\USER\Cpu1_Main.c	   445  			out_huandao=1;
-	mov	d15,#40
-.L598:
-	jge.u	d15,d10,.L89
-.L599:
-
-; ..\USER\Cpu1_Main.c	   446  			out_begin=0;//出了环岛之后就不要再判断是否出环岛
-; ..\USER\Cpu1_Main.c	   447  		}
-	movh.a	a15,#@his(out_huandao)
-	lea	a15,[a15]@los(out_huandao)
-.L600:
-	mov	d15,#1
-.L601:
-	st.b	[a15],d15
-.L602:
-
-; ..\USER\Cpu1_Main.c	   448  	}
-	movh.a	a15,#@his(out_begin)
-	lea	a15,[a15]@los(out_begin)
-.L603:
-	mov	d15,#0
-.L604:
-	st.b	[a15],d15
-.L89:
-.L80:
-.L79:
-.L78:
-
-; ..\USER\Cpu1_Main.c	   449      if(in_huandao==0)
-; ..\USER\Cpu1_Main.c	   450      {    FitCur_A=0;
-; ..\USER\Cpu1_Main.c	   451      	FitCur_B=0;
-	movh.a	a15,#@his(in_huandao)
-	lea	a15,[a15]@los(in_huandao)
-	ld.bu	d15,[a15]
-.L605:
-	jne	d15,#0,.L90
-.L606:
-
-; ..\USER\Cpu1_Main.c	   452      	FitCur_C=0;
-	mov	d0,#0
-.L318:
-
-; ..\USER\Cpu1_Main.c	   453      	FitCur_D=0;
-	mov	d1,#0
-.L320:
-
-; ..\USER\Cpu1_Main.c	   454  		FitCur_E=0;
-; ..\USER\Cpu1_Main.c	   455  		int m=MT9V03X_H-20;
-	mov	d2,#0
-.L322:
-
-; ..\USER\Cpu1_Main.c	   456      	for(i=MT9V03X_H-30;i>=13;i--)
-	mov	d6,#0
-.L216:
-
-; ..\USER\Cpu1_Main.c	   457      	{
-	mov	d3,#44
-.L325:
-
-; ..\USER\Cpu1_Main.c	   458      		FitCur_A=FitCur_A+i;                        //sum yi
-	mov	d15,#34
-.L326:
-	j	.L91
-.L92:
-
-; ..\USER\Cpu1_Main.c	   459      		FitCur_B=FitCur_B+Lx[i];                    //sum xi
-; ..\USER\Cpu1_Main.c	   460      		FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
-	add	d0,d15
-.L607:
-
-; ..\USER\Cpu1_Main.c	   461      		FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
-.L608:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d4,[a15]
-.L609:
-	add	d1,d4
-.L610:
-
-; ..\USER\Cpu1_Main.c	   462      		FitCur_E=FitCur_E+i*i;                      //sum yi^2
-; ..\USER\Cpu1_Main.c	   463      	}
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
-.L611:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d4,[a15]
-.L612:
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
-.L613:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d5,[a15]
+; ..\USER\Cpu1_Main.c	   436  		    count_right_non++;
+; ..\USER\Cpu1_Main.c	   437  		if(left_non[t]==0)
+	addsc.a	a15,a10,d0,#0
+	ld.bu	d15,[a15]320
 .L614:
-	madd	d2,d2,d4,d5
+	jne	d15,#0,.L85
 .L615:
 
-; ..\USER\Cpu1_Main.c	   464  		r=(double)(FitCur_C-FitCur_A*FitCur_B/m)/sqrt((FitCur_D-FitCur_B*FitCur_B/m)*(FitCur_E-FitCur_A*FitCur_A/m));
-	madd	d6,d6,d15,d15
+; ..\USER\Cpu1_Main.c	   438  		    count_left_non++;
+	add	d8,#1
+.L293:
+	extr.u	d8,d8,#0,#8
+.L85:
+
+; ..\USER\Cpu1_Main.c	   439  		//if(right_non[t]==1 && t>MT9V03X_H-32)
+	addsc.a	a15,a10,d0,#0
+	ld.bu	d15,[a15]256
 .L616:
-	add	d15,#-1
-.L91:
-	jge.u	d15,#13,.L92
+	jne	d15,#0,.L86
 .L617:
 
-; ..\USER\Cpu1_Main.c	   465  
-; ..\USER\Cpu1_Main.c	   466  		for( CurL = MT9V03X_H-1; CurL >= Start; --CurL )
-	mul	d1,d1
-.L321:
-	div	e4,d1,d3
+; ..\USER\Cpu1_Main.c	   440  		//  count_right_exist++;
+	add	d7,#1
+.L291:
+	extr.u	d7,d7,#0,#8
+.L86:
+	add	d0,#1
+.L83:
+	mov	d15,#35
 .L618:
-	sub	d2,d4
-.L323:
-	mul	d0,d0
-.L319:
-	div	e0,d0,d3
+	jlt	d0,d15,.L84
+.L224:
+
+; ..\USER\Cpu1_Main.c	   441  	}
+; ..\USER\Cpu1_Main.c	   442      if(count_left_non>=20 && count_right_non>=20&&out_begin==1)//检测是否出环岛，首先满足左右没有边线的条件
+; ..\USER\Cpu1_Main.c	   443  	{
+; ..\USER\Cpu1_Main.c	   444  		for(i=40;i<90;i++)     //找底线
+	mov	d15,#20
 .L619:
-	sub	d6,d0
-.L324:
-	mul	d2,d6
-	itof	d4,d2
-	call	sqrt
-.L272:
-
-; ..\USER\Cpu1_Main.c	   467  	   {
-; ..\USER\Cpu1_Main.c	   468  		   Rx2[CurL]=Rx[CurL];
-	mov	d15,#63
-.L327:
-	j	.L93
-.L94:
-
-; ..\USER\Cpu1_Main.c	   469  		   Lx2[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   470  	   }
-	addsc.a	a15,a10,d15,#0
+	jlt.u	d7,d15,.L87
 .L620:
-	movh.a	a2,#@his(Rx)
-	lea	a2,[a2]@los(Rx)
+	mov	d15,#20
 .L621:
-	addsc.a	a2,a2,d15,#0
-	ld.bu	d0,[a2]
+	jlt.u	d8,d15,.L88
 .L622:
-	st.b	[a15]192,d0
-.L623:
-
-; ..\USER\Cpu1_Main.c	   471  		uint8 stop_count=0;
-	addsc.a	a15,a10,d15,#0
-.L624:
-	movh.a	a2,#@his(Lx)
-	lea	a2,[a2]@los(Lx)
-.L625:
-	addsc.a	a2,a2,d15,#0
-	ld.bu	d0,[a2]
-.L626:
-	st.b	[a15]128,d0
-.L627:
-	add	d15,#-1
-.L93:
-	jge	d15,#0,.L94
-.L218:
-
-; ..\USER\Cpu1_Main.c	   472  		for(i=40;i<90;i++)
-; ..\USER\Cpu1_Main.c	   473  	   {
-	mov	d3,#0
-.L328:
-
-; ..\USER\Cpu1_Main.c	   474  		  	for(j=10;j<62;j++)
-	mov	d4,#40
-.L330:
-	j	.L95
-.L96:
-
-; ..\USER\Cpu1_Main.c	   475  		  	{
-; ..\USER\Cpu1_Main.c	   476  		  		if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
-	mov	d0,#10
-.L331:
-	j	.L97
-.L98:
-
-; ..\USER\Cpu1_Main.c	   477  		  	    {
-; ..\USER\Cpu1_Main.c	   478  		  			stop_count++;
-	mul	d15,d0,#128
-.L628:
-	addsc.a	a15,a12,d15,#0
-.L629:
-	addsc.a	a15,a15,d4,#0
-.L630:
-	ld.bu	d1,[a15]
-.L631:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L632:
-	jge	d2,d1,.L99
-.L633:
-	add	d15,d0,#1
-.L634:
-	mul	d15,d15,#128
-.L635:
-	addsc.a	a15,a12,d15,#0
-.L636:
-	addsc.a	a15,a15,d4,#0
-.L637:
-	ld.bu	d1,[a15]
-.L638:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L639:
-	jge	d2,d1,.L100
-.L640:
-	add	d15,d0,#-1
-.L641:
-	mul	d15,d15,#128
-.L642:
-	addsc.a	a15,a12,d15,#0
-.L643:
-	addsc.a	a15,a15,d4,#0
-.L644:
-	ld.bu	d1,[a15]
-.L645:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L646:
-	jge	d1,d2,.L101
-.L647:
-
-; ..\USER\Cpu1_Main.c	   479  		  			break;
-; ..\USER\Cpu1_Main.c	   480  		  		}
-	add	d3,#1
-.L329:
-	extr.u	d3,d3,#0,#8
-.L332:
-
-; ..\USER\Cpu1_Main.c	   481  			}
-	j	.L102
-.L101:
-.L100:
-.L99:
-	add	d0,#1
-.L97:
-	mov	d15,#62
-.L648:
-	jlt.u	d0,d15,.L98
-
-; ..\USER\Cpu1_Main.c	   482  		}
-; ..\USER\Cpu1_Main.c	   483  
-; ..\USER\Cpu1_Main.c	   484  		for( CurL = Start; CurL <MT9V03X_H ; ++CurL)//转折点
-.L102:
-	add	d4,#1
-.L95:
-	mov	d15,#90
-.L649:
-	jlt.u	d4,d15,.L96
-.L650:
-
-; ..\USER\Cpu1_Main.c	   485          {
-; ..\USER\Cpu1_Main.c	   486  			if(Rx[CurL]==0)
-	mov	d0,#0
-.L333:
-	j	.L103
-.L104:
-
-; ..\USER\Cpu1_Main.c	   487  			{
-; ..\USER\Cpu1_Main.c	   488  				turning_point1=CurL;
-	movh.a	a15,#@his(Rx)
-	lea	a15,[a15]@los(Rx)
-.L651:
-	addsc.a	a15,a15,d0,#0
-	ld.bu	d15,[a15]
-.L652:
-	jne	d15,#0,.L105
-.L653:
-
-; ..\USER\Cpu1_Main.c	   489  				break;
-; ..\USER\Cpu1_Main.c	   490  			}
-	extr.u	d5,d0,#0,#8
-.L335:
-
-; ..\USER\Cpu1_Main.c	   491  		}
-	j	.L106
-.L105:
-	add	d0,#1
-.L103:
-	mov	d15,#64
-.L654:
-	jlt	d0,d15,.L104
-
-; ..\USER\Cpu1_Main.c	   492  		count_right_non=0;
-; ..\USER\Cpu1_Main.c	   493  		for( CurL = turning_point1; CurL <=MT9V03X_H-1; ++CurL)//都是0
-; ..\USER\Cpu1_Main.c	   494          {
-.L106:
-	mov	d1,#0
-.L314:
-
-; ..\USER\Cpu1_Main.c	   495  			if(Rx[CurL]==0)
-	mov	d0,d5
-.L337:
-	j	.L107
-.L108:
-
-; ..\USER\Cpu1_Main.c	   496  				count_right_non++;
-; ..\USER\Cpu1_Main.c	   497  		}
-	movh.a	a15,#@his(Rx)
-	lea	a15,[a15]@los(Rx)
-.L655:
-	addsc.a	a15,a15,d0,#0
-	ld.bu	d15,[a15]
-.L656:
-	jne	d15,#0,.L109
-.L657:
-
-; ..\USER\Cpu1_Main.c	   498          for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
-	add	d1,#1
-.L336:
-	extr.u	d1,d1,#0,#8
-.L109:
-	add	d0,#1
-.L107:
-	mov	d15,#63
-.L658:
-	jge	d15,d0,.L108
-.L659:
-
-; ..\USER\Cpu1_Main.c	   499          {
-; ..\USER\Cpu1_Main.c	   500  			if(Rx[CurL]>=15)
-	mov	d15,#0
-.L334:
-	j	.L110
-.L111:
-
-; ..\USER\Cpu1_Main.c	   501  				count_right_non2++;
-; ..\USER\Cpu1_Main.c	   502  		}
-	movh.a	a15,#@his(Rx)
-	lea	a15,[a15]@los(Rx)
-.L660:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]
-.L661:
-	jlt.u	d0,#15,.L112
-.L662:
-
-; ..\USER\Cpu1_Main.c	   503          count_left_non=0;
-	add	d8,#1
-.L284:
-	extr.u	d8,d8,#0,#8
-.L112:
-	add	d15,#1
-.L110:
-	jlt	d15,d5,.L111
-.L339:
-
-; ..\USER\Cpu1_Main.c	   504          for( CurL = 10; CurL <=35 ; ++CurL)
-; ..\USER\Cpu1_Main.c	   505          {
-	mov	d0,#0
-.L340:
-
-; ..\USER\Cpu1_Main.c	   506          	if(Lx[CurL]<MT9V03X_W-2)
-	mov	d15,#10
-.L663:
-	j	.L113
-.L114:
-
-; ..\USER\Cpu1_Main.c	   507          		count_left_non++;
-; ..\USER\Cpu1_Main.c	   508          }
-	movh.a	a15,#@his(Lx)
-	lea	a15,[a15]@los(Lx)
-.L664:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d2,[a15]
-.L665:
-	mov	d4,#126
-.L666:
-	jge	d2,d4,.L115
-.L667:
-
-; ..\USER\Cpu1_Main.c	   509  		if(count_right_non>=MT9V03X_H-turning_point1-1&&count_right_non2>=turning_point1-1&&count_right_non2>=8&&count_right_non>=8&&stop_count<40&&count_left_non>=22)
-	add	d0,#1
-.L341:
-	extr.u	d0,d0,#0,#8
-.L115:
-	add	d15,#1
-.L113:
-	mov	d2,#35
-.L668:
-	jge	d2,d15,.L114
-.L342:
-
-; ..\USER\Cpu1_Main.c	   510          {
-; ..\USER\Cpu1_Main.c	   511  			in_huandao=1;
-	rsub	d15,d5,#64
-.L338:
-	add	d15,#-1
-.L669:
-	jlt	d1,d15,.L116
-.L670:
-	add	d5,#-1
-.L671:
-	jlt	d8,d5,.L117
-.L672:
-	jlt.u	d8,#8,.L118
-.L673:
-	jlt.u	d1,#8,.L119
-.L674:
-	mov	d15,#40
-.L675:
-	jge.u	d3,d15,.L120
-.L676:
-	mov	d15,#22
-.L677:
-	jlt.u	d0,d15,.L121
-.L678:
-
-; ..\USER\Cpu1_Main.c	   512  			out_begin=1;
-; ..\USER\Cpu1_Main.c	   513          }
-	movh.a	a15,#@his(in_huandao)
-	lea	a15,[a15]@los(in_huandao)
-.L679:
-	mov	d15,#1
-.L680:
-	st.b	[a15],d15
-.L681:
-
-; ..\USER\Cpu1_Main.c	   514  	/*	for( CurL =Start ; CurL<MT9V03X_H; ++CurL )
 	movh.a	a15,#@his(out_begin)
 	lea	a15,[a15]@los(out_begin)
-.L682:
-	mov	d15,#1
-.L683:
-	st.b	[a15],d15
-.L121:
-.L120:
-.L119:
-.L118:
-.L117:
-.L116:
-.L90:
+	ld.bu	d15,[a15]
+.L623:
+	jne	d15,#1,.L89
+.L624:
 
-; ..\USER\Cpu1_Main.c	   515  		{
-; ..\USER\Cpu1_Main.c	   516  			        CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线
-; ..\USER\Cpu1_Main.c	   517  					uint8 right_flag = 0;               //边界是否扫描到
-; ..\USER\Cpu1_Main.c	   518  					uint8 left_flag = 0;
-; ..\USER\Cpu1_Main.c	   519  		            while ( CurPoint > 0 )         //扫描原始右边界
-; ..\USER\Cpu1_Main.c	   520  		    		{
-; ..\USER\Cpu1_Main.c	   521  		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
-; ..\USER\Cpu1_Main.c	   522  		    			{
-; ..\USER\Cpu1_Main.c	   523  		    				Rx[CurL] = CurPoint;
-; ..\USER\Cpu1_Main.c	   524  		    				Rx1[CurL] = Rx[CurL];
-; ..\USER\Cpu1_Main.c	   525  		    		        right_flag = 1;
-; ..\USER\Cpu1_Main.c	   526  		    				right_non[CurL]=1;
-; ..\USER\Cpu1_Main.c	   527  		    				break;
-; ..\USER\Cpu1_Main.c	   528  		    			}
-; ..\USER\Cpu1_Main.c	   529  		    	  		else
-; ..\USER\Cpu1_Main.c	   530  		    	  		{//没找到
-; ..\USER\Cpu1_Main.c	   531  		    	  			right_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   532  		    	  			-- CurPoint;
-; ..\USER\Cpu1_Main.c	   533  		    	  			right_flag = 0;
-; ..\USER\Cpu1_Main.c	   534  		    	  			right_flag_count = right_flag_count + 1;
-; ..\USER\Cpu1_Main.c	   535  		    			}
-; ..\USER\Cpu1_Main.c	   536  		    		}
-; ..\USER\Cpu1_Main.c	   537  		    		CurPoint = Cur_Offset;
-; ..\USER\Cpu1_Main.c	   538  
-; ..\USER\Cpu1_Main.c	   539  		    		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
-; ..\USER\Cpu1_Main.c	   540  		    		{
-; ..\USER\Cpu1_Main.c	   541  		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-; ..\USER\Cpu1_Main.c	   542  		    			{
-; ..\USER\Cpu1_Main.c	   543  		    				Lx[CurL] = CurPoint;
-; ..\USER\Cpu1_Main.c	   544  		    				//left_old=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   545  		    				Lx1[CurL]=Lx[CurL];
-; ..\USER\Cpu1_Main.c	   546  		    				left_flag=1;
-; ..\USER\Cpu1_Main.c	   547  		    			    left_non[CurL]=1;
-; ..\USER\Cpu1_Main.c	   548  		    				break;
-; ..\USER\Cpu1_Main.c	   549  		    			}
-; ..\USER\Cpu1_Main.c	   550  		    	   		else
-; ..\USER\Cpu1_Main.c	   551  		    	  		{//没找到
-; ..\USER\Cpu1_Main.c	   552  		    	   			left_non[CurL]=0;
-; ..\USER\Cpu1_Main.c	   553  		    	   			++CurPoint;
-; ..\USER\Cpu1_Main.c	   554  		    	   			left_flag=0;
-; ..\USER\Cpu1_Main.c	   555  		    	   			left_flag_count=left_flag_count+1;
-; ..\USER\Cpu1_Main.c	   556  		    		  	}
-; ..\USER\Cpu1_Main.c	   557  		    		}
-; ..\USER\Cpu1_Main.c	   558  					if(right_flag == 0)
-; ..\USER\Cpu1_Main.c	   559  					{
-; ..\USER\Cpu1_Main.c	   560  						Rx[CurL] = Rx[CurL-1];
-; ..\USER\Cpu1_Main.c	   561  					}
-; ..\USER\Cpu1_Main.c	   562  					if(left_flag==0)
-; ..\USER\Cpu1_Main.c	   563  					{
-; ..\USER\Cpu1_Main.c	   564  						Lx[CurL]=Lx[CurL-1];
-; ..\USER\Cpu1_Main.c	   565  					}
-; ..\USER\Cpu1_Main.c	   566  					Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
-; ..\USER\Cpu1_Main.c	   567  				    Cur_Offset= Midx[CurL];
-; ..\USER\Cpu1_Main.c	   568  		}*/
-; ..\USER\Cpu1_Main.c	   569  
-; ..\USER\Cpu1_Main.c	   570  			/*			huandao_after=1;
-; ..\USER\Cpu1_Main.c	   571  		else
-; ..\USER\Cpu1_Main.c	   572  			huandao_after=0;
-; ..\USER\Cpu1_Main.c	   573  		if(huandao_before==0&&huandao_after==1)
-; ..\USER\Cpu1_Main.c	   574  			huandao_count++;
-; ..\USER\Cpu1_Main.c	   575  		//printf("huandao_count: %d\n", huandao_count);
-; ..\USER\Cpu1_Main.c	   576  		int huandao_fucker=huandao_count;
-; ..\USER\Cpu1_Main.c	   577  		huandao_before=huandao_after;
-; ..\USER\Cpu1_Main.c	   578  		if(huandao_count==2)
-; ..\USER\Cpu1_Main.c	   579  			in_huandao=1;
-; ..\USER\Cpu1_Main.c	   580  			*/
-; ..\USER\Cpu1_Main.c	   581      }
-; ..\USER\Cpu1_Main.c	   582  	//	in_huandao1= in_huandao;
-; ..\USER\Cpu1_Main.c	   583    /*    for( CurL = MT9V03X_H; CurL >= Start; --CurL )
-; ..\USER\Cpu1_Main.c	   584  		{
-; ..\USER\Cpu1_Main.c	   585  			L_M_R[CurL]=Lx[CurL]-Rx[CurL];
-; ..\USER\Cpu1_Main.c	   586  		}
-; ..\USER\Cpu1_Main.c	   587  		for( CurL = 40; CurL >=10 ; --CurL)//转折点
-; ..\USER\Cpu1_Main.c	   588          {
-; ..\USER\Cpu1_Main.c	   589  			if(CurL<MT9V03X_H&&L_M_R[CurL]-L_M_R[CurL-1]<0&&L_M_R[CurL+1]-L_M_R[CurL]>0)
-; ..\USER\Cpu1_Main.c	   590  				turning_point=CurL;
-; ..\USER\Cpu1_Main.c	   591  		}
-; ..\USER\Cpu1_Main.c	   592  		for( CurL = MT9V03X_H; CurL > Start; --CurL) //判断在转折点的前后变化趋势是否符合进入环岛的变化趋势，即右边线减去左边线先减后增加
-; ..\USER\Cpu1_Main.c	   593          {
-; ..\USER\Cpu1_Main.c	   594  			if(L_M_R[CurL]-L_M_R[CurL-1]<0&&CurL>turning_point)
-; ..\USER\Cpu1_Main.c	   595  				count_dec++;
-; ..\USER\Cpu1_Main.c	   596  			if(L_M_R[CurL]-L_M_R[CurL-1]>0&&CurL<=turning_point)
-; ..\USER\Cpu1_Main.c	   597  			    count_inc++;
+; ..\USER\Cpu1_Main.c	   445  		{
+; ..\USER\Cpu1_Main.c	   446  			for(j=2;j<30;j++)
+	mov	d3,#40
+.L304:
+	j	.L90
+.L91:
+
+; ..\USER\Cpu1_Main.c	   447  			{
+; ..\USER\Cpu1_Main.c	   448  				if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+	mov	d0,#2
+.L337:
+	j	.L92
+.L93:
+
+; ..\USER\Cpu1_Main.c	   449  				{
+; ..\USER\Cpu1_Main.c	   450  					black_count++;
+	mul	d15,d0,#128
+.L625:
+	addsc.a	a15,a12,d15,#0
+.L626:
+	addsc.a	a15,a15,d3,#0
+.L627:
+	ld.bu	d1,[a15]
+.L628:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L629:
+	jge	d2,d1,.L94
+.L630:
+	add	d15,d0,#1
+.L631:
+	mul	d15,d15,#128
+.L632:
+	addsc.a	a15,a12,d15,#0
+.L633:
+	addsc.a	a15,a15,d3,#0
+.L634:
+	ld.bu	d1,[a15]
+.L635:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L636:
+	jge	d2,d1,.L95
+.L637:
+	add	d15,d0,#-1
+.L638:
+	mul	d15,d15,#128
+.L639:
+	addsc.a	a15,a12,d15,#0
+.L640:
+	addsc.a	a15,a15,d3,#0
+.L641:
+	ld.bu	d1,[a15]
+.L642:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L643:
+	jge	d1,d2,.L96
+.L644:
+
+; ..\USER\Cpu1_Main.c	   451  					break;
+; ..\USER\Cpu1_Main.c	   452  				}
+	add	d9,#1
+.L297:
+	extr.u	d9,d9,#0,#8
+.L338:
+
+; ..\USER\Cpu1_Main.c	   453  			}
+	j	.L97
+.L96:
+.L95:
+.L94:
+	add	d0,#1
+.L92:
+	mov	d15,#30
+.L645:
+	jlt.u	d0,d15,.L93
+
+; ..\USER\Cpu1_Main.c	   454  		}
+; ..\USER\Cpu1_Main.c	   455  		if(black_count>40)	//还要满足找到底线的条件
+; ..\USER\Cpu1_Main.c	   456  		{
+.L97:
+	add	d3,#1
+.L90:
+	mov	d15,#90
+.L646:
+	jlt.u	d3,d15,.L91
+.L647:
+
+; ..\USER\Cpu1_Main.c	   457  			out_huandao=1;
+	mov	d15,#40
+.L648:
+	jge.u	d15,d9,.L98
+.L649:
+
+; ..\USER\Cpu1_Main.c	   458  			out_begin=0;//出了环岛之后就不要再判断是否出环岛
+; ..\USER\Cpu1_Main.c	   459  		}
+	movh.a	a15,#@his(out_huandao)
+	lea	a15,[a15]@los(out_huandao)
+.L650:
+	mov	d15,#1
+.L651:
+	st.b	[a15],d15
+.L652:
+
+; ..\USER\Cpu1_Main.c	   460  	}
+	movh.a	a15,#@his(out_begin)
+	lea	a15,[a15]@los(out_begin)
+.L653:
+	mov	d15,#0
+.L654:
+	st.b	[a15],d15
+.L98:
+.L89:
+.L88:
+.L87:
+
+; ..\USER\Cpu1_Main.c	   461      if(in_huandao==0)
+; ..\USER\Cpu1_Main.c	   462      {    FitCur_A=0;
+; ..\USER\Cpu1_Main.c	   463      	FitCur_B=0;
+	movh.a	a15,#@his(in_huandao)
+	lea	a15,[a15]@los(in_huandao)
+	ld.bu	d15,[a15]
+.L655:
+	jne	d15,#0,.L99
+.L656:
+
+; ..\USER\Cpu1_Main.c	   464      	FitCur_C=0;
+	mov	d0,#0
+.L339:
+
+; ..\USER\Cpu1_Main.c	   465      	FitCur_D=0;
+	mov	d1,#0
+.L341:
+
+; ..\USER\Cpu1_Main.c	   466  		FitCur_E=0;
+; ..\USER\Cpu1_Main.c	   467  		int m=MT9V03X_H-20;
+	mov	d2,#0
+.L343:
+
+; ..\USER\Cpu1_Main.c	   468      	for(i=MT9V03X_H-30;i>=13;i--)
+	mov	d3,#0
+.L226:
+
+; ..\USER\Cpu1_Main.c	   469      	{
+	mov	d4,#44
+.L285:
+
+; ..\USER\Cpu1_Main.c	   470      		FitCur_A=FitCur_A+i;                        //sum yi
+	mov	d15,#34
+.L347:
+	j	.L100
+.L101:
+
+; ..\USER\Cpu1_Main.c	   471      		FitCur_B=FitCur_B+Lx[i];                    //sum xi
+; ..\USER\Cpu1_Main.c	   472      		FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
+	add	d0,d15
+.L657:
+
+; ..\USER\Cpu1_Main.c	   473      		FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L658:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d5,[a15]
+.L659:
+	add	d1,d5
+.L660:
+
+; ..\USER\Cpu1_Main.c	   474      		FitCur_E=FitCur_E+i*i;                      //sum yi^2
+; ..\USER\Cpu1_Main.c	   475      	}
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L661:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d5,[a15]
+.L662:
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L663:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d6,[a15]
+.L664:
+	madd	d2,d2,d5,d6
+.L665:
+
+; ..\USER\Cpu1_Main.c	   476  		r=(double)(FitCur_C-FitCur_A*FitCur_B/m)/sqrt((FitCur_D-FitCur_B*FitCur_B/m)*(FitCur_E-FitCur_A*FitCur_A/m));
+	madd	d3,d3,d15,d15
+.L666:
+	add	d15,#-1
+.L100:
+	jge.u	d15,#13,.L101
+.L667:
+
+; ..\USER\Cpu1_Main.c	   477  
+; ..\USER\Cpu1_Main.c	   478  		for( CurL = MT9V03X_H-1; CurL >= Start; --CurL )
+	mul	d1,d1
+.L342:
+	div	e6,d1,d4
+.L336:
+	sub	d2,d6
+.L344:
+	mul	d0,d0
+.L340:
+	div	e0,d0,d4
+.L668:
+	sub	d3,d0
+.L345:
+	mul	d2,d3
+	itof	d4,d2
+.L346:
+	call	sqrt
+.L282:
+
+; ..\USER\Cpu1_Main.c	   479  	   {
+; ..\USER\Cpu1_Main.c	   480  		   Rx2[CurL]=Rx[CurL];
+	mov	d15,#63
+.L348:
+	j	.L102
+.L103:
+
+; ..\USER\Cpu1_Main.c	   481  		   Lx2[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   482  	   }
+	addsc.a	a15,a10,d15,#0
+.L669:
+	movh.a	a2,#@his(Rx)
+	lea	a2,[a2]@los(Rx)
+.L670:
+	addsc.a	a2,a2,d15,#0
+	ld.bu	d0,[a2]
+.L671:
+	st.b	[a15]192,d0
+.L672:
+
+; ..\USER\Cpu1_Main.c	   483  		uint8 stop_count=0;
+	addsc.a	a15,a10,d15,#0
+.L673:
+	movh.a	a2,#@his(Lx)
+	lea	a2,[a2]@los(Lx)
+.L674:
+	addsc.a	a2,a2,d15,#0
+	ld.bu	d0,[a2]
+.L675:
+	st.b	[a15]128,d0
+.L676:
+	add	d15,#-1
+.L102:
+	jge	d15,#0,.L103
+.L228:
+
+; ..\USER\Cpu1_Main.c	   484  		for(i=40;i<90;i++)
+; ..\USER\Cpu1_Main.c	   485  	   {
+	mov	d3,#0
+.L349:
+
+; ..\USER\Cpu1_Main.c	   486  		  	for(j=10;j<62;j++)
+	mov	d4,#40
+.L351:
+	j	.L104
+.L105:
+
+; ..\USER\Cpu1_Main.c	   487  		  	{
+; ..\USER\Cpu1_Main.c	   488  		  		if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+	mov	d0,#10
+.L352:
+	j	.L106
+.L107:
+
+; ..\USER\Cpu1_Main.c	   489  		  	    {
+; ..\USER\Cpu1_Main.c	   490  		  			stop_count++;
+	mul	d15,d0,#128
+.L677:
+	addsc.a	a15,a12,d15,#0
+.L678:
+	addsc.a	a15,a15,d4,#0
+.L679:
+	ld.bu	d1,[a15]
+.L680:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L681:
+	jge	d2,d1,.L108
+.L682:
+	add	d15,d0,#1
+.L683:
+	mul	d15,d15,#128
+.L684:
+	addsc.a	a15,a12,d15,#0
+.L685:
+	addsc.a	a15,a15,d4,#0
+.L686:
+	ld.bu	d1,[a15]
+.L687:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L688:
+	jge	d2,d1,.L109
+.L689:
+	add	d15,d0,#-1
+.L690:
+	mul	d15,d15,#128
+.L691:
+	addsc.a	a15,a12,d15,#0
+.L692:
+	addsc.a	a15,a15,d4,#0
+.L693:
+	ld.bu	d1,[a15]
+.L694:
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
+.L695:
+	jge	d1,d2,.L110
+.L696:
+
+; ..\USER\Cpu1_Main.c	   491  		  			break;
+; ..\USER\Cpu1_Main.c	   492  		  		}
+	add	d3,#1
+.L350:
+	extr.u	d3,d3,#0,#8
+.L353:
+
+; ..\USER\Cpu1_Main.c	   493  			}
+	j	.L111
+.L110:
+.L109:
+.L108:
+	add	d0,#1
+.L106:
+	mov	d15,#62
+.L697:
+	jlt.u	d0,d15,.L107
+
+; ..\USER\Cpu1_Main.c	   494  		}
+; ..\USER\Cpu1_Main.c	   495  
+; ..\USER\Cpu1_Main.c	   496  		for( CurL = Start; CurL <MT9V03X_H ; ++CurL)//转折点
+.L111:
+	add	d4,#1
+.L104:
+	mov	d15,#90
+.L698:
+	jlt.u	d4,d15,.L105
+.L699:
+
+; ..\USER\Cpu1_Main.c	   497          {
+; ..\USER\Cpu1_Main.c	   498  			if(Rx[CurL]==0)
+	mov	d0,#0
+.L354:
+	j	.L112
+.L113:
+
+; ..\USER\Cpu1_Main.c	   499  			{
+; ..\USER\Cpu1_Main.c	   500  				turning_point1=CurL;
+	movh.a	a15,#@his(Rx)
+	lea	a15,[a15]@los(Rx)
+.L700:
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]
+.L701:
+	jne	d15,#0,.L114
+.L702:
+
+; ..\USER\Cpu1_Main.c	   501  				break;
+; ..\USER\Cpu1_Main.c	   502  			}
+	extr.u	d5,d0,#0,#8
+.L356:
+
+; ..\USER\Cpu1_Main.c	   503  		}
+	j	.L115
+.L114:
+	add	d0,#1
+.L112:
+	mov	d15,#64
+.L703:
+	jlt	d0,d15,.L113
+
+; ..\USER\Cpu1_Main.c	   504  		count_right_non=0;
+; ..\USER\Cpu1_Main.c	   505  		for( CurL = turning_point1; CurL <=MT9V03X_H-1; ++CurL)//都是0
+; ..\USER\Cpu1_Main.c	   506          {
+.L115:
+	mov	d1,#0
+.L335:
+
+; ..\USER\Cpu1_Main.c	   507  			if(Rx[CurL]==0)
+	mov	d0,d5
+.L358:
+	j	.L116
+.L117:
+
+; ..\USER\Cpu1_Main.c	   508  				count_right_non++;
+; ..\USER\Cpu1_Main.c	   509  		}
+	movh.a	a15,#@his(Rx)
+	lea	a15,[a15]@los(Rx)
+.L704:
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]
+.L705:
+	jne	d15,#0,.L118
+.L706:
+
+; ..\USER\Cpu1_Main.c	   510          for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
+	add	d1,#1
+.L357:
+	extr.u	d1,d1,#0,#8
+.L118:
+	add	d0,#1
+.L116:
+	mov	d15,#63
+.L707:
+	jge	d15,d0,.L117
+.L708:
+
+; ..\USER\Cpu1_Main.c	   511          {
+; ..\USER\Cpu1_Main.c	   512  			if(Rx[CurL]>=15)
+	mov	d0,#0
+.L709:
+	j	.L119
+.L120:
+
+; ..\USER\Cpu1_Main.c	   513  				count_right_non2++;
+; ..\USER\Cpu1_Main.c	   514  		}
+	movh.a	a15,#@his(Rx)
+	lea	a15,[a15]@los(Rx)
+.L710:
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]
+.L711:
+	jlt.u	d15,#15,.L121
+.L712:
+
+; ..\USER\Cpu1_Main.c	   515          count_left_non=0;
+	ld.w	d15,[a10]388
+.L359:
+	add	d15,#1
+.L360:
+	extr.u	d15,d15,#0,#8
+.L361:
+	st.w	[a10]388,d15
+.L121:
+	add	d0,#1
+.L119:
+	jlt	d0,d5,.L120
+.L362:
+
+; ..\USER\Cpu1_Main.c	   516          for( CurL = 10; CurL <=35 ; ++CurL)
+; ..\USER\Cpu1_Main.c	   517          {
+	mov	d0,#0
+.L355:
+
+; ..\USER\Cpu1_Main.c	   518          	if(Lx[CurL]<MT9V03X_W-2)
+	mov	d15,#10
+.L364:
+	j	.L122
+.L123:
+
+; ..\USER\Cpu1_Main.c	   519          		count_left_non++;
+; ..\USER\Cpu1_Main.c	   520          }
+	movh.a	a15,#@his(Lx)
+	lea	a15,[a15]@los(Lx)
+.L713:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d2,[a15]
+.L714:
+	mov	d4,#126
+.L715:
+	jge	d2,d4,.L124
+.L716:
+
+; ..\USER\Cpu1_Main.c	   521  		if(count_right_non>=MT9V03X_H-turning_point1-1&&count_right_non2>=turning_point1-1&&count_right_non2>=8&&count_right_non>=8&&stop_count<40&&count_left_non>=22)
+	add	d0,#1
+.L363:
+	extr.u	d0,d0,#0,#8
+.L124:
+	add	d15,#1
+.L122:
+	mov	d2,#35
+.L717:
+	jge	d2,d15,.L123
+.L366:
+
+; ..\USER\Cpu1_Main.c	   522          {
+; ..\USER\Cpu1_Main.c	   523  			in_huandao=1;
+	rsub	d15,d5,#64
+.L365:
+	add	d15,#-1
+.L718:
+	jlt	d1,d15,.L125
+.L719:
+	add	d5,#-1
+.L720:
+	ld.w	d15,[a10]388
+.L367:
+	jlt	d15,d5,.L126
+.L721:
+	jlt.u	d15,#8,.L127
+.L722:
+	jlt.u	d1,#8,.L128
+.L723:
+	mov	d15,#40
+.L368:
+	jge.u	d3,d15,.L129
+.L724:
+	mov	d15,#22
+.L725:
+	jlt.u	d0,d15,.L130
+.L726:
+
+; ..\USER\Cpu1_Main.c	   524  			out_begin=1;
+; ..\USER\Cpu1_Main.c	   525          }
+	movh.a	a15,#@his(in_huandao)
+	lea	a15,[a15]@los(in_huandao)
+.L727:
+	mov	d15,#1
+.L728:
+	st.b	[a15],d15
+.L729:
+
+; ..\USER\Cpu1_Main.c	   526  	/*	for( CurL =Start ; CurL<MT9V03X_H; ++CurL )
+	movh.a	a15,#@his(out_begin)
+	lea	a15,[a15]@los(out_begin)
+.L730:
+	mov	d15,#1
+.L731:
+	st.b	[a15],d15
+.L130:
+.L129:
+.L128:
+.L127:
+.L126:
+.L125:
+.L99:
+
+; ..\USER\Cpu1_Main.c	   527  		{
+; ..\USER\Cpu1_Main.c	   528  			        CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线
+; ..\USER\Cpu1_Main.c	   529  					uint8 right_flag = 0;               //边界是否扫描到
+; ..\USER\Cpu1_Main.c	   530  					uint8 left_flag = 0;
+; ..\USER\Cpu1_Main.c	   531  		            while ( CurPoint > 0 )         //扫描原始右边界
+; ..\USER\Cpu1_Main.c	   532  		    		{
+; ..\USER\Cpu1_Main.c	   533  		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+; ..\USER\Cpu1_Main.c	   534  		    			{
+; ..\USER\Cpu1_Main.c	   535  		    				Rx[CurL] = CurPoint;
+; ..\USER\Cpu1_Main.c	   536  		    				Rx1[CurL] = Rx[CurL];
+; ..\USER\Cpu1_Main.c	   537  		    		        right_flag = 1;
+; ..\USER\Cpu1_Main.c	   538  		    				right_non[CurL]=1;
+; ..\USER\Cpu1_Main.c	   539  		    				break;
+; ..\USER\Cpu1_Main.c	   540  		    			}
+; ..\USER\Cpu1_Main.c	   541  		    	  		else
+; ..\USER\Cpu1_Main.c	   542  		    	  		{//没找到
+; ..\USER\Cpu1_Main.c	   543  		    	  			right_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   544  		    	  			-- CurPoint;
+; ..\USER\Cpu1_Main.c	   545  		    	  			right_flag = 0;
+; ..\USER\Cpu1_Main.c	   546  		    	  			right_flag_count = right_flag_count + 1;
+; ..\USER\Cpu1_Main.c	   547  		    			}
+; ..\USER\Cpu1_Main.c	   548  		    		}
+; ..\USER\Cpu1_Main.c	   549  		    		CurPoint = Cur_Offset;
+; ..\USER\Cpu1_Main.c	   550  
+; ..\USER\Cpu1_Main.c	   551  		    		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+; ..\USER\Cpu1_Main.c	   552  		    		{
+; ..\USER\Cpu1_Main.c	   553  		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+; ..\USER\Cpu1_Main.c	   554  		    			{
+; ..\USER\Cpu1_Main.c	   555  		    				Lx[CurL] = CurPoint;
+; ..\USER\Cpu1_Main.c	   556  		    				//left_old=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   557  		    				Lx1[CurL]=Lx[CurL];
+; ..\USER\Cpu1_Main.c	   558  		    				left_flag=1;
+; ..\USER\Cpu1_Main.c	   559  		    			    left_non[CurL]=1;
+; ..\USER\Cpu1_Main.c	   560  		    				break;
+; ..\USER\Cpu1_Main.c	   561  		    			}
+; ..\USER\Cpu1_Main.c	   562  		    	   		else
+; ..\USER\Cpu1_Main.c	   563  		    	  		{//没找到
+; ..\USER\Cpu1_Main.c	   564  		    	   			left_non[CurL]=0;
+; ..\USER\Cpu1_Main.c	   565  		    	   			++CurPoint;
+; ..\USER\Cpu1_Main.c	   566  		    	   			left_flag=0;
+; ..\USER\Cpu1_Main.c	   567  		    	   			left_flag_count=left_flag_count+1;
+; ..\USER\Cpu1_Main.c	   568  		    		  	}
+; ..\USER\Cpu1_Main.c	   569  		    		}
+; ..\USER\Cpu1_Main.c	   570  					if(right_flag == 0)
+; ..\USER\Cpu1_Main.c	   571  					{
+; ..\USER\Cpu1_Main.c	   572  						Rx[CurL] = Rx[CurL-1];
+; ..\USER\Cpu1_Main.c	   573  					}
+; ..\USER\Cpu1_Main.c	   574  					if(left_flag==0)
+; ..\USER\Cpu1_Main.c	   575  					{
+; ..\USER\Cpu1_Main.c	   576  						Lx[CurL]=Lx[CurL-1];
+; ..\USER\Cpu1_Main.c	   577  					}
+; ..\USER\Cpu1_Main.c	   578  					Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
+; ..\USER\Cpu1_Main.c	   579  				    Cur_Offset= Midx[CurL];
+; ..\USER\Cpu1_Main.c	   580  		}*/
+; ..\USER\Cpu1_Main.c	   581  
+; ..\USER\Cpu1_Main.c	   582  			/*			huandao_after=1;
+; ..\USER\Cpu1_Main.c	   583  		else
+; ..\USER\Cpu1_Main.c	   584  			huandao_after=0;
+; ..\USER\Cpu1_Main.c	   585  		if(huandao_before==0&&huandao_after==1)
+; ..\USER\Cpu1_Main.c	   586  			huandao_count++;
+; ..\USER\Cpu1_Main.c	   587  		//printf("huandao_count: %d\n", huandao_count);
+; ..\USER\Cpu1_Main.c	   588  		int huandao_fucker=huandao_count;
+; ..\USER\Cpu1_Main.c	   589  		huandao_before=huandao_after;
+; ..\USER\Cpu1_Main.c	   590  		if(huandao_count==2)
+; ..\USER\Cpu1_Main.c	   591  			in_huandao=1;
+; ..\USER\Cpu1_Main.c	   592  			*/
+; ..\USER\Cpu1_Main.c	   593      }
+; ..\USER\Cpu1_Main.c	   594  	//	in_huandao1= in_huandao;
+; ..\USER\Cpu1_Main.c	   595    /*    for( CurL = MT9V03X_H; CurL >= Start; --CurL )
+; ..\USER\Cpu1_Main.c	   596  		{
+; ..\USER\Cpu1_Main.c	   597  			L_M_R[CurL]=Lx[CurL]-Rx[CurL];
 ; ..\USER\Cpu1_Main.c	   598  		}
-; ..\USER\Cpu1_Main.c	   599  		count_right_non=0;
-; ..\USER\Cpu1_Main.c	   600  		count_left_non=0;
-; ..\USER\Cpu1_Main.c	   601  	    for(int t=0; t<=20; t++)	//入环岛边线条件
-; ..\USER\Cpu1_Main.c	   602  	    {
-; ..\USER\Cpu1_Main.c	   603  			if(right_non[t]==0)
-; ..\USER\Cpu1_Main.c	   604  			    count_right_non1++;
-; ..\USER\Cpu1_Main.c	   605  			if(left_non[t]==0)
-; ..\USER\Cpu1_Main.c	   606  			    count_left_non1++;
-; ..\USER\Cpu1_Main.c	   607  	    }
-; ..\USER\Cpu1_Main.c	   608  	    for(int t=20; t<=40; t++)	//入环岛边线条件
-; ..\USER\Cpu1_Main.c	   609  	    {
-; ..\USER\Cpu1_Main.c	   610  	    	if(right_non[t]==0)
-; ..\USER\Cpu1_Main.c	   611  	    		count_right_non2++;
-; ..\USER\Cpu1_Main.c	   612  	    	if(left_non[t]==0)
-; ..\USER\Cpu1_Main.c	   613  	    		count_left_non2++;
-; ..\USER\Cpu1_Main.c	   614  	    }
-; ..\USER\Cpu1_Main.c	   615  		if(count_dec<=3&&count_inc<=3&&r>0.9&&count_right_non1>=7&&count_left_non1>=7&&count_right_non2>=7&&count_left_non2>=7)
-; ..\USER\Cpu1_Main.c	   616  			in_huandao=1;
-; ..\USER\Cpu1_Main.c	   617     */
-; ..\USER\Cpu1_Main.c	   618  			//串口检查拟合误差
-; ..\USER\Cpu1_Main.c	   619      /*	  	int data1=r*100;
-; ..\USER\Cpu1_Main.c	   620      	  	for (i=0;i<6;i++)
-; ..\USER\Cpu1_Main.c	   621      	  	{
-; ..\USER\Cpu1_Main.c	   622      	  	  	UartData[i]=data1%10;
-; ..\USER\Cpu1_Main.c	   623      	  	  	data1=(data1-UartData[i])/10;
-; ..\USER\Cpu1_Main.c	   624      	  	}
-; ..\USER\Cpu1_Main.c	   625      	  	for(int i=5;i>=0;i--){ UART_WriteByte(HW_UART3,UartData[i]+48);}    //串口数据发送
-; ..\USER\Cpu1_Main.c	   626      	  	UART_printf(HW_UART3,"\n");
-; ..\USER\Cpu1_Main.c	   627   */
-; ..\USER\Cpu1_Main.c	   628  }
-; ..\USER\Cpu1_Main.c	   629  
-; ..\USER\Cpu1_Main.c	   630  
+; ..\USER\Cpu1_Main.c	   599  		for( CurL = 40; CurL >=10 ; --CurL)//转折点
+; ..\USER\Cpu1_Main.c	   600          {
+; ..\USER\Cpu1_Main.c	   601  			if(CurL<MT9V03X_H&&L_M_R[CurL]-L_M_R[CurL-1]<0&&L_M_R[CurL+1]-L_M_R[CurL]>0)
+; ..\USER\Cpu1_Main.c	   602  				turning_point=CurL;
+; ..\USER\Cpu1_Main.c	   603  		}
+; ..\USER\Cpu1_Main.c	   604  		for( CurL = MT9V03X_H; CurL > Start; --CurL) //判断在转折点的前后变化趋势是否符合进入环岛的变化趋势，即右边线减去左边线先减后增加
+; ..\USER\Cpu1_Main.c	   605          {
+; ..\USER\Cpu1_Main.c	   606  			if(L_M_R[CurL]-L_M_R[CurL-1]<0&&CurL>turning_point)
+; ..\USER\Cpu1_Main.c	   607  				count_dec++;
+; ..\USER\Cpu1_Main.c	   608  			if(L_M_R[CurL]-L_M_R[CurL-1]>0&&CurL<=turning_point)
+; ..\USER\Cpu1_Main.c	   609  			    count_inc++;
+; ..\USER\Cpu1_Main.c	   610  		}
+; ..\USER\Cpu1_Main.c	   611  		count_right_non=0;
+; ..\USER\Cpu1_Main.c	   612  		count_left_non=0;
+; ..\USER\Cpu1_Main.c	   613  	    for(int t=0; t<=20; t++)	//入环岛边线条件
+; ..\USER\Cpu1_Main.c	   614  	    {
+; ..\USER\Cpu1_Main.c	   615  			if(right_non[t]==0)
+; ..\USER\Cpu1_Main.c	   616  			    count_right_non1++;
+; ..\USER\Cpu1_Main.c	   617  			if(left_non[t]==0)
+; ..\USER\Cpu1_Main.c	   618  			    count_left_non1++;
+; ..\USER\Cpu1_Main.c	   619  	    }
+; ..\USER\Cpu1_Main.c	   620  	    for(int t=20; t<=40; t++)	//入环岛边线条件
+; ..\USER\Cpu1_Main.c	   621  	    {
+; ..\USER\Cpu1_Main.c	   622  	    	if(right_non[t]==0)
+; ..\USER\Cpu1_Main.c	   623  	    		count_right_non2++;
+; ..\USER\Cpu1_Main.c	   624  	    	if(left_non[t]==0)
+; ..\USER\Cpu1_Main.c	   625  	    		count_left_non2++;
+; ..\USER\Cpu1_Main.c	   626  	    }
+; ..\USER\Cpu1_Main.c	   627  		if(count_dec<=3&&count_inc<=3&&r>0.9&&count_right_non1>=7&&count_left_non1>=7&&count_right_non2>=7&&count_left_non2>=7)
+; ..\USER\Cpu1_Main.c	   628  			in_huandao=1;
+; ..\USER\Cpu1_Main.c	   629     */
+; ..\USER\Cpu1_Main.c	   630  			//串口检查拟合误差
+; ..\USER\Cpu1_Main.c	   631      /*	  	int data1=r*100;
+; ..\USER\Cpu1_Main.c	   632      	  	for (i=0;i<6;i++)
+; ..\USER\Cpu1_Main.c	   633      	  	{
+; ..\USER\Cpu1_Main.c	   634      	  	  	UartData[i]=data1%10;
+; ..\USER\Cpu1_Main.c	   635      	  	  	data1=(data1-UartData[i])/10;
+; ..\USER\Cpu1_Main.c	   636      	  	}
+; ..\USER\Cpu1_Main.c	   637      	  	for(int i=5;i>=0;i--){ UART_WriteByte(HW_UART3,UartData[i]+48);}    //串口数据发送
+; ..\USER\Cpu1_Main.c	   638      	  	UART_printf(HW_UART3,"\n");
+; ..\USER\Cpu1_Main.c	   639   */
+; ..\USER\Cpu1_Main.c	   640  }
+; ..\USER\Cpu1_Main.c	   641  
+; ..\USER\Cpu1_Main.c	   642  
 	ret
-.L156:
+.L165:
 	
 __searchline_image_function_end:
 	.size	searchline_image,__searchline_image_function_end-searchline_image
-.L138:
+.L147:
 	; End of function
 	
 	.sdecl	'.data.Cpu1_Main.whiteRoad',data,cluster('whiteRoad')
@@ -3608,20 +3724,20 @@ whiteRoad:	.type	object
 	.extern	out_begin
 	.extern	ek
 	.extern	out
-	.calls	'searchline_image','',384
+	.calls	'searchline_image','',392
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L131:
+.L140:
 	.word	252453
 	.half	3
-	.word	.L132
+	.word	.L141
 	.byte	4
-.L130:
+.L139:
 	.byte	1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1
-	.word	.L133
+	.word	.L142
 	.byte	2,1,1,3
 	.word	109
 	.byte	4
@@ -3630,7 +3746,7 @@ whiteRoad:	.type	object
 	.word	112
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L175:
+.L184:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,152,2,18
@@ -3672,7 +3788,7 @@ whiteRoad:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	349
 	.byte	6,0
-.L159:
+.L168:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,11
@@ -3698,10 +3814,10 @@ whiteRoad:	.type	object
 	.byte	'B',0
 	.word	484
 	.byte	4,2,35,0,0
-.L162:
+.L171:
 	.byte	7
 	.byte	'unsigned char',0,1,8
-.L182:
+.L191:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,11
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,250,8,16,4,12
@@ -5238,24 +5354,24 @@ whiteRoad:	.type	object
 	.byte	'IfxCpu_getCoreIndex',0,3,8,141,6,31
 	.word	10179
 	.byte	1,1,6,0
-.L247:
+.L257:
 	.byte	8
 	.byte	'IfxCpu_areInterruptsEnabled',0,3,8,139,5,20
 	.word	620
 	.byte	1,1
-.L248:
+.L258:
 	.byte	6,0
-.L244:
+.L254:
 	.byte	8
 	.byte	'IfxCpu_disableInterrupts',0,3,8,147,5,20
 	.word	620
 	.byte	1,1
-.L245:
-	.byte	19,6,0,0
 .L255:
+	.byte	19,6,0,0
+.L265:
 	.byte	4
 	.byte	'IfxCpu_enableInterrupts',0,3,8,157,5,17,1,1
-.L256:
+.L266:
 	.byte	6,0,4
 	.byte	'IfxCpu_forceDisableInterrupts',0,3,8,225,5,17,1,1,6,0,4
 	.byte	'IfxCpu_restoreInterrupts',0,3,8,168,7,17,1,1,5
@@ -5925,17 +6041,17 @@ whiteRoad:	.type	object
 	.byte	'stm',0,12,190,4,44
 	.word	14544
 	.byte	6,0
-.L242:
+.L252:
 	.byte	8
 	.byte	'disableInterrupts',0,3,14,108,20
 	.word	620
 	.byte	1,1
-.L243:
+.L253:
 	.byte	19,6,0,0
-.L251:
+.L261:
 	.byte	4
 	.byte	'enableInterrupts',0,3,14,128,1,17,1,1
-.L254:
+.L264:
 	.byte	19,6,0,0,4
 	.byte	'restoreInterrupts',0,3,14,142,1,17,1,1,5
 	.byte	'enabled',0,14,142,1,43
@@ -9661,7 +9777,7 @@ whiteRoad:	.type	object
 	.byte	'alti',0,20,191,18,82
 	.word	38935
 	.byte	6,0
-.L258:
+.L268:
 	.byte	7
 	.byte	'short int',0,2,5,7
 	.byte	'long int',0,4,5,21,22,60,9,12,14
@@ -10110,7 +10226,7 @@ whiteRoad:	.type	object
 	.byte	'num',0,25,81,41
 	.word	39227
 	.byte	0
-.L157:
+.L166:
 	.byte	3
 	.word	620
 	.byte	36
@@ -10128,11 +10244,11 @@ whiteRoad:	.type	object
 	.word	620
 	.byte	0,30
 	.byte	'mt9v03x_init',0,26,106,6,1,1,1,1
-.L177:
+.L186:
 	.byte	15,64
 	.word	620
 	.byte	16,63,0
-.L226:
+.L236:
 	.byte	15,128,8
 	.word	461
 	.byte	16,255,1,0,11
@@ -10152,7 +10268,7 @@ whiteRoad:	.type	object
 	.byte	'reserved_26',0,4
 	.word	468
 	.byte	6,0,2,35,0,0
-.L249:
+.L259:
 	.byte	13,27,223,7,9,4,14
 	.byte	'U',0
 	.word	271
@@ -38055,12 +38171,12 @@ whiteRoad:	.type	object
 	.byte	'ek',0,49,19,14
 	.word	39227
 	.byte	1,1,41
-	.byte	'out',0,49,21,14
+	.byte	'out',0,49,21,15
 	.word	169
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L132:
+.L141:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,53,0,73,19,0,0,11,19
@@ -38076,12 +38192,12 @@ whiteRoad:	.type	object
 	.byte	52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L133:
-	.word	.L344-.L343
-.L343:
+.L142:
+	.word	.L370-.L369
+.L369:
 	.half	3
-	.word	.L346-.L345
-.L345:
+	.word	.L372-.L371
+.L371:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std',0
@@ -38150,2006 +38266,2109 @@ whiteRoad:	.type	object
 	.byte	'IfxDma_regdef.h',0,3,0,0
 	.byte	'IfxDma.h',0,18,0,0
 	.byte	'..\\USER\\control.h',0,0,0,0,0
-.L346:
-.L344:
+.L372:
+.L370:
 	.sdecl	'.debug_info',debug,cluster('searchline_image')
 	.sect	'.debug_info'
-.L134:
-	.word	1335
+.L143:
+	.word	1359
 	.half	3
-	.word	.L135
+	.word	.L144
 	.byte	4,1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1
-	.word	.L137,.L136
+	.word	.L146,.L145
 	.byte	2
-	.word	.L130
+	.word	.L139
 	.byte	3
 	.byte	'searchline_image',0,1,115,6,1,1,1
-	.word	.L129,.L156,.L128
+	.word	.L138,.L165,.L137
 	.byte	4
 	.byte	'p',0,1,115,30
-	.word	.L157,.L158
+	.word	.L166,.L167
 	.byte	5
-	.word	.L129,.L156
+	.word	.L138,.L165
 	.byte	6
 	.byte	'CurL',0,1,117,6
-	.word	.L159,.L160
+	.word	.L168,.L169
 	.byte	6
 	.byte	'Start',0,1,117,15
-	.word	.L159,.L161
+	.word	.L168,.L170
 	.byte	6
 	.byte	'Cur_Offset',0,1,118,10
-	.word	.L162,.L163
+	.word	.L171,.L172
 	.byte	6
 	.byte	'CurPoint',0,1,119,12
-	.word	.L162,.L164
+	.word	.L171,.L173
 	.byte	6
 	.byte	'FitCur_A',0,1,122,8
-	.word	.L159,.L165
+	.word	.L168,.L174
 	.byte	6
 	.byte	'FitCur_B',0,1,122,20
-	.word	.L159,.L166
+	.word	.L168,.L175
 	.byte	6
 	.byte	'FitCur_C',0,1,122,32
-	.word	.L159,.L167
+	.word	.L168,.L176
 	.byte	6
 	.byte	'FitCur_D',0,1,122,44
-	.word	.L159,.L168
+	.word	.L168,.L177
 	.byte	6
 	.byte	'FitCur_E',0,1,122,55
-	.word	.L159,.L169
+	.word	.L168,.L178
 	.byte	6
 	.byte	'FitCur_A1',0,1,124,8
-	.word	.L159,.L170
+	.word	.L168,.L179
 	.byte	6
 	.byte	'FitCur_B1',0,1,124,21
-	.word	.L159,.L171
+	.word	.L168,.L180
 	.byte	6
 	.byte	'FitCur_C1',0,1,124,34
-	.word	.L159,.L172
+	.word	.L168,.L181
 	.byte	6
 	.byte	'FitCur_D1',0,1,124,47
-	.word	.L159,.L173
+	.word	.L168,.L182
 	.byte	6
 	.byte	'FitCur_E1',0,1,124,59
-	.word	.L159,.L174
+	.word	.L168,.L183
 	.byte	6
 	.byte	'r',0,1,129,1,10
-	.word	.L175,.L176
+	.word	.L184,.L185
 	.byte	6
 	.byte	'Lx1',0,1,133,1,10
-	.word	.L177,.L178
+	.word	.L186,.L187
 	.byte	6
 	.byte	'Rx1',0,1,134,1,10
-	.word	.L177,.L179
+	.word	.L186,.L188
 	.byte	6
 	.byte	'Lx2',0,1,135,1,8
-	.word	.L177,.L180
+	.word	.L186,.L189
 	.byte	6
 	.byte	'Rx2',0,1,136,1,10
-	.word	.L177,.L181
+	.word	.L186,.L190
 	.byte	6
 	.byte	'counter_1',0,1,142,1,9
-	.word	.L182,.L183
+	.word	.L191,.L192
 	.byte	6
 	.byte	'fitting_flag1',0,1,143,1,8
-	.word	.L162,.L184
+	.word	.L171,.L193
 	.byte	6
 	.byte	'fitting_flag2',0,1,144,1,8
-	.word	.L162,.L185
+	.word	.L171,.L194
 	.byte	6
 	.byte	'left_flag_count',0,1,145,1,8
-	.word	.L162,.L186
+	.word	.L171,.L195
 	.byte	6
 	.byte	'right_flag_count',0,1,146,1,8
-	.word	.L162,.L187
+	.word	.L171,.L196
 	.byte	6
 	.byte	'left_non',0,1,148,1,11
-	.word	.L177,.L188
+	.word	.L186,.L197
 	.byte	6
 	.byte	'right_non',0,1,149,1,8
-	.word	.L177,.L189
+	.word	.L186,.L198
 	.byte	6
 	.byte	'count_left_non',0,1,150,1,8
-	.word	.L162,.L190
+	.word	.L171,.L199
 	.byte	6
 	.byte	'count_right_non',0,1,151,1,8
-	.word	.L162,.L191
+	.word	.L171,.L200
 	.byte	6
 	.byte	'count_right_exist',0,1,152,1,8
-	.word	.L162,.L192
+	.word	.L171,.L201
 	.byte	6
 	.byte	'count_left_non1',0,1,153,1,8
-	.word	.L162,.L193
+	.word	.L171,.L202
 	.byte	6
 	.byte	'count_right_non1',0,1,154,1,8
-	.word	.L162,.L194
+	.word	.L171,.L203
 	.byte	6
 	.byte	'count_left_non2',0,1,155,1,8
-	.word	.L162,.L195
+	.word	.L171,.L204
 	.byte	6
 	.byte	'count_right_non2',0,1,156,1,8
-	.word	.L162,.L196
+	.word	.L171,.L205
 	.byte	6
 	.byte	'turning_point1',0,1,158,1,8
-	.word	.L162,.L197
+	.word	.L171,.L206
 	.byte	6
 	.byte	'count_dec',0,1,159,1,8
-	.word	.L162,.L198
+	.word	.L171,.L207
 	.byte	6
 	.byte	'count_inc',0,1,160,1,8
-	.word	.L162,.L199
+	.word	.L171,.L208
 	.byte	6
 	.byte	'black_count',0,1,161,1,8
-	.word	.L162,.L200
+	.word	.L171,.L209
 	.byte	6
 	.byte	'huandao_after',0,1,162,1,8
-	.word	.L162,.L201
+	.word	.L171,.L210
 	.byte	6
 	.byte	'huandao_before',0,1,163,1,8
-	.word	.L162,.L202
+	.word	.L171,.L211
 	.byte	6
 	.byte	'i',0,1,164,1,9
-	.word	.L182,.L203
+	.word	.L191,.L212
 	.byte	6
 	.byte	'j',0,1,165,1,9
-	.word	.L182,.L204
+	.word	.L191,.L213
 	.byte	5
-	.word	.L205,.L19
+	.word	.L214,.L19
 	.byte	6
 	.byte	'stop_count',0,1,169,1,10
-	.word	.L162,.L206
+	.word	.L171,.L215
 	.byte	0,5
-	.word	.L207,.L208
+	.word	.L216,.L217
 	.byte	6
 	.byte	'right_flag',0,1,194,1,9
-	.word	.L162,.L209
+	.word	.L171,.L218
 	.byte	6
 	.byte	'left_flag',0,1,195,1,9
-	.word	.L162,.L210
+	.word	.L171,.L219
 	.byte	5
-	.word	.L211,.L32
+	.word	.L220,.L32
 	.byte	6
 	.byte	'crossing_num',0,1,200,1,18
-	.word	.L159,.L212
+	.word	.L168,.L221
+	.byte	6
+	.byte	'stop_count',0,1,201,1,20
+	.word	.L171,.L222
 	.byte	0,0,5
-	.word	.L213,.L214
+	.word	.L223,.L224
 	.byte	6
-	.byte	't',0,1,167,3,10
-	.word	.L159,.L215
+	.byte	't',0,1,179,3,10
+	.word	.L168,.L225
 	.byte	0,5
-	.word	.L216,.L90
+	.word	.L226,.L99
 	.byte	6
-	.byte	'm',0,1,201,3,7
-	.word	.L159,.L217
+	.byte	'm',0,1,213,3,7
+	.word	.L168,.L227
 	.byte	5
-	.word	.L218,.L90
+	.word	.L228,.L99
 	.byte	6
-	.byte	'stop_count',0,1,217,3,9
-	.word	.L162,.L219
+	.byte	'stop_count',0,1,229,3,9
+	.word	.L171,.L229
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('searchline_image')
 	.sect	'.debug_abbrev'
-.L135:
+.L144:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('searchline_image')
 	.sect	'.debug_line'
-.L136:
-	.word	.L348-.L347
-.L347:
+.L145:
+	.word	.L374-.L373
+.L373:
 	.half	3
-	.word	.L350-.L349
-.L349:
+	.word	.L376-.L375
+.L375:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0,0
-.L350:
+.L376:
 	.byte	5,6,7,0,5,2
-	.word	.L129
+	.word	.L138
 	.byte	3,242,0,1,5,21,9
-	.half	.L273-.L129
+	.half	.L283-.L138
 	.byte	3,3,1,5,24,9
-	.half	.L274-.L273
+	.half	.L284-.L283
 	.byte	3,27,1,5,25,9
-	.half	.L275-.L274
+	.half	.L286-.L284
 	.byte	3,1,1,5,22,9
-	.half	.L277-.L275
+	.half	.L288-.L286
 	.byte	3,4,1,5,23,9
-	.half	.L279-.L277
+	.half	.L290-.L288
 	.byte	3,1,1,5,24,9
-	.half	.L281-.L279
+	.half	.L292-.L290
 	.byte	3,5,1,5,19,9
-	.half	.L283-.L281
+	.half	.L295-.L292
 	.byte	3,5,1,5,6,9
-	.half	.L285-.L283
+	.half	.L296-.L295
 	.byte	3,6,1,5,2,9
-	.half	.L351-.L285
+	.half	.L377-.L296
 	.byte	1,5,20,7,9
-	.half	.L205-.L351
+	.half	.L214-.L377
 	.byte	3,2,1,5,11,9
-	.half	.L287-.L205
+	.half	.L298-.L214
 	.byte	3,3,1,5,19,9
-	.half	.L289-.L287
+	.half	.L300-.L298
 	.byte	1,5,12,9
-	.half	.L21-.L289
+	.half	.L21-.L300
 	.byte	3,2,1,5,20,9
-	.half	.L290-.L21
+	.half	.L301-.L21
 	.byte	1,5,19,9
-	.half	.L23-.L290
+	.half	.L23-.L301
 	.byte	3,2,1,5,15,9
-	.half	.L352-.L23
+	.half	.L378-.L23
 	.byte	1,5,31,9
-	.half	.L353-.L352
+	.half	.L379-.L378
 	.byte	1,5,11,9
-	.half	.L354-.L353
+	.half	.L380-.L379
 	.byte	1,5,38,9
-	.half	.L355-.L354
+	.half	.L381-.L380
 	.byte	1,5,11,9
-	.half	.L356-.L355
+	.half	.L382-.L381
 	.byte	1,5,59,7,9
-	.half	.L357-.L356
+	.half	.L383-.L382
 	.byte	1,5,63,9
-	.half	.L358-.L357
+	.half	.L384-.L383
 	.byte	1,5,55,9
-	.half	.L359-.L358
+	.half	.L385-.L384
 	.byte	1,5,75,9
-	.half	.L360-.L359
+	.half	.L386-.L385
 	.byte	1,5,51,9
-	.half	.L361-.L360
+	.half	.L387-.L386
 	.byte	1,5,82,9
-	.half	.L362-.L361
+	.half	.L388-.L387
 	.byte	1,5,80,9
-	.half	.L363-.L362
+	.half	.L389-.L388
 	.byte	1,5,103,7,9
-	.half	.L364-.L363
+	.half	.L390-.L389
 	.byte	1,5,107,9
-	.half	.L365-.L364
+	.half	.L391-.L390
 	.byte	1,5,99,9
-	.half	.L366-.L365
+	.half	.L392-.L391
 	.byte	1,5,119,9
-	.half	.L367-.L366
+	.half	.L393-.L392
 	.byte	1,5,95,9
-	.half	.L368-.L367
+	.half	.L394-.L393
 	.byte	1,5,126,9
-	.half	.L369-.L368
+	.half	.L395-.L394
 	.byte	1,5,124,9
-	.half	.L370-.L369
+	.half	.L396-.L395
 	.byte	1,5,19,7,9
-	.half	.L371-.L370
+	.half	.L397-.L396
 	.byte	3,2,1,5,9,9
-	.half	.L291-.L371
+	.half	.L302-.L397
 	.byte	3,1,1,5,22,9
-	.half	.L24-.L291
+	.half	.L24-.L302
 	.byte	3,123,1,5,18,9
 	.half	.L22-.L24
 	.byte	1,5,20,9
-	.half	.L372-.L22
+	.half	.L398-.L22
 	.byte	1,5,21,7,9
-	.half	.L27-.L372
+	.half	.L27-.L398
 	.byte	3,126,1,5,17,9
 	.half	.L20-.L27
 	.byte	1,5,19,9
-	.half	.L373-.L20
+	.half	.L399-.L20
 	.byte	1,5,21,7,9
-	.half	.L374-.L373
-	.byte	3,12,1,5,6,9
-	.half	.L375-.L374
-	.byte	1,5,7,7,9
-	.half	.L376-.L375
-	.byte	3,1,1,5,19,9
-	.half	.L377-.L376
-	.byte	1,5,17,9
-	.half	.L378-.L377
-	.byte	1,5,20,9
-	.half	.L379-.L378
-	.byte	1,5,12,9
-	.half	.L19-.L379
-	.byte	3,6,1,5,38,9
-	.half	.L292-.L19
-	.byte	1,5,12,9
-	.half	.L31-.L292
-	.byte	3,2,1,5,20,9
-	.half	.L207-.L31
-	.byte	3,1,1,5,19,9
-	.half	.L294-.L207
-	.byte	3,1,1,5,20,9
-	.half	.L295-.L294
-	.byte	3,2,1,5,6,9
-	.half	.L380-.L295
-	.byte	1,5,31,7,9
-	.half	.L381-.L380
-	.byte	1,5,30,9
-	.half	.L382-.L381
-	.byte	1,5,19,7,9
-	.half	.L383-.L382
-	.byte	3,2,1,5,30,9
-	.half	.L211-.L383
-	.byte	3,1,1,5,35,9
-	.half	.L297-.L211
-	.byte	3,1,1,5,31,9
-	.half	.L35-.L297
-	.byte	3,2,1,5,24,9
-	.half	.L384-.L35
-	.byte	1,5,43,9
-	.half	.L385-.L384
-	.byte	1,5,20,9
-	.half	.L386-.L385
-	.byte	1,5,61,9
-	.half	.L387-.L386
-	.byte	1,5,20,9
-	.half	.L388-.L387
-	.byte	1,5,83,7,9
-	.half	.L389-.L388
-	.byte	1,5,76,9
-	.half	.L390-.L389
-	.byte	1,5,95,9
-	.half	.L391-.L390
-	.byte	1,5,72,9
-	.half	.L392-.L391
-	.byte	1,5,109,9
-	.half	.L393-.L392
-	.byte	1,5,107,9
-	.half	.L394-.L393
-	.byte	1,5,133,1,7,9
-	.half	.L395-.L394
-	.byte	1,5,126,9
-	.half	.L396-.L395
-	.byte	1,5,145,1,9
-	.half	.L397-.L396
-	.byte	1,5,122,9
-	.half	.L398-.L397
-	.byte	1,5,163,1,9
-	.half	.L399-.L398
-	.byte	1,5,161,1,9
 	.half	.L400-.L399
-	.byte	1,5,187,1,7,9
+	.byte	3,12,1,5,6,9
 	.half	.L401-.L400
-	.byte	1,5,180,1,9
+	.byte	1,5,7,7,9
 	.half	.L402-.L401
-	.byte	1,5,199,1,9
-	.half	.L403-.L402
-	.byte	1,5,176,1,9
-	.half	.L404-.L403
-	.byte	1,5,217,1,9
-	.half	.L405-.L404
-	.byte	1,5,215,1,9
-	.half	.L406-.L405
-	.byte	1,5,41,7,9
-	.half	.L407-.L406
-	.byte	3,2,1,5,11,9
-	.half	.L408-.L407
-	.byte	3,1,1,5,43,9
-	.half	.L409-.L408
-	.byte	3,127,1,5,36,9
-	.half	.L36-.L409
-	.byte	3,3,1,5,29,9
-	.half	.L410-.L36
-	.byte	1,5,48,9
-	.half	.L411-.L410
-	.byte	1,5,25,9
-	.half	.L412-.L411
-	.byte	1,5,66,9
-	.half	.L413-.L412
-	.byte	1,5,25,9
-	.half	.L414-.L413
-	.byte	1,5,88,7,9
-	.half	.L415-.L414
-	.byte	1,5,81,9
-	.half	.L416-.L415
-	.byte	1,5,100,9
-	.half	.L417-.L416
-	.byte	1,5,77,9
-	.half	.L418-.L417
-	.byte	1,5,114,9
-	.half	.L419-.L418
-	.byte	1,5,112,9
-	.half	.L420-.L419
-	.byte	1,5,138,1,7,9
-	.half	.L421-.L420
-	.byte	1,5,131,1,9
-	.half	.L422-.L421
-	.byte	1,5,150,1,9
-	.half	.L423-.L422
-	.byte	1,5,127,9
-	.half	.L424-.L423
-	.byte	1,5,168,1,9
-	.half	.L425-.L424
-	.byte	1,5,166,1,9
-	.half	.L426-.L425
-	.byte	1,5,192,1,7,9
-	.half	.L427-.L426
-	.byte	1,5,185,1,9
-	.half	.L428-.L427
-	.byte	1,5,204,1,9
-	.half	.L429-.L428
-	.byte	1,5,181,1,9
-	.half	.L430-.L429
-	.byte	1,5,222,1,9
-	.half	.L431-.L430
-	.byte	1,5,220,1,9
-	.half	.L432-.L431
-	.byte	1,5,44,7,9
-	.half	.L433-.L432
-	.byte	3,2,1,5,11,9
-	.half	.L434-.L433
-	.byte	3,1,1,5,46,9
-	.half	.L435-.L434
-	.byte	3,127,1,5,16,9
-	.half	.L41-.L435
-	.byte	3,5,1,5,35,9
-	.half	.L34-.L41
-	.byte	3,114,1,5,26,7,9
-	.half	.L436-.L34
-	.byte	3,17,1,5,46,9
-	.half	.L293-.L436
-	.byte	3,1,1,5,31,9
-	.half	.L47-.L293
-	.byte	3,2,1,5,24,9
-	.half	.L437-.L47
-	.byte	1,5,43,9
-	.half	.L438-.L437
-	.byte	1,5,20,9
-	.half	.L439-.L438
-	.byte	1,5,61,9
-	.half	.L440-.L439
-	.byte	1,5,20,9
-	.half	.L441-.L440
-	.byte	1,5,83,7,9
-	.half	.L442-.L441
-	.byte	1,5,76,9
-	.half	.L443-.L442
-	.byte	1,5,95,9
-	.half	.L444-.L443
-	.byte	1,5,72,9
-	.half	.L445-.L444
-	.byte	1,5,109,9
-	.half	.L446-.L445
-	.byte	1,5,107,9
-	.half	.L447-.L446
-	.byte	1,5,133,1,7,9
-	.half	.L448-.L447
-	.byte	1,5,126,9
-	.half	.L449-.L448
-	.byte	1,5,145,1,9
-	.half	.L450-.L449
-	.byte	1,5,122,9
-	.half	.L451-.L450
-	.byte	1,5,163,1,9
-	.half	.L452-.L451
-	.byte	1,5,161,1,9
-	.half	.L453-.L452
-	.byte	1,5,187,1,7,9
-	.half	.L454-.L453
-	.byte	1,5,180,1,9
-	.half	.L455-.L454
-	.byte	1,5,199,1,9
-	.half	.L456-.L455
-	.byte	1,5,176,1,9
-	.half	.L457-.L456
-	.byte	1,5,217,1,9
-	.half	.L458-.L457
-	.byte	1,5,215,1,9
-	.half	.L459-.L458
-	.byte	1,5,41,7,9
-	.half	.L460-.L459
-	.byte	3,2,1,5,10,9
-	.half	.L461-.L460
-	.byte	3,1,1,5,43,9
-	.half	.L462-.L461
-	.byte	3,127,1,5,36,9
-	.half	.L48-.L462
-	.byte	3,3,1,5,29,9
-	.half	.L463-.L48
-	.byte	1,5,48,9
-	.half	.L464-.L463
-	.byte	1,5,25,9
-	.half	.L465-.L464
-	.byte	1,5,66,9
-	.half	.L466-.L465
-	.byte	1,5,25,9
-	.half	.L467-.L466
-	.byte	1,5,88,7,9
-	.half	.L468-.L467
-	.byte	1,5,81,9
-	.half	.L469-.L468
-	.byte	1,5,100,9
-	.half	.L470-.L469
-	.byte	1,5,77,9
-	.half	.L471-.L470
-	.byte	1,5,114,9
-	.half	.L472-.L471
-	.byte	1,5,112,9
-	.half	.L473-.L472
-	.byte	1,5,138,1,7,9
-	.half	.L474-.L473
-	.byte	1,5,131,1,9
-	.half	.L475-.L474
-	.byte	1,5,150,1,9
-	.half	.L476-.L475
-	.byte	1,5,127,9
-	.half	.L477-.L476
-	.byte	1,5,168,1,9
-	.half	.L478-.L477
-	.byte	1,5,166,1,9
-	.half	.L479-.L478
-	.byte	1,5,192,1,7,9
-	.half	.L480-.L479
-	.byte	1,5,185,1,9
-	.half	.L481-.L480
-	.byte	1,5,204,1,9
-	.half	.L482-.L481
-	.byte	1,5,181,1,9
-	.half	.L483-.L482
-	.byte	1,5,222,1,9
-	.half	.L484-.L483
-	.byte	1,5,220,1,9
-	.half	.L485-.L484
-	.byte	1,5,41,7,9
-	.half	.L486-.L485
-	.byte	3,2,1,5,10,9
-	.half	.L487-.L486
-	.byte	3,1,1,5,43,9
-	.half	.L488-.L487
-	.byte	3,127,1,5,16,9
-	.half	.L53-.L488
-	.byte	3,5,1,5,36,9
-	.half	.L46-.L53
-	.byte	3,114,1,5,46,9
-	.half	.L489-.L46
-	.byte	1,5,23,7,9
-	.half	.L490-.L489
-	.byte	3,17,1,5,33,9
-	.half	.L298-.L490
-	.byte	3,1,1,5,14,9
-	.half	.L491-.L298
-	.byte	1,5,15,7,9
-	.half	.L492-.L491
-	.byte	3,2,1,5,28,9
-	.half	.L493-.L492
-	.byte	1,5,26,9
-	.half	.L494-.L493
-	.byte	1,5,29,9
-	.half	.L495-.L494
-	.byte	1,5,34,9
-	.half	.L32-.L495
-	.byte	3,9,1,5,24,9
-	.half	.L61-.L32
-	.byte	3,2,1,5,17,9
-	.half	.L496-.L61
-	.byte	1,5,36,9
-	.half	.L497-.L496
-	.byte	1,5,13,9
-	.half	.L498-.L497
-	.byte	1,5,50,9
-	.half	.L499-.L498
-	.byte	1,5,13,9
-	.half	.L500-.L499
-	.byte	1,5,74,7,9
-	.half	.L501-.L500
-	.byte	1,5,67,9
-	.half	.L502-.L501
-	.byte	1,5,86,9
-	.half	.L503-.L502
-	.byte	1,5,63,9
-	.half	.L504-.L503
-	.byte	1,5,104,9
-	.half	.L505-.L504
-	.byte	1,5,102,9
-	.half	.L506-.L505
-	.byte	1,5,128,1,7,9
-	.half	.L507-.L506
-	.byte	1,5,121,9
-	.half	.L508-.L507
-	.byte	1,5,140,1,9
-	.half	.L509-.L508
-	.byte	1,5,117,9
-	.half	.L510-.L509
-	.byte	1,5,158,1,9
-	.half	.L511-.L510
-	.byte	1,5,156,1,9
-	.half	.L512-.L511
-	.byte	1,5,9,7,9
-	.half	.L513-.L512
-	.byte	3,2,1,5,11,9
-	.half	.L514-.L513
-	.byte	1,5,18,9
-	.half	.L515-.L514
-	.byte	1,5,12,9
-	.half	.L516-.L515
 	.byte	3,1,1,5,19,9
-	.half	.L517-.L516
-	.byte	1,5,26,9
-	.half	.L518-.L517
-	.byte	3,1,1,5,18,9
-	.half	.L519-.L518
-	.byte	3,1,1,5,25,9
-	.half	.L520-.L519
-	.byte	1,5,24,9
-	.half	.L521-.L520
-	.byte	1,5,9,9
-	.half	.L522-.L521
-	.byte	3,1,1,5,20,9
-	.half	.L62-.L522
-	.byte	3,4,1,5,27,9
-	.half	.L523-.L62
-	.byte	1,5,26,9
-	.half	.L524-.L523
-	.byte	1,5,11,9
-	.half	.L525-.L524
-	.byte	3,1,1,5,22,9
-	.half	.L526-.L525
-	.byte	3,1,1,5,47,9
-	.half	.L527-.L526
-	.byte	3,1,1,5,34,9
-	.half	.L60-.L527
-	.byte	3,113,1,5,36,7,9
-	.half	.L65-.L60
-	.byte	3,20,1,5,24,9
-	.half	.L67-.L65
-	.byte	3,2,1,5,17,9
-	.half	.L528-.L67
-	.byte	1,5,36,9
-	.half	.L299-.L528
-	.byte	1,5,13,9
-	.half	.L300-.L299
-	.byte	1,5,50,9
-	.half	.L529-.L300
-	.byte	1,5,13,9
-	.half	.L296-.L529
-	.byte	1,5,74,7,9
-	.half	.L530-.L296
-	.byte	1,5,67,9
-	.half	.L531-.L530
-	.byte	1,5,86,9
-	.half	.L301-.L531
-	.byte	1,5,63,9
-	.half	.L302-.L301
-	.byte	1,5,104,9
-	.half	.L532-.L302
-	.byte	1,5,102,9
-	.half	.L533-.L532
-	.byte	1,5,128,1,7,9
-	.half	.L534-.L533
-	.byte	1,5,121,9
-	.half	.L535-.L534
-	.byte	1,5,140,1,9
-	.half	.L303-.L535
-	.byte	1,5,117,9
-	.half	.L304-.L303
-	.byte	1,5,158,1,9
-	.half	.L536-.L304
-	.byte	1,5,156,1,9
-	.half	.L537-.L536
-	.byte	1,5,9,7,9
-	.half	.L538-.L537
-	.byte	3,2,1,5,11,9
-	.half	.L539-.L538
-	.byte	1,5,18,9
-	.half	.L305-.L539
+	.half	.L403-.L402
+	.byte	1,5,17,9
+	.half	.L404-.L403
+	.byte	1,5,20,9
+	.half	.L405-.L404
 	.byte	1,5,12,9
-	.half	.L306-.L305
-	.byte	3,2,1,5,18,9
-	.half	.L307-.L306
-	.byte	1,9
-	.half	.L308-.L307
+	.half	.L19-.L405
+	.byte	3,6,1,5,38,9
+	.half	.L303-.L19
+	.byte	1,5,12,9
+	.half	.L31-.L303
+	.byte	3,2,1,5,20,9
+	.half	.L216-.L31
+	.byte	3,1,1,5,19,9
+	.half	.L305-.L216
 	.byte	3,1,1,5,20,9
+	.half	.L306-.L305
+	.byte	3,2,1,5,6,9
+	.half	.L406-.L306
+	.byte	1,5,31,7,9
+	.half	.L407-.L406
+	.byte	1,5,30,9
+	.half	.L408-.L407
+	.byte	1,5,19,7,9
+	.half	.L409-.L408
+	.byte	3,2,1,5,30,9
+	.half	.L220-.L409
+	.byte	3,1,1,9
+	.half	.L308-.L220
+	.byte	3,1,1,5,19,9
 	.half	.L309-.L308
 	.byte	3,1,1,5,27,9
-	.half	.L540-.L309
+	.half	.L311-.L309
+	.byte	1,5,23,9
+	.half	.L35-.L311
+	.byte	3,2,1,5,31,9
+	.half	.L314-.L35
+	.byte	1,5,30,9
+	.half	.L37-.L314
+	.byte	3,2,1,5,26,9
+	.half	.L313-.L37
+	.byte	1,5,42,9
+	.half	.L410-.L313
+	.byte	1,5,22,9
+	.half	.L411-.L410
+	.byte	1,5,49,9
+	.half	.L412-.L411
+	.byte	1,5,22,9
+	.half	.L413-.L412
+	.byte	1,5,70,7,9
+	.half	.L414-.L413
+	.byte	1,5,74,9
+	.half	.L316-.L414
+	.byte	1,5,66,9
+	.half	.L415-.L316
+	.byte	1,5,86,9
+	.half	.L416-.L415
+	.byte	1,5,62,9
+	.half	.L417-.L416
+	.byte	1,5,93,9
+	.half	.L418-.L417
+	.byte	1,5,91,9
+	.half	.L419-.L418
+	.byte	1,5,114,7,9
+	.half	.L420-.L419
+	.byte	1,5,118,9
+	.half	.L318-.L420
+	.byte	1,5,110,9
+	.half	.L421-.L318
+	.byte	1,5,130,1,9
+	.half	.L422-.L421
+	.byte	1,5,106,9
+	.half	.L423-.L422
+	.byte	1,5,137,1,9
+	.half	.L424-.L423
+	.byte	1,5,135,1,9
+	.half	.L425-.L424
+	.byte	1,5,29,7,9
+	.half	.L426-.L425
+	.byte	3,2,1,5,19,9
+	.half	.L319-.L426
+	.byte	3,1,1,5,33,9
+	.half	.L38-.L319
+	.byte	3,123,1,5,31,9
+	.half	.L36-.L38
+	.byte	1,5,29,7,9
+	.half	.L41-.L36
+	.byte	3,126,1,5,25,9
+	.half	.L34-.L41
+	.byte	1,5,27,9
+	.half	.L427-.L34
+	.byte	1,5,35,7,9
+	.half	.L428-.L427
+	.byte	3,11,1,5,31,9
+	.half	.L43-.L428
+	.byte	3,2,1,5,24,9
+	.half	.L429-.L43
+	.byte	1,5,43,9
+	.half	.L430-.L429
+	.byte	1,5,20,9
+	.half	.L431-.L430
+	.byte	1,5,61,9
+	.half	.L432-.L431
+	.byte	1,5,20,9
+	.half	.L433-.L432
+	.byte	1,5,83,7,9
+	.half	.L434-.L433
+	.byte	1,5,76,9
+	.half	.L435-.L434
+	.byte	1,5,95,9
+	.half	.L436-.L435
+	.byte	1,5,72,9
+	.half	.L437-.L436
+	.byte	1,5,109,9
+	.half	.L438-.L437
+	.byte	1,5,107,9
+	.half	.L439-.L438
+	.byte	1,5,133,1,7,9
+	.half	.L440-.L439
+	.byte	1,5,126,9
+	.half	.L441-.L440
+	.byte	1,5,145,1,9
+	.half	.L442-.L441
+	.byte	1,5,122,9
+	.half	.L443-.L442
+	.byte	1,5,163,1,9
+	.half	.L444-.L443
+	.byte	1,5,161,1,9
+	.half	.L445-.L444
+	.byte	1,5,187,1,7,9
+	.half	.L446-.L445
+	.byte	1,5,180,1,9
+	.half	.L447-.L446
+	.byte	1,5,199,1,9
+	.half	.L448-.L447
+	.byte	1,5,176,1,9
+	.half	.L449-.L448
+	.byte	1,5,217,1,9
+	.half	.L450-.L449
+	.byte	1,5,215,1,9
+	.half	.L451-.L450
+	.byte	1,5,41,7,9
+	.half	.L452-.L451
+	.byte	3,2,1,5,11,9
+	.half	.L453-.L452
+	.byte	3,1,1,5,43,9
+	.half	.L454-.L453
+	.byte	3,127,1,5,36,9
+	.half	.L44-.L454
+	.byte	3,3,1,5,29,9
+	.half	.L455-.L44
+	.byte	1,5,48,9
+	.half	.L456-.L455
+	.byte	1,5,25,9
+	.half	.L457-.L456
+	.byte	1,5,66,9
+	.half	.L458-.L457
+	.byte	1,5,25,9
+	.half	.L459-.L458
+	.byte	1,5,88,7,9
+	.half	.L460-.L459
+	.byte	1,5,81,9
+	.half	.L461-.L460
+	.byte	1,5,100,9
+	.half	.L462-.L461
+	.byte	1,5,77,9
+	.half	.L463-.L462
+	.byte	1,5,114,9
+	.half	.L464-.L463
+	.byte	1,5,112,9
+	.half	.L465-.L464
+	.byte	1,5,138,1,7,9
+	.half	.L466-.L465
+	.byte	1,5,131,1,9
+	.half	.L467-.L466
+	.byte	1,5,150,1,9
+	.half	.L468-.L467
+	.byte	1,5,127,9
+	.half	.L469-.L468
+	.byte	1,5,168,1,9
+	.half	.L470-.L469
+	.byte	1,5,166,1,9
+	.half	.L471-.L470
+	.byte	1,5,192,1,7,9
+	.half	.L472-.L471
+	.byte	1,5,185,1,9
+	.half	.L473-.L472
+	.byte	1,5,204,1,9
+	.half	.L474-.L473
+	.byte	1,5,181,1,9
+	.half	.L475-.L474
+	.byte	1,5,222,1,9
+	.half	.L476-.L475
+	.byte	1,5,220,1,9
+	.half	.L477-.L476
+	.byte	1,5,44,7,9
+	.half	.L478-.L477
+	.byte	3,2,1,5,11,9
+	.half	.L479-.L478
+	.byte	3,1,1,5,46,9
+	.half	.L480-.L479
+	.byte	3,127,1,5,16,9
+	.half	.L49-.L480
+	.byte	3,5,1,5,35,9
+	.half	.L42-.L49
+	.byte	3,114,1,5,26,7,9
+	.half	.L481-.L42
+	.byte	3,17,1,5,46,9
+	.half	.L307-.L481
+	.byte	3,1,1,5,31,9
+	.half	.L55-.L307
+	.byte	3,2,1,5,24,9
+	.half	.L482-.L55
+	.byte	1,5,43,9
+	.half	.L483-.L482
+	.byte	1,5,20,9
+	.half	.L484-.L483
+	.byte	1,5,61,9
+	.half	.L485-.L484
+	.byte	1,5,20,9
+	.half	.L486-.L485
+	.byte	1,5,83,7,9
+	.half	.L487-.L486
+	.byte	1,5,76,9
+	.half	.L488-.L487
+	.byte	1,5,95,9
+	.half	.L489-.L488
+	.byte	1,5,72,9
+	.half	.L490-.L489
+	.byte	1,5,109,9
+	.half	.L491-.L490
+	.byte	1,5,107,9
+	.half	.L492-.L491
+	.byte	1,5,133,1,7,9
+	.half	.L493-.L492
+	.byte	1,5,126,9
+	.half	.L494-.L493
+	.byte	1,5,145,1,9
+	.half	.L495-.L494
+	.byte	1,5,122,9
+	.half	.L496-.L495
+	.byte	1,5,163,1,9
+	.half	.L497-.L496
+	.byte	1,5,161,1,9
+	.half	.L498-.L497
+	.byte	1,5,187,1,7,9
+	.half	.L499-.L498
+	.byte	1,5,180,1,9
+	.half	.L500-.L499
+	.byte	1,5,199,1,9
+	.half	.L501-.L500
+	.byte	1,5,176,1,9
+	.half	.L502-.L501
+	.byte	1,5,217,1,9
+	.half	.L503-.L502
+	.byte	1,5,215,1,9
+	.half	.L504-.L503
+	.byte	1,5,41,7,9
+	.half	.L505-.L504
+	.byte	3,2,1,5,10,9
+	.half	.L506-.L505
+	.byte	3,1,1,5,43,9
+	.half	.L507-.L506
+	.byte	3,127,1,5,36,9
+	.half	.L56-.L507
+	.byte	3,3,1,5,29,9
+	.half	.L508-.L56
+	.byte	1,5,48,9
+	.half	.L509-.L508
+	.byte	1,5,25,9
+	.half	.L510-.L509
+	.byte	1,5,66,9
+	.half	.L511-.L510
+	.byte	1,5,25,9
+	.half	.L512-.L511
+	.byte	1,5,88,7,9
+	.half	.L513-.L512
+	.byte	1,5,81,9
+	.half	.L514-.L513
+	.byte	1,5,100,9
+	.half	.L515-.L514
+	.byte	1,5,77,9
+	.half	.L516-.L515
+	.byte	1,5,114,9
+	.half	.L517-.L516
+	.byte	1,5,112,9
+	.half	.L518-.L517
+	.byte	1,5,138,1,7,9
+	.half	.L519-.L518
+	.byte	1,5,131,1,9
+	.half	.L520-.L519
+	.byte	1,5,150,1,9
+	.half	.L521-.L520
+	.byte	1,5,127,9
+	.half	.L522-.L521
+	.byte	1,5,168,1,9
+	.half	.L523-.L522
+	.byte	1,5,166,1,9
+	.half	.L524-.L523
+	.byte	1,5,192,1,7,9
+	.half	.L525-.L524
+	.byte	1,5,185,1,9
+	.half	.L526-.L525
+	.byte	1,5,204,1,9
+	.half	.L527-.L526
+	.byte	1,5,181,1,9
+	.half	.L528-.L527
+	.byte	1,5,222,1,9
+	.half	.L529-.L528
+	.byte	1,5,220,1,9
+	.half	.L530-.L529
+	.byte	1,5,41,7,9
+	.half	.L531-.L530
+	.byte	3,2,1,5,10,9
+	.half	.L532-.L531
+	.byte	3,1,1,5,43,9
+	.half	.L533-.L532
+	.byte	3,127,1,5,16,9
+	.half	.L61-.L533
+	.byte	3,5,1,5,36,9
+	.half	.L54-.L61
+	.byte	3,114,1,5,46,9
+	.half	.L534-.L54
+	.byte	1,5,23,7,9
+	.half	.L535-.L534
+	.byte	3,17,1,5,33,9
+	.half	.L321-.L535
+	.byte	3,1,1,5,17,9
+	.half	.L536-.L321
+	.byte	1,5,49,7,9
+	.half	.L537-.L536
+	.byte	1,5,47,9
+	.half	.L538-.L537
+	.byte	1,5,15,7,9
+	.half	.L539-.L538
+	.byte	3,2,1,5,28,9
+	.half	.L540-.L539
 	.byte	1,5,26,9
 	.half	.L541-.L540
-	.byte	1,5,9,9
-	.half	.L542-.L541
-	.byte	3,1,1,5,20,9
-	.half	.L68-.L542
-	.byte	3,4,1,5,27,9
-	.half	.L543-.L68
-	.byte	1,5,26,9
-	.half	.L544-.L543
-	.byte	1,5,12,9
-	.half	.L310-.L544
-	.byte	3,1,1,5,21,9
-	.half	.L545-.L310
-	.byte	3,1,1,5,43,9
-	.half	.L311-.L545
-	.byte	3,1,1,5,26,9
-	.half	.L66-.L311
-	.byte	3,112,1,5,36,9
-	.half	.L312-.L66
-	.byte	1,5,4,7,9
-	.half	.L71-.L312
-	.byte	3,19,1,5,5,7,9
-	.half	.L546-.L71
-	.byte	3,2,1,5,7,9
-	.half	.L547-.L546
-	.byte	1,5,16,9
-	.half	.L548-.L547
-	.byte	1,5,14,9
-	.half	.L549-.L548
-	.byte	1,5,4,9
-	.half	.L72-.L549
-	.byte	3,2,1,5,5,7,9
-	.half	.L550-.L72
-	.byte	3,2,1,5,7,9
-	.half	.L551-.L550
-	.byte	1,5,23,9
-	.half	.L552-.L551
-	.byte	1,5,13,9
-	.half	.L553-.L552
-	.byte	1,5,6,9
-	.half	.L73-.L553
-	.byte	3,255,0,1,5,10,9
-	.half	.L554-.L73
-	.byte	1,5,20,9
-	.half	.L555-.L554
-	.byte	1,5,22,9
-	.half	.L556-.L555
-	.byte	1,5,31,9
-	.half	.L557-.L556
-	.byte	1,5,33,9
-	.half	.L558-.L557
 	.byte	1,5,29,9
+	.half	.L542-.L541
+	.byte	1,5,34,9
+	.half	.L32-.L542
+	.byte	3,9,1,5,24,9
+	.half	.L70-.L32
+	.byte	3,2,1,5,17,9
+	.half	.L543-.L70
+	.byte	1,5,36,9
+	.half	.L544-.L543
+	.byte	1,5,13,9
+	.half	.L545-.L544
+	.byte	1,5,50,9
+	.half	.L546-.L545
+	.byte	1,5,13,9
+	.half	.L547-.L546
+	.byte	1,5,74,7,9
+	.half	.L548-.L547
+	.byte	1,5,67,9
+	.half	.L549-.L548
+	.byte	1,5,86,9
+	.half	.L550-.L549
+	.byte	1,5,63,9
+	.half	.L551-.L550
+	.byte	1,5,104,9
+	.half	.L552-.L551
+	.byte	1,5,102,9
+	.half	.L553-.L552
+	.byte	1,5,128,1,7,9
+	.half	.L554-.L553
+	.byte	1,5,121,9
+	.half	.L555-.L554
+	.byte	1,5,140,1,9
+	.half	.L556-.L555
+	.byte	1,5,117,9
+	.half	.L557-.L556
+	.byte	1,5,158,1,9
+	.half	.L558-.L557
+	.byte	1,5,156,1,9
 	.half	.L559-.L558
-	.byte	1,5,41,9
+	.byte	1,5,9,7,9
 	.half	.L560-.L559
-	.byte	1,5,17,9
+	.byte	3,2,1,5,11,9
 	.half	.L561-.L560
 	.byte	1,5,18,9
 	.half	.L562-.L561
-	.byte	3,1,1,5,22,9
+	.byte	1,5,12,9
 	.half	.L563-.L562
-	.byte	1,5,40,9
-	.half	.L208-.L563
-	.byte	3,154,126,1,5,38,9
-	.half	.L30-.L208
-	.byte	1,5,11,7,9
-	.half	.L213-.L30
-	.byte	3,232,1,1,5,19,9
-	.half	.L313-.L213
-	.byte	1,5,15,9
-	.half	.L75-.L313
-	.byte	3,2,1,5,3,9
-	.half	.L564-.L75
-	.byte	1,5,22,7,9
+	.byte	3,1,1,5,19,9
+	.half	.L564-.L563
+	.byte	1,5,26,9
 	.half	.L565-.L564
-	.byte	3,1,1,5,14,9
-	.half	.L76-.L565
-	.byte	3,1,1,5,3,9
-	.half	.L566-.L76
-	.byte	1,5,21,7,9
-	.half	.L567-.L566
-	.byte	3,1,1,5,22,9
-	.half	.L77-.L567
-	.byte	3,123,1,5,17,9
-	.half	.L74-.L77
-	.byte	1,5,19,9
-	.half	.L568-.L74
-	.byte	1,5,24,7,9
-	.half	.L214-.L568
-	.byte	3,9,1,5,8,9
-	.half	.L569-.L214
-	.byte	1,5,47,7,9
-	.half	.L570-.L569
-	.byte	1,5,45,9
-	.half	.L571-.L570
-	.byte	1,5,51,7,9
-	.half	.L572-.L571
-	.byte	1,5,60,9
-	.half	.L573-.L572
-	.byte	1,5,8,7,9
-	.half	.L574-.L573
-	.byte	3,2,1,5,16,9
-	.half	.L315-.L574
-	.byte	1,5,9,9
-	.half	.L82-.L315
-	.byte	3,2,1,5,16,9
-	.half	.L316-.L82
-	.byte	1,9
-	.half	.L84-.L316
-	.byte	3,2,1,5,12,9
-	.half	.L575-.L84
-	.byte	1,5,28,9
-	.half	.L576-.L575
-	.byte	1,5,8,9
-	.half	.L577-.L576
-	.byte	1,5,35,9
-	.half	.L578-.L577
-	.byte	1,5,8,9
-	.half	.L579-.L578
-	.byte	1,5,56,7,9
-	.half	.L580-.L579
-	.byte	1,5,60,9
-	.half	.L581-.L580
-	.byte	1,5,52,9
-	.half	.L582-.L581
-	.byte	1,5,72,9
-	.half	.L583-.L582
-	.byte	1,5,48,9
-	.half	.L584-.L583
-	.byte	1,5,79,9
-	.half	.L585-.L584
-	.byte	1,5,77,9
-	.half	.L586-.L585
-	.byte	1,5,100,7,9
-	.half	.L587-.L586
-	.byte	1,5,104,9
-	.half	.L588-.L587
-	.byte	1,5,96,9
-	.half	.L589-.L588
-	.byte	1,5,116,9
-	.half	.L590-.L589
-	.byte	1,5,92,9
-	.half	.L591-.L590
-	.byte	1,5,123,9
-	.half	.L592-.L591
-	.byte	1,5,121,9
-	.half	.L593-.L592
-	.byte	1,5,17,7,9
-	.half	.L594-.L593
-	.byte	3,2,1,5,6,9
-	.half	.L317-.L594
 	.byte	3,1,1,5,18,9
-	.half	.L85-.L317
-	.byte	3,123,1,5,14,9
-	.half	.L83-.L85
-	.byte	1,5,16,9
-	.half	.L595-.L83
-	.byte	1,5,18,7,9
-	.half	.L88-.L595
-	.byte	3,126,1,5,14,9
-	.half	.L81-.L88
-	.byte	1,5,16,9
-	.half	.L596-.L81
-	.byte	1,5,18,7,9
-	.half	.L597-.L596
-	.byte	3,11,1,5,3,9
-	.half	.L598-.L597
-	.byte	1,5,4,7,9
-	.half	.L599-.L598
-	.byte	3,2,1,5,16,9
-	.half	.L600-.L599
-	.byte	1,5,15,9
-	.half	.L601-.L600
-	.byte	1,5,4,9
-	.half	.L602-.L601
-	.byte	3,1,1,5,14,9
-	.half	.L603-.L602
-	.byte	1,5,13,9
-	.half	.L604-.L603
-	.byte	1,5,8,9
-	.half	.L78-.L604
-	.byte	3,3,1,5,5,9
-	.half	.L605-.L78
-	.byte	1,5,18,7,9
-	.half	.L606-.L605
-	.byte	3,1,1,5,14,9
-	.half	.L318-.L606
-	.byte	3,1,1,9
-	.half	.L320-.L318
-	.byte	3,2,1,5,11,9
-	.half	.L322-.L320
-	.byte	3,1,1,5,8,9
-	.half	.L216-.L322
-	.byte	3,1,1,5,11,9
-	.half	.L325-.L216
-	.byte	3,1,1,5,30,9
-	.half	.L326-.L325
+	.half	.L566-.L565
+	.byte	3,1,1,5,25,9
+	.half	.L567-.L566
 	.byte	1,5,24,9
-	.half	.L92-.L326
-	.byte	3,2,1,5,25,9
-	.half	.L607-.L92
-	.byte	3,1,1,5,27,9
-	.half	.L608-.L607
-	.byte	1,5,24,9
-	.half	.L609-.L608
-	.byte	1,5,25,9
-	.half	.L610-.L609
-	.byte	3,2,1,5,27,9
-	.half	.L611-.L610
-	.byte	1,5,31,9
-	.half	.L612-.L611
-	.byte	1,5,33,9
-	.half	.L613-.L612
-	.byte	1,5,24,9
-	.half	.L614-.L613
-	.byte	1,9
-	.half	.L615-.L614
-	.byte	3,1,1,5,32,9
-	.half	.L616-.L615
-	.byte	3,122,1,5,30,9
-	.half	.L91-.L616
-	.byte	1,5,67,7,9
-	.half	.L617-.L91
-	.byte	3,8,1,5,76,9
-	.half	.L321-.L617
-	.byte	1,5,58,9
-	.half	.L618-.L321
-	.byte	1,5,98,9
-	.half	.L323-.L618
-	.byte	1,5,107,9
-	.half	.L319-.L323
-	.byte	1,5,89,9
-	.half	.L619-.L319
-	.byte	1,5,79,9
-	.half	.L324-.L619
-	.byte	1,5,13,9
-	.half	.L272-.L324
-	.byte	3,2,1,5,41,9
-	.half	.L327-.L272
+	.half	.L568-.L567
 	.byte	1,5,9,9
-	.half	.L94-.L327
-	.byte	3,2,1,5,16,9
-	.half	.L620-.L94
-	.byte	1,5,18,9
-	.half	.L621-.L620
-	.byte	1,5,15,9
-	.half	.L622-.L621
-	.byte	1,5,9,9
-	.half	.L623-.L622
-	.byte	3,1,1,5,16,9
-	.half	.L624-.L623
-	.byte	1,5,18,9
-	.half	.L625-.L624
-	.byte	1,5,15,9
-	.half	.L626-.L625
-	.byte	1,5,43,9
-	.half	.L627-.L626
-	.byte	3,125,1,5,41,9
-	.half	.L93-.L627
-	.byte	1,5,19,7,9
-	.half	.L218-.L93
-	.byte	3,5,1,5,8,9
-	.half	.L328-.L218
-	.byte	3,1,1,5,16,9
-	.half	.L330-.L328
+	.half	.L569-.L568
+	.byte	3,1,1,5,20,9
+	.half	.L71-.L569
+	.byte	3,4,1,5,27,9
+	.half	.L570-.L71
+	.byte	1,5,26,9
+	.half	.L571-.L570
 	.byte	1,5,11,9
-	.half	.L96-.L330
-	.byte	3,2,1,5,19,9
-	.half	.L331-.L96
-	.byte	1,5,18,9
-	.half	.L98-.L331
-	.byte	3,2,1,5,14,9
-	.half	.L628-.L98
-	.byte	1,5,30,9
-	.half	.L629-.L628
-	.byte	1,5,10,9
-	.half	.L630-.L629
-	.byte	1,5,37,9
-	.half	.L631-.L630
-	.byte	1,5,10,9
-	.half	.L632-.L631
-	.byte	1,5,58,7,9
-	.half	.L633-.L632
-	.byte	1,5,62,9
-	.half	.L634-.L633
-	.byte	1,5,54,9
-	.half	.L635-.L634
-	.byte	1,5,74,9
-	.half	.L636-.L635
+	.half	.L572-.L571
+	.byte	3,1,1,5,22,9
+	.half	.L573-.L572
+	.byte	3,1,1,5,47,9
+	.half	.L574-.L573
+	.byte	3,1,1,5,34,9
+	.half	.L69-.L574
+	.byte	3,113,1,5,36,7,9
+	.half	.L74-.L69
+	.byte	3,20,1,5,24,9
+	.half	.L76-.L74
+	.byte	3,2,1,5,17,9
+	.half	.L575-.L76
+	.byte	1,5,36,9
+	.half	.L322-.L575
+	.byte	1,5,13,9
+	.half	.L323-.L322
 	.byte	1,5,50,9
-	.half	.L637-.L636
-	.byte	1,5,81,9
-	.half	.L638-.L637
+	.half	.L576-.L323
+	.byte	1,5,13,9
+	.half	.L577-.L576
+	.byte	1,5,74,7,9
+	.half	.L578-.L577
+	.byte	1,5,67,9
+	.half	.L579-.L578
+	.byte	1,5,86,9
+	.half	.L324-.L579
+	.byte	1,5,63,9
+	.half	.L325-.L324
+	.byte	1,5,104,9
+	.half	.L580-.L325
+	.byte	1,5,102,9
+	.half	.L581-.L580
+	.byte	1,5,128,1,7,9
+	.half	.L582-.L581
+	.byte	1,5,121,9
+	.half	.L583-.L582
+	.byte	1,5,140,1,9
+	.half	.L326-.L583
+	.byte	1,5,117,9
+	.half	.L327-.L326
+	.byte	1,5,158,1,9
+	.half	.L584-.L327
+	.byte	1,5,156,1,9
+	.half	.L585-.L584
+	.byte	1,5,9,7,9
+	.half	.L586-.L585
+	.byte	3,2,1,5,11,9
+	.half	.L587-.L586
+	.byte	1,5,18,9
+	.half	.L328-.L587
+	.byte	1,5,12,9
+	.half	.L329-.L328
+	.byte	3,2,1,5,18,9
+	.half	.L330-.L329
+	.byte	1,9
+	.half	.L331-.L330
+	.byte	3,1,1,5,20,9
+	.half	.L588-.L331
+	.byte	3,1,1,5,27,9
+	.half	.L589-.L588
+	.byte	1,5,26,9
+	.half	.L590-.L589
+	.byte	1,5,9,9
+	.half	.L591-.L590
+	.byte	3,1,1,5,20,9
+	.half	.L77-.L591
+	.byte	3,4,1,5,27,9
+	.half	.L592-.L77
+	.byte	1,5,26,9
+	.half	.L593-.L592
+	.byte	1,5,12,9
+	.half	.L332-.L593
+	.byte	3,1,1,5,21,9
+	.half	.L594-.L332
+	.byte	3,1,1,5,43,9
+	.half	.L595-.L594
+	.byte	3,1,1,5,26,9
+	.half	.L75-.L595
+	.byte	3,112,1,5,36,9
+	.half	.L333-.L75
+	.byte	1,5,4,7,9
+	.half	.L80-.L333
+	.byte	3,19,1,5,5,7,9
+	.half	.L596-.L80
+	.byte	3,2,1,5,7,9
+	.half	.L597-.L596
+	.byte	1,5,16,9
+	.half	.L598-.L597
+	.byte	1,5,14,9
+	.half	.L599-.L598
+	.byte	1,5,4,9
+	.half	.L81-.L599
+	.byte	3,2,1,5,5,7,9
+	.half	.L600-.L81
+	.byte	3,2,1,5,7,9
+	.half	.L601-.L600
+	.byte	1,5,23,9
+	.half	.L602-.L601
+	.byte	1,5,13,9
+	.half	.L603-.L602
+	.byte	1,5,6,9
+	.half	.L82-.L603
+	.byte	3,255,0,1,5,10,9
+	.half	.L604-.L82
+	.byte	1,5,20,9
+	.half	.L605-.L604
+	.byte	1,5,22,9
+	.half	.L606-.L605
+	.byte	1,5,31,9
+	.half	.L607-.L606
+	.byte	1,5,33,9
+	.half	.L608-.L607
+	.byte	1,5,29,9
+	.half	.L609-.L608
+	.byte	1,5,41,9
+	.half	.L610-.L609
+	.byte	1,5,17,9
+	.half	.L611-.L610
+	.byte	1,5,18,9
+	.half	.L612-.L611
+	.byte	3,1,1,5,22,9
+	.half	.L613-.L612
+	.byte	1,5,40,9
+	.half	.L217-.L613
+	.byte	3,142,126,1,5,38,9
+	.half	.L30-.L217
+	.byte	1,5,11,7,9
+	.half	.L223-.L30
+	.byte	3,244,1,1,5,19,9
+	.half	.L334-.L223
+	.byte	1,5,15,9
+	.half	.L84-.L334
+	.byte	3,2,1,5,3,9
+	.half	.L614-.L84
+	.byte	1,5,22,7,9
+	.half	.L615-.L614
+	.byte	3,1,1,5,14,9
+	.half	.L85-.L615
+	.byte	3,1,1,5,3,9
+	.half	.L616-.L85
+	.byte	1,5,21,7,9
+	.half	.L617-.L616
+	.byte	3,1,1,5,22,9
+	.half	.L86-.L617
+	.byte	3,123,1,5,17,9
+	.half	.L83-.L86
+	.byte	1,5,19,9
+	.half	.L618-.L83
+	.byte	1,5,24,7,9
+	.half	.L224-.L618
+	.byte	3,9,1,5,8,9
+	.half	.L619-.L224
+	.byte	1,5,47,7,9
+	.half	.L620-.L619
+	.byte	1,5,45,9
+	.half	.L621-.L620
+	.byte	1,5,51,7,9
+	.half	.L622-.L621
+	.byte	1,5,60,9
+	.half	.L623-.L622
+	.byte	1,5,8,7,9
+	.half	.L624-.L623
+	.byte	3,2,1,5,16,9
+	.half	.L304-.L624
+	.byte	1,5,9,9
+	.half	.L91-.L304
+	.byte	3,2,1,5,16,9
+	.half	.L337-.L91
+	.byte	1,9
+	.half	.L93-.L337
+	.byte	3,2,1,5,12,9
+	.half	.L625-.L93
+	.byte	1,5,28,9
+	.half	.L626-.L625
+	.byte	1,5,8,9
+	.half	.L627-.L626
+	.byte	1,5,35,9
+	.half	.L628-.L627
+	.byte	1,5,8,9
+	.half	.L629-.L628
+	.byte	1,5,56,7,9
+	.half	.L630-.L629
+	.byte	1,5,60,9
+	.half	.L631-.L630
+	.byte	1,5,52,9
+	.half	.L632-.L631
+	.byte	1,5,72,9
+	.half	.L633-.L632
+	.byte	1,5,48,9
+	.half	.L634-.L633
 	.byte	1,5,79,9
+	.half	.L635-.L634
+	.byte	1,5,77,9
+	.half	.L636-.L635
+	.byte	1,5,100,7,9
+	.half	.L637-.L636
+	.byte	1,5,104,9
+	.half	.L638-.L637
+	.byte	1,5,96,9
 	.half	.L639-.L638
-	.byte	1,5,102,7,9
+	.byte	1,5,116,9
 	.half	.L640-.L639
-	.byte	1,5,106,9
+	.byte	1,5,92,9
 	.half	.L641-.L640
-	.byte	1,5,98,9
-	.half	.L642-.L641
-	.byte	1,5,118,9
-	.half	.L643-.L642
-	.byte	1,5,94,9
-	.half	.L644-.L643
-	.byte	1,5,125,9
-	.half	.L645-.L644
 	.byte	1,5,123,9
-	.half	.L646-.L645
+	.half	.L642-.L641
+	.byte	1,5,121,9
+	.half	.L643-.L642
+	.byte	1,5,17,7,9
+	.half	.L644-.L643
+	.byte	3,2,1,5,6,9
+	.half	.L338-.L644
+	.byte	3,1,1,5,18,9
+	.half	.L94-.L338
+	.byte	3,123,1,5,14,9
+	.half	.L92-.L94
+	.byte	1,5,16,9
+	.half	.L645-.L92
+	.byte	1,5,18,7,9
+	.half	.L97-.L645
+	.byte	3,126,1,5,14,9
+	.half	.L90-.L97
+	.byte	1,5,16,9
+	.half	.L646-.L90
 	.byte	1,5,18,7,9
 	.half	.L647-.L646
-	.byte	3,2,1,5,8,9
-	.half	.L332-.L647
-	.byte	3,1,1,5,21,9
-	.half	.L99-.L332
-	.byte	3,123,1,5,17,9
-	.half	.L97-.L99
-	.byte	1,5,19,9
-	.half	.L648-.L97
-	.byte	1,5,18,7,9
-	.half	.L102-.L648
-	.byte	3,126,1,5,14,9
-	.half	.L95-.L102
-	.byte	1,5,16,9
-	.half	.L649-.L95
-	.byte	1,5,13,7,9
+	.byte	3,11,1,5,3,9
+	.half	.L648-.L647
+	.byte	1,5,4,7,9
+	.half	.L649-.L648
+	.byte	3,2,1,5,16,9
 	.half	.L650-.L649
-	.byte	3,12,1,5,38,9
-	.half	.L333-.L650
-	.byte	1,5,7,9
-	.half	.L104-.L333
-	.byte	3,2,1,5,9,9
-	.half	.L651-.L104
+	.byte	1,5,15,9
+	.half	.L651-.L650
 	.byte	1,5,4,9
 	.half	.L652-.L651
-	.byte	1,5,20,7,9
-	.half	.L653-.L652
-	.byte	3,2,1,5,5,9
-	.half	.L335-.L653
-	.byte	3,1,1,5,40,9
-	.half	.L105-.L335
-	.byte	3,123,1,5,28,9
-	.half	.L103-.L105
-	.byte	1,5,38,9
-	.half	.L654-.L103
-	.byte	1,5,18,7,9
-	.half	.L106-.L654
-	.byte	3,8,1,5,13,9
-	.half	.L314-.L106
-	.byte	3,1,1,5,49,9
-	.half	.L337-.L314
-	.byte	1,5,7,9
-	.half	.L108-.L337
-	.byte	3,2,1,5,9,9
-	.half	.L655-.L108
-	.byte	1,5,4,9
-	.half	.L656-.L655
-	.byte	1,5,20,7,9
-	.half	.L657-.L656
-	.byte	3,1,1,5,51,9
-	.half	.L109-.L657
-	.byte	3,125,1,5,47,9
-	.half	.L107-.L109
-	.byte	1,5,49,9
-	.half	.L658-.L107
-	.byte	1,5,19,7,9
-	.half	.L659-.L658
-	.byte	3,5,1,5,49,9
-	.half	.L334-.L659
-	.byte	1,5,7,9
-	.half	.L111-.L334
-	.byte	3,2,1,5,9,9
-	.half	.L660-.L111
-	.byte	1,5,4,9
-	.half	.L661-.L660
-	.byte	1,5,21,7,9
-	.half	.L662-.L661
-	.byte	3,1,1,5,51,9
-	.half	.L112-.L662
-	.byte	3,125,1,5,49,9
-	.half	.L110-.L112
-	.byte	1,5,23,7,9
-	.half	.L339-.L110
-	.byte	3,5,1,5,19,9
-	.half	.L340-.L339
-	.byte	3,1,1,5,35,9
-	.half	.L663-.L340
-	.byte	1,5,13,9
-	.half	.L114-.L663
-	.byte	3,2,1,5,15,9
-	.half	.L664-.L114
-	.byte	1,5,31,9
-	.half	.L665-.L664
-	.byte	1,5,10,9
-	.half	.L666-.L665
-	.byte	1,5,25,7,9
-	.half	.L667-.L666
-	.byte	3,1,1,5,37,9
-	.half	.L115-.L667
-	.byte	3,125,1,5,32,9
-	.half	.L113-.L115
-	.byte	1,5,35,9
-	.half	.L668-.L113
-	.byte	1,5,32,7,9
-	.half	.L342-.L668
-	.byte	3,5,1,5,47,9
-	.half	.L338-.L342
-	.byte	1,5,6,9
-	.half	.L669-.L338
-	.byte	1,5,83,7,9
-	.half	.L670-.L669
-	.byte	1,5,67,9
-	.half	.L671-.L670
-	.byte	1,5,103,7,9
-	.half	.L672-.L671
-	.byte	1,5,123,7,9
-	.half	.L673-.L672
-	.byte	1,5,139,1,7,9
-	.half	.L674-.L673
-	.byte	1,5,138,1,9
-	.half	.L675-.L674
-	.byte	1,5,159,1,7,9
-	.half	.L676-.L675
-	.byte	1,5,157,1,9
-	.half	.L677-.L676
-	.byte	1,5,4,7,9
-	.half	.L678-.L677
-	.byte	3,2,1,5,15,9
-	.half	.L679-.L678
-	.byte	1,5,14,9
-	.half	.L680-.L679
-	.byte	1,5,4,9
-	.half	.L681-.L680
 	.byte	3,1,1,5,14,9
-	.half	.L682-.L681
+	.half	.L653-.L652
 	.byte	1,5,13,9
+	.half	.L654-.L653
+	.byte	1,5,8,9
+	.half	.L87-.L654
+	.byte	3,3,1,5,5,9
+	.half	.L655-.L87
+	.byte	1,5,18,7,9
+	.half	.L656-.L655
+	.byte	3,1,1,5,14,9
+	.half	.L339-.L656
+	.byte	3,1,1,9
+	.half	.L341-.L339
+	.byte	3,2,1,5,11,9
+	.half	.L343-.L341
+	.byte	3,1,1,5,8,9
+	.half	.L226-.L343
+	.byte	3,1,1,5,11,9
+	.half	.L285-.L226
+	.byte	3,1,1,5,30,9
+	.half	.L347-.L285
+	.byte	1,5,24,9
+	.half	.L101-.L347
+	.byte	3,2,1,5,25,9
+	.half	.L657-.L101
+	.byte	3,1,1,5,27,9
+	.half	.L658-.L657
+	.byte	1,5,24,9
+	.half	.L659-.L658
+	.byte	1,5,25,9
+	.half	.L660-.L659
+	.byte	3,2,1,5,27,9
+	.half	.L661-.L660
+	.byte	1,5,31,9
+	.half	.L662-.L661
+	.byte	1,5,33,9
+	.half	.L663-.L662
+	.byte	1,5,24,9
+	.half	.L664-.L663
+	.byte	1,9
+	.half	.L665-.L664
+	.byte	3,1,1,5,32,9
+	.half	.L666-.L665
+	.byte	3,122,1,5,30,9
+	.half	.L100-.L666
+	.byte	1,5,67,7,9
+	.half	.L667-.L100
+	.byte	3,8,1,5,76,9
+	.half	.L342-.L667
+	.byte	1,5,58,9
+	.half	.L336-.L342
+	.byte	1,5,98,9
+	.half	.L344-.L336
+	.byte	1,5,107,9
+	.half	.L340-.L344
+	.byte	1,5,89,9
+	.half	.L668-.L340
+	.byte	1,5,79,9
+	.half	.L345-.L668
+	.byte	1,5,13,9
+	.half	.L282-.L345
+	.byte	3,2,1,5,41,9
+	.half	.L348-.L282
+	.byte	1,5,9,9
+	.half	.L103-.L348
+	.byte	3,2,1,5,16,9
+	.half	.L669-.L103
+	.byte	1,5,18,9
+	.half	.L670-.L669
+	.byte	1,5,15,9
+	.half	.L671-.L670
+	.byte	1,5,9,9
+	.half	.L672-.L671
+	.byte	3,1,1,5,16,9
+	.half	.L673-.L672
+	.byte	1,5,18,9
+	.half	.L674-.L673
+	.byte	1,5,15,9
+	.half	.L675-.L674
+	.byte	1,5,43,9
+	.half	.L676-.L675
+	.byte	3,125,1,5,41,9
+	.half	.L102-.L676
+	.byte	1,5,19,7,9
+	.half	.L228-.L102
+	.byte	3,5,1,5,8,9
+	.half	.L349-.L228
+	.byte	3,1,1,5,16,9
+	.half	.L351-.L349
+	.byte	1,5,11,9
+	.half	.L105-.L351
+	.byte	3,2,1,5,19,9
+	.half	.L352-.L105
+	.byte	1,5,18,9
+	.half	.L107-.L352
+	.byte	3,2,1,5,14,9
+	.half	.L677-.L107
+	.byte	1,5,30,9
+	.half	.L678-.L677
+	.byte	1,5,10,9
+	.half	.L679-.L678
+	.byte	1,5,37,9
+	.half	.L680-.L679
+	.byte	1,5,10,9
+	.half	.L681-.L680
+	.byte	1,5,58,7,9
+	.half	.L682-.L681
+	.byte	1,5,62,9
 	.half	.L683-.L682
+	.byte	1,5,54,9
+	.half	.L684-.L683
+	.byte	1,5,74,9
+	.half	.L685-.L684
+	.byte	1,5,50,9
+	.half	.L686-.L685
+	.byte	1,5,81,9
+	.half	.L687-.L686
+	.byte	1,5,79,9
+	.half	.L688-.L687
+	.byte	1,5,102,7,9
+	.half	.L689-.L688
+	.byte	1,5,106,9
+	.half	.L690-.L689
+	.byte	1,5,98,9
+	.half	.L691-.L690
+	.byte	1,5,118,9
+	.half	.L692-.L691
+	.byte	1,5,94,9
+	.half	.L693-.L692
+	.byte	1,5,125,9
+	.half	.L694-.L693
+	.byte	1,5,123,9
+	.half	.L695-.L694
+	.byte	1,5,18,7,9
+	.half	.L696-.L695
+	.byte	3,2,1,5,8,9
+	.half	.L353-.L696
+	.byte	3,1,1,5,21,9
+	.half	.L108-.L353
+	.byte	3,123,1,5,17,9
+	.half	.L106-.L108
+	.byte	1,5,19,9
+	.half	.L697-.L106
+	.byte	1,5,18,7,9
+	.half	.L111-.L697
+	.byte	3,126,1,5,14,9
+	.half	.L104-.L111
+	.byte	1,5,16,9
+	.half	.L698-.L104
+	.byte	1,5,13,7,9
+	.half	.L699-.L698
+	.byte	3,12,1,5,38,9
+	.half	.L354-.L699
+	.byte	1,5,7,9
+	.half	.L113-.L354
+	.byte	3,2,1,5,9,9
+	.half	.L700-.L113
+	.byte	1,5,4,9
+	.half	.L701-.L700
+	.byte	1,5,20,7,9
+	.half	.L702-.L701
+	.byte	3,2,1,5,5,9
+	.half	.L356-.L702
+	.byte	3,1,1,5,40,9
+	.half	.L114-.L356
+	.byte	3,123,1,5,28,9
+	.half	.L112-.L114
+	.byte	1,5,38,9
+	.half	.L703-.L112
+	.byte	1,5,18,7,9
+	.half	.L115-.L703
+	.byte	3,8,1,5,13,9
+	.half	.L335-.L115
+	.byte	3,1,1,5,49,9
+	.half	.L358-.L335
+	.byte	1,5,7,9
+	.half	.L117-.L358
+	.byte	3,2,1,5,9,9
+	.half	.L704-.L117
+	.byte	1,5,4,9
+	.half	.L705-.L704
+	.byte	1,5,20,7,9
+	.half	.L706-.L705
+	.byte	3,1,1,5,51,9
+	.half	.L118-.L706
+	.byte	3,125,1,5,47,9
+	.half	.L116-.L118
+	.byte	1,5,49,9
+	.half	.L707-.L116
+	.byte	1,5,19,7,9
+	.half	.L708-.L707
+	.byte	3,5,1,5,49,9
+	.half	.L709-.L708
+	.byte	1,5,7,9
+	.half	.L120-.L709
+	.byte	3,2,1,5,9,9
+	.half	.L710-.L120
+	.byte	1,5,4,9
+	.half	.L711-.L710
+	.byte	1,5,21,7,9
+	.half	.L712-.L711
+	.byte	3,1,1,5,51,9
+	.half	.L121-.L712
+	.byte	3,125,1,5,49,9
+	.half	.L119-.L121
+	.byte	1,5,23,7,9
+	.half	.L362-.L119
+	.byte	3,5,1,5,19,9
+	.half	.L355-.L362
+	.byte	3,1,1,5,35,9
+	.half	.L364-.L355
+	.byte	1,5,13,9
+	.half	.L123-.L364
+	.byte	3,2,1,5,15,9
+	.half	.L713-.L123
+	.byte	1,5,31,9
+	.half	.L714-.L713
+	.byte	1,5,10,9
+	.half	.L715-.L714
+	.byte	1,5,25,7,9
+	.half	.L716-.L715
+	.byte	3,1,1,5,37,9
+	.half	.L124-.L716
+	.byte	3,125,1,5,32,9
+	.half	.L122-.L124
+	.byte	1,5,35,9
+	.half	.L717-.L122
+	.byte	1,5,32,7,9
+	.half	.L366-.L717
+	.byte	3,5,1,5,47,9
+	.half	.L365-.L366
+	.byte	1,5,6,9
+	.half	.L718-.L365
+	.byte	1,5,83,7,9
+	.half	.L719-.L718
+	.byte	1,5,67,9
+	.half	.L720-.L719
+	.byte	1,5,103,9
+	.half	.L721-.L720
+	.byte	1,5,123,7,9
+	.half	.L722-.L721
+	.byte	1,5,139,1,7,9
+	.half	.L723-.L722
+	.byte	1,5,138,1,9
+	.half	.L368-.L723
+	.byte	1,5,159,1,7,9
+	.half	.L724-.L368
+	.byte	1,5,157,1,9
+	.half	.L725-.L724
+	.byte	1,5,4,7,9
+	.half	.L726-.L725
+	.byte	3,2,1,5,15,9
+	.half	.L727-.L726
+	.byte	1,5,14,9
+	.half	.L728-.L727
+	.byte	1,5,4,9
+	.half	.L729-.L728
+	.byte	3,1,1,5,14,9
+	.half	.L730-.L729
+	.byte	1,5,13,9
+	.half	.L731-.L730
 	.byte	1,5,1,9
-	.half	.L90-.L683
+	.half	.L99-.L731
 	.byte	3,244,0,1,7,9
-	.half	.L138-.L90
+	.half	.L147-.L99
 	.byte	0,1,1
-.L348:
+.L374:
 	.sdecl	'.debug_ranges',debug,cluster('searchline_image')
 	.sect	'.debug_ranges'
-.L137:
-	.word	-1,.L129,0,.L138-.L129,0,0
+.L146:
+	.word	-1,.L138,0,.L147-.L138,0,0
 	.sdecl	'.debug_info',debug,cluster('change_image')
 	.sect	'.debug_info'
-.L139:
+.L148:
 	.word	207
 	.half	3
-	.word	.L140
+	.word	.L149
 	.byte	4,1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1
-	.word	.L142,.L141
+	.word	.L151,.L150
 	.byte	2
-	.word	.L130
+	.word	.L139
 	.byte	3
 	.byte	'change_image',0,1,75,6,1,1,1
-	.word	.L125,.L220,.L124
+	.word	.L134,.L230,.L133
 	.byte	4
 	.byte	'p',0,1,75,26
-	.word	.L157,.L221
+	.word	.L166,.L231
 	.byte	5
-	.word	.L125,.L220
+	.word	.L134,.L230
 	.byte	6
 	.byte	'CurL',0,1,77,6
-	.word	.L159,.L222
+	.word	.L168,.L232
 	.byte	6
 	.byte	'Start',0,1,77,13
-	.word	.L159,.L223
+	.word	.L168,.L233
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('change_image')
 	.sect	'.debug_abbrev'
-.L140:
+.L149:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
 	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('change_image')
 	.sect	'.debug_line'
-.L141:
-	.word	.L685-.L684
-.L684:
+.L150:
+	.word	.L733-.L732
+.L732:
 	.half	3
-	.word	.L687-.L686
-.L686:
+	.word	.L735-.L734
+.L734:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0,0
-.L687:
+.L735:
 	.byte	5,13,7,0,5,2
-	.word	.L125
+	.word	.L134
 	.byte	3,205,0,1,5,40,9
-	.half	.L263-.L125
+	.half	.L273-.L134
 	.byte	1,5,14,9
-	.half	.L9-.L263
+	.half	.L9-.L273
 	.byte	3,2,1,5,7,9
-	.half	.L688-.L9
+	.half	.L736-.L9
 	.byte	1,5,27,9
-	.half	.L689-.L688
+	.half	.L737-.L736
 	.byte	1,5,29,9
-	.half	.L690-.L689
+	.half	.L738-.L737
 	.byte	1,5,26,9
-	.half	.L691-.L690
+	.half	.L739-.L738
 	.byte	1,5,38,9
-	.half	.L692-.L691
+	.half	.L740-.L739
 	.byte	1,5,37,9
-	.half	.L693-.L692
+	.half	.L741-.L740
 	.byte	1,5,14,9
-	.half	.L694-.L693
+	.half	.L742-.L741
 	.byte	3,1,1,5,7,9
-	.half	.L695-.L694
+	.half	.L743-.L742
 	.byte	1,5,27,9
-	.half	.L696-.L695
+	.half	.L744-.L743
 	.byte	1,5,29,9
-	.half	.L697-.L696
+	.half	.L745-.L744
 	.byte	1,5,26,9
-	.half	.L698-.L697
+	.half	.L746-.L745
 	.byte	1,5,38,9
-	.half	.L699-.L698
+	.half	.L747-.L746
 	.byte	1,5,37,9
-	.half	.L700-.L699
+	.half	.L748-.L747
 	.byte	1,5,14,9
-	.half	.L701-.L700
+	.half	.L749-.L748
 	.byte	3,1,1,5,7,9
-	.half	.L702-.L701
+	.half	.L750-.L749
 	.byte	1,5,27,9
-	.half	.L703-.L702
+	.half	.L751-.L750
 	.byte	1,5,31,9
-	.half	.L704-.L703
+	.half	.L752-.L751
 	.byte	1,5,26,9
-	.half	.L705-.L704
+	.half	.L753-.L752
 	.byte	1,5,39,9
-	.half	.L706-.L705
+	.half	.L754-.L753
 	.byte	1,5,38,9
-	.half	.L707-.L706
+	.half	.L755-.L754
 	.byte	1,5,42,9
-	.half	.L708-.L707
+	.half	.L756-.L755
 	.byte	3,124,1,5,40,9
-	.half	.L8-.L708
+	.half	.L8-.L756
 	.byte	1,5,1,7,9
-	.half	.L709-.L8
+	.half	.L757-.L8
 	.byte	3,6,1,7,9
-	.half	.L143-.L709
+	.half	.L152-.L757
 	.byte	0,1,1
-.L685:
+.L733:
 	.sdecl	'.debug_ranges',debug,cluster('change_image')
 	.sect	'.debug_ranges'
-.L142:
-	.word	-1,.L125,0,.L143-.L125,0,0
+.L151:
+	.word	-1,.L134,0,.L152-.L134,0,0
 	.sdecl	'.debug_info',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_info'
-.L144:
+.L153:
 	.word	366
 	.half	3
-	.word	.L145
+	.word	.L154
 	.byte	4,1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1
-	.word	.L147,.L146
+	.word	.L156,.L155
 	.byte	2
-	.word	.L130
+	.word	.L139
 	.byte	3
 	.byte	'GetMeanThreshold',0,1,91,5
-	.word	.L159
+	.word	.L168
 	.byte	1,1,1
-	.word	.L127,.L224,.L126
+	.word	.L136,.L234,.L135
 	.byte	4
 	.byte	'p',0,1,91,30
-	.word	.L157,.L225
+	.word	.L166,.L235
 	.byte	5
-	.word	.L127,.L224
+	.word	.L136,.L234
 	.byte	6
 	.byte	'HistGram',0,1,93,6
-	.word	.L226,.L227
+	.word	.L236,.L237
 	.byte	6
 	.byte	'i',0,1,94,8
-	.word	.L162,.L228
+	.word	.L171,.L238
 	.byte	5
-	.word	.L229,.L230
+	.word	.L239,.L240
 	.byte	6
 	.byte	'Y',0,1,95,11
-	.word	.L159,.L231
+	.word	.L168,.L241
 	.byte	0,5
-	.word	.L230,.L232
+	.word	.L240,.L242
 	.byte	6
 	.byte	'CurL',0,1,99,13
-	.word	.L159,.L233
+	.word	.L168,.L243
 	.byte	5
-	.word	.L13,.L234
+	.word	.L13,.L244
 	.byte	6
 	.byte	'CurPoint',0,1,101,17
-	.word	.L159,.L235
+	.word	.L168,.L245
 	.byte	0,0,5
-	.word	.L232,.L224
+	.word	.L242,.L234
 	.byte	6
 	.byte	'Sum',0,1,107,9
-	.word	.L159,.L236
+	.word	.L168,.L246
 	.byte	6
 	.byte	'Amount',0,1,107,18
-	.word	.L159,.L237
+	.word	.L168,.L247
 	.byte	5
-	.word	.L238,.L239
+	.word	.L248,.L249
 	.byte	6
 	.byte	'Y',0,1,108,14
-	.word	.L159,.L240
+	.word	.L168,.L250
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_abbrev'
-.L145:
+.L154:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
 	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_line'
-.L146:
-	.word	.L711-.L710
-.L710:
+.L155:
+	.word	.L759-.L758
+.L758:
 	.half	3
-	.word	.L713-.L712
-.L712:
+	.word	.L761-.L760
+.L760:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0,0
-.L713:
+.L761:
 	.byte	5,5,7,0,5,2
-	.word	.L127
+	.word	.L136
 	.byte	3,218,0,1,5,13,9
-	.half	.L229-.L127
+	.half	.L239-.L136
 	.byte	3,4,1,5,25,9
-	.half	.L264-.L229
+	.half	.L274-.L239
 	.byte	1,5,11,9
-	.half	.L11-.L264
+	.half	.L11-.L274
 	.byte	3,2,1,5,15,9
-	.half	.L714-.L11
+	.half	.L762-.L11
 	.byte	1,5,14,9
-	.half	.L715-.L714
+	.half	.L763-.L762
 	.byte	1,5,28,9
-	.half	.L716-.L715
+	.half	.L764-.L763
 	.byte	3,126,1,5,22,9
-	.half	.L10-.L716
+	.half	.L10-.L764
 	.byte	1,5,25,9
-	.half	.L717-.L10
+	.half	.L765-.L10
 	.byte	1,5,17,7,9
-	.half	.L230-.L717
+	.half	.L240-.L765
 	.byte	3,4,1,5,34,9
-	.half	.L265-.L230
+	.half	.L275-.L240
 	.byte	1,5,25,9
-	.half	.L13-.L265
+	.half	.L13-.L275
 	.byte	3,2,1,5,46,9
-	.half	.L267-.L13
+	.half	.L277-.L13
 	.byte	1,5,17,9
-	.half	.L15-.L267
+	.half	.L15-.L277
 	.byte	3,2,1,5,10,9
-	.half	.L718-.L15
+	.half	.L766-.L15
 	.byte	1,5,29,9
-	.half	.L719-.L718
+	.half	.L767-.L766
 	.byte	1,5,6,9
-	.half	.L720-.L719
+	.half	.L768-.L767
 	.byte	1,5,12,9
-	.half	.L268-.L720
+	.half	.L278-.L768
 	.byte	3,1,1,5,15,9
-	.half	.L721-.L268
+	.half	.L769-.L278
 	.byte	1,5,55,9
-	.half	.L722-.L721
+	.half	.L770-.L769
 	.byte	3,125,1,5,37,9
-	.half	.L14-.L722
+	.half	.L14-.L770
 	.byte	1,5,46,9
-	.half	.L723-.L14
+	.half	.L771-.L14
 	.byte	1,5,39,7,9
-	.half	.L234-.L723
+	.half	.L244-.L771
 	.byte	3,126,1,5,25,9
-	.half	.L12-.L234
+	.half	.L12-.L244
 	.byte	1,5,34,9
-	.half	.L724-.L12
+	.half	.L772-.L12
 	.byte	1,5,13,7,9
-	.half	.L232-.L724
+	.half	.L242-.L772
 	.byte	3,8,1,5,25,9
-	.half	.L266-.L232
+	.half	.L276-.L242
 	.byte	1,5,16,9
-	.half	.L238-.L266
+	.half	.L248-.L276
 	.byte	3,1,1,5,28,9
-	.half	.L269-.L238
+	.half	.L279-.L248
 	.byte	1,5,26,9
-	.half	.L17-.L269
+	.half	.L17-.L279
 	.byte	3,2,1,5,16,9
-	.half	.L725-.L17
+	.half	.L773-.L17
 	.byte	1,5,28,9
-	.half	.L726-.L725
+	.half	.L774-.L773
 	.byte	3,1,1,5,13,9
-	.half	.L727-.L726
+	.half	.L775-.L774
 	.byte	1,5,31,9
-	.half	.L728-.L727
+	.half	.L776-.L775
 	.byte	3,125,1,5,25,9
-	.half	.L16-.L728
+	.half	.L16-.L776
 	.byte	1,5,28,9
-	.half	.L729-.L16
+	.half	.L777-.L16
 	.byte	1,5,16,7,9
-	.half	.L239-.L729
+	.half	.L249-.L777
 	.byte	3,5,1,5,5,9
-	.half	.L270-.L239
+	.half	.L280-.L249
 	.byte	1,5,1,9
-	.half	.L18-.L270
+	.half	.L18-.L280
 	.byte	3,1,1,7,9
-	.half	.L148-.L18
+	.half	.L157-.L18
 	.byte	0,1,1
-.L711:
+.L759:
 	.sdecl	'.debug_ranges',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_ranges'
-.L147:
-	.word	-1,.L127,0,.L148-.L127,0,0
+.L156:
+	.word	-1,.L136,0,.L157-.L136,0,0
 	.sdecl	'.debug_info',debug,cluster('core1_main')
 	.sect	'.debug_info'
-.L149:
+.L158:
 	.word	364
 	.half	3
-	.word	.L150
+	.word	.L159
 	.byte	4,1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1
-	.word	.L152,.L151
+	.word	.L161,.L160
 	.byte	2
-	.word	.L130
+	.word	.L139
 	.byte	3
 	.byte	'core1_main',0,1,30,5
-	.word	.L159
+	.word	.L168
 	.byte	1,1,1
-	.word	.L123,.L241,.L122
+	.word	.L132,.L251,.L131
 	.byte	4
-	.word	.L123,.L241
+	.word	.L132,.L251
 	.byte	5
-	.word	.L242,.L123,.L4
+	.word	.L252,.L132,.L4
 	.byte	6
-	.word	.L243,.L123,.L4
+	.word	.L253,.L132,.L4
 	.byte	5
-	.word	.L244,.L123,.L3
+	.word	.L254,.L132,.L3
 	.byte	6
-	.word	.L245,.L123,.L3
+	.word	.L255,.L132,.L3
 	.byte	7
 	.byte	'enabled',0,2,149,5,13
-	.word	.L162,.L246
+	.word	.L171,.L256
 	.byte	5
-	.word	.L247,.L123,.L2
+	.word	.L257,.L132,.L2
 	.byte	6
-	.word	.L248,.L123,.L2
+	.word	.L258,.L132,.L2
 	.byte	7
 	.byte	'reg',0,2,141,5,17
-	.word	.L249,.L250
+	.word	.L259,.L260
 	.byte	0,0,0,0,0,0,5
-	.word	.L251,.L252,.L253
+	.word	.L261,.L262,.L263
 	.byte	6
-	.word	.L254,.L252,.L253
+	.word	.L264,.L262,.L263
 	.byte	5
-	.word	.L255,.L252,.L253
+	.word	.L265,.L262,.L263
 	.byte	8
-	.word	.L256,.L252,.L253
+	.word	.L266,.L262,.L263
 	.byte	0,0,0,4
-	.word	.L257,.L5
+	.word	.L267,.L5
 	.byte	7
 	.byte	'ou16',0,1,67,13
-	.word	.L258,.L259
+	.word	.L268,.L269
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('core1_main')
 	.sect	'.debug_abbrev'
-.L150:
+.L159:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,11,1,49,16,17,1
 	.byte	18,1,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,8,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('core1_main')
 	.sect	'.debug_line'
-.L151:
-	.word	.L731-.L730
-.L730:
+.L160:
+	.word	.L779-.L778
+.L778:
 	.half	3
-	.word	.L733-.L732
-.L732:
+	.word	.L781-.L780
+.L780:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0
 	.byte	'IfxCpu.h',0,1,0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.h',0,0,0,0,0
-.L733:
+.L781:
 	.byte	4,2,5,19,7,0,5,2
-	.word	.L123
+	.word	.L132
 	.byte	3,141,5,1,5,5,9
-	.half	.L260-.L123
+	.half	.L270-.L132
 	.byte	3,1,1,5,14,9
-	.half	.L2-.L260
+	.half	.L2-.L270
 	.byte	3,8,1,5,10,9
-	.half	.L734-.L2
+	.half	.L782-.L2
 	.byte	3,1,1,5,5,9
-	.half	.L735-.L734
+	.half	.L783-.L782
 	.byte	3,1,1,4,3,9
-	.half	.L3-.L735
+	.half	.L3-.L783
 	.byte	3,213,123,1,4,1,5,9,9
 	.half	.L4-.L3
 	.byte	3,179,127,1,5,14,9
-	.half	.L736-.L4
+	.half	.L784-.L4
 	.byte	3,5,1,5,15,9
-	.half	.L737-.L736
+	.half	.L785-.L784
 	.byte	3,1,1,5,14,9
-	.half	.L738-.L737
+	.half	.L786-.L785
 	.byte	3,7,1,4,2,5,13,9
-	.half	.L252-.L738
+	.half	.L262-.L786
 	.byte	3,241,4,1,4,1,5,16,9
-	.half	.L253-.L252
+	.half	.L263-.L262
 	.byte	3,148,123,1,5,9,9
-	.half	.L6-.L253
+	.half	.L6-.L263
 	.byte	3,3,1,5,6,9
-	.half	.L739-.L6
+	.half	.L787-.L6
 	.byte	1,5,4,7,9
-	.half	.L740-.L739
+	.half	.L788-.L787
 	.byte	3,6,1,5,33,9
-	.half	.L741-.L740
+	.half	.L789-.L788
 	.byte	1,5,46,9
-	.half	.L742-.L741
+	.half	.L790-.L789
 	.byte	1,5,14,9
-	.half	.L743-.L742
+	.half	.L791-.L790
 	.byte	1,5,21,9
-	.half	.L744-.L743
+	.half	.L792-.L791
 	.byte	3,2,1,5,34,9
-	.half	.L745-.L744
+	.half	.L793-.L792
 	.byte	1,5,20,9
-	.half	.L746-.L745
+	.half	.L794-.L793
 	.byte	3,1,1,5,33,9
-	.half	.L747-.L746
+	.half	.L795-.L794
 	.byte	1,5,20,9
-	.half	.L748-.L747
+	.half	.L796-.L795
 	.byte	3,1,1,5,30,9
-	.half	.L749-.L748
+	.half	.L797-.L796
 	.byte	1,5,40,9
-	.half	.L750-.L749
+	.half	.L798-.L797
 	.byte	1,5,57,9
-	.half	.L751-.L750
+	.half	.L799-.L798
 	.byte	1,5,18,9
-	.half	.L752-.L751
+	.half	.L800-.L799
 	.byte	3,1,1,5,22,9
-	.half	.L753-.L752
+	.half	.L801-.L800
 	.byte	1,5,25,9
-	.half	.L754-.L753
+	.half	.L802-.L801
 	.byte	1,5,18,9
-	.half	.L755-.L754
+	.half	.L803-.L802
 	.byte	3,1,1,5,22,9
-	.half	.L756-.L755
+	.half	.L804-.L803
 	.byte	1,5,25,9
-	.half	.L757-.L756
+	.half	.L805-.L804
 	.byte	1,5,26,9
-	.half	.L257-.L757
+	.half	.L267-.L805
 	.byte	3,1,1,5,19,9
-	.half	.L758-.L257
+	.half	.L806-.L267
 	.byte	1,5,18,9
-	.half	.L759-.L758
+	.half	.L807-.L806
 	.byte	3,1,1,5,22,9
-	.half	.L760-.L759
+	.half	.L808-.L807
 	.byte	1,5,25,9
-	.half	.L761-.L760
+	.half	.L809-.L808
 	.byte	1,5,4,9
-	.half	.L262-.L761
+	.half	.L272-.L809
 	.byte	3,1,1,5,26,9
-	.half	.L762-.L262
+	.half	.L810-.L272
 	.byte	1,5,24,9
-	.half	.L763-.L762
+	.half	.L811-.L810
 	.byte	1,5,16,9
-	.half	.L5-.L763
+	.half	.L5-.L811
 	.byte	3,110,1,5,1,9
-	.half	.L764-.L5
+	.half	.L812-.L5
 	.byte	3,22,1,7,9
-	.half	.L153-.L764
+	.half	.L162-.L812
 	.byte	0,1,1
-.L731:
+.L779:
 	.sdecl	'.debug_ranges',debug,cluster('core1_main')
 	.sect	'.debug_ranges'
-.L152:
-	.word	-1,.L123,0,.L153-.L123,0,0
+.L161:
+	.word	-1,.L132,0,.L162-.L132,0,0
 	.sdecl	'.debug_info',debug,cluster('whiteRoad')
 	.sect	'.debug_info'
-.L154:
+.L163:
 	.word	132
 	.half	3
-	.word	.L155
+	.word	.L164
 	.byte	4,1
 	.byte	'..\\USER\\Cpu1_Main.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
-	.word	.L130
+	.word	.L139
 	.byte	3
 	.byte	'whiteRoad',0,28,28,5
-	.word	.L159
+	.word	.L168
 	.byte	1,5,3
 	.word	whiteRoad
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('whiteRoad')
 	.sect	'.debug_abbrev'
-.L155:
+.L164:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_loc'
-.L237:
-	.word	-1,.L127,.L238-.L127,.L224-.L127
+.L247:
+	.word	-1,.L136,.L248-.L136,.L234-.L136
 	.half	1
 	.byte	81
 	.word	0,0
-.L233:
-	.word	-1,.L127,.L265-.L127,.L266-.L127
+.L243:
+	.word	-1,.L136,.L275-.L136,.L276-.L136
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L235:
-	.word	-1,.L127,.L267-.L127,.L12-.L127
+.L245:
+	.word	-1,.L136,.L277-.L136,.L12-.L136
 	.half	1
 	.byte	81
 	.word	0,0
-.L126:
-	.word	-1,.L127,0,.L229-.L127
+.L135:
+	.word	-1,.L136,0,.L239-.L136
 	.half	2
 	.byte	138,0
-	.word	.L229-.L127,.L224-.L127
+	.word	.L239-.L136,.L234-.L136
 	.half	3
 	.byte	138,128,8
-	.word	.L224-.L127,.L224-.L127
+	.word	.L234-.L136,.L234-.L136
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L227:
-	.word	-1,.L127,0,.L224-.L127
+.L237:
+	.word	-1,.L136,0,.L234-.L136
 	.half	3
 	.byte	145,128,120
 	.word	0,0
-.L236:
-	.word	-1,.L127,.L266-.L127,.L224-.L127
+.L246:
+	.word	-1,.L136,.L276-.L136,.L234-.L136
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L231:
-	.word	-1,.L127,.L264-.L127,.L265-.L127
+.L241:
+	.word	-1,.L136,.L274-.L136,.L275-.L136
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L240:
-	.word	-1,.L127,.L269-.L127,.L270-.L127
+.L250:
+	.word	-1,.L136,.L279-.L136,.L280-.L136
 	.half	1
 	.byte	82
 	.word	0,0
-.L228:
-	.word	-1,.L127,.L268-.L127,.L14-.L127
+.L238:
+	.word	-1,.L136,.L278-.L136,.L14-.L136
 	.half	1
 	.byte	82
 	.word	0,0
-.L225:
-	.word	-1,.L127,0,.L224-.L127
+.L235:
+	.word	-1,.L136,0,.L234-.L136
 	.half	1
 	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('change_image')
 	.sect	'.debug_loc'
-.L222:
-	.word	-1,.L125,.L263-.L125,.L220-.L125
+.L232:
+	.word	-1,.L134,.L273-.L134,.L230-.L134
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L223:
+.L233:
 	.word	0,0
-.L124:
-	.word	-1,.L125,0,.L220-.L125
+.L133:
+	.word	-1,.L134,0,.L230-.L134
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L221:
-	.word	-1,.L125,0,.L220-.L125
+.L231:
+	.word	-1,.L134,0,.L230-.L134
 	.half	1
 	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('core1_main')
 	.sect	'.debug_loc'
-.L122:
-	.word	-1,.L123,0,.L241-.L123
+.L131:
+	.word	-1,.L132,0,.L251-.L132
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L246:
+.L256:
 	.word	0,0
-.L259:
-	.word	-1,.L123,.L261-.L123,.L262-.L123
+.L269:
+	.word	-1,.L132,.L271-.L132,.L272-.L132
 	.half	1
 	.byte	86
 	.word	0,0
-.L250:
-	.word	-1,.L123,.L260-.L123,.L6-.L123
+.L260:
+	.word	-1,.L132,.L270-.L132,.L6-.L132
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('searchline_image')
 	.sect	'.debug_loc'
-.L160:
-	.word	-1,.L129,.L292-.L129,.L82-.L129
+.L169:
+	.word	-1,.L138,.L303-.L138,.L304-.L138
 	.half	1
-	.byte	81
-	.word	.L327-.L129,.L96-.L129
-	.half	1
-	.byte	95
-	.word	.L333-.L129,.L334-.L129
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L334-.L129,.L338-.L129
+	.byte	83
+	.word	.L348-.L138,.L105-.L138
 	.half	1
 	.byte	95
-	.word	0,0
-.L164:
-	.word	-1,.L129,.L274-.L129,.L35-.L129
-	.half	1
-	.byte	84
-	.word	.L207-.L129,.L293-.L129
-	.half	1
-	.byte	91
-	.word	.L293-.L129,.L298-.L129
-	.half	1
-	.byte	93
-	.word	.L298-.L129,.L67-.L129
-	.half	1
-	.byte	91
-	.word	.L299-.L129,.L300-.L129
-	.half	1
-	.byte	84
-	.word	.L301-.L129,.L302-.L129
-	.half	1
-	.byte	84
-	.word	.L303-.L129,.L304-.L129
-	.half	1
-	.byte	84
-	.word	.L305-.L129,.L306-.L129
-	.half	1
-	.byte	84
-	.word	.L307-.L129,.L308-.L129
-	.half	1
-	.byte	84
-	.word	.L310-.L129,.L66-.L129
-	.half	1
-	.byte	84
-	.word	.L312-.L129,.L71-.L129
-	.half	1
-	.byte	84
-	.word	.L208-.L129,.L92-.L129
-	.half	1
-	.byte	84
-	.word	0,0
-.L163:
-	.word	-1,.L129,.L274-.L129,.L92-.L129
-	.half	1
-	.byte	84
-	.word	0,0
-.L165:
-	.word	-1,.L129,.L318-.L129,.L319-.L129
+	.word	.L354-.L138,.L355-.L138
 	.half	5
 	.byte	144,32,157,32,0
-	.word	0,0
-.L170:
-	.word	0,0
-.L166:
-	.word	-1,.L129,.L320-.L129,.L321-.L129
+	.word	.L364-.L138,.L365-.L138
 	.half	1
-	.byte	81
-	.word	0,0
-.L171:
-	.word	0,0
-.L167:
-	.word	0,0
-.L172:
-	.word	0,0
-.L168:
-	.word	-1,.L129,.L322-.L129,.L323-.L129
-	.half	1
-	.byte	82
+	.byte	95
 	.word	0,0
 .L173:
-	.word	0,0
-.L169:
-	.word	-1,.L129,.L216-.L129,.L324-.L129
+	.word	-1,.L138,.L284-.L138,.L43-.L138
 	.half	1
-	.byte	86
-	.word	0,0
-.L174:
-	.word	0,0
-.L178:
-	.word	-1,.L129,0,.L156-.L129
-	.half	3
-	.byte	145,128,125
-	.word	0,0
-.L180:
-	.word	-1,.L129,0,.L156-.L129
-	.half	3
-	.byte	145,128,126
-	.word	0,0
-.L179:
-	.word	-1,.L129,0,.L156-.L129
-	.half	3
-	.byte	145,192,125
-	.word	0,0
-.L181:
-	.word	-1,.L129,0,.L156-.L129
-	.half	3
-	.byte	145,192,126
-	.word	0,0
-.L161:
-	.word	0,0
-.L200:
-	.word	-1,.L129,.L285-.L129,.L286-.L129
-	.half	1
-	.byte	90
-	.word	.L317-.L129,.L156-.L129
-	.half	1
-	.byte	90
-	.word	0,0
-.L198:
-	.word	0,0
-.L199:
-	.word	0,0
-.L190:
-	.word	-1,.L129,.L279-.L129,.L280-.L129
-	.half	1
-	.byte	87
-	.word	.L77-.L129,.L272-.L129
-	.half	1
-	.byte	87
-	.word	.L340-.L129,.L341-.L129
+	.byte	84
+	.word	.L216-.L138,.L220-.L138
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L115-.L129,.L90-.L129
+	.word	.L220-.L138,.L307-.L138
+	.half	1
+	.byte	81
+	.word	.L307-.L138,.L321-.L138
+	.half	1
+	.byte	93
+	.word	.L321-.L138,.L76-.L138
 	.half	5
 	.byte	144,32,157,32,0
-	.word	0,0
-.L193:
-	.word	0,0
-.L195:
-	.word	0,0
-.L192:
-	.word	0,0
-.L191:
-	.word	-1,.L129,.L281-.L129,.L282-.L129
+	.word	.L322-.L138,.L323-.L138
 	.half	1
-	.byte	89
-	.word	.L76-.L129,.L314-.L129
+	.byte	84
+	.word	.L324-.L138,.L325-.L138
 	.half	1
-	.byte	89
-	.word	.L314-.L129,.L336-.L129
+	.byte	84
+	.word	.L326-.L138,.L327-.L138
 	.half	1
-	.byte	81
-	.word	.L109-.L129,.L90-.L129
+	.byte	84
+	.word	.L328-.L138,.L329-.L138
 	.half	1
-	.byte	81
-	.word	0,0
-.L194:
-	.word	0,0
-.L196:
-	.word	-1,.L129,.L283-.L129,.L284-.L129
+	.byte	84
+	.word	.L330-.L138,.L331-.L138
 	.half	1
-	.byte	88
-	.word	.L112-.L129,.L156-.L129
+	.byte	84
+	.word	.L332-.L138,.L75-.L138
 	.half	1
-	.byte	88
-	.word	0,0
-.L183:
-	.word	0,0
-.L212:
-	.word	-1,.L129,.L297-.L129,.L32-.L129
+	.byte	84
+	.word	.L333-.L138,.L80-.L138
 	.half	1
-	.byte	92
-	.word	0,0
-.L184:
-	.word	0,0
-.L185:
-	.word	0,0
-.L201:
-	.word	0,0
-.L202:
-	.word	0,0
-.L203:
-	.word	-1,.L129,.L289-.L129,.L19-.L129
-	.half	1
-	.byte	83
-	.word	.L315-.L129,.L78-.L129
-	.half	1
-	.byte	83
-	.word	.L326-.L129,.L327-.L129
-	.half	1
-	.byte	95
-	.word	.L330-.L129,.L114-.L129
+	.byte	84
+	.word	.L217-.L138,.L285-.L138
 	.half	1
 	.byte	84
 	.word	0,0
-.L204:
-	.word	-1,.L129,.L290-.L129,.L20-.L129
+.L172:
+	.word	-1,.L138,.L284-.L138,.L285-.L138
 	.half	1
-	.byte	91
-	.word	.L316-.L129,.L81-.L129
+	.byte	84
+	.word	0,0
+.L174:
+	.word	-1,.L138,.L339-.L138,.L340-.L138
 	.half	5
 	.byte	144,32,157,32,0
-	.word	.L331-.L129,.L95-.L129
-	.half	5
-	.byte	144,32,157,32,0
 	.word	0,0
-.L210:
-	.word	-1,.L129,.L295-.L129,.L296-.L129
-	.half	1
-	.byte	83
-	.word	.L309-.L129,.L68-.L129
-	.half	1
-	.byte	83
-	.word	.L311-.L129,.L30-.L129
-	.half	1
-	.byte	83
+.L179:
 	.word	0,0
-.L186:
-	.word	-1,.L129,.L275-.L129,.L276-.L129
+.L175:
+	.word	-1,.L138,.L341-.L138,.L342-.L138
 	.half	1
-	.byte	85
-	.word	.L66-.L129,.L92-.L129
-	.half	1
-	.byte	85
+	.byte	81
 	.word	0,0
-.L188:
-	.word	-1,.L129,0,.L156-.L129
-	.half	3
-	.byte	145,128,127
-	.word	0,0
-.L217:
-	.word	-1,.L129,.L325-.L129,.L272-.L129
-	.half	1
-	.byte	83
-	.word	0,0
-.L158:
-	.word	-1,.L129,0,.L272-.L129
-	.half	1
-	.byte	100
-	.word	.L273-.L129,.L156-.L129
-	.half	1
-	.byte	108
+.L180:
 	.word	0,0
 .L176:
 	.word	0,0
-.L209:
-	.word	-1,.L129,.L294-.L129,.L30-.L129
+.L181:
+	.word	0,0
+.L177:
+	.word	-1,.L138,.L343-.L138,.L344-.L138
 	.half	1
 	.byte	82
+	.word	0,0
+.L182:
+	.word	0,0
+.L178:
+	.word	-1,.L138,.L226-.L138,.L345-.L138
+	.half	1
+	.byte	83
+	.word	0,0
+.L183:
 	.word	0,0
 .L187:
-	.word	-1,.L129,.L277-.L129,.L278-.L129
-	.half	1
-	.byte	86
-	.word	.L60-.L129,.L216-.L129
-	.half	1
-	.byte	86
+	.word	-1,.L138,0,.L165-.L138
+	.half	3
+	.byte	145,248,124
 	.word	0,0
 .L189:
-	.word	-1,.L129,0,.L156-.L129
-	.half	2
-	.byte	145,64
-	.word	0,0
-.L128:
-	.word	-1,.L129,0,.L271-.L129
-	.half	2
-	.byte	138,0
-	.word	.L271-.L129,.L156-.L129
+	.word	-1,.L138,0,.L165-.L138
 	.half	3
-	.byte	138,128,3
-	.word	.L156-.L129,.L156-.L129
-	.half	2
-	.byte	138,0
+	.byte	145,248,125
 	.word	0,0
-.L206:
-	.word	-1,.L129,.L287-.L129,.L288-.L129
-	.half	1
-	.byte	82
-	.word	.L291-.L129,.L19-.L129
-	.half	1
-	.byte	82
+.L188:
+	.word	-1,.L138,0,.L165-.L138
+	.half	3
+	.byte	145,184,125
 	.word	0,0
-.L219:
-	.word	-1,.L129,.L328-.L129,.L329-.L129
-	.half	1
-	.byte	83
-	.word	.L332-.L129,.L90-.L129
-	.half	1
-	.byte	83
+.L190:
+	.word	-1,.L138,0,.L165-.L138
+	.half	3
+	.byte	145,184,126
 	.word	0,0
-.L215:
-	.word	-1,.L129,.L313-.L129,.L82-.L129
+.L170:
+	.word	0,0
+.L209:
+	.word	-1,.L138,.L296-.L138,.L297-.L138
+	.half	1
+	.byte	89
+	.word	.L338-.L138,.L165-.L138
+	.half	1
+	.byte	89
+	.word	0,0
+.L207:
+	.word	0,0
+.L208:
+	.word	0,0
+.L199:
+	.word	-1,.L138,.L290-.L138,.L291-.L138
+	.half	1
+	.byte	87
+	.word	.L86-.L138,.L336-.L138
+	.half	1
+	.byte	87
+	.word	.L355-.L138,.L363-.L138
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L124-.L138,.L99-.L138
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
+.L202:
+	.word	0,0
+.L204:
+	.word	0,0
+.L201:
+	.word	0,0
+.L200:
+	.word	-1,.L138,.L292-.L138,.L293-.L138
+	.half	1
+	.byte	88
+	.word	.L85-.L138,.L335-.L138
+	.half	1
+	.byte	88
+	.word	.L335-.L138,.L357-.L138
+	.half	1
+	.byte	81
+	.word	.L118-.L138,.L99-.L138
+	.half	1
+	.byte	81
+	.word	0,0
+.L203:
+	.word	0,0
+.L205:
+	.word	-1,.L138,.L294-.L138,.L21-.L138
+	.half	1
+	.byte	95
+	.word	.L295-.L138,.L165-.L138
+	.half	2
+	.byte	145,124
+	.word	.L359-.L138,.L360-.L138
+	.half	1
+	.byte	95
+	.word	.L361-.L138,.L121-.L138
+	.half	1
+	.byte	95
+	.word	.L367-.L138,.L368-.L138
+	.half	1
+	.byte	95
+	.word	0,0
+.L192:
+	.word	0,0
+.L221:
+	.word	-1,.L138,.L308-.L138,.L32-.L138
+	.half	1
+	.byte	82
+	.word	0,0
+.L193:
+	.word	0,0
+.L194:
+	.word	0,0
+.L210:
+	.word	0,0
+.L211:
+	.word	0,0
+.L212:
+	.word	-1,.L138,.L300-.L138,.L19-.L138
+	.half	1
+	.byte	83
+	.word	.L311-.L138,.L307-.L138
+	.half	1
+	.byte	93
+	.word	.L304-.L138,.L87-.L138
+	.half	1
+	.byte	83
+	.word	.L347-.L138,.L348-.L138
+	.half	1
+	.byte	95
+	.word	.L351-.L138,.L123-.L138
+	.half	1
+	.byte	84
+	.word	0,0
+.L213:
+	.word	-1,.L138,.L301-.L138,.L20-.L138
+	.half	1
+	.byte	90
+	.word	.L312-.L138,.L313-.L138
+	.half	1
+	.byte	95
+	.word	.L314-.L138,.L34-.L138
+	.half	2
+	.byte	145,120
+	.word	.L315-.L138,.L316-.L138
+	.half	1
+	.byte	95
+	.word	.L317-.L138,.L318-.L138
+	.half	1
+	.byte	95
+	.word	.L320-.L138,.L41-.L138
+	.half	1
+	.byte	95
+	.word	.L337-.L138,.L90-.L138
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L352-.L138,.L104-.L138
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L219:
+	.word	-1,.L138,.L306-.L138,.L30-.L138
+	.half	1
+	.byte	91
+	.word	0,0
+.L195:
+	.word	-1,.L138,.L286-.L138,.L287-.L138
+	.half	1
+	.byte	85
+	.word	.L75-.L138,.L101-.L138
+	.half	1
+	.byte	85
+	.word	0,0
 .L197:
-	.word	-1,.L129,.L335-.L129,.L105-.L129
+	.word	-1,.L138,0,.L165-.L138
+	.half	3
+	.byte	145,248,126
+	.word	0,0
+.L227:
+	.word	-1,.L138,.L285-.L138,.L346-.L138
+	.half	1
+	.byte	84
+	.word	0,0
+.L167:
+	.word	-1,.L138,0,.L282-.L138
+	.half	1
+	.byte	100
+	.word	.L283-.L138,.L165-.L138
+	.half	1
+	.byte	108
+	.word	0,0
+.L185:
+	.word	0,0
+.L218:
+	.word	-1,.L138,.L305-.L138,.L30-.L138
+	.half	1
+	.byte	90
+	.word	0,0
+.L196:
+	.word	-1,.L138,.L288-.L138,.L289-.L138
+	.half	1
+	.byte	86
+	.word	.L69-.L138,.L101-.L138
+	.half	1
+	.byte	86
+	.word	0,0
+.L198:
+	.word	-1,.L138,0,.L165-.L138
+	.half	3
+	.byte	145,184,127
+	.word	0,0
+.L137:
+	.word	-1,.L138,0,.L281-.L138
+	.half	2
+	.byte	138,0
+	.word	.L281-.L138,.L165-.L138
+	.half	3
+	.byte	138,136,3
+	.word	.L165-.L138,.L165-.L138
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L215:
+	.word	-1,.L138,.L298-.L138,.L299-.L138
+	.half	1
+	.byte	82
+	.word	.L302-.L138,.L19-.L138
+	.half	1
+	.byte	82
+	.word	0,0
+.L222:
+	.word	-1,.L138,.L309-.L138,.L310-.L138
+	.half	1
+	.byte	92
+	.word	.L319-.L138,.L32-.L138
+	.half	1
+	.byte	92
+	.word	0,0
+.L229:
+	.word	-1,.L138,.L349-.L138,.L350-.L138
+	.half	1
+	.byte	83
+	.word	.L353-.L138,.L99-.L138
+	.half	1
+	.byte	83
+	.word	0,0
+.L225:
+	.word	-1,.L138,.L334-.L138,.L91-.L138
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L206:
+	.word	-1,.L138,.L356-.L138,.L114-.L138
 	.half	1
 	.byte	85
-	.word	.L314-.L129,.L337-.L129
+	.word	.L335-.L138,.L358-.L138
 	.half	1
 	.byte	85
-	.word	.L110-.L129,.L339-.L129
+	.word	.L119-.L138,.L362-.L138
 	.half	1
 	.byte	85
-	.word	.L342-.L129,.L338-.L129
+	.word	.L366-.L138,.L365-.L138
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L765:
+.L813:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
@@ -40157,29 +40376,29 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('core1_main')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L765,.L123,.L241-.L123
+	.word	.L813,.L132,.L251-.L132
 	.sdecl	'.debug_frame',debug,cluster('change_image')
 	.sect	'.debug_frame'
 	.word	20
-	.word	.L765,.L125,.L220-.L125
+	.word	.L813,.L134,.L230-.L134
 	.byte	8,19,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_frame'
 	.word	44
-	.word	.L765,.L127,.L224-.L127
+	.word	.L813,.L136,.L234-.L136
 	.byte	8,19,8,21,8,22,8,23,4
-	.word	(.L229-.L127)/2
+	.word	(.L239-.L136)/2
 	.byte	19,128,8,22,26,4,19,138,128,8,4
-	.word	(.L224-.L229)/2
+	.word	(.L234-.L239)/2
 	.byte	19,0,8,26
 	.sdecl	'.debug_frame',debug,cluster('searchline_image')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L765,.L129,.L156-.L129
+	.word	.L813,.L138,.L165-.L138
 	.byte	4
-	.word	(.L271-.L129)/2
-	.byte	19,128,3,22,26,4,19,138,128,3,4
-	.word	(.L156-.L271)/2
+	.word	(.L281-.L138)/2
+	.byte	19,136,3,22,26,4,19,138,136,3,4
+	.word	(.L165-.L281)/2
 	.byte	19,0,8,26
 
 

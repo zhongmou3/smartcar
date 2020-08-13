@@ -23,10 +23,10 @@ uint8 in_huandao=0;
 uint8 in_huandao_end=0;
 uint8 huandao_count=0;
 uint8 out_begin=0;         //判断要不要判断出环岛，只有了入环岛之后才出环岛
-float kp,ki,kd;     //增量式PID参数
+double kp,ki,kd;     //增量式PID参数
 int16 ek=0,ek1=0,ek2=0;   //前后三次误差
-float out_increment=0;//增量式PID输出增量
-float out=1200;          //输出量
+double out_increment=0;//增量式PID输出增量
+double out=1200;          //输出量
 int cardegree=0;
 //uint8 start_prepare_flag=0;
 //uint8 start_flag=0;
@@ -104,7 +104,7 @@ int speedctrl_calculation(int degree)
 	//oled_int16(40, 3, ek);
 
 	//设置PID系数
-	kp = 0.25;
+	kp = 0.45;
 	ki = 0;
 	kd = 0;
 
@@ -116,6 +116,23 @@ int speedctrl_calculation(int degree)
 	if(out<-4000) out = -4000;
 	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
 	return speedctrl;
+}
+
+double rear_diff(int degree)
+{
+	double xishu;
+	if(degree < 0)
+	{
+		//后轮差速部分
+		int d;
+		d=-degree;
+		xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
+	}
+	//右转弯
+	else
+	{
+	    xishu=B*(-0.000147*degree*degree+0.016*degree-0.00493)/(2*H);
+	}
 }
 
 void rotate(int degree)                         //后轮差速以及速度分级+舵机电机PWM
@@ -166,6 +183,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 		//speedctrl = speedctrl+500;
+		xishu = rear_diff(60);
 		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+60);
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
@@ -183,6 +201,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		int ideal_speedctrl = speedctrl_calculation(80);
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+		xishu = rear_diff(80);
 		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
@@ -194,41 +213,28 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
 		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-//out=0;
 		mt9v03x_init();	//初始化摄像头
 		in_huandao_end=1;
 	}
 	else										//正常行驶
 	{
 		//左转弯
-		if(degree<0)
-		{
-    		//后轮差速部分
-			int d;
-			d=-degree;
-			xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
-		}
-		//右转弯
-		else
-    	{
-    	    xishu=B*(-0.000147*degree*degree+0.016*degree-0.00493)/(2*H);
-		}
 		int ideal_speedctrl = speedctrl_calculation(degree);
-		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
+		if(ideal_speedctrl < 0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
     	if(zebra_flag==0)
     	{
     		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
     		//改变电机占空比
-    		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.95*xishu));	//右前
-    		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.95*xishu));	//左前
-    		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.95*xishu));		//右后
-    		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.95*xishu));		//左后
+			xishu = rear_diff(degree);
+    		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+    		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+    		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+    		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
     	}
 		//遇斑马线转弯 
     	else									
     	{
-    		//pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 20);	//欲左先右
     		//改变电机占空比
     		if(speed>30&&speed<=40)
     		{
@@ -256,17 +262,10 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     	  		speedctrl2L = 0;
     	  		speedctrl2R = 0;
     	  	}
-    		/*
-    		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.9*xishu));	//右前
-    		pwm_duty(ATOM0_CH5_P02_5, speedctrl*(1+0.9*xishu));	//左前
-    		pwm_duty(ATOM0_CH6_P02_6, speedctrl2R);		//右后
-    		pwm_duty(ATOM0_CH7_P02_7, speedctrl2L);		//左后
-			*/
     		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
     		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
     		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后
     		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-    		//systick_delay_ms(STM1, 35);					//延时35MS  使用STM0定时器
 			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 100);
 			systick_delay_ms(STM1, 200);
 			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 30);

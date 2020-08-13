@@ -38,71 +38,64 @@ $TC16X
 ; ..\USER\control.c	    23  uint8 in_huandao_end=0;
 ; ..\USER\control.c	    24  uint8 huandao_count=0;
 ; ..\USER\control.c	    25  uint8 out_begin=0;         //判断要不要判断出环岛，只有了入环岛之后才出环岛
-; ..\USER\control.c	    26  double kp,ki,kd;     //增量式PID参数
-; ..\USER\control.c	    27  int16 ek=0,ek1=0,ek2=0;   //前后三次误差
-; ..\USER\control.c	    28  double out_increment=0;//增量式PID输出增量
-; ..\USER\control.c	    29  double out=1200;          //输出量
-; ..\USER\control.c	    30  int cardegree=0;
-; ..\USER\control.c	    31  //uint8 start_prepare_flag=0;
-; ..\USER\control.c	    32  //uint8 start_flag=0;
-; ..\USER\control.c	    33  //int start_count=0;
-; ..\USER\control.c	    34  //int startpre_count=0;
-; ..\USER\control.c	    35  
+; ..\USER\control.c	    26  uint32 timecounter=0;
+; ..\USER\control.c	    27  double kp,ki,kd;     //增量式PID参数
+; ..\USER\control.c	    28  int16 ek=0,ek1=0,ek2=0;   //前后三次误差
+; ..\USER\control.c	    29  double out_increment=0;//增量式PID输出增量
+; ..\USER\control.c	    30  double out=1200;          //输出量
+; ..\USER\control.c	    31  int cardegree=0;
+; ..\USER\control.c	    32  //uint8 start_prepare_flag=0;
+; ..\USER\control.c	    33  //uint8 start_flag=0;
+; ..\USER\control.c	    34  //int start_count=0;
+; ..\USER\control.c	    35  //int startpre_count=0;
 ; ..\USER\control.c	    36  
-; ..\USER\control.c	    37  int degree_calculation(void)
+; ..\USER\control.c	    37  
+; ..\USER\control.c	    38  int degree_calculation(void)
 ; Function degree_calculation
 .L56:
 degree_calculation:	.type	func
 
-; ..\USER\control.c	    38  {
-; ..\USER\control.c	    39  	uint16 i = 0;
-; ..\USER\control.c	    40    	uint16 j = 0;
-; ..\USER\control.c	    41    	int cardegree=0;
-; ..\USER\control.c	    42  	//方向控制算法
-; ..\USER\control.c	    43  	int InclineValue=0;                       	//倾斜度
+; ..\USER\control.c	    39  {
+; ..\USER\control.c	    40  	uint16 i = 0;
+; ..\USER\control.c	    41    	uint16 j = 0;
+; ..\USER\control.c	    42    	int cardegree=0;
+; ..\USER\control.c	    43  	//方向控制算法
+; ..\USER\control.c	    44  	int InclineValue=0;                       	//倾斜度
 	mov	d2,#0
-.L171:
-
-; ..\USER\control.c	    44      int ExcursionValue=0;						//偏移量
-	mov	d1,#0
-.L172:
-
-; ..\USER\control.c	    45      //中线倾斜度计算
-; ..\USER\control.c	    46      for ( i = 1; i <= 15; i++ )
-	mov	d3,#1
 .L174:
+
+; ..\USER\control.c	    45      int ExcursionValue=0;						//偏移量
+	mov	d1,#0
+.L175:
+
+; ..\USER\control.c	    46      //中线倾斜度计算
+; ..\USER\control.c	    47      for ( i = 1; i <= 15; i++ )
+	mov	d3,#1
+.L177:
 	j	.L2
 .L3:
 
-; ..\USER\control.c	    47      {
-; ..\USER\control.c	    48        	if((Midx[50-i] - Midx[50-i-1] < 6) && (Midx[50-i] - Midx[50-i-1] > -6))
-	rsub	d15,d3,#50
-.L234:
-	movh.a	a15,#@his(Midx)
-	lea	a15,[a15]@los(Midx)
-.L235:
-	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]
-.L236:
+; ..\USER\control.c	    48      {
+; ..\USER\control.c	    49        	if((Midx[50-i] - Midx[50-i-1] < 6) && (Midx[50-i] - Midx[50-i-1] > -6))
 	rsub	d15,d3,#50
 .L237:
 	movh.a	a15,#@his(Midx)
 	lea	a15,[a15]@los(Midx)
 .L238:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d15,[a15]-1
+	ld.bu	d0,[a15]
 .L239:
-	sub	d0,d15
-.L240:
-	jge	d0,#6,.L4
-.L241:
 	rsub	d15,d3,#50
-.L242:
+.L240:
 	movh.a	a15,#@his(Midx)
 	lea	a15,[a15]@los(Midx)
-.L243:
+.L241:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]
+	ld.bu	d15,[a15]-1
+.L242:
+	sub	d0,d15
+.L243:
+	jge	d0,#6,.L4
 .L244:
 	rsub	d15,d3,#50
 .L245:
@@ -110,187 +103,195 @@ degree_calculation:	.type	func
 	lea	a15,[a15]@los(Midx)
 .L246:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d15,[a15]-1
+	ld.bu	d0,[a15]
 .L247:
-	sub	d0,d15
-.L248:
-	jlt	d0,#-5,.L5
-.L249:
-
-; ..\USER\control.c	    49          	InclineValue = InclineValue + (Midx[50-i] - Midx[50-i-2]);	//用差分方法求解中线倾斜度
 	rsub	d15,d3,#50
-.L250:
+.L248:
 	movh.a	a15,#@his(Midx)
 	lea	a15,[a15]@los(Midx)
-.L251:
+.L249:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d0,[a15]
+	ld.bu	d15,[a15]-1
+.L250:
+	sub	d0,d15
+.L251:
+	jlt	d0,#-5,.L5
 .L252:
+
+; ..\USER\control.c	    50          	InclineValue = InclineValue + (Midx[50-i] - Midx[50-i-2]);	//用差分方法求解中线倾斜度
 	rsub	d15,d3,#50
 .L253:
 	movh.a	a15,#@his(Midx)
 	lea	a15,[a15]@los(Midx)
 .L254:
 	addsc.a	a15,a15,d15,#0
-	ld.bu	d15,[a15]-2
+	ld.bu	d0,[a15]
 .L255:
-	sub	d0,d15
+	rsub	d15,d3,#50
 .L256:
+	movh.a	a15,#@his(Midx)
+	lea	a15,[a15]@los(Midx)
+.L257:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]-2
+.L258:
+	sub	d0,d15
+.L259:
 	add	d2,d0
 .L5:
 .L4:
 	add	d3,#1
 .L2:
 	mov	d15,#15
-.L257:
+.L260:
 	jge.u	d15,d3,.L3
-.L258:
+.L261:
 
-; ..\USER\control.c	    50      }
-; ..\USER\control.c	    51  	//偏移量计算
-; ..\USER\control.c	    52      for ( i = 1; i <= 8; i++ )
+; ..\USER\control.c	    51      }
+; ..\USER\control.c	    52  	//偏移量计算
+; ..\USER\control.c	    53      for ( i = 1; i <= 8; i++ )
 	mov	d0,#1
-.L175:
+.L178:
 	j	.L6
 .L7:
 
-; ..\USER\control.c	    53      {
-; ..\USER\control.c	    54          ExcursionValue = ExcursionValue + (Midx[50-i] - 69);	//用差分法求解总偏移值， 69为希望车在赛道所处的位置
+; ..\USER\control.c	    54      {
+; ..\USER\control.c	    55          ExcursionValue = ExcursionValue + (Midx[50-i] - 69);	//用差分法求解总偏移值， 69为希望车在赛道所处的位置
 	rsub	d15,d0,#50
-.L259:
+.L262:
 	movh.a	a15,#@his(Midx)
 	lea	a15,[a15]@los(Midx)
-.L260:
+.L263:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d15,[a15]
-.L261:
+.L264:
 	add	d15,d15,#-69
-.L262:
+.L265:
 	add	d1,d15
-.L263:
+.L266:
 	add	d0,#1
 .L6:
 	jlt.u	d0,#9,.L7
-.L264:
+.L267:
 
-; ..\USER\control.c	    55      }
-; ..\USER\control.c	    56  
-; ..\USER\control.c	    57      InclineValue = InclineValue*2.5;	//增大倾斜度的影响
+; ..\USER\control.c	    56      }
+; ..\USER\control.c	    57  
+; ..\USER\control.c	    58      InclineValue = InclineValue*2.5;	//增大倾斜度的影响
 	itof	d15,d2
-.L265:
+.L268:
 	movh	d0,#16416
-.L176:
+.L179:
 	mul.f	d15,d15,d0
 	ftoiz	d0,d15
-.L141:
+.L143:
 
-; ..\USER\control.c	    58      int AbsExcursionValue;			//偏移量绝对值
-; ..\USER\control.c	    59  	int	AbsInclineValue = InclineValue;	//倾斜度绝对值
-; ..\USER\control.c	    60  	int	ExcursionValueCoeff;		//偏移量系数
-; ..\USER\control.c	    61  
-; ..\USER\control.c	    62      if(ExcursionValue > 0) AbsExcursionValue = ExcursionValue;
+; ..\USER\control.c	    59      int AbsExcursionValue;			//偏移量绝对值
+; ..\USER\control.c	    60  	int	AbsInclineValue = InclineValue;	//倾斜度绝对值
+; ..\USER\control.c	    61  	int	ExcursionValueCoeff;		//偏移量系数
+; ..\USER\control.c	    62  
+; ..\USER\control.c	    63      if(ExcursionValue > 0) AbsExcursionValue = ExcursionValue;
 	jlt	d1,#1,.L8
-.L266:
+.L269:
 	mov	d2,d1
-.L178:
+.L181:
 	j	.L9
 .L8:
 
-; ..\USER\control.c	    63      else AbsExcursionValue = -ExcursionValue;
+; ..\USER\control.c	    64      else AbsExcursionValue = -ExcursionValue;
 	mov	d2,d1
-.L179:
+.L182:
 	rsub	d2,#0
 .L9:
 
-; ..\USER\control.c	    64  
-; ..\USER\control.c	    65      if(InclineValue > 0) AbsInclineValue = InclineValue;
+; ..\USER\control.c	    65  
+; ..\USER\control.c	    66      if(InclineValue > 0) AbsInclineValue = InclineValue;
 	jlt	d0,#1,.L10
-.L267:
+.L270:
 	mov	d3,d0
-.L181:
+.L184:
 	j	.L11
 .L10:
 
-; ..\USER\control.c	    66      else AbsInclineValue = -InclineValue;
+; ..\USER\control.c	    67      else AbsInclineValue = -InclineValue;
 	mov	d3,d0
-.L182:
+.L185:
 	rsub	d3,#0
 .L11:
 
-; ..\USER\control.c	    67  
-; ..\USER\control.c	    68  	//当中线倾斜度比较小时，表示在直道上，并且车身比较正。因此车身中点与中线间的偏移对方向影响更大
-; ..\USER\control.c	    69  	//而若中线倾斜度比较大时，表示在弯道或者车身倾斜很厉害。此时，倾斜度对车辆方向的影响更大
-; ..\USER\control.c	    70  	//而偏移量对车辆前进方向的影响更小，这样可以方便车辆提前过弯，减少行驶距离
-; ..\USER\control.c	    71      if(AbsInclineValue < 10) ExcursionValueCoeff = 0.4;
+; ..\USER\control.c	    68  
+; ..\USER\control.c	    69  	//当中线倾斜度比较小时，表示在直道上，并且车身比较正。因此车身中点与中线间的偏移对方向影响更大
+; ..\USER\control.c	    70  	//而若中线倾斜度比较大时，表示在弯道或者车身倾斜很厉害。此时，倾斜度对车辆方向的影响更大
+; ..\USER\control.c	    71  	//而偏移量对车辆前进方向的影响更小，这样可以方便车辆提前过弯，减少行驶距离
+; ..\USER\control.c	    72      if(AbsInclineValue < 10) ExcursionValueCoeff = 0.4;
 	mov	d15,#10
-.L268:
+.L271:
 	jge	d3,d15,.L12
-.L269:
+.L272:
 	j	.L13
 .L12:
 
-; ..\USER\control.c	    72      else ExcursionValueCoeff = 1/(AbsInclineValue*AbsInclineValue*0.018);
+; ..\USER\control.c	    73      else ExcursionValueCoeff = 1/(AbsInclineValue*AbsInclineValue*0.018);
 .L13:
 
-; ..\USER\control.c	    73      //OLED_Refresh_Gram();
-; ..\USER\control.c	    74      if(AbsExcursionValue > 100) ExcursionValueCoeff = 2;
+; ..\USER\control.c	    74      //OLED_Refresh_Gram();
+; ..\USER\control.c	    75      if(AbsExcursionValue > 100) ExcursionValueCoeff = 2;
 	mov	d15,#100
-.L270:
+.L273:
 	jge	d15,d2,.L14
-.L271:
+.L274:
 	mov	d15,#2
-.L183:
+.L186:
 	j	.L15
 .L14:
 
-; ..\USER\control.c	    75      else ExcursionValueCoeff = 0;
+; ..\USER\control.c	    76      else ExcursionValueCoeff = 0;
 	mov	d15,#0
 .L15:
 
-; ..\USER\control.c	    76  
-; ..\USER\control.c	    77      cardegree = InclineValue*0.77 - ExcursionValueCoeff*ExcursionValue*0.105;
+; ..\USER\control.c	    77  
+; ..\USER\control.c	    78      cardegree = InclineValue*0.77 - ExcursionValueCoeff*ExcursionValue*0.105;
 	itof	d0,d0
-.L177:
-	mov	d2,#7864
 .L180:
+	mov	d2,#7864
+.L183:
 	addih	d2,d2,#16197
-.L272:
+.L275:
 	mul.f	d0,d0,d2
-.L273:
+.L276:
 	mul	d1,d15
-.L173:
+.L176:
 	itof	d15,d1
-.L184:
+.L187:
 	mov	d1,#2621
 	addih	d1,d1,#15831
-.L274:
+.L277:
 	msub.f	d15,d0,d15,d1
 	ftoiz	d2,d15
-.L185:
+.L188:
 
-; ..\USER\control.c	    78      if (cardegree>88) cardegree=88;
+; ..\USER\control.c	    79      if (cardegree>88) cardegree=88;
 	mov	d15,#88
-.L275:
+.L278:
 	jge	d15,d2,.L16
-.L276:
+.L279:
 	mov	d2,#88
 .L16:
 
-; ..\USER\control.c	    79      if (cardegree<-88) cardegree=-88;
+; ..\USER\control.c	    80      if (cardegree<-88) cardegree=-88;
 	mov	d15,#-88
-.L277:
+.L280:
 	jge	d2,d15,.L17
-.L278:
+.L281:
 	mov	d2,#-88
 .L17:
 
-; ..\USER\control.c	    80      return cardegree;
+; ..\USER\control.c	    81      return cardegree;
 	j	.L18
 
-; ..\USER\control.c	    81  }
+; ..\USER\control.c	    82  }
 .L18:
 	ret
-.L134:
+.L136:
 	
 __degree_calculation_function_end:
 	.size	degree_calculation,__degree_calculation_function_end-degree_calculation
@@ -303,235 +304,240 @@ __degree_calculation_function_end:
 	
 	.global	speedctrl_calculation
 
-; ..\USER\control.c	    82  
-; ..\USER\control.c	    83  int speedctrl_calculation(int degree)
+; ..\USER\control.c	    83  
+; ..\USER\control.c	    84  int speedctrl_calculation(int degree)
 ; Function speedctrl_calculation
 .L58:
 speedctrl_calculation:	.type	func
 
-; ..\USER\control.c	    84  {
-; ..\USER\control.c	    85  
-; ..\USER\control.c	    86  	//int16 speed;        //真实速度
-; ..\USER\control.c	    87  	int16 set_speed;    //期望速度
-; ..\USER\control.c	    88  	int speedctrl;
-; ..\USER\control.c	    89  	int data;
-; ..\USER\control.c	    90  	if(degree<0)
+; ..\USER\control.c	    85  {
+; ..\USER\control.c	    86  
+; ..\USER\control.c	    87  	//int16 speed;        //真实速度
+; ..\USER\control.c	    88  	int16 set_speed;    //期望速度
+; ..\USER\control.c	    89  	int speedctrl;
+; ..\USER\control.c	    90  	int data;
+; ..\USER\control.c	    91  	if(degree<0)
 	jge	d4,#0,.L19
 .L19:
 
-; ..\USER\control.c	    91  	{
-; ..\USER\control.c	    92  		degree = -degree;
-; ..\USER\control.c	    93  	}
-; ..\USER\control.c	    94  	//if(degree<=25)
-; ..\USER\control.c	    95  	set_speed = 3000;
-	mov	d15,#3000
-.L187:
+; ..\USER\control.c	    92  	{
+; ..\USER\control.c	    93  		degree = -degree;
+; ..\USER\control.c	    94  	}
+; ..\USER\control.c	    95  	//if(degree<=25)
+; ..\USER\control.c	    96  	set_speed = 2500;
+	mov	d15,#2500
+.L190:
 
-; ..\USER\control.c	    96  	/*else if(degree<=65)
-; ..\USER\control.c	    97  		set_speed=250-2*degree;*/
-; ..\USER\control.c	    98  	//else
-; ..\USER\control.c	    99  		//set_speed=6000;
-; ..\USER\control.c	   100  
-; ..\USER\control.c	   101  	ek2 = ek1;//保存上上次误差
+; ..\USER\control.c	    97  	/*else if(degree<=65)
+; ..\USER\control.c	    98  		set_speed=250-2*degree;*/
+; ..\USER\control.c	    99  	//else
+; ..\USER\control.c	   100  		//set_speed=6000;
+; ..\USER\control.c	   101  
+; ..\USER\control.c	   102  	ek2 = ek1;//保存上上次误差
 	movh.a	a15,#@his(ek2)
 	lea	a15,[a15]@los(ek2)
-.L283:
+.L286:
 	movh.a	a2,#@his(ek1)
 	lea	a2,[a2]@los(ek1)
-	ld.h	d0,[a2]
-.L284:
-	st.h	[a15],d0
-.L285:
-
-; ..\USER\control.c	   102  	ek1 = ek; //保存上次误差
-	movh.a	a15,#@his(ek1)
-	lea	a15,[a15]@los(ek1)
-.L286:
-	movh.a	a2,#@his(ek)
-	lea	a2,[a2]@los(ek)
 	ld.h	d0,[a2]
 .L287:
 	st.h	[a15],d0
 .L288:
 
-; ..\USER\control.c	   103  	ek = set_speed - speed;//计算当前误差
+; ..\USER\control.c	   103  	ek1 = ek; //保存上次误差
+	movh.a	a15,#@his(ek1)
+	lea	a15,[a15]@los(ek1)
+.L289:
+	movh.a	a2,#@his(ek)
+	lea	a2,[a2]@los(ek)
+	ld.h	d0,[a2]
+.L290:
+	st.h	[a15],d0
+.L291:
+
+; ..\USER\control.c	   104  	ek = set_speed - speed;//计算当前误差
 	movh.a	a15,#@his(ek)
 	lea	a15,[a15]@los(ek)
-.L289:
+.L292:
 	movh.a	a2,#@his(speed)
 	lea	a2,[a2]@los(speed)
 	ld.h	d0,[a2]
-.L290:
-	sub	d15,d0
-.L188:
-	st.h	[a15],d15
-.L291:
-
-; ..\USER\control.c	   104  	//oled_int16(40, 3, ek);
-; ..\USER\control.c	   105  
-; ..\USER\control.c	   106  	//设置PID系数
-; ..\USER\control.c	   107  	kp = 0.45;
-	movh.a	a15,#@his(kp)
-	lea	a15,[a15]@los(kp)
-.L292:
-	mov	d15,#26214
-	addih	d15,d15,#16102
 .L293:
-	st.w	[a15],d15
+	sub	d15,d0
+.L191:
+	st.h	[a15],d15
 .L294:
 
-; ..\USER\control.c	   108  	ki = 0;
-	movh.a	a15,#@his(ki)
-	lea	a15,[a15]@los(ki)
+; ..\USER\control.c	   105  	//oled_int16(40, 3, ek);
+; ..\USER\control.c	   106  
+; ..\USER\control.c	   107  	//设置PID系数
+; ..\USER\control.c	   108  	kp = 0.55;
+	movh.a	a15,#@his(kp)
+	lea	a15,[a15]@los(kp)
 .L295:
-	mov	d15,#0
+	mov.u	d15,#52429
+	addih	d15,d15,#16140
 .L296:
 	st.w	[a15],d15
 .L297:
 
-; ..\USER\control.c	   109  	kd = 0;
-	movh.a	a15,#@his(kd)
-	lea	a15,[a15]@los(kd)
+; ..\USER\control.c	   109  	ki = 0.003;
+	movh.a	a15,#@his(ki)
+	lea	a15,[a15]@los(ki)
 .L298:
-	mov	d15,#0
+	mov.u	d15,#39846
+	addih	d15,d15,#15172
 .L299:
 	st.w	[a15],d15
 .L300:
 
-; ..\USER\control.c	   110  
-; ..\USER\control.c	   111  	//进行增量式PID运算
-; ..\USER\control.c	   112  	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
+; ..\USER\control.c	   110  	kd = 0.012;
+	movh.a	a15,#@his(kd)
+	lea	a15,[a15]@los(kd)
+.L301:
+	mov.u	d15,#39846
+	addih	d15,d15,#15428
+.L302:
+	st.w	[a15],d15
+.L303:
+
+; ..\USER\control.c	   111  
+; ..\USER\control.c	   112  	//进行增量式PID运算
+; ..\USER\control.c	   113  	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
 	movh.a	a15,#@his(out_increment)
 	lea	a15,[a15]@los(out_increment)
-.L301:
-	mov	d4,#0
-.L186:
+.L304:
+	mov.u	d4,#39846
+.L189:
+	addih	d4,d4,#15428
+.L305:
 	movh.a	a2,#@his(ek)
 	lea	a2,[a2]@los(ek)
 	ld.h	d15,[a2]
-.L302:
-	movh.a	a2,#@his(ek2)
-	lea	a2,[a2]@los(ek2)
-	ld.h	d0,[a2]
-.L303:
-	mov	d1,#2
-.L304:
-	msub	d15,d15,d0,d1
-.L305:
-	movh.a	a2,#@his(ek2)
-	lea	a2,[a2]@los(ek2)
-	ld.h	d0,[a2]
 .L306:
+	movh.a	a2,#@his(ek2)
+	lea	a2,[a2]@los(ek2)
+	ld.h	d0,[a2]
+.L307:
+	mov	d1,#2
+.L308:
+	msub	d15,d15,d0,d1
+.L309:
+	movh.a	a2,#@his(ek2)
+	lea	a2,[a2]@los(ek2)
+	ld.h	d0,[a2]
+.L310:
 	add	d15,d0
 	itof	d15,d15
-.L307:
-	mov	d1,#26214
-	addih	d1,d1,#16102
-.L308:
+.L311:
+	mov.u	d1,#52429
+	addih	d1,d1,#16140
+.L312:
 	movh.a	a2,#@his(ek)
 	lea	a2,[a2]@los(ek)
 	ld.h	d0,[a2]
-.L309:
+.L313:
 	movh.a	a2,#@his(ek1)
 	lea	a2,[a2]@los(ek1)
 	ld.h	d2,[a2]
-.L310:
+.L314:
 	sub	d0,d2
 	itof	d0,d0
-.L311:
-	mov	d2,#0
-.L312:
+.L315:
+	mov.u	d2,#39846
+	addih	d2,d2,#15172
+.L316:
 	movh.a	a2,#@his(ek)
 	lea	a2,[a2]@los(ek)
 	ld.h	d3,[a2]
 	itof	d3,d3
-.L313:
+.L317:
 	mul.f	d2,d2,d3
-.L314:
+.L318:
 	madd.f	d0,d2,d1,d0
-.L315:
+.L319:
 	madd.f	d15,d0,d4,d15
-.L316:
+.L320:
 	ftoiz	d15,d15
 	sat.h	d15
 	itof	d15,d15
-.L317:
+.L321:
 	st.w	[a15],d15
-.L318:
+.L322:
 
-; ..\USER\control.c	   113  	out = out + out_increment;       //输出增量
+; ..\USER\control.c	   114  	out = out + out_increment;       //输出增量
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
-.L319:
+.L323:
 	movh.a	a2,#@his(out)
 	lea	a2,[a2]@los(out)
 	ld.w	d15,[a2]
-.L320:
+.L324:
 	movh.a	a2,#@his(out_increment)
 	lea	a2,[a2]@los(out_increment)
 	ld.w	d0,[a2]
-.L321:
+.L325:
 	add.f	d15,d15,d0
-.L322:
+.L326:
 	st.w	[a15],d15
-.L323:
+.L327:
 
-; ..\USER\control.c	   114  
-; ..\USER\control.c	   115  	if(out>4000) out = 4000;     //输出限幅 不能超过占空比最大值
+; ..\USER\control.c	   115  
+; ..\USER\control.c	   116  	if(out>4000) out = 4000;     //输出限幅 不能超过占空比最大值
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
 	ld.w	d15,[a15]
-.L324:
+.L328:
 	movh	d0,#17786
-.L325:
+.L329:
 	cmp.f	d15,d15,d0
 	extr.u	d15,d15,#2,#1
-.L326:
+.L330:
 	jeq	d15,#0,.L20
-.L327:
+.L331:
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
-.L328:
+.L332:
 	movh	d15,#17786
-.L329:
+.L333:
 	st.w	[a15],d15
 .L20:
 
-; ..\USER\control.c	   116  	if(out<-4000) out = -4000;
+; ..\USER\control.c	   117  	if(out<-4000) out = -4000;
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
 	ld.w	d15,[a15]
-.L330:
+.L334:
 	movh	d0,#50554
-.L331:
+.L335:
 	cmp.f	d15,d15,d0
 	extr.u	d15,d15,#0,#1
-.L332:
+.L336:
 	jeq	d15,#0,.L21
-.L333:
+.L337:
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
-.L334:
+.L338:
 	movh	d15,#50554
-.L335:
+.L339:
 	st.w	[a15],d15
 .L21:
 
-; ..\USER\control.c	   117  	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
+; ..\USER\control.c	   118  	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
 	ld.w	d15,[a15]
-.L336:
+.L340:
 	ftoiz	d2,d15
-.L189:
+.L192:
 
-; ..\USER\control.c	   118  	return speedctrl;
+; ..\USER\control.c	   119  	return speedctrl;
 	j	.L22
 
-; ..\USER\control.c	   119  }
+; ..\USER\control.c	   120  }
 .L22:
 	ret
-.L145:
+.L147:
 	
 __speedctrl_calculation_function_end:
 	.size	speedctrl_calculation,__speedctrl_calculation_function_end-speedctrl_calculation
@@ -544,37 +550,37 @@ __speedctrl_calculation_function_end:
 	
 	.global	rear_diff
 
-; ..\USER\control.c	   120  
-; ..\USER\control.c	   121  double rear_diff(int degree)
+; ..\USER\control.c	   121  
+; ..\USER\control.c	   122  double rear_diff(int degree)
 ; Function rear_diff
 .L60:
 rear_diff:	.type	func
 
-; ..\USER\control.c	   122  {
-; ..\USER\control.c	   123  	double xishu;
-; ..\USER\control.c	   124  	if(degree < 0)
+; ..\USER\control.c	   123  {
+; ..\USER\control.c	   124  	double xishu;
+; ..\USER\control.c	   125  	if(degree < 0)
 	jge	d4,#0,.L23
-.L537:
+.L541:
 
-; ..\USER\control.c	   125  	{
-; ..\USER\control.c	   126  		//后轮差速部分
-; ..\USER\control.c	   127  		int d;
-; ..\USER\control.c	   128  		d=-degree;
+; ..\USER\control.c	   126  	{
+; ..\USER\control.c	   127  		//后轮差速部分
+; ..\USER\control.c	   128  		int d;
+; ..\USER\control.c	   129  		d=-degree;
 	j	.L24
 .L23:
 
-; ..\USER\control.c	   129  		xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
-; ..\USER\control.c	   130  	}
-; ..\USER\control.c	   131  	//右转弯
-; ..\USER\control.c	   132  	else
+; ..\USER\control.c	   130  		xishu=-B*(-0.000147*d*d+0.016*d-0.00493)/(2*H);
+; ..\USER\control.c	   131  	}
+; ..\USER\control.c	   132  	//右转弯
+; ..\USER\control.c	   133  	else
 .L24:
 
-; ..\USER\control.c	   133  	{
-; ..\USER\control.c	   134  	    xishu=B*(-0.000147*degree*degree+0.016*degree-0.00493)/(2*H);
-; ..\USER\control.c	   135  	}
-; ..\USER\control.c	   136  }
+; ..\USER\control.c	   134  	{
+; ..\USER\control.c	   135  	    xishu=B*(-0.000147*degree*degree+0.016*degree-0.00493)/(2*H);
+; ..\USER\control.c	   136  	}
+; ..\USER\control.c	   137  }
 	ret
-.L166:
+.L168:
 	
 __rear_diff_function_end:
 	.size	rear_diff,__rear_diff_function_end-rear_diff
@@ -587,878 +593,878 @@ __rear_diff_function_end:
 	
 	.global	rotate
 
-; ..\USER\control.c	   137  
-; ..\USER\control.c	   138  void rotate(int degree)                         //后轮差速以及速度分级+舵机电机PWM
+; ..\USER\control.c	   138  
+; ..\USER\control.c	   139  void rotate(int degree)                         //后轮差速以及速度分级+舵机电机PWM
 ; Function rotate
 .L62:
 rotate:	.type	func
 	mov	d8,d4
-.L192:
+.L195:
 
-; ..\USER\control.c	   139  {
-; ..\USER\control.c	   140  	int data1;
-; ..\USER\control.c	   141  	int speedctrl;      //后轮电机PWM占空比(正向)
-; ..\USER\control.c	   142  	int speedctrl2;
-; ..\USER\control.c	   143  	int speedctrl2L;		//倒转
-; ..\USER\control.c	   144  	int speedctrl2R;		//倒转
-; ..\USER\control.c	   145  	int i=0;
-; ..\USER\control.c	   146  	int temp[6];                                  	//串口发送数据
-; ..\USER\control.c	   147  	double xishu=0.1;                             	//后轮差速系数值
-; ..\USER\control.c	   148  	int16 temp_speed;
-; ..\USER\control.c	   149  
-; ..\USER\control.c	   150  	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
+; ..\USER\control.c	   140  {
+; ..\USER\control.c	   141  	int data1;
+; ..\USER\control.c	   142  	int speedctrl;      //后轮电机PWM占空比(正向)
+; ..\USER\control.c	   143  	int speedctrl2;
+; ..\USER\control.c	   144  	int speedctrl2L;		//倒转
+; ..\USER\control.c	   145  	int speedctrl2R;		//倒转
+; ..\USER\control.c	   146  	int i=0;
+; ..\USER\control.c	   147  	int temp[6];                                  	//串口发送数据
+; ..\USER\control.c	   148  	double xishu=0.1;                             	//后轮差速系数值
+; ..\USER\control.c	   149  	int16 temp_speed;
+; ..\USER\control.c	   150  
+; ..\USER\control.c	   151  	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
 	movh.a	a15,#@his(zebra_end_flag)
 	lea	a15,[a15]@los(zebra_end_flag)
 	ld.bu	d15,[a15]
 	jne	d15,#1,.L25
-.L341:
+.L345:
 	movh.a	a15,#@his(stop_flag)
 	lea	a15,[a15]@los(stop_flag)
 	ld.bu	d15,[a15]
-.L342:
-	jne	d15,#0,.L26
-.L343:
-
-; ..\USER\control.c	   151  	{
-; ..\USER\control.c	   152  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
-	mov	d4,#104
-.L191:
-	addi	d5,d8,#705
-	call	pwm_duty
-.L344:
-
-; ..\USER\control.c	   153  		//改变电机占空比
-; ..\USER\control.c	   154  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-	mov	d4,#29
-.L345:
-	mov	d5,#0
-	call	pwm_duty
 .L346:
-
-; ..\USER\control.c	   155  		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-	mov	d4,#43
+	jne	d15,#0,.L26
 .L347:
-	mov	d5,#0
+
+; ..\USER\control.c	   152  	{
+; ..\USER\control.c	   153  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
+	mov	d4,#104
+.L194:
+	addi	d5,d8,#705
 	call	pwm_duty
 .L348:
 
-; ..\USER\control.c	   156          pwm_duty(ATOM0_CH6_P02_6, 500);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   154  		//改变电机占空比
+; ..\USER\control.c	   155  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+	mov	d4,#29
 .L349:
-	mov	d5,#500
+	mov	d5,#0
 	call	pwm_duty
 .L350:
 
-; ..\USER\control.c	   157          pwm_duty(ATOM0_CH5_P02_5, 500);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   156  		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+	mov	d4,#43
 .L351:
-	mov	d5,#500
+	mov	d5,#0
 	call	pwm_duty
 .L352:
+
+; ..\USER\control.c	   157          pwm_duty(ATOM0_CH6_P02_6, 500);		//右后
+	mov	d4,#39
+.L353:
+	mov	d5,#500
+	call	pwm_duty
+.L354:
+
+; ..\USER\control.c	   158          pwm_duty(ATOM0_CH5_P02_5, 500);		//左后
+	mov	d4,#35
+.L355:
+	mov	d5,#500
+	call	pwm_duty
+.L356:
 	j	.L27
 .L26:
 .L25:
 
-; ..\USER\control.c	   158  	}
-; ..\USER\control.c	   159  	else if(stop_flag == 1&&stop_end_flag==0)	//找到底线，刹车
+; ..\USER\control.c	   159  	}
+; ..\USER\control.c	   160  	else if(stop_flag == 1&&stop_end_flag==0)	//找到底线，刹车
 	movh.a	a15,#@his(stop_flag)
 	lea	a15,[a15]@los(stop_flag)
 	ld.bu	d15,[a15]
 	jne	d15,#1,.L28
-.L353:
+.L357:
 	movh.a	a15,#@his(stop_end_flag)
 	lea	a15,[a15]@los(stop_end_flag)
 	ld.bu	d15,[a15]
-.L354:
-	jne	d15,#0,.L29
-.L355:
-
-; ..\USER\control.c	   160  	{
-; ..\USER\control.c	   161  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
-	mov	d4,#104
-.L194:
-	mov	d5,#705
-	call	pwm_duty
-.L356:
-
-; ..\USER\control.c	   162          //改变电机占空比
-; ..\USER\control.c	   163          pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-	mov	d4,#29
-.L357:
-	mov	d5,#0
-	call	pwm_duty
 .L358:
-
-; ..\USER\control.c	   164          pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-	mov	d4,#43
+	jne	d15,#0,.L29
 .L359:
-	mov	d5,#0
+
+; ..\USER\control.c	   161  	{
+; ..\USER\control.c	   162  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
+	mov	d4,#104
+.L197:
+	mov	d5,#705
 	call	pwm_duty
 .L360:
 
-; ..\USER\control.c	   165          pwm_duty(ATOM0_CH6_P02_6, 1200);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   163          //改变电机占空比
+; ..\USER\control.c	   164          pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+	mov	d4,#29
 .L361:
-	mov	d5,#1200
+	mov	d5,#0
 	call	pwm_duty
 .L362:
 
-; ..\USER\control.c	   166          pwm_duty(ATOM0_CH5_P02_5, 1200);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   165          pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+	mov	d4,#43
 .L363:
-	mov	d5,#1200
+	mov	d5,#0
 	call	pwm_duty
 .L364:
 
-; ..\USER\control.c	   167  		systick_delay_ms(STM1, 200);	//延时100MS  使用STM0定时器
+; ..\USER\control.c	   166          pwm_duty(ATOM0_CH6_P02_6, 1200);		//右后
+	mov	d4,#39
+.L365:
+	mov	d5,#1200
+	call	pwm_duty
+.L366:
+
+; ..\USER\control.c	   167          pwm_duty(ATOM0_CH5_P02_5, 1200);		//左后
+	mov	d4,#35
+.L367:
+	mov	d5,#1200
+	call	pwm_duty
+.L368:
+
+; ..\USER\control.c	   168  		systick_delay_ms(STM1, 200);	//延时100MS  使用STM0定时器
 	mov	d4,#1
 	mov.u	d5,#49664
 	addih	d5,d5,#3051
 	call	systick_delay
-.L365:
+.L369:
 
-; ..\USER\control.c	   168  		mt9v03x_init();	//初始化摄像头
+; ..\USER\control.c	   169  		mt9v03x_init();	//初始化摄像头
 	call	mt9v03x_init
-.L366:
+.L370:
 
-; ..\USER\control.c	   169  		stop_end_flag=1;
+; ..\USER\control.c	   170  		stop_end_flag=1;
 	movh.a	a15,#@his(stop_end_flag)
 	lea	a15,[a15]@los(stop_end_flag)
-.L367:
+.L371:
 	mov	d15,#1
-.L368:
+.L372:
 	st.b	[a15],d15
-.L369:
+.L373:
 	j	.L30
 .L29:
 .L28:
 
-; ..\USER\control.c	   170  	}
-; ..\USER\control.c	   171  	else if(stop_end_flag==1)					//停车完成，熄火
+; ..\USER\control.c	   171  	}
+; ..\USER\control.c	   172  	else if(stop_end_flag==1)					//停车完成，熄火
 	movh.a	a15,#@his(stop_end_flag)
 	lea	a15,[a15]@los(stop_end_flag)
 	ld.bu	d15,[a15]
-.L370:
-	jne	d15,#1,.L31
-.L371:
-
-; ..\USER\control.c	   172  	{
-; ..\USER\control.c	   173  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
-	mov	d4,#104
-.L195:
-	mov	d5,#705
-	call	pwm_duty
-.L372:
-
-; ..\USER\control.c	   174  		//改变电机占空比
-; ..\USER\control.c	   175          pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-	mov	d4,#29
-.L373:
-	mov	d5,#0
-	call	pwm_duty
 .L374:
-
-; ..\USER\control.c	   176          pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-	mov	d4,#43
+	jne	d15,#1,.L31
 .L375:
-	mov	d5,#0
+
+; ..\USER\control.c	   173  	{
+; ..\USER\control.c	   174  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
+	mov	d4,#104
+.L198:
+	mov	d5,#705
 	call	pwm_duty
 .L376:
 
-; ..\USER\control.c	   177          pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   175  		//改变电机占空比
+; ..\USER\control.c	   176          pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+	mov	d4,#29
 .L377:
 	mov	d5,#0
 	call	pwm_duty
 .L378:
 
-; ..\USER\control.c	   178          pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   177          pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+	mov	d4,#43
 .L379:
 	mov	d5,#0
 	call	pwm_duty
 .L380:
+
+; ..\USER\control.c	   178          pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+	mov	d4,#39
+.L381:
+	mov	d5,#0
+	call	pwm_duty
+.L382:
+
+; ..\USER\control.c	   179          pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+	mov	d4,#35
+.L383:
+	mov	d5,#0
+	call	pwm_duty
+.L384:
 	j	.L32
 .L31:
 
-; ..\USER\control.c	   179  	}
-; ..\USER\control.c	   180  	else if(out_huandao==1)
+; ..\USER\control.c	   180  	}
+; ..\USER\control.c	   181  	else if(out_huandao==1)
 	movh.a	a15,#@his(out_huandao)
 	lea	a15,[a15]@los(out_huandao)
 	ld.bu	d15,[a15]
-.L381:
+.L385:
 	jne	d15,#1,.L33
-.L159:
+.L161:
 
-; ..\USER\control.c	   181  	{
-; ..\USER\control.c	   182  		int ideal_speedctrl = speedctrl_calculation(60);
+; ..\USER\control.c	   182  	{
+; ..\USER\control.c	   183  		int ideal_speedctrl = speedctrl_calculation(60);
 	mov	d4,#60
-.L196:
-	call	speedctrl_calculation
-.L197:
-
-; ..\USER\control.c	   183  		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
-	jge	d2,#0,.L34
-.L382:
-	mov	d15,#0
 .L199:
+	call	speedctrl_calculation
+.L200:
+
+; ..\USER\control.c	   184  		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
+	jge	d2,#0,.L34
+.L386:
+	mov	d15,#0
+.L202:
 	rsub	d2,#0
-.L383:
+.L387:
 	mov	d8,d2
-.L193:
+.L196:
 	j	.L35
 .L34:
 
-; ..\USER\control.c	   184  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+; ..\USER\control.c	   185  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 	mov	d15,d2
-.L200:
+.L203:
 	mov	d8,#0
 .L35:
 
-; ..\USER\control.c	   185  		//speedctrl = speedctrl+500;
-; ..\USER\control.c	   186  		xishu = rear_diff(60);
-	mov	d4,#60
+; ..\USER\control.c	   186  		//speedctrl = speedctrl+500;
+; ..\USER\control.c	   187  		xishu = rear_diff(70);
+	mov	d4,#70
 	call	rear_diff
-.L198:
+.L201:
 	mov	d9,d2
-.L203:
+.L206:
 
-; ..\USER\control.c	   187  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+60);
+; ..\USER\control.c	   188  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+70);
 	mov	d4,#104
-.L384:
-	mov	d5,#765
+.L388:
+	mov	d5,#775
 	call	pwm_duty
-.L202:
+.L205:
 
-; ..\USER\control.c	   188  		//改变电机占空比
-; ..\USER\control.c	   189  		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+; ..\USER\control.c	   189  		//改变电机占空比
+; ..\USER\control.c	   190  		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 	mov	d4,#29
-.L385:
+.L389:
 	itof	d0,d15
-.L386:
+.L390:
 	movh	d1,#16256
-.L387:
+.L391:
 	mov.u	d2,#62915
 	addih	d2,d2,#16232
-.L388:
+.L392:
 	msub.f	d1,d1,d9,d2
-.L389:
+.L393:
 	mul.f	d0,d0,d1
 	ftouz	d5,d0
 	call	pwm_duty
-.L390:
+.L394:
 
-; ..\USER\control.c	   190  		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+; ..\USER\control.c	   191  		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 	mov	d4,#43
-.L391:
+.L395:
 	itof	d15,d15
-.L201:
+.L204:
 	mov.u	d0,#62915
 	addih	d0,d0,#16232
-.L392:
+.L396:
 	movh	d1,#16256
-.L393:
+.L397:
 	madd.f	d0,d1,d9,d0
-.L394:
+.L398:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L395:
+.L399:
 
-; ..\USER\control.c	   191  		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+; ..\USER\control.c	   192  		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 	mov	d4,#39
-.L396:
+.L400:
 	itof	d15,d8
-.L397:
+.L401:
 	movh	d0,#16256
-.L398:
+.L402:
 	mov.u	d1,#62915
 	addih	d1,d1,#16232
-.L399:
+.L403:
 	msub.f	d0,d0,d9,d1
-.L400:
+.L404:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L401:
+.L405:
 
-; ..\USER\control.c	   192  		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
+; ..\USER\control.c	   193  		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
 	mov	d4,#35
-.L402:
+.L406:
 	itof	d15,d8
-.L403:
+.L407:
 	mov.u	d0,#62915
 	addih	d0,d0,#16232
-.L404:
+.L408:
 	movh	d1,#16256
-.L405:
+.L409:
 	madd.f	d0,d1,d9,d0
-.L406:
+.L410:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L407:
+.L411:
 
-; ..\USER\control.c	   193  		systick_delay_ms(STM1, 80);
+; ..\USER\control.c	   194  		systick_delay_ms(STM1, 250);
 	mov	d4,#1
-	mov.u	d5,#46080
-	addih	d5,d5,#1220
+	mov.u	d5,#45696
+	addih	d5,d5,#3814
 	call	systick_delay
-.L408:
+.L412:
 
-; ..\USER\control.c	   194  		mt9v03x_init();	//初始化摄像头
+; ..\USER\control.c	   195  		mt9v03x_init();	//初始化摄像头
 	call	mt9v03x_init
-.L409:
+.L413:
 
-; ..\USER\control.c	   195  		out_huandao=0;
+; ..\USER\control.c	   196  		out_huandao=0;
 	movh.a	a15,#@his(out_huandao)
 	lea	a15,[a15]@los(out_huandao)
-.L410:
+.L414:
 	mov	d15,#0
-.L411:
+.L415:
 	st.b	[a15],d15
-.L160:
+.L162:
 	j	.L36
 .L33:
 
-; ..\USER\control.c	   196  	}
-; ..\USER\control.c	   197  	else if(in_huandao==1&&in_huandao_end==0)
+; ..\USER\control.c	   197  	}
+; ..\USER\control.c	   198  	else if(in_huandao==1&&in_huandao_end==0)
 	movh.a	a15,#@his(in_huandao)
 	lea	a15,[a15]@los(in_huandao)
 	ld.bu	d15,[a15]
 	jne	d15,#1,.L37
-.L412:
+.L416:
 	movh.a	a15,#@his(in_huandao_end)
 	lea	a15,[a15]@los(in_huandao_end)
 	ld.bu	d15,[a15]
-.L413:
+.L417:
 	jne	d15,#0,.L38
-.L162:
+.L164:
 
-; ..\USER\control.c	   198  	{
-; ..\USER\control.c	   199  		//改变电机占空比
-; ..\USER\control.c	   200  		degree = 80;
-; ..\USER\control.c	   201  		int ideal_speedctrl = speedctrl_calculation(80);
+; ..\USER\control.c	   199  	{
+; ..\USER\control.c	   200  		//改变电机占空比
+; ..\USER\control.c	   201  		degree = 80;
+; ..\USER\control.c	   202  		int ideal_speedctrl = speedctrl_calculation(80);
 	mov	d4,#80
-.L205:
-	call	speedctrl_calculation
-.L206:
-
-; ..\USER\control.c	   202  		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
-	jge	d2,#0,.L39
-.L414:
-	mov	d15,#0
 .L208:
+	call	speedctrl_calculation
+.L209:
+
+; ..\USER\control.c	   203  		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
+	jge	d2,#0,.L39
+.L418:
+	mov	d15,#0
+.L211:
 	rsub	d2,#0
-.L415:
+.L419:
 	mov	d8,d2
-.L204:
+.L207:
 	j	.L40
 .L39:
 
-; ..\USER\control.c	   203  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+; ..\USER\control.c	   204  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 	mov	d15,d2
-.L209:
+.L212:
 	mov	d8,#0
 .L40:
 
-; ..\USER\control.c	   204  		xishu = rear_diff(80);
+; ..\USER\control.c	   205  		xishu = rear_diff(80);
 	mov	d4,#80
 	call	rear_diff
-.L207:
+.L210:
 	mov	d9,d2
-.L212:
+.L215:
 
-; ..\USER\control.c	   205  		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+; ..\USER\control.c	   206  		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 	mov	d4,#29
-.L416:
-	itof	d0,d15
-.L417:
-	movh	d1,#16256
-.L418:
-	mov.u	d2,#62915
-.L211:
-	addih	d2,d2,#16232
-.L419:
-	msub.f	d1,d1,d9,d2
 .L420:
+	itof	d0,d15
+.L421:
+	movh	d1,#16256
+.L422:
+	mov.u	d2,#62915
+.L214:
+	addih	d2,d2,#16232
+.L423:
+	msub.f	d1,d1,d9,d2
+.L424:
 	mul.f	d0,d0,d1
 	ftouz	d5,d0
 	call	pwm_duty
-.L421:
+.L425:
 
-; ..\USER\control.c	   206  		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+; ..\USER\control.c	   207  		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 	mov	d4,#43
-.L422:
+.L426:
 	itof	d15,d15
-.L210:
+.L213:
 	mov.u	d0,#62915
 	addih	d0,d0,#16232
-.L423:
+.L427:
 	movh	d1,#16256
-.L424:
+.L428:
 	madd.f	d0,d1,d9,d0
-.L425:
+.L429:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L426:
+.L430:
 
-; ..\USER\control.c	   207  		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+; ..\USER\control.c	   208  		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 	mov	d4,#39
-.L427:
+.L431:
 	itof	d15,d8
-.L428:
+.L432:
 	movh	d0,#16256
-.L429:
+.L433:
 	mov.u	d1,#62915
 	addih	d1,d1,#16232
-.L430:
+.L434:
 	msub.f	d0,d0,d9,d1
-.L431:
+.L435:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L432:
+.L436:
 
-; ..\USER\control.c	   208  		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
+; ..\USER\control.c	   209  		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
 	mov	d4,#35
-.L433:
+.L437:
 	itof	d15,d8
-.L434:
+.L438:
 	mov.u	d0,#62915
 	addih	d0,d0,#16232
-.L435:
+.L439:
 	movh	d1,#16256
-.L436:
+.L440:
 	madd.f	d0,d1,d9,d0
-.L437:
+.L441:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L438:
+.L442:
 
-; ..\USER\control.c	   209  		//systick_delay_ms(STM1, 500);
-; ..\USER\control.c	   210  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+80);
+; ..\USER\control.c	   210  		//systick_delay_ms(STM1, 500);
+; ..\USER\control.c	   211  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+80);
 	mov	d4,#104
-.L439:
+.L443:
 	mov	d5,#785
 	call	pwm_duty
-.L440:
+.L444:
 
-; ..\USER\control.c	   211  		systick_delay_ms(STM1, 200);
+; ..\USER\control.c	   212  		systick_delay_ms(STM1, 200);
 	mov	d4,#1
 	mov.u	d5,#49664
 	addih	d5,d5,#3051
 	call	systick_delay
-.L441:
-
-; ..\USER\control.c	   212  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-	mov	d4,#29
-.L442:
-	mov	d5,#0
-	call	pwm_duty
-.L443:
-
-; ..\USER\control.c	   213  		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-	mov	d4,#43
-.L444:
-	mov	d5,#0
-	call	pwm_duty
 .L445:
 
-; ..\USER\control.c	   214  		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   213  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+	mov	d4,#29
 .L446:
 	mov	d5,#0
 	call	pwm_duty
 .L447:
 
-; ..\USER\control.c	   215  		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   214  		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+	mov	d4,#43
 .L448:
 	mov	d5,#0
 	call	pwm_duty
 .L449:
 
-; ..\USER\control.c	   216  		mt9v03x_init();	//初始化摄像头
-	call	mt9v03x_init
+; ..\USER\control.c	   215  		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+	mov	d4,#39
 .L450:
+	mov	d5,#0
+	call	pwm_duty
+.L451:
 
-; ..\USER\control.c	   217  		in_huandao_end=1;
+; ..\USER\control.c	   216  		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+	mov	d4,#35
+.L452:
+	mov	d5,#0
+	call	pwm_duty
+.L453:
+
+; ..\USER\control.c	   217  		mt9v03x_init();	//初始化摄像头
+	call	mt9v03x_init
+.L454:
+
+; ..\USER\control.c	   218  		in_huandao_end=1;
 	movh.a	a15,#@his(in_huandao_end)
 	lea	a15,[a15]@los(in_huandao_end)
-.L451:
+.L455:
 	mov	d15,#1
-.L452:
+.L456:
 	st.b	[a15],d15
-.L163:
+.L165:
 	j	.L41
 .L38:
 .L37:
 
-; ..\USER\control.c	   218  	}
-; ..\USER\control.c	   219  	else										//正常行驶
-; ..\USER\control.c	   220  	{
-; ..\USER\control.c	   221  		//左转弯
-; ..\USER\control.c	   222  		int ideal_speedctrl = speedctrl_calculation(degree);
+; ..\USER\control.c	   219  	}
+; ..\USER\control.c	   220  	else										//正常行驶
+; ..\USER\control.c	   221  	{
+; ..\USER\control.c	   222  		//左转弯
+; ..\USER\control.c	   223  		int ideal_speedctrl = speedctrl_calculation(degree);
 	mov	d4,d8
 	call	speedctrl_calculation
-.L214:
-
-; ..\USER\control.c	   223  		if(ideal_speedctrl < 0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
-	jge	d2,#0,.L42
-.L453:
-	mov	d9,#0
-.L216:
-	rsub	d2,#0
-.L454:
-	mov	d10,d2
 .L217:
+
+; ..\USER\control.c	   224  		if(ideal_speedctrl < 0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
+	jge	d2,#0,.L42
+.L457:
+	mov	d9,#0
+.L219:
+	rsub	d2,#0
+.L458:
+	mov	d10,d2
+.L220:
 	j	.L43
 .L42:
 
-; ..\USER\control.c	   224  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+; ..\USER\control.c	   225  		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 	mov	d9,d2
-.L218:
+.L221:
 	mov	d10,#0
 .L43:
 
-; ..\USER\control.c	   225      	if(zebra_flag==0)
+; ..\USER\control.c	   226      	if(zebra_flag==0)
 	movh.a	a15,#@his(zebra_flag)
 	lea	a15,[a15]@los(zebra_flag)
 	ld.bu	d15,[a15]
-.L455:
+.L459:
 	jne	d15,#0,.L44
-.L456:
+.L460:
 
-; ..\USER\control.c	   226      	{
-; ..\USER\control.c	   227      		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
+; ..\USER\control.c	   227      	{
+; ..\USER\control.c	   228      		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
 	mov	d4,#104
-.L457:
+.L461:
 	addi	d5,d8,#705
 	call	pwm_duty
-.L215:
+.L218:
 
-; ..\USER\control.c	   228      		//改变电机占空比
-; ..\USER\control.c	   229  			xishu = rear_diff(degree);
+; ..\USER\control.c	   229      		//改变电机占空比
+; ..\USER\control.c	   230  			xishu = rear_diff(degree);
 	mov	d4,d8
-.L219:
+.L222:
 	call	rear_diff
-.L220:
+.L223:
 	mov	d8,d2
-.L213:
+.L216:
 
-; ..\USER\control.c	   230      		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+; ..\USER\control.c	   231      		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 	mov	d4,#29
-.L458:
-	itof	d15,d9
-.L459:
-	movh	d0,#16256
-.L460:
-	mov.u	d1,#62915
-	addih	d1,d1,#16232
-.L461:
-	msub.f	d0,d0,d8,d1
 .L462:
-	mul.f	d15,d15,d0
-	ftouz	d5,d15
-	call	pwm_duty
-.L221:
-
-; ..\USER\control.c	   231      		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
-	mov	d4,#43
-.L463:
 	itof	d15,d9
-.L464:
-	mov.u	d0,#62915
-	addih	d0,d0,#16232
-.L465:
-	movh	d1,#16256
-.L466:
-	madd.f	d0,d1,d8,d0
-.L467:
-	mul.f	d15,d15,d0
-	ftouz	d5,d15
-	call	pwm_duty
-.L468:
-
-; ..\USER\control.c	   232      		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
-	mov	d4,#39
-.L469:
-	itof	d15,d10
-.L470:
+.L463:
 	movh	d0,#16256
-.L471:
+.L464:
 	mov.u	d1,#62915
 	addih	d1,d1,#16232
-.L472:
+.L465:
 	msub.f	d0,d0,d8,d1
-.L473:
+.L466:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
-.L474:
+.L224:
 
-; ..\USER\control.c	   233      		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-	mov	d4,#35
-.L475:
-	itof	d15,d10
-.L476:
+; ..\USER\control.c	   232      		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+	mov	d4,#43
+.L467:
+	itof	d15,d9
+.L468:
 	mov.u	d0,#62915
 	addih	d0,d0,#16232
-.L477:
+.L469:
 	movh	d1,#16256
-.L478:
+.L470:
 	madd.f	d0,d1,d8,d0
-.L479:
+.L471:
 	mul.f	d15,d15,d0
 	ftouz	d5,d15
 	call	pwm_duty
+.L472:
+
+; ..\USER\control.c	   233      		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+	mov	d4,#39
+.L473:
+	itof	d15,d10
+.L474:
+	movh	d0,#16256
+.L475:
+	mov.u	d1,#62915
+	addih	d1,d1,#16232
+.L476:
+	msub.f	d0,d0,d8,d1
+.L477:
+	mul.f	d15,d15,d0
+	ftouz	d5,d15
+	call	pwm_duty
+.L478:
+
+; ..\USER\control.c	   234      		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
+	mov	d4,#35
+.L479:
+	itof	d15,d10
 .L480:
+	mov.u	d0,#62915
+	addih	d0,d0,#16232
+.L481:
+	movh	d1,#16256
+.L482:
+	madd.f	d0,d1,d8,d0
+.L483:
+	mul.f	d15,d15,d0
+	ftouz	d5,d15
+	call	pwm_duty
+.L484:
 	j	.L45
 .L44:
 
-; ..\USER\control.c	   234      	}
-; ..\USER\control.c	   235  		//遇斑马线转弯 
-; ..\USER\control.c	   236      	else									
-; ..\USER\control.c	   237      	{
-; ..\USER\control.c	   238      		//改变电机占空比
-; ..\USER\control.c	   239      		if(speed>30&&speed<=40)
+; ..\USER\control.c	   235      	}
+; ..\USER\control.c	   236  		//遇斑马线转弯 
+; ..\USER\control.c	   237      	else									
+; ..\USER\control.c	   238      	{
+; ..\USER\control.c	   239      		//改变电机占空比
+; ..\USER\control.c	   240      		if(speed>30&&speed<=40)
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
-.L481:
-	mov	d15,#30
-.L482:
-	jge	d15,d0,.L46
-.L483:
-	movh.a	a15,#@his(speed)
-	lea	a15,[a15]@los(speed)
-	ld.h	d0,[a15]
-.L484:
-	mov	d15,#40
 .L485:
-	jlt	d15,d0,.L47
+	mov	d15,#30
 .L486:
+	jge	d15,d0,.L46
+.L487:
+	movh.a	a15,#@his(speed)
+	lea	a15,[a15]@los(speed)
+	ld.h	d0,[a15]
+.L488:
+	mov	d15,#40
+.L489:
+	jlt	d15,d0,.L47
+.L490:
 
-; ..\USER\control.c	   240      		{
-; ..\USER\control.c	   241      	    	speedctrl = 800 - (speed - 30)*80;
+; ..\USER\control.c	   241      		{
+; ..\USER\control.c	   242      	    	speedctrl = 800 - (speed - 30)*80;
 	j	.L48
 .L47:
 .L46:
 
-; ..\USER\control.c	   242      	    	speedctrl2L = 0;
-; ..\USER\control.c	   243      	    	speedctrl2R = 0;
-; ..\USER\control.c	   244      		}
-; ..\USER\control.c	   245      		else if(speed>40)
+; ..\USER\control.c	   243      	    	speedctrl2L = 0;
+; ..\USER\control.c	   244      	    	speedctrl2R = 0;
+; ..\USER\control.c	   245      		}
+; ..\USER\control.c	   246      		else if(speed>40)
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
-.L487:
+.L491:
 	mov	d15,#40
-.L488:
+.L492:
 	jge	d15,d0,.L49
-.L489:
+.L493:
 
-; ..\USER\control.c	   246      		{
-; ..\USER\control.c	   247      			speedctrl = 0;
-; ..\USER\control.c	   248      			speedctrl2L = (speed-40) * 3000;
+; ..\USER\control.c	   247      		{
+; ..\USER\control.c	   248      			speedctrl = 0;
+; ..\USER\control.c	   249      			speedctrl2L = (speed-40) * 3000;
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d15,[a15]
-.L490:
+.L494:
 	add	d15,d15,#-40
-.L491:
+.L495:
 	mov	d0,#3000
-.L223:
+.L226:
 	mul	d15,d0
-.L492:
+.L496:
 
-; ..\USER\control.c	   249      			speedctrl2R = (speed-40) * 3000;
+; ..\USER\control.c	   250      			speedctrl2R = (speed-40) * 3000;
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
-.L493:
+.L497:
 	add	d0,d0,#-40
-.L494:
+.L498:
 	mov	d1,#3000
-.L225:
+.L228:
 	mul	d0,d1
-.L495:
+.L499:
 
-; ..\USER\control.c	   250      			if(speedctrl2L>5000)speedctrl2L=8000;
+; ..\USER\control.c	   251      			if(speedctrl2L>5000)speedctrl2L=8000;
 	mov	d1,#5000
-.L496:
+.L500:
 	jge	d1,d15,.L50
 .L50:
 
-; ..\USER\control.c	   251      			if(speedctrl2R>5000)speedctrl2R=8000;
+; ..\USER\control.c	   252      			if(speedctrl2R>5000)speedctrl2R=8000;
 	mov	d15,#5000
-.L224:
+.L227:
 	jge	d15,d0,.L51
 .L51:
 	j	.L52
 .L49:
 
-; ..\USER\control.c	   252      		}
-; ..\USER\control.c	   253      		else if(speed>20)
+; ..\USER\control.c	   253      		}
+; ..\USER\control.c	   254      		else if(speed>20)
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
-.L497:
+.L501:
 	mov	d15,#20
-.L498:
+.L502:
 	jge	d15,d0,.L53
-.L499:
+.L503:
 
-; ..\USER\control.c	   254      		{
-; ..\USER\control.c	   255      			speedctrl = 800;
+; ..\USER\control.c	   255      		{
+; ..\USER\control.c	   256      			speedctrl = 800;
 	j	.L54
 .L53:
 
-; ..\USER\control.c	   256      			speedctrl2L = 0;
-; ..\USER\control.c	   257      			speedctrl2R = 0;
-; ..\USER\control.c	   258      	  	}
-; ..\USER\control.c	   259      	  	else
+; ..\USER\control.c	   257      			speedctrl2L = 0;
+; ..\USER\control.c	   258      			speedctrl2R = 0;
+; ..\USER\control.c	   259      	  	}
+; ..\USER\control.c	   260      	  	else
 .L54:
 .L52:
 .L48:
 
-; ..\USER\control.c	   260      	  	{
-; ..\USER\control.c	   261      	  		speedctrl = 800+(20-speed)*50;
-; ..\USER\control.c	   262      	  		speedctrl2L = 0;
-; ..\USER\control.c	   263      	  		speedctrl2R = 0;
-; ..\USER\control.c	   264      	  	}
-; ..\USER\control.c	   265      		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+; ..\USER\control.c	   261      	  	{
+; ..\USER\control.c	   262      	  		speedctrl = 800+(20-speed)*50;
+; ..\USER\control.c	   263      	  		speedctrl2L = 0;
+; ..\USER\control.c	   264      	  		speedctrl2R = 0;
+; ..\USER\control.c	   265      	  	}
+; ..\USER\control.c	   266      		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 	mov	d4,#29
-.L500:
-	mov	d5,#0
-	call	pwm_duty
-.L222:
-
-; ..\USER\control.c	   266      		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
-	mov	d4,#43
-.L501:
-	mov	d5,#2000
-	call	pwm_duty
-.L502:
-
-; ..\USER\control.c	   267      		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后
-	mov	d4,#39
-.L503:
-	mov	d5,#2500
-	call	pwm_duty
 .L504:
-
-; ..\USER\control.c	   268      		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-	mov	d4,#35
-.L505:
 	mov	d5,#0
+	call	pwm_duty
+.L225:
+
+; ..\USER\control.c	   267      		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
+	mov	d4,#43
+.L505:
+	mov	d5,#2000
 	call	pwm_duty
 .L506:
 
-; ..\USER\control.c	   269  			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 100);
-	mov	d4,#104
+; ..\USER\control.c	   268      		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后
+	mov	d4,#39
 .L507:
-	mov	d5,#605
+	mov	d5,#2500
 	call	pwm_duty
 .L508:
 
-; ..\USER\control.c	   270  			systick_delay_ms(STM1, 200);
+; ..\USER\control.c	   269      		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+	mov	d4,#35
+.L509:
+	mov	d5,#0
+	call	pwm_duty
+.L510:
+
+; ..\USER\control.c	   270  			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 100);
+	mov	d4,#104
+.L511:
+	mov	d5,#605
+	call	pwm_duty
+.L512:
+
+; ..\USER\control.c	   271  			systick_delay_ms(STM1, 200);
 	mov	d4,#1
 	mov.u	d5,#49664
 	addih	d5,d5,#3051
 	call	systick_delay
-.L509:
-
-; ..\USER\control.c	   271  			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 30);
-	mov	d4,#104
-.L510:
-	mov	d5,#675
-	call	pwm_duty
-.L511:
-
-; ..\USER\control.c	   272  			pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
-	mov	d4,#29
-.L512:
-	mov	d5,#200
-	call	pwm_duty
 .L513:
 
-; ..\USER\control.c	   273  			pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
-	mov	d4,#43
+; ..\USER\control.c	   272  			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 30);
+	mov	d4,#104
 .L514:
-	mov	d5,#200
+	mov	d5,#675
 	call	pwm_duty
 .L515:
 
-; ..\USER\control.c	   274  			pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   273  			pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
+	mov	d4,#29
 .L516:
-	mov	d5,#0
+	mov	d5,#200
 	call	pwm_duty
 .L517:
 
-; ..\USER\control.c	   275  			pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   274  			pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
+	mov	d4,#43
 .L518:
-	mov	d5,#0
+	mov	d5,#200
 	call	pwm_duty
 .L519:
 
-; ..\USER\control.c	   276  			systick_delay_ms(STM1, 100);
+; ..\USER\control.c	   275  			pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+	mov	d4,#39
+.L520:
+	mov	d5,#0
+	call	pwm_duty
+.L521:
+
+; ..\USER\control.c	   276  			pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+	mov	d4,#35
+.L522:
+	mov	d5,#0
+	call	pwm_duty
+.L523:
+
+; ..\USER\control.c	   277  			systick_delay_ms(STM1, 100);
 	mov	d4,#1
 	mov.u	d5,#57600
 	addih	d5,d5,#1525
 	call	systick_delay
-.L520:
-
-; ..\USER\control.c	   277  			pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-	mov	d4,#29
-.L521:
-	mov	d5,#0
-	call	pwm_duty
-.L522:
-
-; ..\USER\control.c	   278  			pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-	mov	d4,#43
-.L523:
-	mov	d5,#0
-	call	pwm_duty
 .L524:
 
-; ..\USER\control.c	   279  			pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
-	mov	d4,#39
+; ..\USER\control.c	   278  			pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+	mov	d4,#29
 .L525:
-	mov	d5,#700
+	mov	d5,#0
 	call	pwm_duty
 .L526:
 
-; ..\USER\control.c	   280  			pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
-	mov	d4,#35
+; ..\USER\control.c	   279  			pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+	mov	d4,#43
 .L527:
-	mov	d5,#700
+	mov	d5,#0
 	call	pwm_duty
 .L528:
 
-; ..\USER\control.c	   281  			systick_delay_ms(STM1, 100);
+; ..\USER\control.c	   280  			pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
+	mov	d4,#39
+.L529:
+	mov	d5,#700
+	call	pwm_duty
+.L530:
+
+; ..\USER\control.c	   281  			pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
+	mov	d4,#35
+.L531:
+	mov	d5,#700
+	call	pwm_duty
+.L532:
+
+; ..\USER\control.c	   282  			systick_delay_ms(STM1, 100);
 	mov	d4,#1
 	mov.u	d5,#57600
 	addih	d5,d5,#1525
 	call	systick_delay
-.L529:
+.L533:
 
-; ..\USER\control.c	   282  			mt9v03x_init();	//初始化摄像头
+; ..\USER\control.c	   283  			mt9v03x_init();	//初始化摄像头
 	call	mt9v03x_init
-.L530:
+.L534:
 
-; ..\USER\control.c	   283  			zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+; ..\USER\control.c	   284  			zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
 	movh.a	a15,#@his(zebra_end_flag)
 	lea	a15,[a15]@los(zebra_end_flag)
-.L531:
+.L535:
 	mov	d15,#1
-.L532:
+.L536:
 	st.b	[a15],d15
 .L45:
 .L41:
@@ -1467,15 +1473,15 @@ rotate:	.type	func
 .L30:
 .L27:
 
-; ..\USER\control.c	   284      	}
-; ..\USER\control.c	   285      }
-; ..\USER\control.c	   286      	//串口发送
-; ..\USER\control.c	   287  
-; ..\USER\control.c	   288      	//for(int i=5;i>=0;i--){ UART_WriteByte(HW_UART3,temp[i]+48);}//data 是传感器数据
-; ..\USER\control.c	   289      	//UART_printf(HW_UART3,"\n");
-; ..\USER\control.c	   290  }
+; ..\USER\control.c	   285      	}
+; ..\USER\control.c	   286      }
+; ..\USER\control.c	   287      	//串口发送
+; ..\USER\control.c	   288  
+; ..\USER\control.c	   289      	//for(int i=5;i>=0;i--){ UART_WriteByte(HW_UART3,temp[i]+48);}//data 是传感器数据
+; ..\USER\control.c	   290      	//UART_printf(HW_UART3,"\n");
+; ..\USER\control.c	   291  }
 	ret
-.L150:
+.L152:
 	
 __rotate_function_end:
 	.size	rotate,__rotate_function_end-rotate
@@ -1567,6 +1573,13 @@ huandao_count:	.type	object
 out_begin:	.type	object
 	.size	out_begin,1
 	.space	1
+	.sdecl	'.data.control.timecounter',data,cluster('timecounter')
+	.sect	'.data.control.timecounter'
+	.global	timecounter
+	.align	2
+timecounter:	.type	object
+	.size	timecounter,4
+	.space	4
 	.sdecl	'.bss.control.kp',data,cluster('kp')
 	.sect	'.bss.control.kp'
 	.global	kp
@@ -1663,7 +1676,7 @@ cardegree:	.type	object
 	.word	110
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L157:
+.L159:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,152,2,18
@@ -1705,7 +1718,7 @@ cardegree:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	347
 	.byte	6,0
-.L133:
+.L135:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,11
@@ -1731,10 +1744,10 @@ cardegree:	.type	object
 	.byte	'B',0
 	.word	482
 	.byte	4,2,35,0,0
-.L170:
+.L173:
 	.byte	7
 	.byte	'unsigned char',0,1,8
-.L135:
+.L137:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,11
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,250,8,16,4,12
@@ -3282,7 +3295,9 @@ cardegree:	.type	object
 	.byte	'IfxCpu_restoreInterrupts',0,3,8,168,7,17,1,1,5
 	.byte	'enabled',0,8,168,7,50
 	.word	618
-	.byte	6,0,7
+	.byte	6,0
+.L172:
+	.byte	7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,8,161,6,19
 	.word	10499
@@ -7673,7 +7688,7 @@ cardegree:	.type	object
 	.byte	'alti',0,20,191,18,82
 	.word	38904
 	.byte	6,0
-.L147:
+.L149:
 	.byte	7
 	.byte	'short int',0,2,5,7
 	.byte	'long int',0,4,5,21,22,60,9,12,14
@@ -36153,7 +36168,7 @@ cardegree:	.type	object
 	.byte	'IfxDma_SleepMode_disable',0,1,0,34
 	.byte	'IfxDma_SleepMode',0,48,151,2,3
 	.word	255112
-.L169:
+.L171:
 	.byte	15,64
 	.word	618
 	.byte	16,63,0,0
@@ -36174,11 +36189,11 @@ cardegree:	.type	object
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L66:
-	.word	.L227-.L226
-.L226:
+	.word	.L230-.L229
+.L229:
 	.half	3
-	.word	.L229-.L228
-.L228:
+	.word	.L232-.L231
+.L231:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std',0
@@ -36247,8 +36262,8 @@ cardegree:	.type	object
 	.byte	'IfxDma_cfg.h',0,5,0,0
 	.byte	'IfxDma_regdef.h',0,3,0,0
 	.byte	'IfxDma.h',0,19,0,0,0
-.L229:
-.L227:
+.L232:
+.L230:
 	.sdecl	'.debug_info',debug,cluster('degree_calculation')
 	.sect	'.debug_info'
 .L67:
@@ -36263,38 +36278,38 @@ cardegree:	.type	object
 	.byte	2
 	.word	.L63
 	.byte	3
-	.byte	'degree_calculation',0,1,37,5
-	.word	.L133
+	.byte	'degree_calculation',0,1,38,5
+	.word	.L135
 	.byte	1,1,1
-	.word	.L56,.L134,.L55
+	.word	.L56,.L136,.L55
 	.byte	4
-	.word	.L56,.L134
+	.word	.L56,.L136
 	.byte	5
-	.byte	'i',0,1,39,9
-	.word	.L135,.L136
+	.byte	'i',0,1,40,9
+	.word	.L137,.L138
 	.byte	5
-	.byte	'j',0,1,40,11
-	.word	.L135,.L137
+	.byte	'j',0,1,41,11
+	.word	.L137,.L139
 	.byte	5
-	.byte	'cardegree',0,1,41,8
-	.word	.L133,.L138
+	.byte	'cardegree',0,1,42,8
+	.word	.L135,.L140
 	.byte	5
-	.byte	'InclineValue',0,1,43,6
-	.word	.L133,.L139
+	.byte	'InclineValue',0,1,44,6
+	.word	.L135,.L141
 	.byte	5
-	.byte	'ExcursionValue',0,1,44,9
-	.word	.L133,.L140
+	.byte	'ExcursionValue',0,1,45,9
+	.word	.L135,.L142
 	.byte	4
-	.word	.L141,.L134
+	.word	.L143,.L136
 	.byte	5
-	.byte	'AbsExcursionValue',0,1,58,9
-	.word	.L133,.L142
+	.byte	'AbsExcursionValue',0,1,59,9
+	.word	.L135,.L144
 	.byte	5
-	.byte	'AbsInclineValue',0,1,59,6
-	.word	.L133,.L143
+	.byte	'AbsInclineValue',0,1,60,6
+	.word	.L135,.L145
 	.byte	5
-	.byte	'ExcursionValueCoeff',0,1,60,6
-	.word	.L133,.L144
+	.byte	'ExcursionValueCoeff',0,1,61,6
+	.word	.L135,.L146
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('degree_calculation')
 	.sect	'.debug_abbrev'
@@ -36304,168 +36319,168 @@ cardegree:	.type	object
 	.sdecl	'.debug_line',debug,cluster('degree_calculation')
 	.sect	'.debug_line'
 .L69:
-	.word	.L231-.L230
-.L230:
+	.word	.L234-.L233
+.L233:
 	.half	3
-	.word	.L233-.L232
-.L232:
+	.word	.L236-.L235
+.L235:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\control.c',0,0,0,0,0
-.L233:
+.L236:
 	.byte	5,18,7,0,5,2
 	.word	.L56
-	.byte	3,42,1,5,23,9
-	.half	.L171-.L56
+	.byte	3,43,1,5,23,9
+	.half	.L174-.L56
 	.byte	3,1,1,5,13,9
-	.half	.L172-.L171
+	.half	.L175-.L174
 	.byte	3,2,1,5,25,9
-	.half	.L174-.L172
+	.half	.L177-.L175
 	.byte	1,5,19,9
-	.half	.L3-.L174
+	.half	.L3-.L177
 	.byte	3,2,1,5,12,9
-	.half	.L234-.L3
+	.half	.L237-.L3
 	.byte	1,5,16,9
-	.half	.L235-.L234
-	.byte	1,5,32,9
-	.half	.L236-.L235
-	.byte	1,5,25,9
-	.half	.L237-.L236
-	.byte	1,5,29,9
 	.half	.L238-.L237
-	.byte	1,5,23,9
+	.byte	1,5,32,9
 	.half	.L239-.L238
-	.byte	1,5,11,9
+	.byte	1,5,25,9
 	.half	.L240-.L239
-	.byte	1,5,54,7,9
+	.byte	1,5,29,9
 	.half	.L241-.L240
-	.byte	1,5,47,9
+	.byte	1,5,23,9
 	.half	.L242-.L241
-	.byte	1,5,51,9
+	.byte	1,5,11,9
 	.half	.L243-.L242
-	.byte	1,5,67,9
+	.byte	1,5,54,7,9
 	.half	.L244-.L243
-	.byte	1,5,60,9
+	.byte	1,5,47,9
 	.half	.L245-.L244
-	.byte	1,5,64,9
+	.byte	1,5,51,9
 	.half	.L246-.L245
-	.byte	1,5,58,9
+	.byte	1,5,67,9
 	.half	.L247-.L246
-	.byte	1,5,73,9
+	.byte	1,5,60,9
 	.half	.L248-.L247
-	.byte	1,5,48,7,9
+	.byte	1,5,64,9
 	.half	.L249-.L248
-	.byte	3,1,1,5,41,9
-	.half	.L250-.L249
-	.byte	1,5,45,9
-	.half	.L251-.L250
-	.byte	1,5,61,9
-	.half	.L252-.L251
-	.byte	1,5,54,9
-	.half	.L253-.L252
 	.byte	1,5,58,9
+	.half	.L250-.L249
+	.byte	1,5,73,9
+	.half	.L251-.L250
+	.byte	1,5,48,7,9
+	.half	.L252-.L251
+	.byte	3,1,1,5,41,9
+	.half	.L253-.L252
+	.byte	1,5,45,9
 	.half	.L254-.L253
-	.byte	1,5,52,9
+	.byte	1,5,61,9
 	.half	.L255-.L254
-	.byte	1,5,38,9
+	.byte	1,5,54,9
 	.half	.L256-.L255
+	.byte	1,5,58,9
+	.half	.L257-.L256
+	.byte	1,5,52,9
+	.half	.L258-.L257
+	.byte	1,5,38,9
+	.half	.L259-.L258
 	.byte	1,5,28,9
-	.half	.L4-.L256
+	.half	.L4-.L259
 	.byte	3,125,1,5,23,9
 	.half	.L2-.L4
 	.byte	1,5,25,9
-	.half	.L257-.L2
+	.half	.L260-.L2
 	.byte	1,5,13,7,9
-	.half	.L258-.L257
-	.byte	3,6,1,5,24,9
-	.half	.L175-.L258
-	.byte	1,5,51,9
-	.half	.L7-.L175
-	.byte	3,2,1,5,44,9
-	.half	.L259-.L7
-	.byte	1,5,48,9
-	.half	.L260-.L259
-	.byte	1,5,55,9
 	.half	.L261-.L260
-	.byte	1,5,41,9
-	.half	.L262-.L261
-	.byte	1,5,27,9
+	.byte	3,6,1,5,24,9
+	.half	.L178-.L261
+	.byte	1,5,51,9
+	.half	.L7-.L178
+	.byte	3,2,1,5,44,9
+	.half	.L262-.L7
+	.byte	1,5,48,9
 	.half	.L263-.L262
-	.byte	3,126,1,5,24,9
-	.half	.L6-.L263
-	.byte	1,5,20,7,9
-	.half	.L264-.L6
-	.byte	3,5,1,5,33,9
+	.byte	1,5,55,9
+	.half	.L264-.L263
+	.byte	1,5,41,9
 	.half	.L265-.L264
+	.byte	1,5,27,9
+	.half	.L266-.L265
+	.byte	3,126,1,5,24,9
+	.half	.L6-.L266
+	.byte	1,5,20,7,9
+	.half	.L267-.L6
+	.byte	3,5,1,5,33,9
+	.half	.L268-.L267
 	.byte	1,5,32,9
-	.half	.L176-.L265
+	.half	.L179-.L268
 	.byte	1,5,5,9
-	.half	.L141-.L176
+	.half	.L143-.L179
 	.byte	3,5,1,5,46,7,9
-	.half	.L266-.L141
+	.half	.L269-.L143
 	.byte	1,5,62,9
-	.half	.L178-.L266
+	.half	.L181-.L269
 	.byte	1,5,31,9
-	.half	.L8-.L178
+	.half	.L8-.L181
 	.byte	3,1,1,5,30,9
-	.half	.L179-.L8
+	.half	.L182-.L8
 	.byte	1,5,5,9
-	.half	.L9-.L179
+	.half	.L9-.L182
 	.byte	3,2,1,5,42,7,9
-	.half	.L267-.L9
+	.half	.L270-.L9
 	.byte	1,5,56,9
-	.half	.L181-.L267
+	.half	.L184-.L270
 	.byte	1,5,29,9
-	.half	.L10-.L181
+	.half	.L10-.L184
 	.byte	3,1,1,5,28,9
-	.half	.L182-.L10
+	.half	.L185-.L10
 	.byte	1,5,26,9
-	.half	.L11-.L182
+	.half	.L11-.L185
 	.byte	3,5,1,5,5,9
-	.half	.L268-.L11
+	.half	.L271-.L11
 	.byte	1,5,55,7,9
-	.half	.L269-.L268
+	.half	.L272-.L271
 	.byte	1,5,28,9
-	.half	.L13-.L269
+	.half	.L13-.L272
 	.byte	3,3,1,5,5,9
-	.half	.L270-.L13
+	.half	.L273-.L13
 	.byte	1,5,53,7,9
-	.half	.L271-.L270
+	.half	.L274-.L273
 	.byte	1,5,56,9
-	.half	.L183-.L271
+	.half	.L186-.L274
 	.byte	1,5,30,9
-	.half	.L14-.L183
+	.half	.L14-.L186
 	.byte	3,1,1,5,17,9
 	.half	.L15-.L14
 	.byte	3,2,1,5,30,9
-	.half	.L177-.L15
+	.half	.L180-.L15
 	.byte	1,5,29,9
-	.half	.L272-.L177
+	.half	.L275-.L180
 	.byte	1,5,56,9
-	.half	.L273-.L272
-	.byte	1,5,72,9
-	.half	.L184-.L273
-	.byte	1,5,35,9
-	.half	.L274-.L184
-	.byte	1,5,19,9
-	.half	.L185-.L274
-	.byte	3,1,1,5,5,9
-	.half	.L275-.L185
-	.byte	1,5,32,7,9
 	.half	.L276-.L275
+	.byte	1,5,72,9
+	.half	.L187-.L276
+	.byte	1,5,35,9
+	.half	.L277-.L187
 	.byte	1,5,19,9
-	.half	.L16-.L276
+	.half	.L188-.L277
 	.byte	3,1,1,5,5,9
-	.half	.L277-.L16
+	.half	.L278-.L188
+	.byte	1,5,32,7,9
+	.half	.L279-.L278
+	.byte	1,5,19,9
+	.half	.L16-.L279
+	.byte	3,1,1,5,5,9
+	.half	.L280-.L16
 	.byte	1,5,33,7,9
-	.half	.L278-.L277
+	.half	.L281-.L280
 	.byte	1,5,5,9
-	.half	.L17-.L278
+	.half	.L17-.L281
 	.byte	3,1,1,5,1,9
 	.half	.L18-.L17
 	.byte	3,1,1,7,9
 	.half	.L71-.L18
 	.byte	0,1,1
-.L231:
+.L234:
 	.sdecl	'.debug_ranges',debug,cluster('degree_calculation')
 	.sect	'.debug_ranges'
 .L70:
@@ -36484,21 +36499,21 @@ cardegree:	.type	object
 	.byte	2
 	.word	.L63
 	.byte	3
-	.byte	'speedctrl_calculation',0,1,83,5
-	.word	.L133
+	.byte	'speedctrl_calculation',0,1,84,5
+	.word	.L135
 	.byte	1,1,1
-	.word	.L58,.L145,.L57
+	.word	.L58,.L147,.L57
 	.byte	4
-	.byte	'degree',0,1,83,31
-	.word	.L133,.L146
+	.byte	'degree',0,1,84,31
+	.word	.L135,.L148
 	.byte	5
-	.word	.L58,.L145
+	.word	.L58,.L147
 	.byte	6
-	.byte	'set_speed',0,1,87,8
-	.word	.L147,.L148
+	.byte	'set_speed',0,1,88,8
+	.word	.L149,.L150
 	.byte	6
-	.byte	'speedctrl',0,1,88,6
-	.word	.L133,.L149
+	.byte	'speedctrl',0,1,89,6
+	.word	.L135,.L151
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('speedctrl_calculation')
 	.sect	'.debug_abbrev'
@@ -36509,47 +36524,41 @@ cardegree:	.type	object
 	.sdecl	'.debug_line',debug,cluster('speedctrl_calculation')
 	.sect	'.debug_line'
 .L74:
-	.word	.L280-.L279
-.L279:
+	.word	.L283-.L282
+.L282:
 	.half	3
-	.word	.L282-.L281
-.L281:
+	.word	.L285-.L284
+.L284:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\control.c',0,0,0,0,0
-.L282:
+.L285:
 	.byte	5,2,7,0,5,2
 	.word	.L58
-	.byte	3,217,0,1,5,12,7,9
+	.byte	3,218,0,1,5,12,7,9
 	.half	.L19-.L58
 	.byte	3,5,1,5,2,9
-	.half	.L187-.L19
+	.half	.L190-.L19
 	.byte	3,6,1,5,8,9
-	.half	.L283-.L187
-	.byte	1,5,6,9
-	.half	.L284-.L283
-	.byte	1,5,2,9
-	.half	.L285-.L284
-	.byte	3,1,1,5,8,9
-	.half	.L286-.L285
+	.half	.L286-.L190
 	.byte	1,5,6,9
 	.half	.L287-.L286
 	.byte	1,5,2,9
 	.half	.L288-.L287
-	.byte	3,1,1,5,19,9
+	.byte	3,1,1,5,8,9
 	.half	.L289-.L288
-	.byte	1,5,17,9
+	.byte	1,5,6,9
 	.half	.L290-.L289
-	.byte	1,5,5,9
-	.half	.L188-.L290
 	.byte	1,5,2,9
-	.half	.L291-.L188
-	.byte	3,4,1,5,7,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,19,9
 	.half	.L292-.L291
-	.byte	1,5,5,9
+	.byte	1,5,17,9
 	.half	.L293-.L292
+	.byte	1,5,5,9
+	.half	.L191-.L293
 	.byte	1,5,2,9
-	.half	.L294-.L293
-	.byte	3,1,1,5,7,9
+	.half	.L294-.L191
+	.byte	3,4,1,5,7,9
 	.half	.L295-.L294
 	.byte	1,5,5,9
 	.half	.L296-.L295
@@ -36561,92 +36570,98 @@ cardegree:	.type	object
 	.half	.L299-.L298
 	.byte	1,5,2,9
 	.half	.L300-.L299
-	.byte	3,3,1,5,48,9
+	.byte	3,1,1,5,7,9
 	.half	.L301-.L300
-	.byte	1,5,52,9
-	.half	.L186-.L301
-	.byte	1,5,57,9
-	.half	.L302-.L186
-	.byte	1,5,55,9
+	.byte	1,5,5,9
+	.half	.L302-.L301
+	.byte	1,5,2,9
 	.half	.L303-.L302
-	.byte	1,5,54,9
+	.byte	3,3,1,5,48,9
 	.half	.L304-.L303
-	.byte	1,5,61,9
+	.byte	1,5,52,9
 	.half	.L305-.L304
-	.byte	1,5,60,9
+	.byte	1,5,57,9
 	.half	.L306-.L305
-	.byte	1,5,26,9
+	.byte	1,5,55,9
 	.half	.L307-.L306
-	.byte	1,5,30,9
+	.byte	1,5,54,9
 	.half	.L308-.L307
-	.byte	1,5,33,9
+	.byte	1,5,61,9
 	.half	.L309-.L308
-	.byte	1,5,32,9
+	.byte	1,5,60,9
 	.half	.L310-.L309
-	.byte	1,5,40,9
+	.byte	1,5,26,9
 	.half	.L311-.L310
-	.byte	1,5,43,9
+	.byte	1,5,30,9
 	.half	.L312-.L311
-	.byte	1,5,42,9
+	.byte	1,5,33,9
 	.half	.L313-.L312
-	.byte	1,5,38,9
+	.byte	1,5,32,9
 	.half	.L314-.L313
-	.byte	1,5,46,9
+	.byte	1,5,40,9
 	.half	.L315-.L314
-	.byte	1,5,18,9
+	.byte	1,5,43,9
 	.half	.L316-.L315
-	.byte	1,5,16,9
+	.byte	1,5,42,9
 	.half	.L317-.L316
-	.byte	1,5,2,9
+	.byte	1,5,38,9
 	.half	.L318-.L317
-	.byte	3,1,1,5,8,9
+	.byte	1,5,46,9
 	.half	.L319-.L318
-	.byte	1,5,14,9
+	.byte	1,5,18,9
 	.half	.L320-.L319
-	.byte	1,5,12,9
+	.byte	1,5,16,9
 	.half	.L321-.L320
-	.byte	1,5,6,9
+	.byte	1,5,2,9
 	.half	.L322-.L321
-	.byte	1,5,5,9
+	.byte	3,1,1,5,8,9
 	.half	.L323-.L322
-	.byte	3,2,1,5,9,9
+	.byte	1,5,14,9
 	.half	.L324-.L323
-	.byte	1,5,8,9
+	.byte	1,5,12,9
 	.half	.L325-.L324
-	.byte	1,5,2,9
+	.byte	1,5,6,9
 	.half	.L326-.L325
-	.byte	1,5,15,7,9
-	.half	.L327-.L326
-	.byte	1,5,21,9
-	.half	.L328-.L327
-	.byte	1,5,19,9
-	.half	.L329-.L328
 	.byte	1,5,5,9
-	.half	.L20-.L329
-	.byte	3,1,1,5,9,9
-	.half	.L330-.L20
+	.half	.L327-.L326
+	.byte	3,2,1,5,9,9
+	.half	.L328-.L327
 	.byte	1,5,8,9
+	.half	.L329-.L328
+	.byte	1,5,2,9
+	.half	.L330-.L329
+	.byte	1,5,15,7,9
 	.half	.L331-.L330
-	.byte	1,5,2,9
+	.byte	1,5,21,9
 	.half	.L332-.L331
-	.byte	1,5,16,7,9
-	.half	.L333-.L332
-	.byte	1,5,22,9
-	.half	.L334-.L333
-	.byte	1,5,20,9
-	.half	.L335-.L334
 	.byte	1,5,19,9
-	.half	.L21-.L335
-	.byte	3,1,1,5,14,9
-	.half	.L336-.L21
+	.half	.L333-.L332
+	.byte	1,5,5,9
+	.half	.L20-.L333
+	.byte	3,1,1,5,9,9
+	.half	.L334-.L20
+	.byte	1,5,8,9
+	.half	.L335-.L334
 	.byte	1,5,2,9
-	.half	.L189-.L336
+	.half	.L336-.L335
+	.byte	1,5,16,7,9
+	.half	.L337-.L336
+	.byte	1,5,22,9
+	.half	.L338-.L337
+	.byte	1,5,20,9
+	.half	.L339-.L338
+	.byte	1,5,19,9
+	.half	.L21-.L339
+	.byte	3,1,1,5,14,9
+	.half	.L340-.L21
+	.byte	1,5,2,9
+	.half	.L192-.L340
 	.byte	3,1,1,5,1,9
-	.half	.L22-.L189
+	.half	.L22-.L192
 	.byte	3,1,1,7,9
 	.half	.L76-.L22
 	.byte	0,1,1
-.L280:
+.L283:
 	.sdecl	'.debug_ranges',debug,cluster('speedctrl_calculation')
 	.sect	'.debug_ranges'
 .L75:
@@ -36665,46 +36680,46 @@ cardegree:	.type	object
 	.byte	2
 	.word	.L63
 	.byte	3
-	.byte	'rotate',0,1,138,1,6,1,1,1
-	.word	.L62,.L150,.L61
+	.byte	'rotate',0,1,139,1,6,1,1,1
+	.word	.L62,.L152,.L61
 	.byte	4
-	.byte	'degree',0,1,138,1,17
-	.word	.L133,.L151
+	.byte	'degree',0,1,139,1,17
+	.word	.L135,.L153
 	.byte	5
-	.word	.L62,.L150
+	.word	.L62,.L152
 	.byte	6
-	.byte	'speedctrl',0,1,141,1,6
-	.word	.L133,.L152
+	.byte	'speedctrl',0,1,142,1,6
+	.word	.L135,.L154
 	.byte	6
-	.byte	'speedctrl2',0,1,142,1,6
-	.word	.L133,.L153
+	.byte	'speedctrl2',0,1,143,1,6
+	.word	.L135,.L155
 	.byte	6
-	.byte	'speedctrl2L',0,1,143,1,6
-	.word	.L133,.L154
+	.byte	'speedctrl2L',0,1,144,1,6
+	.word	.L135,.L156
 	.byte	6
-	.byte	'speedctrl2R',0,1,144,1,6
-	.word	.L133,.L155
+	.byte	'speedctrl2R',0,1,145,1,6
+	.word	.L135,.L157
 	.byte	6
-	.byte	'i',0,1,145,1,6
-	.word	.L133,.L156
+	.byte	'i',0,1,146,1,6
+	.word	.L135,.L158
 	.byte	6
-	.byte	'xishu',0,1,147,1,9
-	.word	.L157,.L158
-	.byte	5
+	.byte	'xishu',0,1,148,1,9
 	.word	.L159,.L160
+	.byte	5
+	.word	.L161,.L162
 	.byte	6
-	.byte	'ideal_speedctrl',0,1,182,1,7
-	.word	.L133,.L161
+	.byte	'ideal_speedctrl',0,1,183,1,7
+	.word	.L135,.L163
 	.byte	0,5
-	.word	.L162,.L163
+	.word	.L164,.L165
 	.byte	6
-	.byte	'ideal_speedctrl',0,1,201,1,7
-	.word	.L133,.L164
+	.byte	'ideal_speedctrl',0,1,202,1,7
+	.word	.L135,.L166
 	.byte	0,5
 	.word	.L37,.L27
 	.byte	6
-	.byte	'ideal_speedctrl',0,1,222,1,7
-	.word	.L133,.L165
+	.byte	'ideal_speedctrl',0,1,223,1,7
+	.word	.L135,.L167
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('rotate')
 	.sect	'.debug_abbrev'
@@ -36715,285 +36730,277 @@ cardegree:	.type	object
 	.sdecl	'.debug_line',debug,cluster('rotate')
 	.sect	'.debug_line'
 .L79:
-	.word	.L338-.L337
-.L337:
+	.word	.L342-.L341
+.L341:
 	.half	3
-	.word	.L340-.L339
-.L339:
+	.word	.L344-.L343
+.L343:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\control.c',0,0,0,0,0
-.L340:
+.L344:
 	.byte	5,6,7,0,5,2
 	.word	.L62
-	.byte	3,137,1,1,5,5,9
-	.half	.L192-.L62
+	.byte	3,138,1,1,5,5,9
+	.half	.L195-.L62
 	.byte	3,12,1,5,24,9
-	.half	.L341-.L192
+	.half	.L345-.L195
 	.byte	1,5,33,9
-	.half	.L342-.L341
-	.byte	1,5,12,7,9
-	.half	.L343-.L342
-	.byte	3,2,1,5,38,9
-	.half	.L191-.L343
-	.byte	1,5,12,9
-	.half	.L344-.L191
-	.byte	3,2,1,5,29,9
-	.half	.L345-.L344
-	.byte	1,5,12,9
 	.half	.L346-.L345
-	.byte	3,1,1,5,29,9
-	.half	.L347-.L346
-	.byte	1,5,18,9
-	.half	.L348-.L347
-	.byte	3,1,1,5,35,9
-	.half	.L349-.L348
-	.byte	1,5,18,9
-	.half	.L350-.L349
-	.byte	3,1,1,5,35,9
-	.half	.L351-.L350
-	.byte	1,5,46,9
-	.half	.L352-.L351
-	.byte	3,123,1,5,10,9
-	.half	.L25-.L352
-	.byte	3,7,1,5,26,9
-	.half	.L353-.L25
-	.byte	1,5,39,9
-	.half	.L354-.L353
 	.byte	1,5,12,7,9
-	.half	.L355-.L354
+	.half	.L347-.L346
+	.byte	3,2,1,5,38,9
+	.half	.L194-.L347
+	.byte	1,5,12,9
+	.half	.L348-.L194
 	.byte	3,2,1,5,29,9
-	.half	.L194-.L355
+	.half	.L349-.L348
+	.byte	1,5,12,9
+	.half	.L350-.L349
+	.byte	3,1,1,5,29,9
+	.half	.L351-.L350
 	.byte	1,5,18,9
-	.half	.L356-.L194
-	.byte	3,2,1,5,35,9
-	.half	.L357-.L356
+	.half	.L352-.L351
+	.byte	3,1,1,5,35,9
+	.half	.L353-.L352
 	.byte	1,5,18,9
+	.half	.L354-.L353
+	.byte	3,1,1,5,35,9
+	.half	.L355-.L354
+	.byte	1,5,46,9
+	.half	.L356-.L355
+	.byte	3,123,1,5,10,9
+	.half	.L25-.L356
+	.byte	3,7,1,5,26,9
+	.half	.L357-.L25
+	.byte	1,5,39,9
 	.half	.L358-.L357
-	.byte	3,1,1,5,35,9
+	.byte	1,5,12,7,9
 	.half	.L359-.L358
+	.byte	3,2,1,5,29,9
+	.half	.L197-.L359
 	.byte	1,5,18,9
-	.half	.L360-.L359
-	.byte	3,1,1,5,35,9
+	.half	.L360-.L197
+	.byte	3,2,1,5,35,9
 	.half	.L361-.L360
 	.byte	1,5,18,9
 	.half	.L362-.L361
 	.byte	3,1,1,5,35,9
 	.half	.L363-.L362
-	.byte	1,5,3,9
+	.byte	1,5,18,9
 	.half	.L364-.L363
-	.byte	3,1,1,5,15,9
+	.byte	3,1,1,5,35,9
 	.half	.L365-.L364
-	.byte	3,1,1,5,3,9
+	.byte	1,5,18,9
 	.half	.L366-.L365
-	.byte	3,1,1,5,17,9
+	.byte	3,1,1,5,35,9
 	.half	.L367-.L366
-	.byte	1,5,16,9
+	.byte	1,5,3,9
 	.half	.L368-.L367
-	.byte	1,5,39,9
+	.byte	3,1,1,5,15,9
 	.half	.L369-.L368
-	.byte	3,120,1,5,10,9
-	.half	.L28-.L369
-	.byte	3,10,1,5,7,9
-	.half	.L370-.L28
-	.byte	1,5,12,7,9
+	.byte	3,1,1,5,3,9
+	.half	.L370-.L369
+	.byte	3,1,1,5,17,9
 	.half	.L371-.L370
-	.byte	3,2,1,5,29,9
-	.half	.L195-.L371
-	.byte	1,5,18,9
-	.half	.L372-.L195
-	.byte	3,2,1,5,35,9
+	.byte	1,5,16,9
+	.half	.L372-.L371
+	.byte	1,5,39,9
 	.half	.L373-.L372
-	.byte	1,5,18,9
-	.half	.L374-.L373
-	.byte	3,1,1,5,35,9
+	.byte	3,120,1,5,10,9
+	.half	.L28-.L373
+	.byte	3,10,1,5,7,9
+	.half	.L374-.L28
+	.byte	1,5,12,7,9
 	.half	.L375-.L374
+	.byte	3,2,1,5,29,9
+	.half	.L198-.L375
 	.byte	1,5,18,9
-	.half	.L376-.L375
-	.byte	3,1,1,5,35,9
+	.half	.L376-.L198
+	.byte	3,2,1,5,35,9
 	.half	.L377-.L376
 	.byte	1,5,18,9
 	.half	.L378-.L377
 	.byte	3,1,1,5,35,9
 	.half	.L379-.L378
-	.byte	1,5,39,9
-	.half	.L380-.L379
-	.byte	3,123,1,5,10,9
-	.half	.L31-.L380
-	.byte	3,7,1,5,7,9
-	.half	.L381-.L31
-	.byte	1,5,47,7,9
-	.half	.L159-.L381
-	.byte	3,2,1,5,3,9
-	.half	.L197-.L159
-	.byte	3,1,1,5,34,7,9
-	.half	.L382-.L197
-	.byte	1,5,49,9
-	.half	.L199-.L382
-	.byte	1,5,48,9
-	.half	.L383-.L199
-	.byte	1,5,36,9
-	.half	.L193-.L383
 	.byte	1,5,18,9
-	.half	.L34-.L193
+	.half	.L380-.L379
+	.byte	3,1,1,5,35,9
+	.half	.L381-.L380
+	.byte	1,5,18,9
+	.half	.L382-.L381
+	.byte	3,1,1,5,35,9
+	.half	.L383-.L382
+	.byte	1,5,39,9
+	.half	.L384-.L383
+	.byte	3,123,1,5,10,9
+	.half	.L31-.L384
+	.byte	3,7,1,5,7,9
+	.half	.L385-.L31
+	.byte	1,5,47,7,9
+	.half	.L161-.L385
+	.byte	3,2,1,5,3,9
+	.half	.L200-.L161
+	.byte	3,1,1,5,34,7,9
+	.half	.L386-.L200
+	.byte	1,5,49,9
+	.half	.L202-.L386
+	.byte	1,5,48,9
+	.half	.L387-.L202
+	.byte	1,5,36,9
+	.half	.L196-.L387
+	.byte	1,5,18,9
+	.half	.L34-.L196
 	.byte	3,1,1,5,46,9
-	.half	.L200-.L34
+	.half	.L203-.L34
 	.byte	1,5,21,9
-	.half	.L35-.L200
+	.half	.L35-.L203
 	.byte	3,2,1,5,9,9
-	.half	.L198-.L35
+	.half	.L201-.L35
 	.byte	1,5,12,9
-	.half	.L203-.L198
+	.half	.L206-.L201
 	.byte	3,1,1,5,38,9
-	.half	.L384-.L203
+	.half	.L388-.L206
 	.byte	1,5,12,9
-	.half	.L202-.L384
+	.half	.L205-.L388
 	.byte	3,2,1,5,29,9
-	.half	.L385-.L202
+	.half	.L389-.L205
 	.byte	1,5,40,9
-	.half	.L386-.L385
-	.byte	1,5,42,9
-	.half	.L387-.L386
-	.byte	1,5,41,9
-	.half	.L388-.L387
-	.byte	1,5,38,9
-	.half	.L389-.L388
-	.byte	1,5,12,9
 	.half	.L390-.L389
-	.byte	3,1,1,5,29,9
-	.half	.L391-.L390
 	.byte	1,5,42,9
-	.half	.L201-.L391
-	.byte	1,5,40,9
-	.half	.L392-.L201
+	.half	.L391-.L390
 	.byte	1,5,41,9
-	.half	.L393-.L392
+	.half	.L392-.L391
 	.byte	1,5,38,9
-	.half	.L394-.L393
+	.half	.L393-.L392
 	.byte	1,5,12,9
-	.half	.L395-.L394
+	.half	.L394-.L393
 	.byte	3,1,1,5,29,9
-	.half	.L396-.L395
+	.half	.L395-.L394
+	.byte	1,5,42,9
+	.half	.L204-.L395
+	.byte	1,5,40,9
+	.half	.L396-.L204
 	.byte	1,5,41,9
 	.half	.L397-.L396
-	.byte	1,5,43,9
+	.byte	1,5,38,9
 	.half	.L398-.L397
-	.byte	1,5,42,9
+	.byte	1,5,12,9
 	.half	.L399-.L398
-	.byte	1,5,39,9
+	.byte	3,1,1,5,29,9
 	.half	.L400-.L399
-	.byte	1,5,12,9
+	.byte	1,5,41,9
 	.half	.L401-.L400
-	.byte	3,1,1,5,29,9
-	.half	.L402-.L401
 	.byte	1,5,43,9
+	.half	.L402-.L401
+	.byte	1,5,42,9
 	.half	.L403-.L402
-	.byte	1,5,41,9
+	.byte	1,5,39,9
 	.half	.L404-.L403
-	.byte	1,5,42,9
+	.byte	1,5,12,9
 	.half	.L405-.L404
-	.byte	1,5,39,9
+	.byte	3,1,1,5,29,9
 	.half	.L406-.L405
-	.byte	1,5,3,9
+	.byte	1,5,43,9
 	.half	.L407-.L406
-	.byte	3,1,1,5,15,9
+	.byte	1,5,41,9
 	.half	.L408-.L407
-	.byte	3,1,1,5,3,9
+	.byte	1,5,42,9
 	.half	.L409-.L408
-	.byte	3,1,1,5,15,9
-	.half	.L410-.L409
-	.byte	1,5,14,9
-	.half	.L411-.L410
-	.byte	1,5,24,9
-	.half	.L160-.L411
-	.byte	3,119,1,5,10,9
-	.half	.L33-.L160
-	.byte	3,11,1,5,25,9
-	.half	.L412-.L33
 	.byte	1,5,39,9
+	.half	.L410-.L409
+	.byte	1,5,3,9
+	.half	.L411-.L410
+	.byte	3,1,1,5,15,9
+	.half	.L412-.L411
+	.byte	3,1,1,5,3,9
 	.half	.L413-.L412
-	.byte	1,5,47,7,9
-	.half	.L162-.L413
-	.byte	3,4,1,5,3,9
-	.half	.L206-.L162
-	.byte	3,1,1,5,34,7,9
-	.half	.L414-.L206
-	.byte	1,5,49,9
-	.half	.L208-.L414
-	.byte	1,5,48,9
-	.half	.L415-.L208
-	.byte	1,5,36,9
-	.half	.L204-.L415
-	.byte	1,5,18,9
-	.half	.L39-.L204
-	.byte	3,1,1,5,46,9
-	.half	.L209-.L39
-	.byte	1,5,21,9
-	.half	.L40-.L209
-	.byte	3,1,1,5,9,9
-	.half	.L207-.L40
-	.byte	1,5,12,9
-	.half	.L212-.L207
-	.byte	3,1,1,5,29,9
-	.half	.L416-.L212
-	.byte	1,5,40,9
+	.byte	3,1,1,5,15,9
+	.half	.L414-.L413
+	.byte	1,5,14,9
+	.half	.L415-.L414
+	.byte	1,5,24,9
+	.half	.L162-.L415
+	.byte	3,119,1,5,10,9
+	.half	.L33-.L162
+	.byte	3,11,1,5,25,9
+	.half	.L416-.L33
+	.byte	1,5,39,9
 	.half	.L417-.L416
-	.byte	1,5,42,9
-	.half	.L418-.L417
-	.byte	1,5,41,9
-	.half	.L419-.L418
-	.byte	1,5,38,9
-	.half	.L420-.L419
+	.byte	1,5,47,7,9
+	.half	.L164-.L417
+	.byte	3,4,1,5,3,9
+	.half	.L209-.L164
+	.byte	3,1,1,5,34,7,9
+	.half	.L418-.L209
+	.byte	1,5,49,9
+	.half	.L211-.L418
+	.byte	1,5,48,9
+	.half	.L419-.L211
+	.byte	1,5,36,9
+	.half	.L207-.L419
+	.byte	1,5,18,9
+	.half	.L39-.L207
+	.byte	3,1,1,5,46,9
+	.half	.L212-.L39
+	.byte	1,5,21,9
+	.half	.L40-.L212
+	.byte	3,1,1,5,9,9
+	.half	.L210-.L40
 	.byte	1,5,12,9
-	.half	.L421-.L420
+	.half	.L215-.L210
 	.byte	3,1,1,5,29,9
-	.half	.L422-.L421
-	.byte	1,5,42,9
-	.half	.L210-.L422
+	.half	.L420-.L215
 	.byte	1,5,40,9
-	.half	.L423-.L210
+	.half	.L421-.L420
+	.byte	1,5,42,9
+	.half	.L422-.L421
 	.byte	1,5,41,9
-	.half	.L424-.L423
+	.half	.L423-.L422
 	.byte	1,5,38,9
-	.half	.L425-.L424
+	.half	.L424-.L423
 	.byte	1,5,12,9
-	.half	.L426-.L425
+	.half	.L425-.L424
 	.byte	3,1,1,5,29,9
-	.half	.L427-.L426
+	.half	.L426-.L425
+	.byte	1,5,42,9
+	.half	.L213-.L426
+	.byte	1,5,40,9
+	.half	.L427-.L213
 	.byte	1,5,41,9
 	.half	.L428-.L427
-	.byte	1,5,43,9
+	.byte	1,5,38,9
 	.half	.L429-.L428
-	.byte	1,5,42,9
+	.byte	1,5,12,9
 	.half	.L430-.L429
-	.byte	1,5,39,9
+	.byte	3,1,1,5,29,9
 	.half	.L431-.L430
-	.byte	1,5,12,9
-	.half	.L432-.L431
-	.byte	3,1,1,5,29,9
-	.half	.L433-.L432
-	.byte	1,5,43,9
-	.half	.L434-.L433
 	.byte	1,5,41,9
-	.half	.L435-.L434
+	.half	.L432-.L431
+	.byte	1,5,43,9
+	.half	.L433-.L432
 	.byte	1,5,42,9
-	.half	.L436-.L435
+	.half	.L434-.L433
 	.byte	1,5,39,9
+	.half	.L435-.L434
+	.byte	1,5,12,9
+	.half	.L436-.L435
+	.byte	3,1,1,5,29,9
 	.half	.L437-.L436
-	.byte	1,5,12,9
+	.byte	1,5,43,9
 	.half	.L438-.L437
-	.byte	3,2,1,5,38,9
+	.byte	1,5,41,9
 	.half	.L439-.L438
-	.byte	1,5,3,9
+	.byte	1,5,42,9
 	.half	.L440-.L439
-	.byte	3,1,1,5,12,9
+	.byte	1,5,39,9
 	.half	.L441-.L440
-	.byte	3,1,1,5,29,9
+	.byte	1,5,12,9
 	.half	.L442-.L441
-	.byte	1,5,12,9
+	.byte	3,2,1,5,38,9
 	.half	.L443-.L442
-	.byte	3,1,1,5,29,9
+	.byte	1,5,3,9
 	.half	.L444-.L443
-	.byte	1,5,12,9
+	.byte	3,1,1,5,12,9
 	.half	.L445-.L444
 	.byte	3,1,1,5,29,9
 	.half	.L446-.L445
@@ -37001,181 +37008,181 @@ cardegree:	.type	object
 	.half	.L447-.L446
 	.byte	3,1,1,5,29,9
 	.half	.L448-.L447
-	.byte	1,5,15,9
+	.byte	1,5,12,9
 	.half	.L449-.L448
-	.byte	3,1,1,5,3,9
+	.byte	3,1,1,5,29,9
 	.half	.L450-.L449
-	.byte	3,1,1,5,18,9
+	.byte	1,5,12,9
 	.half	.L451-.L450
-	.byte	1,5,17,9
+	.byte	3,1,1,5,29,9
 	.half	.L452-.L451
-	.byte	1,5,24,9
-	.half	.L163-.L452
-	.byte	3,115,1,5,47,9
-	.half	.L37-.L163
-	.byte	3,18,1,5,3,9
-	.half	.L214-.L37
-	.byte	3,1,1,5,37,7,9
-	.half	.L453-.L214
-	.byte	1,5,55,9
-	.half	.L216-.L453
-	.byte	1,5,53,9
-	.half	.L454-.L216
-	.byte	1,5,40,9
-	.half	.L217-.L454
-	.byte	1,5,18,9
-	.half	.L42-.L217
-	.byte	3,1,1,5,46,9
-	.half	.L218-.L42
-	.byte	1,5,9,9
-	.half	.L43-.L218
-	.byte	3,1,1,5,6,9
-	.half	.L455-.L43
-	.byte	1,5,16,7,9
+	.byte	1,5,15,9
+	.half	.L453-.L452
+	.byte	3,1,1,5,3,9
+	.half	.L454-.L453
+	.byte	3,1,1,5,18,9
+	.half	.L455-.L454
+	.byte	1,5,17,9
 	.half	.L456-.L455
-	.byte	3,2,1,5,42,9
-	.half	.L457-.L456
-	.byte	1,5,22,9
-	.half	.L215-.L457
-	.byte	3,2,1,5,10,9
-	.half	.L220-.L215
-	.byte	1,5,16,9
-	.half	.L213-.L220
-	.byte	3,1,1,5,33,9
-	.half	.L458-.L213
-	.byte	1,5,44,9
-	.half	.L459-.L458
-	.byte	1,5,46,9
+	.byte	1,5,24,9
+	.half	.L165-.L456
+	.byte	3,115,1,5,47,9
+	.half	.L37-.L165
+	.byte	3,18,1,5,3,9
+	.half	.L217-.L37
+	.byte	3,1,1,5,37,7,9
+	.half	.L457-.L217
+	.byte	1,5,55,9
+	.half	.L219-.L457
+	.byte	1,5,53,9
+	.half	.L458-.L219
+	.byte	1,5,40,9
+	.half	.L220-.L458
+	.byte	1,5,18,9
+	.half	.L42-.L220
+	.byte	3,1,1,5,46,9
+	.half	.L221-.L42
+	.byte	1,5,9,9
+	.half	.L43-.L221
+	.byte	3,1,1,5,6,9
+	.half	.L459-.L43
+	.byte	1,5,16,7,9
 	.half	.L460-.L459
-	.byte	1,5,45,9
+	.byte	3,2,1,5,42,9
 	.half	.L461-.L460
-	.byte	1,5,42,9
-	.half	.L462-.L461
+	.byte	1,5,22,9
+	.half	.L218-.L461
+	.byte	3,2,1,5,10,9
+	.half	.L223-.L218
 	.byte	1,5,16,9
-	.half	.L221-.L462
+	.half	.L216-.L223
 	.byte	3,1,1,5,33,9
-	.half	.L463-.L221
+	.half	.L462-.L216
+	.byte	1,5,44,9
+	.half	.L463-.L462
 	.byte	1,5,46,9
 	.half	.L464-.L463
-	.byte	1,5,44,9
-	.half	.L465-.L464
 	.byte	1,5,45,9
-	.half	.L466-.L465
+	.half	.L465-.L464
 	.byte	1,5,42,9
-	.half	.L467-.L466
+	.half	.L466-.L465
 	.byte	1,5,16,9
-	.half	.L468-.L467
+	.half	.L224-.L466
 	.byte	3,1,1,5,33,9
+	.half	.L467-.L224
+	.byte	1,5,46,9
+	.half	.L468-.L467
+	.byte	1,5,44,9
 	.half	.L469-.L468
 	.byte	1,5,45,9
 	.half	.L470-.L469
-	.byte	1,5,47,9
+	.byte	1,5,42,9
 	.half	.L471-.L470
-	.byte	1,5,46,9
-	.half	.L472-.L471
-	.byte	1,5,43,9
-	.half	.L473-.L472
 	.byte	1,5,16,9
-	.half	.L474-.L473
+	.half	.L472-.L471
 	.byte	3,1,1,5,33,9
-	.half	.L475-.L474
-	.byte	1,5,47,9
-	.half	.L476-.L475
+	.half	.L473-.L472
 	.byte	1,5,45,9
-	.half	.L477-.L476
+	.half	.L474-.L473
+	.byte	1,5,47,9
+	.half	.L475-.L474
 	.byte	1,5,46,9
-	.half	.L478-.L477
+	.half	.L476-.L475
 	.byte	1,5,43,9
+	.half	.L477-.L476
+	.byte	1,5,16,9
+	.half	.L478-.L477
+	.byte	3,1,1,5,33,9
 	.half	.L479-.L478
-	.byte	1,5,50,9
+	.byte	1,5,47,9
 	.half	.L480-.L479
-	.byte	3,122,1,5,10,9
-	.half	.L44-.L480
-	.byte	3,12,1,5,16,9
-	.half	.L481-.L44
-	.byte	1,5,10,9
+	.byte	1,5,45,9
+	.half	.L481-.L480
+	.byte	1,5,46,9
 	.half	.L482-.L481
-	.byte	1,5,20,7,9
+	.byte	1,5,43,9
 	.half	.L483-.L482
-	.byte	1,5,27,9
+	.byte	1,5,50,9
 	.half	.L484-.L483
-	.byte	1,5,25,9
-	.half	.L485-.L484
-	.byte	1,5,44,7,9
+	.byte	3,122,1,5,10,9
+	.half	.L44-.L484
+	.byte	3,12,1,5,16,9
+	.half	.L485-.L44
+	.byte	1,5,10,9
 	.half	.L486-.L485
-	.byte	3,2,1,5,15,9
-	.half	.L46-.L486
-	.byte	3,4,1,5,21,9
-	.half	.L487-.L46
-	.byte	1,5,12,9
+	.byte	1,5,20,7,9
+	.half	.L487-.L486
+	.byte	1,5,27,9
 	.half	.L488-.L487
-	.byte	1,5,23,7,9
+	.byte	1,5,25,9
 	.half	.L489-.L488
-	.byte	3,3,1,5,28,9
+	.byte	1,5,44,7,9
 	.half	.L490-.L489
-	.byte	1,5,35,9
-	.half	.L491-.L490
-	.byte	1,5,33,9
-	.half	.L223-.L491
-	.byte	1,5,23,9
-	.half	.L492-.L223
-	.byte	3,1,1,5,28,9
-	.half	.L493-.L492
-	.byte	1,5,35,9
-	.half	.L494-.L493
-	.byte	1,5,33,9
-	.half	.L225-.L494
-	.byte	1,5,23,9
-	.half	.L495-.L225
-	.byte	3,1,1,5,8,9
-	.half	.L496-.L495
+	.byte	3,2,1,5,15,9
+	.half	.L46-.L490
+	.byte	3,4,1,5,21,9
+	.half	.L491-.L46
+	.byte	1,5,12,9
+	.half	.L492-.L491
 	.byte	1,5,23,7,9
-	.half	.L50-.L496
+	.half	.L493-.L492
+	.byte	3,3,1,5,28,9
+	.half	.L494-.L493
+	.byte	1,5,35,9
+	.half	.L495-.L494
+	.byte	1,5,33,9
+	.half	.L226-.L495
+	.byte	1,5,23,9
+	.half	.L496-.L226
+	.byte	3,1,1,5,28,9
+	.half	.L497-.L496
+	.byte	1,5,35,9
+	.half	.L498-.L497
+	.byte	1,5,33,9
+	.half	.L228-.L498
+	.byte	1,5,23,9
+	.half	.L499-.L228
 	.byte	3,1,1,5,8,9
-	.half	.L224-.L50
+	.half	.L500-.L499
+	.byte	1,5,23,7,9
+	.half	.L50-.L500
+	.byte	3,1,1,5,8,9
+	.half	.L227-.L50
 	.byte	1,7,9
-	.half	.L51-.L224
+	.half	.L51-.L227
 	.byte	1,5,15,9
 	.half	.L49-.L51
 	.byte	3,2,1,5,21,9
-	.half	.L497-.L49
+	.half	.L501-.L49
 	.byte	1,5,12,9
-	.half	.L498-.L497
-	.byte	1,5,23,7,9
-	.half	.L499-.L498
-	.byte	3,2,1,5,16,9
-	.half	.L48-.L499
-	.byte	3,10,1,5,33,9
-	.half	.L500-.L48
-	.byte	1,5,16,9
-	.half	.L222-.L500
-	.byte	3,1,1,5,33,9
-	.half	.L501-.L222
-	.byte	1,5,16,9
 	.half	.L502-.L501
-	.byte	3,1,1,5,33,9
+	.byte	1,5,23,7,9
 	.half	.L503-.L502
+	.byte	3,2,1,5,16,9
+	.half	.L48-.L503
+	.byte	3,10,1,5,33,9
+	.half	.L504-.L48
 	.byte	1,5,16,9
-	.half	.L504-.L503
+	.half	.L225-.L504
 	.byte	3,1,1,5,33,9
-	.half	.L505-.L504
-	.byte	1,5,13,9
+	.half	.L505-.L225
+	.byte	1,5,16,9
 	.half	.L506-.L505
-	.byte	3,1,1,5,40,9
+	.byte	3,1,1,5,33,9
 	.half	.L507-.L506
-	.byte	1,5,4,9
+	.byte	1,5,16,9
 	.half	.L508-.L507
-	.byte	3,1,1,5,13,9
+	.byte	3,1,1,5,33,9
 	.half	.L509-.L508
-	.byte	3,1,1,5,40,9
+	.byte	1,5,13,9
 	.half	.L510-.L509
-	.byte	1,5,13,9
+	.byte	3,1,1,5,40,9
 	.half	.L511-.L510
-	.byte	3,1,1,5,30,9
+	.byte	1,5,4,9
 	.half	.L512-.L511
-	.byte	1,5,13,9
+	.byte	3,1,1,5,13,9
 	.half	.L513-.L512
-	.byte	3,1,1,5,30,9
+	.byte	3,1,1,5,40,9
 	.half	.L514-.L513
 	.byte	1,5,13,9
 	.half	.L515-.L514
@@ -37185,17 +37192,17 @@ cardegree:	.type	object
 	.half	.L517-.L516
 	.byte	3,1,1,5,30,9
 	.half	.L518-.L517
-	.byte	1,5,4,9
+	.byte	1,5,13,9
 	.half	.L519-.L518
-	.byte	3,1,1,5,13,9
+	.byte	3,1,1,5,30,9
 	.half	.L520-.L519
-	.byte	3,1,1,5,30,9
+	.byte	1,5,13,9
 	.half	.L521-.L520
-	.byte	1,5,13,9
-	.half	.L522-.L521
 	.byte	3,1,1,5,30,9
+	.half	.L522-.L521
+	.byte	1,5,4,9
 	.half	.L523-.L522
-	.byte	1,5,13,9
+	.byte	3,1,1,5,13,9
 	.half	.L524-.L523
 	.byte	3,1,1,5,30,9
 	.half	.L525-.L524
@@ -37203,22 +37210,30 @@ cardegree:	.type	object
 	.half	.L526-.L525
 	.byte	3,1,1,5,30,9
 	.half	.L527-.L526
-	.byte	1,5,4,9
+	.byte	1,5,13,9
 	.half	.L528-.L527
-	.byte	3,1,1,5,16,9
+	.byte	3,1,1,5,30,9
 	.half	.L529-.L528
-	.byte	3,1,1,5,4,9
+	.byte	1,5,13,9
 	.half	.L530-.L529
-	.byte	3,1,1,5,19,9
+	.byte	3,1,1,5,30,9
 	.half	.L531-.L530
-	.byte	1,5,18,9
+	.byte	1,5,4,9
 	.half	.L532-.L531
+	.byte	3,1,1,5,16,9
+	.half	.L533-.L532
+	.byte	3,1,1,5,4,9
+	.half	.L534-.L533
+	.byte	3,1,1,5,19,9
+	.half	.L535-.L534
+	.byte	1,5,18,9
+	.half	.L536-.L535
 	.byte	1,5,1,9
-	.half	.L27-.L532
+	.half	.L27-.L536
 	.byte	3,7,1,7,9
 	.half	.L81-.L27
 	.byte	0,1,1
-.L338:
+.L342:
 	.sdecl	'.debug_ranges',debug,cluster('rotate')
 	.sect	'.debug_ranges'
 .L80:
@@ -37237,18 +37252,18 @@ cardegree:	.type	object
 	.byte	2
 	.word	.L63
 	.byte	3
-	.byte	'rear_diff',0,1,121,8
-	.word	.L157
+	.byte	'rear_diff',0,1,122,8
+	.word	.L159
 	.byte	1,1,1
-	.word	.L60,.L166,.L59
+	.word	.L60,.L168,.L59
 	.byte	4
-	.byte	'degree',0,1,121,22
-	.word	.L133,.L167
+	.byte	'degree',0,1,122,22
+	.word	.L135,.L169
 	.byte	5
-	.word	.L60,.L166
+	.word	.L60,.L168
 	.byte	6
-	.byte	'xishu',0,1,123,9
-	.word	.L157,.L168
+	.byte	'xishu',0,1,124,9
+	.word	.L159,.L170
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('rear_diff')
 	.sect	'.debug_abbrev'
@@ -37259,24 +37274,24 @@ cardegree:	.type	object
 	.sdecl	'.debug_line',debug,cluster('rear_diff')
 	.sect	'.debug_line'
 .L84:
-	.word	.L534-.L533
-.L533:
+	.word	.L538-.L537
+.L537:
 	.half	3
-	.word	.L536-.L535
-.L535:
+	.word	.L540-.L539
+.L539:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\control.c',0,0,0,0,0
-.L536:
+.L540:
 	.byte	5,2,7,0,5,2
 	.word	.L60
-	.byte	3,251,0,1,5,12,7,9
-	.half	.L537-.L60
+	.byte	3,252,0,1,5,12,7,9
+	.half	.L541-.L60
 	.byte	3,4,1,5,1,9
-	.half	.L24-.L537
+	.half	.L24-.L541
 	.byte	3,8,1,7,9
 	.half	.L86-.L24
 	.byte	0,1,1
-.L534:
+.L538:
 	.sdecl	'.debug_ranges',debug,cluster('rear_diff')
 	.sect	'.debug_ranges'
 .L85:
@@ -37294,7 +37309,7 @@ cardegree:	.type	object
 	.word	.L63
 	.byte	3
 	.byte	'Lx',0,26,13,7
-	.word	.L169
+	.word	.L171
 	.byte	1,5,3
 	.word	Lx
 	.byte	0
@@ -37316,7 +37331,7 @@ cardegree:	.type	object
 	.word	.L63
 	.byte	3
 	.byte	'Rx',0,26,14,7
-	.word	.L169
+	.word	.L171
 	.byte	1,5,3
 	.word	Rx
 	.byte	0
@@ -37338,7 +37353,7 @@ cardegree:	.type	object
 	.word	.L63
 	.byte	3
 	.byte	'Midx',0,26,15,7
-	.word	.L169
+	.word	.L171
 	.byte	1,5,3
 	.word	Midx
 	.byte	0
@@ -37360,7 +37375,7 @@ cardegree:	.type	object
 	.word	.L63
 	.byte	3
 	.byte	'speed',0,26,12,7
-	.word	.L147
+	.word	.L149
 	.byte	1,5,3
 	.word	speed
 	.byte	0
@@ -37369,10 +37384,10 @@ cardegree:	.type	object
 .L94:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('huandao')
+	.sdecl	'.debug_info',debug,cluster('timecounter')
 	.sect	'.debug_info'
 .L95:
-	.word	128
+	.word	132
 	.half	3
 	.word	.L96
 	.byte	4,1
@@ -37381,20 +37396,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'huandao',0,26,16,7
-	.word	.L170
+	.byte	'timecounter',0,26,26,8
+	.word	.L172
 	.byte	1,5,3
-	.word	huandao
+	.word	timecounter
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('huandao')
+	.sdecl	'.debug_abbrev',debug,cluster('timecounter')
 	.sect	'.debug_abbrev'
 .L96:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('zebra_flag')
+	.sdecl	'.debug_info',debug,cluster('huandao')
 	.sect	'.debug_info'
 .L97:
-	.word	131
+	.word	128
 	.half	3
 	.word	.L98
 	.byte	4,1
@@ -37403,20 +37418,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'zebra_flag',0,26,17,7
-	.word	.L170
+	.byte	'huandao',0,26,16,7
+	.word	.L173
 	.byte	1,5,3
-	.word	zebra_flag
+	.word	huandao
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('zebra_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('huandao')
 	.sect	'.debug_abbrev'
 .L98:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('zebra_end_flag')
+	.sdecl	'.debug_info',debug,cluster('zebra_flag')
 	.sect	'.debug_info'
 .L99:
-	.word	135
+	.word	131
 	.half	3
 	.word	.L100
 	.byte	4,1
@@ -37425,20 +37440,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'zebra_end_flag',0,26,18,7
-	.word	.L170
+	.byte	'zebra_flag',0,26,17,7
+	.word	.L173
 	.byte	1,5,3
-	.word	zebra_end_flag
+	.word	zebra_flag
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('zebra_end_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('zebra_flag')
 	.sect	'.debug_abbrev'
 .L100:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('stop_flag')
+	.sdecl	'.debug_info',debug,cluster('zebra_end_flag')
 	.sect	'.debug_info'
 .L101:
-	.word	130
+	.word	135
 	.half	3
 	.word	.L102
 	.byte	4,1
@@ -37447,20 +37462,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'stop_flag',0,26,19,7
-	.word	.L170
+	.byte	'zebra_end_flag',0,26,18,7
+	.word	.L173
 	.byte	1,5,3
-	.word	stop_flag
+	.word	zebra_end_flag
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('stop_flag')
+	.sdecl	'.debug_abbrev',debug,cluster('zebra_end_flag')
 	.sect	'.debug_abbrev'
 .L102:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('out_huandao')
+	.sdecl	'.debug_info',debug,cluster('stop_flag')
 	.sect	'.debug_info'
 .L103:
-	.word	132
+	.word	130
 	.half	3
 	.word	.L104
 	.byte	4,1
@@ -37469,20 +37484,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'out_huandao',0,26,21,7
-	.word	.L170
+	.byte	'stop_flag',0,26,19,7
+	.word	.L173
 	.byte	1,5,3
-	.word	out_huandao
+	.word	stop_flag
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('out_huandao')
+	.sdecl	'.debug_abbrev',debug,cluster('stop_flag')
 	.sect	'.debug_abbrev'
 .L104:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('in_huandao')
+	.sdecl	'.debug_info',debug,cluster('out_huandao')
 	.sect	'.debug_info'
 .L105:
-	.word	131
+	.word	132
 	.half	3
 	.word	.L106
 	.byte	4,1
@@ -37491,20 +37506,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'in_huandao',0,26,22,7
-	.word	.L170
+	.byte	'out_huandao',0,26,21,7
+	.word	.L173
 	.byte	1,5,3
-	.word	in_huandao
+	.word	out_huandao
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('in_huandao')
+	.sdecl	'.debug_abbrev',debug,cluster('out_huandao')
 	.sect	'.debug_abbrev'
 .L106:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('in_huandao_end')
+	.sdecl	'.debug_info',debug,cluster('in_huandao')
 	.sect	'.debug_info'
 .L107:
-	.word	135
+	.word	131
 	.half	3
 	.word	.L108
 	.byte	4,1
@@ -37513,20 +37528,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'in_huandao_end',0,26,23,7
-	.word	.L170
+	.byte	'in_huandao',0,26,22,7
+	.word	.L173
 	.byte	1,5,3
-	.word	in_huandao_end
+	.word	in_huandao
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('in_huandao_end')
+	.sdecl	'.debug_abbrev',debug,cluster('in_huandao')
 	.sect	'.debug_abbrev'
 .L108:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('huandao_count')
+	.sdecl	'.debug_info',debug,cluster('in_huandao_end')
 	.sect	'.debug_info'
 .L109:
-	.word	134
+	.word	135
 	.half	3
 	.word	.L110
 	.byte	4,1
@@ -37535,20 +37550,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'huandao_count',0,26,24,7
-	.word	.L170
+	.byte	'in_huandao_end',0,26,23,7
+	.word	.L173
 	.byte	1,5,3
-	.word	huandao_count
+	.word	in_huandao_end
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('huandao_count')
+	.sdecl	'.debug_abbrev',debug,cluster('in_huandao_end')
 	.sect	'.debug_abbrev'
 .L110:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('out_begin')
+	.sdecl	'.debug_info',debug,cluster('huandao_count')
 	.sect	'.debug_info'
 .L111:
-	.word	130
+	.word	134
 	.half	3
 	.word	.L112
 	.byte	4,1
@@ -37557,20 +37572,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'out_begin',0,26,25,7
-	.word	.L170
+	.byte	'huandao_count',0,26,24,7
+	.word	.L173
 	.byte	1,5,3
-	.word	out_begin
+	.word	huandao_count
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('out_begin')
+	.sdecl	'.debug_abbrev',debug,cluster('huandao_count')
 	.sect	'.debug_abbrev'
 .L112:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('kp')
+	.sdecl	'.debug_info',debug,cluster('out_begin')
 	.sect	'.debug_info'
 .L113:
-	.word	123
+	.word	130
 	.half	3
 	.word	.L114
 	.byte	4,1
@@ -37579,17 +37594,17 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'kp',0,26,26,8
-	.word	.L157
+	.byte	'out_begin',0,26,25,7
+	.word	.L173
 	.byte	1,5,3
-	.word	kp
+	.word	out_begin
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('kp')
+	.sdecl	'.debug_abbrev',debug,cluster('out_begin')
 	.sect	'.debug_abbrev'
 .L114:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('ki')
+	.sdecl	'.debug_info',debug,cluster('kp')
 	.sect	'.debug_info'
 .L115:
 	.word	123
@@ -37601,17 +37616,17 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'ki',0,26,26,11
-	.word	.L157
+	.byte	'kp',0,26,27,8
+	.word	.L159
 	.byte	1,5,3
-	.word	ki
+	.word	kp
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ki')
+	.sdecl	'.debug_abbrev',debug,cluster('kp')
 	.sect	'.debug_abbrev'
 .L116:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('kd')
+	.sdecl	'.debug_info',debug,cluster('ki')
 	.sect	'.debug_info'
 .L117:
 	.word	123
@@ -37623,17 +37638,17 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'kd',0,26,26,14
-	.word	.L157
+	.byte	'ki',0,26,27,11
+	.word	.L159
 	.byte	1,5,3
-	.word	kd
+	.word	ki
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('kd')
+	.sdecl	'.debug_abbrev',debug,cluster('ki')
 	.sect	'.debug_abbrev'
 .L118:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('ek')
+	.sdecl	'.debug_info',debug,cluster('kd')
 	.sect	'.debug_info'
 .L119:
 	.word	123
@@ -37645,20 +37660,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'ek',0,26,27,7
-	.word	.L147
+	.byte	'kd',0,26,27,14
+	.word	.L159
 	.byte	1,5,3
-	.word	ek
+	.word	kd
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ek')
+	.sdecl	'.debug_abbrev',debug,cluster('kd')
 	.sect	'.debug_abbrev'
 .L120:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('ek1')
+	.sdecl	'.debug_info',debug,cluster('ek')
 	.sect	'.debug_info'
 .L121:
-	.word	124
+	.word	123
 	.half	3
 	.word	.L122
 	.byte	4,1
@@ -37667,17 +37682,17 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'ek1',0,26,27,12
-	.word	.L147
+	.byte	'ek',0,26,28,7
+	.word	.L149
 	.byte	1,5,3
-	.word	ek1
+	.word	ek
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ek1')
+	.sdecl	'.debug_abbrev',debug,cluster('ek')
 	.sect	'.debug_abbrev'
 .L122:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('ek2')
+	.sdecl	'.debug_info',debug,cluster('ek1')
 	.sect	'.debug_info'
 .L123:
 	.word	124
@@ -37689,20 +37704,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'ek2',0,26,27,18
-	.word	.L147
+	.byte	'ek1',0,26,28,12
+	.word	.L149
 	.byte	1,5,3
-	.word	ek2
+	.word	ek1
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('ek2')
+	.sdecl	'.debug_abbrev',debug,cluster('ek1')
 	.sect	'.debug_abbrev'
 .L124:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('out_increment')
+	.sdecl	'.debug_info',debug,cluster('ek2')
 	.sect	'.debug_info'
 .L125:
-	.word	134
+	.word	124
 	.half	3
 	.word	.L126
 	.byte	4,1
@@ -37711,20 +37726,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'out_increment',0,26,28,8
-	.word	.L157
+	.byte	'ek2',0,26,28,18
+	.word	.L149
 	.byte	1,5,3
-	.word	out_increment
+	.word	ek2
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('out_increment')
+	.sdecl	'.debug_abbrev',debug,cluster('ek2')
 	.sect	'.debug_abbrev'
 .L126:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('out')
+	.sdecl	'.debug_info',debug,cluster('out_increment')
 	.sect	'.debug_info'
 .L127:
-	.word	124
+	.word	134
 	.half	3
 	.word	.L128
 	.byte	4,1
@@ -37733,20 +37748,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'out',0,26,29,8
-	.word	.L157
+	.byte	'out_increment',0,26,29,8
+	.word	.L159
 	.byte	1,5,3
-	.word	out
+	.word	out_increment
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('out')
+	.sdecl	'.debug_abbrev',debug,cluster('out_increment')
 	.sect	'.debug_abbrev'
 .L128:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('cardegree')
+	.sdecl	'.debug_info',debug,cluster('out')
 	.sect	'.debug_info'
 .L129:
-	.word	130
+	.word	124
 	.half	3
 	.word	.L130
 	.byte	4,1
@@ -37755,20 +37770,20 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
-	.byte	'cardegree',0,26,30,5
-	.word	.L133
+	.byte	'out',0,26,30,8
+	.word	.L159
 	.byte	1,5,3
-	.word	cardegree
+	.word	out
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('cardegree')
+	.sdecl	'.debug_abbrev',debug,cluster('out')
 	.sect	'.debug_abbrev'
 .L130:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('stop_end_flag')
+	.sdecl	'.debug_info',debug,cluster('cardegree')
 	.sect	'.debug_info'
 .L131:
-	.word	134
+	.word	130
 	.half	3
 	.word	.L132
 	.byte	4,1
@@ -37777,266 +37792,288 @@ cardegree:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
 	.word	.L63
 	.byte	3
+	.byte	'cardegree',0,26,31,5
+	.word	.L135
+	.byte	1,5,3
+	.word	cardegree
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('cardegree')
+	.sect	'.debug_abbrev'
+.L132:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('stop_end_flag')
+	.sect	'.debug_info'
+.L133:
+	.word	134
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'..\\USER\\control.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\smartcar\\smartcar\\Debug\\',0,12,1,2
+	.word	.L63
+	.byte	3
 	.byte	'stop_end_flag',0,26,20,7
-	.word	.L170
+	.word	.L173
 	.byte	1,5,3
 	.word	stop_end_flag
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('stop_end_flag')
 	.sect	'.debug_abbrev'
-.L132:
+.L134:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('degree_calculation')
 	.sect	'.debug_loc'
+.L144:
+	.word	-1,.L56,.L181-.L56,.L8-.L56
+	.half	1
+	.byte	82
+	.word	.L182-.L56,.L183-.L56
+	.half	1
+	.byte	82
+	.word	0,0
+.L145:
+	.word	-1,.L56,.L184-.L56,.L10-.L56
+	.half	1
+	.byte	83
+	.word	.L185-.L56,.L136-.L56
+	.half	1
+	.byte	83
+	.word	0,0
 .L142:
-	.word	-1,.L56,.L178-.L56,.L8-.L56
-	.half	1
-	.byte	82
-	.word	.L179-.L56,.L180-.L56
-	.half	1
-	.byte	82
-	.word	0,0
-.L143:
-	.word	-1,.L56,.L181-.L56,.L10-.L56
-	.half	1
-	.byte	83
-	.word	.L182-.L56,.L134-.L56
-	.half	1
-	.byte	83
-	.word	0,0
-.L140:
-	.word	-1,.L56,.L172-.L56,.L173-.L56
+	.word	-1,.L56,.L175-.L56,.L176-.L56
 	.half	1
 	.byte	81
 	.word	0,0
-.L144:
-	.word	-1,.L56,.L183-.L56,.L14-.L56
+.L146:
+	.word	-1,.L56,.L186-.L56,.L14-.L56
 	.half	1
 	.byte	95
-	.word	.L15-.L56,.L184-.L56
+	.word	.L15-.L56,.L187-.L56
 	.half	1
 	.byte	95
 	.word	0,0
-.L139:
-	.word	-1,.L56,.L171-.L56,.L141-.L56
+.L141:
+	.word	-1,.L56,.L174-.L56,.L143-.L56
 	.half	1
 	.byte	82
-	.word	.L141-.L56,.L177-.L56
+	.word	.L143-.L56,.L180-.L56
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L138:
-	.word	-1,.L56,.L185-.L56,.L134-.L56
+.L140:
+	.word	-1,.L56,.L188-.L56,.L136-.L56
 	.half	1
 	.byte	82
 	.word	0,0
 .L55:
-	.word	-1,.L56,0,.L134-.L56
+	.word	-1,.L56,0,.L136-.L56
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L136:
-	.word	-1,.L56,.L174-.L56,.L175-.L56
+.L138:
+	.word	-1,.L56,.L177-.L56,.L178-.L56
 	.half	1
 	.byte	83
-	.word	.L175-.L56,.L176-.L56
+	.word	.L178-.L56,.L179-.L56
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L137:
+.L139:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('rear_diff')
 	.sect	'.debug_loc'
-.L190:
-	.word	-1,.L60,0,.L166-.L60
+.L193:
+	.word	-1,.L60,0,.L168-.L60
 	.half	1
 	.byte	84
 	.word	0,0
-.L167:
-	.word	-1,.L60,0,.L166-.L60
+.L169:
+	.word	-1,.L60,0,.L168-.L60
 	.half	1
 	.byte	84
 	.word	0,0
 .L59:
-	.word	-1,.L60,0,.L166-.L60
+	.word	-1,.L60,0,.L168-.L60
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L168:
+.L170:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('rotate')
 	.sect	'.debug_loc'
-.L151:
-	.word	-1,.L62,0,.L191-.L62
+.L153:
+	.word	-1,.L62,0,.L194-.L62
 	.half	1
 	.byte	84
-	.word	.L192-.L62,.L193-.L62
+	.word	.L195-.L62,.L196-.L62
 	.half	1
 	.byte	88
-	.word	.L25-.L62,.L194-.L62
+	.word	.L25-.L62,.L197-.L62
 	.half	1
 	.byte	84
-	.word	.L28-.L62,.L195-.L62
+	.word	.L28-.L62,.L198-.L62
 	.half	1
 	.byte	84
-	.word	.L31-.L62,.L196-.L62
+	.word	.L31-.L62,.L199-.L62
 	.half	1
 	.byte	84
 	.word	.L34-.L62,.L35-.L62
 	.half	1
 	.byte	88
-	.word	.L33-.L62,.L204-.L62
+	.word	.L33-.L62,.L207-.L62
 	.half	1
 	.byte	88
-	.word	.L33-.L62,.L205-.L62
+	.word	.L33-.L62,.L208-.L62
 	.half	1
 	.byte	84
 	.word	.L39-.L62,.L40-.L62
 	.half	1
 	.byte	88
-	.word	.L37-.L62,.L213-.L62
+	.word	.L37-.L62,.L216-.L62
 	.half	1
 	.byte	88
-	.word	.L37-.L62,.L214-.L62
+	.word	.L37-.L62,.L217-.L62
 	.half	1
 	.byte	84
-	.word	.L219-.L62,.L220-.L62
+	.word	.L222-.L62,.L223-.L62
 	.half	1
 	.byte	84
 	.word	.L44-.L62,.L27-.L62
 	.half	1
 	.byte	88
 	.word	0,0
-.L156:
+.L158:
 	.word	0,0
-.L161:
-	.word	-1,.L62,.L197-.L62,.L198-.L62
+.L163:
+	.word	-1,.L62,.L200-.L62,.L201-.L62
 	.half	1
 	.byte	82
 	.word	0,0
-.L164:
-	.word	-1,.L62,.L206-.L62,.L207-.L62
+.L166:
+	.word	-1,.L62,.L209-.L62,.L210-.L62
 	.half	1
 	.byte	82
 	.word	0,0
-.L165:
-	.word	-1,.L62,.L214-.L62,.L215-.L62
+.L167:
+	.word	-1,.L62,.L217-.L62,.L218-.L62
 	.half	1
 	.byte	82
-	.word	.L44-.L62,.L222-.L62
+	.word	.L44-.L62,.L225-.L62
 	.half	1
 	.byte	82
 	.word	0,0
 .L61:
-	.word	-1,.L62,0,.L150-.L62
+	.word	-1,.L62,0,.L152-.L62
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L152:
-	.word	-1,.L62,.L199-.L62,.L34-.L62
+.L154:
+	.word	-1,.L62,.L202-.L62,.L34-.L62
 	.half	1
 	.byte	95
-	.word	.L200-.L62,.L201-.L62
+	.word	.L203-.L62,.L204-.L62
 	.half	1
 	.byte	95
-	.word	.L208-.L62,.L39-.L62
+	.word	.L211-.L62,.L39-.L62
 	.half	1
 	.byte	95
-	.word	.L209-.L62,.L210-.L62
+	.word	.L212-.L62,.L213-.L62
 	.half	1
 	.byte	95
-	.word	.L216-.L62,.L42-.L62
+	.word	.L219-.L62,.L42-.L62
 	.half	1
 	.byte	89
-	.word	.L218-.L62,.L27-.L62
+	.word	.L221-.L62,.L27-.L62
 	.half	1
 	.byte	89
 	.word	0,0
-.L153:
-	.word	-1,.L62,.L197-.L62,.L35-.L62
+.L155:
+	.word	-1,.L62,.L200-.L62,.L35-.L62
 	.half	1
 	.byte	82
-	.word	.L193-.L62,.L34-.L62
+	.word	.L196-.L62,.L34-.L62
 	.half	1
 	.byte	88
 	.word	.L35-.L62,.L33-.L62
 	.half	1
 	.byte	88
-	.word	.L206-.L62,.L40-.L62
+	.word	.L209-.L62,.L40-.L62
 	.half	1
 	.byte	82
-	.word	.L204-.L62,.L39-.L62
+	.word	.L207-.L62,.L39-.L62
 	.half	1
 	.byte	88
 	.word	.L40-.L62,.L37-.L62
 	.half	1
 	.byte	88
-	.word	.L214-.L62,.L43-.L62
+	.word	.L217-.L62,.L43-.L62
 	.half	1
 	.byte	82
-	.word	.L217-.L62,.L42-.L62
+	.word	.L220-.L62,.L42-.L62
 	.half	1
 	.byte	90
 	.word	.L43-.L62,.L27-.L62
 	.half	1
 	.byte	90
 	.word	0,0
-.L154:
-	.word	-1,.L62,.L223-.L62,.L224-.L62
+.L156:
+	.word	-1,.L62,.L226-.L62,.L227-.L62
 	.half	1
 	.byte	95
 	.word	0,0
-.L155:
-	.word	-1,.L62,.L225-.L62,.L49-.L62
+.L157:
+	.word	-1,.L62,.L228-.L62,.L49-.L62
 	.half	5
 	.byte	144,32,157,32,0
 	.word	0,0
-.L158:
-	.word	-1,.L62,.L198-.L62,.L202-.L62
+.L160:
+	.word	-1,.L62,.L201-.L62,.L205-.L62
 	.half	1
 	.byte	82
-	.word	.L203-.L62,.L33-.L62
+	.word	.L206-.L62,.L33-.L62
 	.half	1
 	.byte	89
-	.word	.L207-.L62,.L211-.L62
+	.word	.L210-.L62,.L214-.L62
 	.half	1
 	.byte	82
-	.word	.L212-.L62,.L37-.L62
+	.word	.L215-.L62,.L37-.L62
 	.half	1
 	.byte	89
-	.word	.L220-.L62,.L221-.L62
+	.word	.L223-.L62,.L224-.L62
 	.half	1
 	.byte	82
-	.word	.L213-.L62,.L44-.L62
+	.word	.L216-.L62,.L44-.L62
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('speedctrl_calculation')
 	.sect	'.debug_loc'
-.L146:
-	.word	-1,.L58,0,.L186-.L58
+.L148:
+	.word	-1,.L58,0,.L189-.L58
 	.half	1
 	.byte	84
 	.word	0,0
-.L148:
-	.word	-1,.L58,.L187-.L58,.L188-.L58
+.L150:
+	.word	-1,.L58,.L190-.L58,.L191-.L58
 	.half	1
 	.byte	95
 	.word	0,0
-.L149:
-	.word	-1,.L58,.L189-.L58,.L145-.L58
+.L151:
+	.word	-1,.L58,.L192-.L58,.L147-.L58
 	.half	1
 	.byte	82
 	.word	0,0
 .L57:
-	.word	-1,.L58,0,.L145-.L58
+	.word	-1,.L58,0,.L147-.L58
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L538:
+.L542:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
@@ -38044,23 +38081,23 @@ cardegree:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('degree_calculation')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L538,.L56,.L134-.L56
+	.word	.L542,.L56,.L136-.L56
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('speedctrl_calculation')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L538,.L58,.L145-.L58
+	.word	.L542,.L58,.L147-.L58
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('rear_diff')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L538,.L60,.L166-.L60
+	.word	.L542,.L60,.L168-.L60
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('rotate')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L538,.L62,.L150-.L62
+	.word	.L542,.L62,.L152-.L62
 
-; ..\USER\control.c	   291  
+; ..\USER\control.c	   292  
 
 	; Module end

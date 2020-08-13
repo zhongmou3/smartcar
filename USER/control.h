@@ -6,6 +6,7 @@ extern uint8 Lx[MT9V03X_H];                    //左引导线中心点列号
 extern uint8 Rx[MT9V03X_H];                    //右引导线中心点列号
 extern uint8 Midx[MT9V03X_H];
 extern int16 speed;
+extern uint32 timecounter;
 extern uint8 huandao;
 extern uint8 zebra_flag;
 extern uint8 zebra_end_flag;

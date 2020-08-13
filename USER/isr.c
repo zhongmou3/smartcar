@@ -26,6 +26,8 @@
 IFX_INTERRUPT(cc60_pit_ch0_isr, CCU6_0_CH0_INT_SERVICE, CCU6_0_CH0_ISR_PRIORITY)
 {
 	double xishu;
+	timecounter++;
+	if(timecounter==100000) timecounter=0;
 	int16 temp_speed;
 	int encoder_counter;
 	int encoder_counter2;

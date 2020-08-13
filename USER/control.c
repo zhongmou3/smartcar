@@ -23,6 +23,7 @@ uint8 in_huandao=0;
 uint8 in_huandao_end=0;
 uint8 huandao_count=0;
 uint8 out_begin=0;         //判断要不要判断出环岛，只有了入环岛之后才出环岛
+uint32 timecounter=0;
 double kp,ki,kd;     //增量式PID参数
 int16 ek=0,ek1=0,ek2=0;   //前后三次误差
 double out_increment=0;//增量式PID输出增量
@@ -92,7 +93,7 @@ int speedctrl_calculation(int degree)
 		degree = -degree;
 	}
 	//if(degree<=25)
-	set_speed = 3000;
+	set_speed = 2500;
 	/*else if(degree<=65)
 		set_speed=250-2*degree;*/
 	//else
@@ -104,9 +105,9 @@ int speedctrl_calculation(int degree)
 	//oled_int16(40, 3, ek);
 
 	//设置PID系数
-	kp = 0.45;
-	ki = 0;
-	kd = 0;
+	kp = 0.55;
+	ki = 0.003;
+	kd = 0.012;
 
 	//进行增量式PID运算
 	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
@@ -183,14 +184,14 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 		//speedctrl = speedctrl+500;
-		xishu = rear_diff(60);
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+60);
+		xishu = rear_diff(70);
+		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+70);
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		systick_delay_ms(STM1, 80);
+		systick_delay_ms(STM1, 250);
 		mt9v03x_init();	//初始化摄像头
 		out_huandao=0;
 	}

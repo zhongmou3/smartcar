@@ -82,9 +82,9 @@ void core0_main(void)
 		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+cardegree);
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
-		pwm_duty(ATOM0_CH5_P02_5, 200);	//左前
-		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-		pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
+        pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
+        pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+        pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 		if(speed>500)
     	{
     	   	start_count++;

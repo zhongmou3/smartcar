@@ -441,7 +441,7 @@ void searchline_image(uint8 *p)
 		//if(right_non[t]==1 && t>MT9V03X_H-32)
 		//  count_right_exist++;
 	}
-    if(count_left_non>=25 && count_right_non>=25&&out_begin==1&&(count_left_non-count_right_non<2||count_left_non-count_right_non>-2))//检测是否出环岛，首先满足左右没有边线的条件
+    if(count_left_non>=22 && count_right_non>=22&&out_begin==1&&(count_left_non-count_right_non<3||count_left_non-count_right_non>-3))//检测是否出环岛，首先满足左右没有边线的条件
 	{
 		for(i=40;i<90;i++)     //找底线
 		{
@@ -454,7 +454,7 @@ void searchline_image(uint8 *p)
 				}
 			}
 		}
-		if(black_count>40&&timecounter>30)	//还要满足找到底线的条件
+		if(black_count>40&&timecounter>10)	//还要满足找到底线的条件
 		{
 			out_huandao=1;
 			out_begin=0;//出了环岛之后就不要再判断是否出环岛

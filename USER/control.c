@@ -75,7 +75,7 @@ int degree_calculation(void)
     if(AbsExcursionValue > 100) ExcursionValueCoeff = 2;
     else ExcursionValueCoeff = 0;
 
-    cardegree = InclineValue*0.77 - ExcursionValueCoeff*ExcursionValue*0.105;
+    cardegree = InclineValue*0.77 - ExcursionValueCoeff*ExcursionValue*0.1;
     if (cardegree>88) cardegree=88;
     if (cardegree<-88) cardegree=-88;
     return cardegree;
@@ -92,12 +92,12 @@ int speedctrl_calculation(int degree)
 	{
 		degree = -degree;
 	}
-	//if(degree<=25)
-	set_speed = 2500;
-	/*else if(degree<=65)
-		set_speed=250-2*degree;*/
-	//else
-		//set_speed=6000;
+	if(degree<=20)
+	set_speed = 3200;
+	else if(degree<=70)
+		set_speed=3200-10*(degree-20);
+	else
+		set_speed=2700;
 
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
@@ -105,8 +105,8 @@ int speedctrl_calculation(int degree)
 	//oled_int16(40, 3, ek);
 
 	//设置PID系数
-	kp = 0.55;
-	ki = 0.003;
+	kp = 0.35;
+	ki = 0.0025;
 	kd = 0.012;
 
 	//进行增量式PID运算
@@ -180,7 +180,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 	}
 	else if(out_huandao==1)
 	{
-		int ideal_speedctrl = speedctrl_calculation(60);
+		int ideal_speedctrl = speedctrl_calculation(70);
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
 		//speedctrl = speedctrl+500;
@@ -191,7 +191,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		systick_delay_ms(STM1, 250);
+		systick_delay_ms(STM1, 400);
 		mt9v03x_init();	//初始化摄像头
 		out_huandao=0;
 	}

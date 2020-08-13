@@ -720,11 +720,11 @@ core1_main:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   662      enabled = IfxCpu_areInterruptsEnabled();
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   663      __disable();
 	disable
-.L794:
+.L793:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   664      __nop();
 	nop
-.L795:
+.L794:
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   665      return enabled;      (inlined)
 	j	.L3
@@ -742,7 +742,7 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    32  
 ; ..\USER\Cpu1_Main.c	    33  
 	call	get_clk
-.L796:
+.L795:
 
 ; ..\USER\Cpu1_Main.c	    34  	//目前的库采集总钻风 图像最后一列为固定的黑色
 ; ..\USER\Cpu1_Main.c	    35  	//这是由于单片机造成的，不是摄像头的问题
@@ -750,12 +750,12 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    37      oled_fill(0);
 ; ..\USER\Cpu1_Main.c	    38  	//ips114_init();	//初始化IPS屏幕
 	call	oled_init
-.L797:
+.L796:
 
 ; ..\USER\Cpu1_Main.c	    39  	//ips114_showstr(0, 0, "SEEKFREE MT9V03x");
 	mov	d4,#0
 	call	oled_fill
-.L798:
+.L797:
 
 ; ..\USER\Cpu1_Main.c	    40  	//ips114_showstr(0, 1, "Initializing...");
 ; ..\USER\Cpu1_Main.c	    41  	//如果屏幕没有任何显示，请检查屏幕接线
@@ -1455,9 +1455,9 @@ core1_main:	.type	func
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
 	ld.bu	d15,[a15]
-.L799:
+.L798:
 	jeq	d15,#0,.L7
-.L800:
+.L799:
 
 ; ..\USER\Cpu1_Main.c	    55      		//摄像头通过中断读取到mt9v03x_image,128*64,首地址为mt9v03x_image[0]
 ; ..\USER\Cpu1_Main.c	    56      		//后期会提升像素。
@@ -1467,61 +1467,61 @@ core1_main:	.type	func
 ; ..\USER\Cpu1_Main.c	    60  			searchline_image(mt9v03x_image[0]);
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
-.L801:
+.L800:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L802:
+.L801:
 	call	GetMeanThreshold
-.L803:
+.L802:
 	st.w	[a15],d2
-.L804:
+.L803:
 
 ; ..\USER\Cpu1_Main.c	    61      		change_image(mt9v03x_image[0]);
 ; ..\USER\Cpu1_Main.c	    62      		oled_dis_bmp(MT9V03X_H,MT9V03X_W,mt9v03x_image[0],whiteRoad);
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L805:
+.L804:
 	call	searchline_image
-.L806:
+.L805:
 
 ; ..\USER\Cpu1_Main.c	    63      		oled_int16(40, 2, speed);
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L807:
+.L806:
 	call	change_image
-.L808:
+.L807:
 
 ; ..\USER\Cpu1_Main.c	    64      		oled_int16(40, 3, ek);
 	mov	d4,#64
-.L809:
+.L808:
 	mov	d5,#128
-.L810:
+.L809:
 	movh.a	a4,#@his(mt9v03x_image)
 	lea	a4,[a4]@los(mt9v03x_image)
-.L811:
+.L810:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d15,[a15]
 	extr.u	d6,d15,#0,#8
 	call	oled_dis_bmp
-.L812:
+.L811:
 
 ; ..\USER\Cpu1_Main.c	    65      		int16 ou16= (int16)out;
 	mov	d4,#40
-.L813:
+.L812:
 	mov	d5,#2
-.L814:
+.L813:
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d6,[a15]
 	call	oled_int16
-.L815:
+.L814:
 
 ; ..\USER\Cpu1_Main.c	    66      		oled_int16(40, 4, ou16);
 	mov	d4,#40
-.L816:
+.L815:
 	mov	d5,#3
-.L817:
+.L816:
 	movh.a	a15,#@his(ek)
 	lea	a15,[a15]@los(ek)
 	ld.h	d6,[a15]
@@ -1532,31 +1532,31 @@ core1_main:	.type	func
 	movh.a	a15,#@his(out)
 	lea	a15,[a15]@los(out)
 	ld.w	d15,[a15]
-.L818:
+.L817:
 	ftoiz	d6,d15
 .L274:
 	sat.h	d6
-.L819:
+.L818:
 
 ; ..\USER\Cpu1_Main.c	    68  			//注意：一定要在图像使用完毕后在清除此标志位
 	mov	d4,#40
-.L820:
+.L819:
 	mov	d5,#4
-.L821:
+.L820:
 	call	oled_int16
 .L275:
 
 ; ..\USER\Cpu1_Main.c	    69      	}
 	movh.a	a15,#@his(mt9v03x_finish_flag)
 	lea	a15,[a15]@los(mt9v03x_finish_flag)
-.L822:
+.L821:
 	mov	d15,#0
-.L823:
+.L822:
 	st.b	[a15],d15
 .L7:
 .L5:
 	j	.L6
-.L824:
+.L823:
 
 ; ..\USER\Cpu1_Main.c	    70      }
 ; ..\USER\Cpu1_Main.c	    71  }
@@ -1593,61 +1593,61 @@ change_image:	.type	func
 ; ..\USER\Cpu1_Main.c	    79  		*(p + CurL * MT9V03X_W +Lx[CurL] )=80;
 ; ..\USER\Cpu1_Main.c	    80  		*(p + CurL * MT9V03X_W +Midx[CurL])=80;
 	mul	d15,d0,#128
-.L748:
+.L747:
 	addsc.a	a15,a4,d15,#0
-.L749:
+.L748:
 	movh.a	a2,#@his(Rx)
 	lea	a2,[a2]@los(Rx)
-.L750:
+.L749:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L751:
+.L750:
 	addsc.a	a15,a15,d15,#0
-.L752:
+.L751:
 	mov	d15,#80
-.L753:
+.L752:
 	st.b	[a15],d15
-.L754:
+.L753:
 
 ; ..\USER\Cpu1_Main.c	    81  	}
 	mul	d15,d0,#128
-.L755:
+.L754:
 	addsc.a	a15,a4,d15,#0
-.L756:
+.L755:
 	movh.a	a2,#@his(Lx)
 	lea	a2,[a2]@los(Lx)
-.L757:
+.L756:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L758:
+.L757:
 	addsc.a	a15,a15,d15,#0
-.L759:
+.L758:
 	mov	d15,#80
-.L760:
+.L759:
 	st.b	[a15],d15
-.L761:
+.L760:
 
 ; ..\USER\Cpu1_Main.c	    82  }
 	mul	d15,d0,#128
-.L762:
+.L761:
 	addsc.a	a15,a4,d15,#0
-.L763:
+.L762:
 	movh.a	a2,#@his(Midx)
 	lea	a2,[a2]@los(Midx)
-.L764:
+.L763:
 	addsc.a	a2,a2,d0,#0
 	ld.bu	d15,[a2]
-.L765:
+.L764:
 	addsc.a	a15,a15,d15,#0
-.L766:
+.L765:
 	mov	d15,#80
-.L767:
+.L766:
 	st.b	[a15],d15
-.L768:
+.L767:
 	add	d0,#-1
 .L8:
 	jge	d0,#0,.L9
-.L769:
+.L768:
 
 ; ..\USER\Cpu1_Main.c	    83  
 ; ..\USER\Cpu1_Main.c	    84  /// <summary>
@@ -1691,15 +1691,15 @@ GetMeanThreshold:	.type	func
 ; ..\USER\Cpu1_Main.c	    97      for(int CurL=0;CurL<MT9V03X_H;CurL++)
 	mul	d15,d0,#4
 	addsc.a	a15,a10,d15,#0
-.L774:
+.L773:
 	mov	d15,#0
-.L775:
+.L774:
 	st.w	[a15],d15
-.L776:
+.L775:
 	add	d0,#1
 .L10:
 	mov	d15,#256
-.L777:
+.L776:
 	jlt	d0,d15,.L11
 .L243:
 
@@ -1720,11 +1720,11 @@ GetMeanThreshold:	.type	func
 ; ..\USER\Cpu1_Main.c	   102  			HistGram[i]++;
 ; ..\USER\Cpu1_Main.c	   103  		}
 	mul	d15,d0,#128
-.L778:
+.L777:
 	addsc.a	a15,a4,d15,#0
-.L779:
+.L778:
 	addsc.a	a15,a15,d1,#0
-.L780:
+.L779:
 	ld.bu	d2,[a15]
 .L281:
 
@@ -1734,20 +1734,20 @@ GetMeanThreshold:	.type	func
 	mul	d15,d2,#4
 	addsc.a	a2,a10,d15,#0
 	ld.w	d15,[a2]
-.L781:
+.L780:
 	add	d15,#1
 	st.w	[a15],d15
-.L782:
+.L781:
 	add	d1,#1
 .L14:
 	mov	d15,#128
-.L783:
+.L782:
 	jlt	d1,d15,.L15
 .L247:
 	add	d0,#1
 .L12:
 	mov	d15,#64
-.L784:
+.L783:
 	jlt	d0,d15,.L13
 .L245:
 
@@ -1770,21 +1770,21 @@ GetMeanThreshold:	.type	func
 	mul	d15,d2,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d15,[a15]
-.L785:
+.L784:
 	add	d1,d15
-.L786:
+.L785:
 
 ; ..\USER\Cpu1_Main.c	   111      return Sum / Amount;
 	mul	d15,d2,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d15,[a15]
-.L787:
+.L786:
 	madd	d0,d0,d2,d15
-.L788:
+.L787:
 	add	d2,#1
 .L16:
 	mov	d15,#256
-.L789:
+.L788:
 	jlt	d2,d15,.L17
 .L252:
 
@@ -3004,14 +3004,14 @@ searchline_image:	.type	func
 .L227:
 
 ; ..\USER\Cpu1_Main.c	   441  	}
-; ..\USER\Cpu1_Main.c	   442      if(count_left_non>=25 && count_right_non>=25&&out_begin==1&&(count_left_non-count_right_non<2||count_left_non-count_right_non>-2))//检测是否出环岛，首先满足左右没有边线的条件
+; ..\USER\Cpu1_Main.c	   442      if(count_left_non>=22 && count_right_non>=22&&out_begin==1&&(count_left_non-count_right_non<3||count_left_non-count_right_non>-3))//检测是否出环岛，首先满足左右没有边线的条件
 ; ..\USER\Cpu1_Main.c	   443  	{
 ; ..\USER\Cpu1_Main.c	   444  		for(i=40;i<90;i++)     //找底线
-	mov	d15,#25
+	mov	d15,#22
 .L338:
 	jlt.u	d7,d15,.L87
 .L623:
-	mov	d15,#25
+	mov	d15,#22
 .L624:
 	jlt.u	d8,d15,.L88
 .L625:
@@ -3023,11 +3023,11 @@ searchline_image:	.type	func
 .L627:
 	sub	d15,d7,d8
 .L628:
-	jlt	d15,#2,.L90
+	jlt	d15,#3,.L90
 .L629:
 	sub	d7,d8
 .L340:
-	jlt	d7,#-1,.L91
+	jlt	d7,#-2,.L91
 .L90:
 
 ; ..\USER\Cpu1_Main.c	   445  		{
@@ -3112,7 +3112,7 @@ searchline_image:	.type	func
 	jlt.u	d0,d15,.L95
 
 ; ..\USER\Cpu1_Main.c	   454  		}
-; ..\USER\Cpu1_Main.c	   455  		if(black_count>40&&timecounter>30)	//还要满足找到底线的条件
+; ..\USER\Cpu1_Main.c	   455  		if(black_count>40&&timecounter>10)	//还要满足找到底线的条件
 ; ..\USER\Cpu1_Main.c	   456  		{
 .L99:
 	add	d3,#1
@@ -3129,29 +3129,27 @@ searchline_image:	.type	func
 .L654:
 	movh.a	a15,#@his(timecounter)
 	lea	a15,[a15]@los(timecounter)
-	ld.w	d0,[a15]
+	ld.w	d15,[a15]
 .L655:
-	mov	d15,#30
+	jlt.u	d15,#11,.L101
 .L656:
-	jge.u	d15,d0,.L101
-.L657:
 
 ; ..\USER\Cpu1_Main.c	   458  			out_begin=0;//出了环岛之后就不要再判断是否出环岛
 ; ..\USER\Cpu1_Main.c	   459  		}
 	movh.a	a15,#@his(out_huandao)
 	lea	a15,[a15]@los(out_huandao)
-.L658:
+.L657:
 	mov	d15,#1
-.L659:
+.L658:
 	st.b	[a15],d15
-.L660:
+.L659:
 
 ; ..\USER\Cpu1_Main.c	   460  	}
 	movh.a	a15,#@his(out_begin)
 	lea	a15,[a15]@los(out_begin)
-.L661:
+.L660:
 	mov	d15,#0
-.L662:
+.L661:
 	st.b	[a15],d15
 .L101:
 .L100:
@@ -3166,9 +3164,9 @@ searchline_image:	.type	func
 	movh.a	a15,#@his(in_huandao)
 	lea	a15,[a15]@los(in_huandao)
 	ld.bu	d15,[a15]
-.L663:
+.L662:
 	jne	d15,#0,.L102
-.L664:
+.L663:
 
 ; ..\USER\Cpu1_Main.c	   464      	FitCur_C=0;
 	mov	d0,#0
@@ -3200,55 +3198,55 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   471      		FitCur_B=FitCur_B+Lx[i];                    //sum xi
 ; ..\USER\Cpu1_Main.c	   472      		FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
 	add	d0,d15
-.L665:
+.L664:
 
 ; ..\USER\Cpu1_Main.c	   473      		FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
 	movh.a	a15,#@his(Lx)
 	lea	a15,[a15]@los(Lx)
-.L666:
+.L665:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d5,[a15]
-.L667:
+.L666:
 	add	d1,d5
-.L668:
+.L667:
 
 ; ..\USER\Cpu1_Main.c	   474      		FitCur_E=FitCur_E+i*i;                      //sum yi^2
 ; ..\USER\Cpu1_Main.c	   475      	}
 	movh.a	a15,#@his(Lx)
 	lea	a15,[a15]@los(Lx)
-.L669:
+.L668:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d5,[a15]
-.L670:
+.L669:
 	movh.a	a15,#@his(Lx)
 	lea	a15,[a15]@los(Lx)
-.L671:
+.L670:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d6,[a15]
-.L672:
+.L671:
 	madd	d2,d2,d5,d6
-.L673:
+.L672:
 
 ; ..\USER\Cpu1_Main.c	   476  		r=(double)(FitCur_C-FitCur_A*FitCur_B/m)/sqrt((FitCur_D-FitCur_B*FitCur_B/m)*(FitCur_E-FitCur_A*FitCur_A/m));
 	madd	d3,d3,d15,d15
-.L674:
+.L673:
 	add	d15,#-1
 .L103:
 	jge.u	d15,#13,.L104
-.L675:
+.L674:
 
 ; ..\USER\Cpu1_Main.c	   477  
 ; ..\USER\Cpu1_Main.c	   478  		for( CurL = MT9V03X_H-1; CurL >= Start; --CurL )
 	mul	d1,d1
 .L346:
 	div	e6,d1,d4
-.L676:
+.L675:
 	sub	d2,d6
 .L348:
 	mul	d0,d0
 .L344:
 	div	e0,d0,d4
-.L677:
+.L676:
 	sub	d3,d0
 .L349:
 	mul	d2,d3
@@ -3267,27 +3265,27 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   481  		   Lx2[CurL]=Lx[CurL];
 ; ..\USER\Cpu1_Main.c	   482  	   }
 	addsc.a	a15,a10,d15,#0
-.L678:
+.L677:
 	movh.a	a2,#@his(Rx)
 	lea	a2,[a2]@los(Rx)
-.L679:
+.L678:
 	addsc.a	a2,a2,d15,#0
 	ld.bu	d0,[a2]
-.L680:
+.L679:
 	st.b	[a15]192,d0
-.L681:
+.L680:
 
 ; ..\USER\Cpu1_Main.c	   483  		uint8 stop_count=0;
 	addsc.a	a15,a10,d15,#0
-.L682:
+.L681:
 	movh.a	a2,#@his(Lx)
 	lea	a2,[a2]@los(Lx)
-.L683:
+.L682:
 	addsc.a	a2,a2,d15,#0
 	ld.bu	d0,[a2]
-.L684:
+.L683:
 	st.b	[a15]128,d0
-.L685:
+.L684:
 	add	d15,#-1
 .L105:
 	jge	d15,#0,.L106
@@ -3314,51 +3312,51 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   489  		  	    {
 ; ..\USER\Cpu1_Main.c	   490  		  			stop_count++;
 	mul	d15,d0,#128
+.L685:
+	addsc.a	a15,a12,d15,#0
 .L686:
-	addsc.a	a15,a12,d15,#0
+	addsc.a	a15,a15,d4,#0
 .L687:
-	addsc.a	a15,a15,d4,#0
+	ld.bu	d1,[a15]
 .L688:
-	ld.bu	d1,[a15]
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
 .L689:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L690:
 	jge	d2,d1,.L111
-.L691:
+.L690:
 	add	d15,d0,#1
+.L691:
+	mul	d15,d15,#128
 .L692:
-	mul	d15,d15,#128
+	addsc.a	a15,a12,d15,#0
 .L693:
-	addsc.a	a15,a12,d15,#0
+	addsc.a	a15,a15,d4,#0
 .L694:
-	addsc.a	a15,a15,d4,#0
+	ld.bu	d1,[a15]
 .L695:
-	ld.bu	d1,[a15]
+	movh.a	a15,#@his(whiteRoad)
+	lea	a15,[a15]@los(whiteRoad)
+	ld.w	d2,[a15]
 .L696:
-	movh.a	a15,#@his(whiteRoad)
-	lea	a15,[a15]@los(whiteRoad)
-	ld.w	d2,[a15]
-.L697:
 	jge	d2,d1,.L112
-.L698:
+.L697:
 	add	d15,d0,#-1
-.L699:
+.L698:
 	mul	d15,d15,#128
-.L700:
+.L699:
 	addsc.a	a15,a12,d15,#0
-.L701:
+.L700:
 	addsc.a	a15,a15,d4,#0
-.L702:
+.L701:
 	ld.bu	d1,[a15]
-.L703:
+.L702:
 	movh.a	a15,#@his(whiteRoad)
 	lea	a15,[a15]@los(whiteRoad)
 	ld.w	d2,[a15]
-.L704:
+.L703:
 	jge	d1,d2,.L113
-.L705:
+.L704:
 
 ; ..\USER\Cpu1_Main.c	   491  		  			break;
 ; ..\USER\Cpu1_Main.c	   492  		  		}
@@ -3375,7 +3373,7 @@ searchline_image:	.type	func
 	add	d0,#1
 .L109:
 	mov	d15,#62
-.L706:
+.L705:
 	jlt.u	d0,d15,.L110
 
 ; ..\USER\Cpu1_Main.c	   494  		}
@@ -3385,9 +3383,9 @@ searchline_image:	.type	func
 	add	d4,#1
 .L107:
 	mov	d15,#90
-.L707:
+.L706:
 	jlt.u	d4,d15,.L108
-.L708:
+.L707:
 
 ; ..\USER\Cpu1_Main.c	   497          {
 ; ..\USER\Cpu1_Main.c	   498  			if(Rx[CurL]==0)
@@ -3400,12 +3398,12 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   500  				turning_point1=CurL;
 	movh.a	a15,#@his(Rx)
 	lea	a15,[a15]@los(Rx)
-.L709:
+.L708:
 	addsc.a	a15,a15,d0,#0
 	ld.bu	d15,[a15]
-.L710:
+.L709:
 	jne	d15,#0,.L117
-.L711:
+.L710:
 
 ; ..\USER\Cpu1_Main.c	   501  				break;
 ; ..\USER\Cpu1_Main.c	   502  			}
@@ -3418,7 +3416,7 @@ searchline_image:	.type	func
 	add	d0,#1
 .L115:
 	mov	d15,#64
-.L712:
+.L711:
 	jlt	d0,d15,.L116
 
 ; ..\USER\Cpu1_Main.c	   504  		count_right_non=0;
@@ -3438,12 +3436,12 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   509  		}
 	movh.a	a15,#@his(Rx)
 	lea	a15,[a15]@los(Rx)
-.L713:
+.L712:
 	addsc.a	a15,a15,d0,#0
 	ld.bu	d15,[a15]
-.L714:
+.L713:
 	jne	d15,#0,.L121
-.L715:
+.L714:
 
 ; ..\USER\Cpu1_Main.c	   510          for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
 	add	d1,#1
@@ -3453,14 +3451,14 @@ searchline_image:	.type	func
 	add	d0,#1
 .L119:
 	mov	d15,#63
-.L716:
+.L715:
 	jge	d15,d0,.L120
-.L717:
+.L716:
 
 ; ..\USER\Cpu1_Main.c	   511          {
 ; ..\USER\Cpu1_Main.c	   512  			if(Rx[CurL]>=15)
 	mov	d0,#0
-.L718:
+.L717:
 	j	.L122
 .L123:
 
@@ -3468,12 +3466,12 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   514  		}
 	movh.a	a15,#@his(Rx)
 	lea	a15,[a15]@los(Rx)
-.L719:
+.L718:
 	addsc.a	a15,a15,d0,#0
 	ld.bu	d15,[a15]
-.L720:
+.L719:
 	jlt.u	d15,#15,.L124
-.L721:
+.L720:
 
 ; ..\USER\Cpu1_Main.c	   515          count_left_non=0;
 	ld.w	d15,[a10]388
@@ -3504,14 +3502,14 @@ searchline_image:	.type	func
 ; ..\USER\Cpu1_Main.c	   520          }
 	movh.a	a15,#@his(Lx)
 	lea	a15,[a15]@los(Lx)
-.L722:
+.L721:
 	addsc.a	a15,a15,d15,#0
 	ld.bu	d2,[a15]
-.L723:
+.L722:
 	mov	d4,#126
-.L724:
+.L723:
 	jge	d2,d4,.L127
-.L725:
+.L724:
 
 ; ..\USER\Cpu1_Main.c	   521  		if(count_right_non>=MT9V03X_H-turning_point1-1&&count_right_non2>=turning_point1-1&&count_right_non2>=8&&count_right_non>=8&&stop_count<40&&count_left_non>=22)
 	add	d0,#1
@@ -3521,7 +3519,7 @@ searchline_image:	.type	func
 	add	d15,#1
 .L125:
 	mov	d2,#35
-.L726:
+.L725:
 	jge	d2,d15,.L126
 .L370:
 
@@ -3530,53 +3528,53 @@ searchline_image:	.type	func
 	rsub	d15,d5,#64
 .L369:
 	add	d15,#-1
-.L727:
+.L726:
 	jlt	d1,d15,.L128
-.L728:
+.L727:
 	add	d5,#-1
-.L729:
+.L728:
 	ld.w	d15,[a10]388
 .L371:
 	jlt	d15,d5,.L129
-.L730:
+.L729:
 	jlt.u	d15,#8,.L130
-.L731:
+.L730:
 	jlt.u	d1,#8,.L131
-.L732:
+.L731:
 	mov	d15,#40
 .L372:
 	jge.u	d3,d15,.L132
-.L733:
+.L732:
 	mov	d15,#22
-.L734:
+.L733:
 	jlt.u	d0,d15,.L133
-.L735:
+.L734:
 
 ; ..\USER\Cpu1_Main.c	   524  			out_begin=1;
 ; ..\USER\Cpu1_Main.c	   525  			timecounter=0;
 	movh.a	a15,#@his(in_huandao)
 	lea	a15,[a15]@los(in_huandao)
-.L736:
+.L735:
 	mov	d15,#1
-.L737:
+.L736:
 	st.b	[a15],d15
-.L738:
+.L737:
 
 ; ..\USER\Cpu1_Main.c	   526          }
 	movh.a	a15,#@his(out_begin)
 	lea	a15,[a15]@los(out_begin)
-.L739:
+.L738:
 	mov	d15,#1
-.L740:
+.L739:
 	st.b	[a15],d15
-.L741:
+.L740:
 
 ; ..\USER\Cpu1_Main.c	   527  	/*	for( CurL =Start ; CurL<MT9V03X_H; ++CurL )
 	movh.a	a15,#@his(timecounter)
 	lea	a15,[a15]@los(timecounter)
-.L742:
+.L741:
 	mov	d15,#0
-.L743:
+.L742:
 	st.w	[a15],d15
 .L133:
 .L132:
@@ -39235,30 +39233,28 @@ whiteRoad:	.type	object
 	.half	.L653-.L652
 	.byte	1,5,22,7,9
 	.half	.L654-.L653
-	.byte	1,5,34,9
-	.half	.L655-.L654
 	.byte	1,5,33,9
-	.half	.L656-.L655
+	.half	.L655-.L654
 	.byte	1,5,4,7,9
-	.half	.L657-.L656
+	.half	.L656-.L655
 	.byte	3,2,1,5,16,9
-	.half	.L658-.L657
+	.half	.L657-.L656
 	.byte	1,5,15,9
-	.half	.L659-.L658
+	.half	.L658-.L657
 	.byte	1,5,4,9
+	.half	.L659-.L658
+	.byte	3,1,1,5,14,9
 	.half	.L660-.L659
-	.byte	3,1,1,5,14,9
-	.half	.L661-.L660
 	.byte	1,5,13,9
-	.half	.L662-.L661
+	.half	.L661-.L660
 	.byte	1,5,8,9
-	.half	.L87-.L662
+	.half	.L87-.L661
 	.byte	3,3,1,5,5,9
-	.half	.L663-.L87
+	.half	.L662-.L87
 	.byte	1,5,18,7,9
-	.half	.L664-.L663
+	.half	.L663-.L662
 	.byte	3,1,1,5,14,9
-	.half	.L343-.L664
+	.half	.L343-.L663
 	.byte	3,1,1,9
 	.half	.L345-.L343
 	.byte	3,2,1,5,11,9
@@ -39272,41 +39268,41 @@ whiteRoad:	.type	object
 	.byte	1,5,24,9
 	.half	.L104-.L351
 	.byte	3,2,1,5,25,9
-	.half	.L665-.L104
+	.half	.L664-.L104
 	.byte	3,1,1,5,27,9
+	.half	.L665-.L664
+	.byte	1,5,24,9
 	.half	.L666-.L665
-	.byte	1,5,24,9
-	.half	.L667-.L666
 	.byte	1,5,25,9
-	.half	.L668-.L667
+	.half	.L667-.L666
 	.byte	3,2,1,5,27,9
-	.half	.L669-.L668
+	.half	.L668-.L667
 	.byte	1,5,31,9
-	.half	.L670-.L669
+	.half	.L669-.L668
 	.byte	1,5,33,9
-	.half	.L671-.L670
+	.half	.L670-.L669
 	.byte	1,5,24,9
-	.half	.L672-.L671
+	.half	.L671-.L670
 	.byte	1,9
-	.half	.L673-.L672
+	.half	.L672-.L671
 	.byte	3,1,1,5,32,9
-	.half	.L674-.L673
+	.half	.L673-.L672
 	.byte	3,122,1,5,30,9
-	.half	.L103-.L674
+	.half	.L103-.L673
 	.byte	1,5,67,7,9
-	.half	.L675-.L103
+	.half	.L674-.L103
 	.byte	3,8,1,5,76,9
-	.half	.L346-.L675
+	.half	.L346-.L674
 	.byte	1,5,58,9
-	.half	.L676-.L346
+	.half	.L675-.L346
 	.byte	1,5,98,9
-	.half	.L348-.L676
+	.half	.L348-.L675
 	.byte	1,5,107,9
 	.half	.L344-.L348
 	.byte	1,5,89,9
-	.half	.L677-.L344
+	.half	.L676-.L344
 	.byte	1,5,79,9
-	.half	.L349-.L677
+	.half	.L349-.L676
 	.byte	1,5,13,9
 	.half	.L285-.L349
 	.byte	3,2,1,5,41,9
@@ -39314,23 +39310,23 @@ whiteRoad:	.type	object
 	.byte	1,5,9,9
 	.half	.L106-.L352
 	.byte	3,2,1,5,16,9
-	.half	.L678-.L106
+	.half	.L677-.L106
 	.byte	1,5,18,9
+	.half	.L678-.L677
+	.byte	1,5,15,9
 	.half	.L679-.L678
-	.byte	1,5,15,9
-	.half	.L680-.L679
 	.byte	1,5,9,9
-	.half	.L681-.L680
+	.half	.L680-.L679
 	.byte	3,1,1,5,16,9
-	.half	.L682-.L681
+	.half	.L681-.L680
 	.byte	1,5,18,9
-	.half	.L683-.L682
+	.half	.L682-.L681
 	.byte	1,5,15,9
-	.half	.L684-.L683
+	.half	.L683-.L682
 	.byte	1,5,43,9
-	.half	.L685-.L684
+	.half	.L684-.L683
 	.byte	3,125,1,5,41,9
-	.half	.L105-.L685
+	.half	.L105-.L684
 	.byte	1,5,19,7,9
 	.half	.L231-.L105
 	.byte	3,5,1,5,8,9
@@ -39344,81 +39340,81 @@ whiteRoad:	.type	object
 	.byte	1,5,18,9
 	.half	.L110-.L356
 	.byte	3,2,1,5,14,9
-	.half	.L686-.L110
+	.half	.L685-.L110
 	.byte	1,5,30,9
+	.half	.L686-.L685
+	.byte	1,5,10,9
 	.half	.L687-.L686
-	.byte	1,5,10,9
-	.half	.L688-.L687
 	.byte	1,5,37,9
-	.half	.L689-.L688
+	.half	.L688-.L687
 	.byte	1,5,10,9
-	.half	.L690-.L689
+	.half	.L689-.L688
 	.byte	1,5,58,7,9
-	.half	.L691-.L690
+	.half	.L690-.L689
 	.byte	1,5,62,9
-	.half	.L692-.L691
+	.half	.L691-.L690
 	.byte	1,5,54,9
-	.half	.L693-.L692
+	.half	.L692-.L691
 	.byte	1,5,74,9
-	.half	.L694-.L693
+	.half	.L693-.L692
 	.byte	1,5,50,9
-	.half	.L695-.L694
+	.half	.L694-.L693
 	.byte	1,5,81,9
-	.half	.L696-.L695
+	.half	.L695-.L694
 	.byte	1,5,79,9
-	.half	.L697-.L696
+	.half	.L696-.L695
 	.byte	1,5,102,7,9
-	.half	.L698-.L697
+	.half	.L697-.L696
 	.byte	1,5,106,9
-	.half	.L699-.L698
+	.half	.L698-.L697
 	.byte	1,5,98,9
-	.half	.L700-.L699
+	.half	.L699-.L698
 	.byte	1,5,118,9
-	.half	.L701-.L700
+	.half	.L700-.L699
 	.byte	1,5,94,9
-	.half	.L702-.L701
+	.half	.L701-.L700
 	.byte	1,5,125,9
-	.half	.L703-.L702
+	.half	.L702-.L701
 	.byte	1,5,123,9
-	.half	.L704-.L703
+	.half	.L703-.L702
 	.byte	1,5,18,7,9
-	.half	.L705-.L704
+	.half	.L704-.L703
 	.byte	3,2,1,5,8,9
-	.half	.L357-.L705
+	.half	.L357-.L704
 	.byte	3,1,1,5,21,9
 	.half	.L111-.L357
 	.byte	3,123,1,5,17,9
 	.half	.L109-.L111
 	.byte	1,5,19,9
-	.half	.L706-.L109
+	.half	.L705-.L109
 	.byte	1,5,18,7,9
-	.half	.L114-.L706
+	.half	.L114-.L705
 	.byte	3,126,1,5,14,9
 	.half	.L107-.L114
 	.byte	1,5,16,9
-	.half	.L707-.L107
+	.half	.L706-.L107
 	.byte	1,5,13,7,9
-	.half	.L708-.L707
+	.half	.L707-.L706
 	.byte	3,12,1,5,38,9
-	.half	.L358-.L708
+	.half	.L358-.L707
 	.byte	1,5,7,9
 	.half	.L116-.L358
 	.byte	3,2,1,5,9,9
-	.half	.L709-.L116
+	.half	.L708-.L116
 	.byte	1,5,4,9
-	.half	.L710-.L709
+	.half	.L709-.L708
 	.byte	1,5,20,7,9
-	.half	.L711-.L710
+	.half	.L710-.L709
 	.byte	3,2,1,5,5,9
-	.half	.L360-.L711
+	.half	.L360-.L710
 	.byte	3,1,1,5,40,9
 	.half	.L117-.L360
 	.byte	3,123,1,5,28,9
 	.half	.L115-.L117
 	.byte	1,5,38,9
-	.half	.L712-.L115
+	.half	.L711-.L115
 	.byte	1,5,18,7,9
-	.half	.L118-.L712
+	.half	.L118-.L711
 	.byte	3,8,1,5,13,9
 	.half	.L339-.L118
 	.byte	3,1,1,5,49,9
@@ -39426,31 +39422,31 @@ whiteRoad:	.type	object
 	.byte	1,5,7,9
 	.half	.L120-.L362
 	.byte	3,2,1,5,9,9
-	.half	.L713-.L120
+	.half	.L712-.L120
 	.byte	1,5,4,9
-	.half	.L714-.L713
+	.half	.L713-.L712
 	.byte	1,5,20,7,9
-	.half	.L715-.L714
+	.half	.L714-.L713
 	.byte	3,1,1,5,51,9
-	.half	.L121-.L715
+	.half	.L121-.L714
 	.byte	3,125,1,5,47,9
 	.half	.L119-.L121
 	.byte	1,5,49,9
-	.half	.L716-.L119
+	.half	.L715-.L119
 	.byte	1,5,19,7,9
-	.half	.L717-.L716
+	.half	.L716-.L715
 	.byte	3,5,1,5,49,9
-	.half	.L718-.L717
+	.half	.L717-.L716
 	.byte	1,5,7,9
-	.half	.L123-.L718
+	.half	.L123-.L717
 	.byte	3,2,1,5,9,9
-	.half	.L719-.L123
+	.half	.L718-.L123
 	.byte	1,5,4,9
-	.half	.L720-.L719
+	.half	.L719-.L718
 	.byte	1,5,21,7,9
-	.half	.L721-.L720
+	.half	.L720-.L719
 	.byte	3,1,1,5,51,9
-	.half	.L124-.L721
+	.half	.L124-.L720
 	.byte	3,125,1,5,49,9
 	.half	.L122-.L124
 	.byte	1,5,23,7,9
@@ -39462,61 +39458,61 @@ whiteRoad:	.type	object
 	.byte	1,5,13,9
 	.half	.L126-.L368
 	.byte	3,2,1,5,15,9
-	.half	.L722-.L126
+	.half	.L721-.L126
 	.byte	1,5,31,9
-	.half	.L723-.L722
+	.half	.L722-.L721
 	.byte	1,5,10,9
-	.half	.L724-.L723
+	.half	.L723-.L722
 	.byte	1,5,25,7,9
-	.half	.L725-.L724
+	.half	.L724-.L723
 	.byte	3,1,1,5,37,9
-	.half	.L127-.L725
+	.half	.L127-.L724
 	.byte	3,125,1,5,32,9
 	.half	.L125-.L127
 	.byte	1,5,35,9
-	.half	.L726-.L125
+	.half	.L725-.L125
 	.byte	1,5,32,7,9
-	.half	.L370-.L726
+	.half	.L370-.L725
 	.byte	3,5,1,5,47,9
 	.half	.L369-.L370
 	.byte	1,5,6,9
-	.half	.L727-.L369
+	.half	.L726-.L369
 	.byte	1,5,83,7,9
-	.half	.L728-.L727
+	.half	.L727-.L726
 	.byte	1,5,67,9
-	.half	.L729-.L728
+	.half	.L728-.L727
 	.byte	1,5,103,9
-	.half	.L730-.L729
+	.half	.L729-.L728
 	.byte	1,5,123,7,9
-	.half	.L731-.L730
+	.half	.L730-.L729
 	.byte	1,5,139,1,7,9
-	.half	.L732-.L731
+	.half	.L731-.L730
 	.byte	1,5,138,1,9
-	.half	.L372-.L732
+	.half	.L372-.L731
 	.byte	1,5,159,1,7,9
-	.half	.L733-.L372
+	.half	.L732-.L372
 	.byte	1,5,157,1,9
-	.half	.L734-.L733
+	.half	.L733-.L732
 	.byte	1,5,4,7,9
-	.half	.L735-.L734
+	.half	.L734-.L733
 	.byte	3,2,1,5,15,9
-	.half	.L736-.L735
+	.half	.L735-.L734
 	.byte	1,5,14,9
+	.half	.L736-.L735
+	.byte	1,5,4,9
 	.half	.L737-.L736
-	.byte	1,5,4,9
-	.half	.L738-.L737
 	.byte	3,1,1,5,14,9
-	.half	.L739-.L738
+	.half	.L738-.L737
 	.byte	1,5,13,9
-	.half	.L740-.L739
+	.half	.L739-.L738
 	.byte	1,5,4,9
-	.half	.L741-.L740
+	.half	.L740-.L739
 	.byte	3,1,1,5,16,9
-	.half	.L742-.L741
+	.half	.L741-.L740
 	.byte	1,5,15,9
-	.half	.L743-.L742
+	.half	.L742-.L741
 	.byte	1,5,1,9
-	.half	.L102-.L743
+	.half	.L102-.L742
 	.byte	3,244,0,1,7,9
 	.half	.L150-.L102
 	.byte	0,1,1
@@ -39562,14 +39558,14 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_line',debug,cluster('change_image')
 	.sect	'.debug_line'
 .L153:
-	.word	.L745-.L744
-.L744:
+	.word	.L744-.L743
+.L743:
 	.half	3
-	.word	.L747-.L746
-.L746:
+	.word	.L746-.L745
+.L745:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0,0
-.L747:
+.L746:
 	.byte	5,13,7,0,5,2
 	.word	.L137
 	.byte	3,205,0,1,5,40,9
@@ -39577,55 +39573,55 @@ whiteRoad:	.type	object
 	.byte	1,5,14,9
 	.half	.L9-.L276
 	.byte	3,2,1,5,7,9
-	.half	.L748-.L9
+	.half	.L747-.L9
 	.byte	1,5,27,9
+	.half	.L748-.L747
+	.byte	1,5,29,9
 	.half	.L749-.L748
-	.byte	1,5,29,9
+	.byte	1,5,26,9
 	.half	.L750-.L749
-	.byte	1,5,26,9
+	.byte	1,5,38,9
 	.half	.L751-.L750
-	.byte	1,5,38,9
+	.byte	1,5,37,9
 	.half	.L752-.L751
-	.byte	1,5,37,9
+	.byte	1,5,14,9
 	.half	.L753-.L752
-	.byte	1,5,14,9
+	.byte	3,1,1,5,7,9
 	.half	.L754-.L753
-	.byte	3,1,1,5,7,9
+	.byte	1,5,27,9
 	.half	.L755-.L754
-	.byte	1,5,27,9
-	.half	.L756-.L755
 	.byte	1,5,29,9
+	.half	.L756-.L755
+	.byte	1,5,26,9
 	.half	.L757-.L756
-	.byte	1,5,26,9
+	.byte	1,5,38,9
 	.half	.L758-.L757
-	.byte	1,5,38,9
-	.half	.L759-.L758
 	.byte	1,5,37,9
-	.half	.L760-.L759
+	.half	.L759-.L758
 	.byte	1,5,14,9
-	.half	.L761-.L760
+	.half	.L760-.L759
 	.byte	3,1,1,5,7,9
-	.half	.L762-.L761
+	.half	.L761-.L760
 	.byte	1,5,27,9
-	.half	.L763-.L762
+	.half	.L762-.L761
 	.byte	1,5,31,9
-	.half	.L764-.L763
+	.half	.L763-.L762
 	.byte	1,5,26,9
-	.half	.L765-.L764
+	.half	.L764-.L763
 	.byte	1,5,39,9
-	.half	.L766-.L765
+	.half	.L765-.L764
 	.byte	1,5,38,9
-	.half	.L767-.L766
+	.half	.L766-.L765
 	.byte	1,5,42,9
-	.half	.L768-.L767
+	.half	.L767-.L766
 	.byte	3,124,1,5,40,9
-	.half	.L8-.L768
+	.half	.L8-.L767
 	.byte	1,5,1,7,9
-	.half	.L769-.L8
+	.half	.L768-.L8
 	.byte	3,6,1,7,9
-	.half	.L155-.L769
+	.half	.L155-.L768
 	.byte	0,1,1
-.L745:
+.L744:
 	.sdecl	'.debug_ranges',debug,cluster('change_image')
 	.sect	'.debug_ranges'
 .L154:
@@ -39697,14 +39693,14 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_line',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_line'
 .L158:
-	.word	.L771-.L770
-.L770:
+	.word	.L770-.L769
+.L769:
 	.half	3
-	.word	.L773-.L772
-.L772:
+	.word	.L772-.L771
+.L771:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0,0
-.L773:
+.L772:
 	.byte	5,5,7,0,5,2
 	.word	.L139
 	.byte	3,218,0,1,5,13,9
@@ -39714,17 +39710,17 @@ whiteRoad:	.type	object
 	.byte	1,5,11,9
 	.half	.L11-.L277
 	.byte	3,2,1,5,15,9
-	.half	.L774-.L11
+	.half	.L773-.L11
 	.byte	1,5,14,9
-	.half	.L775-.L774
+	.half	.L774-.L773
 	.byte	1,5,28,9
-	.half	.L776-.L775
+	.half	.L775-.L774
 	.byte	3,126,1,5,22,9
-	.half	.L10-.L776
+	.half	.L10-.L775
 	.byte	1,5,25,9
-	.half	.L777-.L10
+	.half	.L776-.L10
 	.byte	1,5,17,7,9
-	.half	.L243-.L777
+	.half	.L243-.L776
 	.byte	3,4,1,5,34,9
 	.half	.L278-.L243
 	.byte	1,5,25,9
@@ -39734,29 +39730,29 @@ whiteRoad:	.type	object
 	.byte	1,5,17,9
 	.half	.L15-.L280
 	.byte	3,2,1,5,10,9
-	.half	.L778-.L15
+	.half	.L777-.L15
 	.byte	1,5,29,9
-	.half	.L779-.L778
+	.half	.L778-.L777
 	.byte	1,5,6,9
-	.half	.L780-.L779
+	.half	.L779-.L778
 	.byte	1,5,12,9
-	.half	.L281-.L780
+	.half	.L281-.L779
 	.byte	3,1,1,5,15,9
-	.half	.L781-.L281
+	.half	.L780-.L281
 	.byte	1,5,55,9
-	.half	.L782-.L781
+	.half	.L781-.L780
 	.byte	3,125,1,5,37,9
-	.half	.L14-.L782
+	.half	.L14-.L781
 	.byte	1,5,46,9
-	.half	.L783-.L14
+	.half	.L782-.L14
 	.byte	1,5,39,7,9
-	.half	.L247-.L783
+	.half	.L247-.L782
 	.byte	3,126,1,5,25,9
 	.half	.L12-.L247
 	.byte	1,5,34,9
-	.half	.L784-.L12
+	.half	.L783-.L12
 	.byte	1,5,13,7,9
-	.half	.L245-.L784
+	.half	.L245-.L783
 	.byte	3,8,1,5,25,9
 	.half	.L279-.L245
 	.byte	1,5,16,9
@@ -39766,19 +39762,19 @@ whiteRoad:	.type	object
 	.byte	1,5,26,9
 	.half	.L17-.L282
 	.byte	3,2,1,5,16,9
-	.half	.L785-.L17
+	.half	.L784-.L17
 	.byte	1,5,28,9
-	.half	.L786-.L785
+	.half	.L785-.L784
 	.byte	3,1,1,5,13,9
-	.half	.L787-.L786
+	.half	.L786-.L785
 	.byte	1,5,31,9
-	.half	.L788-.L787
+	.half	.L787-.L786
 	.byte	3,125,1,5,25,9
-	.half	.L16-.L788
+	.half	.L16-.L787
 	.byte	1,5,28,9
-	.half	.L789-.L16
+	.half	.L788-.L16
 	.byte	1,5,16,7,9
-	.half	.L252-.L789
+	.half	.L252-.L788
 	.byte	3,5,1,5,5,9
 	.half	.L283-.L252
 	.byte	1,5,1,9
@@ -39786,7 +39782,7 @@ whiteRoad:	.type	object
 	.byte	3,1,1,7,9
 	.half	.L160-.L18
 	.byte	0,1,1
-.L771:
+.L770:
 	.sdecl	'.debug_ranges',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_ranges'
 .L159:
@@ -39852,17 +39848,17 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_line',debug,cluster('core1_main')
 	.sect	'.debug_line'
 .L163:
-	.word	.L791-.L790
-.L790:
+	.word	.L790-.L789
+.L789:
 	.half	3
-	.word	.L793-.L792
-.L792:
+	.word	.L792-.L791
+.L791:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0,0
 	.byte	'..\\USER\\Cpu1_Main.c',0,0,0,0
 	.byte	'IfxCpu.h',0,1,0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.h',0,0,0,0,0
-.L793:
+.L792:
 	.byte	4,2,5,19,7,0,5,2
 	.word	.L135
 	.byte	3,141,5,1,5,5,9
@@ -39870,87 +39866,87 @@ whiteRoad:	.type	object
 	.byte	3,1,1,5,14,9
 	.half	.L2-.L273
 	.byte	3,8,1,5,10,9
-	.half	.L794-.L2
+	.half	.L793-.L2
 	.byte	3,1,1,5,5,9
-	.half	.L795-.L794
+	.half	.L794-.L793
 	.byte	3,1,1,4,3,9
-	.half	.L3-.L795
+	.half	.L3-.L794
 	.byte	3,213,123,1,4,1,5,9,9
 	.half	.L4-.L3
 	.byte	3,179,127,1,5,14,9
-	.half	.L796-.L4
+	.half	.L795-.L4
 	.byte	3,5,1,5,15,9
-	.half	.L797-.L796
+	.half	.L796-.L795
 	.byte	3,1,1,5,14,9
-	.half	.L798-.L797
+	.half	.L797-.L796
 	.byte	3,7,1,4,2,5,13,9
-	.half	.L265-.L798
+	.half	.L265-.L797
 	.byte	3,241,4,1,4,1,5,16,9
 	.half	.L266-.L265
 	.byte	3,148,123,1,5,9,9
 	.half	.L6-.L266
 	.byte	3,3,1,5,6,9
-	.half	.L799-.L6
+	.half	.L798-.L6
 	.byte	1,5,4,7,9
-	.half	.L800-.L799
+	.half	.L799-.L798
 	.byte	3,6,1,5,33,9
-	.half	.L801-.L800
+	.half	.L800-.L799
 	.byte	1,5,46,9
-	.half	.L802-.L801
+	.half	.L801-.L800
 	.byte	1,5,14,9
-	.half	.L803-.L802
+	.half	.L802-.L801
 	.byte	1,5,21,9
-	.half	.L804-.L803
+	.half	.L803-.L802
 	.byte	3,2,1,5,34,9
+	.half	.L804-.L803
+	.byte	1,5,20,9
 	.half	.L805-.L804
-	.byte	1,5,20,9
-	.half	.L806-.L805
 	.byte	3,1,1,5,33,9
-	.half	.L807-.L806
+	.half	.L806-.L805
 	.byte	1,5,20,9
-	.half	.L808-.L807
+	.half	.L807-.L806
 	.byte	3,1,1,5,30,9
-	.half	.L809-.L808
+	.half	.L808-.L807
 	.byte	1,5,40,9
-	.half	.L810-.L809
+	.half	.L809-.L808
 	.byte	1,5,57,9
+	.half	.L810-.L809
+	.byte	1,5,18,9
 	.half	.L811-.L810
-	.byte	1,5,18,9
+	.byte	3,1,1,5,22,9
 	.half	.L812-.L811
-	.byte	3,1,1,5,22,9
+	.byte	1,5,25,9
 	.half	.L813-.L812
-	.byte	1,5,25,9
+	.byte	1,5,18,9
 	.half	.L814-.L813
-	.byte	1,5,18,9
+	.byte	3,1,1,5,22,9
 	.half	.L815-.L814
-	.byte	3,1,1,5,22,9
+	.byte	1,5,25,9
 	.half	.L816-.L815
-	.byte	1,5,25,9
-	.half	.L817-.L816
 	.byte	1,5,26,9
-	.half	.L270-.L817
+	.half	.L270-.L816
 	.byte	3,1,1,5,19,9
-	.half	.L818-.L270
+	.half	.L817-.L270
 	.byte	1,5,18,9
-	.half	.L819-.L818
+	.half	.L818-.L817
 	.byte	3,1,1,5,22,9
-	.half	.L820-.L819
+	.half	.L819-.L818
 	.byte	1,5,25,9
-	.half	.L821-.L820
+	.half	.L820-.L819
 	.byte	1,5,4,9
-	.half	.L275-.L821
+	.half	.L275-.L820
 	.byte	3,1,1,5,26,9
-	.half	.L822-.L275
+	.half	.L821-.L275
 	.byte	1,5,24,9
-	.half	.L823-.L822
+	.half	.L822-.L821
 	.byte	1,5,16,9
-	.half	.L5-.L823
+	.half	.L5-.L822
 	.byte	3,110,1,5,1,9
-	.half	.L824-.L5
+	.half	.L823-.L5
 	.byte	3,22,1,7,9
-	.half	.L165-.L824
+	.half	.L165-.L823
 	.byte	0,1,1
-.L791:
+.L790:
 	.sdecl	'.debug_ranges',debug,cluster('core1_main')
 	.sect	'.debug_ranges'
 .L164:
@@ -40419,7 +40415,7 @@ whiteRoad:	.type	object
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L825:
+.L824:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
@@ -40427,16 +40423,16 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('core1_main')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L825,.L135,.L254-.L135
+	.word	.L824,.L135,.L254-.L135
 	.sdecl	'.debug_frame',debug,cluster('change_image')
 	.sect	'.debug_frame'
 	.word	20
-	.word	.L825,.L137,.L233-.L137
+	.word	.L824,.L137,.L233-.L137
 	.byte	8,19,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('GetMeanThreshold')
 	.sect	'.debug_frame'
 	.word	44
-	.word	.L825,.L139,.L237-.L139
+	.word	.L824,.L139,.L237-.L139
 	.byte	8,19,8,21,8,22,8,23,4
 	.word	(.L242-.L139)/2
 	.byte	19,128,8,22,26,4,19,138,128,8,4
@@ -40445,7 +40441,7 @@ whiteRoad:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('searchline_image')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L825,.L141,.L168-.L141
+	.word	.L824,.L141,.L168-.L141
 	.byte	4
 	.word	(.L284-.L141)/2
 	.byte	19,136,3,22,26,4,19,138,136,3,4

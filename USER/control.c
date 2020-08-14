@@ -299,21 +299,21 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     	  		speedctrl2R = 0;
     	  	}
     		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-    		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
-    		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后
+    		pwm_duty(ATOM0_CH7_P02_7, 2500);	//左前
+    		pwm_duty(ATOM0_CH6_P02_6, 3000);		//右后
     		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 100);
-			systick_delay_ms(STM1, 200);
+			systick_delay_ms(STM1, 300);
 			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 30);
 			pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
 			pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
 			pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 			pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-			systick_delay_ms(STM1, 100);
+			systick_delay_ms(STM1, 200);
 			pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 			pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-			pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
-			pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
+			pwm_duty(ATOM0_CH6_P02_6, 200);		//右后
+			pwm_duty(ATOM0_CH5_P02_5, 200);		//左后
 			systick_delay_ms(STM1, 100);
 			mt9v03x_init();	//初始化摄像头
 			zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段

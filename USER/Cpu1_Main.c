@@ -456,6 +456,7 @@ void searchline_image(uint8 *p)
 		}
 		if(black_count>40&&timecounter>10)	//还要满足找到底线的条件
 		{
+			time_count_flag=0;
 			out_huandao=1;
 			out_begin=0;//出了环岛之后就不要再判断是否出环岛
 		}
@@ -524,6 +525,7 @@ void searchline_image(uint8 *p)
         {
 			in_huandao=1;
 			out_begin=1;
+			time_count_flag=1;
 			timecounter=0;
         }
 	/*	for( CurL =Start ; CurL<MT9V03X_H; ++CurL )

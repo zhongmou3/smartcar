@@ -12,16 +12,16 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\Compilers.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\tasking\ctc\include\stdlib.h"
-"D:\tasking\ctc\include\stdlib.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdlib.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdlib.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	..\Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_CircularBuffer.h
 ..\Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_CircularBuffer.h :
 Libraries\BaseSw\iLLD\TC26B\Tricore\_Lib\DataHandling\Ifx_Fifo.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\_Utilities\Ifx_Assert.h"

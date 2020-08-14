@@ -102,11 +102,11 @@ int speedctrl_calculation(int degree)
 		set_speed = speed_limit_value;
 	}
 	else if(degree<=20)
-	set_speed = 3500;
+	set_speed = 3600;
 	else if(degree<=70)
-		set_speed=3500-10*(degree-20);
+		set_speed=3600-10*(degree-20);
 	else
-		set_speed=3000;
+		set_speed=3100;
 
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma\\.IfxDma_Dma.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma\\IfxDma_Dma.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma\\IfxDma_Dma.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma\\IfxDma_Dma.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma\\IfxDma_Dma.c'
@@ -1943,8 +1943,8 @@ IfxDma_Dma_deInitChannel:	.type	func
 	jeq	d15,#0,.L10
 .L215:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   133      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   134          IfxDma_disableChannelTransaction(dma->dma, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   133  action(dma->dma, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   134      }
 	ld.a	a15,[a4]
 .L98:
 
@@ -3257,9 +3257,9 @@ IfxDma_Dma_deInitChannel:	.type	func
 	st.b	[a2]7682,d15
 .L10:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   135      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   136  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   137      IfxDma_resetChannel(dma->dma, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   135  ctionEnabled(dma->dma, channel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   136      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   137          IfxDma_disableChannelTransaction(dma->dma, channel);
 	ld.a	a15,[a4]
 .L105:
 
@@ -4844,8 +4844,8 @@ IfxDma_Dma_deInitChannel:	.type	func
 	st.b	[a2]7680,d15
 .L106:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   138  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   139      while (!(IfxDma_isChannelReset(dma->dma, channel)))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   138   }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   139  
 	j	.L11
 .L12:
 .L11:
@@ -6415,8 +6415,8 @@ IfxDma_Dma_deInitChannel:	.type	func
 	jeq	d15,#0,.L12
 .L223:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   140      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   141  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   140  ionEnabled(dma->dma, channel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   141      {
 	ret
 .L86:
 	
@@ -6431,9 +6431,9 @@ __IfxDma_Dma_deInitChannel_function_end:
 	
 	.global	IfxDma_Dma_initChannel
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   142  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   143  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   144  void IfxDma_Dma_initChannel(IfxDma_Dma_Channel *channel, const IfxDma_Dma_ChannelConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   142          IfxDma_disableChannelTransaction(dma->dma, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   143      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   144  
 ; Function IfxDma_Dma_initChannel
 .L28:
 IfxDma_Dma_initChannel:	.type	func
@@ -6442,25 +6442,25 @@ IfxDma_Dma_initChannel:	.type	func
 	mov.aa	a12,a5
 .L192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   145  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   146      Ifx_DMA *dma = config->module->dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   145      IfxDma_resetChannel(dma->dma, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   146  
 	ld.a	a2,[a12]
 .L239:
 	ld.a	a13,[a2]
 .L193:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   147  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   148      channel->dma       = dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   147      while (!(IfxDma_isChannelReset(dma->dma, channel)))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   148      {}
 	st.a	[a15],a13
 .L240:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   149      channel->channelId = config->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   149  }
 	ld.b	d15,[a12]4
 .L241:
 	st.b	[a15]4,d15
 .L242:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   150      channel->channel   = &dma->CH[config->channelId];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   150  
 	ld.b	d15,[a12]4
 .L243:
 	mul	d15,d15,#32
@@ -6471,29 +6471,29 @@ IfxDma_Dma_initChannel:	.type	func
 .L245:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   151  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   152      IfxDma_Dma_configureTransactionSet(channel->channel, config);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   152  void IfxDma_Dma_initChannel(IfxDma_Dma_Channel *channel, const IfxDma_Dma_ChannelConfig *config)
 	ld.a	a4,[a15]8
 .L189:
 	mov.aa	a5,a12
 	call	IfxDma_Dma_configureTransactionSet
 .L133:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   153  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   154      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   155          Ifx_DMA_TSR tsr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   156          tsr.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   153  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   154      Ifx_DMA *dma = config->module->dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   155  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   156      channel->dma       = dma;
 	mov	d0,#0
 .L194:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   157  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   158          if (config->hardwareRequestEnabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   157      channel->channelId = config->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   158      channel->channel   = &dma->CH[config->channelId];
 	ld.bu	d15,[a12]35
 .L246:
 	jeq	d15,#0,.L14
 .L247:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   159          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   160              tsr.B.ECH = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   159  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   160      IfxDma_Dma_configureTransactionSet(channel->channel, config);
 	mov	d15,#1
 .L248:
 	insert	d0,d0,d15,#16,#1
@@ -6501,18 +6501,18 @@ IfxDma_Dma_initChannel:	.type	func
 	j	.L15
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   161          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   162          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   163          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   164              tsr.B.DCH = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   161  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   162      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   163          Ifx_DMA_TSR tsr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   164          tsr.U = 0;
 	mov	d15,#1
 .L250:
 	insert	d0,d0,d15,#17,#1
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   165          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   166  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   167          dma->TSR[channel->channelId].U = tsr.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   165  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   166          if (config->hardwareRequestEnabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   167          {
 	ld.b	d15,[a15]4
 .L251:
 	mul	d15,d15,#4
@@ -6521,16 +6521,16 @@ IfxDma_Dma_initChannel:	.type	func
 	st.w	[a2]7680,d0
 .L134:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   168      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   169  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   170      if (config->channelInterruptPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   168              tsr.B.ECH = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   169          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   170          else
 	ld.hu	d15,[a12]52
 .L253:
 	jlt.u	d15,#1,.L16
 .L137:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   171      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   172          volatile Ifx_SRC_SRCR *src = IfxDma_getSrcPointer(channel->dma, channel->channelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   171          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   172              tsr.B.DCH = 1;
 	ld.a	a2,[a15]
 .L254:
 	ld.b	d15,[a15]4
@@ -8088,7 +8088,7 @@ IfxDma_Dma_initChannel:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   173          IfxSrc_init(src, config->channelInterruptTypeOfService, config->channelInterruptPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   173  el->channelId].U = tsr.U;
 	ld.bu	d0,[a12]54
 .L195:
 	ld.hu	d15,[a12]52
@@ -8395,9 +8395,9 @@ IfxDma_Dma_initChannel:	.type	func
 	st.b	[a15]1,d15
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   174          IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   175      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   176  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   174  tsr.B.DCH = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   175          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   176  
 	ret
 .L127:
 	
@@ -8412,17 +8412,17 @@ __IfxDma_Dma_initChannel_function_end:
 	
 	.global	IfxDma_Dma_initChannelConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   177  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   178  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   179  void IfxDma_Dma_initChannelConfig(IfxDma_Dma_ChannelConfig *config, IfxDma_Dma *dma)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   177          dma->TSR[channel->channelId].U = tsr.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   178      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   179  
 ; Function IfxDma_Dma_initChannelConfig
 .L30:
 IfxDma_Dma_initChannelConfig:	.type	func
 	sub.a	a10,#56
 .L197:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   180  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   181      const IfxDma_Dma_ChannelConfig defaultConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   180      if (config->channelInterruptPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   181      {
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
@@ -8435,44 +8435,44 @@ IfxDma_Dma_initChannelConfig:	.type	func
 	loop	a6,.L19
 .L266:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   182          .module                                 = NULL_PTR,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   183          .channelId                              = IfxDma_ChannelId_0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   184          .sourceAddress                          = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   185          .destinationAddress                     = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   186          .shadowAddress                          = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   187          .readDataCrc                            = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   188          .sourceDestinationAddressCrc            = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   189          .transferCount                          = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   190          .blockMode                              = IfxDma_ChannelMove_1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   191          .requestMode                            = IfxDma_ChannelRequestMode_oneTransferPerRequest,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   192          .operationMode                          = IfxDma_ChannelOperationMode_single,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   193          .moveSize                               = IfxDma_ChannelMoveSize_8bit,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   194          .pattern                                = IfxDma_ChannelPattern_0_disable,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   195          .requestSource                          = IfxDma_ChannelRequestSource_peripheral,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   196          .busPriority                            = IfxDma_ChannelBusPriority_medium,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   197          .hardwareRequestEnabled                 = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   198          .sourceAddressIncrementStep             = IfxDma_ChannelIncrementStep_1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   199          .sourceAddressIncrementDirection        = IfxDma_ChannelIncrementDirection_positive,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   200          .sourceAddressCircularRange             = IfxDma_ChannelIncrementCircular_32768,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   201          .destinationAddressIncrementStep        = IfxDma_ChannelIncrementStep_1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   202          .destinationAddressIncrementDirection   = IfxDma_ChannelIncrementDirection_positive,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   203          .destinationAddressCircularRange        = IfxDma_ChannelIncrementCircular_32768,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   204          .shadowControl                          = IfxDma_ChannelShadow_none,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   205          .sourceCircularBufferEnabled            = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   206          .destinationCircularBufferEnabled       = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   207          .timestampEnabled                       = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   208          .wrapSourceInterruptEnabled             = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   209          .wrapDestinationInterruptEnabled        = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   210          .channelInterruptEnabled                = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   211          .channelInterruptControl                = IfxDma_ChannelInterruptControl_thresholdLimitMatch,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   212          .interruptRaiseThreshold                = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   213          .transactionRequestLostInterruptEnabled = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   214          .channelInterruptPriority               = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   215          .channelInterruptTypeOfService          = IfxSrc_Tos_cpu0
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   216      };
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   217  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   218      /* Default Configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   219      *config = defaultConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   182          volatile Ifx_SRC_SRCR *src = IfxDma_getSrcPointer(channel->dma, channel->channelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   183          IfxSrc_init(src, config->channelInterruptTypeOfService, config->channelInterruptPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   184          IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   185      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   186  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   187  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   188  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   189  void IfxDma_Dma_initChannelConfig(IfxDma_Dma_ChannelConfig *config, IfxDma_Dma *dma)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   190  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   191      const IfxDma_Dma_ChannelConfig defaultConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   192          .module                                 = NULL_PTR,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   193          .channelId                              = IfxDma_ChannelId_0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   194          .sourceAddress                          = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   195          .destinationAddress                     = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   196          .shadowAddress                          = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   197          .readDataCrc                            = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   198          .sourceDestinationAddressCrc            = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   199          .transferCount                          = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   200          .blockMode                              = IfxDma_ChannelMove_1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   201          .requestMode                            = IfxDma_ChannelRequestMode_oneTransferPerRequest,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   202          .operationMode                          = IfxDma_ChannelOperationMode_single,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   203          .moveSize                               = IfxDma_ChannelMoveSize_8bit,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   204          .pattern                                = IfxDma_ChannelPattern_0_disable,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   205          .requestSource                          = IfxDma_ChannelRequestSource_peripheral,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   206          .busPriority                            = IfxDma_ChannelBusPriority_medium,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   207          .hardwareRequestEnabled                 = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   208          .sourceAddressIncrementStep             = IfxDma_ChannelIncrementStep_1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   209          .sourceAddressIncrementDirection        = IfxDma_ChannelIncrementDirection_positive,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   210          .sourceAddressCircularRange             = IfxDma_ChannelIncrementCircular_32768,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   211          .destinationAddressIncrementStep        = IfxDma_ChannelIncrementStep_1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   212          .destinationAddressIncrementDirection   = IfxDma_ChannelIncrementDirection_positive,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   213          .destinationAddressCircularRange        = IfxDma_ChannelIncrementCircular_32768,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   214          .shadowControl                          = IfxDma_ChannelShadow_none,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   215          .sourceCircularBufferEnabled            = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   216          .destinationCircularBufferEnabled       = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   217          .timestampEnabled                       = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   218          .wrapSourceInterruptEnabled             = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   219          .wrapDestinationInterruptEnabled        = FALSE,
 	lea	a15,[a10]0
 .L267:
 	lea	a2,[a4]0
@@ -8483,13 +8483,13 @@ IfxDma_Dma_initChannelConfig:	.type	func
 	loop	a6,.L20
 .L268:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   220  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   221      /* take over module pointer */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   222      config->module = dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   220          .channelInterruptEnabled                = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   221          .channelInterruptControl                = IfxDma_ChannelInterruptControl_thresholdLimitMatch,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   222          .interruptRaiseThreshold                = 0,
 	st.a	[a4],a5
 .L269:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   223  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   223          .transactionRequestLostInterruptEnabled = FALSE,
 	ret
 .L166:
 	
@@ -8504,19 +8504,19 @@ __IfxDma_Dma_initChannelConfig_function_end:
 	
 	.global	IfxDma_Dma_initLinkedListEntry
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   224  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   226  void IfxDma_Dma_initLinkedListEntry(void *ptrToAddress, const IfxDma_Dma_ChannelConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   224          .channelInterruptPriority               = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   225          .channelInterruptTypeOfService          = IfxSrc_Tos_cpu0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   226      };
 ; Function IfxDma_Dma_initLinkedListEntry
 .L32:
 IfxDma_Dma_initLinkedListEntry:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   227  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   228      IfxDma_Dma_configureTransactionSet((Ifx_DMA_CH *)ptrToAddress, config);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   227  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   228      /* Default Configuration */
 	call	IfxDma_Dma_configureTransactionSet
 .L198:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   229  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   229      *config = defaultConfig;
 	ret
 .L172:
 	
@@ -8532,20 +8532,20 @@ __IfxDma_Dma_initLinkedListEntry_function_end:
 	.global	IfxDma_Dma_initModule
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   230  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   231  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   232  void IfxDma_Dma_initModule(IfxDma_Dma *dma, const IfxDma_Dma_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   231      /* take over module pointer */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   232      config->module = dma;
 ; Function IfxDma_Dma_initModule
 .L34:
 IfxDma_Dma_initModule:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   233  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   234      dma->dma = config->dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   233  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   234  
 	ld.a	a15,[a5]
 .L228:
 	st.a	[a4],a15
 .L229:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   235  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   235  
 	ret
 .L119:
 	
@@ -8560,19 +8560,19 @@ __IfxDma_Dma_initModule_function_end:
 	
 	.global	IfxDma_Dma_initModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   236  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   237  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   238  void IfxDma_Dma_initModuleConfig(IfxDma_Dma_Config *config, Ifx_DMA *dma)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   236  void IfxDma_Dma_initLinkedListEntry(void *ptrToAddress, const IfxDma_Dma_ChannelConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   237  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   238      IfxDma_Dma_configureTransactionSet((Ifx_DMA_CH *)ptrToAddress, config);
 ; Function IfxDma_Dma_initModuleConfig
 .L36:
 IfxDma_Dma_initModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   239  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   240      config->dma = dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   239  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   240  
 	st.a	[a4],a5
 .L234:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   241  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   241  
 	ret
 .L123:
 	
@@ -24069,5 +24069,5 @@ __IfxDma_Dma_initModuleConfig_function_end:
 	.word	.L342,.L36,.L123-.L36
 	.byte	8,18,8,19,8,22,8,23
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Dma\IfxDma_Dma.c	   242  void IfxDma_Dma_initModule(IfxDma_Dma *dma, const IfxDma_Dma_Config *config)
 	; Module end

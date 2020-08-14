@@ -14,8 +14,8 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smar
 "D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
@@ -174,8 +174,8 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smar
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Src\Std\IfxSrc.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Tim.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Tim.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\tasking\ctc\include\string.h"
-"D:\tasking\ctc\include\string.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Rdc\IfxDsadc_Rdc.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\_Impl\IfxGtm_cfg.h"

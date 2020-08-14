@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std\\.IfxCpu.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std\\IfxCpu.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std\\IfxCpu.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std\\IfxCpu.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std\\IfxCpu.c'
@@ -953,15 +953,15 @@ IfxCpu_getCoreMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   786  }      (inlined)
 .L4:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    84  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    85      /*get the DBGSR.HALT status */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    86      /*Check if the request is done for same cpu as the host for this call */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    87      if (IfxCpu_getCoreIndex() != index)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    84   as the host for this call */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    85      if (IfxCpu_getCoreIndex() != index)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    86      {                           /*status request is for other cpu than the host */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    87          dbgsr = cpu->DBGSR;
 	jeq	d15,d2,.L5
 .L340:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    88      {                           /*status request is for other cpu than the host */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    89          dbgsr = cpu->DBGSR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    88      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    89      else
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]-768
@@ -970,42 +970,42 @@ IfxCpu_getCoreMode:	.type	func
 	j	.L6
 .L5:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    90      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    91      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    92      {                           /*status request is for same cpu as the host */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    93          dbgsr.U = __mfcr(CPU_DBGSR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    90      {                           /*status request is for same cpu as the host */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    91          dbgsr.U = __mfcr(CPU_DBGSR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    92      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    93  
 	mfcr	d1,#64768
 .L6:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    94      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    95  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    96      /*Check if the requested CPU is in DBG HALT mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    97      if (dbgsr.B.HALT == (uint32)IfxCpu_DBGST_HALT_halt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    94      /*Check if the requested CPU is in DBG HALT mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    95      if (dbgsr.B.HALT == (uint32)IfxCpu_DBGST_HALT_halt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    96      {                           /*CPU is in DBG HALT mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    97          cpuMode = IfxCpu_CoreMode_halt;
 	extr.u	d15,d1,#1,#2
 .L341:
 	jne	d15,#1,.L7
 .L342:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    98      {                           /*CPU is in DBG HALT mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    99          cpuMode = IfxCpu_CoreMode_halt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    98      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	    99      else
 	mov	d0,#0
 .L343:
 	j	.L8
 .L7:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   100      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   101      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   102      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   103          if (dbgsr.B.HALT == (uint32)IfxCpu_DBGST_HALT_run)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   100      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   101          if (dbgsr.B.HALT == (uint32)IfxCpu_DBGST_HALT_run)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   102          {                       /*CPU is in DBG RUNNING mode now check PMCSR status */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   103              volatile Ifx_SCU_PMCSR *pmcsr_val;
 	extr.u	d15,d1,#1,#2
 .L344:
 	jne	d15,#0,.L9
 .L170:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   104          {                       /*CPU is in DBG RUNNING mode now check PMCSR status */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   105              volatile Ifx_SCU_PMCSR *pmcsr_val;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   104  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   105              pmcsr_val = &MODULE_SCU.PMCSR[index];
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   106  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   107              pmcsr_val = &MODULE_SCU.PMCSR[index];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   107              if (pmcsr_val->B.PMST == (uint32)IfxCpu_PMCSR_PMST_normalMode)
 	mul	d15,d2,#4
 	mov.a	a15,d15
 .L269:
@@ -1014,58 +1014,58 @@ IfxCpu_getCoreMode:	.type	func
 	lea	a15,[a3]24788
 .L274:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   108  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   109              if (pmcsr_val->B.PMST == (uint32)IfxCpu_PMCSR_PMST_normalMode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   108              {                   /*Cpu is in normal run mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   109                  cpuMode = IfxCpu_CoreMode_run;
 	ld.bu	d15,[a15]1
 	and	d15,#7
 .L345:
 	jne	d15,#1,.L10
 .L346:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   110              {                   /*Cpu is in normal run mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   111                  cpuMode = IfxCpu_CoreMode_run;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   110              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   111              else
 	mov	d0,#1
 .L347:
 	j	.L11
 .L10:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   112              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   113              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   114              {                   /*Cpu is not in run mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   115                  if (pmcsr_val->B.PMST == (uint32)IfxCpu_PMCSR_PMST_idleMode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   112              {                   /*Cpu is not in run mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   113                  if (pmcsr_val->B.PMST == (uint32)IfxCpu_PMCSR_PMST_idleMode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   114                  {               /*Cpu is in idle mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   115                      cpuMode = IfxCpu_CoreMode_idle;
 	ld.bu	d15,[a15]1
 	and	d15,#7
 .L348:
 	jne	d15,#3,.L12
 .L349:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   116                  {               /*Cpu is in idle mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   117                      cpuMode = IfxCpu_CoreMode_idle;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   116                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   117              }
 	mov	d0,#2
 .L12:
 .L11:
 	j	.L13
 .L9:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   118                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   119              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   120          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   121          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   122          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   123              cpuMode = IfxCpu_CoreMode_unknown;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   118          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   119          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   120          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   121              cpuMode = IfxCpu_CoreMode_unknown;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   122          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   123      }
 	mov	d0,#5
 .L13:
 .L8:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   124          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   125      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   126  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   127      return cpuMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   124  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   125      return cpuMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   126  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   127  
 	mov	d2,d0
 .L270:
 	j	.L14
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   128  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   128  
 .L14:
 	ret
 .L157:
@@ -1081,29 +1081,29 @@ __IfxCpu_getCoreMode_function_end:
 	
 	.global	IfxCpu_getIndex
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   130  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   131  IfxCpu_ResourceCpu IfxCpu_getIndex(Ifx_CPU *cpu)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   129  IfxCpu_ResourceCpu IfxCpu_getIndex(Ifx_CPU *cpu)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   130  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   131      IfxCpu_ResourceCpu result;
 ; Function IfxCpu_getIndex
 .L66:
 IfxCpu_getIndex:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   132  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   133      IfxCpu_ResourceCpu result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   134      uint32             index;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   135      result = IfxCpu_ResourceCpu_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   132      uint32             index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   133      result = IfxCpu_ResourceCpu_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   134  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   135      for (index = 0; index < IFXCPU_NUM_MODULES; index++)
 	mov	d2,#2
 .L275:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   136  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   137      for (index = 0; index < IFXCPU_NUM_MODULES; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   136      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   137          if (IfxCpu_cfg_indexMap[index].module == cpu)
 	mov	d0,#0
 .L276:
 	j	.L15
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   138      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   139          if (IfxCpu_cfg_indexMap[index].module == cpu)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   138          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   139              result = (IfxCpu_ResourceCpu)IfxCpu_cfg_indexMap[index].index;
 	mul	d15,d0,#8
 .L354:
 	movh.a	a15,#@his(IfxCpu_cfg_indexMap)
@@ -1116,8 +1116,8 @@ IfxCpu_getIndex:	.type	func
 	jne.a	a15,a4,.L17
 .L358:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   140          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   141              result = (IfxCpu_ResourceCpu)IfxCpu_cfg_indexMap[index].index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   140              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   141          }
 	mul	d15,d0,#8
 .L359:
 	movh.a	a15,#@his(IfxCpu_cfg_indexMap)
@@ -1130,21 +1130,21 @@ IfxCpu_getIndex:	.type	func
 	extr.u	d2,d15,#0,#8
 .L363:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   142              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   142      }
 	j	.L18
 .L17:
 	add	d0,#1
 .L15:
 	jlt.u	d0,#2,.L16
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   143          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   144      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   145  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   146      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   143  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   144      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   145  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   146  
 .L18:
 	j	.L19
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   147  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   147  
 .L19:
 	ret
 .L173:
@@ -1160,48 +1160,48 @@ __IfxCpu_getIndex_function_end:
 	
 	.global	IfxCpu_getRandomValue
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   148  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   150  uint32 IfxCpu_getRandomValue(uint32 *seed)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   148  uint32 IfxCpu_getRandomValue(uint32 *seed)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   149  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   150      /*************************************************************************
 ; Function IfxCpu_getRandomValue
 .L68:
 IfxCpu_getRandomValue:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   151  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   152      /*************************************************************************
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   153       * the choice of a and m is important for a long period of the LCG
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   154       * with a =  279470273 and
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   155       *       m = 4294967291
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   156       * a maximum period of 2^32-5 is given
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   157       * values for a:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   158       * 0x5EB0A82F = 1588635695
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   159       * 0x48E7211F = 1223106847
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   160       * 0x10a860c1 =  279470273
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   161       ***************************************************************************/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   162      uint32 x = *seed;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   151       * the choice of a and m is important for a long period of the LCG
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   152       * with a =  279470273 and
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   153       *       m = 4294967291
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   154       * a maximum period of 2^32-5 is given
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   155       * values for a:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   156       * 0x5EB0A82F = 1588635695
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   157       * 0x48E7211F = 1223106847
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   158       * 0x10a860c1 =  279470273
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   159       ***************************************************************************/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   160      uint32 x = *seed;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   161  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   162      /* a seed of 0 is not allowed, and therefore will be changed to a valid value */
 	ld.w	d0,[a4]
 .L277:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   163  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   164      /* a seed of 0 is not allowed, and therefore will be changed to a valid value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   165      if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   163      if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   164      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   165          x = 42;
 	jne	d0,#0,.L20
 .L430:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   166      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   167          x = 42;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   166      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   167  
 	mov	d0,#42
 .L20:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   168      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   169  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   170      uint32 a = 0x10a860c1;  // 279470273
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   168      uint32 a = 0x10a860c1;  // 279470273
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   169      uint32 m = 0xfffffffb;  // 4294967291
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   170      uint32 result;
 	mov	d1,#24769
 .L278:
 	addih	d1,d1,#4264
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   171      uint32 m = 0xfffffffb;  // 4294967291
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   171  
 	mov	d2,#-5
 .L233:
 
@@ -1228,26 +1228,26 @@ IfxCpu_getRandomValue:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu_IntrinsicsTasking.h	   390  }      (inlined)
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   172      uint32 result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   173  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   174      //__asm(a,m,x,tmp1,tmp2              );
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   175      //EhEl = a * x;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   176      //result = e14 %  m;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   177      // %0 result
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   178      // %1 a
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   179      // %2 x
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   180      // %3 m
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   181      result = IfxCpu_getRandomVal(a, x, m);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   172      //__asm(a,m,x,tmp1,tmp2              );
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   173      //EhEl = a * x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   174      //result = e14 %  m;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   175      // %0 result
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   176      // %1 a
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   177      // %2 x
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   178      // %3 m
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   179      result = IfxCpu_getRandomVal(a, x, m);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   180  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   181      *seed  = result; // to simplify seed passing
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   183      *seed  = result; // to simplify seed passing
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   183      return result;
 	st.w	[a4],d2
 .L234:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   184  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   185      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   184  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   185  
 	j	.L22
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   186  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   186  
 .L22:
 	ret
 .L225:
@@ -1263,9 +1263,9 @@ __IfxCpu_getRandomValue_function_end:
 	
 	.global	IfxCpu_getRandomValueWithinRange
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   187  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   188  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   189  uint32 IfxCpu_getRandomValueWithinRange(uint32 *seed, uint32 min, uint32 max)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   187  uint32 IfxCpu_getRandomValueWithinRange(uint32 *seed, uint32 min, uint32 max)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   188  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   189      uint32 new_value = IfxCpu_getRandomValue(seed);
 ; Function IfxCpu_getRandomValueWithinRange
 .L70:
 IfxCpu_getRandomValueWithinRange:	.type	func
@@ -1274,49 +1274,49 @@ IfxCpu_getRandomValueWithinRange:	.type	func
 	mov	d15,d5
 .L282:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   190  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   191      uint32 new_value = IfxCpu_getRandomValue(seed);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   190  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   191      /* swap min/max if required */
 	call	IfxCpu_getRandomValue
 .L280:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   192  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   193      /* swap min/max if required */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   194      if (min > max)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   192      if (min > max)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   193      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   194          unsigned swap = max;
 	jge.u	d15,d8,.L23
 .L248:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   195      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   196          unsigned swap = max;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   195          max = min;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   196          min = swap;
 	mov	d0,d15
 .L285:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   197          max = min;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   197      }
 	mov	d15,d8
 .L437:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   198          min = swap;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   198  
 	mov	d8,d0
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   199      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   200  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   201      /* special case */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   202      if ((min == 0) && (max == 0xffffffff))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   199      /* special case */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   200      if ((min == 0) && (max == 0xffffffff))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   201      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   202          return new_value;
 	jne	d8,#0,.L24
 .L438:
 	jne	d15,#-1,.L25
 .L439:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   203      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   204          return new_value;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   203      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   204  
 	j	.L26
 .L25:
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   205      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   206  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   207      /* return value within range */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   208      return (new_value % (max - min + 1)) + min;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   205      /* return value within range */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   206      return (new_value % (max - min + 1)) + min;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   207  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   208  
 	sub	d15,d8
 .L283:
 	add	d15,#1
@@ -1327,7 +1327,7 @@ IfxCpu_getRandomValueWithinRange:	.type	func
 .L284:
 	j	.L27
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   209  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   209  
 .L27:
 .L26:
 	ret
@@ -1344,22 +1344,22 @@ __IfxCpu_getRandomValueWithinRange_function_end:
 	
 	.global	IfxCpu_releaseMutex
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   210  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   211  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   212  void IfxCpu_releaseMutex(IfxCpu_mutexLock *lock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   210  void IfxCpu_releaseMutex(IfxCpu_mutexLock *lock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   211  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   212      /*Reset the SpinLock*/
 ; Function IfxCpu_releaseMutex
 .L72:
 IfxCpu_releaseMutex:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   213  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   214      /*Reset the SpinLock*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   215      *lock = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   213      *lock = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   214  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   215  
 	mov	d15,#0
 .L406:
 	st.w	[a4],d15
 .L407:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   216  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   216  
 	ret
 .L214:
 	
@@ -1374,22 +1374,22 @@ __IfxCpu_releaseMutex_function_end:
 	
 	.global	IfxCpu_resetSpinLock
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   217  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   219  void IfxCpu_resetSpinLock(IfxCpu_spinLock *lock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   217  void IfxCpu_resetSpinLock(IfxCpu_spinLock *lock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   218  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   219      /*Reset the SpinLock*/
 ; Function IfxCpu_resetSpinLock
 .L74:
 IfxCpu_resetSpinLock:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   220  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   221      /*Reset the SpinLock*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   222      *lock = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   220      *lock = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   221  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   222  
 	mov	d15,#0
 .L412:
 	st.w	[a4],d15
 .L413:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   223  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   223  
 	ret
 .L216:
 	
@@ -1404,9 +1404,9 @@ __IfxCpu_resetSpinLock_function_end:
 	
 	.global	IfxCpu_setCoreMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   224  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   226  boolean IfxCpu_setCoreMode(Ifx_CPU *cpu, IfxCpu_CoreMode mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   224  boolean IfxCpu_setCoreMode(Ifx_CPU *cpu, IfxCpu_CoreMode mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   225  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   226      uint8              reqslp;
 ; Function IfxCpu_setCoreMode
 .L76:
 IfxCpu_setCoreMode:	.type	func
@@ -1415,25 +1415,25 @@ IfxCpu_setCoreMode:	.type	func
 	mov	d15,d4
 .L289:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   227  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   228      uint8              reqslp;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   229      boolean            retValue;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   230      IfxCpu_ResourceCpu index = IfxCpu_getIndex(cpu);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   227      boolean            retValue;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   228      IfxCpu_ResourceCpu index = IfxCpu_getIndex(cpu);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   229  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   230      /*Modes such as HALT, SLEEP and STBY are not handled at CPU level */
 	mov.aa	a4,a15
 	call	IfxCpu_getIndex
 .L286:
 	mov	d8,d2
 .L292:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   231  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   232      /*Modes such as HALT, SLEEP and STBY are not handled at CPU level */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   233      retValue = ((mode == IfxCpu_CoreMode_halt) || (mode == IfxCpu_CoreMode_sleep)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   231      retValue = ((mode == IfxCpu_CoreMode_halt) || (mode == IfxCpu_CoreMode_sleep)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   232                  || (mode == IfxCpu_CoreMode_stby)) ? FALSE : TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   233  
 	jeq	d15,#0,.L28
 .L368:
 	jeq	d15,#3,.L29
 .L369:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   234                  || (mode == IfxCpu_CoreMode_stby)) ? FALSE : TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   234      reqslp = (mode == IfxCpu_CoreMode_idle) ? IfxScu_PMCSR_REQSLP_Idle : IfxScu_PMCSR_REQSLP_Run;
 	jne	d15,#4,.L30
 .L29:
 .L28:
@@ -1445,7 +1445,7 @@ IfxCpu_setCoreMode:	.type	func
 .L31:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   235  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   236      reqslp = (mode == IfxCpu_CoreMode_idle) ? IfxScu_PMCSR_REQSLP_Idle : IfxScu_PMCSR_REQSLP_Run;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   236      if (retValue == TRUE)
 	jne	d15,#2,.L32
 .L370:
 	mov	d10,#1
@@ -1455,8 +1455,8 @@ IfxCpu_setCoreMode:	.type	func
 	mov	d10,#0
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   237  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   238      if (retValue == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   237      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   238          /*Check if the same core is requesting to change the core run mode */
 	jne	d9,#1,.L34
 .L185:
 
@@ -2257,27 +2257,27 @@ IfxCpu_setCoreMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   786  }      (inlined)
 .L35:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   239      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   240          /*Check if the same core is requesting to change the core run mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   241          if (IfxCpu_getCoreIndex() != index)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   239  EQSLP_Run;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   240  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   241      if (retValue == TRUE)
 	jeq	d15,d8,.L36
 .L187:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   242          {                       /*Request is for the other core */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   243              /*To access PMCSR of other CPUs handle the safety EndInit protection */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   244              uint16 safetyWdtPw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   242      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   243          /*Check if the same core is requesting to change the core run mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   244          if (IfxCpu_getCoreIndex() != index)
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L291:
 	mov	d15,d2
 .L297:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   245              IfxScuWdt_clearSafetyEndinit(safetyWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   245          {                       /*Request is for the other core */
 	mov	d4,d15
 .L296:
 	call	IfxScuWdt_clearSafetyEndinit
 .L299:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   246              MODULE_SCU.PMCSR[(uint32)IfxCpu_getIndex(cpu)].B.REQSLP = reqslp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   246              /*To access PMCSR of other CPUs handle the safety EndInit protection */
 	mov.aa	a4,a15
 .L300:
 	call	IfxCpu_getIndex
@@ -2293,14 +2293,14 @@ IfxCpu_setCoreMode:	.type	func
 	st.b	[a2],d0
 .L372:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   247              IfxScuWdt_setSafetyEndinit(safetyWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   247              uint16 safetyWdtPw = IfxScuWdt_getSafetyWatchdogPassword();
 	mov	d4,d15
 .L302:
 	call	IfxScuWdt_setSafetyEndinit
 .L303:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   248  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   249              cpu->DBGSR.B.HALT = 2; /*reset the HALT bit, if it is already done it is no harm in writing again */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   248              IfxScuWdt_clearSafetyEndinit(safetyWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   249              MODULE_SCU.PMCSR[(uint32)IfxCpu_getIndex(cpu)].B.REQSLP = reqslp;
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]-768
@@ -2315,23 +2315,23 @@ IfxCpu_setCoreMode:	.type	func
 	j	.L37
 .L36:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   250          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   251          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   252          {                          /*Request is for self, this request normally only for halt, otherwise the core is already running anyway! */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   253              /*To access PMCSR of self handle the cpu EndInit protection */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   254              uint16 cpuWdtPw = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   250              IfxScuWdt_setSafetyEndinit(safetyWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   251  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   252              cpu->DBGSR.B.HALT = 2; /*reset the HALT bit, if it is already done it is no harm in writing again */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   253          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   254          else
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L304:
 	mov	d15,d2
 .L306:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   255              IfxScuWdt_clearCpuEndinit(cpuWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   255          {                          /*Request is for self, this request normally only for halt, otherwise the core is already running anyway! */
 	mov	d4,d15
 .L305:
 	call	IfxScuWdt_clearCpuEndinit
 .L307:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   256              MODULE_SCU.PMCSR[(uint32)index].B.REQSLP = reqslp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   256              /*To access PMCSR of self handle the cpu EndInit protection */
 	mul	d0,d8,#4
 	mov.a	a15,d0
 .L288:
@@ -2350,21 +2350,21 @@ IfxCpu_setCoreMode:	.type	func
 	st.b	[a15],d0
 .L375:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   257              IfxScuWdt_setCpuEndinit(cpuWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   257              uint16 cpuWdtPw = IfxScuWdt_getCpuWatchdogPassword();
 	mov	d4,d15
 .L308:
 	call	IfxScuWdt_setCpuEndinit
 .L37:
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   258          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   259      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   261      return retValue;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   258              IfxScuWdt_clearCpuEndinit(cpuWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   259              MODULE_SCU.PMCSR[(uint32)index].B.REQSLP = reqslp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   260              IfxScuWdt_setCpuEndinit(cpuWdtPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   261          }
 	mov	d2,d9
 	j	.L38
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   262  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   262      }
 .L38:
 	ret
 .L179:
@@ -2381,14 +2381,14 @@ __IfxCpu_setCoreMode_function_end:
 	.global	IfxCpu_setProgramCounter
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   263  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   265  boolean IfxCpu_setProgramCounter(Ifx_CPU *cpu, uint32 programCounter)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   264      return retValue;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   265  }
 ; Function IfxCpu_setProgramCounter
 .L78:
 IfxCpu_setProgramCounter:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   266  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   267      boolean retVal = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   266  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   267  
 	mov	d2,#1
 .L196:
 
@@ -3218,22 +3218,22 @@ IfxCpu_setProgramCounter:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   758  }      (inlined)
 .L42:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   268  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   269      if (cpu == IfxCpu_getAddress(IfxCpu_getCoreIndex()))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   268   reqslp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   269              IfxScuWdt_setCpuEndinit(cpuWdtPw);
 	jne.a	a4,a15,.L43
 .L199:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   270      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   271          retVal = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   270          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   271      }
 	mov	d2,#0
 .L384:
 	j	.L44
 .L43:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   272      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   273      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   274      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   275          cpu->PC.B.PC = programCounter >> 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   272  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   273      return retValue;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   274  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   275  
 	movh.a	a3,#1
 	add.a	a3,a4
 	lea	a3,[a3]-504
@@ -3248,12 +3248,12 @@ IfxCpu_setProgramCounter:	.type	func
 	st.w	[a3],d15
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   276      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   277  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   278      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   276  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   277  boolean IfxCpu_setProgramCounter(Ifx_CPU *cpu, uint32 programCounter)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   278  {
 	j	.L45
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   279  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   279      boolean retVal = TRUE;
 .L45:
 	ret
 .L192:
@@ -3270,38 +3270,38 @@ __IfxCpu_setProgramCounter_function_end:
 	.global	IfxCpu_setSpinLock
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   281  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   282  boolean IfxCpu_setSpinLock(IfxCpu_spinLock *lock, uint32 timeoutCount)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   281      if (cpu == IfxCpu_getAddress(IfxCpu_getCoreIndex()))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   282      {
 ; Function IfxCpu_setSpinLock
 .L80:
 IfxCpu_setSpinLock:	.type	func
 	sub.a	a10,#8
 .L313:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   283  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   284      boolean         retVal;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   285      volatile uint32 spinLockVal;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   286  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   287      retVal = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   283          retVal = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   284      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   285      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   286      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   287          cpu->PC.B.PC = programCounter >> 1;
 	mov	d2,#0
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   288  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   289      do
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   290      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   291          spinLockVal = 1UL;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   292          spinLockVal =
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   293              (uint32)__cmpAndSwap(((unsigned int *)lock), spinLockVal, 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   294  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   295          /* Check if the SpinLock WAS set before the attempt to acquire spinlock */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   296          if (spinLockVal == 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   297          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   298              retVal = TRUE;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   299          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   300          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   301          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   302              timeoutCount--;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   303          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   304      } while ((retVal == FALSE) && (timeoutCount > 0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   288      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   289  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   290      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   291  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   292  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   293  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   294  boolean IfxCpu_setSpinLock(IfxCpu_spinLock *lock, uint32 timeoutCount)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   295  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   296      boolean         retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   297      volatile uint32 spinLockVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   298  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   299      retVal = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   300  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   301      do
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   302      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   303          spinLockVal = 1UL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   304          spinLockVal =
 .L46:
 	mov	d15,#1
 .L418:
@@ -3329,11 +3329,11 @@ IfxCpu_setSpinLock:	.type	func
 	jge.u	d4,#1,.L46
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   305  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   306      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   305              (uint32)__cmpAndSwap(((unsigned int *)lock), spinLockVal, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   306  
 	j	.L50
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   307  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   307          /* Check if the SpinLock WAS set before the attempt to acquire spinlock */
 .L50:
 	ret
 .L219:
@@ -3349,33 +3349,33 @@ __IfxCpu_setSpinLock_function_end:
 	
 	.global	IfxCpu_startCore
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   309  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   310  boolean IfxCpu_startCore(Ifx_CPU *cpu, uint32 programCounter)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   308          if (spinLockVal == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   309          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   310              retVal = TRUE;
 ; Function IfxCpu_startCore
 .L82:
 IfxCpu_startCore:	.type	func
 	mov.aa	a15,a4
 .L315:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   311  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   312      boolean retVal = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   311          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   312          else
 	mov	d15,#1
 .L316:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   313  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   314      /* Set the PC for Core 1 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   315      retVal &= IfxCpu_setProgramCounter(cpu, programCounter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   313          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   314              timeoutCount--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   315          }
 	mov.aa	a4,a15
 	call	IfxCpu_setProgramCounter
 .L314:
 	and	d15,d2
 .L390:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   316      /* Get the mode for Core 1 and set it to RUNNING */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   316      } while ((retVal == FALSE) && (timeoutCount > 0));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   317  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   318      /* Core not running already */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   319      if (IfxCpu_getCoreMode(cpu) == IfxCpu_CoreMode_halt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   318      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   319  }
 	mov.aa	a4,a15
 .L317:
 	call	IfxCpu_getCoreMode
@@ -3383,8 +3383,8 @@ IfxCpu_startCore:	.type	func
 	jne	d2,#0,.L51
 .L391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   320      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   321          retVal &= IfxCpu_setCoreMode(cpu, IfxCpu_CoreMode_run);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   320  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   321  
 	mov	d4,#1
 	mov.aa	a4,a15
 .L319:
@@ -3393,14 +3393,14 @@ IfxCpu_startCore:	.type	func
 	and	d15,d2
 .L51:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   322      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   323  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   324      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   322  boolean IfxCpu_startCore(Ifx_CPU *cpu, uint32 programCounter)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   323  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   324      boolean retVal = TRUE;
 	mov	d2,d15
 .L321:
 	j	.L52
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   325  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   325  
 .L52:
 	ret
 .L204:
@@ -3416,17 +3416,17 @@ __IfxCpu_startCore_function_end:
 	
 	.global	IfxCpu_waitEvent
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   326  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   327  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   328  boolean IfxCpu_waitEvent(IfxCpu_syncEvent *event, uint32 timeoutMilliSec)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   326      /* Set the PC for Core 1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   327      retVal &= IfxCpu_setProgramCounter(cpu, programCounter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   328      /* Get the mode for Core 1 and set it to RUNNING */
 ; Function IfxCpu_waitEvent
 .L84:
 IfxCpu_waitEvent:	.type	func
 	mov	d8,d4
 .L323:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   329  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   330      volatile uint32 *sync          = (volatile uint32 *)IFXCPU_GLB_ADDR_DSPR(__mfcr(CPU_CORE_ID), event);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   329  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   330      /* Core not running already */
 	mov.d	d15,a4
 .L324:
 	insert	d15,d15,#0,#0,#28
@@ -3449,8 +3449,8 @@ IfxCpu_waitEvent:	.type	func
 	mov.a	a15,d15
 .L328:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   331  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   332      boolean          errorcnt      = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   331      if (IfxCpu_getCoreMode(cpu) == IfxCpu_CoreMode_halt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   332      {
 	mov	d9,#0
 .L261:
 
@@ -4594,8 +4594,8 @@ IfxCpu_waitEvent:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.h	  1125  }      (inlined)
 .L55:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   333      /* Divide with 1000, gives the count value equivalent to milliseconds */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   334      uint32           stmCount      = (uint32)((IfxScuCcu_getStmFrequency() / 1000) * timeoutMilliSec);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   333  eMode(cpu) == IfxCpu_CoreMode_halt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   334      {
 	movh	d0,#17530
 .L448:
 	div.f	d15,d15,d0
@@ -4607,22 +4607,22 @@ IfxCpu_waitEvent:	.type	func
 	ftouz	d0,d15
 .L329:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   335      uint32           stmCountBegin = STM0_TIM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   335          retVal &= IfxCpu_setCoreMode(cpu, IfxCpu_CoreMode_run);
 	ld.w	d1,0xf0000010
 .L330:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   336  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   337      while ((*sync & IFXCPU_CFG_ALLCORE_DONE) != IFXCPU_CFG_ALLCORE_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   336      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   337  
 	j	.L56
 .L57:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   338      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   339          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   338      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   339  }
 	nop
 .L452:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   340  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   341          if ((uint32)(STM0_TIM0.U - stmCountBegin) >= stmCount)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   341  
 	ld.w	d15,0xf0000010
 .L453:
 	sub	d15,d1
@@ -4630,12 +4630,12 @@ IfxCpu_waitEvent:	.type	func
 	jlt.u	d15,d0,.L58
 .L455:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   342          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   343              errorcnt = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   342  boolean IfxCpu_waitEvent(IfxCpu_syncEvent *event, uint32 timeoutMilliSec)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   343  {
 	mov	d9,#1
 .L456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   344              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   344      volatile uint32 *sync          = (volatile uint32 *)IFXCPU_GLB_ADDR_DSPR(__mfcr(CPU_CORE_ID), event);
 	j	.L59
 .L58:
 .L56:
@@ -4645,23 +4645,23 @@ IfxCpu_waitEvent:	.type	func
 .L458:
 	jne	d15,#3,.L57
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   345          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   346  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   347          /* There is no need to check overflow of the STM timer.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   348           * When counter after overflow subtracted with counter before overflow,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   349           * the subtraction result will be as expected, as long as both are unsigned 32 bits
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   350           * eg: stmCountBegin= 0xFFFFFFFE (before overflow)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   351           *     stmCountNow = 0x00000002 (before overflow)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   352           *     diff= stmCountNow - stmCountBegin = 4 as expected.*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   353      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   345  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   346      boolean          errorcnt      = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   347      /* Divide with 1000, gives the count value equivalent to milliseconds */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   348      uint32           stmCount      = (uint32)((IfxScuCcu_getStmFrequency() / 1000) * timeoutMilliSec);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   349      uint32           stmCountBegin = STM0_TIM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   350  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   351      while ((*sync & IFXCPU_CFG_ALLCORE_DONE) != IFXCPU_CFG_ALLCORE_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   352      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   353          __nop();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   354  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   355      return errorcnt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   355          if ((uint32)(STM0_TIM0.U - stmCountBegin) >= stmCount)
 .L59:
 	mov	d2,d9
 .L331:
 	j	.L60
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   356  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   356          {
 .L60:
 	ret
 .L251:
@@ -4677,21 +4677,21 @@ __IfxCpu_waitEvent_function_end:
 	
 	.global	IfxCpu_emitEvent
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   357  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   358  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   359  void IfxCpu_emitEvent(IfxCpu_syncEvent *event)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   357              errorcnt = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   358              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   359          }
 ; Function IfxCpu_emitEvent
 .L86:
 IfxCpu_emitEvent:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   360  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   361      Ifx__imaskldmst(event, 1, __mfcr(CPU_CORE_ID), 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   360  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   361          /* There is no need to check overflow of the STM timer.
 	mfcr	d15,#65052
 	imask	e0,#1,d15,#1
 	ldmst	[a4]0,e0
 .L463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   362  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   362           * When counter after overflow subtracted with counter before overflow,
 	ret
 .L263:
 	
@@ -18293,5 +18293,5 @@ __IfxCpu_emitEvent_function_end:
 	.word	.L464,.L86,.L263-.L86
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.c	   363           * the subtraction result will be as expected, as long as both are unsigned 32 bits
 	; Module end

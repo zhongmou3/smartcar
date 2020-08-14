@@ -1,9 +1,9 @@
 
 **** Build of configuration Debug for project new_car_tc264_v1.3 ****
 
-"D:\\tasking\\ctc\\bin\\amk" -j4 all 
+"C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\bin\\amk" -j12 all 
 
-Time consumed: 2371 ms
+Time consumed: 1404 ms
 **** End of build ****
 
 Tool info: 

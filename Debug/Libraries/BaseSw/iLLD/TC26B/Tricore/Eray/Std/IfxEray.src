@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std\\.IfxEray.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std\\IfxEray.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std\\IfxEray.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std\\IfxEray.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std\\IfxEray.c'
@@ -2416,87 +2416,87 @@ IfxEray_setSlot:	.type	func
 	jeq	d15,#1,.L36
 .L245:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   302      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   303  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   304      if (header != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   302     while (IfxEray_getInputBufferBusyHostStatus(eray) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   303      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   304  
 	jz.a	a15,.L40
 .L249:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   305      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   306          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   307              Ifx_ERAY_WRHS1 wrhs1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   308              wrhs1.U       = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   305      if (header != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   306      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   307          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   308              Ifx_ERAY_WRHS1 wrhs1;
 	mov	d0,#0
 .L321:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   309              wrhs1.B.FID   = header->frameId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   309              wrhs1.U       = 0;
 	ld.hu	d15,[a15]0
 .L524:
 	insert	d0,d0,d15,#0,#11
 .L525:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   310              wrhs1.B.CYC   = header->cycleCode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   310              wrhs1.B.FID   = header->frameId;
 	ld.bu	d15,[a15]2
 .L526:
 	insert	d0,d0,d15,#16,#7
 .L527:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   311              wrhs1.B.CHA   = header->channelAFiltered;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   311              wrhs1.B.CYC   = header->cycleCode;
 	ld.bu	d15,[a15]3
 .L528:
 	insert	d0,d0,d15,#24,#1
 .L529:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   312              wrhs1.B.CHB   = header->channelBFiltered;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   312              wrhs1.B.CHA   = header->channelAFiltered;
 	ld.bu	d15,[a15]4
 .L530:
 	insert	d0,d0,d15,#25,#1
 .L531:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   313              wrhs1.B.CFG   = header->bufferDirection;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   313              wrhs1.B.CHB   = header->channelBFiltered;
 	ld.bu	d15,[a15]5
 .L532:
 	insert	d0,d0,d15,#26,#1
 .L533:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   314              wrhs1.B.PPIT  = header->transmitPayloadIndicatior;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   314              wrhs1.B.CFG   = header->bufferDirection;
 	ld.bu	d15,[a15]6
 .L534:
 	insert	d0,d0,d15,#27,#1
 .L535:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   315              wrhs1.B.TXM   = header->transmissionMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   315              wrhs1.B.PPIT  = header->transmitPayloadIndicatior;
 	ld.bu	d15,[a15]7
 .L536:
 	insert	d0,d0,d15,#28,#1
 .L537:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   316              wrhs1.B.MBI   = header->bufferServiceEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   316              wrhs1.B.TXM   = header->transmissionMode;
 	ld.bu	d15,[a15]8
 .L538:
 	insert	d0,d0,d15,#29,#1
 .L539:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   317              eray->WRHS1.U = wrhs1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   317              wrhs1.B.MBI   = header->bufferServiceEnabled;
 	st.w	[a12]1280,d0
 .L250:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   318          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   319          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   320              Ifx_ERAY_WRHS2 wrhs2;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   321              wrhs2.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   318              eray->WRHS1.U = wrhs1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   319          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   320          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   321              Ifx_ERAY_WRHS2 wrhs2;
 	mov	d8,#0
 .L322:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   322  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   323              if (header->bufferDirection == IfxEray_BufferDirection_transmit)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   322              wrhs2.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   323  
 	ld.bu	d15,[a15]5
 .L540:
 	jne	d15,#1,.L41
 .L541:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   324              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   325                  wrhs2.B.CRC = IfxEray_calcHeaderCrc(header->payloadLength, header->frameId, header->startupFrameIndicator, header->syncFrameIndicator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   324              if (header->bufferDirection == IfxEray_BufferDirection_transmit)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   325              {
 	ld.bu	d4,[a15]9
 .L542:
 	ld.hu	d5,[a15]0
@@ -2509,29 +2509,29 @@ IfxEray_setSlot:	.type	func
 	insert	d8,d8,d2,#0,#11
 .L41:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   326              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   327  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   328              wrhs2.B.PLC   = header->payloadLength;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   326                  wrhs2.B.CRC = IfxEray_calcHeaderCrc(header->payloadLength, header->frameId, header->startupFrameIndicator, header->syncFrameIndicator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   327              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   328  
 	ld.bu	d15,[a15]9
 .L545:
 	insert	d8,d8,d15,#16,#7
 .L546:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   329              eray->WRHS2.U = wrhs2.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   329              wrhs2.B.PLC   = header->payloadLength;
 	st.w	[a12]1284,d8
 .L253:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   330          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   331  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   332          eray->WRHS3.U = header->dataPointer;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   330              eray->WRHS2.U = wrhs2.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   331          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   332  
 	ld.hu	d15,[a15]10
 .L547:
 	st.w	[a12]1288,d15
 .L40:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   333      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   334  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   335      IfxEray_writeData(eray, data, header->payloadLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   333          eray->WRHS3.U = header->dataPointer;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   334      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   335  
 	ld.bu	d4,[a15]9
 	mov.aa	a4,a12
 .L323:
@@ -2540,8 +2540,8 @@ IfxEray_setSlot:	.type	func
 	call	IfxEray_writeData
 .L324:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   336  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   337      eray->IBCM.B.LHSH  = slotConfig->headerTransfered;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   336      IfxEray_writeData(eray, data, header->payloadLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   337  
 	ld.bu	d15,[a12]1296
 .L548:
 	ld.bu	d0,[a14]
@@ -2550,7 +2550,7 @@ IfxEray_setSlot:	.type	func
 	st.b	[a12]1296,d15
 .L550:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   338      eray->IBCM.B.LDSH  = slotConfig->dataTransfered;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   338      eray->IBCM.B.LHSH  = slotConfig->headerTransfered;
 	ld.bu	d0,[a12]1296
 .L551:
 	ld.bu	d15,[a14]1
@@ -2559,7 +2559,7 @@ IfxEray_setSlot:	.type	func
 	st.b	[a12]1296,d15
 .L553:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   339      eray->IBCM.B.STXRH = slotConfig->transferRequested;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   339      eray->IBCM.B.LDSH  = slotConfig->dataTransfered;
 	ld.bu	d0,[a12]1296
 .L554:
 	ld.bu	d15,[a14]2
@@ -2568,7 +2568,7 @@ IfxEray_setSlot:	.type	func
 	st.b	[a12]1296,d15
 .L556:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   340      eray->IBCR.B.IBRH  = slotConfig->bufferIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   340      eray->IBCM.B.STXRH = slotConfig->transferRequested;
 	ld.bu	d0,[a12]1300
 .L557:
 	ld.bu	d15,[a14]3
@@ -2577,9 +2577,9 @@ IfxEray_setSlot:	.type	func
 	st.b	[a12]1300,d15
 .L559:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   342      // wait if Shadow is busy with another transfer
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   343      while (IfxEray_getInputBufferBusyShadowStatus(eray) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   341      eray->IBCR.B.IBRH  = slotConfig->bufferIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   342  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   343      // wait if Shadow is busy with another transfer
 	j	.L42
 .L43:
 .L42:
@@ -3885,9 +3885,9 @@ IfxEray_setSlot:	.type	func
 	jeq	d15,#1,.L43
 .L257:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   344      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   345  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   346      while (IfxEray_getInputBufferBusyHostStatus(eray) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   344  ith another transfer
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   345      while (IfxEray_getInputBufferBusyShadowStatus(eray) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   346      {}
 	j	.L47
 .L48:
 .L47:
@@ -5187,8 +5187,8 @@ IfxEray_setSlot:	.type	func
 	jeq	d15,#1,.L48
 .L261:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   347      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   348  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   347  y) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   348      {}
 	ret
 .L236:
 	
@@ -5204,19 +5204,19 @@ __IfxEray_setSlot_function_end:
 	.global	IfxEray_writeData
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   349  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   350  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   351  void IfxEray_writeData(Ifx_ERAY *eray, const uint32 *data, uint8 payloadLength)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   350      while (IfxEray_getInputBufferBusyHostStatus(eray) == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   351      {}
 ; Function IfxEray_writeData
 .L82:
 IfxEray_writeData:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   352  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   353      if (data != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   352  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   353  
 	jz.a	a5,.L52
 .L266:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   354      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   355          uint16 length = (payloadLength + 1) / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   354  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   355  void IfxEray_writeData(Ifx_ERAY *eray, const uint32 *data, uint8 payloadLength)
 	add	d4,#1
 .L326:
 	ge	d15,d4,#0
@@ -5225,16 +5225,16 @@ IfxEray_writeData:	.type	func
 	sha	d4,#-1
 .L570:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   356          uint8  index;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   357  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   358          for (index = 0; index < length; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   356  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   357      if (data != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   358      {
 	mov	d0,#0
 .L328:
 	j	.L53
 .L54:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   359          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   360              eray->WRDS_1S[index].U = *data++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   359          uint16 length = (payloadLength + 1) / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   360          uint8  index;
 	mul	d15,d0,#4
 	addsc.a	a15,a4,d15,#0
 .L571:
@@ -5251,9 +5251,9 @@ IfxEray_writeData:	.type	func
 	jlt.u	d0,d4,.L54
 .L52:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   361          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   362      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   363  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   361  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   362          for (index = 0; index < length; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   363          {
 	ret
 .L262:
 	
@@ -20172,5 +20172,5 @@ __IfxEray_writeData_function_end:
 	.word	.L575,.L82,.L262-.L82
 	.byte	8,18,8,19,8,22,8,23
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Eray\Std\IfxEray.c	   364              eray->WRDS_1S[index].U = *data++;
 	; Module end

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std\\.IfxScuCcu.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std\\IfxScuCcu.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std\\IfxScuCcu.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std\\IfxScuCcu.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std\\IfxScuCcu.c'
@@ -2918,32 +2918,32 @@ IfxScuCcu_getSourceFrequency:	.type	func
 	j	.L104
 .L101:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   564          sourcefreq = IfxScuCcu_getPllFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   564     }
 	call	IfxScuCcu_getPllFrequency
 .L786:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   565          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   565  
 	j	.L105
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   566      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   566      return sourcefreq;
 .L102:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   567          sourcefreq = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   567  }
 	mov	d2,#0
 .L787:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   568          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   568  
 	j	.L106
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   569      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   570  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   571      return sourcefreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   569  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   570  float32 IfxScuCcu_getSpbFrequency(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   571  {
 .L106:
 .L105:
 .L104:
 	j	.L107
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   572  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   572      float32 spbFrequency;
 .L107:
 	ret
 .L521:
@@ -2959,67 +2959,67 @@ __IfxScuCcu_getSourceFrequency_function_end:
 	
 	.global	IfxScuCcu_getSpbFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   573  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   573      float32 sourceFrequency;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   574  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   575  float32 IfxScuCcu_getSpbFrequency(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   575      sourceFrequency = IfxScuCcu_getSourceFrequency();
 ; Function IfxScuCcu_getSpbFrequency
 .L278:
 IfxScuCcu_getSpbFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   576  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   577      float32 spbFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   578      float32 sourceFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   579  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   580      sourceFrequency = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   576  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   577      switch (SCU_CCUCON0.B.LPDIV)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   578      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   579      case 0:                    /*Not in low power mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   580  
 	call	IfxScuCcu_getSourceFrequency
 .L788:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   581  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   582      switch (SCU_CCUCON0.B.LPDIV)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   581          if (SCU_CCUCON0.B.SPBDIV == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   582          {
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036031)
 	extr.u	d0,d15,#4,#4
 .L1191:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   583      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   584      case 0:                    /*Not in low power mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   583              spbFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   584          }
 	mov	d15,#0
 	jeq	d15,d0,.L108
 .L1192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   585  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   586          if (SCU_CCUCON0.B.SPBDIV == 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   587          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   588              spbFrequency = 0.0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   589          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   590          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   591          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   592              spbFrequency = sourceFrequency / SCU_CCUCON0.B.SPBDIV;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   593          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   594  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   595          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   596      case 1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   585          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   586          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   587              spbFrequency = sourceFrequency / SCU_CCUCON0.B.SPBDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   588          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   589  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   590          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   591      case 1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   592          spbFrequency = sourceFrequency / 30;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   593          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   594      case 2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   595          spbFrequency = sourceFrequency / 60;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   596          break;
 	mov	d15,#1
 	jeq	d15,d0,.L109
 .L1193:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   597          spbFrequency = sourceFrequency / 30;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   598          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   599      case 2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   597      case 3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   598          spbFrequency = sourceFrequency / 120;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   599          break;
 	mov	d15,#2
 	jeq	d15,d0,.L110
 .L1194:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   600          spbFrequency = sourceFrequency / 60;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   601          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   602      case 3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   600      case 4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   601          spbFrequency = sourceFrequency / 240;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   602          break;
 	mov	d15,#3
 	jeq	d15,d0,.L111
 .L1195:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   603          spbFrequency = sourceFrequency / 120;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   604          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   605      case 4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   603      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   604          spbFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   605          break;
 	mov	d15,#4
 	jeq	d15,d0,.L112
 	j	.L113
@@ -3062,28 +3062,28 @@ IfxScuCcu_getSpbFrequency:	.type	func
 	j	.L119
 .L112:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   606          spbFrequency = sourceFrequency / 240;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   606      }
 	movh	d15,#17264
 .L1202:
 	div.f	d2,d2,d15
 .L793:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   607          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   607  
 	j	.L120
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   608      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   608      return spbFrequency;
 .L113:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   609          spbFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   609  }
 	mov	d2,#0
 .L794:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   610          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   610  
 	j	.L121
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   611      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   612  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   613      return spbFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   611  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   612  float32 IfxScuCcu_getSriFrequency(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   613  {
 .L121:
 .L120:
 .L119:
@@ -3092,7 +3092,7 @@ IfxScuCcu_getSpbFrequency:	.type	func
 .L116:
 	j	.L122
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   614  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   614      float32 sriFrequency;
 .L122:
 	ret
 .L525:
@@ -3108,67 +3108,67 @@ __IfxScuCcu_getSpbFrequency_function_end:
 	
 	.global	IfxScuCcu_getSriFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   615  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   615      float32 sourceFrequency;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   616  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   617  float32 IfxScuCcu_getSriFrequency(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   617      sourceFrequency = IfxScuCcu_getSourceFrequency();
 ; Function IfxScuCcu_getSriFrequency
 .L280:
 IfxScuCcu_getSriFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   618  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   619      float32 sriFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   620      float32 sourceFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   621  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   622      sourceFrequency = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   618  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   619      switch (SCU_CCUCON0.B.LPDIV)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   620      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   621      case 0:                    /*Not in low power mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   622  
 	call	IfxScuCcu_getSourceFrequency
 .L795:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   623  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   624      switch (SCU_CCUCON0.B.LPDIV)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   623          if (SCU_CCUCON0.B.SRIDIV == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   624          {
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036031)
 	extr.u	d0,d15,#4,#4
 .L1207:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   625      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   626      case 0:                    /*Not in low power mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   625              sriFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   626          }
 	mov	d15,#0
 	jeq	d15,d0,.L123
 .L1208:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   627  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   628          if (SCU_CCUCON0.B.SRIDIV == 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   629          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   630              sriFrequency = 0.0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   631          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   632          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   633          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   634              sriFrequency = sourceFrequency / SCU_CCUCON0.B.SRIDIV;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   635          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   636  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   637          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   638      case 1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   627          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   628          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   629              sriFrequency = sourceFrequency / SCU_CCUCON0.B.SRIDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   630          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   631  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   632          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   633      case 1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   634          sriFrequency = sourceFrequency / 30;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   635          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   636      case 2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   637          sriFrequency = sourceFrequency / 60;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   638          break;
 	mov	d15,#1
 	jeq	d15,d0,.L124
 .L1209:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   639          sriFrequency = sourceFrequency / 30;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   640          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   641      case 2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   639      case 3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   640          sriFrequency = sourceFrequency / 120;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   641          break;
 	mov	d15,#2
 	jeq	d15,d0,.L125
 .L1210:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   642          sriFrequency = sourceFrequency / 60;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   643          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   644      case 3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   642      case 4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   643          sriFrequency = sourceFrequency / 240;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   644          break;
 	mov	d15,#3
 	jeq	d15,d0,.L126
 .L1211:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   645          sriFrequency = sourceFrequency / 120;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   646          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   647      case 4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   645      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   646          sriFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   647          break;
 	mov	d15,#4
 	jeq	d15,d0,.L127
 	j	.L128
@@ -3211,28 +3211,28 @@ IfxScuCcu_getSriFrequency:	.type	func
 	j	.L134
 .L127:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   648          sriFrequency = sourceFrequency / 240;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   648      }
 	movh	d15,#17264
 .L1218:
 	div.f	d2,d2,d15
 .L800:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   649          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   649  
 	j	.L135
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   650      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   650      return sriFrequency;
 .L128:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   651          sriFrequency = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   651  }
 	mov	d2,#0
 .L801:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   652          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   652  
 	j	.L136
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   653      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   654  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   655      return sriFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   653  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   654  boolean IfxScuCcu_init(const IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   655  {
 .L136:
 .L135:
 .L134:
@@ -3241,7 +3241,7 @@ IfxScuCcu_getSriFrequency:	.type	func
 .L131:
 	j	.L137
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   656  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   656      uint8   smuTrapEnable;
 .L137:
 	ret
 .L528:
@@ -3257,24 +3257,24 @@ __IfxScuCcu_getSriFrequency_function_end:
 	
 	.global	IfxScuCcu_init
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   657  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   658  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   659  boolean IfxScuCcu_init(const IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   657      uint16  endinit_pw, endinitSfty_pw;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   658      boolean status = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   659      /* Store the crystal frequency */
 ; Function IfxScuCcu_init
 .L282:
 IfxScuCcu_init:	.type	func
 	mov.aa	a15,a4
 .L803:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   660  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   661      uint8   smuTrapEnable;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   662      uint16  endinit_pw, endinitSfty_pw;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   663      boolean status = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   660      IfxScuCcu_xtalFrequency = cfg->xtalFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   661  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   662      endinit_pw              = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   663      endinitSfty_pw          = IfxScuWdt_getSafetyWatchdogPassword();
 	mov	d8,#0
 .L805:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   664      /* Store the crystal frequency */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   665      IfxScuCcu_xtalFrequency = cfg->xtalFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   664  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   665      {
 	movh.a	a2,#@his(IfxScuCcu_xtalFrequency)
 	lea	a2,[a2]@los(IfxScuCcu_xtalFrequency)
 .L1343:
@@ -3283,35 +3283,35 @@ IfxScuCcu_init:	.type	func
 	st.w	[a2],d15
 .L1345:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   666  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   667      endinit_pw              = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   666          /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   667          IfxScuWdt_clearCpuEndinit(endinit_pw);
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L802:
 	mov	d9,d2
 .L807:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   668      endinitSfty_pw          = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   668          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L806:
 	mov	d10,d2
 .L809:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   669  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   670      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   671          /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   672          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   669          SCU_TRAPDIS.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   670          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   671      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   672  
 	mov	d4,d9
 .L810:
 	call	IfxScuWdt_clearCpuEndinit
 .L808:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   673          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   673      {
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036130)
 	extr.u	d11,d15,#3,#1
 .L811:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   674          SCU_TRAPDIS.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   674          /* Select fback (fosc-evr) as CCU input clock */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036130)
 .L1346:
@@ -3320,24 +3320,24 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036130),d15
 .L1347:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   675          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   675          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	mov	d4,d9
 .L812:
 	call	IfxScuWdt_setCpuEndinit
 .L813:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   676      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   677  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   678      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   679          /* Select fback (fosc-evr) as CCU input clock */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   680          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   676  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   677          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   678          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   679              /*Wait till ccucon0 lock is set */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   680              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
 	mov	d4,d10
 .L814:
 	call	IfxScuWdt_clearSafetyEndinit
 .L815:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   681  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   682          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   681          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   682  
 	j	.L138
 .L139:
 .L138:
@@ -3348,12 +3348,12 @@ IfxScuCcu_init:	.type	func
 	jne	d15,#0,.L139
 .L1349:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   683          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   684              /*Wait till ccucon0 lock is set */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   685              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   686          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   687  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   688          SCU_CCUCON0.B.CLKSEL = 0; /*Select the EVR as fOSC for the clock distribution */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   683          SCU_CCUCON0.B.CLKSEL = 0; /*Select the EVR as fOSC for the clock distribution */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   684          SCU_CCUCON0.B.UP     = 1; /*Update the ccucon0 register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   685  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   686          /* Disconnet PLL (SETFINDIS=1): oscillator clock is disconnected from PLL */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   687          SCU_PLLCON0.B.SETFINDIS = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   688          /* Now PLL is in free running mode */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036033)
 .L1350:
@@ -3362,7 +3362,7 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036033),d15
 .L1351:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   689          SCU_CCUCON0.B.UP     = 1; /*Update the ccucon0 register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   689  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036033)
 .L1352:
@@ -3371,9 +3371,9 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036033),d15
 .L1353:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   690  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   691          /* Disconnet PLL (SETFINDIS=1): oscillator clock is disconnected from PLL */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   692          SCU_PLLCON0.B.SETFINDIS = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   690          /* Select Clock Source as PLL input clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   691          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   692          {
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036018)
 .L1354:
@@ -3382,10 +3382,10 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036018),d15
 .L1355:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   693          /* Now PLL is in free running mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   694  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   695          /* Select Clock Source as PLL input clock */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   696          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   693              /*Wait till ccucon0 lock is set */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   694              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   695          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   696  
 	j	.L140
 .L141:
 .L140:
@@ -3396,12 +3396,12 @@ IfxScuCcu_init:	.type	func
 	jne	d15,#0,.L141
 .L1357:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   697          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   698              /*Wait till ccucon0 lock is set */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   699              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   700          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   697          SCU_CCUCON1.B.INSEL = 1; /*Select oscillator OSC0 as clock to PLL */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   698          SCU_CCUCON1.B.UP    = 1; /*Update the ccucon0 register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   699  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   700          status             |= IfxScuCcu_isOscillatorStable();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   701  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   702          SCU_CCUCON1.B.INSEL = 1; /*Select oscillator OSC0 as clock to PLL */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   702          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036037)
 .L1358:
@@ -3410,7 +3410,7 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036037),d15
 .L1359:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   703          SCU_CCUCON1.B.UP    = 1; /*Update the ccucon0 register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   703      }
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036037)
 .L1360:
@@ -3420,41 +3420,41 @@ IfxScuCcu_init:	.type	func
 .L1361:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   704  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   705          status             |= IfxScuCcu_isOscillatorStable();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   705      if (status == 0)
 	call	IfxScuCcu_isOscillatorStable
 .L1362:
 	or	d8,d2
 .L1363:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   706  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   707          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   706      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   707          /*Start the PLL configuration sequence */
 	mov	d4,d10
 .L816:
 	call	IfxScuWdt_setSafetyEndinit
 .L817:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   708      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   708          uint8 pllStepsCount;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   709  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   710      if (status == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   710          /*Setting up P N and K2 values equate pll to evr osc freq */
 	jne	d8,#0,.L142
 .L619:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   711      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   712          /*Start the PLL configuration sequence */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   713          uint8 pllStepsCount;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   714  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   715          /*Setting up P N and K2 values equate pll to evr osc freq */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   716          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   717              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   718                  /*Set the K2 divider value for the step corresponding to step count */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   719                  IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   711          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   712              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   713                  /*Set the K2 divider value for the step corresponding to step count */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   714                  IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   715  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   716                  while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   717                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   718                      /*Wait until K2 divider is ready */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   719                      /*No "timeout" required because Safety Endinit will give a trap */
 	mov	d4,d10
 .L818:
 	call	IfxScuWdt_clearSafetyEndinit
 .L819:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   720  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   721                  while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   720                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   721  
 	j	.L143
 .L144:
 .L143:
@@ -3465,12 +3465,12 @@ IfxScuCcu_init:	.type	func
 	jeq	d15,#0,.L144
 .L1365:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   722                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   723                      /*Wait until K2 divider is ready */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   724                      /*No "timeout" required because Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   725                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   726  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   727                  SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllInitialStep.k2Initial;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   722                  SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllInitialStep.k2Initial;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   723  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   724                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   725                      /*change P and N divider values */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   726                      SCU_PLLCON0.B.PDIV = cfg->sysPll.pllInitialStep.pDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   727                      SCU_PLLCON0.B.NDIV = cfg->sysPll.pllInitialStep.nDivider;
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf003601c)
 .L1366:
@@ -3482,9 +3482,9 @@ IfxScuCcu_init:	.type	func
 .L1368:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   728  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   729                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   730                      /*change P and N divider values */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   731                      SCU_PLLCON0.B.PDIV = cfg->sysPll.pllInitialStep.pDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   729                      /* Disable oscillator disconnect feature
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   730                       * in case of PLL unlock, PLL stays connected to fref */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   731                      SCU_PLLCON0.B.OSCDISCDIS = 1;
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf003601b)
 .L1369:
@@ -3495,7 +3495,7 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf003601b),d15
 .L1371:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   732                      SCU_PLLCON0.B.NDIV = cfg->sysPll.pllInitialStep.nDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   732                      //                    workaround for Errata: PLL TC 005
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf0036019)
 .L1372:
@@ -3506,10 +3506,10 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036019),d15
 .L1374:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   733  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   734                      /* Disable oscillator disconnect feature
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   735                       * in case of PLL unlock, PLL stays connected to fref */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   736                      SCU_PLLCON0.B.OSCDISCDIS = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   733                      SCU_PLLCON0.B.PLLPWD     = 0; // set PLL to power down
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   734                      /* Connect PLL to fREF as oscillator clock is connected to PLL   */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   735                      SCU_PLLCON0.B.CLRFINDIS  = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   736                      SCU_PLLCON0.B.PLLPWD     = 1; // set PLL to normal
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036018)
 .L1375:
@@ -3518,8 +3518,8 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036018),d15
 .L1376:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   737                      //                    workaround for Errata: PLL TC 005
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   738                      SCU_PLLCON0.B.PLLPWD     = 0; // set PLL to power down
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   737  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   738                      /* Restart PLL lock detection (RESLD = 1) */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003601a)
 .L1377:
@@ -3528,8 +3528,8 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf003601a),d15
 .L1378:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   739                      /* Connect PLL to fREF as oscillator clock is connected to PLL   */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   740                      SCU_PLLCON0.B.CLRFINDIS  = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   739                      SCU_PLLCON0.B.RESLD = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   740  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036018)
 .L1379:
@@ -3538,7 +3538,7 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036018),d15
 .L1380:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   741                      SCU_PLLCON0.B.PLLPWD     = 1; // set PLL to normal
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   741                      IfxScuCcu_wait(0.000050F);  /*Wait for 50us */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003601a)
 .L1381:
@@ -3548,8 +3548,8 @@ IfxScuCcu_init:	.type	func
 .L1382:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   742  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   743                      /* Restart PLL lock detection (RESLD = 1) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   744                      SCU_PLLCON0.B.RESLD = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   743                      while (SCU_PLLSTAT.B.VCOLOCK == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   744                      {
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003601a)
 .L1383:
@@ -3558,15 +3558,15 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf003601a),d15
 .L1384:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   745  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   746                      IfxScuCcu_wait(0.000050F);  /*Wait for 50us */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   745                          /* Wait for PLL lock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   746                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
 	mov.u	d4,#46871
 	addih	d4,d4,#14417
 	call	IfxScuCcu_wait
 .L1385:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   747  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   748                      while (SCU_PLLSTAT.B.VCOLOCK == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   747                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   748  
 	j	.L145
 .L146:
 .L145:
@@ -3577,12 +3577,12 @@ IfxScuCcu_init:	.type	func
 	jeq	d15,#0,.L146
 .L1387:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   749                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   750                          /* Wait for PLL lock */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   751                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   752                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   753  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   754                      SCU_PLLCON0.B.VCOBYP = 0; /*VCO bypass disabled */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   749                      SCU_PLLCON0.B.VCOBYP = 0; /*VCO bypass disabled */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   750  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   751                      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   752                      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   753                          /*Wait till ccucon registers can be written with new value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   754                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036018)
 .L1388:
@@ -3591,8 +3591,8 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036018),d15
 .L1389:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   755  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   756                      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   755                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   756  
 	j	.L147
 .L148:
 .L147:
@@ -3603,12 +3603,12 @@ IfxScuCcu_init:	.type	func
 	jne	d15,#0,.L148
 .L1391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   757                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   758                          /*Wait till ccucon registers can be written with new value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   759                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   760                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   761  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   762                      SCU_CCUCON0.B.CLKSEL = 0x01;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   757                      SCU_CCUCON0.B.CLKSEL = 0x01;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   758  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   759                      /*Configure the clock distribution */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   760                      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   761                      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   762                          /*Wait till ccucon registers can be written with new value */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036033)
 .L1392:
@@ -3617,9 +3617,9 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf0036033),d15
 .L1393:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   763  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   764                      /*Configure the clock distribution */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   765                      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   763                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   764                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   765  
 	j	.L149
 .L150:
 .L149:
@@ -3630,21 +3630,21 @@ IfxScuCcu_init:	.type	func
 	jne	d15,#0,.L150
 .L1395:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   766                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   767                          /*Wait till ccucon registers can be written with new value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   768                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   769                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   770  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   771                      /*Wait until the initial clock configurations take in to effect for the PLL*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   772                      IfxScuCcu_wait(cfg->sysPll.pllInitialStep.waitTime); /*Wait for configured initial time */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   766                      /*Wait until the initial clock configurations take in to effect for the PLL*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   767                      IfxScuCcu_wait(cfg->sysPll.pllInitialStep.waitTime); /*Wait for configured initial time */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   768  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   769                      {                                                    /*Write CCUCON0 configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   770                          Ifx_SCU_CCUCON0 ccucon0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   771                          ccucon0.U        = SCU_CCUCON0.U & ~cfg->clockDistribution.ccucon0.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   772                          /*update with configured value */
 	ld.w	d4,[a15]12
 	call	IfxScuCcu_wait
 .L621:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   773  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   774                      {                                                    /*Write CCUCON0 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   775                          Ifx_SCU_CCUCON0 ccucon0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   776                          ccucon0.U        = SCU_CCUCON0.U & ~cfg->clockDistribution.ccucon0.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   773                          ccucon0.U       |= (cfg->clockDistribution.ccucon0.mask & cfg->clockDistribution.ccucon0.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   774                          ccucon0.B.CLKSEL = 0x01;    /*  Select fpll as CCU input clock, even if this was not selected by configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   775                          ccucon0.B.UP     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   776                          SCU_CCUCON0      = ccucon0; /*Set update bit explicitly to make above configurations effective */
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf0036030)
 .L1396:
@@ -3656,8 +3656,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   777                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   778                          ccucon0.U       |= (cfg->clockDistribution.ccucon0.mask & cfg->clockDistribution.ccucon0.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   777                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   778  
 	ld.w	d15,[a15]20
 .L1399:
 	ld.w	d1,[a15]16
@@ -3667,28 +3667,28 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1402:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   779                          ccucon0.B.CLKSEL = 0x01;    /*  Select fpll as CCU input clock, even if this was not selected by configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   779                      while (SCU_CCUCON1.B.LCK != 0U)
 	mov	d15,#1
 .L1403:
 	insert	d0,d0,d15,#28,#2
 .L1404:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   780                          ccucon0.B.UP     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   780                      {
 	mov	d15,#1
 .L1405:
 	insert	d0,d0,d15,#30,#1
 .L1406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   781                          SCU_CCUCON0      = ccucon0; /*Set update bit explicitly to make above configurations effective */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   781                          /*Wait till ccucon registers can be written with new value */
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf0036030)
 .L1407:
 	st.w	[a2],d0
 .L622:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   782                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   783  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   784                      while (SCU_CCUCON1.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   782                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   783                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   784  
 	j	.L151
 .L152:
 .L151:
@@ -3700,14 +3700,14 @@ IfxScuCcu_init:	.type	func
 .L624:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   785                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   786                          /*Wait till ccucon registers can be written with new value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   787                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   788                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   789  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   790                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   791                          /*Write CCUCON1 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   792                          Ifx_SCU_CCUCON1 ccucon1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   793                          ccucon1.U       = SCU_CCUCON1.U & ~cfg->clockDistribution.ccucon1.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   786                          /*Write CCUCON1 configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   787                          Ifx_SCU_CCUCON1 ccucon1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   788                          ccucon1.U       = SCU_CCUCON1.U & ~cfg->clockDistribution.ccucon1.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   789                          /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   790                          ccucon1.U      |= (cfg->clockDistribution.ccucon1.mask & cfg->clockDistribution.ccucon1.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   791                          ccucon1.B.INSEL = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   792                          ccucon1.B.UP    = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   793                          SCU_CCUCON1     = ccucon1;
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf0036034)
 .L821:
@@ -3719,8 +3719,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1410:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   794                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   795                          ccucon1.U      |= (cfg->clockDistribution.ccucon1.mask & cfg->clockDistribution.ccucon1.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   794                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   795  
 	ld.w	d15,[a15]28
 .L1411:
 	ld.w	d1,[a15]24
@@ -3730,28 +3730,28 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1414:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   796                          ccucon1.B.INSEL = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   796                      while (SCU_CCUCON2.B.LCK != 0U)
 	mov	d15,#1
 .L1415:
 	insert	d0,d0,d15,#28,#2
 .L1416:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   797                          ccucon1.B.UP    = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   797                      {
 	mov	d15,#1
 .L1417:
 	insert	d0,d0,d15,#30,#1
 .L1418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   798                          SCU_CCUCON1     = ccucon1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   798                          /*Wait till ccucon registers can be written with new value */
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf0036034)
 .L1419:
 	st.w	[a2],d0
 .L625:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   799                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   800  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   801                      while (SCU_CCUCON2.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   799                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   800                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   801  
 	j	.L153
 .L154:
 .L153:
@@ -3763,14 +3763,14 @@ IfxScuCcu_init:	.type	func
 .L628:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   802                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   803                          /*Wait till ccucon registers can be written with new value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   804                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   805                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   806  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   807                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   808                          /*Write CCUCON2 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   809                          Ifx_SCU_CCUCON2 ccucon2;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   810                          ccucon2.U    = SCU_CCUCON2.U & ~cfg->clockDistribution.ccucon2.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   803                          /*Write CCUCON2 configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   804                          Ifx_SCU_CCUCON2 ccucon2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   805                          ccucon2.U    = SCU_CCUCON2.U & ~cfg->clockDistribution.ccucon2.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   806                          /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   807                          ccucon2.U   |= (cfg->clockDistribution.ccucon2.mask & cfg->clockDistribution.ccucon2.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   808                          ccucon2.B.UP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   809                          SCU_CCUCON2  = ccucon2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   810                      }
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf0036040)
 .L823:
@@ -3782,8 +3782,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1422:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   811                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   812                          ccucon2.U   |= (cfg->clockDistribution.ccucon2.mask & cfg->clockDistribution.ccucon2.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   811  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   812                      while (SCU_CCUCON5.B.LCK != 0U)
 	ld.w	d15,[a15]36
 .L1423:
 	ld.w	d1,[a15]32
@@ -3793,13 +3793,13 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1426:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   813                          ccucon2.B.UP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   813                      {           /*Wait till ccucon registers can be written with new value */
 	mov	d15,#1
 .L1427:
 	insert	d0,d0,d15,#30,#1
 .L1428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   814                          SCU_CCUCON2  = ccucon2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   814                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf0036040)
 .L1429:
@@ -3808,7 +3808,7 @@ IfxScuCcu_init:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   815                      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   816  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   817                      while (SCU_CCUCON5.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   817                      {           /*Write CCUCON5 configuration */
 	j	.L155
 .L156:
 .L155:
@@ -3819,13 +3819,13 @@ IfxScuCcu_init:	.type	func
 	jne	d15,#0,.L156
 .L632:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   818                      {           /*Wait till ccucon registers can be written with new value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   819                          /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   820                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   821  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   822                      {           /*Write CCUCON5 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   823                          Ifx_SCU_CCUCON5 ccucon5;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   824                          ccucon5.U    = SCU_CCUCON5.U & ~cfg->clockDistribution.ccucon5.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   818                          Ifx_SCU_CCUCON5 ccucon5;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   819                          ccucon5.U    = SCU_CCUCON5.U & ~cfg->clockDistribution.ccucon5.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   820                          /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   821                          ccucon5.U   |= (cfg->clockDistribution.ccucon5.mask & cfg->clockDistribution.ccucon5.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   822                          ccucon5.B.UP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   823                          SCU_CCUCON5  = ccucon5;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   824                      }
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf003604c)
 .L825:
@@ -3837,8 +3837,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1432:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   825                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   826                          ccucon5.U   |= (cfg->clockDistribution.ccucon5.mask & cfg->clockDistribution.ccucon5.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   825  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   826                      {           /*Write CCUCON6 configuration */
 	ld.w	d15,[a15]44
 .L1433:
 	ld.w	d1,[a15]40
@@ -3848,24 +3848,24 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1436:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   827                          ccucon5.B.UP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   827                          Ifx_SCU_CCUCON6 ccucon6;
 	mov	d15,#1
 .L1437:
 	insert	d0,d0,d15,#30,#1
 .L1438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   828                          SCU_CCUCON5  = ccucon5;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   828                          ccucon6.U   = SCU_CCUCON6.U & ~cfg->clockDistribution.ccucon6.mask;
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf003604c)
 .L1439:
 	st.w	[a2],d0
 .L633:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   829                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   830  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   831                      {           /*Write CCUCON6 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   832                          Ifx_SCU_CCUCON6 ccucon6;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   833                          ccucon6.U   = SCU_CCUCON6.U & ~cfg->clockDistribution.ccucon6.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   829                          /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   830                          ccucon6.U  |= (cfg->clockDistribution.ccucon6.mask & cfg->clockDistribution.ccucon6.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   831                          SCU_CCUCON6 = ccucon6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   832                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   833  
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf0036080)
 .L827:
@@ -3877,8 +3877,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1441:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   834                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   835                          ccucon6.U  |= (cfg->clockDistribution.ccucon6.mask & cfg->clockDistribution.ccucon6.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   834                      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   835                          /*Write CCUCON7 configuration */
 	ld.w	d15,[a15]52
 .L1442:
 	ld.w	d1,[a15]48
@@ -3888,19 +3888,19 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   836                          SCU_CCUCON6 = ccucon6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   836                          Ifx_SCU_CCUCON7 ccucon7;
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf0036080)
 .L1446:
 	st.w	[a2],d0
 .L636:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   837                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   838  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   839                      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   840                          /*Write CCUCON7 configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   841                          Ifx_SCU_CCUCON7 ccucon7;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   842                          ccucon7.U   = SCU_CCUCON7.U & ~cfg->clockDistribution.ccucon7.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   837                          ccucon7.U   = SCU_CCUCON7.U & ~cfg->clockDistribution.ccucon7.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   838                          /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   839                          ccucon7.U  |= (cfg->clockDistribution.ccucon7.mask & cfg->clockDistribution.ccucon7.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   840                          SCU_CCUCON7 = ccucon7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   841                      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   842                  }
 	movh.a	a2,#61443
 	ld.w	d0,[a2]@los(0xf0036084)
 .L829:
@@ -3912,8 +3912,8 @@ IfxScuCcu_init:	.type	func
 	and	d0,d15
 .L1448:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   843                          /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   844                          ccucon7.U  |= (cfg->clockDistribution.ccucon7.mask & cfg->clockDistribution.ccucon7.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   843  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   844                  IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
 	ld.w	d15,[a15]60
 .L1449:
 	ld.w	d1,[a15]56
@@ -3923,28 +3923,28 @@ IfxScuCcu_init:	.type	func
 	or	d0,d15
 .L1452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   845                          SCU_CCUCON7 = ccucon7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   845              }
 	movh.a	a2,#61443
 	lea	a2,[a2]@los(0xf0036084)
 .L1453:
 	st.w	[a2],d0
 .L639:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   846                      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   847                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   848  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   849                  IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   846          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   847  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   848          {           /*Write Flash waitstate configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   849              Ifx_FLASH_FCON fcon;
 	mov	d4,d10
 .L831:
 	call	IfxScuWdt_setSafetyEndinit
 .L642:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   850              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   851          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   852  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   853          {           /*Write Flash waitstate configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   854              Ifx_FLASH_FCON fcon;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   855              fcon.U = FLASH0_FCON.U & ~cfg->flashFconWaitStateConfig.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   850              fcon.U = FLASH0_FCON.U & ~cfg->flashFconWaitStateConfig.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   851  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   852              /*update with configured value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   853              fcon.U &= ~cfg->flashFconWaitStateConfig.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   854              fcon.U |= (cfg->flashFconWaitStateConfig.mask & cfg->flashFconWaitStateConfig.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   855              {
 	movh.a	a2,#63488
 	ld.w	d15,[a2]@los(0xf8002014)
 .L1454:
@@ -3956,9 +3956,9 @@ IfxScuCcu_init:	.type	func
 	and	d15,d0
 .L1456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   856  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   857              /*update with configured value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   858              fcon.U &= ~cfg->flashFconWaitStateConfig.mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   856                  IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   857                  FLASH0_FCON = fcon;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   858                  IfxScuWdt_setCpuEndinit(endinit_pw);
 	ld.w	d0,[a15]68
 .L1457:
 	mov	d1,#-1
@@ -3967,7 +3967,7 @@ IfxScuCcu_init:	.type	func
 	and	d15,d0
 .L1459:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   859              fcon.U |= (cfg->flashFconWaitStateConfig.mask & cfg->flashFconWaitStateConfig.value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   859              }
 	ld.w	d0,[a15]68
 .L1460:
 	ld.w	d1,[a15]64
@@ -3977,47 +3977,47 @@ IfxScuCcu_init:	.type	func
 	or	d15,d0
 .L1463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   860              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   861                  IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   860          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   861  
 	mov	d4,d9
 .L833:
 	call	IfxScuWdt_clearCpuEndinit
 .L834:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   862                  FLASH0_FCON = fcon;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   862          /*Start Pll ramp up sequence */
 	movh.a	a2,#63488
 	lea	a2,[a2]@los(0xf8002014)
 .L1464:
 	st.w	[a2],d15
 .L1465:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   863                  IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   863          for (pllStepsCount = 0; pllStepsCount < cfg->sysPll.numOfPllDividerSteps; pllStepsCount++)
 	mov	d4,d9
 .L835:
 	call	IfxScuWdt_setCpuEndinit
 .L643:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   864              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   865          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   866  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   867          /*Start Pll ramp up sequence */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   868          for (pllStepsCount = 0; pllStepsCount < cfg->sysPll.numOfPllDividerSteps; pllStepsCount++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   864          {                       /*iterate through number of pll steps */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   865              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   866                  IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   867  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   868                  /*Configure K2 divider */
 	mov	d12,#0
 .L836:
 	j	.L157
 .L158:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   869          {                       /*iterate through number of pll steps */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   870              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   871                  IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   869                  while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   870                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   871                      /*Wait until K2 divider is ready */
 	mov	d4,d10
 .L838:
 	call	IfxScuWdt_clearSafetyEndinit
 .L839:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   872  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   873                  /*Configure K2 divider */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   874                  while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   872                      /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   873                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   874  
 	j	.L159
 .L160:
 .L159:
@@ -4028,13 +4028,13 @@ IfxScuCcu_init:	.type	func
 	jeq	d15,#0,.L160
 .L1467:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   875                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   876                      /*Wait until K2 divider is ready */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   877                      /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   878                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   875                  /*Now set the K2 divider value for the step corresponding to step count */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   876                  SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllDividerStep[pllStepsCount].k2Step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   877                  IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   878              }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   879  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   880                  /*Now set the K2 divider value for the step corresponding to step count */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   881                  SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllDividerStep[pllStepsCount].k2Step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   880              /*call the hook function if configured */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   881              if (cfg->sysPll.pllDividerStep[pllStepsCount].hookFunction != (IfxScuCcu_PllStepsFunctionHook)0)
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf003601c)
 .L1468:
@@ -4051,16 +4051,16 @@ IfxScuCcu_init:	.type	func
 	st.b	[a2]@los(0xf003601c),d15
 .L1473:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   882                  IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   882              {
 	mov	d4,d10
 .L840:
 	call	IfxScuWdt_setSafetyEndinit
 .L841:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   883              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   884  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   885              /*call the hook function if configured */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   886              if (cfg->sysPll.pllDividerStep[pllStepsCount].hookFunction != (IfxScuCcu_PllStepsFunctionHook)0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   883                  cfg->sysPll.pllDividerStep[pllStepsCount].hookFunction();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   884              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   885  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   886              /*Wait for waitCounter corresponding to the pll step */
 	mul	d15,d12,#12
 .L1474:
 	ld.a	a2,[a15]4
@@ -4072,8 +4072,8 @@ IfxScuCcu_init:	.type	func
 	jeq	d15,#0,.L161
 .L1478:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   887              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   888                  cfg->sysPll.pllDividerStep[pllStepsCount].hookFunction();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   887              IfxScuCcu_wait(cfg->sysPll.pllDividerStep[pllStepsCount].waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   888          }
 	mul	d15,d12,#12
 .L1479:
 	ld.a	a2,[a15]4
@@ -4085,10 +4085,10 @@ IfxScuCcu_init:	.type	func
 	calli	a2
 .L161:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   889              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   889      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   890  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   891              /*Wait for waitCounter corresponding to the pll step */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   892              IfxScuCcu_wait(cfg->sysPll.pllDividerStep[pllStepsCount].waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   891      {                           /* Enable oscillator disconnect feature */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   892          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	mul	d15,d12,#12
 .L1483:
 	ld.a	a2,[a15]4
@@ -4107,17 +4107,17 @@ IfxScuCcu_init:	.type	func
 	jlt.u	d12,d15,.L158
 .L142:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   893          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   894      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   895  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   896      {                           /* Enable oscillator disconnect feature */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   897          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   893          SCU_PLLCON0.B.OSCDISCDIS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   894          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   895      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   896      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   897          /* Enable VCO unlock Trap if it was disabled before */
 	mov	d4,d10
 .L842:
 	call	IfxScuWdt_clearSafetyEndinit
 .L843:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   898          SCU_PLLCON0.B.OSCDISCDIS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   898          IfxScuWdt_clearCpuEndinit(endinit_pw);
 	movh.a	a15,#61443
 .L804:
 	ld.bu	d15,[a15]@los(0xf0036018)
@@ -4127,22 +4127,22 @@ IfxScuCcu_init:	.type	func
 	st.b	[a15]@los(0xf0036018),d15
 .L1489:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   899          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   899          SCU_TRAPCLR.B.SMUT = 1U;
 	mov	d4,d10
 .L844:
 	call	IfxScuWdt_setSafetyEndinit
 .L845:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   900      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   901      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   902          /* Enable VCO unlock Trap if it was disabled before */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   903          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   900          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   901          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   902      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   903      return status;
 	mov	d4,d9
 .L846:
 	call	IfxScuWdt_clearCpuEndinit
 .L847:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   904          SCU_TRAPCLR.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   904  }
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003612c)
 .L1490:
@@ -4151,7 +4151,7 @@ IfxScuCcu_init:	.type	func
 	st.b	[a15]@los(0xf003612c),d15
 .L1491:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   905          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   905  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036130)
 .L1492:
@@ -4160,19 +4160,19 @@ IfxScuCcu_init:	.type	func
 	st.b	[a15]@los(0xf0036130),d15
 .L1493:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   906          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   906  
 	mov	d4,d9
 .L848:
 	call	IfxScuWdt_setCpuEndinit
 .L849:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   907      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   908      return status;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   907  void IfxScuCcu_initConfig(IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   908  {
 	mov	d2,d8
 .L850:
 	j	.L162
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   909  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   909      *cfg = IfxScuCcu_defaultClockConfig;
 .L162:
 	ret
 .L612:
@@ -4188,15 +4188,15 @@ __IfxScuCcu_init_function_end:
 	
 	.global	IfxScuCcu_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   910  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   910  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   911  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   912  void IfxScuCcu_initConfig(IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   912  
 ; Function IfxScuCcu_initConfig
 .L284:
 IfxScuCcu_initConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   913  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   914      *cfg = IfxScuCcu_defaultClockConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   913  boolean IfxScuCcu_initErayPll(const IfxScuCcu_ErayPllConfig *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   914  {
 	movh.a	a15,#@his(IfxScuCcu_defaultClockConfig)
 	lea	a15,[a15]@los(IfxScuCcu_defaultClockConfig)
 	lea	a15,[a15]0
@@ -4211,7 +4211,7 @@ IfxScuCcu_initConfig:	.type	func
 	st.w	[a2+],d15
 .L1499:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   915  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   915      uint8   smuTrapEnable;
 	ret
 .L646:
 	
@@ -4226,50 +4226,50 @@ __IfxScuCcu_initConfig_function_end:
 	
 	.global	IfxScuCcu_initErayPll
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   916  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   917  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   918  boolean IfxScuCcu_initErayPll(const IfxScuCcu_ErayPllConfig *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   916      uint16  endinit_pw, endinitSfty_pw;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   917      boolean status = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   918  
 ; Function IfxScuCcu_initErayPll
 .L286:
 IfxScuCcu_initErayPll:	.type	func
 	mov.aa	a15,a4
 .L852:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   919  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   920      uint8   smuTrapEnable;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   921      uint16  endinit_pw, endinitSfty_pw;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   922      boolean status = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   919      endinit_pw     = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   920      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   921  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   922      {                           /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
 	mov	d8,#0
 .L854:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   923  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   924      endinit_pw     = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   923          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   924          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L851:
 	mov	d9,d2
 .L856:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   925      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   925          SCU_TRAPDIS.B.SMUT = 1U;
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L855:
 	mov	d10,d2
 .L858:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   926  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   927      {                           /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   928          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   926          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   927      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   928      IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	mov	d4,d9
 .L859:
 	call	IfxScuWdt_clearCpuEndinit
 .L857:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   929          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   929  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036130)
 	extr.u	d11,d15,#3,#1
 .L860:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   930          SCU_TRAPDIS.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   930      // ensure that PLL enabled
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036130)
 .L1504:
@@ -4278,22 +4278,22 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf0036130),d15
 .L1505:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   931          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   931      if (!SCU_PLLERAYCON0.B.PLLPWD || SCU_PLLERAYCON0.B.VCOPWD || SCU_PLLERAYSTAT.B.PWDSTAT)
 	mov	d4,d9
 .L861:
 	call	IfxScuWdt_setCpuEndinit
 .L862:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   932      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   933      IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   932      {   // PLLPWD=0 or VCOPWD=1 or PWDSTAT=1?
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   933        // enable PLL and leave power saving mode
 	mov	d4,d10
 .L863:
 	call	IfxScuWdt_clearSafetyEndinit
 .L864:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   934  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   935      // ensure that PLL enabled
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   936      if (!SCU_PLLERAYCON0.B.PLLPWD || SCU_PLLERAYCON0.B.VCOPWD || SCU_PLLERAYSTAT.B.PWDSTAT)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   934          SCU_PLLERAYCON0.B.PLLPWD = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   935          SCU_PLLERAYCON0.B.VCOPWD = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   936  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003602a)
 .L1506:
@@ -4309,9 +4309,9 @@ IfxScuCcu_initErayPll:	.type	func
 .L165:
 .L164:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   937      {   // PLLPWD=0 or VCOPWD=1 or PWDSTAT=1?
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   938        // enable PLL and leave power saving mode
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   939          SCU_PLLERAYCON0.B.PLLPWD = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   937          while (SCU_PLLERAYSTAT.B.PWDSTAT)  // poll PWDSTAT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   938          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   939  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003602a)
 .L1509:
@@ -4320,7 +4320,7 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf003602a),d15
 .L1510:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   940          SCU_PLLERAYCON0.B.VCOPWD = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   940          /*Wait for waitCounter corresponding to the pll step */
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036028)
 .L1511:
@@ -4329,8 +4329,8 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf0036028),d15
 .L1512:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   941  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   942          while (SCU_PLLERAYSTAT.B.PWDSTAT)  // poll PWDSTAT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   941          IfxScuCcu_wait(cfg->pllInitialStep.waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   942      }
 	j	.L167
 .L168:
 .L167:
@@ -4340,27 +4340,27 @@ IfxScuCcu_initErayPll:	.type	func
 	jnz.t	d15:1,.L168
 .L1514:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   943          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   944  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   945          /*Wait for waitCounter corresponding to the pll step */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   946          IfxScuCcu_wait(cfg->pllInitialStep.waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   943  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   944      /* Enter Prescalar mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   945      /* Update K and N dividers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   946      if (!SCU_PLLERAYSTAT.B.VCOBYST)      // checking PLLERAYBYPST flag
 	ld.w	d4,[a15]4
 	call	IfxScuCcu_wait
 .L166:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   947      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   948  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   949      /* Enter Prescalar mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   950      /* Update K and N dividers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   951      if (!SCU_PLLERAYSTAT.B.VCOBYST)      // checking PLLERAYBYPST flag
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   947      {                                    // select "secure" K1 value - please check @silicon if K1=4 is ok
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   948          while (!SCU_PLLERAYSTAT.B.K1RDY) // poll K1RDY before changing K
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   949          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   950  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   951          SCU_PLLERAYCON1.B.K1DIV = 3;
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036024)
 .L1515:
 	jnz.t	d15:0,.L169
 .L1516:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   952      {                                    // select "secure" K1 value - please check @silicon if K1=4 is ok
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   953          while (!SCU_PLLERAYSTAT.B.K1RDY) // poll K1RDY before changing K
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   952  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   953          // activate VCO bypass (bit 0: VCOBYP=1)
 	j	.L170
 .L171:
 .L170:
@@ -4370,9 +4370,9 @@ IfxScuCcu_initErayPll:	.type	func
 	jz.t	d15:4,.L171
 .L1518:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   954          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   955  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   956          SCU_PLLERAYCON1.B.K1DIV = 3;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   954          SCU_PLLERAYCON0.B.VCOBYP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   955      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   956  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003602e)
 .L1519:
@@ -4381,9 +4381,9 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf003602e),d15
 .L1520:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   957  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   958          // activate VCO bypass (bit 0: VCOBYP=1)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   959          SCU_PLLERAYCON0.B.VCOBYP = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   957      while (!SCU_PLLERAYSTAT.B.K2RDY)     // poll K1RDY before changing K
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   958      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   959  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036028)
 .L1521:
@@ -4392,9 +4392,9 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf0036028),d15
 .L169:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   960      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   961  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   962      while (!SCU_PLLERAYSTAT.B.K2RDY)     // poll K1RDY before changing K
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   960      SCU_PLLERAYCON1.B.K2DIV = cfg->pllInitialStep.k2Initial;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   961      SCU_PLLERAYCON0.B.PDIV  = cfg->pllInitialStep.pDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   962      SCU_PLLERAYCON0.B.NDIV  = cfg->pllInitialStep.nDivider;
 	j	.L172
 .L173:
 .L172:
@@ -4404,9 +4404,9 @@ IfxScuCcu_initErayPll:	.type	func
 	jz.t	d15:5,.L173
 .L1523:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   963      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   964  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   965      SCU_PLLERAYCON1.B.K2DIV = cfg->pllInitialStep.k2Initial;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   963      /*
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   964       *  RESLD = 1     ==> Restart VCO lock detection
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   965       *  CLRFINDIS = 1 ==> Connect OSC to PLL
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf003602c)
 .L1524:
@@ -4417,7 +4417,7 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf003602c),d15
 .L1526:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   966      SCU_PLLERAYCON0.B.PDIV  = cfg->pllInitialStep.pDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   966       *  PLLPWD = 1    ==> PLL Power Saving Mode : Normal behaviour
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf003602b)
 .L1527:
@@ -4428,7 +4428,7 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a2]@los(0xf003602b),d15
 .L1529:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   967      SCU_PLLERAYCON0.B.NDIV  = cfg->pllInitialStep.nDivider;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   967       *  NDIV = NDIV
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf0036029)
 .L1530:
@@ -4440,14 +4440,14 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a15]@los(0xf0036029),d15
 .L1532:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   968      /*
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   969       *  RESLD = 1     ==> Restart VCO lock detection
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   970       *  CLRFINDIS = 1 ==> Connect OSC to PLL
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   971       *  PLLPWD = 1    ==> PLL Power Saving Mode : Normal behaviour
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   972       *  NDIV = NDIV
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   973       */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   968       */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   969  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   970      SCU_PLLERAYCON0.B.RESLD     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   971      SCU_PLLERAYCON0.B.CLRFINDIS = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   972  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   973      IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   974  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   975      SCU_PLLERAYCON0.B.RESLD     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   975      // Wait until VCO LOCK bit is set
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003602a)
 .L1533:
@@ -4456,7 +4456,7 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a15]@los(0xf003602a),d15
 .L1534:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   976      SCU_PLLERAYCON0.B.CLRFINDIS = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   976      uint32 time_out_ctr = 50000; // higher time out value as for clib_pll, since system is clocked much faster while polling the lock flag
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036028)
 .L1535:
@@ -4466,20 +4466,20 @@ IfxScuCcu_initErayPll:	.type	func
 .L1536:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   977  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   978      IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   978      while (--time_out_ctr && !SCU_PLLERAYSTAT.B.VCOLOCK)
 	mov	d4,d10
 .L865:
 	call	IfxScuWdt_setSafetyEndinit
 .L655:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   979  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   980      // Wait until VCO LOCK bit is set
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   981      uint32 time_out_ctr = 50000; // higher time out value as for clib_pll, since system is clocked much faster while polling the lock flag
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   979      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   980  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   981      // check for timeout, exit immediately (don't disable VCO bypass) of not locked
 	mov.u	d15,#50000
 .L866:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   982  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   983      while (--time_out_ctr && !SCU_PLLERAYSTAT.B.VCOLOCK)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   982      if (!time_out_ctr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   983      {
 	j	.L174
 .L175:
 .L174:
@@ -4492,28 +4492,28 @@ IfxScuCcu_initErayPll:	.type	func
 	jz.t	d0:2,.L175
 .L176:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   984      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   985  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   986      // check for timeout, exit immediately (don't disable VCO bypass) of not locked
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   987      if (!time_out_ctr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   984          status = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   985      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   986  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   987      IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	jne	d15,#0,.L177
 .L1539:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   988      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   989          status = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   988      /*Bypass VCO*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   989      SCU_PLLERAYCON0.B.VCOBYP = 0U;
 	mov	d8,#1
 .L177:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   990      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   991  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   992      IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   990  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   991      // wait until bypass has been deactivated
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   992      while (SCU_PLLERAYSTAT.B.VCOBYST)         // poll VCOBYST
 	mov	d4,d10
 .L868:
 	call	IfxScuWdt_clearSafetyEndinit
 .L869:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   993      /*Bypass VCO*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   994      SCU_PLLERAYCON0.B.VCOBYP = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   993      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   994  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036028)
 .L867:
@@ -4522,9 +4522,9 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a15]@los(0xf0036028),d15
 .L1540:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   995  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   996      // wait until bypass has been deactivated
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   997      while (SCU_PLLERAYSTAT.B.VCOBYST)         // poll VCOBYST
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   995      if (!SCU_PLLERAYSTAT.B.VCOLOCK)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   996      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   997          status = TRUE;
 	j	.L178
 .L179:
 .L178:
@@ -4534,37 +4534,37 @@ IfxScuCcu_initErayPll:	.type	func
 	jnz.t	d15:0,.L179
 .L1542:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   998      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   998      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	   999  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1000      if (!SCU_PLLERAYSTAT.B.VCOLOCK)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1000      IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036024)
 .L1543:
 	jnz.t	d15:2,.L180
 .L1544:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1001      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1002          status = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1001  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1002      {                           /* Enable VCO unlock Trap if it was disabled before */
 	mov	d8,#1
 .L180:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1003      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1004  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1005      IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1003          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1004          SCU_TRAPCLR.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1005          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
 	mov	d4,d10
 .L870:
 	call	IfxScuWdt_setSafetyEndinit
 .L871:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1006  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1007      {                           /* Enable VCO unlock Trap if it was disabled before */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1008          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1006          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1007      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1008      return status;
 	mov	d4,d9
 .L872:
 	call	IfxScuWdt_clearCpuEndinit
 .L873:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1009          SCU_TRAPCLR.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1009  }
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003612c)
 .L1545:
@@ -4573,7 +4573,7 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a15]@los(0xf003612c),d15
 .L1546:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1010          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1010  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036130)
 .L1547:
@@ -4582,19 +4582,19 @@ IfxScuCcu_initErayPll:	.type	func
 	st.b	[a15]@los(0xf0036130),d15
 .L1548:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1011          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1011  
 	mov	d4,d9
 .L874:
 	call	IfxScuWdt_setCpuEndinit
 .L875:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1012      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1013      return status;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1012  void IfxScuCcu_initErayPllConfig(IfxScuCcu_ErayPllConfig *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1013  {
 	mov	d2,d8
 .L876:
 	j	.L181
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1014  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1014      *cfg = IfxScuCcu_defaultErayPllConfig;
 .L181:
 	ret
 .L648:
@@ -4610,15 +4610,15 @@ __IfxScuCcu_initErayPll_function_end:
 	
 	.global	IfxScuCcu_initErayPllConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1015  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1015  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1016  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1017  void IfxScuCcu_initErayPllConfig(IfxScuCcu_ErayPllConfig *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1017  
 ; Function IfxScuCcu_initErayPllConfig
 .L288:
 IfxScuCcu_initErayPllConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1018  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1019      *cfg = IfxScuCcu_defaultErayPllConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1018  IFX_STATIC boolean IfxScuCcu_isOscillatorStable(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1019  {
 	movh.a	a15,#@his(IfxScuCcu_defaultErayPllConfig)
 	lea	a15,[a15]@los(IfxScuCcu_defaultErayPllConfig)
 	ld.da	a2/a3,[a15]0
@@ -4626,7 +4626,7 @@ IfxScuCcu_initErayPllConfig:	.type	func
 	st.da	[a4]0,a2/a3
 .L1554:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1020  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1020      sint32  TimeoutCtr = IFXSCUCCU_OSC_STABLECHK_TIME;
 	ret
 .L657:
 	
@@ -4640,34 +4640,34 @@ __IfxScuCcu_initErayPllConfig_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1021  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1021      boolean status     = 0;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1022  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1023  IFX_STATIC boolean IfxScuCcu_isOscillatorStable(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1023      uint16  endinitPw  = IfxScuWdt_getCpuWatchdogPassword();
 ; Function IfxScuCcu_isOscillatorStable
 .L290:
 IfxScuCcu_isOscillatorStable:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1024  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1025      sint32  TimeoutCtr = IFXSCUCCU_OSC_STABLECHK_TIME;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1024  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1025      /* Mode External Crystal / Ceramic Resonator Mode and External Input Clock.
 	mov	d8,#640
 .L877:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1026      boolean status     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1026       * The oscillator Power-Saving Mode is not entered
 	mov	d9,#0
 .L878:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1027  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1028      uint16  endinitPw  = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1027       */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1028      SCU_OSCCON.B.MODE = 0U;
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L879:
 	mov	d10,d2
 .L881:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1029  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1030      /* Mode External Crystal / Ceramic Resonator Mode and External Input Clock.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1031       * The oscillator Power-Saving Mode is not entered
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1032       */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1033      SCU_OSCCON.B.MODE = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1030      /* OSCVAL  defines the divider value that generates  the reference clock
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1031       *  that is supervised by the oscillator watchdog.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1032       *  fOSC / (OSCVAL + 1) ~ 2.5Mhz  => OSCVAL = (fOSC / 2.5Mhz) - 1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1033  
 	movh.a	a15,#61443
 	ld.bu	d0,[a15]@los(0xf0036010)
 .L1617:
@@ -4676,12 +4676,12 @@ IfxScuCcu_isOscillatorStable:	.type	func
 	st.b	[a15]@los(0xf0036010),d0
 .L1618:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1034  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1035      /* OSCVAL  defines the divider value that generates  the reference clock
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1036       *  that is supervised by the oscillator watchdog.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1037       *  fOSC / (OSCVAL + 1) ~ 2.5Mhz  => OSCVAL = (fOSC / 2.5Mhz) - 1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1034      SCU_OSCCON.B.OSCVAL = ((uint32)IfxScuCcu_xtalFrequency / 2500000) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1035  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1036      /* The Oscillator Watchdog of the PLL is cleared and restarted */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1037      SCU_OSCCON.B.OSCRES = 1U;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1038  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1039      SCU_OSCCON.B.OSCVAL = ((uint32)IfxScuCcu_xtalFrequency / 2500000) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1039      /* wait until PLLLV and PLLHV flags are set */
 	movh.a	a15,#61443
 	ld.bu	d0,[a15]@los(0xf0036012)
 .L1619:
@@ -4702,9 +4702,9 @@ IfxScuCcu_isOscillatorStable:	.type	func
 	st.b	[a15]@los(0xf0036012),d15
 .L1623:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1040  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1041      /* The Oscillator Watchdog of the PLL is cleared and restarted */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1042      SCU_OSCCON.B.OSCRES = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1040      while ((SCU_OSCCON.B.PLLLV == 0) || (SCU_OSCCON.B.PLLHV == 0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1041      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1042          TimeoutCtr--;
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036010)
 .L1624:
@@ -4714,28 +4714,28 @@ IfxScuCcu_isOscillatorStable:	.type	func
 .L1625:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1043  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1044      /* wait until PLLLV and PLLHV flags are set */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1045      while ((SCU_OSCCON.B.PLLLV == 0) || (SCU_OSCCON.B.PLLHV == 0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1044          if (TimeoutCtr == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1045          {
 	j	.L182
 .L183:
 .L184:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1046      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1047          TimeoutCtr--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1046              status = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1047              break;
 	add	d8,#-1
 .L1626:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1048  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1049          if (TimeoutCtr == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1048          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1049      }
 	jne	d8,#0,.L185
 .L1627:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1050          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1051              status = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1050  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1051      {
 	mov	d9,#1
 .L1628:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1052              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1052          /* clear and then set SMU trap (oscillator watchdog and unlock detection) */
 	j	.L186
 .L185:
 .L182:
@@ -4749,20 +4749,20 @@ IfxScuCcu_isOscillatorStable:	.type	func
 .L1631:
 	jz.t	d15:0,.L183
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1053          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1054      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1055  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1056      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1053          IfxScuWdt_clearCpuEndinit(endinitPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1054          SCU_TRAPCLR.B.SMUT = 1U;    /* TODO Can this be removed? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1055          SCU_TRAPDIS.B.SMUT = 1U;    /* TODO Can this be removed? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1056          IfxScuWdt_setCpuEndinit(endinitPw);
 .L186:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1057          /* clear and then set SMU trap (oscillator watchdog and unlock detection) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1058          IfxScuWdt_clearCpuEndinit(endinitPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1057      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1058  
 	mov	d4,d10
 .L882:
 	call	IfxScuWdt_clearCpuEndinit
 .L883:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1059          SCU_TRAPCLR.B.SMUT = 1U;    /* TODO Can this be removed? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1059      return status;
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003612c)
 .L1632:
@@ -4771,7 +4771,7 @@ IfxScuCcu_isOscillatorStable:	.type	func
 	st.b	[a15]@los(0xf003612c),d15
 .L1633:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1060          SCU_TRAPDIS.B.SMUT = 1U;    /* TODO Can this be removed? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1060  }
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036130)
 .L1634:
@@ -4780,20 +4780,20 @@ IfxScuCcu_isOscillatorStable:	.type	func
 	st.b	[a15]@los(0xf0036130),d15
 .L1635:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1061          IfxScuWdt_setCpuEndinit(endinitPw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1061  
 	mov	d4,d10
 .L884:
 	call	IfxScuWdt_setCpuEndinit
 .L885:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1062      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1063  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1064      return status;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1062  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1063  float32 IfxScuCcu_setCpuFrequency(IfxCpu_ResourceCpu cpu, float32 cpuFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1064  {
 	mov	d2,d9
 .L886:
 	j	.L187
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1065  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1065      uint16  endinitSfty_pw;
 .L187:
 	ret
 .L676:
@@ -4809,28 +4809,28 @@ __IfxScuCcu_isOscillatorStable_function_end:
 	
 	.global	IfxScuCcu_setCpuFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1066  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1067  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1068  float32 IfxScuCcu_setCpuFrequency(IfxCpu_ResourceCpu cpu, float32 cpuFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1066      float32 sriFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1067      uint32  cpuDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1068  
 ; Function IfxScuCcu_setCpuFrequency
 .L292:
 IfxScuCcu_setCpuFrequency:	.type	func
 	mov	e8,d4,d5
 .L1223:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1069  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1070      uint16  endinitSfty_pw;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1071      float32 sriFreq;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1072      uint32  cpuDiv;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1073  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1074      sriFreq = IfxScuCcu_getSriFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1069      sriFreq = IfxScuCcu_getSriFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1070  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1071      if (cpuFreq >= sriFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1072      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1073          cpuDiv = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1074      }
 	call	IfxScuCcu_getSriFrequency
 .L887:
 	mov	d10,d2
 .L889:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1075  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1076      if (cpuFreq >= sriFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1075      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1076      {
 	cmp.f	d15,d8,d10
 .L890:
 	and	d15,#6
@@ -4839,12 +4839,12 @@ IfxScuCcu_setCpuFrequency:	.type	func
 	jne	d15,#0,.L188
 .L1225:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1077      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1078          cpuDiv = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1079      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1080      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1081      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1082          cpuDiv = (uint32)((cpuFreq * 64) / sriFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1077          cpuDiv = (uint32)((cpuFreq * 64) / sriFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1078      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1079  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1080      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1081  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1082      {
 	movh	d0,#17024
 .L891:
 	mul.f	d0,d8,d0
@@ -4858,34 +4858,34 @@ IfxScuCcu_setCpuFrequency:	.type	func
 	mov	d8,#0
 .L189:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1083      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1083          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1084  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1085      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1085          switch (cpu)
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L888:
 	mov	d11,d2
 .L895:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1086  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1087      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1088          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1086          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1087          case IfxCpu_ResourceCpu_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1088              SCU_CCUCON6.U = cpuDiv;
 	mov	d4,d11
 .L894:
 	call	IfxScuWdt_clearSafetyEndinit
 .L896:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1089  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1090          switch (cpu)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1091          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1092          case IfxCpu_ResourceCpu_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1089              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1090          case IfxCpu_ResourceCpu_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1091              SCU_CCUCON7.U = cpuDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1092              break;
 	mov	d15,#0
 .L897:
 	jeq	d15,d9,.L190
 .L898:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1093              SCU_CCUCON6.U = cpuDiv;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1094              break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1095          case IfxCpu_ResourceCpu_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1093  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1094          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1095              break;
 	mov	d15,#1
 .L899:
 	jeq	d15,d9,.L191
@@ -4898,24 +4898,24 @@ IfxScuCcu_setCpuFrequency:	.type	func
 	j	.L193
 .L191:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1096              SCU_CCUCON7.U = cpuDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1096          }
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf0036084),d8
 .L1228:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1097              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1097  
 	j	.L194
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1098  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1099          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1098          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1099      }
 .L192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1100              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1100  
 	j	.L195
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1101          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1102  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1103          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1101      if (cpuDiv != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1102      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1103          sriFreq = sriFreq * (cpuDiv / 64.0f);
 .L195:
 .L194:
 .L193:
@@ -4926,12 +4926,12 @@ IfxScuCcu_setCpuFrequency:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1104      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1105  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1106      if (cpuDiv != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1106      return sriFreq;
 	jeq	d8,#0,.L196
 .L1229:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1107      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1108          sriFreq = sriFreq * (cpuDiv / 64.0f);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1107  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1108  
 	utof	d15,d8
 .L1230:
 	movh	d0,#17024
@@ -4941,14 +4941,14 @@ IfxScuCcu_setCpuFrequency:	.type	func
 	mul.f	d10,d10,d15
 .L196:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1109      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1110  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1111      return sriFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1109  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1110  float32 IfxScuCcu_setGtmFrequency(float32 gtmFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1111  {
 	mov	d2,d10
 .L903:
 	j	.L197
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1112  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1112      uint16          l_SEndInitPW;
 .L197:
 	ret
 .L531:
@@ -4964,29 +4964,29 @@ __IfxScuCcu_setCpuFrequency_function_end:
 	
 	.global	IfxScuCcu_setGtmFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1113  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1113      Ifx_SCU_CCUCON1 ccucon1   = SCU_CCUCON1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1114  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1115  float32 IfxScuCcu_setGtmFrequency(float32 gtmFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1115      float32         inputFreq = IfxScuCcu_getSourceFrequency();
 ; Function IfxScuCcu_setGtmFrequency
 .L294:
 IfxScuCcu_setGtmFrequency:	.type	func
 	mov	d8,d4
 .L905:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1116  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1117      uint16          l_SEndInitPW;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1118      Ifx_SCU_CCUCON1 ccucon1   = SCU_CCUCON1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1116      uint32          gtmDiv    = (uint32)__roundf(inputFreq / gtmFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1117      gtmDiv = __maxu(gtmDiv, 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1118  
 	movh.a	a15,#61443
 	lea	a15,[a15]@los(0xf0036034)
 	ld.w	d9,[a15]
 .L907:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1119  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1120      float32         inputFreq = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1119      /*gtmDiv       = gtmDiv & 0x2U;*//* only even dividers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1120      if ((gtmDiv >= 7) && (gtmDiv < 14) && ((gtmDiv & 1) == 1))
 	call	IfxScuCcu_getSourceFrequency
 .L904:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1121      uint32          gtmDiv    = (uint32)__roundf(inputFreq / gtmFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1121      {
 	div.f	d15,d2,d8
 	div.f	d0,d2,d8
 	ftoiz	d0,d0
@@ -5004,13 +5004,13 @@ IfxScuCcu_setGtmFrequency:	.type	func
 	add	d15,#1
 .L199:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1122      gtmDiv = __maxu(gtmDiv, 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1122          gtmDiv = gtmDiv - 1;
 	max.u	d8,d15,#1
 .L906:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1123  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1124      /*gtmDiv       = gtmDiv & 0x2U;*//* only even dividers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1125      if ((gtmDiv >= 7) && (gtmDiv < 14) && ((gtmDiv & 1) == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1123      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1124  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1125      if (gtmDiv == 14)
 	jlt.u	d8,#7,.L200
 .L1598:
 	jge.u	d8,#14,.L201
@@ -5019,7 +5019,7 @@ IfxScuCcu_setGtmFrequency:	.type	func
 .L1600:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1126      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1127          gtmDiv = gtmDiv - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1127          gtmDiv = 12;
 	add	d8,#-1
 .L202:
 .L201:
@@ -5027,33 +5027,33 @@ IfxScuCcu_setGtmFrequency:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1128      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1130      if (gtmDiv == 14)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1130      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
 	mov	d15,#14
 .L1601:
 	jne	d15,d8,.L203
 .L1602:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1131      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1132          gtmDiv = 12;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1131      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1132  
 	mov	d8,#12
 .L203:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1133      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1134  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1135      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1133      while (SCU_CCUCON1.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1134      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1135  
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L908:
 	mov	d10,d2
 .L910:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1136      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1136      ccucon1.B.GTMDIV = gtmDiv;
 	mov	d4,d10
 .L909:
 	call	IfxScuWdt_clearSafetyEndinit
 .L911:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1137  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1138      while (SCU_CCUCON1.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1137      ccucon1.B.UP     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1138      SCU_CCUCON1.U    = ccucon1.U;
 	j	.L204
 .L205:
 .L204:
@@ -5064,27 +5064,27 @@ IfxScuCcu_setGtmFrequency:	.type	func
 	jne	d15,#0,.L205
 .L1604:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1139      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1140  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1141      ccucon1.B.GTMDIV = gtmDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1139  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1140      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1141  
 	extr.u	d15,d8,#0,#8
 .L1605:
 	insert	d9,d9,d15,#12,#4
 .L1606:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1142      ccucon1.B.UP     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1142      return IfxScuCcu_getGtmFrequency();
 	mov	d15,#1
 .L1607:
 	insert	d9,d9,d15,#30,#1
 .L1608:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1143      SCU_CCUCON1.U    = ccucon1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1143  }
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf0036034),d9
 .L1609:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1144  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1145      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1145  
 	mov	d4,d10
 .L912:
 	call	IfxScuWdt_setSafetyEndinit
@@ -6200,10 +6200,10 @@ IfxScuCcu_setGtmFrequency:	.type	func
 .L206:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1146  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1147      return IfxScuCcu_getGtmFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1147      uint32 pll2Div  = (uint32)((IfxScuCcu_getPllErayVcoFrequency() / pll2ErayFreq) - 1);
 	j	.L207
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1148  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1148      {
 .L207:
 	ret
 .L667:
@@ -6219,23 +6219,23 @@ __IfxScuCcu_setGtmFrequency_function_end:
 	
 	.global	IfxScuCcu_setPll2ErayFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1150  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1151  float32 IfxScuCcu_setPll2ErayFrequency(float32 pll2ErayFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1149          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1150          SCU_PLLERAYCON1.B.K3DIV = pll2Div;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1151          IfxScuWdt_setSafetyEndinit(password);
 ; Function IfxScuCcu_setPll2ErayFrequency
 .L296:
 IfxScuCcu_setPll2ErayFrequency:	.type	func
 	mov	d15,d4
 .L914:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1152  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1153      uint16 password = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1152      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1153      return IfxScuCcu_getPll2ErayFrequency();
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L913:
 	mov	d8,d2
 .L917:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1154      uint32 pll2Div  = (uint32)((IfxScuCcu_getPllErayVcoFrequency() / pll2ErayFreq) - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1154  }
 	call	IfxScuCcu_getPllErayVcoFrequency
 .L916:
 	div.f	d15,d2,d15
@@ -6247,14 +6247,14 @@ IfxScuCcu_setPll2ErayFrequency:	.type	func
 	ftouz	d15,d15
 .L918:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1155      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1156          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1155  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1156  
 	mov	d4,d8
 .L920:
 	call	IfxScuWdt_clearSafetyEndinit
 .L921:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1157          SCU_PLLERAYCON1.B.K3DIV = pll2Div;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1157  float32 IfxScuCcu_setPll2Frequency(float32 pll2Freq)
 	movh.a	a15,#61443
 	ld.bu	d0,[a15]@los(0xf003602d)
 .L1239:
@@ -6265,7 +6265,7 @@ IfxScuCcu_setPll2ErayFrequency:	.type	func
 	st.b	[a15]@los(0xf003602d),d15
 .L1240:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1158          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1158  {
 	mov	d4,d8
 .L922:
 	call	IfxScuWdt_setSafetyEndinit
@@ -7390,11 +7390,11 @@ IfxScuCcu_setPll2ErayFrequency:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.h	  1104  }      (inlined)
 .L208:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1159      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1160      return IfxScuCcu_getPll2ErayFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1159  ndinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1160      uint32 pll2Div        = (uint32)((IfxScuCcu_getPllVcoFrequency() / pll2Freq) - 1);
 	j	.L209
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1161  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1161      {
 .L209:
 	ret
 .L539:
@@ -7410,23 +7410,23 @@ __IfxScuCcu_setPll2ErayFrequency_function_end:
 	
 	.global	IfxScuCcu_setPll2Frequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1162  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1163  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1164  float32 IfxScuCcu_setPll2Frequency(float32 pll2Freq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1162          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1163          SCU_PLLCON1.B.K3DIV = pll2Div;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1164          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
 ; Function IfxScuCcu_setPll2Frequency
 .L298:
 IfxScuCcu_setPll2Frequency:	.type	func
 	mov	d15,d4
 .L925:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1165  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1166      uint16 endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1165      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1166      return IfxScuCcu_getPll2Frequency();
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L924:
 	mov	d8,d2
 .L928:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1167      uint32 pll2Div        = (uint32)((IfxScuCcu_getPllVcoFrequency() / pll2Freq) - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1167  }
 	call	IfxScuCcu_getPllVcoFrequency
 .L927:
 	div.f	d15,d2,d15
@@ -7438,14 +7438,14 @@ IfxScuCcu_setPll2Frequency:	.type	func
 	ftouz	d15,d15
 .L929:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1168      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1169          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1168  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1169  
 	mov	d4,d8
 .L931:
 	call	IfxScuWdt_clearSafetyEndinit
 .L932:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1170          SCU_PLLCON1.B.K3DIV = pll2Div;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1170  float32 IfxScuCcu_setSpbFrequency(float32 spbFreq)
 	movh.a	a15,#61443
 	ld.bu	d0,[a15]@los(0xf003601d)
 .L1250:
@@ -7456,7 +7456,7 @@ IfxScuCcu_setPll2Frequency:	.type	func
 	st.b	[a15]@los(0xf003601d),d15
 .L1251:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1171          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1171  {
 	mov	d4,d8
 .L933:
 	call	IfxScuWdt_setSafetyEndinit
@@ -8590,11 +8590,11 @@ IfxScuCcu_setPll2Frequency:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.h	  1113  }      (inlined)
 .L210:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1172      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1173      return IfxScuCcu_getPll2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1172  check whether it is necessary to disable trap and/or the safety */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1173      uint16          l_EndInitPW;
 	j	.L211
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1174  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1174      uint16          l_SEndInitPW;
 .L211:
 	ret
 .L547:
@@ -8610,36 +8610,36 @@ __IfxScuCcu_setPll2Frequency_function_end:
 	
 	.global	IfxScuCcu_setSpbFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1175  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1176  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1177  float32 IfxScuCcu_setSpbFrequency(float32 spbFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1175      Ifx_SCU_CCUCON0 ccucon0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1176      float32         inputFreq = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1177      uint32          spbDiv    = (uint32)(inputFreq / spbFreq);
 ; Function IfxScuCcu_setSpbFrequency
 .L300:
 IfxScuCcu_setSpbFrequency:	.type	func
 	mov	d15,d4
 .L936:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1178  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1179      /* TODO: check whether it is necessary to disable trap and/or the safety */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1180      uint16          l_EndInitPW;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1181      uint16          l_SEndInitPW;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1182      Ifx_SCU_CCUCON0 ccucon0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1183      float32         inputFreq = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1178      spbDiv = __maxu(spbDiv, 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1179  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1180      if ((spbDiv >= 7) && (spbDiv < 14) && ((spbDiv & 1) == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1181      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1182          spbDiv = spbDiv - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1183      }
 	call	IfxScuCcu_getSourceFrequency
 .L935:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1184      uint32          spbDiv    = (uint32)(inputFreq / spbFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1184  
 	div.f	d15,d2,d15
 .L937:
 	ftouz	d15,d15
 .L939:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1185      spbDiv = __maxu(spbDiv, 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1185      if (spbDiv == 14)
 	max.u	d9,d15,#2
 .L940:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1186  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1187      if ((spbDiv >= 7) && (spbDiv < 14) && ((spbDiv & 1) == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1186      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1187          spbDiv = 12;
 	jlt.u	d9,#7,.L212
 .L1259:
 	jge.u	d9,#14,.L213
@@ -8647,48 +8647,48 @@ IfxScuCcu_setSpbFrequency:	.type	func
 	jz.t	d9:0,.L214
 .L1261:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1188      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1189          spbDiv = spbDiv - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1188      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1189  
 	add	d9,#-1
 .L214:
 .L213:
 .L212:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1190      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1191  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1192      if (spbDiv == 14)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1190      l_EndInitPW  = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1191      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1192  
 	mov	d15,#14
 .L1262:
 	jne	d15,d9,.L215
 .L1263:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1193      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1194          spbDiv = 12;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1193      IfxScuWdt_clearCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1194      SCU_TRAPDIS.U = SCU_TRAPDIS.U | 0x3E0U;
 	mov	d9,#12
 .L215:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1195      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1195      IfxScuWdt_setCpuEndinit(l_EndInitPW);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1197      l_EndInitPW  = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1197      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L938:
 	mov	d8,d2
 .L942:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1198      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1198  
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L941:
 	mov	d10,d2
 .L944:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1199  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1200      IfxScuWdt_clearCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1199      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1200      {}
 	mov	d4,d8
 .L945:
 	call	IfxScuWdt_clearCpuEndinit
 .L943:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1201      SCU_TRAPDIS.U = SCU_TRAPDIS.U | 0x3E0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1201  
 	movh.a	a15,#61443
 	ld.w	d0,[a15]@los(0xf0036130)
 .L1264:
@@ -8700,21 +8700,21 @@ IfxScuCcu_setSpbFrequency:	.type	func
 	st.w	[a15]@los(0xf0036130),d0
 .L1267:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1202      IfxScuWdt_setCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1202      ccucon0.U        = SCU_CCUCON0.U;
 	mov	d4,d8
 .L946:
 	call	IfxScuWdt_setCpuEndinit
 .L947:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1203  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1204      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1203      ccucon0.B.SPBDIV = spbDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1204      ccucon0.B.UP     = 1;
 	mov	d4,d10
 .L948:
 	call	IfxScuWdt_clearSafetyEndinit
 .L949:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1206      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1205      SCU_CCUCON0.U    = ccucon0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1206      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
 	j	.L216
 .L217:
 .L216:
@@ -8725,44 +8725,44 @@ IfxScuCcu_setSpbFrequency:	.type	func
 	jne	d15,#0,.L217
 .L1269:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1207      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1208  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1209      ccucon0.U        = SCU_CCUCON0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1207  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1208      IfxScuWdt_clearCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1209      SCU_TRAPDIS.U = SCU_TRAPDIS.U & (uint32)~0x3E0UL;
 	movh.a	a15,#61443
 	ld.w	d15,[a15]@los(0xf0036030)
 .L950:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1210      ccucon0.B.SPBDIV = spbDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1210      IfxScuWdt_setCpuEndinit(l_EndInitPW);
 	extr.u	d0,d9,#0,#8
 .L1270:
 	insert	d15,d15,d0,#16,#4
 .L1271:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1211      ccucon0.B.UP     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1211  
 	mov	d0,#1
 .L1272:
 	insert	d15,d15,d0,#30,#1
 .L1273:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1212      SCU_CCUCON0.U    = ccucon0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1212      while (SCU_CCUCON0.B.LCK != 0U)
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf0036030),d15
 .L1274:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1213      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1213      {}
 	mov	d4,d10
 .L952:
 	call	IfxScuWdt_setSafetyEndinit
 .L953:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1214  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1215      IfxScuWdt_clearCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1215      return IfxScuCcu_getSpbFrequency();
 	mov	d4,d8
 .L954:
 	call	IfxScuWdt_clearCpuEndinit
 .L955:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1216      SCU_TRAPDIS.U = SCU_TRAPDIS.U & (uint32)~0x3E0UL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1216  }
 	movh.a	a15,#61443
 	ld.w	d15,[a15]@los(0xf0036130)
 .L951:
@@ -8772,14 +8772,14 @@ IfxScuCcu_setSpbFrequency:	.type	func
 	st.w	[a15]@los(0xf0036130),d15
 .L1276:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1217      IfxScuWdt_setCpuEndinit(l_EndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1217  
 	mov	d4,d8
 .L956:
 	call	IfxScuWdt_setCpuEndinit
 .L957:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1219      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1219  float32 IfxScuCcu_setSriFrequency(float32 sriFreq)
 	j	.L218
 .L219:
 .L218:
@@ -8790,14 +8790,14 @@ IfxScuCcu_setSpbFrequency:	.type	func
 	jne	d15,#0,.L219
 .L1278:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1220      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1221  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1222      return IfxScuCcu_getSpbFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1220  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1221      float32         freq   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1222      float32         source = IfxScuCcu_getSourceFrequency();
 	call	IfxScuCcu_getSpbFrequency
 .L1279:
 	j	.L220
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1223  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1223      Ifx_SCU_CCUCON0 ccucon0;
 .L220:
 	ret
 .L555:
@@ -8813,24 +8813,24 @@ __IfxScuCcu_setSpbFrequency_function_end:
 	
 	.global	IfxScuCcu_setSriFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1224  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1226  float32 IfxScuCcu_setSriFrequency(float32 sriFreq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1224      uint16          l_SEndInitPW;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1225      uint32          sriDiv = (uint32)__roundf(source / sriFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1226      sriDiv = __maxu(sriDiv, 1);
 ; Function IfxScuCcu_setSriFrequency
 .L302:
 IfxScuCcu_setSriFrequency:	.type	func
 	mov	d8,d4
 .L959:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1227  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1228      float32         freq   = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1229      float32         source = IfxScuCcu_getSourceFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1227  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1228      if ((sriDiv >= 7) && (sriDiv < 14) && ((sriDiv & 1) == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1229      {
 	call	IfxScuCcu_getSourceFrequency
 .L958:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1230      Ifx_SCU_CCUCON0 ccucon0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1231      uint16          l_SEndInitPW;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1232      uint32          sriDiv = (uint32)__roundf(source / sriFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1230          sriDiv = sriDiv - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1231      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1232  
 	div.f	d15,d2,d8
 	div.f	d0,d2,d8
 	ftoiz	d0,d0
@@ -8848,12 +8848,12 @@ IfxScuCcu_setSriFrequency:	.type	func
 	add	d15,#1
 .L222:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1233      sriDiv = __maxu(sriDiv, 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1233      if (sriDiv == 14)
 	max.u	d8,d15,#1
 .L960:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1234  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1235      if ((sriDiv >= 7) && (sriDiv < 14) && ((sriDiv & 1) == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1234      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1235          sriDiv = 12;
 	jlt.u	d8,#7,.L223
 .L1284:
 	jge.u	d8,#14,.L224
@@ -8861,42 +8861,42 @@ IfxScuCcu_setSriFrequency:	.type	func
 	jz.t	d8:0,.L225
 .L1286:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1236      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1237          sriDiv = sriDiv - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1236      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1237  
 	add	d8,#-1
 .L225:
 .L224:
 .L223:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1238      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1239  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1240      if (sriDiv == 14)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1238      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1239      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1240  
 	mov	d15,#14
 .L1287:
 	jne	d15,d8,.L226
 .L1288:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1241      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1242          sriDiv = 12;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1241      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1242      {}
 	mov	d8,#12
 .L226:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1243      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1244  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1245      l_SEndInitPW = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1243  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1244      ccucon0.U        = SCU_CCUCON0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1245      ccucon0.B.SRIDIV = sriDiv;
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L961:
 	mov	d9,d2
 .L963:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1246      IfxScuWdt_clearSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1246      ccucon0.B.UP     = 1;
 	mov	d4,d9
 .L962:
 	call	IfxScuWdt_clearSafetyEndinit
 .L964:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1247  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1248      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1247      SCU_CCUCON0.U    = ccucon0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1248  
 	j	.L227
 .L228:
 .L227:
@@ -8907,39 +8907,39 @@ IfxScuCcu_setSriFrequency:	.type	func
 	jne	d15,#0,.L228
 .L1290:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1249      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1249      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1250  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1251      ccucon0.U        = SCU_CCUCON0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1251      while (SCU_CCUCON0.B.LCK != 0U)
 	movh.a	a15,#61443
 	ld.w	d15,[a15]@los(0xf0036030)
 .L965:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1252      ccucon0.B.SRIDIV = sriDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1252      {}
 	extr.u	d0,d8,#0,#8
 .L1291:
 	insert	d15,d15,d0,#8,#4
 .L1292:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1253      ccucon0.B.UP     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1253  
 	mov	d0,#1
 .L1293:
 	insert	d15,d15,d0,#30,#1
 .L1294:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1254      SCU_CCUCON0.U    = ccucon0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1254      freq = IfxScuCcu_getSriFrequency();
 	movh.a	a15,#61443
 	st.w	[a15]@los(0xf0036030),d15
 .L1295:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1255  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1256      IfxScuWdt_setSafetyEndinit(l_SEndInitPW);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1255      return freq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1256  }
 	mov	d4,d9
 .L966:
 	call	IfxScuWdt_setSafetyEndinit
 .L967:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1257  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1258      while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1258  
 	j	.L229
 .L230:
 .L229:
@@ -8950,16 +8950,16 @@ IfxScuCcu_setSriFrequency:	.type	func
 	jne	d15,#0,.L230
 .L1297:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1259      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1261      freq = IfxScuCcu_getSriFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1259  void IfxScuCcu_switchToBackupClock(const IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1260  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1261      uint16 endinit_pw, endinitSfty_pw;
 	call	IfxScuCcu_getSriFrequency
 .L968:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1262      return freq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1262      int    pllStepsCount;
 	j	.L231
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1263  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1263      uint8  smuTrapEnable;
 .L231:
 	ret
 .L562:
@@ -8976,20 +8976,20 @@ __IfxScuCcu_setSriFrequency_function_end:
 	.global	IfxScuCcu_switchToBackupClock
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1265  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1266  void IfxScuCcu_switchToBackupClock(const IfxScuCcu_Config *cfg)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1265      if (SCU_CCUCON0.B.CLKSEL == 0) /* Already source is backup clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1266      {
 ; Function IfxScuCcu_switchToBackupClock
 .L304:
 IfxScuCcu_switchToBackupClock:	.type	func
 	mov.aa	a15,a4
 .L970:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1267  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1268      uint16 endinit_pw, endinitSfty_pw;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1269      int    pllStepsCount;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1270      uint8  smuTrapEnable;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1271  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1272      if (SCU_CCUCON0.B.CLKSEL == 0) /* Already source is backup clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1267          return;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1268      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1269  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1270      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1271      endinit_pw     = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1272  
 	movh.a	a2,#61443
 	ld.bu	d15,[a2]@los(0xf0036033)
 	extr.u	d15,d15,#4,#2
@@ -8997,44 +8997,44 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	jne	d15,#0,.L232
 .L1560:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1273      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1274          return;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1273      /*Start Pll ramp down sequence */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1274      for (pllStepsCount = cfg->sysPll.numOfPllDividerSteps; pllStepsCount > 0; pllStepsCount--)
 	j	.L233
 .L232:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1275      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1276  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1277      endinitSfty_pw = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1275      {                       /*iterate through number of pll steps */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1276          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1277              IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L969:
 	mov	d8,d2
 .L973:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1278      endinit_pw     = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1278  
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L972:
 	mov	d9,d2
 .L974:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1280      /*Start Pll ramp down sequence */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1281      for (pllStepsCount = cfg->sysPll.numOfPllDividerSteps; pllStepsCount > 0; pllStepsCount--)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1279              /*Configure K2 divider */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1280              while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1281              {
 	ld.bu	d10,[a15]
 .L975:
 	j	.L234
 .L235:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1282      {                       /*iterate through number of pll steps */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1283          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1284              IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1282                  /*Wait until K2 divider is ready */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1283                  /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1284              }
 	mov	d4,d8
 .L977:
 	call	IfxScuWdt_clearSafetyEndinit
 .L978:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1285  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1286              /*Configure K2 divider */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1287              while (SCU_PLLSTAT.B.K2RDY == 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1286              /*Now set the K2 divider value for the step corresponding to step count */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1287              SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllDividerStep[pllStepsCount - 1].k2Step;
 	j	.L236
 .L237:
 .L236:
@@ -9045,13 +9045,13 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	jeq	d15,#0,.L237
 .L1562:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1288              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1289                  /*Wait until K2 divider is ready */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1290                  /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1291              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1292  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1293              /*Now set the K2 divider value for the step corresponding to step count */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1294              SCU_PLLCON1.B.K2DIV = cfg->sysPll.pllDividerStep[pllStepsCount - 1].k2Step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1288  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1289              IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1290  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1291              /*Wait for waitCounter corresponding to the pll step */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1292              IfxScuCcu_wait(cfg->sysPll.pllDividerStep[pllStepsCount - 1].waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1293          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1294      }
 	movh.a	a2,#61443
 	ld.bu	d0,[a2]@los(0xf003601c)
 .L1563:
@@ -9071,15 +9071,15 @@ IfxScuCcu_switchToBackupClock:	.type	func
 .L1569:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1295  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1296              IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1296      {
 	mov	d4,d8
 .L979:
 	call	IfxScuWdt_setSafetyEndinit
 .L980:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1297  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1298              /*Wait for waitCounter corresponding to the pll step */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1299              IfxScuCcu_wait(cfg->sysPll.pllDividerStep[pllStepsCount - 1].waitTime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1297          /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1298          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1299  
 	add	d15,d10,#-1
 .L1570:
 	mul	d15,d15,#12
@@ -9096,26 +9096,26 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	jge	d10,#1,.L235
 .L1575:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1300          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1301      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1300          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1301          SCU_TRAPDIS.B.SMUT = 1U;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1302  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1303      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1304          /* Disable TRAP for SMU (oscillator watchdog and unlock detection) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1305          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1303          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1304      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1305  
 	mov	d4,d9
 .L981:
 	call	IfxScuWdt_clearCpuEndinit
 .L982:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1306  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1307          smuTrapEnable      = SCU_TRAPDIS.B.SMUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1306      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1307          /* Select fback (fosc-evr) as CCU input clock */
 	movh.a	a15,#61443
 .L971:
 	ld.bu	d15,[a15]@los(0xf0036130)
 	extr.u	d10,d15,#3,#1
 .L976:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1308          SCU_TRAPDIS.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1308          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036130)
 .L1576:
@@ -9125,24 +9125,24 @@ IfxScuCcu_switchToBackupClock:	.type	func
 .L1577:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1309  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1310          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1310          while (SCU_CCUCON0.B.LCK != 0U)
 	mov	d4,d9
 .L983:
 	call	IfxScuWdt_setCpuEndinit
 .L984:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1311      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1313      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1314          /* Select fback (fosc-evr) as CCU input clock */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1315          IfxScuWdt_clearSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1311          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1312              /*Wait till ccucon0 lock is set */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1313              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1314          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1315  
 	mov	d4,d8
 .L985:
 	call	IfxScuWdt_clearSafetyEndinit
 .L986:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1316  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1317          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1316          SCU_CCUCON0.B.CLKSEL = 0; /*Select the EVR as fOSC for the clock distribution */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1317          SCU_CCUCON0.B.UP     = 1; /*Update the ccucon0 register */
 	j	.L238
 .L239:
 .L238:
@@ -9153,12 +9153,12 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	jne	d15,#0,.L239
 .L1579:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1318          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1319              /*Wait till ccucon0 lock is set */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1320              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1321          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1322  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1323          SCU_CCUCON0.B.CLKSEL = 0; /*Select the EVR as fOSC for the clock distribution */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1318  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1319          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1320          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1321              /*Wait till ccucon0 lock is set */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1322              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1323          }
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036033)
 .L1580:
@@ -9167,7 +9167,7 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf0036033),d15
 .L1581:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1324          SCU_CCUCON0.B.UP     = 1; /*Update the ccucon0 register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1324  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036033)
 .L1582:
@@ -9176,8 +9176,8 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf0036033),d15
 .L1583:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1325  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1326          while (SCU_CCUCON0.B.LCK != 0U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1325          /* Disconnet PLL (SETFINDIS=1): oscillator clock is disconnected from PLL */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1326          SCU_PLLCON0.B.SETFINDIS = 1;
 	j	.L240
 .L241:
 .L240:
@@ -9188,13 +9188,13 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	jne	d15,#0,.L241
 .L1585:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1327          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1328              /*Wait till ccucon0 lock is set */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1329              /*No "timeout" required, because if it hangs, Safety Endinit will give a trap */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1330          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1331  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1332          /* Disconnet PLL (SETFINDIS=1): oscillator clock is disconnected from PLL */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1333          SCU_PLLCON0.B.SETFINDIS = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1327  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1328          /* Enable oscillator disconnect feature */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1329          SCU_PLLCON0.B.OSCDISCDIS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1330          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1331      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1332      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1333          /* Enable VCO unlock Trap if it was disabled before */
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036018)
 .L1586:
@@ -9203,9 +9203,9 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf0036018),d15
 .L1587:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1334  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1335          /* Enable oscillator disconnect feature */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1336          SCU_PLLCON0.B.OSCDISCDIS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1334          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1335          SCU_TRAPCLR.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1336  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036018)
 .L1588:
@@ -9214,22 +9214,22 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf0036018),d15
 .L1589:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1337          IfxScuWdt_setSafetyEndinit(endinitSfty_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1337          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
 	mov	d4,d8
 .L987:
 	call	IfxScuWdt_setSafetyEndinit
 .L988:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1338      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1339      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1340          /* Enable VCO unlock Trap if it was disabled before */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1341          IfxScuWdt_clearCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1338          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1339      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1340  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1341  
 	mov	d4,d9
 .L989:
 	call	IfxScuWdt_clearCpuEndinit
 .L990:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1342          SCU_TRAPCLR.B.SMUT = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1342  
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf003612c)
 .L1590:
@@ -9238,8 +9238,8 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf003612c),d15
 .L1591:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1343  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1344          SCU_TRAPDIS.B.SMUT = smuTrapEnable;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1343  IFX_STATIC void IfxScuCcu_wait(float32 timeSec)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1344  {
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036130)
 .L1592:
@@ -9248,13 +9248,13 @@ IfxScuCcu_switchToBackupClock:	.type	func
 	st.b	[a15]@los(0xf0036130),d15
 .L1593:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1345          IfxScuWdt_setCpuEndinit(endinit_pw);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1345      uint32 stmCount      = (uint32)(IfxScuCcu_getStmFrequency() * timeSec);
 	mov	d4,d9
 .L991:
 	call	IfxScuWdt_setCpuEndinit
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1346      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1347  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1346      uint32 stmCountBegin = STM0_TIM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1347  
 .L233:
 	ret
 .L660:
@@ -9269,9 +9269,9 @@ __IfxScuCcu_switchToBackupClock_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1348  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1349  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1350  IFX_STATIC void IfxScuCcu_wait(float32 timeSec)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1348      while ((uint32)(STM0_TIM0.U - stmCountBegin) < stmCount)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1349      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1350          /* There is no need to check overflow of the STM timer.
 ; Function IfxScuCcu_wait
 .L306:
 IfxScuCcu_wait:	.type	func
@@ -10418,19 +10418,19 @@ IfxScuCcu_wait:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.h	  1125  }      (inlined)
 .L242:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1351  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1352      uint32 stmCount      = (uint32)(IfxScuCcu_getStmFrequency() * timeSec);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1351  timer.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1352           * When counter after overflow subtracted with counter before overflow,
 	mul.f	d15,d15,d8
 .L1642:
 	ftouz	d15,d15
 .L993:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1353      uint32 stmCountBegin = STM0_TIM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1353           * the subtraction result will be as expected, as long as both are unsigned 32 bits
 	ld.w	d1,0xf0000010
 .L994:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1354  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1355      while ((uint32)(STM0_TIM0.U - stmCountBegin) < stmCount)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1354           * eg: stmCountBegin= 0xFFFFFFFE (before overflow)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1355           *     stmCountNow = 0x00000002 (before overflow)
 	j	.L243
 .L244:
 .L243:
@@ -10441,15 +10441,10 @@ IfxScuCcu_wait:	.type	func
 	jlt.u	d0,d15,.L244
 .L1645:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1356      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1357          /* There is no need to check overflow of the STM timer.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1358           * When counter after overflow subtracted with counter before overflow,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1359           * the subtraction result will be as expected, as long as both are unsigned 32 bits
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1360           * eg: stmCountBegin= 0xFFFFFFFE (before overflow)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1361           *     stmCountNow = 0x00000002 (before overflow)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1362           *     diff= stmCountNow - stmCountBegin = 4 as expected.*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1363      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1364  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1356           *     diff= stmCountNow - stmCountBegin = 4 as expected.*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1357      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuCcu.c	  1358  }
+
 	ret
 .L681:
 	

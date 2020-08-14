@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc\\.IfxDsadc_Dsadc.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc\\IfxDsadc_Dsadc.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc\\IfxDsadc_Dsadc.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc\\IfxDsadc_Dsadc.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc\\IfxDsadc_Dsadc.c'
@@ -912,7 +912,7 @@ IfxDsadc_Dsadc_getAuxResult:	.type	func
 .L11:
 	j	.L12
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   146  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   146  Dsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_AuxFilterConfig *config)
 .L12:
 	ret
 .L300:
@@ -927,22 +927,22 @@ __IfxDsadc_Dsadc_getAuxResult_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   147  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   148  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   149  IFX_STATIC void IfxDsadc_Dsadc_initAuxFilter(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_AuxFilterConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   147  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   148      Ifx_DSADC_CH_FCFGA fcfga;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   149  
 ; Function IfxDsadc_Dsadc_initAuxFilter
 .L48:
 IfxDsadc_Dsadc_initAuxFilter:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   150  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   151      Ifx_DSADC_CH_FCFGA fcfga;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   152  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   153      fcfga.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   150      fcfga.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   151  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   152      fcfga.B.CFADF             = config->decimationFactor - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   153      fcfga.B.CFAC              = config->combFilterType;
 	mov	d0,#0
 .L376:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   154  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   155      fcfga.B.CFADF             = config->decimationFactor - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   155      fcfga.B.SRGA              = config->serviceRequest;
 	ld.bu	d15,[a5]6
 .L594:
 	add	d15,#-1
@@ -951,46 +951,46 @@ IfxDsadc_Dsadc_initAuxFilter:	.type	func
 	insert	d0,d0,d15,#0,#8
 .L596:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   156      fcfga.B.CFAC              = config->combFilterType;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   156      fcfga.B.ESEL              = config->eventSelect;
 	ld.bu	d15,[a5]1
 .L597:
 	insert	d0,d0,d15,#8,#2
 .L598:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   157  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   158      fcfga.B.SRGA              = config->serviceRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   157      fcfga.B.EGT               = config->eventGate;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   158  
 	ld.bu	d15,[a5]3
 .L599:
 	insert	d0,d0,d15,#10,#2
 .L600:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   159      fcfga.B.ESEL              = config->eventSelect;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   159      fcfga.B.AFSC              = config->combFilterShift;
 	ld.bu	d15,[a5]4
 .L601:
 	insert	d0,d0,d15,#12,#2
 .L602:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   160      fcfga.B.EGT               = config->eventGate;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   160  
 	ld.bu	d15,[a5]5
 .L603:
 	insert	d0,d0,d15,#14,#1
 .L604:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   161  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   162      fcfga.B.AFSC              = config->combFilterShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   161      (channel->channel)->FCFGA = fcfga;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   162  }
 	ld.bu	d15,[a5]2
 .L605:
 	insert	d0,d0,d15,#16,#2
 .L606:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   163  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   164      (channel->channel)->FCFGA = fcfga;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   164  
 	ld.a	a15,[a4]4
 .L607:
 	st.w	[a15]24,d0
 .L608:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   165  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   165  void IfxDsadc_Dsadc_initCarrierGen(IfxDsadc_Dsadc *dsadc, const IfxDsadc_Dsadc_CarrierGenConfig *config)
 	ret
 .L322:
 	
@@ -1005,9 +1005,9 @@ __IfxDsadc_Dsadc_initAuxFilter_function_end:
 	
 	.global	IfxDsadc_Dsadc_initCarrierGen
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   166  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   167  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   168  void IfxDsadc_Dsadc_initCarrierGen(IfxDsadc_Dsadc *dsadc, const IfxDsadc_Dsadc_CarrierGenConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   166  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   167      Ifx_DSADC_CGCFG cgcfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   168  
 ; Function IfxDsadc_Dsadc_initCarrierGen
 .L50:
 IfxDsadc_Dsadc_initCarrierGen:	.type	func
@@ -1018,27 +1018,27 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	mov.aa	a13,a5
 .L381:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   169  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   170      Ifx_DSADC_CGCFG cgcfg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   171  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   172      cgcfg.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   169      cgcfg.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   170  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   171      float32         sourceFreq = IfxDsadc_getModulatorInputClockFreq(dsadc->dsadc);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   172      float32         targetFreq = config->frequency;
 	mov	d8,#0
 .L159:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   173  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   174      float32         sourceFreq = IfxDsadc_getModulatorInputClockFreq(dsadc->dsadc);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   173      cgcfg.B.DIVCG       = IfxDsadc_Dsadc_calcDIVx(sourceFreq / (32 * 32), &targetFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   174      cgcfg.B.SIGPOL      = (config->inverted == FALSE) ? 0 : 1;
 	ld.a	a4,[a12]
 .L379:
 	call	IfxDsadc_getModulatorInputClockFreq
 .L378:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   175      float32         targetFreq = config->frequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   175      cgcfg.B.BREV        = (config->bitReversed == FALSE) ? 0 : 1;
 	ld.w	d15,[a13]4
 .L441:
 	st.w	[a10],d15
 .L442:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   176      cgcfg.B.DIVCG       = IfxDsadc_Dsadc_calcDIVx(sourceFreq / (32 * 32), &targetFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   176      cgcfg.B.CGMOD       = config->carrierWaveformMode;
 	movh	d15,#17536
 .L443:
 	div.f	d4,d2,d15
@@ -1050,7 +1050,7 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	insert	d8,d8,d15,#4,#4
 .L445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   177      cgcfg.B.SIGPOL      = (config->inverted == FALSE) ? 0 : 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   177  
 	ld.bu	d15,[a13]1
 .L446:
 	jne	d15,#0,.L13
@@ -1064,7 +1064,7 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	insert	d8,d8,d15,#3,#1
 .L449:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   178      cgcfg.B.BREV        = (config->bitReversed == FALSE) ? 0 : 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   178      dsadc->dsadc->CGCFG = cgcfg;
 	ld.bu	d15,[a13]2
 .L450:
 	jne	d15,#0,.L15
@@ -1078,31 +1078,31 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	insert	d8,d8,d15,#2,#1
 .L453:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   179      cgcfg.B.CGMOD       = config->carrierWaveformMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   179  
 	ld.bu	d15,[a13]
 .L454:
 	insert	d8,d8,d15,#0,#2
 .L455:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   180  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   181      dsadc->dsadc->CGCFG = cgcfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   180      const IfxDsadc_Cgpwm_Out *pinPos = config->pinPos;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   181  
 	ld.a	a2,[a12]
 .L456:
 	st.w	[a2]160,d8
 .L163:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   183      const IfxDsadc_Cgpwm_Out *pinPos = config->pinPos;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   182      if (pinPos != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   183      {                           /* Initialise positive carrier pin */
 	ld.a	a15,[a13]8
 .L383:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   184  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   185      if (pinPos != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   184          IfxDsadc_initCgPwmPin(pinPos, config->pinMode, config->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   185      }
 	jz.a	a15,.L17
 .L457:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   186      {                           /* Initialise positive carrier pin */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   187          IfxDsadc_initCgPwmPin(pinPos, config->pinMode, config->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   186  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   187      const IfxDsadc_Cgpwm_Out *pinNeg = config->pinNeg;
 	ld.bu	d5,[a13]16
 .L458:
 	ld.bu	d8,[a13]17
@@ -2360,7 +2360,7 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	call	IfxPort_setPinMode
 .L177:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   653      IfxPort_setPinPadDriver(cgPwm->pin.port, cgPwm->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   653  INE void IfxDsadc_initCinPin(const IfxDsadc_Cin_In *cIn, IfxPort_InputMode cInMode, IfxPort_PadDriver padDriver)
 	ld.a	a4,[a15]4
 .L462:
 	ld.bu	d4,[a15]8
@@ -2369,19 +2369,19 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	call	IfxPort_setPinPadDriver
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   188      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   189  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   190      const IfxDsadc_Cgpwm_Out *pinNeg = config->pinNeg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   188                     /* Initialise negative carrier pin */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   189          IfxDsadc_initCgPwmPin(pinNeg, config->pinMode, config->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   190      }
 	ld.a	a15,[a13]12
 .L384:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   191  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   192      if (pinNeg != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   191  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   192  
 	jz.a	a15,.L18
 .L464:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   193      {                           /* Initialise negative carrier pin */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   194          IfxDsadc_initCgPwmPin(pinNeg, config->pinMode, config->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   193  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   194  void IfxDsadc_Dsadc_initChannel(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_ChannelConfig *config)
 	ld.bu	d5,[a13]16
 .L465:
 	ld.bu	d8,[a13]17
@@ -3639,7 +3639,7 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	call	IfxPort_setPinMode
 .L190:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   653      IfxPort_setPinPadDriver(cgPwm->pin.port, cgPwm->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   653  INE void IfxDsadc_initCinPin(const IfxDsadc_Cin_In *cIn, IfxPort_InputMode cInMode, IfxPort_PadDriver padDriver)
 	ld.a	a4,[a15]4
 .L469:
 	ld.bu	d4,[a15]8
@@ -3648,8 +3648,8 @@ IfxDsadc_Dsadc_initCarrierGen:	.type	func
 	call	IfxPort_setPinPadDriver
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   195      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   196  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   195  fx_DSADC *dsadc = config->module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   196  
 	ret
 .L152:
 	
@@ -3664,9 +3664,9 @@ __IfxDsadc_Dsadc_initCarrierGen_function_end:
 	
 	.global	IfxDsadc_Dsadc_initChannel
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   197  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   198  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   199  void IfxDsadc_Dsadc_initChannel(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_ChannelConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   197      channel->channelId = config->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   198      channel->module    = dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   199      channel->channel   = (Ifx_DSADC_CH *)&dsadc->CH[config->channelId];
 ; Function IfxDsadc_Dsadc_initChannel
 .L52:
 IfxDsadc_Dsadc_initChannel:	.type	func
@@ -3675,23 +3675,23 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	mov.aa	a13,a5
 .L389:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   200  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   201      Ifx_DSADC *dsadc = config->module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   200  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   201      IfxDsadc_Dsadc_initModulator(channel, &config->modulator);
 	ld.a	a2,[a13]
 .L390:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   202  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   203      channel->channelId = config->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   202      IfxDsadc_Dsadc_initDemodulator(channel, &config->demodulator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   203      IfxDsadc_Dsadc_initCombFilter(channel, &config->combFilter);
 	ld.bu	d15,[a13]4
 .L494:
 	st.b	[a12]8,d15
 .L495:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   204      channel->module    = dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   204      IfxDsadc_Dsadc_initFirFilter(channel, &config->firFilter);
 	st.a	[a12],a2
 .L496:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   205      channel->channel   = (Ifx_DSADC_CH *)&dsadc->CH[config->channelId];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   205      IfxDsadc_Dsadc_initIntegrator(channel, &config->integrator);
 	ld.bu	d15,[a13]4
 .L497:
 	mov	d0,#256
@@ -3703,50 +3703,50 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	st.a	[a12]4,a15
 .L499:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   206  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   207      IfxDsadc_Dsadc_initModulator(channel, &config->modulator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   206      IfxDsadc_Dsadc_initAuxFilter(channel, &config->auxFilter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   207      IfxDsadc_Dsadc_initRectifier(channel, &config->rectifier);
 	lea	a5,[a13]8
 .L386:
 	mov.aa	a4,a12
 	call	IfxDsadc_Dsadc_initModulator
 .L385:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   208      IfxDsadc_Dsadc_initDemodulator(channel, &config->demodulator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   208  
 	lea	a5,[a13]20
 	mov.aa	a4,a12
 .L392:
 	call	IfxDsadc_Dsadc_initDemodulator
 .L393:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   209      IfxDsadc_Dsadc_initCombFilter(channel, &config->combFilter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   209      const IfxDsadc_Dsadc_ChannelPins *pins = config->channelPins;
 	lea	a5,[a13]28
 	mov.aa	a4,a12
 .L394:
 	call	IfxDsadc_Dsadc_initCombFilter
 .L395:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   210      IfxDsadc_Dsadc_initFirFilter(channel, &config->firFilter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   210  
 	lea	a5,[a13]36
 	mov.aa	a4,a12
 .L396:
 	call	IfxDsadc_Dsadc_initFirFilter
 .L397:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   211      IfxDsadc_Dsadc_initIntegrator(channel, &config->integrator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   211      if (pins != NULL_PTR)
 	lea	a5,[a13]44
 	mov.aa	a4,a12
 .L398:
 	call	IfxDsadc_Dsadc_initIntegrator
 .L399:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   212      IfxDsadc_Dsadc_initAuxFilter(channel, &config->auxFilter);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   212      {
 	lea	a5,[a13]52
 	mov.aa	a4,a12
 .L400:
 	call	IfxDsadc_Dsadc_initAuxFilter
 .L401:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   213      IfxDsadc_Dsadc_initRectifier(channel, &config->rectifier);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   213          const IfxDsadc_Dsn_In *dsn = pins->dsn;
 	lea	a5,[a13]60
 	mov.aa	a4,a12
 .L402:
@@ -3754,27 +3754,27 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L216:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   214  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   215      const IfxDsadc_Dsadc_ChannelPins *pins = config->channelPins;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   215          if (dsn != NULL_PTR)
 	ld.a	a12,[a13]64
 .L388:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   216  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   217      if (pins != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   216          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   217              IfxDsadc_initDsnPin(dsn, pins->dsnMode, pins->pinDriver);
 	jz.a	a12,.L19
 .L219:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   218      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   219          const IfxDsadc_Dsn_In *dsn = pins->dsn;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   218          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   219  
 	ld.a	a15,[a12]24
 .L403:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   220  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   221          if (dsn != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   220          const IfxDsadc_Dsp_In *dsp = pins->dsp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   221  
 	jz.a	a15,.L20
 .L500:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   222          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   223              IfxDsadc_initDsnPin(dsn, pins->dsnMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   222          if (dsp != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   223          {
 	ld.b	d0,[a12]28
 .L501:
 	ld.bu	d8,[a12]37
@@ -5069,7 +5069,7 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	call	IfxPort_setPinMode
 .L233:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   692          IfxPort_setPinPadDriver(dsn->pin.port, dsn->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   692   IfxPort_setPinModeInput(dsn->pin.port, dsn->pin.pinIndex, pinMode);
 	ld.a	a4,[a15]8
 .L505:
 	ld.bu	d4,[a15]12
@@ -5081,19 +5081,19 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L21:
 .L20:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   224          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   226          const IfxDsadc_Dsp_In *dsp = pins->dsp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   224  in(dsp, pins->dspMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   225          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   226  
 	ld.a	a15,[a12]32
 .L404:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   227  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   228          if (dsp != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   227          const IfxDsadc_Cin_In *cin = pins->cin;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   228  
 	jz.a	a15,.L22
 .L507:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   229          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   230              IfxDsadc_initDspPin(dsp, pins->dspMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   229          if (cin != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   230          {
 	ld.b	d0,[a12]36
 .L508:
 	ld.bu	d8,[a12]37
@@ -6398,7 +6398,7 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	call	IfxPort_setPinMode
 .L253:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   702          IfxPort_setPinPadDriver(dsp->pin.port, dsp->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   702  etPinModeInput(dsp->pin.port, dsp->pin.pinIndex, pinMode);
 	ld.a	a4,[a15]8
 .L512:
 	ld.bu	d4,[a15]12
@@ -6410,19 +6410,19 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L23:
 .L22:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   231          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   232  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   233          const IfxDsadc_Cin_In *cin = pins->cin;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   231       IfxDsadc_initCinPin(cin, pins->cinMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   232          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   233  
 	ld.a	a15,[a12]
 .L405:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   234  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   235          if (cin != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   234          const IfxDsadc_Din_In *din = pins->din;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   235  
 	jz.a	a15,.L24
 .L514:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   236          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   237              IfxDsadc_initCinPin(cin, pins->cinMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   236          if (din != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   237          {
 	ld.b	d0,[a12]4
 .L515:
 	ld.bu	d8,[a12]37
@@ -7687,7 +7687,7 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	call	IfxPort_setPinMode
 .L266:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   662          IfxPort_setPinPadDriver(cIn->pin.port, cIn->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   662   void IfxDsadc_initCoutPin(const IfxDsadc_Cout_Out *cout, IfxPort_OutputMode pinMode, IfxPort_PadDriver padDriver)
 	ld.a	a4,[a15]8
 .L519:
 	ld.bu	d4,[a15]12
@@ -7699,19 +7699,19 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L25:
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   238          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   239  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   240          const IfxDsadc_Din_In *din = pins->din;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   238       IfxDsadc_initDinPin(din, pins->dinMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   239          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   240  
 	ld.a	a15,[a12]8
 .L406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   241  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   242          if (din != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   241          const IfxDsadc_Itr_In *itr = pins->itr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   242  
 	jz.a	a15,.L26
 .L521:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   243          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   244              IfxDsadc_initDinPin(din, pins->dinMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   243          if (itr != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   244          {
 	ld.b	d0,[a12]12
 .L522:
 	ld.bu	d8,[a12]37
@@ -8996,7 +8996,7 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	call	IfxPort_setPinMode
 .L279:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   682          IfxPort_setPinPadDriver(dIn->pin.port, dIn->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   682   {
 	ld.a	a4,[a15]8
 .L526:
 	ld.bu	d4,[a15]12
@@ -9008,19 +9008,19 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L27:
 .L26:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   245          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   246  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   247          const IfxDsadc_Itr_In *itr = pins->itr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   245       IfxDsadc_initItrPin(itr, pins->itrMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   246          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   247      }
 	ld.a	a15,[a12]16
 .L407:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   248  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   249          if (itr != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   248  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   249  
 	jz.a	a15,.L28
 .L528:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   250          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   251              IfxDsadc_initItrPin(itr, pins->itrMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   250  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   251  void IfxDsadc_Dsadc_initChannelConfig(IfxDsadc_Dsadc_ChannelConfig *config, IfxDsadc_Dsadc *dsadc)
 	ld.b	d0,[a12]20
 .L529:
 	ld.bu	d8,[a12]37
@@ -10335,7 +10335,7 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 	call	IfxPort_setPinMode
 .L292:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   712          IfxPort_setPinPadDriver(itr->pin.port, itr->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Std\IfxDsadc.h	   712  nput(itr->pin.port, itr->pin.pinIndex, itrMode);
 	ld.a	a4,[a15]8
 .L533:
 	ld.bu	d4,[a15]12
@@ -10348,9 +10348,9 @@ IfxDsadc_Dsadc_initChannel:	.type	func
 .L28:
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   252          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   253      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   254  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   252  onst IfxDsadc_Dsadc_ChannelConfig IfxDsadc_Dsadc_defaultChannelConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   253          .modulator              = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   254              .positiveInput      = IfxDsadc_InputConfig_inputPin,
 	ret
 .L210:
 	
@@ -10365,17 +10365,17 @@ __IfxDsadc_Dsadc_initChannel_function_end:
 	
 	.global	IfxDsadc_Dsadc_initChannelConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   255  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   256  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   257  void IfxDsadc_Dsadc_initChannelConfig(IfxDsadc_Dsadc_ChannelConfig *config, IfxDsadc_Dsadc *dsadc)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   255              .negativeInput      = IfxDsadc_InputConfig_referenceGround,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   256              .inputGain          = IfxDsadc_InputGain_factor1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   257              .inputPin           = IfxDsadc_InputPin_a,
 ; Function IfxDsadc_Dsadc_initChannelConfig
 .L54:
 IfxDsadc_Dsadc_initChannelConfig:	.type	func
 	sub.a	a10,#72
 .L408:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   258  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   259      const IfxDsadc_Dsadc_ChannelConfig IfxDsadc_Dsadc_defaultChannelConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   258              .modulatorClockFreq = 10.0e6,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   259              .commonModeVoltage  = IfxDsadc_CommonModeVoltage_c,
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
@@ -10390,63 +10390,63 @@ IfxDsadc_Dsadc_initChannelConfig:	.type	func
 	st.w	[a2+],d15
 .L540:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   260          .modulator              = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   261              .positiveInput      = IfxDsadc_InputConfig_inputPin,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   262              .negativeInput      = IfxDsadc_InputConfig_referenceGround,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   263              .inputGain          = IfxDsadc_InputGain_factor1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   264              .inputPin           = IfxDsadc_InputPin_a,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   265              .modulatorClockFreq = 10.0e6,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   266              .commonModeVoltage  = IfxDsadc_CommonModeVoltage_c,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   267          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   268          .demodulator            = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   269              .inputDataSource    = IfxDsadc_InputDataSource_onChipStandAlone,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   270              .triggerInput       = IfxDsadc_TriggerInput_a,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   271              .integrationTrigger = IfxDsadc_IntegratorTrigger_bypassed,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   272              .timestampTrigger   = IfxDsadc_TimestampTrigger_noTrigger,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   273              .sampleClockSource  = IfxDsadc_SampleClockSource_internal,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   274              .sampleStrobe       = IfxDsadc_SampleStrobe_sampleOnRisingEdge,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   275          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   276          .combFilter             = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   277              .bypassed         = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   278              .combFilterType   = IfxDsadc_MainCombFilterType_comb3,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   279              .combFilterShift  = IfxDsadc_MainCombFilterShift_noShift,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   280              .serviceRequest   = IfxDsadc_MainServiceRequest_everyNewResult,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   281              .decimationFactor = 50,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   282              .startValue       = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   260          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   261          .demodulator            = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   262              .inputDataSource    = IfxDsadc_InputDataSource_onChipStandAlone,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   263              .triggerInput       = IfxDsadc_TriggerInput_a,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   264              .integrationTrigger = IfxDsadc_IntegratorTrigger_bypassed,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   265              .timestampTrigger   = IfxDsadc_TimestampTrigger_noTrigger,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   266              .sampleClockSource  = IfxDsadc_SampleClockSource_internal,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   267              .sampleStrobe       = IfxDsadc_SampleStrobe_sampleOnRisingEdge,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   268          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   269          .combFilter             = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   270              .bypassed         = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   271              .combFilterType   = IfxDsadc_MainCombFilterType_comb3,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   272              .combFilterShift  = IfxDsadc_MainCombFilterShift_noShift,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   273              .serviceRequest   = IfxDsadc_MainServiceRequest_everyNewResult,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   274              .decimationFactor = 50,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   275              .startValue       = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   276          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   277          .firFilter              = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   278              .fir0Enabled        = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   279              .fir1Enabled        = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   280              .offsetCompensation = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   281              .dataShift          = IfxDsadc_FirDataShift_noShift,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   282              .internalShift      = IfxDsadc_FirInternalShift_noShift,
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   283          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   284          .firFilter              = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   285              .fir0Enabled        = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   286              .fir1Enabled        = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   287              .offsetCompensation = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   288              .dataShift          = IfxDsadc_FirDataShift_noShift,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   289              .internalShift      = IfxDsadc_FirInternalShift_noShift,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   290          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   291          .integrator             = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   292              .windowSize        = IfxDsadc_IntegrationWindowSize_internalControl,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   293              .discardCount      = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   294              .integrationCount  = 20,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   295              .integrationCycles = 1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   296          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   297          .auxFilter              = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   298              .bypassed         = TRUE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   299              .combFilterType   = IfxDsadc_AuxCombFilterType_comb1,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   300              .combFilterShift  = IfxDsadc_AuxCombFilterShift_noShift,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   301              .serviceRequest   = IfxDsadc_AuxServiceRequest_never,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   302              .eventSelect      = IfxDsadc_AuxEvent_everyNewResult,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   303              .eventGate        = IfxDsadc_AuxGate_definedByESEL,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   304              .decimationFactor = 4,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   305          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   306          .rectifier              = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   307              .enabled    = FALSE,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   308              .signSource = IfxDsadc_RectifierSignSource_onChipGenerator,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   309              .signDelay  = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   310              .signPeriod = 0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   311          },
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   313          .channelPins            = NULL_PTR
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   314      };
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   315  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   316      *config           = IfxDsadc_Dsadc_defaultChannelConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   284          .integrator             = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   285              .windowSize        = IfxDsadc_IntegrationWindowSize_internalControl,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   286              .discardCount      = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   287              .integrationCount  = 20,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   288              .integrationCycles = 1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   289          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   290          .auxFilter              = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   291              .bypassed         = TRUE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   292              .combFilterType   = IfxDsadc_AuxCombFilterType_comb1,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   293              .combFilterShift  = IfxDsadc_AuxCombFilterShift_noShift,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   294              .serviceRequest   = IfxDsadc_AuxServiceRequest_never,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   295              .eventSelect      = IfxDsadc_AuxEvent_everyNewResult,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   296              .eventGate        = IfxDsadc_AuxGate_definedByESEL,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   297              .decimationFactor = 4,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   298          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   299          .rectifier              = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   300              .enabled    = FALSE,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   301              .signSource = IfxDsadc_RectifierSignSource_onChipGenerator,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   302              .signDelay  = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   303              .signPeriod = 0,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   304          },
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   305  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   306          .channelPins            = NULL_PTR
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   307      };
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   308  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   309      *config           = IfxDsadc_Dsadc_defaultChannelConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   310      config->channelId = IfxDsadc_ChannelId_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   311  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   312      if (dsadc != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   313      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   314          config->module = dsadc->dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   315      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   316      else
 	lea	a15,[a10]0
 .L541:
 	lea	a2,[a4]0
@@ -10459,19 +10459,19 @@ IfxDsadc_Dsadc_initChannelConfig:	.type	func
 	st.w	[a2+],d15
 .L542:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   317      config->channelId = IfxDsadc_ChannelId_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   317      {
 	mov	d15,#0
 .L543:
 	st.b	[a4]4,d15
 .L544:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   318  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   319      if (dsadc != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   318          config->module = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   319      }
 	jz.a	a5,.L32
 .L545:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   320      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   321          config->module = dsadc->dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   320  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   321  
 	ld.a	a15,[a5]
 .L546:
 	st.a	[a4],a15
@@ -10479,17 +10479,17 @@ IfxDsadc_Dsadc_initChannelConfig:	.type	func
 	j	.L33
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   322      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   323      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   324      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   325          config->module = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   322  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   323  IFX_STATIC void IfxDsadc_Dsadc_initCombFilter(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_CombFilterConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   324  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   325      Ifx_DSADC_CH_FCFGC fcfgc;
 	mov.a	a15,#0
 .L548:
 	st.a	[a4],a15
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   326      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   327  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   326  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   327      fcfgc.U                   = 0;
 	ret
 .L293:
 	
@@ -10504,21 +10504,21 @@ __IfxDsadc_Dsadc_initChannelConfig_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   328  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   329  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   330  IFX_STATIC void IfxDsadc_Dsadc_initCombFilter(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_CombFilterConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   329      fcfgc.B.CFMDF             = config->decimationFactor - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   330      fcfgc.B.CFMC              = config->combFilterType;
 ; Function IfxDsadc_Dsadc_initCombFilter
 .L56:
 IfxDsadc_Dsadc_initCombFilter:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   331  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   332      Ifx_DSADC_CH_FCFGC fcfgc;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   333  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   334      fcfgc.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   331      fcfgc.B.CFEN              = (config->bypassed == FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   332  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   333      fcfgc.B.MFSC              = config->combFilterShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   334  
 	mov	d0,#0
 .L409:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   335  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   336      fcfgc.B.CFMDF             = config->decimationFactor - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   335      fcfgc.B.SRGM              = config->serviceRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   336      fcfgc.B.CFMSV             = config->startValue - 1;
 	ld.hu	d15,[a5]4
 .L613:
 	add	d15,#-1
@@ -10527,13 +10527,13 @@ IfxDsadc_Dsadc_initCombFilter:	.type	func
 	insert	d0,d0,d15,#0,#8
 .L615:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   337      fcfgc.B.CFMC              = config->combFilterType;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   337  
 	ld.bu	d15,[a5]1
 .L616:
 	insert	d0,d0,d15,#8,#2
 .L617:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   338      fcfgc.B.CFEN              = (config->bypassed == FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   338      (channel->channel)->FCFGC = fcfgc;
 	ld.bu	d15,[a5]
 .L618:
 	jne	d15,#0,.L34
@@ -10547,21 +10547,21 @@ IfxDsadc_Dsadc_initCombFilter:	.type	func
 	insert	d0,d0,d15,#10,#1
 .L621:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   339  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   340      fcfgc.B.MFSC              = config->combFilterShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   339  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   340  
 	ld.bu	d15,[a5]2
 .L622:
 	insert	d0,d0,d15,#12,#2
 .L623:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   342      fcfgc.B.SRGM              = config->serviceRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   342  IFX_STATIC void IfxDsadc_Dsadc_initDemodulator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_DemodulatorConfig *config)
 	ld.bu	d15,[a5]3
 .L624:
 	insert	d0,d0,d15,#14,#2
 .L625:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   343      fcfgc.B.CFMSV             = config->startValue - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   343  {
 	ld.hu	d15,[a5]6
 .L626:
 	add	d15,#-1
@@ -10570,14 +10570,14 @@ IfxDsadc_Dsadc_initCombFilter:	.type	func
 	insert	d0,d0,d15,#16,#8
 .L628:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   344  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   345      (channel->channel)->FCFGC = fcfgc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   344      Ifx_DSADC_CH_DICFG dicfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   345  
 	ld.a	a15,[a4]4
 .L629:
 	st.w	[a15]20,d0
 .L630:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   346  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   346      dicfg.U                   = 0;
 	ret
 .L328:
 	
@@ -10592,84 +10592,84 @@ __IfxDsadc_Dsadc_initCombFilter_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   347  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   348  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   349  IFX_STATIC void IfxDsadc_Dsadc_initDemodulator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_DemodulatorConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   348      dicfg.B.DSRC              = config->inputDataSource;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   349      dicfg.B.DSWC              = 1; // enable write access for this bitfield
 ; Function IfxDsadc_Dsadc_initDemodulator
 .L58:
 IfxDsadc_Dsadc_initDemodulator:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   350  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   351      Ifx_DSADC_CH_DICFG dicfg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   352  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   353      dicfg.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   350  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   351      dicfg.B.ITRMODE           = config->integrationTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   352      dicfg.B.TSTRMODE          = config->timestampTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   353      dicfg.B.TRSEL             = config->triggerInput;
 	mov	d0,#0
 .L410:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   354  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   355      dicfg.B.DSRC              = config->inputDataSource;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   354      dicfg.B.TRWC              = 1; // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   355  
 	ld.bu	d15,[a5]
 .L635:
 	insert	d0,d0,d15,#0,#4
 .L636:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   356      dicfg.B.DSWC              = 1; // enable write access for this bitfield
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   356      dicfg.B.CSRC              = config->sampleClockSource;
 	mov	d15,#1
 .L637:
 	insert	d0,d0,d15,#7,#1
 .L638:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   357  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   358      dicfg.B.ITRMODE           = config->integrationTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   357      dicfg.B.STROBE            = config->sampleStrobe;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   358      dicfg.B.SCWC              = 1; // enable write access for these bitfields
 	ld.bu	d15,[a5]2
 .L639:
 	insert	d0,d0,d15,#8,#2
 .L640:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   359      dicfg.B.TSTRMODE          = config->timestampTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   359  
 	ld.bu	d15,[a5]3
 .L641:
 	insert	d0,d0,d15,#10,#2
 .L642:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   360      dicfg.B.TRSEL             = config->triggerInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   360      (channel->channel)->DICFG = dicfg;
 	ld.bu	d15,[a5]1
 .L643:
 	insert	d0,d0,d15,#12,#3
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   361      dicfg.B.TRWC              = 1; // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   361  }
 	mov	d15,#1
 .L645:
 	insert	d0,d0,d15,#15,#1
 .L646:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   362  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   363      dicfg.B.CSRC              = config->sampleClockSource;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   363  
 	ld.bu	d15,[a5]4
 .L647:
 	insert	d0,d0,d15,#16,#4
 .L648:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   364      dicfg.B.STROBE            = config->sampleStrobe;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   364  IFX_STATIC void IfxDsadc_Dsadc_initFirFilter(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_FirFilterConfig *config)
 	ld.bu	d15,[a5]5
 .L649:
 	insert	d0,d0,d15,#20,#4
 .L650:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   365      dicfg.B.SCWC              = 1; // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   365  {
 	mov	d15,#1
 .L651:
 	insert	d0,d0,d15,#31,#1
 .L652:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   366  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   367      (channel->channel)->DICFG = dicfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   366      Ifx_DSADC_CH_FCFGM fcfgm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   367  
 	ld.a	a15,[a4]4
 .L653:
 	st.w	[a15]8,d0
 .L654:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   368  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   368      fcfgm.U                   = 0;
 	ret
 .L334:
 	
@@ -10684,21 +10684,21 @@ __IfxDsadc_Dsadc_initDemodulator_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   369  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   370  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   371  IFX_STATIC void IfxDsadc_Dsadc_initFirFilter(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_FirFilterConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   370      fcfgm.B.FIR0EN            = (config->fir0Enabled != FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   371      fcfgm.B.FIR1EN            = (config->fir1Enabled != FALSE) ? 1 : 0;
 ; Function IfxDsadc_Dsadc_initFirFilter
 .L60:
 IfxDsadc_Dsadc_initFirFilter:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   372  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   373      Ifx_DSADC_CH_FCFGM fcfgm;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   374  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   375      fcfgm.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   372      fcfgm.B.OCEN              = (config->offsetCompensation != FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   373      fcfgm.B.DSH               = config->dataShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   374      fcfgm.B.FSH               = config->internalShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   375  
 	mov	d0,#0
 .L411:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   376  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   377      fcfgm.B.FIR0EN            = (config->fir0Enabled != FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   376      (channel->channel)->FCFGM = fcfgm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   377  }
 	ld.bu	d15,[a5]
 .L659:
 	jeq	d15,#0,.L36
@@ -10712,7 +10712,7 @@ IfxDsadc_Dsadc_initFirFilter:	.type	func
 	insert	d0,d0,d15,#0,#1
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   378      fcfgm.B.FIR1EN            = (config->fir1Enabled != FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   378  
 	ld.bu	d15,[a5]1
 .L663:
 	jeq	d15,#0,.L38
@@ -10726,7 +10726,7 @@ IfxDsadc_Dsadc_initFirFilter:	.type	func
 	insert	d0,d0,d15,#1,#1
 .L666:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   379      fcfgm.B.OCEN              = (config->offsetCompensation != FALSE) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   379  
 	ld.bu	d15,[a5]2
 .L667:
 	jeq	d15,#0,.L40
@@ -10740,26 +10740,26 @@ IfxDsadc_Dsadc_initFirFilter:	.type	func
 	insert	d0,d0,d15,#2,#1
 .L670:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   380      fcfgm.B.DSH               = config->dataShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   380  IFX_STATIC void IfxDsadc_Dsadc_initIntegrator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_IntegratorConfig *config)
 	ld.bu	d15,[a5]3
 .L671:
 	insert	d0,d0,d15,#3,#2
 .L672:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   381      fcfgm.B.FSH               = config->internalShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   381  {
 	ld.bu	d15,[a5]4
 .L673:
 	insert	d0,d0,d15,#5,#1
 .L674:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   382  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   383      (channel->channel)->FCFGM = fcfgm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   382      Ifx_DSADC_CH_IWCTR iwctr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   383  
 	ld.a	a15,[a4]4
 .L675:
 	st.w	[a15]16,d0
 .L676:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   384  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   384      iwctr.U                   = 0;
 	ret
 .L340:
 	
@@ -10774,21 +10774,21 @@ __IfxDsadc_Dsadc_initFirFilter_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   385  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   386  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   387  IFX_STATIC void IfxDsadc_Dsadc_initIntegrator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_IntegratorConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   386      iwctr.B.REPVAL            = config->integrationCycles - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   387      iwctr.B.NVALDIS           = config->discardCount;
 ; Function IfxDsadc_Dsadc_initIntegrator
 .L62:
 IfxDsadc_Dsadc_initIntegrator:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   388  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   389      Ifx_DSADC_CH_IWCTR iwctr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   388      iwctr.B.IWS               = config->windowSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   389      iwctr.B.NVALINT           = config->integrationCount - 1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   390  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   391      iwctr.U                   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   391      (channel->channel)->IWCTR = iwctr;
 	mov	d15,#0
 .L412:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   392  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   393      iwctr.B.REPVAL            = config->integrationCycles - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   392  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   393  
 	ld.hu	d0,[a5]6
 .L681:
 	add	d0,#-1
@@ -10797,20 +10797,20 @@ IfxDsadc_Dsadc_initIntegrator:	.type	func
 	insert	d15,d15,d0,#12,#4
 .L683:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   394      iwctr.B.NVALDIS           = config->discardCount;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   394  
 	ld.hu	d0,[a5]2
 	extr.u	d0,d0,#0,#8
 .L684:
 	insert	d15,d15,d0,#16,#6
 .L685:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   395      iwctr.B.IWS               = config->windowSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   395  IFX_STATIC void IfxDsadc_Dsadc_initModulator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_ModulatorConfig *config)
 	ld.bu	d0,[a5]
 .L686:
 	insert	d15,d15,d0,#23,#1
 .L687:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   396      iwctr.B.NVALINT           = config->integrationCount - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   396  {
 	ld.hu	d0,[a5]4
 .L688:
 	add	d0,#-1
@@ -10819,14 +10819,14 @@ IfxDsadc_Dsadc_initIntegrator:	.type	func
 	insert	d15,d15,d0,#24,#6
 .L690:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   397  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   398      (channel->channel)->IWCTR = iwctr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   397      Ifx_DSADC_CH_MODCFG modcfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   398  
 	ld.a	a15,[a4]4
 .L691:
 	st.w	[a15]32,d15
 .L692:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   399  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   399      modcfg.U         = 0;
 	ret
 .L346:
 	
@@ -10841,8 +10841,8 @@ __IfxDsadc_Dsadc_initIntegrator_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   400  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   401  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   402  IFX_STATIC void IfxDsadc_Dsadc_initModulator(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_ModulatorConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   401      modcfg.B.INCFGP  = config->positiveInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   402      modcfg.B.INCFGN  = config->negativeInput;
 ; Function IfxDsadc_Dsadc_initModulator
 .L64:
 IfxDsadc_Dsadc_initModulator:	.type	func
@@ -10853,58 +10853,58 @@ IfxDsadc_Dsadc_initModulator:	.type	func
 	mov.aa	a15,a5
 .L417:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   403  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   404      Ifx_DSADC_CH_MODCFG modcfg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   405  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   406      modcfg.U         = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   403      modcfg.B.GAINSEL = config->inputGain;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   404      modcfg.B.INSEL   = config->inputPin;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   405      modcfg.B.INCWC   = 1;       // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   406  
 	mov	d8,#0
 .L419:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   407  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   408      modcfg.B.INCFGP  = config->positiveInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   407      float32 targetFreq = config->modulatorClockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   408      float32 sourceFreq = IfxDsadc_getModulatorInputClockFreq(channel->module);
 	ld.bu	d15,[a15]
 .L697:
 	insert	d8,d8,d15,#0,#2
 .L698:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   409      modcfg.B.INCFGN  = config->negativeInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   409      modcfg.B.DIVM              = IfxDsadc_Dsadc_calcDIVx(sourceFreq, &targetFreq);
 	ld.bu	d15,[a15]1
 .L699:
 	insert	d8,d8,d15,#2,#2
 .L700:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   410      modcfg.B.GAINSEL = config->inputGain;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   410      modcfg.B.DWC               = 1; // enable write access for this bitfield
 	ld.bu	d15,[a15]2
 .L701:
 	insert	d8,d8,d15,#4,#4
 .L702:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   411      modcfg.B.INSEL   = config->inputPin;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   411  
 	ld.bu	d15,[a15]3
 .L703:
 	insert	d8,d8,d15,#8,#2
 .L704:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   412      modcfg.B.INCWC   = 1;       // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   412      modcfg.B.CMVS              = config->commonModeVoltage;
 	mov	d15,#1
 .L705:
 	insert	d8,d8,d15,#15,#1
 .L358:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   413  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   414      float32 targetFreq = config->modulatorClockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   413      modcfg.B.GCEN              = 0; // normal operation (calibration mode disabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   414      modcfg.B.MWC               = 1; // enable write access for these bitfields
 	ld.w	d15,[a15]4
 .L706:
 	st.w	[a10],d15
 .L707:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   415      float32 sourceFreq = IfxDsadc_getModulatorInputClockFreq(channel->module);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   415  
 	ld.a	a4,[a12]
 .L414:
 	call	IfxDsadc_getModulatorInputClockFreq
 .L415:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   416      modcfg.B.DIVM              = IfxDsadc_Dsadc_calcDIVx(sourceFreq, &targetFreq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   416      (channel->channel)->MODCFG = modcfg;
 	lea	a4,[a10]0
 	mov	d4,d2
 .L421:
@@ -10914,39 +10914,39 @@ IfxDsadc_Dsadc_initModulator:	.type	func
 	insert	d8,d8,d15,#16,#4
 .L708:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   417      modcfg.B.DWC               = 1; // enable write access for this bitfield
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   417  }
 	mov	d15,#1
 .L709:
 	insert	d8,d8,d15,#23,#1
 .L710:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   418  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   419      modcfg.B.CMVS              = config->commonModeVoltage;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   419  
 	ld.bu	d15,[a15]8
 .L711:
 	insert	d8,d8,d15,#24,#2
 .L712:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   420      modcfg.B.GCEN              = 0; // normal operation (calibration mode disabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   420  void IfxDsadc_Dsadc_initModule(IfxDsadc_Dsadc *dsadc, const IfxDsadc_Dsadc_Config *config)
 	mov	d15,#0
 .L713:
 	insert	d8,d8,d15,#28,#1
 .L714:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   421      modcfg.B.MWC               = 1; // enable write access for these bitfields
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   421  {
 	mov	d15,#1
 .L715:
 	insert	d8,d8,d15,#31,#1
 .L716:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   422  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   423      (channel->channel)->MODCFG = modcfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   422      Ifx_DSADC *dsadcSFR = config->dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   423  
 	ld.a	a15,[a12]4
 .L418:
 	st.w	[a15],d8
 .L717:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   424  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   424      dsadc->dsadc = dsadcSFR;
 	ret
 .L352:
 	
@@ -10962,93 +10962,93 @@ __IfxDsadc_Dsadc_initModulator_function_end:
 	.global	IfxDsadc_Dsadc_initModule
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   425  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   426  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   427  void IfxDsadc_Dsadc_initModule(IfxDsadc_Dsadc *dsadc, const IfxDsadc_Dsadc_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   426      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   427          uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
 ; Function IfxDsadc_Dsadc_initModule
 .L66:
 IfxDsadc_Dsadc_initModule:	.type	func
 	mov.aa	a15,a5
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   428  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   429      Ifx_DSADC *dsadcSFR = config->dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   428          IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   429          dsadcSFR->CLC.U = 0x00000000;
 	ld.a	a12,[a15]
 .L424:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   430  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   431      dsadc->dsadc = dsadcSFR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   431          if (dsadcSFR->CLC.U)
 	st.a	[a4],a12
 .L197:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   432  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   433      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   434          uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   432          {}                       // sync access
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   433  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   434          IfxScuWdt_setCpuEndinit(passwd);
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L422:
 	mov	d8,d2
 .L426:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   435          IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   435  
 	mov	d4,d8
 .L425:
 	call	IfxScuWdt_clearCpuEndinit
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   436          dsadcSFR->CLC.U = 0x00000000;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   436          {
 	mov	d15,#0
 .L475:
 	st.w	[a12],d15
 .L476:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   437  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   438          if (dsadcSFR->CLC.U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   437              Ifx_DSADC_GLOBCFG globcfg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   438              globcfg.U           = dsadcSFR->GLOBCFG.U;
 	ld.w	d15,[a12]
 .L477:
 	jeq	d15,#0,.L42
 .L42:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   439          {}                       // sync access
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   440  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   441          IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   439  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   440              globcfg.B.MCSEL     = config->modulatorClockSelect;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   441              globcfg.B.LOSUP     = config->lowPowerSupply;
 	mov	d4,d8
 .L428:
 	call	IfxScuWdt_setCpuEndinit
 .L201:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   442  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   443          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   444              Ifx_DSADC_GLOBCFG globcfg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   445              globcfg.U           = dsadcSFR->GLOBCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   442              globcfg.B.PSWC      = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   443  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   444              dsadcSFR->GLOBCFG.U = globcfg.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   445          }
 	ld.w	d0,[a12]128
 .L429:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   446  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   447              globcfg.B.MCSEL     = config->modulatorClockSelect;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   446      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   447  }
 	ld.bu	d15,[a15]4
 .L478:
 	insert	d0,d0,d15,#0,#3
 .L479:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   448              globcfg.B.LOSUP     = config->lowPowerSupply;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   448  
 	ld.bu	d15,[a15]5
 .L480:
 	insert	d0,d0,d15,#20,#1
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   449              globcfg.B.PSWC      = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   449  
 	mov	d15,#1
 .L482:
 	insert	d0,d0,d15,#23,#1
 .L483:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   450  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   451              dsadcSFR->GLOBCFG.U = globcfg.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   450  void IfxDsadc_Dsadc_initModuleConfig(IfxDsadc_Dsadc_Config *config, Ifx_DSADC *dsadc)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   451  {
 	st.w	[a12]128,d0
 .L198:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   452          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   453      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   454  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   452      const IfxDsadc_Dsadc_Config IfxDsadc_Dsadc_defaultConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   453          .modulatorClockSelect = IfxDsadc_ModulatorClock_fDSD,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   454          .lowPowerSupply       = IfxDsadc_LowPowerSupply_5V
 	ret
 .L191:
 	
@@ -11063,33 +11063,33 @@ __IfxDsadc_Dsadc_initModule_function_end:
 	
 	.global	IfxDsadc_Dsadc_initModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   455  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   455      };
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   456  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   457  void IfxDsadc_Dsadc_initModuleConfig(IfxDsadc_Dsadc_Config *config, Ifx_DSADC *dsadc)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   457      *config       = IfxDsadc_Dsadc_defaultConfig;
 ; Function IfxDsadc_Dsadc_initModuleConfig
 .L68:
 IfxDsadc_Dsadc_initModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   458  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   459      const IfxDsadc_Dsadc_Config IfxDsadc_Dsadc_defaultConfig = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   458      config->dsadc = dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   459  }
 	movh.a	a15,#@his(.2.ini)
 	lea	a15,[a15]@los(.2.ini)
 	ld.d	e0,[a15]0
 .L430:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   460          .modulatorClockSelect = IfxDsadc_ModulatorClock_fDSD,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   461          .lowPowerSupply       = IfxDsadc_LowPowerSupply_5V
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   462      };
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   463  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   464      *config       = IfxDsadc_Dsadc_defaultConfig;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   460  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   461  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   462  IFX_STATIC void IfxDsadc_Dsadc_initRectifier(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_RectifierConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   463  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   464      Ifx_DSADC_CH_RECTCFG rect;
 	st.d	[a4]0,e0
 .L488:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   465      config->dsadc = dsadc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   465  
 	st.a	[a4],a5
 .L489:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   466  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   466      rect.U                              = 0;
 	ret
 .L204:
 	
@@ -11103,39 +11103,39 @@ __IfxDsadc_Dsadc_initModuleConfig_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   467  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   468  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   469  IFX_STATIC void IfxDsadc_Dsadc_initRectifier(IfxDsadc_Dsadc_Channel *channel, const IfxDsadc_Dsadc_RectifierConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   467      rect.B.RFEN                         = config->enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   468      rect.B.SSRC                         = config->signSource;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   469      (channel->channel)->RECTCFG         = rect;
 ; Function IfxDsadc_Dsadc_initRectifier
 .L70:
 IfxDsadc_Dsadc_initRectifier:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   470  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   471      Ifx_DSADC_CH_RECTCFG rect;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   472  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   473      rect.U                              = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   470      (channel->channel)->CGSYNC.B.SDPOS  = config->signDelay;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   471      (channel->channel)->CGSYNC.B.SDNEG  = config->signDelay + (config->signPeriod / 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   472      (channel->channel)->IWCTR.B.NVALDIS = config->signDelay + 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   473  }
 	mov	d0,#0
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   474      rect.B.RFEN                         = config->enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   474  
 	ld.bu	d15,[a5]
 .L722:
 	insert	d0,d0,d15,#0,#1
 .L723:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   475      rect.B.SSRC                         = config->signSource;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   475  
 	ld.bu	d15,[a5]1
 .L724:
 	insert	d0,d0,d15,#4,#2
 .L725:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   476      (channel->channel)->RECTCFG         = rect;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   476  void IfxDsadc_Dsadc_initCarrierGenConfig(IfxDsadc_Dsadc_CarrierGenConfig *config)
 	ld.a	a15,[a4]4
 .L726:
 	st.w	[a15]168,d0
 .L727:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   477      (channel->channel)->CGSYNC.B.SDPOS  = config->signDelay;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   477  {
 	ld.a	a15,[a4]4
 	ld.a	a2,[a4]4
 .L728:
@@ -11147,7 +11147,7 @@ IfxDsadc_Dsadc_initRectifier:	.type	func
 	st.b	[a15]162,d15
 .L730:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   478      (channel->channel)->CGSYNC.B.SDNEG  = config->signDelay + (config->signPeriod / 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   478      config->bitReversed         = FALSE;
 	ld.a	a15,[a4]4
 	ld.a	a2,[a4]4
 .L731:
@@ -11168,7 +11168,7 @@ IfxDsadc_Dsadc_initRectifier:	.type	func
 	st.b	[a15]163,d15
 .L737:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   479      (channel->channel)->IWCTR.B.NVALDIS = config->signDelay + 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   479      config->carrierWaveformMode = IfxDsadc_CarrierWaveformMode_sine;
 	ld.a	a15,[a4]4
 	ld.a	a2,[a4]4
 .L738:
@@ -11183,7 +11183,7 @@ IfxDsadc_Dsadc_initRectifier:	.type	func
 	st.b	[a15]34,d15
 .L742:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   480  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   480      config->frequency           = 10000;
 	ret
 .L361:
 	
@@ -11198,64 +11198,78 @@ __IfxDsadc_Dsadc_initRectifier_function_end:
 	
 	.global	IfxDsadc_Dsadc_initCarrierGenConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   481  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   482  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   483  void IfxDsadc_Dsadc_initCarrierGenConfig(IfxDsadc_Dsadc_CarrierGenConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   481      config->inverted            = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   482      config->pinDriver           = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   483      config->pinMode             = IfxPort_OutputMode_pushPull;
 ; Function IfxDsadc_Dsadc_initCarrierGenConfig
 .L72:
 IfxDsadc_Dsadc_initCarrierGenConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   484  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   485      config->bitReversed         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   484      config->pinNeg              = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   485      config->pinPos              = NULL_PTR;
 	mov	d15,#0
 .L561:
 	st.b	[a4]2,d15
 .L562:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   486      config->carrierWaveformMode = IfxDsadc_CarrierWaveformMode_sine;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   486  }
 	mov	d15,#3
 .L563:
 	st.b	[a4],d15
 .L564:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   487      config->frequency           = 10000;
+
 	mov	d15,#16384
+
+
 	addih	d15,d15,#17948
 .L565:
+
+
 	st.w	[a4]4,d15
 .L566:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   488      config->inverted            = FALSE;
+
 	mov	d15,#0
 .L567:
+
+
 	st.b	[a4]1,d15
 .L568:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   489      config->pinDriver           = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+
 	mov	d15,#0
 .L569:
+
+
 	st.b	[a4]17,d15
 .L570:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   490      config->pinMode             = IfxPort_OutputMode_pushPull;
+
 	mov	d15,#128
 .L571:
+
+
 	st.b	[a4]16,d15
 .L572:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   491      config->pinNeg              = NULL_PTR;
+
 	mov.a	a15,#0
 .L573:
+
+
 	st.a	[a4]12,a15
 .L574:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   492      config->pinPos              = NULL_PTR;
+
 	mov.a	a15,#0
 .L575:
+
+
 	st.a	[a4]8,a15
 .L576:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dsadc\Dsadc\IfxDsadc_Dsadc.c	   493  }
+
 	ret
 .L309:
 	

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer\\.IfxGtm_Atom_Timer.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer\\IfxGtm_Atom_Timer.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer\\IfxGtm_Atom_Timer.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer\\IfxGtm_Atom_Timer.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer\\IfxGtm_Atom_Timer.c'
@@ -873,7 +873,7 @@ IfxGtm_Atom_Timer_applyUpdate:	.type	func
 	st.w	[a15],d15
 .L233:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   102  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   102  Update(driver->agc, driver->agcDisableUpdate);
 	ret
 .L229:
 	
@@ -888,15 +888,15 @@ __IfxGtm_Atom_Timer_applyUpdate_function_end:
 	
 	.global	IfxGtm_Atom_Timer_disableUpdate
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   103  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   103  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   104  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   105  void IfxGtm_Atom_Timer_disableUpdate(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   105  
 ; Function IfxGtm_Atom_Timer_disableUpdate
 .L61:
 IfxGtm_Atom_Timer_disableUpdate:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   106  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   107      IfxGtm_Atom_Agc_setChannelsUpdate(driver->agc, driver->agcDisableUpdate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   106  float32 IfxGtm_Atom_Timer_getFrequency(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   107  {
 	ld.a	a15,[a4]20
 .L473:
 	ld.w	d15,[a4]34
@@ -1510,7 +1510,7 @@ IfxGtm_Atom_Timer_disableUpdate:	.type	func
 	st.w	[a15],d15
 .L242:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   108  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   108  turn 1.0 / IfxStdIf_Timer_tickToS(driver->base.clockFreq, driver->base.period);
 	ret
 .L239:
 	
@@ -1525,15 +1525,15 @@ __IfxGtm_Atom_Timer_disableUpdate_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   109  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   109  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   110  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   111  float32 IfxGtm_Atom_Timer_getFrequency(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   111  
 ; Function IfxGtm_Atom_Timer_getFrequency
 .L63:
 IfxGtm_Atom_Timer_getFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   112  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   113      return 1.0 / IfxStdIf_Timer_tickToS(driver->base.clockFreq, driver->base.period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   112  float32 IfxGtm_Atom_Timer_getInputFrequency(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   113  {
 	ld.w	d15,[a4]6
 .L478:
 	ld.w	d0,[a4]
@@ -1995,7 +1995,7 @@ IfxGtm_Atom_Timer_getFrequency:	.type	func
 .L482:
 	j	.L9
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   114  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   114  turn driver->base.clockFreq;
 .L9:
 	ret
 .L246:
@@ -2011,20 +2011,20 @@ __IfxGtm_Atom_Timer_getFrequency_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getInputFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   115  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   115  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   116  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   117  float32 IfxGtm_Atom_Timer_getInputFrequency(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   117  
 ; Function IfxGtm_Atom_Timer_getInputFrequency
 .L65:
 IfxGtm_Atom_Timer_getInputFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   118  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   119      return driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   118  Ifx_TimerValue IfxGtm_Atom_Timer_getOffset(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   119  {
 	ld.w	d2,[a4]6
 .L487:
 	j	.L10
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   120  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   120      return driver->offset;
 .L10:
 	ret
 .L255:
@@ -2040,20 +2040,20 @@ __IfxGtm_Atom_Timer_getInputFrequency_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getOffset
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   121  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   121  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   122  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   123  Ifx_TimerValue IfxGtm_Atom_Timer_getOffset(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   123  
 ; Function IfxGtm_Atom_Timer_getOffset
 .L67:
 IfxGtm_Atom_Timer_getOffset:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   124  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   125      return driver->offset;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   124  Ifx_TimerValue IfxGtm_Atom_Timer_getPeriod(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   125  {
 	ld.w	d2,[a4]30
 .L602:
 	j	.L11
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   126  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   126      return driver->base.period;
 .L11:
 	ret
 .L294:
@@ -2069,20 +2069,20 @@ __IfxGtm_Atom_Timer_getOffset_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getPeriod
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   127  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   127  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   128  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   129  Ifx_TimerValue IfxGtm_Atom_Timer_getPeriod(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   129  
 ; Function IfxGtm_Atom_Timer_getPeriod
 .L69:
 IfxGtm_Atom_Timer_getPeriod:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   130  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   131      return driver->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   130  volatile uint32 *IfxGtm_Atom_Timer_getPointer(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   131  {
 	ld.w	d2,[a4]
 .L492:
 	j	.L12
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   132  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   132      return IfxGtm_Atom_Ch_getTimerPointer(driver->atom, driver->timerChannel);
 .L12:
 	ret
 .L258:
@@ -2098,15 +2098,15 @@ __IfxGtm_Atom_Timer_getPeriod_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getPointer
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   133  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   133  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   134  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   135  volatile uint32 *IfxGtm_Atom_Timer_getPointer(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   135  
 ; Function IfxGtm_Atom_Timer_getPointer
 .L71:
 IfxGtm_Atom_Timer_getPointer:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   136  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   137      return IfxGtm_Atom_Ch_getTimerPointer(driver->atom, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   136  float32 IfxGtm_Atom_Timer_getResolution(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   137  {
 	ld.a	a15,[a4]16
 .L607:
 	ld.b	d4,[a4]25
@@ -2116,7 +2116,7 @@ IfxGtm_Atom_Timer_getPointer:	.type	func
 .L608:
 	j	.L13
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   138  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   138      return 1.0 / driver->base.clockFreq;
 .L13:
 	ret
 .L297:
@@ -2132,15 +2132,15 @@ __IfxGtm_Atom_Timer_getPointer_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getResolution
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   139  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   139  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   140  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   141  float32 IfxGtm_Atom_Timer_getResolution(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   141  
 ; Function IfxGtm_Atom_Timer_getResolution
 .L73:
 IfxGtm_Atom_Timer_getResolution:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   142  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   143      return 1.0 / driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   142  Ifx_TimerValue IfxGtm_Atom_Timer_getTrigger(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   143  {
 	movh	d15,#16256
 .L497:
 	ld.w	d0,[a4]6
@@ -2149,7 +2149,7 @@ IfxGtm_Atom_Timer_getResolution:	.type	func
 .L499:
 	j	.L14
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   144  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   144      return IfxGtm_Atom_Ch_getCompareOne(driver->atom, driver->triggerChannel) - 1;
 .L14:
 	ret
 .L260:
@@ -2165,15 +2165,15 @@ __IfxGtm_Atom_Timer_getResolution_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getTrigger
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   145  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   145  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   146  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   147  Ifx_TimerValue IfxGtm_Atom_Timer_getTrigger(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   147  
 ; Function IfxGtm_Atom_Timer_getTrigger
 .L75:
 IfxGtm_Atom_Timer_getTrigger:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   148  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   149      return IfxGtm_Atom_Ch_getCompareOne(driver->atom, driver->triggerChannel) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   148  volatile uint32 *IfxGtm_Atom_Timer_getTriggerPointer(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   149  {
 	ld.a	a15,[a4]16
 .L504:
 	ld.b	d4,[a4]26
@@ -2185,7 +2185,7 @@ IfxGtm_Atom_Timer_getTrigger:	.type	func
 .L506:
 	j	.L15
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   150  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   150      return IfxGtm_Atom_Ch_getCompareOnePointer(driver->atom, driver->triggerChannel);
 .L15:
 	ret
 .L262:
@@ -2201,15 +2201,15 @@ __IfxGtm_Atom_Timer_getTrigger_function_end:
 	
 	.global	IfxGtm_Atom_Timer_getTriggerPointer
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   151  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   151  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   152  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   153  volatile uint32 *IfxGtm_Atom_Timer_getTriggerPointer(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   153  
 ; Function IfxGtm_Atom_Timer_getTriggerPointer
 .L77:
 IfxGtm_Atom_Timer_getTriggerPointer:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   154  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   155      return IfxGtm_Atom_Ch_getCompareOnePointer(driver->atom, driver->triggerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   154  boolean IfxGtm_Atom_Timer_init(IfxGtm_Atom_Timer *driver, const IfxGtm_Atom_Timer_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   155  {
 	ld.a	a15,[a4]16
 .L613:
 	ld.b	d4,[a4]26
@@ -2219,7 +2219,7 @@ IfxGtm_Atom_Timer_getTriggerPointer:	.type	func
 .L614:
 	j	.L16
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   156  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   156      boolean                 result = TRUE;
 .L16:
 	ret
 .L299:
@@ -2235,9 +2235,9 @@ __IfxGtm_Atom_Timer_getTriggerPointer_function_end:
 	
 	.global	IfxGtm_Atom_Timer_init
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   157  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   157      IfxGtm_Atom_Timer_Base *base   = &driver->base;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   158  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   159  boolean IfxGtm_Atom_Timer_init(IfxGtm_Atom_Timer *driver, const IfxGtm_Atom_Timer_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   159      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.countDir == IfxStdIf_Timer_CountDir_up); /* only this mode is supported */
 ; Function IfxGtm_Atom_Timer_init
 .L79:
 IfxGtm_Atom_Timer_init:	.type	func
@@ -2248,28 +2248,28 @@ IfxGtm_Atom_Timer_init:	.type	func
 	mov.aa	a12,a5
 .L375:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   160  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   161      boolean                 result = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   160  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   161      driver->gtm          = config->gtm;
 	mov	d8,#1
 .L376:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   162      IfxGtm_Atom_Timer_Base *base   = &driver->base;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   163  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   164      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.countDir == IfxStdIf_Timer_CountDir_up); /* only this mode is supported */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   162      driver->atomIndex    = config->atom;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   163      driver->atom         = &config->gtm->ATOM[config->atom];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   164      driver->timerChannel = config->timerChannel;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   165  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   166      driver->gtm          = config->gtm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   166      base->triggerEnabled = config->base.trigger.enabled;
 	ld.a	a2,[a12]36
 .L619:
 	st.a	[a15]12,a2
 .L620:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   167      driver->atomIndex    = config->atom;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   167  
 	ld.bu	d15,[a12]40
 .L621:
 	st.b	[a15]24,d15
 .L622:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   168      driver->atom         = &config->gtm->ATOM[config->atom];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   168      if (base->triggerEnabled)
 	ld.bu	d15,[a12]40
 .L623:
 	mov	d0,#2048
@@ -2285,35 +2285,35 @@ IfxGtm_Atom_Timer_init:	.type	func
 	st.a	[a15]16,a2
 .L627:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   169      driver->timerChannel = config->timerChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   169      {
 	ld.b	d15,[a12]41
 .L628:
 	st.b	[a15]25,d15
 .L629:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   170  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   171      base->triggerEnabled = config->base.trigger.enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   170          if (config->triggerOut != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   171          {
 	ld.bu	d15,[a12]12
 .L630:
 	st.b	[a15]4,d15
 .L631:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   172  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   173      if (base->triggerEnabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   172              driver->triggerChannel = config->triggerOut->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   173          }
 	ld.bu	d15,[a15]4
 .L632:
 	jeq	d15,#0,.L17
 .L633:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   174      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   175          if (config->triggerOut != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   174          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   175          {
 	ld.w	d15,[a12]44
 .L634:
 	jeq	d15,#0,.L18
 .L635:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   176          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   177              driver->triggerChannel = config->triggerOut->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   176              result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   177              IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result); /* triggerOut is required */
 	ld.a	a2,[a12]44
 .L636:
 	ld.b	d15,[a2]1
@@ -2324,28 +2324,28 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L18:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   178          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   179          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   180          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   181              result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   179      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   180      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   181      {
 	mov	d8,#0
 .L19:
 	j	.L20
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   182              IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result); /* triggerOut is required */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   183          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   184      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   185      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   186      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   187          driver->triggerChannel = driver->timerChannel; // Set to timer channel to disable its use
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   182          driver->triggerChannel = driver->timerChannel; // Set to timer channel to disable its use
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   183      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   184  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   185      driver->agc              = (Ifx_GTM_ATOM_AGC *)&driver->atom->AGC.GLB_CTRL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   186  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   187      driver->channelsMask     = 0;
 	ld.b	d15,[a15]25
 .L639:
 	st.b	[a15]26,d15
 .L20:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   188      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   189  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   190      driver->agc              = (Ifx_GTM_ATOM_AGC *)&driver->atom->AGC.GLB_CTRL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   188      driver->agcApplyUpdate   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   189      driver->agcDisableUpdate = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   190  
 	ld.a	a2,[a15]16
 .L640:
 	lea	a2,[a2]64
@@ -2353,30 +2353,30 @@ IfxGtm_Atom_Timer_init:	.type	func
 	st.a	[a15]20,a2
 .L642:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   191  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   192      driver->channelsMask     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   191      /* Initialize the timer part */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   192      IfxGtm_Atom_Ch_configurePwmMode(driver->atom, driver->timerChannel, config->clock,
 	mov	d15,#0
 .L643:
 	st.h	[a15]28,d15
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   193      driver->agcApplyUpdate   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   193          (Ifx_ActiveState)config->base.trigger.risingEdgeAtPeriod, IfxGtm_Atom_Ch_ResetEvent_onCm0,
 	mov	d15,#0
 .L645:
 	st.w	[a15]38,d15
 .L646:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   194      driver->agcDisableUpdate = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   194          IfxGtm_Atom_Ch_OutputTrigger_generate);
 	mov	d15,#0
 .L647:
 	st.w	[a15]34,d15
 .L648:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   195  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   196      /* Initialize the timer part */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   197      IfxGtm_Atom_Ch_configurePwmMode(driver->atom, driver->timerChannel, config->clock,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   198          (Ifx_ActiveState)config->base.trigger.risingEdgeAtPeriod, IfxGtm_Atom_Ch_ResetEvent_onCm0,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   199          IfxGtm_Atom_Ch_OutputTrigger_generate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   196      IfxGtm_Atom_Timer_updateInputFrequency(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   197  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   198      if ((config->base.minResolution > 0) && ((1.0 / base->clockFreq) > config->base.minResolution))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   199      {
 	mov	d15,#1
 	st.b	[a10],d15
 .L649:
@@ -2392,15 +2392,15 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_configurePwmMode
 .L372:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   200  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   201      IfxGtm_Atom_Timer_updateInputFrequency(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   200          result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   201          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE);
 	mov.aa	a4,a15
 .L377:
 	call	IfxGtm_Atom_Timer_updateInputFrequency
 .L378:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   202  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   203      if ((config->base.minResolution > 0) && ((1.0 / base->clockFreq) > config->base.minResolution))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   202      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   203      else
 	ld.w	d15,[a12]8
 .L653:
 	mov	d0,#0
@@ -2423,29 +2423,29 @@ IfxGtm_Atom_Timer_init:	.type	func
 	jeq	d15,#0,.L22
 .L661:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   204      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   205          result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   204      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   205  
 	mov	d8,#0
 .L662:
 	j	.L23
 .L22:
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   206          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   207      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   208      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   206      IfxGtm_Atom_Timer_setFrequency(driver, config->base.frequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   207      driver->offset = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / config->base.frequency * config->base.startOffset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   208  
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   209      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   209      IfxGtm_Atom_Ch_setCounterValue(driver->atom, driver->timerChannel, driver->offset);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   210  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   211      IfxGtm_Atom_Timer_setFrequency(driver, config->base.frequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   211      /* Initialize the trigger part */
 	ld.w	d4,[a12]
 	mov.aa	a4,a15
 .L379:
 	call	IfxGtm_Atom_Timer_setFrequency
 .L380:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   212      driver->offset = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / config->base.frequency * config->base.startOffset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   212      IfxGtm_Atom_Timer_addToChannelMask(driver, driver->timerChannel);
 	ld.w	d15,[a15]6
 .L663:
 	movh	d0,#16256
@@ -2922,8 +2922,8 @@ IfxGtm_Atom_Timer_init:	.type	func
 	st.w	[a15]30,d5
 .L669:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   213  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   214      IfxGtm_Atom_Ch_setCounterValue(driver->atom, driver->timerChannel, driver->offset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   213  nnel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   214          uint16         triggerChannelMask = 1 << triggerChannel;
 	ld.a	a4,[a15]16
 .L670:
 	ld.b	d4,[a15]25
@@ -2932,35 +2932,35 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L672:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   215  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   216      /* Initialize the trigger part */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   217      IfxGtm_Atom_Timer_addToChannelMask(driver, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   216          IfxGtm_Atom_Ch_setSignalLevel(driver->atom, triggerChannel, config->base.trigger.risingEdgeAtPeriod ? Ifx_ActiveState_high : Ifx_ActiveState_low);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   217  
 	ld.b	d4,[a15]25
 	mov.aa	a4,a15
 .L381:
 	call	IfxGtm_Atom_Timer_addToChannelMask
 .L382:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   219      if (base->triggerEnabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   218          IfxGtm_Atom_Ch_setCounterValue(driver->atom, triggerChannel, driver->offset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   219  
 	ld.bu	d15,[a15]4
 .L673:
 	jeq	d15,#0,.L25
 .L311:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   220      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   221          IfxGtm_Atom_Ch triggerChannel     = driver->triggerChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   220          if (triggerChannel != driver->timerChannel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   221          {
 	ld.b	d9,[a15]26
 .L383:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   222          uint16         triggerChannelMask = 1 << triggerChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   222              IfxGtm_Atom_Ch_configurePwmMode(driver->atom, triggerChannel, config->clock,
 	mov	d15,#1
 .L674:
 	sha	d15,d15,d9
 	extr.u	d10,d15,#0,#16
 .L384:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   223  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   224          IfxGtm_Atom_Ch_setSignalLevel(driver->atom, triggerChannel, config->base.trigger.risingEdgeAtPeriod ? Ifx_ActiveState_high : Ifx_ActiveState_low);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   223                  (Ifx_ActiveState)config->base.trigger.risingEdgeAtPeriod, IfxGtm_Atom_Ch_ResetEvent_onTrigger,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   224                  IfxGtm_Atom_Ch_OutputTrigger_forward);
 	ld.bu	d15,[a12]23
 .L675:
 	jeq	d15,#0,.L26
@@ -2978,8 +2978,8 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_setSignalLevel
 .L386:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   226          IfxGtm_Atom_Ch_setCounterValue(driver->atom, triggerChannel, driver->offset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   225              IfxGtm_Atom_Agc_enableChannels(driver->agc, triggerChannelMask, 0, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   226              IfxGtm_Atom_Timer_addToChannelMask(driver, driver->triggerChannel);
 	ld.a	a4,[a15]16
 .L679:
 	ld.w	d5,[a15]30
@@ -2988,17 +2988,17 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_setCounterValue
 .L388:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   227  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   228          if (triggerChannel != driver->timerChannel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   227          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   228          else
 	ld.b	d15,[a15]25
 .L680:
 	jeq	d15,d9,.L28
 .L681:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   229          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   230              IfxGtm_Atom_Ch_configurePwmMode(driver->atom, triggerChannel, config->clock,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   231                  (Ifx_ActiveState)config->base.trigger.risingEdgeAtPeriod, IfxGtm_Atom_Ch_ResetEvent_onTrigger,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   232                  IfxGtm_Atom_Ch_OutputTrigger_forward);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   229          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   230  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   231          /* Signal must go out of the GTM even if the port outpout is not enabled */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   232          IfxGtm_Atom_Agc_enableChannelsOutput(driver->agc, triggerChannelMask, 0, FALSE);
 	mov	d15,#0
 	st.b	[a10],d15
 .L682:
@@ -3014,7 +3014,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_configurePwmMode
 .L390:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   233              IfxGtm_Atom_Agc_enableChannels(driver->agc, triggerChannelMask, 0, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   233  
 	ld.a	a4,[a15]20
 .L686:
 	mov	d5,#0
@@ -3025,7 +3025,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Agc_enableChannels
 .L392:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   234              IfxGtm_Atom_Timer_addToChannelMask(driver, driver->triggerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   234          if ((config->base.trigger.outputEnabled) && (config->initPins == TRUE))
 	ld.b	d4,[a15]26
 	mov.aa	a4,a15
 .L393:
@@ -3034,14 +3034,14 @@ IfxGtm_Atom_Timer_init:	.type	func
 	j	.L29
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   235          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   236          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   235          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   236              /* Initialize the port */
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   237          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   239          /* Signal must go out of the GTM even if the port outpout is not enabled */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   240          IfxGtm_Atom_Agc_enableChannelsOutput(driver->agc, triggerChannelMask, 0, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   237              IfxGtm_PinMap_setAtomTout(config->triggerOut, config->base.trigger.outputMode, config->base.trigger.outputDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   238          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   239          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   240          {}
 	ld.a	a4,[a15]20
 .L688:
 	mov	d5,#0
@@ -3053,7 +3053,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L396:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   241  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   242          if ((config->base.trigger.outputEnabled) && (config->initPins == TRUE))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   242          IfxGtm_Atom_Timer_setTrigger(driver, config->base.trigger.triggerPoint);
 	ld.bu	d15,[a12]24
 .L690:
 	jeq	d15,#0,.L30
@@ -3063,9 +3063,9 @@ IfxGtm_Atom_Timer_init:	.type	func
 	jne	d15,#1,.L31
 .L693:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   243          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   244              /* Initialize the port */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   245              IfxGtm_PinMap_setAtomTout(config->triggerOut, config->base.trigger.outputMode, config->base.trigger.outputDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   243      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   244      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   245      {}
 	ld.a	a4,[a12]44
 .L694:
 	ld.bu	d4,[a12]21
@@ -3077,13 +3077,13 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L31:
 .L30:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   246          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   247          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   246  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   247      /* Interrupt configuration */
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   248          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   249  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   250          IfxGtm_Atom_Timer_setTrigger(driver, config->base.trigger.triggerPoint);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   248      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   249          volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   250          boolean                timerHasIrq   = config->base.isrPriority > 0;
 	ld.w	d4,[a12]14
 	mov.aa	a4,a15
 .L397:
@@ -3092,22 +3092,22 @@ IfxGtm_Atom_Timer_init:	.type	func
 	j	.L33
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   251      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   252      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   251          boolean                triggerHasIrq = (config->base.trigger.isrPriority > 0) && base->triggerEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   252  
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   253      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   254  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   255      /* Interrupt configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   256      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   257          volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   258          boolean                timerHasIrq   = config->base.isrPriority > 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   253          if (driver->triggerChannel == driver->timerChannel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   254          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   255              IfxGtm_Atom_Ch_setNotification(driver->atom, driver->timerChannel, timerHasIrq ? config->irqModeTimer : config->irqModeTrigger, timerHasIrq, triggerHasIrq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   256              src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   257              IfxSrc_init(src, timerHasIrq ? config->base.isrProvider : config->base.trigger.isrProvider, timerHasIrq ? config->base.isrPriority : config->base.trigger.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   258              IfxSrc_enable(src);
 	ld.hu	d15,[a12]4
 .L697:
 	ge.u	d10,d15,#1
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   259          boolean                triggerHasIrq = (config->base.trigger.isrPriority > 0) && base->triggerEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   259          }
 	mov	d9,#0
 .L399:
 	ld.hu	d0,[a12]18
@@ -3121,8 +3121,8 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L35:
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   261          if (driver->triggerChannel == driver->timerChannel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   260          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   261          {
 	ld.b	d0,[a15]26
 .L701:
 	ld.b	d1,[a15]25
@@ -3130,8 +3130,8 @@ IfxGtm_Atom_Timer_init:	.type	func
 	jne	d0,d1,.L36
 .L703:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   262          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   263              IfxGtm_Atom_Ch_setNotification(driver->atom, driver->timerChannel, timerHasIrq ? config->irqModeTimer : config->irqModeTrigger, timerHasIrq, triggerHasIrq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   262              IfxGtm_IrqMode irqMode = IfxGtm_IrqMode_pulseNotify;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   263  
 	jeq	d10,#0,.L37
 .L704:
 	ld.bu	d5,[a12]49
@@ -3148,7 +3148,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_setNotification
 .L708:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   264              src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   264              if (timerHasIrq)
 	ld.a	a4,[a15]12
 .L709:
 	ld.bu	d4,[a12]40
@@ -3157,7 +3157,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_getSrcPointer
 .L400:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   265              IfxSrc_init(src, timerHasIrq ? config->base.isrProvider : config->base.trigger.isrProvider, timerHasIrq ? config->base.isrPriority : config->base.trigger.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   265              {
 	jeq	d10,#0,.L39
 .L711:
 	ld.bu	d15,[a12]6
@@ -3480,21 +3480,21 @@ IfxGtm_Atom_Timer_init:	.type	func
 	j	.L43
 .L36:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   266              IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   267          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   268          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   269          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   270              IfxGtm_IrqMode irqMode = IfxGtm_IrqMode_pulseNotify;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   266  ->atom, driver->timerChannel, irqMode, TRUE, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   267                  src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   268                  IfxSrc_init(src, config->base.isrProvider, config->base.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   269                  IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   270              }
 	mov	d11,#2
 .L401:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   271  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   272              if (timerHasIrq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   272              if (triggerHasIrq)
 	jeq	d10,#0,.L44
 .L721:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   273              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   274                  IfxGtm_Atom_Ch_setNotification(driver->atom, driver->timerChannel, irqMode, TRUE, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   274                  IfxGtm_Atom_Ch_setNotification(driver->atom, driver->triggerChannel, irqMode, FALSE, TRUE);
 	ld.a	a4,[a15]16
 .L722:
 	ld.b	d4,[a15]25
@@ -3507,7 +3507,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_setNotification
 .L403:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   275                  src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   275                  src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->triggerChannel);
 	ld.a	a4,[a15]12
 .L725:
 	ld.bu	d4,[a12]40
@@ -3516,7 +3516,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_getSrcPointer
 .L404:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   276                  IfxSrc_init(src, config->base.isrProvider, config->base.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   276                  IfxSrc_init(src, config->base.trigger.isrProvider, config->base.trigger.isrPriority);
 	ld.bu	d0,[a12]6
 .L727:
 	ld.hu	d1,[a12]4
@@ -3823,15 +3823,15 @@ IfxGtm_Atom_Timer_init:	.type	func
 	st.b	[a2]1,d15
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   277                  IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   277       IfxSrc_enable(src);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   278              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   280              if (triggerHasIrq)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   279          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   280      }
 	jeq	d9,#0,.L45
 .L734:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   281              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   282                  IfxGtm_Atom_Ch_setNotification(driver->atom, driver->triggerChannel, irqMode, FALSE, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   281  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   282      /* Transfer the shadow registers */
 	ld.a	a4,[a15]16
 .L735:
 	ld.b	d4,[a15]26
@@ -3844,7 +3844,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_setNotification
 .L406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   283                  src = IfxGtm_Atom_Ch_getSrcPointer(driver->gtm, config->atom, driver->triggerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   283      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, driver->channelsMask, 0, 0, 0);
 	ld.a	a4,[a15]12
 .L738:
 	ld.bu	d4,[a12]40
@@ -3853,7 +3853,7 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Ch_getSrcPointer
 .L407:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   284                  IfxSrc_init(src, config->base.trigger.isrProvider, config->base.trigger.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   284      IfxGtm_Atom_Agc_trigger(driver->agc);
 	ld.bu	d0,[a12]20
 .L740:
 	ld.hu	d15,[a12]18
@@ -4161,13 +4161,13 @@ IfxGtm_Atom_Timer_init:	.type	func
 .L45:
 .L43:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   285                  IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   286              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   287          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   288      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   285  tm_Atom_Agc_setChannelsForceUpdate(driver->agc, 0, driver->channelsMask, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   286  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   287      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   288  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   289  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   290      /* Transfer the shadow registers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   291      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, driver->channelsMask, 0, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   290  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   291  void IfxGtm_Atom_Timer_initConfig(IfxGtm_Atom_Timer_Config *config, Ifx_GTM *gtm)
 	ld.a	a4,[a15]20
 .L747:
 	ld.hu	d4,[a15]28
@@ -4180,12 +4180,12 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Agc_setChannelsForceUpdate
 .L751:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   292      IfxGtm_Atom_Agc_trigger(driver->agc);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   292  {
 	ld.a	a4,[a15]20
 	call	IfxGtm_Atom_Agc_trigger
 .L752:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   293      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, 0, driver->channelsMask, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   293      IfxStdIf_Timer_initConfig(&config->base);
 	ld.a	a4,[a15]20
 .L753:
 	mov	d4,#0
@@ -4198,13 +4198,13 @@ IfxGtm_Atom_Timer_init:	.type	func
 	call	IfxGtm_Atom_Agc_setChannelsForceUpdate
 .L757:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   294  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   295      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   294      config->gtm            = gtm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   295      config->atom           = IfxGtm_Atom_0;
 	mov	d2,d8
 .L408:
 	j	.L46
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   296  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   296      config->timerChannel   = IfxGtm_Atom_Ch_0;
 .L46:
 	ret
 .L301:
@@ -4220,9 +4220,9 @@ __IfxGtm_Atom_Timer_init_function_end:
 	
 	.global	IfxGtm_Atom_Timer_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   297  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   299  void IfxGtm_Atom_Timer_initConfig(IfxGtm_Atom_Timer_Config *config, Ifx_GTM *gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   297      config->triggerOut     = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   298      config->clock          = IfxGtm_Cmu_Clk_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   299      config->base.countDir  = IfxStdIf_Timer_CountDir_up;
 ; Function IfxGtm_Atom_Timer_initConfig
 .L81:
 IfxGtm_Atom_Timer_initConfig:	.type	func
@@ -4231,65 +4231,65 @@ IfxGtm_Atom_Timer_initConfig:	.type	func
 	mov.aa	a12,a5
 .L411:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   300  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   301      IfxStdIf_Timer_initConfig(&config->base);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   300      config->irqModeTimer   = IfxGtm_IrqMode_level;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   301      config->irqModeTrigger = IfxGtm_IrqMode_level;
 	mov.aa	a4,a15
 	call	IfxStdIf_Timer_initConfig
 .L409:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   302      config->gtm            = gtm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   302      config->initPins       = TRUE;
 	st.a	[a15]36,a12
 .L762:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   303      config->atom           = IfxGtm_Atom_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   303  }
 	mov	d15,#0
 .L763:
 	st.b	[a15]40,d15
 .L764:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   304      config->timerChannel   = IfxGtm_Atom_Ch_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   304  
 	mov	d15,#0
 .L765:
 	st.b	[a15]41,d15
 .L766:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   305      config->triggerOut     = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   305  
 	mov.a	a2,#0
 .L767:
 	st.a	[a15]44,a2
 .L768:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   306      config->clock          = IfxGtm_Cmu_Clk_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   306  void IfxGtm_Atom_Timer_run(IfxGtm_Atom_Timer *driver)
 	mov	d15,#0
 .L769:
 	st.b	[a15]48,d15
 .L770:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   307      config->base.countDir  = IfxStdIf_Timer_CountDir_up;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   307  {
 	mov	d15,#0
 .L771:
 	st.b	[a15]28,d15
 .L772:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   308      config->irqModeTimer   = IfxGtm_IrqMode_level;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   308      IfxGtm_Atom_Agc_enableChannels(driver->agc, driver->channelsMask, 0, TRUE);
 	mov	d15,#0
 .L773:
 	st.b	[a15]49,d15
 .L774:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   309      config->irqModeTrigger = IfxGtm_IrqMode_level;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   309  }
 	mov	d15,#0
 .L775:
 	st.b	[a15]50,d15
 .L776:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   310      config->initPins       = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   310  
 	mov	d15,#1
 .L777:
 	st.b	[a15]51,d15
 .L778:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   311  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   311  
 	ret
 .L348:
 	
@@ -4304,15 +4304,15 @@ __IfxGtm_Atom_Timer_initConfig_function_end:
 	
 	.global	IfxGtm_Atom_Timer_run
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   313  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   314  void IfxGtm_Atom_Timer_run(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   312  boolean IfxGtm_Atom_Timer_setFrequency(IfxGtm_Atom_Timer *driver, float32 frequency)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   313  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   314      Ifx_TimerValue period = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / frequency);
 ; Function IfxGtm_Atom_Timer_run
 .L83:
 IfxGtm_Atom_Timer_run:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   315  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   316      IfxGtm_Atom_Agc_enableChannels(driver->agc, driver->channelsMask, 0, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   315  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   316      return IfxGtm_Atom_Timer_setPeriod(driver, period);
 	ld.a	a15,[a4]20
 .L511:
 	ld.hu	d4,[a4]28
@@ -4342,13 +4342,13 @@ __IfxGtm_Atom_Timer_run_function_end:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   318  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   319  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   320  boolean IfxGtm_Atom_Timer_setFrequency(IfxGtm_Atom_Timer *driver, float32 frequency)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   320  boolean IfxGtm_Atom_Timer_setPeriod(IfxGtm_Atom_Timer *driver, Ifx_TimerValue period)
 ; Function IfxGtm_Atom_Timer_setFrequency
 .L85:
 IfxGtm_Atom_Timer_setFrequency:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   321  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   322      Ifx_TimerValue period = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / frequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   322      driver->base.period = period;
 	ld.w	d15,[a4]6
 .L519:
 	movh	d0,#16256
@@ -4817,13 +4817,13 @@ IfxGtm_Atom_Timer_setFrequency:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L47:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   323  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   324      return IfxGtm_Atom_Timer_setPeriod(driver, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   323  w(driver->atom, driver->timerChannel, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   324  
 	call	IfxGtm_Atom_Timer_setPeriod
 .L413:
 	j	.L48
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   325  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   325      if (driver->triggerChannel != driver->timerChannel)
 .L48:
 	ret
 .L266:
@@ -4839,9 +4839,9 @@ __IfxGtm_Atom_Timer_setFrequency_function_end:
 	
 	.global	IfxGtm_Atom_Timer_setPeriod
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   326  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   327  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   328  boolean IfxGtm_Atom_Timer_setPeriod(IfxGtm_Atom_Timer *driver, Ifx_TimerValue period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   326      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   327          IfxGtm_Atom_Ch_setCompareZeroShadow(driver->atom, driver->triggerChannel, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   328      }
 ; Function IfxGtm_Atom_Timer_setPeriod
 .L87:
 IfxGtm_Atom_Timer_setPeriod:	.type	func
@@ -4850,12 +4850,12 @@ IfxGtm_Atom_Timer_setPeriod:	.type	func
 	mov	d8,d4
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   329  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   330      driver->base.period = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   329  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   330      return TRUE;
 	st.w	[a15],d8
 .L525:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   331      IfxGtm_Atom_Ch_setCompareZeroShadow(driver->atom, driver->timerChannel, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   331  }
 	ld.a	a4,[a15]16
 .L415:
 	ld.b	d4,[a15]25
@@ -4866,7 +4866,7 @@ IfxGtm_Atom_Timer_setPeriod:	.type	func
 .L420:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   332  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   333      if (driver->triggerChannel != driver->timerChannel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   333  
 	ld.b	d15,[a15]26
 .L526:
 	ld.b	d0,[a15]25
@@ -4874,8 +4874,8 @@ IfxGtm_Atom_Timer_setPeriod:	.type	func
 	jeq	d15,d0,.L49
 .L528:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   334      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   335          IfxGtm_Atom_Ch_setCompareZeroShadow(driver->atom, driver->triggerChannel, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   334  void IfxGtm_Atom_Timer_setSingleMode(IfxGtm_Atom_Timer *driver, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   335  {
 	ld.a	a4,[a15]16
 .L529:
 	ld.b	d4,[a15]26
@@ -4885,14 +4885,14 @@ IfxGtm_Atom_Timer_setPeriod:	.type	func
 	call	IfxGtm_Atom_Ch_setCompareZeroShadow
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   336      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   337  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   338      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   336      IfxGtm_Atom_Ch_setOneShotMode(driver->atom, driver->timerChannel, enabled);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   337  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   338  
 	mov	d2,#1
 .L531:
 	j	.L50
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   339  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   339  
 .L50:
 	ret
 .L277:
@@ -4908,17 +4908,17 @@ __IfxGtm_Atom_Timer_setPeriod_function_end:
 	
 	.global	IfxGtm_Atom_Timer_setSingleMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   340  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   342  void IfxGtm_Atom_Timer_setSingleMode(IfxGtm_Atom_Timer *driver, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   340  void IfxGtm_Atom_Timer_setTrigger(IfxGtm_Atom_Timer *driver, Ifx_TimerValue triggerPoint)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   341  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   342      IfxGtm_Atom_Ch_setCompareOneShadow(driver->atom, driver->triggerChannel, triggerPoint + 1);
 ; Function IfxGtm_Atom_Timer_setSingleMode
 .L89:
 IfxGtm_Atom_Timer_setSingleMode:	.type	func
 	mov	d5,d4
 .L424:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   343  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   344      IfxGtm_Atom_Ch_setOneShotMode(driver->atom, driver->timerChannel, enabled);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   343  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   344  
 	ld.a	a15,[a4]16
 .L536:
 	ld.b	d4,[a4]25
@@ -4928,7 +4928,7 @@ IfxGtm_Atom_Timer_setSingleMode:	.type	func
 	call	IfxGtm_Atom_Ch_setOneShotMode
 .L425:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   345  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   345  
 	ret
 .L280:
 	
@@ -4943,15 +4943,15 @@ __IfxGtm_Atom_Timer_setSingleMode_function_end:
 	
 	.global	IfxGtm_Atom_Timer_setTrigger
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   346  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   347  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   348  void IfxGtm_Atom_Timer_setTrigger(IfxGtm_Atom_Timer *driver, Ifx_TimerValue triggerPoint)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   346  boolean IfxGtm_Atom_Timer_stdIfTimerInit(IfxStdIf_Timer *stdif, IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   347  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   348      /* Ensure the stdif is reset to zeros */
 ; Function IfxGtm_Atom_Timer_setTrigger
 .L91:
 IfxGtm_Atom_Timer_setTrigger:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   349  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   350      IfxGtm_Atom_Ch_setCompareOneShadow(driver->atom, driver->triggerChannel, triggerPoint + 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   349      memset(stdif, 0, sizeof(IfxStdIf_Timer));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   350  
 	ld.a	a15,[a4]16
 .L541:
 	ld.b	d15,[a4]26
@@ -4964,7 +4964,7 @@ IfxGtm_Atom_Timer_setTrigger:	.type	func
 	call	IfxGtm_Atom_Ch_setCompareOneShadow
 .L543:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   351  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   351      /* *INDENT-OFF* Note: this file was indented manually by the author. */
 	ret
 .L283:
 	
@@ -4979,9 +4979,9 @@ __IfxGtm_Atom_Timer_setTrigger_function_end:
 	
 	.global	IfxGtm_Atom_Timer_stdIfTimerInit
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   352  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   353  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   354  boolean IfxGtm_Atom_Timer_stdIfTimerInit(IfxStdIf_Timer *stdif, IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   352      /* Set the API link */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   353      stdif->driver               = driver;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   354      stdif->getFrequency         =(IfxStdIf_Timer_GetFrequency        )&IfxGtm_Atom_Timer_getFrequency;
 ; Function IfxGtm_Atom_Timer_stdIfTimerInit
 .L93:
 IfxGtm_Atom_Timer_stdIfTimerInit:	.type	func
@@ -4990,9 +4990,9 @@ IfxGtm_Atom_Timer_stdIfTimerInit:	.type	func
 	mov.aa	a12,a5
 .L430:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   355  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   356      /* Ensure the stdif is reset to zeros */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   357      memset(stdif, 0, sizeof(IfxStdIf_Timer));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   355      stdif->getPeriod            =(IfxStdIf_Timer_GetPeriod           )&IfxGtm_Atom_Timer_getPeriod;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   356      stdif->getResolution        =(IfxStdIf_Timer_GetResolution       )&IfxGtm_Atom_Timer_getResolution;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   357      stdif->getTrigger           =(IfxStdIf_Timer_GetTrigger          )&IfxGtm_Atom_Timer_getTrigger;
 	mov	d4,#0
 .L548:
 	mov	d5,#68
@@ -5000,133 +5000,133 @@ IfxGtm_Atom_Timer_stdIfTimerInit:	.type	func
 	call	memset
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   358  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   359      /* *INDENT-OFF* Note: this file was indented manually by the author. */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   360      /* Set the API link */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   361      stdif->driver               = driver;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   358      stdif->setFrequency         =(IfxStdIf_Timer_SetFrequency        )&IfxGtm_Atom_Timer_setFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   359      stdif->updateInputFrequency =(IfxStdIf_Timer_UpdateInputFrequency)&IfxGtm_Atom_Timer_updateInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   360      stdif->applyUpdate          =(IfxStdIf_Timer_ApplyUpdate         )&IfxGtm_Atom_Timer_applyUpdate;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   361      stdif->disableUpdate        =(IfxStdIf_Timer_DisableUpdate       )&IfxGtm_Atom_Timer_disableUpdate;
 	st.a	[a15],a12
 .L549:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   362      stdif->getFrequency         =(IfxStdIf_Timer_GetFrequency        )&IfxGtm_Atom_Timer_getFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   362      stdif->getInputFrequency    =(IfxStdIf_Timer_GetInputFrequency   )&IfxGtm_Atom_Timer_getInputFrequency;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_getFrequency)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_getFrequency)
 .L550:
 	st.a	[a15]4,a2
 .L551:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   363      stdif->getPeriod            =(IfxStdIf_Timer_GetPeriod           )&IfxGtm_Atom_Timer_getPeriod;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   363      stdif->run                  =(IfxStdIf_Timer_Run                 )&IfxGtm_Atom_Timer_run;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_getPeriod)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_getPeriod)
 .L552:
 	st.a	[a15]8,a2
 .L553:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   364      stdif->getResolution        =(IfxStdIf_Timer_GetResolution       )&IfxGtm_Atom_Timer_getResolution;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   364      stdif->setPeriod            =(IfxStdIf_Timer_SetPeriod           )&IfxGtm_Atom_Timer_setPeriod;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_getResolution)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_getResolution)
 .L554:
 	st.a	[a15]12,a2
 .L555:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   365      stdif->getTrigger           =(IfxStdIf_Timer_GetTrigger          )&IfxGtm_Atom_Timer_getTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   365      stdif->setSingleMode        =(IfxStdIf_Timer_SetSingleMode       )&IfxGtm_Atom_Timer_setSingleMode;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_getTrigger)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_getTrigger)
 .L556:
 	st.a	[a15]16,a2
 .L557:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   366      stdif->setFrequency         =(IfxStdIf_Timer_SetFrequency        )&IfxGtm_Atom_Timer_setFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   366      stdif->setTrigger           =(IfxStdIf_Timer_SetTrigger          )&IfxGtm_Atom_Timer_setTrigger;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_setFrequency)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_setFrequency)
 .L558:
 	st.a	[a15]20,a2
 .L559:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   367      stdif->updateInputFrequency =(IfxStdIf_Timer_UpdateInputFrequency)&IfxGtm_Atom_Timer_updateInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   367      stdif->stop                 =(IfxStdIf_Timer_Stop                )&IfxGtm_Atom_Timer_stop;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_updateInputFrequency)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_updateInputFrequency)
 .L560:
 	st.a	[a15]24,a2
 .L561:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   368      stdif->applyUpdate          =(IfxStdIf_Timer_ApplyUpdate         )&IfxGtm_Atom_Timer_applyUpdate;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   368      stdif->ackTimerIrq          =(IfxStdIf_Timer_AckTimerIrq         )&IfxGtm_Atom_Timer_acknowledgeTimerIrq;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_applyUpdate)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_applyUpdate)
 .L562:
 	st.a	[a15]28,a2
 .L563:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   369      stdif->disableUpdate        =(IfxStdIf_Timer_DisableUpdate       )&IfxGtm_Atom_Timer_disableUpdate;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   369      stdif->ackTriggerIrq        =(IfxStdIf_Timer_AckTriggerIrq       )&IfxGtm_Atom_Timer_acknowledgeTriggerIrq;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_disableUpdate)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_disableUpdate)
 .L564:
 	st.a	[a15]32,a2
 .L565:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   370      stdif->getInputFrequency    =(IfxStdIf_Timer_GetInputFrequency   )&IfxGtm_Atom_Timer_getInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   370      /* *INDENT-ON* */
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_getInputFrequency)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_getInputFrequency)
 .L566:
 	st.a	[a15]36,a2
 .L567:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   371      stdif->run                  =(IfxStdIf_Timer_Run                 )&IfxGtm_Atom_Timer_run;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   371  
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_run)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_run)
 .L568:
 	st.a	[a15]40,a2
 .L569:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   372      stdif->setPeriod            =(IfxStdIf_Timer_SetPeriod           )&IfxGtm_Atom_Timer_setPeriod;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   372      return TRUE;
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_setPeriod)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_setPeriod)
 .L570:
 	st.a	[a15]44,a2
 .L571:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   373      stdif->setSingleMode        =(IfxStdIf_Timer_SetSingleMode       )&IfxGtm_Atom_Timer_setSingleMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   373  }
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_setSingleMode)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_setSingleMode)
 .L572:
 	st.a	[a15]48,a2
 .L573:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   374      stdif->setTrigger           =(IfxStdIf_Timer_SetTrigger          )&IfxGtm_Atom_Timer_setTrigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   374  
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_setTrigger)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_setTrigger)
 .L574:
 	st.a	[a15]52,a2
 .L575:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   375      stdif->stop                 =(IfxStdIf_Timer_Stop                )&IfxGtm_Atom_Timer_stop;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   375  
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_stop)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_stop)
 .L576:
 	st.a	[a15]56,a2
 .L577:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   376      stdif->ackTimerIrq          =(IfxStdIf_Timer_AckTimerIrq         )&IfxGtm_Atom_Timer_acknowledgeTimerIrq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   376  void IfxGtm_Atom_Timer_stop(IfxGtm_Atom_Timer *driver)
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_acknowledgeTimerIrq)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_acknowledgeTimerIrq)
 .L578:
 	st.a	[a15]60,a2
 .L579:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   377      stdif->ackTriggerIrq        =(IfxStdIf_Timer_AckTriggerIrq       )&IfxGtm_Atom_Timer_acknowledgeTriggerIrq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   377  {
 	movh.a	a2,#@his(IfxGtm_Atom_Timer_acknowledgeTriggerIrq)
 	lea	a2,[a2]@los(IfxGtm_Atom_Timer_acknowledgeTriggerIrq)
 .L580:
 	st.a	[a15]64,a2
 .L581:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   378      /* *INDENT-ON* */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   379  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   380      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   378      IfxGtm_Atom_Agc_enableChannels(driver->agc, 0, driver->channelsMask, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   379  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   380  
 	mov	d2,#1
 .L582:
 	j	.L51
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   381  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   381  
 .L51:
 	ret
 .L286:
@@ -5142,28 +5142,38 @@ __IfxGtm_Atom_Timer_stdIfTimerInit_function_end:
 	
 	.global	IfxGtm_Atom_Timer_stop
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   382  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   383  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   384  void IfxGtm_Atom_Timer_stop(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   382  void IfxGtm_Atom_Timer_updateInputFrequency(IfxGtm_Atom_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   383  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   384      driver->base.clockFreq = IfxGtm_Atom_Ch_getClockFrequency(driver->gtm, driver->atom, driver->timerChannel);
 ; Function IfxGtm_Atom_Timer_stop
 .L95:
 IfxGtm_Atom_Timer_stop:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   385  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   386      IfxGtm_Atom_Agc_enableChannels(driver->agc, 0, driver->channelsMask, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   385  }
+
 	ld.a	a15,[a4]20
 .L587:
+
+
 	mov	d4,#0
 .L588:
+
+
 	ld.hu	d5,[a4]28
 .L589:
+
+
 	mov	d6,#1
+
+
 	mov.aa	a4,a15
 .L431:
+
+
 	call	IfxGtm_Atom_Agc_enableChannels
 .L590:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   387  }
+
 	ret
 .L290:
 	
@@ -5178,28 +5188,35 @@ __IfxGtm_Atom_Timer_stop_function_end:
 	
 	.global	IfxGtm_Atom_Timer_updateInputFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   388  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   389  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   390  void IfxGtm_Atom_Timer_updateInputFrequency(IfxGtm_Atom_Timer *driver)
+
 ; Function IfxGtm_Atom_Timer_updateInputFrequency
 .L97:
 IfxGtm_Atom_Timer_updateInputFrequency:	.type	func
+
+
 	mov.aa	a15,a4
 .L433:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   391  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   392      driver->base.clockFreq = IfxGtm_Atom_Ch_getClockFrequency(driver->gtm, driver->atom, driver->timerChannel);
+
 	ld.a	a4,[a15]12
 .L432:
+
+
 	ld.a	a5,[a15]16
 .L595:
+
+
 	ld.b	d4,[a15]25
+
+
 	call	IfxGtm_Atom_Ch_getClockFrequency
 .L596:
+
+
 	st.w	[a15]6,d2
 .L597:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\Timer\IfxGtm_Atom_Timer.c	   393  }
+
 	ret
 .L292:
 	
@@ -28050,7 +28067,7 @@ __IfxGtm_Atom_Timer_updateInputFrequency_function_end:
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
 	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
 	.byte	'IfxPort.h',0,2,0,0

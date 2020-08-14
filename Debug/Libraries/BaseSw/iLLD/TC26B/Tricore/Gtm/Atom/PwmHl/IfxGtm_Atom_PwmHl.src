@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl\\.IfxGtm_Atom_PwmHl.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl\\IfxGtm_Atom_PwmHl.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl\\IfxGtm_Atom_PwmHl.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl\\IfxGtm_Atom_PwmHl.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl\\IfxGtm_Atom_PwmHl.c'
@@ -629,7 +629,7 @@ IfxGtm_Atom_PwmHl_getDeadtime:	.type	func
 .L2:
 	j	.L3
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   154  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   154  PwmHl *driver)
 .L3:
 	ret
 .L347:
@@ -645,15 +645,15 @@ __IfxGtm_Atom_PwmHl_getDeadtime_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_getMinPulse
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   155  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   156  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   157  float32 IfxGtm_Atom_PwmHl_getMinPulse(IfxGtm_Atom_PwmHl *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   155  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   156      return IfxStdIf_Timer_tickToS(driver->timer->base.clockFreq, driver->base.minPulse - driver->base.deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   157  }
 ; Function IfxGtm_Atom_PwmHl_getMinPulse
 .L164:
 IfxGtm_Atom_PwmHl_getMinPulse:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   158  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   159      return IfxStdIf_Timer_tickToS(driver->timer->base.clockFreq, driver->base.minPulse - driver->base.deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   158  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   159  
 	ld.a	a15,[a4]20
 .L817:
 	ld.w	d0,[a15]6
@@ -1117,7 +1117,7 @@ IfxGtm_Atom_PwmHl_getMinPulse:	.type	func
 .L4:
 	j	.L5
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   160  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   160  m_Mode IfxGtm_Atom_PwmHl_getMode(IfxGtm_Atom_PwmHl *driver)
 .L5:
 	ret
 .L356:
@@ -1133,20 +1133,20 @@ __IfxGtm_Atom_PwmHl_getMinPulse_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_getMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   161  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   162  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   163  Ifx_Pwm_Mode IfxGtm_Atom_PwmHl_getMode(IfxGtm_Atom_PwmHl *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   161  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   162      return driver->base.mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   163  }
 ; Function IfxGtm_Atom_PwmHl_getMode
 .L166:
 IfxGtm_Atom_PwmHl_getMode:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   164  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   165      return driver->base.mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   164  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   165  
 	ld.bu	d2,[a4]12
 .L827:
 	j	.L6
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   166  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   166  boolean IfxGtm_Atom_PwmHl_init(IfxGtm_Atom_PwmHl *driver, const IfxGtm_Atom_PwmHl_Config *config)
 .L6:
 	ret
 .L362:
@@ -1162,9 +1162,9 @@ __IfxGtm_Atom_PwmHl_getMode_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_init
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   167  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   168  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   169  boolean IfxGtm_Atom_PwmHl_init(IfxGtm_Atom_PwmHl *driver, const IfxGtm_Atom_PwmHl_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   167  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   168      boolean            result       = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   169      uint16             channelMask;
 ; Function IfxGtm_Atom_PwmHl_init
 .L168:
 IfxGtm_Atom_PwmHl_init:	.type	func
@@ -1175,79 +1175,79 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	mov.aa	a15,a5
 .L603:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   170  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   171      boolean            result       = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   170      uint16             channelsMask = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   171      uint32             channelIndex;
 	mov	d9,#1
 .L605:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   172      uint16             channelMask;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   173      uint16             channelsMask = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   172  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   173      IfxGtm_Atom_Timer *timer = config->timer;
 	mov	d8,#0
 .L606:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   174      uint32             channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   175  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   176      IfxGtm_Atom_Timer *timer = config->timer;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   174  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   175      driver->base.mode             = Ifx_Pwm_Mode_init;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   176      driver->timer                 = timer;
 	ld.a	a13,[a15]16
 .L607:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   177  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   178      driver->base.mode             = Ifx_Pwm_Mode_init;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   177      driver->base.setMode          = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   178      driver->base.inverted         = FALSE;
 	mov	d15,#5
 .L717:
 	st.b	[a12]12,d15
 .L718:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   179      driver->timer                 = timer;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   179      driver->base.ccxActiveState   = config->base.ccxActiveState;
 	st.a	[a12]20,a13
 .L719:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   180      driver->base.setMode          = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   180      driver->base.coutxActiveState = config->base.coutxActiveState;
 	mov	d15,#0
 .L720:
 	st.b	[a12]13,d15
 .L721:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   181      driver->base.inverted         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   181      driver->base.channelCount     = config->base.channelCount;
 	mov	d15,#0
 .L722:
 	st.b	[a12]16,d15
 .L723:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   182      driver->base.ccxActiveState   = config->base.ccxActiveState;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   182  
 	ld.bu	d15,[a15]12
 .L724:
 	st.b	[a12]14,d15
 .L725:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   183      driver->base.coutxActiveState = config->base.coutxActiveState;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   183      IfxGtm_Atom_PwmHl_setDeadtime(driver, config->base.deadtime);
 	ld.bu	d15,[a15]13
 .L726:
 	st.b	[a12]15,d15
 .L727:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   184      driver->base.channelCount     = config->base.channelCount;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   184      IfxGtm_Atom_PwmHl_setMinPulse(driver, config->base.minPulse);
 	ld.bu	d15,[a15]8
 .L728:
 	st.b	[a12]17,d15
 .L729:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   185  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   186      IfxGtm_Atom_PwmHl_setDeadtime(driver, config->base.deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   186      driver->atom = &(timer->gtm->ATOM[config->atom]);
 	ld.w	d4,[a15]
 	mov.aa	a4,a12
 	call	IfxGtm_Atom_PwmHl_setDeadtime
 .L601:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   187      IfxGtm_Atom_PwmHl_setMinPulse(driver, config->base.minPulse);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   187      /* Only one AGC  */
 	ld.w	d4,[a15]4
 	mov.aa	a4,a12
 .L608:
 	call	IfxGtm_Atom_PwmHl_setMinPulse
 .L609:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   188  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   189      driver->atom = &(timer->gtm->ATOM[config->atom]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   188      driver->agc  = (Ifx_GTM_ATOM_AGC *)&driver->atom->AGC.GLB_CTRL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   189  
 	ld.bu	d15,[a15]20
 .L730:
 	mov	d0,#2048
@@ -1263,8 +1263,8 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	st.a	[a12]36,a2
 .L734:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   190      /* Only one AGC  */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   191      driver->agc  = (Ifx_GTM_ATOM_AGC *)&driver->atom->AGC.GLB_CTRL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   190      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.channelCount <= IFXGTM_ATOM_PWMHL_MAX_NUM_CHANNELS);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   191  
 	ld.a	a2,[a12]36
 .L735:
 	lea	a2,[a2]64
@@ -1272,10 +1272,10 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	st.a	[a12]40,a2
 .L321:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   192  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   193      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.channelCount <= IFXGTM_ATOM_PWMHL_MAX_NUM_CHANNELS);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   194  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   195      IfxGtm_Cmu_Clk clock = IfxGtm_Atom_Ch_getClockSource(timer->atom, timer->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   192      IfxGtm_Cmu_Clk clock = IfxGtm_Atom_Ch_getClockSource(timer->atom, timer->timerChannel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   193  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   194      for (channelIndex = 0; channelIndex < config->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   195      {
 	ld.a	a4,[a13]16
 .L737:
 	ld.b	d4,[a13]25
@@ -1284,17 +1284,17 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	mov	d10,d2
 .L611:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   197      for (channelIndex = 0; channelIndex < config->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   196          IfxGtm_Atom_Ch channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   197          /* CCX */
 	mov	d11,#0
 .L612:
 	j	.L7
 .L8:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   198      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   199          IfxGtm_Atom_Ch channel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   200          /* CCX */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   201          channel                   = config->ccx[channelIndex]->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   198          channel                   = config->ccx[channelIndex]->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   199          driver->ccx[channelIndex] = channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   200          channelMask               = 1 << channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   201          channelsMask             |= channelMask;
 	mul	d15,d11,#4
 .L738:
 	ld.a	a2,[a15]24
@@ -1305,27 +1305,27 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	ld.b	d4,[a2]1
 .L614:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   202          driver->ccx[channelIndex] = channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   202  
 	addsc.a	a2,a12,d11,#0
 .L741:
 	st.b	[a2]44,d4
 .L742:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   203          channelMask               = 1 << channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   203          /* Initialize the timer part */
 	mov	d0,#1
 .L743:
 	sha	d0,d0,d4
 	extr.u	d0,d0,#0,#16
 .L615:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   204          channelsMask             |= channelMask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   204          IfxGtm_Atom_Ch_configurePwmMode(driver->atom, channel, clock,
 	or	d8,d0
 .L744:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   206          /* Initialize the timer part */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   207          IfxGtm_Atom_Ch_configurePwmMode(driver->atom, channel, clock,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   208              driver->base.inverted ? config->base.ccxActiveState :
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   205              driver->base.inverted ? config->base.ccxActiveState :
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   206              IfxGtm_Atom_PwmHl_invertActiveState(config->base.ccxActiveState),
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   207              IfxGtm_Atom_Ch_ResetEvent_onTrigger, IfxGtm_Atom_Ch_OutputTrigger_forward);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   208  
 	ld.bu	d15,[a12]16
 .L745:
 	jeq	d15,#0,.L9
@@ -1335,7 +1335,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	j	.L10
 .L9:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   209              IfxGtm_Atom_PwmHl_invertActiveState(config->base.ccxActiveState),
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   209          /* Initialize the port */
 	ld.bu	d15,[a15]12
 .L333:
 
@@ -1358,7 +1358,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 .L13:
 .L10:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   210              IfxGtm_Atom_Ch_ResetEvent_onTrigger, IfxGtm_Atom_Ch_OutputTrigger_forward);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   210          if (config->initPins == TRUE)
 	mov	d15,#0
 	st.b	[a10],d15
 .L748:
@@ -1370,16 +1370,16 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Ch_configurePwmMode
 .L335:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   211  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   212          /* Initialize the port */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   213          if (config->initPins == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   211          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   212              IfxGtm_PinMap_setAtomTout(config->ccx[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   213                  config->base.outputMode, config->base.outputDriver);
 	ld.bu	d15,[a15]32
 .L750:
 	jne	d15,#1,.L14
 .L751:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   214          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   215              IfxGtm_PinMap_setAtomTout(config->ccx[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   214          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   215  
 	mul	d15,d11,#4
 .L752:
 	ld.a	a2,[a15]24
@@ -1388,17 +1388,17 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	ld.a	a4,[a2]
 .L754:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   216                  config->base.outputMode, config->base.outputDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   216          /* COUTX */
 	ld.bu	d4,[a15]10
 .L755:
 	ld.bu	d5,[a15]11
 	call	IfxGtm_PinMap_setAtomTout
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   217          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   219          /* COUTX */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   220          channel                     = config->coutx[channelIndex]->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   217          channel                     = config->coutx[channelIndex]->channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   218          driver->coutx[channelIndex] = channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   219          channelMask                 = 1 << channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   220          channelsMask               |= channelMask;
 	mul	d15,d11,#4
 .L756:
 	ld.a	a2,[a15]28
@@ -1409,33 +1409,33 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	ld.b	d4,[a2]1
 .L616:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   221          driver->coutx[channelIndex] = channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   221  
 	addsc.a	a2,a12,d11,#0
 .L759:
 	st.b	[a2]52,d4
 .L760:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   222          channelMask                 = 1 << channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   222          /* Initialize the timer part */
 	mov	d15,#1
 .L761:
 	sha	d15,d15,d4
 	extr.u	d15,d15,#0,#16
 .L617:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   223          channelsMask               |= channelMask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   223          IfxGtm_Atom_Ch_configurePwmMode(driver->atom, channel, clock,
 	or	d8,d15
 .L762:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   224  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   225          /* Initialize the timer part */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   226          IfxGtm_Atom_Ch_configurePwmMode(driver->atom, channel, clock,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   227              driver->base.inverted ?
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   224              driver->base.inverted ?
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   225              IfxGtm_Atom_PwmHl_invertActiveState(config->base.coutxActiveState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   226              : config->base.coutxActiveState,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   227              IfxGtm_Atom_Ch_ResetEvent_onTrigger, IfxGtm_Atom_Ch_OutputTrigger_forward);
 	ld.bu	d15,[a12]16
 .L618:
 	jeq	d15,#0,.L15
 .L763:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   228              IfxGtm_Atom_PwmHl_invertActiveState(config->base.coutxActiveState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   228  
 	ld.bu	d15,[a15]13
 .L336:
 
@@ -1457,13 +1457,13 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   144  }      (inlined)
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   229              : config->base.coutxActiveState,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   229          /* Initialize the port */
 	j	.L19
 .L15:
 	ld.bu	d6,[a15]13
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   230              IfxGtm_Atom_Ch_ResetEvent_onTrigger, IfxGtm_Atom_Ch_OutputTrigger_forward);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   230          if (config->initPins == TRUE)
 	mov	d15,#0
 	st.b	[a10],d15
 .L766:
@@ -1475,16 +1475,16 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Ch_configurePwmMode
 .L339:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   231  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   232          /* Initialize the port */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   233          if (config->initPins == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   231          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   232              IfxGtm_PinMap_setAtomTout(config->coutx[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   233                  config->base.outputMode, config->base.outputDriver);
 	ld.bu	d15,[a15]32
 .L768:
 	jne	d15,#1,.L20
 .L769:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   234          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   235              IfxGtm_PinMap_setAtomTout(config->coutx[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   234          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   235      }
 	mul	d15,d11,#4
 .L770:
 	ld.a	a2,[a15]28
@@ -1493,7 +1493,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	ld.a	a4,[a2]
 .L772:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   236                  config->base.outputMode, config->base.outputDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   236  
 	ld.bu	d4,[a15]10
 .L773:
 	ld.bu	d5,[a15]11
@@ -1506,10 +1506,10 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	jlt.u	d11,d15,.L8
 .L775:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   237          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   238      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   237      IfxGtm_Atom_Agc_enableChannelsOutput(driver->agc, channelsMask, 0, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   238      IfxGtm_Atom_Agc_enableChannels(driver->agc, channelsMask, 0, TRUE);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   239  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   240      IfxGtm_Atom_Agc_enableChannelsOutput(driver->agc, channelsMask, 0, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   240      IfxGtm_Atom_PwmHl_setMode(driver, Ifx_Pwm_Mode_off);
 	ld.a	a4,[a12]40
 .L776:
 	mov	d5,#0
@@ -1520,7 +1520,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Agc_enableChannelsOutput
 .L620:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   241      IfxGtm_Atom_Agc_enableChannels(driver->agc, channelsMask, 0, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   241  
 	ld.a	a4,[a12]40
 .L778:
 	mov	d5,#0
@@ -1531,8 +1531,8 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Agc_enableChannels
 .L622:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   242  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   243      IfxGtm_Atom_PwmHl_setMode(driver, Ifx_Pwm_Mode_off);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   242      Ifx_TimerValue tOn[IFXGTM_ATOM_PWMHL_MAX_NUM_CHANNELS] = {0};
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   243      IfxGtm_Atom_PwmHl_updateOff(driver, tOn); /* tOn do not need defined values */
 	mov	d4,#4
 	mov.aa	a4,a12
 .L623:
@@ -1540,7 +1540,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 .L340:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   244  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   245      Ifx_TimerValue tOn[IFXGTM_ATOM_PWMHL_MAX_NUM_CHANNELS] = {0};
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   245      /* Transfer the shadow registers */
 	movh.a	a15,#@his(.1.ini)
 .L604:
 	lea	a15,[a15]@los(.1.ini)
@@ -1554,16 +1554,16 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	loop	a4,.L21
 .L781:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   246      IfxGtm_Atom_PwmHl_updateOff(driver, tOn); /* tOn do not need defined values */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   246      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, channelsMask, 0, 0, 0);
 	lea	a5,[a10]4
 	mov.aa	a4,a12
 .L624:
 	call	IfxGtm_Atom_PwmHl_updateOff
 .L625:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   247  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   248      /* Transfer the shadow registers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   249      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, channelsMask, 0, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   247      IfxGtm_Atom_Agc_trigger(driver->agc);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   248      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, 0, channelsMask, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   249  
 	ld.a	a4,[a12]40
 .L782:
 	mov	d5,#0
@@ -1576,12 +1576,12 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Agc_setChannelsForceUpdate
 .L627:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   250      IfxGtm_Atom_Agc_trigger(driver->agc);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   250      /* Enable timer to update the channels */
 	ld.a	a4,[a12]40
 	call	IfxGtm_Atom_Agc_trigger
 .L785:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   251      IfxGtm_Atom_Agc_setChannelsForceUpdate(driver->agc, 0, channelsMask, 0, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   251  
 	ld.a	a4,[a12]40
 .L786:
 	mov	d4,#0
@@ -1594,17 +1594,17 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Agc_setChannelsForceUpdate
 .L629:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   252  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   253      /* Enable timer to update the channels */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   254  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   255      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   252      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   253      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   254          IfxGtm_Atom_Timer_addToChannelMask(timer, driver->ccx[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   255          IfxGtm_Atom_Timer_addToChannelMask(timer, driver->coutx[channelIndex]);
 	mov	d15,#0
 .L613:
 	j	.L22
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   256      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   257          IfxGtm_Atom_Timer_addToChannelMask(timer, driver->ccx[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   256      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   257  
 	addsc.a	a15,a12,d15,#0
 	ld.b	d4,[a15]44
 	mov.aa	a4,a13
@@ -1612,7 +1612,7 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	call	IfxGtm_Atom_Timer_addToChannelMask
 .L631:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   258          IfxGtm_Atom_Timer_addToChannelMask(timer, driver->coutx[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   258      return result;
 	addsc.a	a15,a12,d15,#0
 	ld.b	d4,[a15]52
 	mov.aa	a4,a13
@@ -1626,14 +1626,14 @@ IfxGtm_Atom_PwmHl_init:	.type	func
 	jlt.u	d15,d0,.L23
 .L790:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   259      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   259  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   261      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   261  
 	mov	d2,d9
 .L634:
 	j	.L24
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   262  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   262  void IfxGtm_Atom_PwmHl_initConfig(IfxGtm_Atom_PwmHl_Config *config)
 .L24:
 	ret
 .L308:
@@ -1649,52 +1649,52 @@ __IfxGtm_Atom_PwmHl_init_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   263  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   265  void IfxGtm_Atom_PwmHl_initConfig(IfxGtm_Atom_PwmHl_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   263  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   264      IfxStdIf_PwmHl_initConfig(&config->base);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   265      config->timer    = NULL_PTR;
 ; Function IfxGtm_Atom_PwmHl_initConfig
 .L170:
 IfxGtm_Atom_PwmHl_initConfig:	.type	func
 	mov.aa	a12,a4
 .L636:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   266  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   267      IfxStdIf_PwmHl_initConfig(&config->base);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   266      config->atom     = IfxGtm_Atom_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   267      config->ccx      = NULL_PTR;
 	mov.aa	a4,a12
 	call	IfxStdIf_PwmHl_initConfig
 .L635:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   268      config->timer    = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   268      config->coutx    = NULL_PTR;
 	mov.a	a15,#0
 .L795:
 	st.a	[a12]16,a15
 .L796:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   269      config->atom     = IfxGtm_Atom_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   269      config->initPins = TRUE;
 	mov	d15,#0
 .L797:
 	st.b	[a12]20,d15
 .L798:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   270      config->ccx      = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   270  }
 	mov.a	a15,#0
 .L799:
 	st.a	[a12]24,a15
 .L800:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   271      config->coutx    = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   271  
 	mov.a	a15,#0
 .L801:
 	st.a	[a12]28,a15
 .L802:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   272      config->initPins = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   272  
 	mov	d15,#1
 .L803:
 	st.b	[a12]32,d15
 .L804:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   273  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   273  boolean IfxGtm_Atom_PwmHl_setDeadtime(IfxGtm_Atom_PwmHl *driver, float32 deadtime)
 	ret
 .L343:
 	
@@ -1709,15 +1709,15 @@ __IfxGtm_Atom_PwmHl_initConfig_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setDeadtime
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   274  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   275  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   276  boolean IfxGtm_Atom_PwmHl_setDeadtime(IfxGtm_Atom_PwmHl *driver, float32 deadtime)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   274  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   275      Ifx_TimerValue value = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   276      driver->base.deadtime = value;
 ; Function IfxGtm_Atom_PwmHl_setDeadtime
 .L172:
 IfxGtm_Atom_PwmHl_setDeadtime:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   277  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   278      Ifx_TimerValue value = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   277  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   278      return TRUE;
 	ld.a	a15,[a4]20
 .L832:
 	ld.w	d15,[a15]6
@@ -2184,17 +2184,17 @@ IfxGtm_Atom_PwmHl_setDeadtime:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   279      driver->base.deadtime = value;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   279  xGtm_Atom_PwmHl_setMinPulse(IfxGtm_Atom_PwmHl *driver, float32 minPulse)
 	st.w	[a4],d15
 .L834:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   281      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   280  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   281      Ifx_TimerValue value = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, minPulse);
 	mov	d2,#1
 .L835:
 	j	.L26
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   282  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   282  
 .L26:
 	ret
 .L364:
@@ -2210,15 +2210,15 @@ __IfxGtm_Atom_PwmHl_setDeadtime_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setMinPulse
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   283  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   284  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   285  boolean IfxGtm_Atom_PwmHl_setMinPulse(IfxGtm_Atom_PwmHl *driver, float32 minPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   283      driver->base.minPulse = value + driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   284      driver->base.maxPulse = driver->timer->base.period - driver->base.minPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   285  
 ; Function IfxGtm_Atom_PwmHl_setMinPulse
 .L174:
 IfxGtm_Atom_PwmHl_setMinPulse:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   286  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   287      Ifx_TimerValue value = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, minPulse);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   286      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   287  }
 	ld.a	a15,[a4]20
 .L840:
 	ld.w	d15,[a15]6
@@ -2685,8 +2685,8 @@ IfxGtm_Atom_PwmHl_setMinPulse:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   288  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   289      driver->base.minPulse = value + driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   288   IfxGtm_Atom_PwmHl_setMode(IfxGtm_Atom_PwmHl *driver, Ifx_Pwm_Mode mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   289  {
 	ld.w	d0,[a4]
 .L842:
 	add	d15,d0
@@ -2694,7 +2694,7 @@ IfxGtm_Atom_PwmHl_setMinPulse:	.type	func
 	st.w	[a4]4,d15
 .L844:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   290      driver->base.maxPulse = driver->timer->base.period - driver->base.minPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   290      boolean                 result = TRUE;
 	ld.a	a15,[a4]20
 .L845:
 	ld.w	d0,[a15]
@@ -2706,13 +2706,13 @@ IfxGtm_Atom_PwmHl_setMinPulse:	.type	func
 	st.w	[a4]8,d0
 .L849:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   291  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   292      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   291      IfxGtm_Atom_PwmHl_Base *base   = &driver->base;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   292  
 	mov	d2,#1
 .L850:
 	j	.L28
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   293  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   293      if (base->mode != mode)
 .L28:
 	ret
 .L375:
@@ -2728,30 +2728,30 @@ __IfxGtm_Atom_PwmHl_setMinPulse_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   294  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   295  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   296  boolean IfxGtm_Atom_PwmHl_setMode(IfxGtm_Atom_PwmHl *driver, Ifx_Pwm_Mode mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   294      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   295          if ((mode > Ifx_Pwm_Mode_off) || (IfxGtm_Atom_PwmHl_modes[mode].update == NULL_PTR))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   296          {
 ; Function IfxGtm_Atom_PwmHl_setMode
 .L176:
 IfxGtm_Atom_PwmHl_setMode:	.type	func
 	mov.aa	a15,a4
 .L637:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   297  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   298      boolean                 result = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   297              mode   = Ifx_Pwm_Mode_off;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   298              result = FALSE;
 	mov	d8,#1
 .L638:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   299      IfxGtm_Atom_PwmHl_Base *base   = &driver->base;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   299          }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   300  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   301      if (base->mode != mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   301          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mode == IfxGtm_Atom_PwmHl_modes[mode].mode);
 	ld.bu	d15,[a15]12
 .L855:
 	jeq	d15,d4,.L29
 .L856:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   302      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   303          if ((mode > Ifx_Pwm_Mode_off) || (IfxGtm_Atom_PwmHl_modes[mode].update == NULL_PTR))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   302  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   303          base->mode             = mode;
 	jge.u	d4,#5,.L30
 .L857:
 	mul	d15,d4,#16
@@ -2766,24 +2766,24 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	jne	d15,#0,.L31
 .L30:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   304          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   305              mode   = Ifx_Pwm_Mode_off;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   304          driver->update         = IfxGtm_Atom_PwmHl_modes[mode].update;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   305          driver->updateAndShift = IfxGtm_Atom_PwmHl_modes[mode].updateAndShift;
 	mov	d4,#4
 .L862:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   306              result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   306          driver->updatePulse    = IfxGtm_Atom_PwmHl_modes[mode].updatePulse;
 	mov	d8,#0
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   307          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   309          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mode == IfxGtm_Atom_PwmHl_modes[mode].mode);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   310  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   311          base->mode             = mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   307  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   308          if (base->mode != Ifx_Pwm_Mode_off)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   309          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   310              base->inverted = IfxGtm_Atom_PwmHl_modes[mode].inverted;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   311          }
 	st.b	[a15]12,d4
 .L863:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   312          driver->update         = IfxGtm_Atom_PwmHl_modes[mode].update;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   312          else
 	mul	d15,d4,#16
 .L864:
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_modes)
@@ -2796,7 +2796,7 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	st.a	[a15]24,a2
 .L868:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   313          driver->updateAndShift = IfxGtm_Atom_PwmHl_modes[mode].updateAndShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   313          {   /* Keep previous inverted for off mode */
 	mul	d15,d4,#16
 .L869:
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_modes)
@@ -2809,7 +2809,7 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	st.a	[a15]28,a2
 .L873:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   314          driver->updatePulse    = IfxGtm_Atom_PwmHl_modes[mode].updatePulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   314          }
 	mul	d15,d4,#16
 .L874:
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_modes)
@@ -2823,14 +2823,14 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 .L878:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   315  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   316          if (base->mode != Ifx_Pwm_Mode_off)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   316          if (base->inverted)
 	ld.bu	d15,[a15]12
 .L879:
 	jeq	d15,#4,.L32
 .L880:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   317          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   318              base->inverted = IfxGtm_Atom_PwmHl_modes[mode].inverted;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   318              driver->ccxTemp   = driver->coutx;
 	mul	d15,d4,#16
 .L881:
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_modes)
@@ -2845,27 +2845,27 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	j	.L33
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   319          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   320          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   319              driver->coutxTemp = driver->ccx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   320          }
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   321          {   /* Keep previous inverted for off mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   322          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   323  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   324          if (base->inverted)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   321          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   322          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   323              driver->ccxTemp   = driver->ccx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   324              driver->coutxTemp = driver->coutx;
 	ld.bu	d15,[a15]16
 .L886:
 	jeq	d15,#0,.L34
 .L887:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   325          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   326              driver->ccxTemp   = driver->coutx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   325          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   326  
 	lea	a2,[a15]52
 .L888:
 	st.a	[a15]60,a2
 .L889:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   327              driver->coutxTemp = driver->ccx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   327          {   /* Workaround to enable the signal inversion required for center aligned inverted
 	lea	a2,[a15]44
 .L890:
 	st.a	[a15]64,a2
@@ -2873,57 +2873,57 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	j	.L35
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   328          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   329          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   330          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   331              driver->ccxTemp   = driver->ccx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   328               * and right aligned modes */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   329              /** \note Changing signal level may produce short circuit at the power stage,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   330               * in which case the inverter must be disable during this action.*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   331  
 	lea	a2,[a15]44
 .L892:
 	st.a	[a15]60,a2
 .L893:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   332              driver->coutxTemp = driver->coutx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   332              /* Ifx_Pwm_Mode_centerAligned and Ifx_Pwm_Mode_LeftAligned use inverted=FALSE */
 	lea	a2,[a15]52
 .L894:
 	st.a	[a15]64,a2
 .L35:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   333          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   334  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   335          {   /* Workaround to enable the signal inversion required for center aligned inverted
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   336               * and right aligned modes */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   337              /** \note Changing signal level may produce short circuit at the power stage,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   338               * in which case the inverter must be disable during this action.*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   333              /* Ifx_Pwm_Mode_centerAlignedInverted and Ifx_Pwm_Mode_RightAligned use inverted=TRUE */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   334              uint32 channelIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   335  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   336              for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   337              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   338                  IfxGtm_Atom_Ch channel;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   339  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   340              /* Ifx_Pwm_Mode_centerAligned and Ifx_Pwm_Mode_LeftAligned use inverted=FALSE */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   341              /* Ifx_Pwm_Mode_centerAlignedInverted and Ifx_Pwm_Mode_RightAligned use inverted=TRUE */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   342              uint32 channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   343  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   344              for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   340                  channel = driver->ccx[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   341                  IfxGtm_Atom_Ch_setSignalLevel(driver->atom, channel, base->inverted
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   342                      ? base->ccxActiveState
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   343                      : IfxGtm_Atom_PwmHl_invertActiveState(driver->base.ccxActiveState));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   344  
 	mov	d9,#0
 .L639:
 	j	.L36
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   345              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   346                  IfxGtm_Atom_Ch channel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   347  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   348                  channel = driver->ccx[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   345                  channel = driver->coutx[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   346                  IfxGtm_Atom_Ch_setSignalLevel(driver->atom, channel, base->inverted
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   347                      ? IfxGtm_Atom_PwmHl_invertActiveState(driver->base.coutxActiveState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   348                      : base->coutxActiveState);
 	addsc.a	a2,a15,d9,#0
 	ld.b	d4,[a2]44
 .L640:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   349                  IfxGtm_Atom_Ch_setSignalLevel(driver->atom, channel, base->inverted
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   349              }
 	ld.bu	d15,[a15]16
 .L895:
 	jeq	d15,#0,.L38
 .L391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   350                      ? base->ccxActiveState
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   350          }
 	ld.bu	d5,[a15]14
 .L392:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   351                      : IfxGtm_Atom_PwmHl_invertActiveState(driver->base.ccxActiveState));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   351      }
 	j	.L39
 .L38:
 	ld.bu	d15,[a15]14
@@ -2953,18 +2953,18 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 .L397:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   352  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   353                  channel = driver->coutx[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   353      return result;
 	addsc.a	a2,a15,d9,#0
 	ld.b	d4,[a2]52
 .L641:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   354                  IfxGtm_Atom_Ch_setSignalLevel(driver->atom, channel, base->inverted
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   354  }
 	ld.bu	d15,[a15]16
 .L898:
 	jeq	d15,#0,.L43
 .L899:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   355                      ? IfxGtm_Atom_PwmHl_invertActiveState(driver->base.coutxActiveState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   355  
 	ld.bu	d15,[a15]15
 .L398:
 
@@ -2986,7 +2986,7 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   144  }      (inlined)
 .L46:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   356                      : base->coutxActiveState);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   356  
 	j	.L47
 .L43:
 	ld.bu	d5,[a15]15
@@ -3002,16 +3002,16 @@ IfxGtm_Atom_PwmHl_setMode:	.type	func
 	jlt.u	d9,d15,.L37
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   357              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   358          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   359      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   360  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   361      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   357  void IfxGtm_Atom_PwmHl_setOnTime(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   358  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   359      driver->update(driver, tOn);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   360  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   361  
 	mov	d2,d8
 .L642:
 	j	.L48
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   362  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   362  
 .L48:
 	ret
 .L382:
@@ -3027,21 +3027,21 @@ __IfxGtm_Atom_PwmHl_setMode_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setOnTime
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   363  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   364  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   365  void IfxGtm_Atom_PwmHl_setOnTime(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   363  void IfxGtm_Atom_PwmHl_setOnTimeAndShift(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   364  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   365      driver->updateAndShift(driver, tOn, shift);
 ; Function IfxGtm_Atom_PwmHl_setOnTime
 .L178:
 IfxGtm_Atom_PwmHl_setOnTime:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   366  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   367      driver->update(driver, tOn);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   366  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   367  
 	ld.a	a15,[a4]24
 .L907:
 	calli	a15
 .L643:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   368  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   368  
 	ret
 .L401:
 	
@@ -3056,21 +3056,21 @@ __IfxGtm_Atom_PwmHl_setOnTime_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setOnTimeAndShift
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   369  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   370  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   371  void IfxGtm_Atom_PwmHl_setOnTimeAndShift(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   369  void IfxGtm_Atom_PwmHl_setPulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   370  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   371      driver->updatePulse(driver, tOn, offset);
 ; Function IfxGtm_Atom_PwmHl_setOnTimeAndShift
 .L180:
 IfxGtm_Atom_PwmHl_setOnTimeAndShift:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   372  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   373      driver->updateAndShift(driver, tOn, shift);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   372  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   373  
 	ld.a	a15,[a4]28
 .L912:
 	calli	a15
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   374  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   374  
 	ret
 .L405:
 	
@@ -3085,21 +3085,21 @@ __IfxGtm_Atom_PwmHl_setOnTimeAndShift_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setPulse
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   375  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   376  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   377  void IfxGtm_Atom_PwmHl_setPulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   375  void IfxGtm_Atom_PwmHl_setupChannels(IfxGtm_Atom_PwmHl *driver, boolean *activeCh, boolean *stuckSt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   376  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   377      /* Dummy Function for StdIf Compile*/
 ; Function IfxGtm_Atom_PwmHl_setPulse
 .L182:
 IfxGtm_Atom_PwmHl_setPulse:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   378  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   379      driver->updatePulse(driver, tOn, offset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   378      IFX_UNUSED_PARAMETER(driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   379      IFX_UNUSED_PARAMETER(activeCh)
 	ld.a	a15,[a4]32
 .L917:
 	calli	a15
 .L645:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   380  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   380      IFX_UNUSED_PARAMETER(stuckSt)
 	ret
 .L409:
 	
@@ -3114,28 +3114,28 @@ __IfxGtm_Atom_PwmHl_setPulse_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_setupChannels
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   381  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   381  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   382  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   383  void IfxGtm_Atom_PwmHl_setupChannels(IfxGtm_Atom_PwmHl *driver, boolean *activeCh, boolean *stuckSt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   383  
 ; Function IfxGtm_Atom_PwmHl_setupChannels
 .L184:
 IfxGtm_Atom_PwmHl_setupChannels:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   384  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   385      /* Dummy Function for StdIf Compile*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   386      IFX_UNUSED_PARAMETER(driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   384  boolean IfxGtm_Atom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Atom_PwmHl *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   385  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   386      /* Ensure the stdif is reset to zeros */
 	jz.a	a4,.L49
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   387      IFX_UNUSED_PARAMETER(activeCh)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   387      memset(stdif, 0, sizeof(IfxStdIf_PwmHl));
 	jz.a	a5,.L50
 .L50:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   388      IFX_UNUSED_PARAMETER(stuckSt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   388  
 	jz.a	a6,.L51
 .L51:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   389  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   389      /* *INDENT-OFF* Note: this file was indented manually by the author. */
 	ret
 .L414:
 	
@@ -3150,9 +3150,9 @@ __IfxGtm_Atom_PwmHl_setupChannels_function_end:
 	
 	.global	IfxGtm_Atom_PwmHl_stdIfPwmHlInit
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   390  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   391  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   392  boolean IfxGtm_Atom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Atom_PwmHl *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   390      /* Set the API link */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   391      stdif->driver               = driver;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   392      stdif->setDeadtime          = (IfxStdIf_PwmHl_SetDeadtime      )&IfxGtm_Atom_PwmHl_setDeadtime;
 ; Function IfxGtm_Atom_PwmHl_stdIfPwmHlInit
 .L186:
 IfxGtm_Atom_PwmHl_stdIfPwmHlInit:	.type	func
@@ -3161,9 +3161,9 @@ IfxGtm_Atom_PwmHl_stdIfPwmHlInit:	.type	func
 	mov.aa	a12,a5
 .L648:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   393  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   394      /* Ensure the stdif is reset to zeros */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   395      memset(stdif, 0, sizeof(IfxStdIf_PwmHl));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   393      stdif->getDeadtime          = (IfxStdIf_PwmHl_GetDeadtime      )&IfxGtm_Atom_PwmHl_getDeadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   394      stdif->setMinPulse          = (IfxStdIf_PwmHl_SetMinPulse      )&IfxGtm_Atom_PwmHl_setMinPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   395      stdif->getMinPulse          = (IfxStdIf_PwmHl_GetMinPulse      )&IfxGtm_Atom_PwmHl_getMinPulse;
 	mov	d4,#0
 .L926:
 	mov	d5,#112
@@ -3171,93 +3171,93 @@ IfxGtm_Atom_PwmHl_stdIfPwmHlInit:	.type	func
 	call	memset
 .L646:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   396  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   397      /* *INDENT-OFF* Note: this file was indented manually by the author. */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   398      /* Set the API link */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   399      stdif->driver               = driver;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   396      stdif->getMode              = (IfxStdIf_PwmHl_GetMode          )&IfxGtm_Atom_PwmHl_getMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   397      stdif->setMode              = (IfxStdIf_PwmHl_SetMode          )&IfxGtm_Atom_PwmHl_setMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   398      stdif->setOnTime            = (IfxStdIf_PwmHl_SetOnTime        )&IfxGtm_Atom_PwmHl_setOnTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   399      stdif->setOnTimeAndShift    = (IfxStdIf_PwmHl_SetOnTimeAndShift)&IfxGtm_Atom_PwmHl_setOnTimeAndShift;
 	st.a	[a15],a12
 .L927:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   400      stdif->setDeadtime          = (IfxStdIf_PwmHl_SetDeadtime      )&IfxGtm_Atom_PwmHl_setDeadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   400      stdif->setPulse             = (IfxStdIf_PwmHl_SetPulse         )&IfxGtm_Atom_PwmHl_setPulse;
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setDeadtime)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setDeadtime)
 .L928:
 	st.a	[a15]4,a2
 .L929:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   401      stdif->getDeadtime          = (IfxStdIf_PwmHl_GetDeadtime      )&IfxGtm_Atom_PwmHl_getDeadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   401      stdif->setupChannels        = (IfxStdIf_PwmHl_SetupChannels    )&IfxGtm_Atom_PwmHl_setupChannels;
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_getDeadtime)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_getDeadtime)
 .L930:
 	st.a	[a15]8,a2
 .L931:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   402      stdif->setMinPulse          = (IfxStdIf_PwmHl_SetMinPulse      )&IfxGtm_Atom_PwmHl_setMinPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   402      IfxGtm_Atom_Timer_stdIfTimerInit(&stdif->timer, driver->timer);
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setMinPulse)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setMinPulse)
 .L932:
 	st.a	[a15]12,a2
 .L933:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   403      stdif->getMinPulse          = (IfxStdIf_PwmHl_GetMinPulse      )&IfxGtm_Atom_PwmHl_getMinPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   403      /* *INDENT-ON* */
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_getMinPulse)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_getMinPulse)
 .L934:
 	st.a	[a15]16,a2
 .L935:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   404      stdif->getMode              = (IfxStdIf_PwmHl_GetMode          )&IfxGtm_Atom_PwmHl_getMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   404  
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_getMode)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_getMode)
 .L936:
 	st.a	[a15]20,a2
 .L937:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   405      stdif->setMode              = (IfxStdIf_PwmHl_SetMode          )&IfxGtm_Atom_PwmHl_setMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   405      return TRUE;
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setMode)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setMode)
 .L938:
 	st.a	[a15]24,a2
 .L939:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   406      stdif->setOnTime            = (IfxStdIf_PwmHl_SetOnTime        )&IfxGtm_Atom_PwmHl_setOnTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   406  }
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setOnTime)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setOnTime)
 .L940:
 	st.a	[a15]28,a2
 .L941:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   407      stdif->setOnTimeAndShift    = (IfxStdIf_PwmHl_SetOnTimeAndShift)&IfxGtm_Atom_PwmHl_setOnTimeAndShift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   407  
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setOnTimeAndShift)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setOnTimeAndShift)
 .L942:
 	st.a	[a15]32,a2
 .L943:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   408      stdif->setPulse             = (IfxStdIf_PwmHl_SetPulse         )&IfxGtm_Atom_PwmHl_setPulse;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   408  
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setPulse)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setPulse)
 .L944:
 	st.a	[a15]36,a2
 .L945:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   409      stdif->setupChannels        = (IfxStdIf_PwmHl_SetupChannels    )&IfxGtm_Atom_PwmHl_setupChannels;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   409  IFX_STATIC void IfxGtm_Atom_PwmHl_updateAndShiftOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
 	movh.a	a2,#@his(IfxGtm_Atom_PwmHl_setupChannels)
 	lea	a2,[a2]@los(IfxGtm_Atom_PwmHl_setupChannels)
 .L946:
 	st.a	[a15]40,a2
 .L947:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   410      IfxGtm_Atom_Timer_stdIfTimerInit(&stdif->timer, driver->timer);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   410  {
 	lea	a4,[a15]44
 .L948:
 	ld.a	a5,[a12]20
 	call	IfxGtm_Atom_Timer_stdIfTimerInit
 .L949:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   411      /* *INDENT-ON* */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   412  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   413      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   411      IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   412      IFX_UNUSED_PARAMETER(tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   413      IFX_UNUSED_PARAMETER(shift)
 	mov	d2,#1
 .L950:
 	j	.L52
@@ -3279,7 +3279,7 @@ __IfxGtm_Atom_PwmHl_stdIfPwmHlInit_function_end:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   415  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   416  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   417  IFX_STATIC void IfxGtm_Atom_PwmHl_updateAndShiftOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   417  IFX_STATIC void IfxGtm_Atom_PwmHl_updateCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
 ; Function IfxGtm_Atom_PwmHl_updateAndShiftOff
 .L188:
 IfxGtm_Atom_PwmHl_updateAndShiftOff:	.type	func
@@ -3289,21 +3289,21 @@ IfxGtm_Atom_PwmHl_updateAndShiftOff:	.type	func
 .L652:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   418  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   419      IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   419      uint8          channelIndex;
 	mov.a	a5,#0
 .L650:
 	call	IfxGtm_Atom_PwmHl_updateOff
 .L649:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   420      IFX_UNUSED_PARAMETER(tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   420      Ifx_TimerValue period;
 	jz.a	a15,.L53
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   421      IFX_UNUSED_PARAMETER(shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   421      Ifx_TimerValue deadtime = driver->base.deadtime;
 	jz.a	a12,.L54
 .L54:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   422  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   422  
 	ret
 .L423:
 	
@@ -3317,64 +3317,64 @@ __IfxGtm_Atom_PwmHl_updateAndShiftOff_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   423  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   423      period = driver->timer->base.period;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   424  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   425  IFX_STATIC void IfxGtm_Atom_PwmHl_updateCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   425      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
 ; Function IfxGtm_Atom_PwmHl_updateCenterAligned
 .L190:
 IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   426  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   427      uint8          channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   428      Ifx_TimerValue period;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   429      Ifx_TimerValue deadtime = driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   426      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   427          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   428          Ifx_TimerValue cm0, cm1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   429          x = tOn[channelIndex];
 	ld.w	d3,[a4]
 .L653:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   430  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   431      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   431          if (driver->base.inverted != FALSE)
 	ld.a	a15,[a4]20
 .L959:
 	ld.w	d4,[a15]
 .L654:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   432  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   433      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   432          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   433              x = period - x;
 	mov	d5,#0
 .L655:
 	j	.L55
 .L56:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   434      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   435          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   436          Ifx_TimerValue cm0, cm1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   437          x = tOn[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   434          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   435          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   436          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   437  
 	mul	d15,d5,#4
 	addsc.a	a15,a5,d15,#0
 	ld.w	d0,[a15]
 .L657:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   438  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   439          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   438          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   439          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
 	ld.bu	d15,[a4]16
 .L960:
 	jeq	d15,#0,.L57
 .L961:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   440          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   441              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   440              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   441          }
 	sub	d0,d4,d0
 .L962:
 	j	.L58
 .L57:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   442          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   443          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   442          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   443          {
 .L58:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   444          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   445  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   446          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   444              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   445          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   446          else
 	ld.w	d15,[a4]4
 .L963:
 	jlt.u	d0,d15,.L59
@@ -3382,41 +3382,41 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	jlt.u	d3,d0,.L60
 .L59:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   447          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   448              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   447          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   448  
 	mov	d0,#0
 .L965:
 	j	.L61
 .L60:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   449          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   450          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   449          /* Special handling due to GTM issue */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   450          if (x == period)
 	ld.w	d15,[a4]8
 .L966:
 	jge.u	d15,d0,.L62
 .L967:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   451          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   452              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   451          {   /* 100% duty cycle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   452              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
 	mov	d0,d4
 .L968:
 	j	.L63
 .L62:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   453          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   454          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   453                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   454                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
 .L63:
 .L61:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   455          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   456  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   457          /* Special handling due to GTM issue */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   458          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   455              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   456                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   457                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   458          }
 	jne	d0,d4,.L64
 .L969:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   459          {   /* 100% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   460              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   459          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   460          {
 	ld.a	a15,[a4]36
 .L970:
 	ld.a	a2,[a4]60
@@ -3425,11 +3425,11 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	ld.b	d0,[a2]0
 .L658:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   461                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   461              cm0 = 1;
 	add	d15,d4,#1
 .L972:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   462                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   462              cm1 = period + 2;
 	add	d1,d3,#2
 .L437:
 
@@ -4052,7 +4052,7 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	st.w	[a15]12,d1
 .L438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   463              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   463  ccxTemp[channelIndex], cm0, cm1);
 	ld.a	a15,[a4]36
 .L977:
 	ld.a	a2,[a4]64
@@ -4061,11 +4061,11 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	ld.b	d0,[a2]0
 .L979:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   464                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   464              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
 	add	d15,d4,#2
 .L980:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   465                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   465          }
 	mov	d2,#2
 .L456:
 
@@ -4690,21 +4690,21 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	j	.L67
 .L64:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   466          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   467          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   466       else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   467          {                           /* x% duty cycle */
 	jne	d0,#0,.L68
 .L985:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   468          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   469              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   468              cm1 = (period - x) / 2; // CM1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   469              cm0 = (period + x) / 2; // CM0
 	mov	d15,#1
 .L660:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   470              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   470              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1 + deadtime);
 	add	d0,d4,#2
 .L659:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   471              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   471              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
 	ld.a	a15,[a4]36
 .L986:
 	ld.a	a2,[a4]60
@@ -5332,7 +5332,7 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	st.w	[a15]12,d0
 .L460:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   472              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   472    }
 	ld.a	a15,[a4]36
 .L992:
 	ld.a	a2,[a4]64
@@ -5964,10 +5964,10 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	j	.L71
 .L68:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   473          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   474          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   475          {                           /* x% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   476              cm1 = (period - x) / 2; // CM1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   473     }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   474  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   475  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   476  
 	sub	d15,d4,d0
 .L999:
 	mov	d1,#0
@@ -5975,7 +5975,7 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	mul.u	e6,d15,d1
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   477              cm0 = (period + x) / 2; // CM0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   477  IFX_STATIC void IfxGtm_Atom_PwmHl_updateEdgeAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
 	add	d0,d4
 .L661:
 	mov	d15,#0
@@ -5983,7 +5983,7 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	mul.u	e8,d0,d15
 .L663:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   478              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1 + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   478  {
 	ld.a	a15,[a4]36
 .L1000:
 	ld.a	a2,[a4]60
@@ -6613,7 +6613,7 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	st.w	[a15]12,d15
 .L466:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   479              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   479  nt8          channelIndex;
 	ld.a	a15,[a4]36
 .L1007:
 	ld.a	a2,[a4]64
@@ -7252,9 +7252,9 @@ IfxGtm_Atom_PwmHl_updateCenterAligned:	.type	func
 	jlt.u	d5,d15,.L56
 .L1015:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   480          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   481      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   482  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   480     Ifx_TimerValue period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   481      Ifx_TimerValue deadtime = driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   482  
 	ret
 .L427:
 	
@@ -7268,64 +7268,64 @@ __IfxGtm_Atom_PwmHl_updateCenterAligned_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   483  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   483      period = driver->timer->base.period;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   484  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   485  IFX_STATIC void IfxGtm_Atom_PwmHl_updateEdgeAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   485      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
 ; Function IfxGtm_Atom_PwmHl_updateEdgeAligned
 .L192:
 IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   486  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   487      uint8          channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   488      Ifx_TimerValue period;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   489      Ifx_TimerValue deadtime = driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   486      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   487          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   488          Ifx_TimerValue cm0, cm1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   489          x = tOn[channelIndex];
 	ld.w	d3,[a4]
 .L664:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   490  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   491      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   491          if (driver->base.inverted != FALSE)
 	ld.a	a15,[a4]20
 .L1020:
 	ld.w	d4,[a15]
 .L665:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   492  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   493      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   492          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   493              x = period - x;
 	mov	d5,#0
 .L666:
 	j	.L74
 .L75:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   494      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   495          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   496          Ifx_TimerValue cm0, cm1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   497          x = tOn[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   494          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   495          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   496          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   497  
 	mul	d15,d5,#4
 	addsc.a	a15,a5,d15,#0
 	ld.w	d0,[a15]
 .L668:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   498  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   499          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   498          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   499          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
 	ld.bu	d15,[a4]16
 .L1021:
 	jeq	d15,#0,.L76
 .L1022:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   500          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   501              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   500              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   501          }
 	sub	d0,d4,d0
 .L1023:
 	j	.L77
 .L76:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   502          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   503          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   502          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   503          {
 .L77:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   504          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   505  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   506          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   504              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   505          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   506          else
 	ld.w	d15,[a4]4
 .L1024:
 	jlt.u	d0,d15,.L78
@@ -7333,41 +7333,41 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	jlt.u	d3,d0,.L79
 .L78:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   507          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   508              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   507          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   508  
 	mov	d0,#0
 .L1026:
 	j	.L80
 .L79:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   509          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   510          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   509          /* Special handling due to GTM issue */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   510          if (x == period)
 	ld.w	d15,[a4]8
 .L1027:
 	jge.u	d15,d0,.L81
 .L1028:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   511          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   512              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   511          {   /* 100% duty cycle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   512              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
 	mov	d0,d4
 .L1029:
 	j	.L82
 .L81:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   513          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   514          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   513                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   514                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
 .L82:
 .L80:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   515          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   516  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   517          /* Special handling due to GTM issue */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   518          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   515              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   516                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   517                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   518          }
 	jne	d0,d4,.L83
 .L1030:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   519          {   /* 100% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   520              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   519          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   520          {
 	ld.a	a15,[a4]36
 .L1031:
 	ld.a	a2,[a4]60
@@ -7376,11 +7376,11 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	ld.b	d0,[a2]0
 .L669:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   521                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   521              cm0 = 1;
 	add	d15,d4,#1
 .L1033:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   522                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   522              cm1 = period + 2;
 	add	d1,d3,#2
 .L479:
 
@@ -8003,7 +8003,7 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	st.w	[a15]12,d1
 .L480:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   523              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   523  (driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
 	ld.a	a15,[a4]36
 .L1038:
 	ld.a	a2,[a4]64
@@ -8012,11 +8012,11 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	ld.b	d0,[a2]0
 .L1040:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   524                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   524              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
 	add	d15,d4,#2
 .L1041:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   525                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   525          }
 	mov	d2,#2
 .L488:
 
@@ -8641,21 +8641,21 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	j	.L86
 .L83:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   526          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   527          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   526       else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   527          {            /* x% duty cycle */
 	jne	d0,#0,.L87
 .L1046:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   528          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   529              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   528              cm1 = 2; // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   529              cm0 = x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
 	mov	d15,#1
 .L671:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   530              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   530              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1 + deadtime);
 	add	d0,d4,#2
 .L670:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   531              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   531              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
 	ld.a	a15,[a4]36
 .L1047:
 	ld.a	a2,[a4]60
@@ -9283,7 +9283,7 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	st.w	[a15]12,d0
 .L492:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   532              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   532    }
 	ld.a	a15,[a4]36
 .L1053:
 	ld.a	a2,[a4]64
@@ -9915,15 +9915,15 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	j	.L90
 .L87:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   533          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   534          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   535          {            /* x% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   536              cm1 = 2; // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   533     }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   534  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   535  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   536  
 	mov	d1,#2
 .L672:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   537              cm0 = x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   538              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1 + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   537  IFX_STATIC void IfxGtm_Atom_PwmHl_updateOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   538  {
 	ld.a	a15,[a4]36
 .L1060:
 	ld.a	a2,[a4]60
@@ -10553,7 +10553,7 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	st.w	[a15]12,d15
 .L498:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   539              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   539  X_UNUSED_PARAMETER(tOn)
 	ld.a	a15,[a4]36
 .L1067:
 	ld.a	a2,[a4]64
@@ -11192,9 +11192,9 @@ IfxGtm_Atom_PwmHl_updateEdgeAligned:	.type	func
 	jlt.u	d5,d15,.L75
 .L1075:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   540          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   541      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   542  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   540     uint8 channelIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   541      Ifx_TimerValue period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   542      period = driver->timer->base.period;
 	ret
 .L470:
 	
@@ -11209,34 +11209,34 @@ __IfxGtm_Atom_PwmHl_updateEdgeAligned_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   543  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   544  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   545  IFX_STATIC void IfxGtm_Atom_PwmHl_updateOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   544      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   545      {
 ; Function IfxGtm_Atom_PwmHl_updateOff
 .L194:
 IfxGtm_Atom_PwmHl_updateOff:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   546  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   547      IFX_UNUSED_PARAMETER(tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   546          IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   547              2 /* 1 will keep the previous level*/, period + 2);
 	jz.a	a5,.L93
 .L93:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   548      uint8 channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   549      Ifx_TimerValue period;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   550      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   548          IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], period + 1, 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   549      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   550  }
 	ld.a	a15,[a4]20
 .L1080:
 	ld.w	d0,[a15]
 .L673:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   551  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   552      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   552  
 	mov	d1,#0
 .L674:
 	j	.L94
 .L95:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   553      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   554          IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   553  IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   554  {
 	ld.a	a15,[a4]36
 .L1081:
 	ld.a	a2,[a4]60
@@ -11245,7 +11245,7 @@ IfxGtm_Atom_PwmHl_updateOff:	.type	func
 	ld.b	d2,[a2]0
 .L1083:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   555              2 /* 1 will keep the previous level*/, period + 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   555      uint8          channelIndex;
 	mov	d3,#2
 .L1084:
 	add	d15,d0,#2
@@ -11870,7 +11870,7 @@ IfxGtm_Atom_PwmHl_updateOff:	.type	func
 	st.w	[a15]12,d15
 .L508:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   556          IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], period + 1, 2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   556  ue period;
 	ld.a	a15,[a4]36
 .L1089:
 	ld.a	a2,[a4]64
@@ -12510,8 +12510,8 @@ IfxGtm_Atom_PwmHl_updateOff:	.type	func
 	jlt.u	d1,d15,.L95
 .L1098:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   557      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   558  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   557      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   558  
 	ret
 .L502:
 	
@@ -12525,37 +12525,37 @@ __IfxGtm_Atom_PwmHl_updateOff_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   559  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   560  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   561  IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   559      /* Top channels */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   560      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   561      {
 ; Function IfxGtm_Atom_PwmHl_updatePulse
 .L196:
 IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   562  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   563      uint8          channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   564      Ifx_TimerValue period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   562          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   563          Ifx_TimerValue o;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   564          Ifx_TimerValue cm0, cm1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   565  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   566      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   566          x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex]);
 	ld.a	a15,[a4]20
 .L1103:
 	ld.w	d3,[a15]
 .L676:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   567  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   568      /* Top channels */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   569      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   567          o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   568  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   569          if (driver->base.inverted != FALSE)
 	mov	d4,#0
 .L677:
 	j	.L98
 .L99:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   570      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   571          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   572          Ifx_TimerValue o;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   573          Ifx_TimerValue cm0, cm1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   574  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   575          x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   570          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   571              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   572          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   573          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   574          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   575  
 	ld.a	a15,[a4]20
 .L1104:
 	ld.w	d0,[a15]6
@@ -13026,7 +13026,7 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L100:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   576          o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   576  iver->base.minPulse) || (o > period))
 	ld.a	a15,[a4]20
 .L1106:
 	ld.w	d1,[a15]6
@@ -13497,27 +13497,27 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L101:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   577  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   578          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   577         {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   578              x = 0;
 	ld.bu	d1,[a4]16
 .L1109:
 	jeq	d1,#0,.L102
 .L1110:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   579          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   580              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   579          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   580          else if ((x > driver->base.maxPulse) || (o + x > period))
 	sub	d0,d3,d0
 .L1111:
 	j	.L103
 .L102:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   581          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   582          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   581          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   582              x = period;
 .L103:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   583          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   584  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   585          if ((x < driver->base.minPulse) || (o > period))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   583          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   584          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   585          {}
 	ld.w	d1,[a4]4
 .L1112:
 	jlt.u	d0,d1,.L104
@@ -13525,15 +13525,15 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	jge.u	d3,d15,.L105
 .L104:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   586          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   587              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   586  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   587          /* Special handling due to GTM issue */
 	mov	d0,#0
 .L1114:
 	j	.L106
 .L105:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   588          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   589          else if ((x > driver->base.maxPulse) || (o + x > period))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   588          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   589          {   /* 100% duty cycle */
 	ld.w	d1,[a4]8
 .L1115:
 	jlt.u	d1,d0,.L107
@@ -13543,27 +13543,27 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	jge.u	d3,d1,.L108
 .L107:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   590          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   591              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   590              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   591                  period + 1 /* No compare event */,
 	mov	d0,d3
 .L1118:
 	j	.L109
 .L108:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   592          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   593          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   592                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   593          }
 .L109:
 .L106:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   594          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   595  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   596          /* Special handling due to GTM issue */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   597          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   594          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   595          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   596              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   597              cm1 = period + 2;
 	jne	d0,d3,.L110
 .L1119:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   598          {   /* 100% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   599              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   598              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   599          }
 	ld.a	a15,[a4]36
 .L1120:
 	ld.a	a2,[a4]60
@@ -13572,11 +13572,11 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	ld.b	d0,[a2]0
 .L680:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   600                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   600          else
 	add	d15,d3,#1
 .L1122:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   601                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   601          {                /* x% duty cycle */
 	mov	d2,#2
 .L533:
 
@@ -14201,21 +14201,21 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	j	.L112
 .L110:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   602          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   603          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   602  // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   603              cm0 = o + x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
 	jne	d0,#0,.L113
 .L1127:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   604          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   605              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   604              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   605          }
 	mov	d0,#1
 .L681:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   606              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   606      }
 	add	d15,d3,#2
 .L682:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   607              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   607  
 	ld.a	a15,[a4]36
 .L1128:
 	ld.a	a2,[a4]60
@@ -14845,18 +14845,18 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	j	.L115
 .L113:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   608          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   609          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   610          {                /* x% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   611              cm1 = 2 + o; // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   608   Bottom channels */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   609      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   610      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   611          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
 	add	d1,d15,#2
 .L684:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   612              cm0 = o + x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   612          Ifx_TimerValue o;
 	add	d0,d15
 .L683:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   613              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   613          Ifx_TimerValue cm0, cm1;
 	ld.a	a15,[a4]36
 .L1134:
 	ld.a	a2,[a4]60
@@ -15493,22 +15493,22 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	jlt.u	d4,d15,.L99
 .L1141:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   614          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   615      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   614     x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex + driver->base.channelCount]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   615          o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex + driver->base.channelCount]);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   616  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   617      /* Bottom channels */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   618      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   617          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   618          {
 	mov	d4,#0
 .L1142:
 	j	.L117
 .L118:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   619      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   620          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   621          Ifx_TimerValue o;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   622          Ifx_TimerValue cm0, cm1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   619              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   620          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   621          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   622          {}
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   623  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   624          x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex + driver->base.channelCount]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   624          if (x < driver->base.minPulse)
 	ld.a	a15,[a4]20
 .L1143:
 	ld.w	d1,[a15]6
@@ -15983,7 +15983,7 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L119:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   625          o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex + driver->base.channelCount]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   625             x = 0;
 	ld.a	a15,[a4]20
 .L1147:
 	ld.w	d2,[a15]6
@@ -16458,67 +16458,67 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L120:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   626  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   627          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   626  d - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   627          }
 	ld.bu	d15,[a4]16
 .L1152:
 	jeq	d15,#0,.L121
 .L1153:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   628          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   629              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   628          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   629          {}
 	sub	d0,d3,d0
 .L1154:
 	j	.L122
 .L121:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   630          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   631          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   630  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   631          if (x < driver->base.minPulse)
 .L122:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   632          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   633  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   634          if (x < driver->base.minPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   632          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   633              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   634          }
 	ld.w	d15,[a4]4
 .L1155:
 	jge.u	d0,d15,.L123
 .L1156:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   635          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   636              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   635          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   636          {
 	mov	d0,#0
 .L1157:
 	j	.L124
 .L123:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   637          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   638          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   637              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   638          }
 	ld.w	d15,[a4]8
 .L1158:
 	jge.u	d15,d0,.L125
 .L1159:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   639          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   640              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   639          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   640          {}
 	mov	d0,d3
 .L1160:
 	j	.L126
 .L125:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   641          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   642          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   641  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   642          /* Special handling due to GTM issue */
 .L126:
 .L124:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   643          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   644  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   645          /* Special handling due to GTM issue */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   646          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   643          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   644          {   /* 100% duty cycle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   645              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   646                  period + 2 /* No compare event, issues has been seen with +1 */,
 	jne	d0,d3,.L127
 .L1161:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   647          {   /* 100% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   648              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   647                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   648          }
 	ld.a	a15,[a4]36
 .L1162:
 	ld.a	a2,[a4]64
@@ -16527,11 +16527,11 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	ld.b	d0,[a2]0
 .L687:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   649                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   649          else if (x == 0)
 	add	d15,d3,#2
 .L1164:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   650                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   650          {
 	mov	d2,#2
 .L553:
 
@@ -17156,21 +17156,21 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	j	.L129
 .L127:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   651          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   652          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   651  1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   652          }
 	jne	d0,#0,.L130
 .L1169:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   653          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   654              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   653          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   654          {
 	mov	d0,#1
 .L688:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   655              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   655              cm0 = 1;
 	add	d15,d3,#2
 .L689:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   656              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   656              cm1 = period + 2;
 	ld.a	a15,[a4]36
 .L1170:
 	ld.a	a2,[a4]64
@@ -17800,14 +17800,14 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	j	.L132
 .L130:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   657          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   658          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   659          {                /* x% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   660              cm1 = 2 + o; // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   657     }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   658          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   659          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   660              cm0 = 1;
 	add	d15,d1,#2
 .L691:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   661              cm0 = o + x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   661              cm1 = period + 2;
 	add	d0,d1
 .L690:
 
@@ -18448,9 +18448,9 @@ IfxGtm_Atom_PwmHl_updatePulse:	.type	func
 	jlt.u	d4,d15,.L118
 .L1183:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   663          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   664      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   665  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   663  IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   664          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   665          else
 	ret
 .L519:
 	
@@ -18464,30 +18464,30 @@ __IfxGtm_Atom_PwmHl_updatePulse_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   666  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   667  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   668  IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulseOff(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   666          {                /* x% duty cycle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   667              cm1 = 2 + o; // CM1, set to 2 due to a GTM issue. should be 1 according to spec
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   668              cm0 = o + x; // CM0, set to x+2 due to a GTM issue. should be x+1 according to spec
 ; Function IfxGtm_Atom_PwmHl_updatePulseOff
 .L198:
 IfxGtm_Atom_PwmHl_updatePulseOff:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   669  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   670      IFX_UNUSED_PARAMETER(tOn)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   669              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   670          }
 	jz.a	a5,.L134
 .L134:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   671      IFX_UNUSED_PARAMETER(offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   671      }
 	jz.a	a6,.L135
 .L135:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   672  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   673      IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   672  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   673  
 	mov.a	a5,#0
 .L693:
 	call	IfxGtm_Atom_PwmHl_updateOff
 .L692:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   674  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   674  
 	ret
 .L561:
 	
@@ -18501,65 +18501,65 @@ __IfxGtm_Atom_PwmHl_updatePulseOff_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   675  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   676  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   677  IFX_STATIC void IfxGtm_Atom_PwmHl_updateShiftCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   675  IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulseOff(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   676  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   677      IFX_UNUSED_PARAMETER(tOn)
 ; Function IfxGtm_Atom_PwmHl_updateShiftCenterAligned
 .L200:
 IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   678  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   679      uint8          channelIndex;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   680      Ifx_TimerValue period;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   681      Ifx_TimerValue deadtime = driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   678      IFX_UNUSED_PARAMETER(offset)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   679  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   680      IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   681  }
 	ld.w	d3,[a4]
 .L694:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   682  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   683      period = driver->timer->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   683  
 	ld.a	a15,[a4]20
 .L1192:
 	ld.w	d4,[a15]
 .L695:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   684  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   685      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   684  IFX_STATIC void IfxGtm_Atom_PwmHl_updateShiftCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   685  {
 	mov	d5,#0
 .L696:
 	j	.L136
 .L137:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   686      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   687          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   688          Ifx_TimerValue s; /* Shift value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   689          Ifx_TimerValue cm0, cm1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   690          x = tOn[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   686      uint8          channelIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   687      Ifx_TimerValue period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   688      Ifx_TimerValue deadtime = driver->base.deadtime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   689  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   690      period = driver->timer->base.period;
 	mul	d15,d5,#4
 	addsc.a	a15,a5,d15,#0
 	ld.w	d2,[a15]
 .L698:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   691  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   692          if (driver->base.inverted != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   692      for (channelIndex = 0; channelIndex < driver->base.channelCount; channelIndex++)
 	ld.bu	d15,[a4]16
 .L1193:
 	jeq	d15,#0,.L138
 .L1194:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   693          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   694              x = period - x;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   693      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   694          Ifx_TimerValue x; /* x=period*dutyCycle, x=OnTime+deadTime */
 	sub	d2,d4,d2
 .L1195:
 	j	.L139
 .L138:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   695          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   696          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   695          Ifx_TimerValue s; /* Shift value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   696          Ifx_TimerValue cm0, cm1;
 .L139:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   697          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   697          x = tOn[channelIndex];
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   698  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   699          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   699          if (driver->base.inverted != FALSE)
 	ld.w	d15,[a4]4
 .L1196:
 	jlt.u	d2,d15,.L140
@@ -18567,41 +18567,41 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	jlt.u	d3,d2,.L141
 .L140:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   700          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   701              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   700          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   701              x = period - x;
 	mov	d2,#0
 .L1198:
 	j	.L142
 .L141:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   702          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   703          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   703          else
 	ld.w	d15,[a4]8
 .L1199:
 	jge.u	d15,d2,.L143
 .L1200:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   704          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   705              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   704          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   705  
 	mov	d2,d4
 .L1201:
 	j	.L144
 .L143:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   706          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   707          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   706          if ((x < driver->base.minPulse) || (x <= deadtime))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   707          {   /* For deadtime condition: avoid leading edge of top channel to occur after the trailing edge */
 .L144:
 .L142:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   708          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   709  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   710          /* Special handling due to GTM issue */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   711          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   708              x = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   709          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   710          else if (x > driver->base.maxPulse)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   711          {
 	jne	d2,d4,.L145
 .L1202:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   712          {   /* 100% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   713              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   712              x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   713          }
 	ld.a	a15,[a4]36
 .L1203:
 	ld.a	a2,[a4]60
@@ -18610,11 +18610,11 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	ld.b	d0,[a2]0
 .L1205:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   714                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   714          else
 	add	d15,d4,#1
 .L1206:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   715                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   715          {}
 	add	d1,d3,#2
 .L576:
 
@@ -19237,7 +19237,7 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	st.w	[a15]12,d1
 .L577:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   716              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   716  od;
 	ld.a	a15,[a4]36
 .L1210:
 	ld.a	a2,[a4]64
@@ -19246,11 +19246,11 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	ld.b	d0,[a2]0
 .L1212:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   717                  period + 2 /* No compare event, issues has been seen with +1 */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   717          }
 	add	d15,d4,#2
 .L1213:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   718                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   718          else
 	mov	d1,#2
 .L585:
 
@@ -19875,21 +19875,21 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	j	.L148
 .L145:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   719          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   720          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   719      x = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   720          }
 	jne	d2,#0,.L149
 .L1218:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   721          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   722              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   721          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   722          {}
 	mov	d15,#1
 .L700:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   723              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   723  
 	add	d0,d4,#2
 .L701:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   724              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   724          /* Special handling due to GTM issue */
 	ld.a	a15,[a4]36
 .L1219:
 	ld.a	a2,[a4]60
@@ -20517,7 +20517,7 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	st.w	[a15]12,d0
 .L589:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   725              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   725  pecial handling due to GTM issue */
 	ld.a	a15,[a4]36
 .L1225:
 	ld.a	a2,[a4]64
@@ -21149,22 +21149,22 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	j	.L152
 .L149:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   726          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   727          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   728          {                           /* x% duty cycle */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   729              s = shift[channelIndex];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   726  pecial handling due to GTM issue */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   727          if (x == period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   728          {   /* 100% duty cycle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   729              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex],
 	mul	d15,d5,#4
 	addsc.a	a15,a6,d15,#0
 	ld.w	d15,[a15]
 .L703:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   730  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   731              if (s > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   730                  period + 1 /* No compare event */,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   731                  2 /* 1st compare event (issue: expected to be 1)*/ + deadtime);
 	jlt.u	d15,#1,.L153
 .L1232:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   732              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   733                  s = __minX(s, (period - x) / 2 - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   732              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex],
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   733                  period + 2 /* No compare event, issues has been seen with +1 */,
 	sub	d0,d4,d2
 	mov	d1,#0
 	addih	d1,d1,#32768
@@ -21182,10 +21182,10 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	j	.L156
 .L153:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   734              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   735              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   736              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   737                  s = __maxX(s, (x - period) / 2 + 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   734                  2 /* 1st compare event (issue: expected to be 1)*/);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   735          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   736          else if (x == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   737          {
 	sub	d0,d2,d4
 	mov	d1,#0
 	addih	d1,d1,#32768
@@ -21203,9 +21203,9 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 .L158:
 .L156:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   738              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   739  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   740              cm1 = s + (period - x) / 2; // CM1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   738              cm0 = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   739              cm1 = period + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   740              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1);
 	sub	d0,d4,d2
 .L1233:
 	mov	d1,#0
@@ -21215,7 +21215,7 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	add	d6,d15,d1
 .L706:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   741              cm0 = s + (period + x) / 2; // CM0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   741              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
 	add	d2,d4
 .L702:
 	mov	d0,#0
@@ -21225,7 +21225,7 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	add	d15,d1
 .L705:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   742              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->ccxTemp[channelIndex], cm0, cm1 + deadtime);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   742          }
 	ld.a	a15,[a4]36
 .L1235:
 	ld.a	a2,[a4]60
@@ -21855,7 +21855,7 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	st.w	[a15]12,d1
 .L595:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   743              IfxGtm_Atom_Ch_setCompareShadow(driver->atom, driver->coutxTemp[channelIndex], cm0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   743  me, cm1);
 	ld.a	a15,[a4]36
 .L1242:
 	ld.a	a2,[a4]64
@@ -22494,9 +22494,9 @@ IfxGtm_Atom_PwmHl_updateShiftCenterAligned:	.type	func
 	jlt.u	d5,d15,.L137
 .L1250:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   744          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   745      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   746  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   744  m0 + deadtime, cm1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   745          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   746          else
 	ret
 .L565:
 	
@@ -45549,7 +45549,7 @@ IfxGtm_Atom_PwmHl_modes:	.type	object
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
 	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
 	.byte	'IfxSrc.h',0,2,0,0
@@ -50017,5 +50017,5 @@ IfxGtm_Atom_PwmHl_modes:	.type	object
 	.word	.L1251,.L200,.L565-.L200
 	.byte	8,19,8,23
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Atom\PwmHl\IfxGtm_Atom_PwmHl.c	   747          {                           /* x% duty cycle */
 	; Module end

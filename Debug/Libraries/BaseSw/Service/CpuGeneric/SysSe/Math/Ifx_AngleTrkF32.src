@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\.Ifx_AngleTrkF32.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_AngleTrkF32.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_AngleTrkF32.src ..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_AngleTrkF32.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_AngleTrkF32.c'
@@ -1851,17 +1851,17 @@ Ifx_AngleTrkF32_reset:	.type	func
 	st.w	[a4]108,d15
 .L313:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   422  #if IFX_CFG_ANGLETRKF32_SPEED_FILTER
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   423      Ifx_LowPassPt1F32_reset(&driver->speedLpf);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   424  #endif
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   425  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   426      driver->base.status.status = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   422  0.0F;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   423      driver->angleRef         = 0.0F;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   424  #if IFX_CFG_ANGLETRKF32_SPEED_FILTER
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   425      Ifx_LowPassPt1F32_reset(&driver->speedLpf);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   426  #endif
 	mov	d15,#0
 .L671:
 	st.w	[a4]10,d15
 .L672:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   427  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   427  
 	ret
 .L309:
 	
@@ -1876,9 +1876,9 @@ __Ifx_AngleTrkF32_reset_function_end:
 	
 	.global	Ifx_AngleTrkF32_stdIfPosInit
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   428  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   429  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   430  boolean Ifx_AngleTrkF32_stdIfPosInit(IfxStdIf_Pos *stdif, Ifx_AngleTrkF32 *driver)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   428      driver->base.status.status = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   429  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   430  
 ; Function Ifx_AngleTrkF32_stdIfPosInit
 .L95:
 Ifx_AngleTrkF32_stdIfPosInit:	.type	func
@@ -1887,9 +1887,9 @@ Ifx_AngleTrkF32_stdIfPosInit:	.type	func
 	mov.aa	a12,a5
 .L395:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   431  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   432      /* Ensure the stdif is reset to zeros */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   433      memset(stdif, 0, sizeof(IfxStdIf_Pos));
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   431  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   432  boolean Ifx_AngleTrkF32_stdIfPosInit(IfxStdIf_Pos *stdif, Ifx_AngleTrkF32 *driver)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   433  {
 	mov	d4,#0
 .L713:
 	mov	d5,#92
@@ -1897,166 +1897,166 @@ Ifx_AngleTrkF32_stdIfPosInit:	.type	func
 	call	memset
 .L393:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   434  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   435      /* Set the driver */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   436      stdif->driver = driver;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   434      /* Ensure the stdif is reset to zeros */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   435      memset(stdif, 0, sizeof(IfxStdIf_Pos));
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   436  
 	st.a	[a15],a12
 .L714:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   437  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   438      /* *INDENT-OFF* Note: this file was indented manually by the author. */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   439      /* Set the API link */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   440  	stdif->onZeroIrq          =(IfxStdIf_Pos_OnZeroIrq               )NULL_PTR;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   437      /* Set the driver */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   438      stdif->driver = driver;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   439  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   440      /* *INDENT-OFF* Note: this file was indented manually by the author. */
 	mov.a	a2,#0
 .L715:
 	st.a	[a15]4,a2
 .L716:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   441  	stdif->getAbsolutePosition=(IfxStdIf_Pos_GetAbsolutePosition     )&Ifx_AngleTrkF32_getAbsolutePosition;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   441      /* Set the API link */
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getAbsolutePosition)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getAbsolutePosition)
 .L717:
 	st.a	[a15]8,a2
 .L718:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   442  	stdif->getDirection		  =(IfxStdIf_Pos_GetDirection            )&Ifx_AngleTrkF32_getDirection;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   442  	stdif->onZeroIrq          =(IfxStdIf_Pos_OnZeroIrq               )NULL_PTR;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getDirection)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getDirection)
 .L719:
 	st.a	[a15]20,a2
 .L720:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   443  	stdif->getFault           =(IfxStdIf_Pos_GetFault                )&Ifx_AngleTrkF32_getFault;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   443  	stdif->getAbsolutePosition=(IfxStdIf_Pos_GetAbsolutePosition     )&Ifx_AngleTrkF32_getAbsolutePosition;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getFault)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getFault)
 .L721:
 	st.a	[a15]24,a2
 .L722:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   444  	stdif->getOffset		  =(IfxStdIf_Pos_GetOffset			     )&Ifx_AngleTrkF32_getOffset;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   444  	stdif->getDirection		  =(IfxStdIf_Pos_GetDirection            )&Ifx_AngleTrkF32_getDirection;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getOffset)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getOffset)
 .L723:
 	st.a	[a15]12,a2
 .L724:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   445  	stdif->getPeriodPerRotation  =(IfxStdIf_Pos_GetPeriodPerRotation )&Ifx_AngleTrkF32_getPeriodPerRotation;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   445  	stdif->getFault           =(IfxStdIf_Pos_GetFault                )&Ifx_AngleTrkF32_getFault;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getPeriodPerRotation)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getPeriodPerRotation)
 .L725:
 	st.a	[a15]32,a2
 .L726:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   446  	stdif->getPosition		  =(IfxStdIf_Pos_GetPosition			 )&Ifx_AngleTrkF32_getPosition;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   446  	stdif->getOffset		  =(IfxStdIf_Pos_GetOffset			     )&Ifx_AngleTrkF32_getOffset;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getPosition)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getPosition)
 .L727:
 	st.a	[a15]16,a2
 .L728:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   447  	stdif->getRawPosition	  =(IfxStdIf_Pos_GetRawPosition          )&Ifx_AngleTrkF32_getRawPosition;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   447  	stdif->getPeriodPerRotation  =(IfxStdIf_Pos_GetPeriodPerRotation )&Ifx_AngleTrkF32_getPeriodPerRotation;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getRawPosition)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getRawPosition)
 .L729:
 	st.a	[a15]28,a2
 .L730:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   448  	stdif->getRefreshPeriod   =(IfxStdIf_Pos_GetRefreshPeriod        )&Ifx_AngleTrkF32_getRefreshPeriod;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   448  	stdif->getPosition		  =(IfxStdIf_Pos_GetPosition			 )&Ifx_AngleTrkF32_getPosition;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getRefreshPeriod)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getRefreshPeriod)
 .L731:
 	st.a	[a15]36,a2
 .L732:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   449  	stdif->getResolution      =(IfxStdIf_Pos_GetResolution           )&Ifx_AngleTrkF32_getResolution;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   449  	stdif->getRawPosition	  =(IfxStdIf_Pos_GetRawPosition          )&Ifx_AngleTrkF32_getRawPosition;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getResolution)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getResolution)
 .L733:
 	st.a	[a15]40,a2
 .L734:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   450      stdif->getSensorType      =(IfxStdIf_Pos_GetSensorType           )&Ifx_AngleTrkF32_getSensorType;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   450  	stdif->getRefreshPeriod   =(IfxStdIf_Pos_GetRefreshPeriod        )&Ifx_AngleTrkF32_getRefreshPeriod;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getSensorType)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getSensorType)
 .L735:
 	st.a	[a15]44,a2
 .L736:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   451  	stdif->reset			  =(IfxStdIf_Pos_Reset				     )&Ifx_AngleTrkF32_reset;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   451  	stdif->getResolution      =(IfxStdIf_Pos_GetResolution           )&Ifx_AngleTrkF32_getResolution;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_reset)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_reset)
 .L737:
 	st.a	[a15]56,a2
 .L738:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   452  	stdif->resetFaults		  =(IfxStdIf_Pos_ResetFaults			 )&Ifx_AngleTrkF32_resetFaults;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   452      stdif->getSensorType      =(IfxStdIf_Pos_GetSensorType           )&Ifx_AngleTrkF32_getSensorType;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_resetFaults)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_resetFaults)
 .L739:
 	st.a	[a15]60,a2
 .L740:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   453  	stdif->getSpeed           =(IfxStdIf_Pos_GetSpeed                )&Ifx_AngleTrkF32_getSpeed;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   453  	stdif->reset			  =(IfxStdIf_Pos_Reset				     )&Ifx_AngleTrkF32_reset;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getSpeed)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getSpeed)
 .L741:
 	st.a	[a15]64,a2
 .L742:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   454  	stdif->update			  =(IfxStdIf_Pos_Update				     )&Ifx_AngleTrkF32_update;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   454  	stdif->resetFaults		  =(IfxStdIf_Pos_ResetFaults			 )&Ifx_AngleTrkF32_resetFaults;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_update)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_update)
 .L743:
 	st.a	[a15]68,a2
 .L744:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   455  	stdif->setPosition		  =(IfxStdIf_Pos_SetPosition			 )NULL_PTR;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   455  	stdif->getSpeed           =(IfxStdIf_Pos_GetSpeed                )&Ifx_AngleTrkF32_getSpeed;
 	mov.a	a2,#0
 .L745:
 	st.a	[a15]76,a2
 .L746:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   456  	stdif->setRawPosition	  =(IfxStdIf_Pos_SetRawPosition			 )NULL_PTR;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   456  	stdif->update			  =(IfxStdIf_Pos_Update				     )&Ifx_AngleTrkF32_update;
 	mov.a	a2,#0
 .L747:
 	st.a	[a15]80,a2
 .L748:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   457  	stdif->setSpeed		      =(IfxStdIf_Pos_SetSpeed			     )NULL_PTR;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   457  	stdif->setPosition		  =(IfxStdIf_Pos_SetPosition			 )NULL_PTR;
 	mov.a	a2,#0
 .L749:
 	st.a	[a15]84,a2
 .L750:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   458  	stdif->setOffset		  =(IfxStdIf_Pos_SetOffset			     )&Ifx_AngleTrkF32_setOffset;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   458  	stdif->setRawPosition	  =(IfxStdIf_Pos_SetRawPosition			 )NULL_PTR;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_setOffset)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_setOffset)
 .L751:
 	st.a	[a15]72,a2
 .L752:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   459  	stdif->setRefreshPeriod   =(IfxStdIf_Pos_SetRefreshPeriod        )&Ifx_AngleTrkF32_setRefreshPeriod;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   459  	stdif->setSpeed		      =(IfxStdIf_Pos_SetSpeed			     )NULL_PTR;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_setRefreshPeriod)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_setRefreshPeriod)
 .L753:
 	st.a	[a15]88,a2
 .L754:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   460  	stdif->getTurn            =(IfxStdIf_Pos_GetTurn                 )&Ifx_AngleTrkF32_getTurn;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   460  	stdif->setOffset		  =(IfxStdIf_Pos_SetOffset			     )&Ifx_AngleTrkF32_setOffset;
 	movh.a	a2,#@his(Ifx_AngleTrkF32_getTurn)
 	lea	a2,[a2]@los(Ifx_AngleTrkF32_getTurn)
 .L755:
 	st.a	[a15]48,a2
 .L756:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   461      /* *INDENT-ON* */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   462  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   463      return TRUE;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   461  	stdif->setRefreshPeriod   =(IfxStdIf_Pos_SetRefreshPeriod        )&Ifx_AngleTrkF32_setRefreshPeriod;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   462  	stdif->getTurn            =(IfxStdIf_Pos_GetTurn                 )&Ifx_AngleTrkF32_getTurn;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   463      /* *INDENT-ON* */
 	mov	d2,#1
 .L757:
 	j	.L45
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   464  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   464  
 .L45:
 	ret
 .L332:
@@ -3106,7 +3106,7 @@ __Ifx_AngleTrkF32_stdIfPosInit_function_end:
 .L398:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\StdIf\\IfxStdIf_Pos.h',0,0,0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h',0,0,0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_LowPassPt1F32.h',0,0
@@ -5922,5 +5922,5 @@ __Ifx_AngleTrkF32_stdIfPosInit_function_end:
 	.word	12
 	.word	.L797,.L95,.L332-.L95
 
-
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_AngleTrkF32.c	   465      return TRUE;
 	; Module end

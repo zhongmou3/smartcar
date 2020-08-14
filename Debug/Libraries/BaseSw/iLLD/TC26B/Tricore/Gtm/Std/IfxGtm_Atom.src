@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std\\.IfxGtm_Atom.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std\\IfxGtm_Atom.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std\\IfxGtm_Atom.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std\\IfxGtm_Atom.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std\\IfxGtm_Atom.c'
@@ -1462,17 +1462,17 @@ IfxGtm_Atom_Ch_clearOneNotification:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   266  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   267      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   268  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   269      atomCh->IRQ_NOTIFY.B.CCU1TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   266  ZeroNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   267  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   268      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   269  
 	ld.w	d15,[a15]32
 .L913:
 	or	d15,#2
 	st.w	[a15]32,d15
 .L914:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   270  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   270      atomCh->IRQ_NOTIFY.B.CCU0TC = 1;
 	ret
 .L432:
 	
@@ -1487,9 +1487,9 @@ __IfxGtm_Atom_Ch_clearOneNotification_function_end:
 	
 	.global	IfxGtm_Atom_Ch_clearZeroNotification
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   271  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   271  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   272  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   273  void IfxGtm_Atom_Ch_clearZeroNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   273  
 ; Function IfxGtm_Atom_Ch_clearZeroNotification
 .L111:
 IfxGtm_Atom_Ch_clearZeroNotification:	.type	func
@@ -2098,17 +2098,17 @@ IfxGtm_Atom_Ch_clearZeroNotification:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   274  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   275      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   276  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   277      atomCh->IRQ_NOTIFY.B.CCU0TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   274  Gtm_Atom_Ch_configurePwmMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Cmu_Clk clock, Ifx_ActiveState activeState, IfxGtm_Atom_Ch_ResetEvent resetEvent, IfxGtm_Atom_Ch_OutputTrigger trigger)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   275  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   276      Ifx_GTM_ATOM_CH     *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   277      Ifx_GTM_ATOM_CH_CTRL ctrl;
 	ld.w	d15,[a15]32
 .L920:
 	or	d15,#1
 	st.w	[a15]32,d15
 .L921:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   278  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   278  
 	ret
 .L445:
 	
@@ -2123,9 +2123,9 @@ __IfxGtm_Atom_Ch_clearZeroNotification_function_end:
 	
 	.global	IfxGtm_Atom_Ch_configurePwmMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   281  void IfxGtm_Atom_Ch_configurePwmMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Cmu_Clk clock, Ifx_ActiveState activeState, IfxGtm_Atom_Ch_ResetEvent resetEvent, IfxGtm_Atom_Ch_OutputTrigger trigger)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   279      ctrl.U          = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   280      ctrl.B.MODE     = IfxGtm_Atom_Mode_outputPwm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   281  
 ; Function IfxGtm_Atom_Ch_configurePwmMode
 .L113:
 IfxGtm_Atom_Ch_configurePwmMode:	.type	func
@@ -2736,29 +2736,29 @@ IfxGtm_Atom_Ch_configurePwmMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   282  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   283      Ifx_GTM_ATOM_CH     *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   284      Ifx_GTM_ATOM_CH_CTRL ctrl;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   285  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   286      ctrl.U          = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   282  .B.CLK_SRC  = clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   283  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   284      ctrl.B.RST_CCU0 = resetEvent;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   285      ctrl.B.SL       = (activeState == Ifx_ActiveState_high ? 1 : 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   286      ctrl.B.TRIGOUT  = trigger;
 	mov	d15,#0
 .L833:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   287      ctrl.B.MODE     = IfxGtm_Atom_Mode_outputPwm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   287  
 	insert	d15,d15,#2,#0,#2
 .L927:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   288  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   289      ctrl.B.CLK_SRC  = clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   288      atomCh->CTRL.U  = ctrl.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   289  }
 	insert	d15,d15,d5,#12,#3
 .L928:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   290  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   291      ctrl.B.RST_CCU0 = resetEvent;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   291  
 	insert	d15,d15,d7,#20,#1
 .L929:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   292      ctrl.B.SL       = (activeState == Ifx_ActiveState_high ? 1 : 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   292  float32 IfxGtm_Atom_Ch_getClockFrequency(Ifx_GTM *gtm, Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
 	jne	d6,#1,.L26
 .L930:
 	mov	d1,#1
@@ -2770,16 +2770,16 @@ IfxGtm_Atom_Ch_configurePwmMode:	.type	func
 	insert	d15,d15,d1,#11,#1
 .L932:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   293      ctrl.B.TRIGOUT  = trigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   293  {
 	insert	d15,d15,d0,#24,#1
 .L933:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   294  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   295      atomCh->CTRL.U  = ctrl.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   294      IfxGtm_Cmu_Clk clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   295  
 	st.w	[a15]4,d15
 .L934:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   296  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   296      clock = IfxGtm_Atom_Ch_getClockSource(atom, channel);
 	ret
 .L451:
 	
@@ -2795,25 +2795,25 @@ __IfxGtm_Atom_Ch_configurePwmMode_function_end:
 	.global	IfxGtm_Atom_Ch_getClockFrequency
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   297  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   299  float32 IfxGtm_Atom_Ch_getClockFrequency(Ifx_GTM *gtm, Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   298      return IfxGtm_Cmu_getClkFrequency(gtm, clock, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   299  }
 ; Function IfxGtm_Atom_Ch_getClockFrequency
 .L115:
 IfxGtm_Atom_Ch_getClockFrequency:	.type	func
 	mov.aa	a15,a4
 .L836:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   300  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   301      IfxGtm_Cmu_Clk clock;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   302  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   303      clock = IfxGtm_Atom_Ch_getClockSource(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   300  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   301  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   302  IfxGtm_Cmu_Clk IfxGtm_Atom_Ch_getClockSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   303  {
 	mov.aa	a4,a5
 .L835:
 	call	IfxGtm_Atom_Ch_getClockSource
 .L834:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   304  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   305      return IfxGtm_Cmu_getClkFrequency(gtm, clock, TRUE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   304      IfxGtm_Cmu_Clk   clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   305      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 	mov	d5,#1
 	mov.aa	a4,a15
 .L838:
@@ -2823,7 +2823,7 @@ IfxGtm_Atom_Ch_getClockFrequency:	.type	func
 .L837:
 	j	.L28
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   306  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   306      clock = (IfxGtm_Cmu_Clk)atomCh->CTRL.B.CLK_SRC;
 .L28:
 	ret
 .L469:
@@ -2840,8 +2840,8 @@ __IfxGtm_Atom_Ch_getClockFrequency_function_end:
 	.global	IfxGtm_Atom_Ch_getClockSource
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   307  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   309  IfxGtm_Cmu_Clk IfxGtm_Atom_Ch_getClockSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   308      return clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   309  }
 ; Function IfxGtm_Atom_Ch_getClockSource
 .L117:
 IfxGtm_Atom_Ch_getClockSource:	.type	func
@@ -3450,19 +3450,19 @@ IfxGtm_Atom_Ch_getClockSource:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   310  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   311      IfxGtm_Cmu_Clk   clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   310  ompareOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   311  {
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   312      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   313      clock = (IfxGtm_Cmu_Clk)atomCh->CTRL.B.CLK_SRC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   313  
 	ld.w	d15,[a15]4
 	extr.u	d2,d15,#12,#3
 .L842:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   314  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   315      return clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   314      return atomCh->CM1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   315  }
 	j	.L30
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   316  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   316  
 .L30:
 	ret
 .L475:
@@ -3479,8 +3479,8 @@ __IfxGtm_Atom_Ch_getClockSource_function_end:
 	.global	IfxGtm_Atom_Ch_getCompareOne
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   317  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   318  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   319  uint32 IfxGtm_Atom_Ch_getCompareOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   318  volatile uint32 *IfxGtm_Atom_Ch_getCompareOnePointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   319  {
 ; Function IfxGtm_Atom_Ch_getCompareOne
 .L119:
 IfxGtm_Atom_Ch_getCompareOne:	.type	func
@@ -4089,15 +4089,15 @@ IfxGtm_Atom_Ch_getCompareOne:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   320  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   321      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   322  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   323      return atomCh->CM1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   320  M_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   321  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   322      return (volatile uint32 *)&atomCh->CM1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   323  }
 	ld.w	d2,[a15]20
 .L949:
 	j	.L32
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   324  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   324  
 .L32:
 	ret
 .L483:
@@ -4114,8 +4114,8 @@ __IfxGtm_Atom_Ch_getCompareOne_function_end:
 	.global	IfxGtm_Atom_Ch_getCompareOnePointer
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   325  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   326  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   327  volatile uint32 *IfxGtm_Atom_Ch_getCompareOnePointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   326  uint32 IfxGtm_Atom_Ch_getCompareZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   327  {
 ; Function IfxGtm_Atom_Ch_getCompareOnePointer
 .L121:
 IfxGtm_Atom_Ch_getCompareOnePointer:	.type	func
@@ -4724,15 +4724,15 @@ IfxGtm_Atom_Ch_getCompareOnePointer:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   328  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   329      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   330  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   331      return (volatile uint32 *)&atomCh->CM1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   328  GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   329  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   330      return atomCh->CM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   331  }
 	lea	a2,[a15]20
 .L955:
 	j	.L34
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   332  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   332  
 .L34:
 	ret
 .L490:
@@ -4749,8 +4749,8 @@ __IfxGtm_Atom_Ch_getCompareOnePointer_function_end:
 	.global	IfxGtm_Atom_Ch_getCompareZero
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   333  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   334  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   335  uint32 IfxGtm_Atom_Ch_getCompareZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   334  volatile uint32 *IfxGtm_Atom_Ch_getCompareZeroPointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   335  {
 ; Function IfxGtm_Atom_Ch_getCompareZero
 .L123:
 IfxGtm_Atom_Ch_getCompareZero:	.type	func
@@ -5359,15 +5359,15 @@ IfxGtm_Atom_Ch_getCompareZero:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L35:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   336  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   337      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   338  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   339      return atomCh->CM0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   336  GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   337  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   338      return (volatile uint32 *)&atomCh->CM0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   339  }
 	ld.w	d2,[a15]16
 .L961:
 	j	.L36
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   340  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   340  
 .L36:
 	ret
 .L496:
@@ -5384,8 +5384,8 @@ __IfxGtm_Atom_Ch_getCompareZero_function_end:
 	.global	IfxGtm_Atom_Ch_getCompareZeroPointer
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   342  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   343  volatile uint32 *IfxGtm_Atom_Ch_getCompareZeroPointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   342  boolean IfxGtm_Atom_Ch_getOutputLevel(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   343  {
 ; Function IfxGtm_Atom_Ch_getCompareZeroPointer
 .L125:
 IfxGtm_Atom_Ch_getCompareZeroPointer:	.type	func
@@ -5994,15 +5994,15 @@ IfxGtm_Atom_Ch_getCompareZeroPointer:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   344  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   344  ean          result;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   345      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   346  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   347      return (volatile uint32 *)&atomCh->CM0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   347      result = atomCh->STAT.B.OL == 1;
 	lea	a2,[a15]16
 .L967:
 	j	.L38
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   348  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   348  
 .L38:
 	ret
 .L502:
@@ -6018,9 +6018,9 @@ __IfxGtm_Atom_Ch_getCompareZeroPointer_function_end:
 	
 	.global	IfxGtm_Atom_Ch_getOutputLevel
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   349  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   350  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   351  boolean IfxGtm_Atom_Ch_getOutputLevel(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   349      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   350  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   351  
 ; Function IfxGtm_Atom_Ch_getOutputLevel
 .L127:
 IfxGtm_Atom_Ch_getOutputLevel:	.type	func
@@ -6629,11 +6629,11 @@ IfxGtm_Atom_Ch_getOutputLevel:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L39:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   352  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   353      boolean          result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   354      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   355  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   356      result = atomCh->STAT.B.OL == 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   352  e Ifx_SRC_SRCR *IfxGtm_Atom_Ch_getSrcPointer(Ifx_GTM *gtm, IfxGtm_Atom atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   353  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   354      IFX_UNUSED_PARAMETER(gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   355      return &MODULE_SRC.GTM.GTM[0].ATOM[atom][channel / 2];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   356  }
 	ld.w	d15,[a15]28
 	and	d15,#1
 .L973:
@@ -6641,10 +6641,10 @@ IfxGtm_Atom_Ch_getOutputLevel:	.type	func
 .L853:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   357  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   358      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   358  
 	j	.L40
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   359  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   359  volatile uint32 *IfxGtm_Atom_Ch_getTimerPointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
 .L40:
 	ret
 .L509:
@@ -6660,19 +6660,19 @@ __IfxGtm_Atom_Ch_getOutputLevel_function_end:
 	
 	.global	IfxGtm_Atom_Ch_getSrcPointer
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   360  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   361  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   362  volatile Ifx_SRC_SRCR *IfxGtm_Atom_Ch_getSrcPointer(Ifx_GTM *gtm, IfxGtm_Atom atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   360  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   361      return (volatile uint32 *)((uint32)&(atom->CH0.CN0.U) + channel * (offsetof(Ifx_GTM_ATOM, CH1) - offsetof(Ifx_GTM_ATOM, CH0)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   362  }
 ; Function IfxGtm_Atom_Ch_getSrcPointer
 .L129:
 IfxGtm_Atom_Ch_getSrcPointer:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   363  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   364      IFX_UNUSED_PARAMETER(gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   363  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   364  
 	jz.a	a4,.L41
 .L41:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   365      return &MODULE_SRC.GTM.GTM[0].ATOM[atom][channel / 2];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   365  boolean IfxGtm_Atom_Ch_isOneNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
 	ge	d15,d5,#0
 	caddn	d5,d15,#1
 .L854:
@@ -6690,7 +6690,7 @@ IfxGtm_Atom_Ch_getSrcPointer:	.type	func
 .L981:
 	j	.L42
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   366  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   366  {
 .L42:
 	ret
 .L517:
@@ -6706,15 +6706,15 @@ __IfxGtm_Atom_Ch_getSrcPointer_function_end:
 	
 	.global	IfxGtm_Atom_Ch_getTimerPointer
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   367  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   368  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   369  volatile uint32 *IfxGtm_Atom_Ch_getTimerPointer(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   367      boolean          result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   368      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   369      result = atomCh->IRQ_NOTIFY.B.CCU1TC != 0;
 ; Function IfxGtm_Atom_Ch_getTimerPointer
 .L131:
 IfxGtm_Atom_Ch_getTimerPointer:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   370  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   371      return (volatile uint32 *)((uint32)&(atom->CH0.CN0.U) + channel * (offsetof(Ifx_GTM_ATOM, CH1) - offsetof(Ifx_GTM_ATOM, CH0)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   370      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   371  }
 	lea	a15,[a4]24
 	mov.d	d15,a15
 .L986:
@@ -6726,7 +6726,7 @@ IfxGtm_Atom_Ch_getTimerPointer:	.type	func
 .L989:
 	j	.L43
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   372  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   372  
 .L43:
 	ret
 .L522:
@@ -6743,8 +6743,8 @@ __IfxGtm_Atom_Ch_getTimerPointer_function_end:
 	.global	IfxGtm_Atom_Ch_isOneNotification
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   373  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   374  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   375  boolean IfxGtm_Atom_Ch_isOneNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   374  boolean IfxGtm_Atom_Ch_isZeroNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   375  {
 ; Function IfxGtm_Atom_Ch_isOneNotification
 .L133:
 IfxGtm_Atom_Ch_isOneNotification:	.type	func
@@ -7353,20 +7353,20 @@ IfxGtm_Atom_Ch_isOneNotification:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   376  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   377      boolean          result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   378      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   379      result = atomCh->IRQ_NOTIFY.B.CCU1TC != 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   376  ult;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   377      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   378      result = atomCh->IRQ_NOTIFY.B.CCU0TC != 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   379      return result;
 	ld.w	d15,[a15]32
 	extr.u	d15,d15,#1,#1
 .L995:
 	ne	d2,d15,#0
 .L857:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   380      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   380  }
 	j	.L45
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   381  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   381  
 .L45:
 	ret
 .L525:
@@ -7383,8 +7383,8 @@ __IfxGtm_Atom_Ch_isOneNotification_function_end:
 	.global	IfxGtm_Atom_Ch_isZeroNotification
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   382  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   383  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   384  boolean IfxGtm_Atom_Ch_isZeroNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   383  void IfxGtm_Atom_Ch_raiseInterruptOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   384  {
 ; Function IfxGtm_Atom_Ch_isZeroNotification
 .L135:
 IfxGtm_Atom_Ch_isZeroNotification:	.type	func
@@ -7993,20 +7993,20 @@ IfxGtm_Atom_Ch_isZeroNotification:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L46:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   385  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   386      boolean          result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   387      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   388      result = atomCh->IRQ_NOTIFY.B.CCU0TC != 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   385  TM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   386  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   387      atomCh->IRQ_FORCINT.B.TRG_CCU1TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   388  }
 	ld.w	d15,[a15]32
 	and	d15,#1
 .L1001:
 	ne	d2,d15,#0
 .L860:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   389      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   389  
 	j	.L47
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   390  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   390  
 .L47:
 	ret
 .L532:
@@ -8022,9 +8022,9 @@ __IfxGtm_Atom_Ch_isZeroNotification_function_end:
 	
 	.global	IfxGtm_Atom_Ch_raiseInterruptOne
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   391  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   392  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   393  void IfxGtm_Atom_Ch_raiseInterruptOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   391  void IfxGtm_Atom_Ch_raiseInterruptZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   392  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   393      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; Function IfxGtm_Atom_Ch_raiseInterruptOne
 .L137:
 IfxGtm_Atom_Ch_raiseInterruptOne:	.type	func
@@ -8633,17 +8633,17 @@ IfxGtm_Atom_Ch_raiseInterruptOne:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L48:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   394  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   395      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   394  Ch->IRQ_FORCINT.B.TRG_CCU0TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   395  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   396  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   397      atomCh->IRQ_FORCINT.B.TRG_CCU1TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   397  
 	ld.w	d15,[a15]40
 .L1007:
 	or	d15,#2
 	st.w	[a15]40,d15
 .L1008:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   398  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   398  void IfxGtm_Atom_Ch_setClockSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Cmu_Clk clock)
 	ret
 .L539:
 	
@@ -8658,9 +8658,9 @@ __IfxGtm_Atom_Ch_raiseInterruptOne_function_end:
 	
 	.global	IfxGtm_Atom_Ch_raiseInterruptZero
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   399  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   400  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   401  void IfxGtm_Atom_Ch_raiseInterruptZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   399  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   400      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   401  
 ; Function IfxGtm_Atom_Ch_raiseInterruptZero
 .L139:
 IfxGtm_Atom_Ch_raiseInterruptZero:	.type	func
@@ -9269,17 +9269,17 @@ IfxGtm_Atom_Ch_raiseInterruptZero:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   402  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   403      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   402  Ch->CTRL.B.CLK_SRC = clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   403  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   404  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   405      atomCh->IRQ_FORCINT.B.TRG_CCU0TC = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   405  
 	ld.w	d15,[a15]40
 .L1014:
 	or	d15,#1
 	st.w	[a15]40,d15
 .L1015:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   406  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   406  void IfxGtm_Atom_Ch_setCompare(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareZero, uint32 compareOne)
 	ret
 .L545:
 	
@@ -9294,9 +9294,9 @@ __IfxGtm_Atom_Ch_raiseInterruptZero_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setClockSource
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   407  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   408  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   409  void IfxGtm_Atom_Ch_setClockSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Cmu_Clk clock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   407  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   408      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   409  
 ; Function IfxGtm_Atom_Ch_setClockSource
 .L141:
 IfxGtm_Atom_Ch_setClockSource:	.type	func
@@ -9905,17 +9905,17 @@ IfxGtm_Atom_Ch_setClockSource:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L50:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   410  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   411      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   412  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   413      atomCh->CTRL.B.CLK_SRC = clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   410  Ch->CM0.U = compareZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   411      atomCh->CM1.U = compareOne;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   412  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   413  
 	ld.w	d15,[a15]4
 .L1021:
 	insert	d15,d15,d5,#12,#3
 	st.w	[a15]4,d15
 .L1022:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   414  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   414  
 	ret
 .L551:
 	
@@ -9930,9 +9930,9 @@ __IfxGtm_Atom_Ch_setClockSource_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setCompare
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   415  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   416  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   417  void IfxGtm_Atom_Ch_setCompare(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareZero, uint32 compareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   415  void IfxGtm_Atom_Ch_setCompareOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   416  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   417      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; Function IfxGtm_Atom_Ch_setCompare
 .L143:
 IfxGtm_Atom_Ch_setCompare:	.type	func
@@ -10541,18 +10541,18 @@ IfxGtm_Atom_Ch_setCompare:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L51:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   418  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   419      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   418  mCh->CM1.U = compareOne; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   419  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   420  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   421      atomCh->CM0.U = compareZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   421  
 	st.w	[a15]16,d5
 .L1028:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   422      atomCh->CM1.U = compareOne;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   422  void IfxGtm_Atom_Ch_setCompareOneShadow(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 shadowOne)
 	st.w	[a15]20,d6
 .L1029:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   423  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   423  {
 	ret
 .L558:
 	
@@ -10567,9 +10567,9 @@ __IfxGtm_Atom_Ch_setCompare_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setCompareOne
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   424  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   424      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   425  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   426  void IfxGtm_Atom_Ch_setCompareOne(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   426      atomCh->SR1.U = shadowOne; // TK: replaced .B access to optimize runtime
 ; Function IfxGtm_Atom_Ch_setCompareOne
 .L145:
 IfxGtm_Atom_Ch_setCompareOne:	.type	func
@@ -11178,14 +11178,14 @@ IfxGtm_Atom_Ch_setCompareOne:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L52:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   427  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   428      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   429  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   430      atomCh->CM1.U = compareOne; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   427  IfxGtm_Atom_Ch_setCompareZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareZero)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   428  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   429      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   430  
 	st.w	[a15]20,d5
 .L1035:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   431  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   431      atomCh->CM0.U = compareZero; // TK: replaced .B access to optimize runtime
 	ret
 .L566:
 	
@@ -11200,9 +11200,9 @@ __IfxGtm_Atom_Ch_setCompareOne_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setCompareOneShadow
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   432  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   432  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   433  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   434  void IfxGtm_Atom_Ch_setCompareOneShadow(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 shadowOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   434  
 ; Function IfxGtm_Atom_Ch_setCompareOneShadow
 .L147:
 IfxGtm_Atom_Ch_setCompareOneShadow:	.type	func
@@ -11811,14 +11811,14 @@ IfxGtm_Atom_Ch_setCompareOneShadow:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   435  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   436      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   437  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   438      atomCh->SR1.U = shadowOne; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   435  getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   436  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   437      atomCh->CM0.U = compareZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   438  }
 	st.w	[a15]12,d5
 .L1041:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   439  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   439  
 	ret
 .L573:
 	
@@ -11834,8 +11834,8 @@ __IfxGtm_Atom_Ch_setCompareOneShadow_function_end:
 	.global	IfxGtm_Atom_Ch_setCompareZero
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   440  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   441  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   442  void IfxGtm_Atom_Ch_setCompareZero(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 compareZero)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   441  void IfxGtm_Atom_Ch_setCompareZeroShadow(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 shadowZero)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   442  {
 ; Function IfxGtm_Atom_Ch_setCompareZero
 .L149:
 IfxGtm_Atom_Ch_setCompareZero:	.type	func
@@ -12444,14 +12444,14 @@ IfxGtm_Atom_Ch_setCompareZero:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L54:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   443  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   444      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   443  ntime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   444  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   445  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   446      atomCh->CM0.U = compareZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   446  
 	st.w	[a15]16,d5
 .L1047:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   447  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   447  void IfxGtm_Atom_Ch_setCompareZeroShadow(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 shadowZero)
 	ret
 .L580:
 	
@@ -12466,9 +12466,9 @@ __IfxGtm_Atom_Ch_setCompareZero_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setCompareZeroShadow
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   448  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   449  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   450  void IfxGtm_Atom_Ch_setCompareZeroShadow(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 shadowZero)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   448  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   449      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   450  
 ; Function IfxGtm_Atom_Ch_setCompareZeroShadow
 .L151:
 IfxGtm_Atom_Ch_setCompareZeroShadow:	.type	func
@@ -13077,14 +13077,14 @@ IfxGtm_Atom_Ch_setCompareZeroShadow:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L55:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   451  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   452      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   453  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   454      atomCh->SR0.U = shadowZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   451  _Ch channel, uint32 shadowZero)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   452  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   453      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   454  
 	st.w	[a15]8,d5
 .L1053:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   455  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   455      atomCh->SR0.U = shadowZero; // TK: replaced .B access to optimize runtime
 	ret
 .L587:
 	
@@ -13099,9 +13099,9 @@ __IfxGtm_Atom_Ch_setCompareZeroShadow_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setCounterValue
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   456  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   456  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   457  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   458  void IfxGtm_Atom_Ch_setCounterValue(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 value)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   458  
 ; Function IfxGtm_Atom_Ch_setCounterValue
 .L153:
 IfxGtm_Atom_Ch_setCounterValue:	.type	func
@@ -13710,14 +13710,14 @@ IfxGtm_Atom_Ch_setCounterValue:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L56:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   459  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   460      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   461  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   462      atomCh->CN0.U = value; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   459  nelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   460  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   461      atomCh->SR0.U = shadowZero; // TK: replaced .B access to optimize runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   462  }
 	st.w	[a15]24,d5
 .L1059:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   463  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   463  
 	ret
 .L594:
 	
@@ -13733,8 +13733,8 @@ __IfxGtm_Atom_Ch_setCounterValue_function_end:
 	.global	IfxGtm_Atom_Ch_setMode
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   464  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   465  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   466  void IfxGtm_Atom_Ch_setMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Mode mode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   465  void IfxGtm_Atom_Ch_setCounterValue(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 value)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   466  {
 ; Function IfxGtm_Atom_Ch_setMode
 .L155:
 IfxGtm_Atom_Ch_setMode:	.type	func
@@ -14343,17 +14343,17 @@ IfxGtm_Atom_Ch_setMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L57:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   467  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   468      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   467  runtime
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   468  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   469  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   470      atomCh->CTRL.B.MODE = mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   470  
 	ld.w	d15,[a15]4
 .L1065:
 	insert	d15,d15,d5,#0,#2
 	st.w	[a15]4,d15
 .L1066:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   471  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   471  void IfxGtm_Atom_Ch_setCounterValue(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 value)
 	ret
 .L601:
 	
@@ -14368,9 +14368,9 @@ __IfxGtm_Atom_Ch_setMode_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setNotification
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   472  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   473  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   474  void IfxGtm_Atom_Ch_setNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_IrqMode mode, boolean interruptOnCompareZero, boolean interruptOnCompareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   472  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   473      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   474  
 ; Function IfxGtm_Atom_Ch_setNotification
 .L157:
 IfxGtm_Atom_Ch_setNotification:	.type	func
@@ -14979,35 +14979,35 @@ IfxGtm_Atom_Ch_setNotification:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L58:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   475  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   476      Ifx_GTM_ATOM_CH       *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   477  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   478      Ifx_GTM_ATOM_CH_IRQ_EN en;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   479      en.U = atomCh->IRQ_EN.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   475   channel, uint32 value)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   476  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   477      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   478  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   479      atomCh->CN0.U = value; // TK: replaced .B access to optimize runtime
 	ld.w	d15,[a15]36
 .L883:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   480  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   481      /* Disable all interrupts of the interrupt set to change mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   482      atomCh->IRQ_EN.U            = IFX_ZEROS;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   480  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   481  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   482  
 	mov	d0,#0
 .L1072:
 	st.w	[a15]36,d0
 .L1073:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   483      atomCh->IRQ_MODE.B.IRQ_MODE = mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   483  void IfxGtm_Atom_Ch_setMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Mode mode)
 	ld.w	d0,[a15]44
 .L1074:
 	insert	d0,d0,d5,#0,#2
 	st.w	[a15]44,d0
 .L1075:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   484      atomCh->IRQ_EN.U            = en.U; /* Set the values back */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   484  {
 	st.w	[a15]36,d15
 .L1076:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   485  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   486      en.B.CCU0TC_IRQ_EN          = interruptOnCompareZero ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   485      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   486  
 	jeq	d6,#0,.L59
 .L1077:
 	mov	d0,#1
@@ -15019,7 +15019,7 @@ IfxGtm_Atom_Ch_setNotification:	.type	func
 	insert	d15,d15,d0,#0,#1
 .L1079:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   487      en.B.CCU1TC_IRQ_EN          = interruptOnCompareOne ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   487      atomCh->CTRL.B.MODE = mode;
 	jeq	d7,#0,.L61
 .L1080:
 	mov	d0,#1
@@ -15031,11 +15031,11 @@ IfxGtm_Atom_Ch_setNotification:	.type	func
 	insert	d15,d15,d0,#1,#1
 .L1082:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   488      atomCh->IRQ_EN.U            = en.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   488  }
 	st.w	[a15]36,d15
 .L1083:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   489  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   489  
 	ret
 .L609:
 	
@@ -15051,8 +15051,8 @@ __IfxGtm_Atom_Ch_setNotification_function_end:
 	.global	IfxGtm_Atom_Ch_setOneShotMode
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   490  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   491  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   492  void IfxGtm_Atom_Ch_setOneShotMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   491  void IfxGtm_Atom_Ch_setNotification(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_IrqMode mode, boolean interruptOnCompareZero, boolean interruptOnCompareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   492  {
 ; Function IfxGtm_Atom_Ch_setOneShotMode
 .L159:
 IfxGtm_Atom_Ch_setOneShotMode:	.type	func
@@ -15661,10 +15661,10 @@ IfxGtm_Atom_Ch_setOneShotMode:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L63:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   493  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   494      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   495  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   496      atomCh->CTRL.B.OSM = enabled ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   493  nnel, IfxGtm_IrqMode mode, boolean interruptOnCompareZero, boolean interruptOnCompareOne)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   494  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   495      Ifx_GTM_ATOM_CH       *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   496  
 	jeq	d5,#0,.L64
 .L1089:
 	mov	d0,#1
@@ -15679,7 +15679,7 @@ IfxGtm_Atom_Ch_setOneShotMode:	.type	func
 	st.w	[a15]4,d15
 .L1092:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   497  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   497      Ifx_GTM_ATOM_CH_IRQ_EN en;
 	ret
 .L621:
 	
@@ -15694,9 +15694,9 @@ __IfxGtm_Atom_Ch_setOneShotMode_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setResetSource
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   498  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   498      en.U = atomCh->IRQ_EN.U;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   499  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   500  void IfxGtm_Atom_Ch_setResetSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Ch_ResetEvent event)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   500      /* Disable all interrupts of the interrupt set to change mode */
 ; Function IfxGtm_Atom_Ch_setResetSource
 .L161:
 IfxGtm_Atom_Ch_setResetSource:	.type	func
@@ -16305,17 +16305,17 @@ IfxGtm_Atom_Ch_setResetSource:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L66:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   501  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   502      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   503  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   504      atomCh->CTRL.B.RST_CCU0 = event;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   501  omCh->IRQ_EN.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   502  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   503      /* Disable all interrupts of the interrupt set to change mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   504      atomCh->IRQ_EN.U            = IFX_ZEROS;
 	ld.w	d15,[a15]4
 .L1098:
 	insert	d15,d15,d5,#20,#1
 	st.w	[a15]4,d15
 .L1099:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   505  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   505      atomCh->IRQ_MODE.B.IRQ_MODE = mode;
 	ret
 .L628:
 	
@@ -16330,9 +16330,9 @@ __IfxGtm_Atom_Ch_setResetSource_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setSignalLevel
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   506  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   506      atomCh->IRQ_EN.U            = en.U; /* Set the values back */
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   507  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   508  void IfxGtm_Atom_Ch_setSignalLevel(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, Ifx_ActiveState activeState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   508      en.B.CCU0TC_IRQ_EN          = interruptOnCompareZero ? 1 : 0;
 ; Function IfxGtm_Atom_Ch_setSignalLevel
 .L163:
 IfxGtm_Atom_Ch_setSignalLevel:	.type	func
@@ -16941,10 +16941,10 @@ IfxGtm_Atom_Ch_setSignalLevel:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L67:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   509  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   510      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   511  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   512      atomCh->CTRL.B.SL = activeState == Ifx_ActiveState_high ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   509  alues back */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   510  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   511      en.B.CCU0TC_IRQ_EN          = interruptOnCompareZero ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   512      en.B.CCU1TC_IRQ_EN          = interruptOnCompareOne ? 1 : 0;
 	jne	d5,#1,.L68
 .L1105:
 	mov	d0,#1
@@ -16959,7 +16959,7 @@ IfxGtm_Atom_Ch_setSignalLevel:	.type	func
 	st.w	[a15]4,d15
 .L1108:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   513  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   513      atomCh->IRQ_EN.U            = en.U;
 	ret
 .L635:
 	
@@ -16974,9 +16974,9 @@ __IfxGtm_Atom_Ch_setSignalLevel_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setTriggerOutput
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   514  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   514  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   515  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   516  void IfxGtm_Atom_Ch_setTriggerOutput(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Ch_OutputTrigger trigger)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   516  
 ; Function IfxGtm_Atom_Ch_setTriggerOutput
 .L165:
 IfxGtm_Atom_Ch_setTriggerOutput:	.type	func
@@ -17585,17 +17585,17 @@ IfxGtm_Atom_Ch_setTriggerOutput:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   517  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   518      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   519  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   520      atomCh->CTRL.B.TRIGOUT = trigger;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   517   interruptOnCompareOne ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   518      atomCh->IRQ_EN.U            = en.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   519  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   520  
 	ld.w	d15,[a15]4
 .L1114:
 	insert	d15,d15,d5,#24,#1
 	st.w	[a15]4,d15
 .L1115:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   521  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   521  
 	ret
 .L642:
 	
@@ -17610,9 +17610,9 @@ __IfxGtm_Atom_Ch_setTriggerOutput_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setAruInput
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   522  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   523  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   524  void IfxGtm_Atom_Ch_setAruInput(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   522  void IfxGtm_Atom_Ch_setOneShotMode(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   523  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   524      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; Function IfxGtm_Atom_Ch_setAruInput
 .L167:
 IfxGtm_Atom_Ch_setAruInput:	.type	func
@@ -18221,17 +18221,17 @@ IfxGtm_Atom_Ch_setAruInput:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L71:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   525  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   526      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   527  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   528      atomCh->CTRL.B.ARU_EN = enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   525  x_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   526  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   527      atomCh->CTRL.B.OSM = enabled ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   528  }
 	ld.w	d15,[a15]4
 .L1233:
 	insert	d15,d15,d5,#3,#1
 	st.w	[a15]4,d15
 .L1234:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   529  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   529  
 	ret
 .L740:
 	
@@ -18247,8 +18247,8 @@ __IfxGtm_Atom_Ch_setAruInput_function_end:
 	.global	IfxGtm_Atom_Ch_getCounterValue
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   530  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   531  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   532  uint32 IfxGtm_Atom_Ch_getCounterValue(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   531  void IfxGtm_Atom_Ch_setResetSource(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Ch_ResetEvent event)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   532  {
 ; Function IfxGtm_Atom_Ch_getCounterValue
 .L169:
 IfxGtm_Atom_Ch_getCounterValue:	.type	func
@@ -18857,15 +18857,15 @@ IfxGtm_Atom_Ch_getCounterValue:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L72:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   533  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   534      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   535  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   536      return atomCh->CN0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   533  *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Ch_ResetEvent event)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   534  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   535      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   536  
 	ld.w	d2,[a15]24
 .L1121:
 	j	.L73
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   537  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   537      atomCh->CTRL.B.RST_CCU0 = event;
 .L73:
 	ret
 .L649:
@@ -18881,9 +18881,9 @@ __IfxGtm_Atom_Ch_getCounterValue_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setSomcControl
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   538  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   538  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   539  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   540  void IfxGtm_Atom_Ch_setSomcControl(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_SomcControl control)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   540  
 ; Function IfxGtm_Atom_Ch_setSomcControl
 .L171:
 IfxGtm_Atom_Ch_setSomcControl:	.type	func
@@ -19492,17 +19492,17 @@ IfxGtm_Atom_Ch_setSomcControl:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L74:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   541  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   542      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   543  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   544      atomCh->SOMC.B.ACB42 = control;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   541  r(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   542  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   543      atomCh->CTRL.B.RST_CCU0 = event;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   544  }
 	ld.w	d15,[a15]4
 .L1240:
 	insert	d15,d15,d5,#6,#3
 	st.w	[a15]4,d15
 .L1241:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   545  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   545  
 	ret
 .L747:
 	
@@ -19518,8 +19518,8 @@ __IfxGtm_Atom_Ch_setSomcControl_function_end:
 	.global	IfxGtm_Atom_Ch_setSomcSignalLevelControl
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   546  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   547  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   548  void IfxGtm_Atom_Ch_setSomcSignalLevelControl(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_SomcSignalLevelControl ctrl)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   547  void IfxGtm_Atom_Ch_setSignalLevel(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, Ifx_ActiveState activeState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   548  {
 ; Function IfxGtm_Atom_Ch_setSomcSignalLevelControl
 .L173:
 IfxGtm_Atom_Ch_setSomcSignalLevelControl:	.type	func
@@ -20128,17 +20128,17 @@ IfxGtm_Atom_Ch_setSomcSignalLevelControl:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L75:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   549  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   550      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   551  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   552      atomCh->SOMC.B.ACB10 = ctrl;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   549  m, IfxGtm_Atom_Ch channel, Ifx_ActiveState activeState)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   550  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   551      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   552  
 	ld.w	d15,[a15]4
 .L1247:
 	insert	d15,d15,d5,#4,#2
 	st.w	[a15]4,d15
 .L1248:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   553  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   553      atomCh->CTRL.B.SL = activeState == Ifx_ActiveState_high ? 1 : 0;
 	ret
 .L755:
 	
@@ -20153,9 +20153,9 @@ __IfxGtm_Atom_Ch_setSomcSignalLevelControl_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setAruReadAddress0
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   554  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   554  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   555  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   556  void IfxGtm_Atom_Ch_setAruReadAddress0(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 address)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   556  
 ; Function IfxGtm_Atom_Ch_setAruReadAddress0
 .L175:
 IfxGtm_Atom_Ch_setAruReadAddress0:	.type	func
@@ -20764,16 +20764,16 @@ IfxGtm_Atom_Ch_setAruReadAddress0:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L76:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   557  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   558      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   559      atomCh->RDADDR.B.RDADDR0 = address;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   557   = activeState == Ifx_ActiveState_high ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   558  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   559  
 	ld.w	d15,[a15]
 .L1254:
 	insert	d15,d15,d5,#0,#9
 	st.w	[a15],d15
 .L1255:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   560  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   560  
 	ret
 .L763:
 	
@@ -20788,9 +20788,9 @@ __IfxGtm_Atom_Ch_setAruReadAddress0_function_end:
 	
 	.global	IfxGtm_Atom_Ch_setAruReadAddress1
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   561  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   562  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   563  void IfxGtm_Atom_Ch_setAruReadAddress1(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, uint32 address)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   561  void IfxGtm_Atom_Ch_setTriggerOutput(Ifx_GTM_ATOM *atom, IfxGtm_Atom_Ch channel, IfxGtm_Atom_Ch_OutputTrigger trigger)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   562  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   563      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
 ; Function IfxGtm_Atom_Ch_setAruReadAddress1
 .L177:
 IfxGtm_Atom_Ch_setAruReadAddress1:	.type	func
@@ -21399,9 +21399,9 @@ IfxGtm_Atom_Ch_setAruReadAddress1:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.h	   591  }      (inlined)
 .L77:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   564  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   565      Ifx_GTM_ATOM_CH *atomCh = IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   566      atomCh->RDADDR.B.RDADDR1 = address;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   564  IfxGtm_Atom_Ch_getChannelPointer(atom, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   565  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   566      atomCh->CTRL.B.TRIGOUT = trigger;
 	ld.w	d15,[a15]
 .L1261:
 	insert	d15,d15,d5,#16,#9
@@ -49159,5 +49159,5 @@ __IfxGtm_Atom_Ch_setAruReadAddress1_function_end:
 	.word	.L1263,.L177,.L770-.L177
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Atom.c	   568  
 	; Module end

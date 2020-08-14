@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std\\.IfxQspi.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std\\IfxQspi.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std\\IfxQspi.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std\\IfxQspi.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std\\IfxQspi.c'
@@ -1394,77 +1394,77 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.h	  1015  }      (inlined)
 .L12:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   103  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   104      const int     maxB   = 3;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   105      float32       tQspi  = 1.0 / IfxQspi_getTimeQuantaFrequency(qspi);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   103      maxB   = 3;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   104      float32       tQspi  = 1.0 / IfxQspi_getTimeQuantaFrequency(qspi);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   105      float32       fBaud  = (chConfig->baudrate);
 	movh	d0,#16256
 .L635:
 	div.f	d3,d0,d15
 .L417:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   106      float32       fBaud  = (chConfig->baudrate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   106      int           abcMin = (2);
 	ld.w	d0,[a15]4
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   107      int           abcMin = (2);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   108      int           abcMax = (4 + 0 + 4);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   107      int           abcMax = (4 + 0 + 4);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   108      int           q, bestQ = 1, abc, bestAbc = abcMax, halfBaud = 0;
 	mov	d4,#8
 .L419:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   109      int           q, bestQ = 1, abc, bestAbc = abcMax, halfBaud = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   109      sint8         diffB  = 0;
 	mov	d5,#1
 .L420:
 	mov	d6,d4
 .L422:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   110      sint8         diffB  = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   111      float32       error, bestError;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   112      float32       tTmp, tBaudTmp;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   113      boolean       done = FALSE;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   114  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   115      if (fBaud == 0.0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   110      float32       error, bestError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   111      float32       tTmp, tBaudTmp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   112      boolean       done = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   113  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   114      if (fBaud == 0.0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   115      {
 	extr.u	d1,d0,#23,#8
 	eq	d15,d1,#0
 .L636:
 	jeq	d15,#0,.L13
 .L637:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   116      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   117          IFX_ASSERT(IFX_VERBOSE_LEVEL_WARNING, FALSE);   /* chosen baud rate is 0 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   118          fBaud = 1.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   116          IFX_ASSERT(IFX_VERBOSE_LEVEL_WARNING, FALSE);   /* chosen baud rate is 0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   117          fBaud = 1.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   118      }
 	movh	d0,#16256
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   119      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   120  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   121      float32 tBaud = 1.0 / fBaud;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   119  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   120      float32 tBaud = 1.0 / fBaud;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   121  
 	movh	d1,#16256
 .L638:
 	div.f	d7,d1,d0
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   122  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   123      bestError = 1e6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   122      bestError = 1e6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   123  
 	mov	d9,#9216
 .L424:
 	addih	d9,d9,#18804
 .L639:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   124  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   125      for (abc = abcMax; abc >= abcMin; abc--)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   124      for (abc = abcMax; abc >= abcMin; abc--)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   125      {
 	mov	d10,d4
 .L425:
 	j	.L14
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   126      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   127          tTmp = tQspi * abc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   126          tTmp = tQspi * abc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   127          q    = (int)((tBaud / tTmp) + 0.5);
 	itof	d0,d10
 .L640:
 	mul.f	d0,d3,d0
 .L426:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   128          q    = (int)((tBaud / tTmp) + 0.5);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   128  
 	div.f	d1,d7,d0
 .L641:
 	movh	d2,#16128
@@ -1474,57 +1474,57 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	ftoiz	d11,d1
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   130          if (q > 64)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   129          if (q > 64)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   130          {
 	mov	d15,#64
 .L644:
 	jge	d15,d11,.L16
 .L645:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   131          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   132              q = 64;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   131              q = 64;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   132          }
 	mov	d11,#64
 .L646:
 	j	.L17
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   133          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   134  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   135          else if ((q * abc) < 4)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   133  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   134          else if ((q * abc) < 4)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   135          {
 	mul	d1,d11,d10
 .L647:
 	jge	d1,#4,.L18
 .L648:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   136          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   137              q = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   136              q = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   137          }
 	mov	d11,#2
 .L649:
 	j	.L19
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   138          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   139  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   140          else if (q < 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   138  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   139          else if (q < 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   140          {
 	jge	d11,#1,.L20
 .L650:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   141          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   142              q = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   141              q = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   142          }
 	mov	d11,#1
 .L20:
 .L19:
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   143          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   144  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   145          tBaudTmp = tTmp * q;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   143  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   144          tBaudTmp = tTmp * q;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   145          error    = __absf(tBaudTmp - tBaud);
 	itof	d1,d11
 .L651:
 	mul.f	d0,d0,d1
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   146          error    = __absf(tBaudTmp - tBaud);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   146  
 	sub.f	d1,d0,d7
 	mov	d2,#0
 	cmp.f	d15,d1,d2
@@ -1537,15 +1537,15 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insn.t	d0,d15:31,d15:31
 .L22:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   147  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   148          if (__leqf(error, bestError)) /* we have a equal/better error case */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   147          if (__leqf(error, bestError)) /* we have a equal/better error case */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   148          {
 	cmp.f	d15,d0,d9
 	jnz.t	d15:2,.L23
 .L652:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   149          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   150              /* process this case only if lesser error / or if ABC is even */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   151              if (__neqf(error, bestError) || (((uint32)bestAbc & (uint32)0x1) == 0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   149              /* process this case only if lesser error / or if ABC is even */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   150              if (__neqf(error, bestError) || (((uint32)bestAbc & (uint32)0x1) == 0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   151              {
 	cmp.f	d15,d0,d9
 	jnz.t	d15:2,.L24
 	cmp.f	d15,d0,d9
@@ -1555,28 +1555,28 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 .L25:
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   152              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   153                  bestError = error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   152                  bestError = error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   153                  bestAbc   = abc;
 	mov	d9,d0
 .L654:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   154                  bestAbc   = abc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   154                  bestQ     = q;
 	mov	d6,d10
 .L655:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   155                  bestQ     = q;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   155              }
 	mov	d5,d11
 .L26:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   156              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   157  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   158              /* break out if ABC is even and error = 0 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   159              if (((uint32)bestAbc & (uint32)0x1) == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   156  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   157              /* break out if ABC is even and error = 0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   158              if (((uint32)bestAbc & (uint32)0x1) == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   159              {
 	jnz.t	d6:0,.L27
 .L656:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   160              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   161                  done = (__neqf(error, 0.0)) ? FALSE : TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   160                  done = (__neqf(error, 0.0)) ? FALSE : TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   161  
 	mov	d15,#0
 	cmp.f	d15,d0,d15
 	jnz.t	d15:2,.L28
@@ -1592,13 +1592,13 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	mov	d15,#1
 .L30:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   162  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   163                  if (done != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   162                  if (done != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   163                  {
 	jeq	d15,#0,.L31
 .L657:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   164                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   165                      break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   164                      break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   165                  }
 	j	.L32
 .L31:
 .L27:
@@ -1607,69 +1607,69 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 .L14:
 	jge	d10,#2,.L15
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   166                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   167              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   168          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   169      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   170  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   171      /* Exchange Q and ABC, if ABC is odd and Q is even.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   172       * This is because: A+1+B+C is ideally even for
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   173       * achieving 50% duty cycle of the clock.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   174       */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   175      if ((bestQ <= abcMax)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   166              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   167          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   168      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   169  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   170      /* Exchange Q and ABC, if ABC is odd and Q is even.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   171       * This is because: A+1+B+C is ideally even for
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   172       * achieving 50% duty cycle of the clock.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   173       */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   174      if ((bestQ <= abcMax)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   175          && (((uint32)bestAbc & (uint32)0x1) != 0)
 .L32:
 	jlt	d4,d5,.L33
 .L658:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   176          && (((uint32)bestAbc & (uint32)0x1) != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   176          && (((uint32)bestQ & (uint32)0x1) == 0))
 	jz.t	d6:0,.L34
 .L659:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   177          && (((uint32)bestQ & (uint32)0x1) == 0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   177      {
 	jnz.t	d5:0,.L35
 .L660:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   178      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   179          q       = bestQ;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   178          q       = bestQ;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   179          bestQ   = bestAbc;
 	mov	d15,d5
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   180          bestQ   = bestAbc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   180          bestAbc = q;
 	mov	d5,d6
 .L661:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   181          bestAbc = q;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   181      }
 	mov	d6,d15
 .L35:
 .L34:
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   182      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   183  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   184      /* NOTE: In assigning values to A,B,C:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   185       *  the "sampling point" (which is A+B) has to be as far as possible
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   186       *  from the "shifting point" (end of A+B+C).
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   187       * The duty cycle is calculated as the ratio of A : B+C
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   188       * Therefore, to keep 50% duty cycle: A = B+C
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   189       * Thus, we cannot influence the value of A, once A+B+C is found out
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   190       * (A+1 is always (A+B+C)/2).
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   191       * However, in between B and C - we should try to maximize B (and minimize C).
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   192       * The goal will be to do this - keep max value of B always and keep only any remaining value for C .
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   193       */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   194      halfBaud     = bestAbc / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   182  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   183      /* NOTE: In assigning values to A,B,C:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   184       *  the "sampling point" (which is A+B) has to be as far as possible
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   185       *  from the "shifting point" (end of A+B+C).
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   186       * The duty cycle is calculated as the ratio of A : B+C
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   187       * Therefore, to keep 50% duty cycle: A = B+C
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   188       * Thus, we cannot influence the value of A, once A+B+C is found out
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   189       * (A+1 is always (A+B+C)/2).
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   190       * However, in between B and C - we should try to maximize B (and minimize C).
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   191       * The goal will be to do this - keep max value of B always and keep only any remaining value for C .
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   192       */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   193      halfBaud     = bestAbc / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   194      diffB        = halfBaud - maxB;
 	ge	d15,d6,#0
 	caddn	d0,d15,d6,#1
 .L432:
 	sha	d0,#-1
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   195      diffB        = halfBaud - maxB;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   195  
 	add	d15,d0,#-3
 	extr	d1,d15,#0,#8
 .L433:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   197      econ.B.Q     = bestQ - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   196      econ.B.Q     = bestQ - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   197      econ.B.A     = halfBaud + (bestAbc % 2) - 1;  /* A + 1 = Half of Baud count */
 	add	d5,#-1
 .L421:
 	extr.u	d15,d5,#0,#8
@@ -1677,7 +1677,7 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#0,#6
 .L664:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   198      econ.B.A     = halfBaud + (bestAbc % 2) - 1;  /* A + 1 = Half of Baud count */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   198      econ.B.C     = (diffB > 0) ? diffB : 0;
 	mov	d15,#0
 	ins.t	d15,d15:1,d6:31
 	extr.u	d2,d6,#0,#1
@@ -1691,7 +1691,7 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#6,#2
 .L668:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   199      econ.B.C     = (diffB > 0) ? diffB : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   199      econ.B.B     = (diffB > 0) ? maxB : halfBaud;
 	jlt	d1,#1,.L36
 .L669:
 	mov	d15,d1
@@ -1703,7 +1703,7 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#10,#2
 .L671:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   200      econ.B.B     = (diffB > 0) ? maxB : halfBaud;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   200  
 	jlt	d1,#1,.L38
 .L672:
 	mov	d0,#3
@@ -1716,8 +1716,8 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#8,#2
 .L675:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   201  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   202      econ.B.CPH   = (chConfig->mode.shiftClock == SpiIf_ShiftClock_shiftTransmitDataOnLeadingEdge) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   201      econ.B.CPH   = (chConfig->mode.shiftClock == SpiIf_ShiftClock_shiftTransmitDataOnLeadingEdge) ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   202      econ.B.CPOL  = (chConfig->mode.clockPolarity == SpiIf_ClockPolarity_idleLow) ? 0 : 1;
 	ld.bu	d15,[a15]8
 .L676:
 	jnz.t	d15:4,.L40
@@ -1731,7 +1731,7 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#12,#1
 .L679:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   203      econ.B.CPOL  = (chConfig->mode.clockPolarity == SpiIf_ClockPolarity_idleLow) ? 0 : 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   203      econ.B.PAREN = chConfig->mode.parityCheck;
 	ld.bu	d15,[a15]8
 .L680:
 	jnz.t	d15:3,.L42
@@ -1745,20 +1745,20 @@ IfxQspi_calculateExtendedConfigurationValue:	.type	func
 	insert	d8,d8,d15,#13,#1
 .L683:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   204      econ.B.PAREN = chConfig->mode.parityCheck;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   204  
 	ld.bu	d15,[a15]9
 	extr.u	d15,d15,#5,#1
 .L684:
 	insert	d8,d8,d15,#14,#1
 .L685:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   206      return econ.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   205      return econ.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   206  }
 	mov	d2,d8
 .L434:
 	j	.L44
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   207  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   207  
 .L44:
 	ret
 .L300:
@@ -1775,15 +1775,15 @@ __IfxQspi_calculateExtendedConfigurationValue_function_end:
 	.global	IfxQspi_calculatePrescaler
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   208  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   209  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   210  uint32 IfxQspi_calculatePrescaler(Ifx_QSPI *qspi, float baudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   209  uint32 IfxQspi_calculatePrescaler(Ifx_QSPI *qspi, float baudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   210  {
 ; Function IfxQspi_calculatePrescaler
 .L114:
 IfxQspi_calculatePrescaler:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   211  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   212      float  error, bestError;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   213      float  halfBaud = baudrate / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   211      float  error, bestError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   212      float  halfBaud = baudrate / 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   213      float  fQspiIn  = IfxQspi_getModuleFrequency(qspi);
 	movh	d15,#16384
 .L690:
 	div.f	d8,d4,d15
@@ -2787,26 +2787,26 @@ IfxQspi_calculatePrescaler:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.h	   984  }      (inlined)
 .L46:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   214      float  fQspiIn  = IfxQspi_getModuleFrequency(qspi);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   215      bestError = 10e6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   214  = fQspiIn / (1U << (4 * i));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   215          error = __absf(tempHalfBaud - halfBaud);
 	mov.u	d0,#38528
 .L436:
 	addih	d0,d0,#19224
 .L346:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   216      uint32 i, bestPre = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   216  
 	mov	d1,#0
 .L437:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   217  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   218      for (i = 0; i < 8; i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   217          if (__leqf(error, bestError))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   218          {
 	mov	d3,#0
 .L438:
 	j	.L47
 .L48:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   219      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   220          float tempHalfBaud = fQspiIn / (1U << (4 * i));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   219              bestError = error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   220              bestPre   = i;
 	mov	d15,#1
 .L691:
 	mul	d4,d3,#4
@@ -2817,7 +2817,7 @@ IfxQspi_calculatePrescaler:	.type	func
 	div.f	d4,d2,d15
 .L439:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   221          error = __absf(tempHalfBaud - halfBaud);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   221          }
 	sub.f	d15,d4,d8
 	mov	d5,#0
 	cmp.f	d15,d15,d5
@@ -2830,15 +2830,15 @@ IfxQspi_calculatePrescaler:	.type	func
 	insn.t	d4,d15:31,d15:31
 .L50:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   222  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   223          if (__leqf(error, bestError))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   222      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   223  
 	cmp.f	d15,d4,d0
 .L441:
 	jnz.t	d15:2,.L51
 .L694:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   224          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   225              bestError = error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   224      return bestPre;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   225  }
 	mov	e0,d3,d4
 .L51:
 	add	d3,#1
@@ -2846,16 +2846,16 @@ IfxQspi_calculatePrescaler:	.type	func
 	jlt.u	d3,#8,.L48
 .L442:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   226              bestPre   = i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   227          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   228      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   229  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   230      return bestPre;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   226  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   227  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   228  uint32 IfxQspi_calculateTimeQuantumLength(Ifx_QSPI *qspi, float maxBaudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   229  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   230  #define ABCQMIN (4)
 	mov	d2,d1
 .L443:
 	j	.L52
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   231  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   231  #define ABCQMAX (8 * 63)
 .L52:
 	ret
 .L337:
@@ -2872,41 +2872,41 @@ __IfxQspi_calculatePrescaler_function_end:
 	.global	IfxQspi_calculateTimeQuantumLength
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   232  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   233  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   234  uint32 IfxQspi_calculateTimeQuantumLength(Ifx_QSPI *qspi, float maxBaudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   233      IFX_UNUSED_PARAMETER(qspi);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   234  
 ; Function IfxQspi_calculateTimeQuantumLength
 .L116:
 IfxQspi_calculateTimeQuantumLength:	.type	func
 	mov	d8,d4
 .L445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   235  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   236  #define ABCQMIN (4)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   237  #define ABCQMAX (8 * 63)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   235      uint32 abcq  = ABCQMIN, tq, bestTq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   236      float  realTQ, deltaMax, bestDelta, achievedMax;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   237      float  fQspi = IfxScuCcu_getMaxFrequency();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   239      IFX_UNUSED_PARAMETER(qspi);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   239      if (__leqf(maxBaudrate, 0.0))
 	jz.a	a4,.L53
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   240  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   241      uint32 abcq  = ABCQMIN, tq, bestTq;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   242      float  realTQ, deltaMax, bestDelta, achievedMax;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   243      float  fQspi = IfxScuCcu_getMaxFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   240      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   241          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE); /* Max baud rate is 0!! */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   242      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   243  
 	call	IfxScuCcu_getMaxFrequency
 .L444:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   244  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   245      if (__leqf(maxBaudrate, 0.0))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   244      realTQ    = fQspi / (4.0 * maxBaudrate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   245      bestTq    = __max((uint32)__roundf(realTQ), 1);
 	mov	d15,#0
 	cmp.f	d15,d8,d15
 	jnz.t	d15:2,.L54
 .L54:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   246      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   247          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE); /* Max baud rate is 0!! */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   248      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   249  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   250      realTQ    = fQspi / (4.0 * maxBaudrate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   246      bestDelta = __absf(maxBaudrate - (fQspi / bestTq));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   247  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   248      for (abcq = ABCQMIN; abcq <= ABCQMAX; abcq++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   249      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   250          realTQ      = fQspi / (maxBaudrate * abcq);
 	movh	d15,#16512
 .L699:
 	mul.f	d15,d8,d15
@@ -2914,7 +2914,7 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 	div.f	d0,d2,d15
 .L447:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   251      bestTq    = __max((uint32)__roundf(realTQ), 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   251          tq          = (uint32)(realTQ + 0.5);
 	ftoiz	d15,d0
 	itof	d15,d15
 	sub.f	d15,d0,d15
@@ -2930,7 +2930,7 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 	max	d1,d15,#1
 .L449:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   252      bestDelta = __absf(maxBaudrate - (fQspi / bestTq));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   252          achievedMax = fQspi / (tq * abcq);
 	utof	d15,d1
 	div.f	d15,d2,d15
 	sub.f	d15,d8,d15
@@ -2950,15 +2950,15 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 	insn.t	d5,d15:31,d15:31
 .L58:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   253  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   254      for (abcq = ABCQMIN; abcq <= ABCQMAX; abcq++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   253          deltaMax    = __absf(maxBaudrate - achievedMax);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   254  
 	mov	d6,#4
 .L452:
 	j	.L59
 .L60:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   255      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   256          realTQ      = fQspi / (maxBaudrate * abcq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   255          if (__leqf(deltaMax, bestDelta) && (tq >= 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   256          {
 	utof	d15,d6
 .L701:
 	mul.f	d15,d8,d15
@@ -2966,7 +2966,7 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 	div.f	d15,d2,d15
 .L453:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   257          tq          = (uint32)(realTQ + 0.5);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   257              bestDelta = deltaMax;
 	movh	d0,#16128
 .L703:
 	add.f	d15,d15,d0
@@ -2974,14 +2974,14 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 	ftouz	d0,d15
 .L455:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   258          achievedMax = fQspi / (tq * abcq);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   258              bestTq    = tq;
 	mul	d15,d0,d6
 	utof	d15,d15
 .L704:
 	div.f	d3,d2,d15
 .L456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   259          deltaMax    = __absf(maxBaudrate - achievedMax);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   259          }
 	sub.f	d15,d8,d3
 	mov	d4,#0
 	cmp.f	d15,d15,d4
@@ -2995,7 +2995,7 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 .L62:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   261          if (__leqf(deltaMax, bestDelta) && (tq >= 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   261          if ((bestDelta == 0) || (tq < 1))
 	cmp.f	d15,d3,d5
 	jnz.t	d15:2,.L63
 .L705:
@@ -3003,26 +3003,26 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 .L706:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   262          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   263              bestDelta = deltaMax;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   263              break; //exit the for loop
 	mov	d5,d3
 .L707:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   264              bestTq    = tq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   264          }
 	mov	d1,d0
 .L64:
 .L63:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   265          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   265      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   266  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   267          if ((bestDelta == 0) || (tq < 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   267      return __max(bestTq - 1, 0);
 	extr.u	d15,d5,#23,#8
 	jeq	d15,#0,.L65
 .L708:
 	jge.u	d0,#1,.L66
 .L65:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   268          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   269              break; //exit the for loop
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   268  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   269  
 	j	.L67
 .L66:
 	add	d6,#1
@@ -3031,10 +3031,10 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 .L709:
 	jge.u	d15,d6,.L60
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   270          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   271      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   272  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   273      return __max(bestTq - 1, 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   270  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   271  Ifx_QSPI *IfxQspi_getAddress(IfxQspi_Index qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   272  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   273      Ifx_QSPI *module;
 .L67:
 	add	d1,#-1
 .L450:
@@ -3042,7 +3042,7 @@ IfxQspi_calculateTimeQuantumLength:	.type	func
 .L446:
 	j	.L68
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   274  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   274  
 .L68:
 	ret
 .L350:
@@ -3058,22 +3058,22 @@ __IfxQspi_calculateTimeQuantumLength_function_end:
 	
 	.global	IfxQspi_getAddress
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   275  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   276  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   277  Ifx_QSPI *IfxQspi_getAddress(IfxQspi_Index qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   275      if (qspi < IFXQSPI_NUM_MODULES)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   276      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   277          module = (Ifx_QSPI *)IfxQspi_cfg_indexMap[qspi].module;
 ; Function IfxQspi_getAddress
 .L118:
 IfxQspi_getAddress:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   278  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   279      Ifx_QSPI *module;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   281      if (qspi < IFXQSPI_NUM_MODULES)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   278      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   279      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   280      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   281          module = NULL_PTR;
 	jge	d4,#4,.L69
 .L714:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   282      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   283          module = (Ifx_QSPI *)IfxQspi_cfg_indexMap[qspi].module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   282      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   283  
 	mul	d15,d4,#8
 .L715:
 	movh.a	a15,#@his(IfxQspi_cfg_indexMap)
@@ -3086,19 +3086,19 @@ IfxQspi_getAddress:	.type	func
 	j	.L70
 .L69:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   284      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   285      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   286      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   287          module = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   284      return module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   285  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   286  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   287  
 	mov.a	a2,#0
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   288      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   289  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   290      return module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   288  IfxQspi_Index IfxQspi_getIndex(Ifx_QSPI *qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   289  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   290      uint32        index;
 	j	.L71
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   291  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   291      IfxQspi_Index result;
 .L71:
 	ret
 .L361:
@@ -3115,29 +3115,29 @@ __IfxQspi_getAddress_function_end:
 	.global	IfxQspi_getIndex
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   292  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   293  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   294  IfxQspi_Index IfxQspi_getIndex(Ifx_QSPI *qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   293      result = IfxQspi_Index_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   294  
 ; Function IfxQspi_getIndex
 .L120:
 IfxQspi_getIndex:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   295  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   296      uint32        index;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   297      IfxQspi_Index result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   299      result = IfxQspi_Index_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   295      for (index = 0; index < IFXQSPI_NUM_MODULES; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   296      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   297          if (IfxQspi_cfg_indexMap[index].module == qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   298          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   299              result = (IfxQspi_Index)IfxQspi_cfg_indexMap[index].index;
 	mov	d2,#-1
 .L459:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   300  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   301      for (index = 0; index < IFXQSPI_NUM_MODULES; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   300              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   301          }
 	mov	d0,#0
 .L460:
 	j	.L72
 .L73:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   302      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   303          if (IfxQspi_cfg_indexMap[index].module == qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   302      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   303  
 	mul	d15,d0,#8
 .L722:
 	movh.a	a15,#@his(IfxQspi_cfg_indexMap)
@@ -3150,8 +3150,8 @@ IfxQspi_getIndex:	.type	func
 	jne.a	a15,a4,.L74
 .L726:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   304          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   305              result = (IfxQspi_Index)IfxQspi_cfg_indexMap[index].index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   304      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   305  }
 	mul	d15,d0,#8
 .L727:
 	movh.a	a15,#@his(IfxQspi_cfg_indexMap)
@@ -3164,21 +3164,21 @@ IfxQspi_getIndex:	.type	func
 	extr	d2,d15,#0,#8
 .L731:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   306              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   306  
 	j	.L75
 .L74:
 	add	d0,#1
 .L72:
 	jlt.u	d0,#4,.L73
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   307          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   308      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   309  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   310      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   307  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   308  void IfxQspi_read16(Ifx_QSPI *qspi, uint16 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   309  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   310      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
 .L75:
 	j	.L76
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   311  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   311  
 .L76:
 	ret
 .L365:
@@ -3194,25 +3194,25 @@ __IfxQspi_getIndex_function_end:
 	
 	.global	IfxQspi_read16
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   313  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   314  void IfxQspi_read16(Ifx_QSPI *qspi, uint16 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   312      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   313      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   314          *(data++) = (uint16)rxFifo->U;
 ; Function IfxQspi_read16
 .L122:
 IfxQspi_read16:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   315  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   316      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   315          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   316      }
 	lea	a15,[a4]144
 .L461:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   317  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   318      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   317  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   318  
 	j	.L77
 .L78:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   319      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   320          *(data++) = (uint16)rxFifo->U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   319  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   320  void IfxQspi_read32(Ifx_QSPI *qspi, uint32 *data, Ifx_SizeT count)
 	ld.w	d15,[a15]
 .L511:
 	st.h	[a5],d15
@@ -3220,14 +3220,14 @@ IfxQspi_read16:	.type	func
 	add.a	a5,#2
 .L513:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   321          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   321  {
 	add	d4,#-1
 .L77:
 	jge	d4,#1,.L78
 .L514:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   322      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   323  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   322      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   323  
 	ret
 .L230:
 	
@@ -3242,25 +3242,25 @@ __IfxQspi_read16_function_end:
 	
 	.global	IfxQspi_read32
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   324  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   325  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   326  void IfxQspi_read32(Ifx_QSPI *qspi, uint32 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   324      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   325      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   326          *(data++) = rxFifo->U;
 ; Function IfxQspi_read32
 .L124:
 IfxQspi_read32:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   327  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   328      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   327          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   328      }
 	lea	a15,[a4]144
 .L462:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   329  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   330      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   329  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   330  
 	j	.L79
 .L80:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   331      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   332          *(data++) = rxFifo->U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   331  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   332  void IfxQspi_read8(Ifx_QSPI *qspi, uint8 *data, Ifx_SizeT count)
 	ld.w	d15,[a15]
 .L519:
 	st.w	[a5],d15
@@ -3268,14 +3268,14 @@ IfxQspi_read32:	.type	func
 	add.a	a5,#4
 .L521:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   333          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   333  {
 	add	d4,#-1
 .L79:
 	jge	d4,#1,.L80
 .L522:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   334      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   335  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   334      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   335  
 	ret
 .L239:
 	
@@ -3290,25 +3290,25 @@ __IfxQspi_read32_function_end:
 	
 	.global	IfxQspi_read8
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   336  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   337  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   338  void IfxQspi_read8(Ifx_QSPI *qspi, uint8 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   336      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   337      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   338          *(data++) = (uint8)rxFifo->U;
 ; Function IfxQspi_read8
 .L126:
 IfxQspi_read8:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   339  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   340      volatile Ifx_QSPI_RXEXIT *rxFifo = &qspi->RXEXIT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   339          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   340      }
 	lea	a15,[a4]144
 .L463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   342      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   341  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   342  
 	j	.L81
 .L82:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   343      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   344          *(data++) = (uint8)rxFifo->U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   343  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   344  uint32 IfxQspi_recalcBasicConfiguration(uint32 oldBACON, Ifx_SizeT numOfData, boolean shortData, boolean lastData)
 	ld.w	d15,[a15]
 .L527:
 	st.b	[a5],d15
@@ -3316,14 +3316,14 @@ IfxQspi_read8:	.type	func
 	add.a	a5,#1
 .L529:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   345          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   345  {
 	add	d4,#-1
 .L81:
 	jge	d4,#1,.L82
 .L530:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   346      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   347  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   346      Ifx_QSPI_BACON bacon;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   347      bacon.U = oldBACON;
 	ret
 .L245:
 	
@@ -3339,45 +3339,45 @@ __IfxQspi_read8_function_end:
 	.global	IfxQspi_recalcBasicConfiguration
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   348  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   349  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   350  uint32 IfxQspi_recalcBasicConfiguration(uint32 oldBACON, Ifx_SizeT numOfData, boolean shortData, boolean lastData)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   349      if (shortData == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   350      {
 ; Function IfxQspi_recalcBasicConfiguration
 .L128:
 IfxQspi_recalcBasicConfiguration:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   351  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   352      Ifx_QSPI_BACON bacon;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   353      bacon.U = oldBACON;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   351          bacon.B.DL   = numOfData;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   352          bacon.B.BYTE = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   353      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   354  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   355      if (shortData == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   355      bacon.B.LAST = lastData;
 	jne	d6,#0,.L83
 .L736:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   356      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   357          bacon.B.DL   = numOfData;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   356      return bacon.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   357  }
 	extr.u	d15,d5,#0,#16
 .L737:
 	insert	d4,d4,d15,#23,#5
 .L738:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   358          bacon.B.BYTE = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   358  
 	mov	d15,#1
 .L739:
 	insert	d4,d4,d15,#22,#1
 .L83:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   359      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   360  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   361      bacon.B.LAST = lastData;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   359  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   360  void IfxQspi_resetModule(Ifx_QSPI *qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   361  {
 	insert	d4,d4,d7,#0,#1
 .L740:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   362      return bacon.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   362      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
 	mov	d2,d4
 .L464:
 	j	.L84
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   363  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   363      IfxScuWdt_clearCpuEndinit(passwd);
 .L84:
 	ret
 .L369:
@@ -3393,50 +3393,50 @@ __IfxQspi_recalcBasicConfiguration_function_end:
 	
 	.global	IfxQspi_resetModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   364  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   365  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   366  void IfxQspi_resetModule(Ifx_QSPI *qspi)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   364      qspi->KRST0.B.RST = 1;          /* Only if both Kernel reset bits are set a reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   365      qspi->KRST1.B.RST = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   366      IfxScuWdt_setCpuEndinit(passwd);
 ; Function IfxQspi_resetModule
 .L130:
 IfxQspi_resetModule:	.type	func
 	mov.aa	a15,a4
 .L466:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   367  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   368      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   367  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   368      while (0 == qspi->KRST0.B.RSTSTAT)  /* Wait until reset is executed */
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L465:
 	mov	d8,d2
 .L468:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   369      IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   369  
 	mov	d4,d8
 .L467:
 	call	IfxScuWdt_clearCpuEndinit
 .L469:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   370      qspi->KRST0.B.RST = 1;          /* Only if both Kernel reset bits are set a reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   370      {}
 	ld.bu	d15,[a15]244
 .L535:
 	or	d15,#1
 	st.b	[a15]244,d15
 .L536:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   371      qspi->KRST1.B.RST = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   371  
 	ld.bu	d15,[a15]240
 .L537:
 	or	d15,#1
 	st.b	[a15]240,d15
 .L538:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   372      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   372      IfxScuWdt_clearCpuEndinit(passwd);
 	mov	d4,d8
 .L470:
 	call	IfxScuWdt_setCpuEndinit
 .L471:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   373  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   374      while (0 == qspi->KRST0.B.RSTSTAT)  /* Wait until reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   373      qspi->KRSTCLR.B.CLR = 1;            /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   374      IfxScuWdt_setCpuEndinit(passwd);
 	j	.L85
 .L86:
 .L85:
@@ -3445,29 +3445,29 @@ IfxQspi_resetModule:	.type	func
 	jz.t	d15:1,.L86
 .L540:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   375  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   376      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   375  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   376  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   377  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   378      IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   378  void IfxQspi_setSlaveSelectOutputControl(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, boolean outputEnable, boolean activeLevel)
 	mov	d4,d8
 .L472:
 	call	IfxScuWdt_clearCpuEndinit
 .L473:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   379      qspi->KRSTCLR.B.CLR = 1;            /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   379  {
 	ld.bu	d15,[a15]236
 .L541:
 	or	d15,#1
 	st.b	[a15]236,d15
 .L542:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   380      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   380      uint16        mask = 1 << channelId;
 	mov	d4,d8
 .L474:
 	call	IfxScuWdt_setCpuEndinit
 .L475:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   381  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   381  
 	ret
 .L251:
 	
@@ -3482,34 +3482,34 @@ __IfxQspi_resetModule_function_end:
 	
 	.global	IfxQspi_setSlaveSelectOutputControl
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   382  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   383  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   384  void IfxQspi_setSlaveSelectOutputControl(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, boolean outputEnable, boolean activeLevel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   382      Ifx_QSPI_SSOC ssoc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   383      ssoc.U = qspi->SSOC.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   384  
 ; Function IfxQspi_setSlaveSelectOutputControl
 .L132:
 IfxQspi_setSlaveSelectOutputControl:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   385  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   386      uint16        mask = 1 << channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   385      if (outputEnable)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   386      {
 	mov	d15,#1
 .L745:
 	sha	d15,d15,d4
 	extr.u	d15,d15,#0,#16
 .L476:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   387  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   388      Ifx_QSPI_SSOC ssoc;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   389      ssoc.U = qspi->SSOC.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   387          ssoc.B.OEN |= mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   388      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   389      else
 	ld.w	d1,[a4]72
 .L478:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   390  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   391      if (outputEnable)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   390      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   391          ssoc.B.OEN &= ~mask;
 	jeq	d5,#0,.L87
 .L746:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   392      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   393          ssoc.B.OEN |= mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   392      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   393  
 	extr.u	d0,d1,#16,#16
 	or	d0,d15
 	insert	d1,d1,d0,#16,#16
@@ -3517,10 +3517,10 @@ IfxQspi_setSlaveSelectOutputControl:	.type	func
 	j	.L88
 .L87:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   394      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   395      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   396      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   397          ssoc.B.OEN &= ~mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   394      if (activeLevel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   395      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   396          ssoc.B.AOL |= mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   397      }
 	extr.u	d0,d1,#16,#16
 .L748:
 	mov	d2,#-1
@@ -3530,14 +3530,14 @@ IfxQspi_setSlaveSelectOutputControl:	.type	func
 	insert	d1,d1,d0,#16,#16
 .L88:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   398      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   399  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   400      if (activeLevel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   398      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   399      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   400          ssoc.B.AOL &= ~mask;
 	jeq	d6,#0,.L89
 .L750:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   401      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   402          ssoc.B.AOL |= mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   401      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   402  
 	extr.u	d0,d1,#0,#16
 	or	d0,d15
 	insert	d1,d1,d0,#0,#16
@@ -3545,10 +3545,10 @@ IfxQspi_setSlaveSelectOutputControl:	.type	func
 	j	.L90
 .L89:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   403      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   404      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   405      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   406          ssoc.B.AOL &= ~mask;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   403      qspi->SSOC.U = ssoc.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   404  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   405  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   406  
 	extr.u	d0,d1,#0,#16
 .L752:
 	mov	d2,#-1
@@ -3558,13 +3558,13 @@ IfxQspi_setSlaveSelectOutputControl:	.type	func
 	insert	d1,d1,d0,#0,#16
 .L90:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   407      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   408  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   409      qspi->SSOC.U = ssoc.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   407  void IfxQspi_write16(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint16 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   408  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   409      int                          cs        = channelId % 8;
 	st.w	[a4]72,d1
 .L753:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   410  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   410      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
 	ret
 .L375:
 	
@@ -3580,14 +3580,14 @@ __IfxQspi_setSlaveSelectOutputControl_function_end:
 	.global	IfxQspi_write16
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   411  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   412  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   413  void IfxQspi_write16(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint16 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   412      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   413      {
 ; Function IfxQspi_write16
 .L134:
 IfxQspi_write16:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   414  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   415      int                          cs        = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   414          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   415          count--;
 	mov	d15,#0
 .L479:
 	ins.t	d15,d15:3,d4:31
@@ -3595,20 +3595,20 @@ IfxQspi_write16:	.type	func
 	csub	d15,d0,d0,d15
 .L547:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   416      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   416      }
 	mul	d15,d15,#4
 .L480:
 	addsc.a	a15,a4,d15,#0
 	lea	a15,[a15]100
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   417  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   418      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   417  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   418  
 	j	.L91
 .L92:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   419      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   420          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   419  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   420  void IfxQspi_write32(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint32 *data, Ifx_SizeT count)
 	ld.hu	d15,[a5]0
 .L548:
 	st.w	[a15],d15
@@ -3616,14 +3616,14 @@ IfxQspi_write16:	.type	func
 	add.a	a5,#2
 .L550:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   421          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   421  {
 	add	d5,#-1
 .L91:
 	jge	d5,#1,.L92
 .L551:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   422      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   423  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   422      int                          cs        = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   423      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
 	ret
 .L255:
 	
@@ -3639,14 +3639,14 @@ __IfxQspi_write16_function_end:
 	.global	IfxQspi_write32
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   424  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   425  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   426  void IfxQspi_write32(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint32 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   425      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   426      {
 ; Function IfxQspi_write32
 .L136:
 IfxQspi_write32:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   427  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   428      int                          cs        = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   427          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   428          count--;
 	mov	d15,#0
 .L482:
 	ins.t	d15,d15:3,d4:31
@@ -3654,20 +3654,20 @@ IfxQspi_write32:	.type	func
 	csub	d15,d0,d0,d15
 .L556:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   429      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   429      }
 	mul	d15,d15,#4
 .L483:
 	addsc.a	a15,a4,d15,#0
 	lea	a15,[a15]100
 .L484:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   430  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   431      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   430  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   431  
 	j	.L93
 .L94:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   432      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   433          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   432  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   433  void IfxQspi_write8(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint8 *data, Ifx_SizeT count)
 	ld.w	d15,[a5]
 .L557:
 	st.w	[a15],d15
@@ -3675,14 +3675,14 @@ IfxQspi_write32:	.type	func
 	add.a	a5,#4
 .L559:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   434          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   434  {
 	add	d5,#-1
 .L93:
 	jge	d5,#1,.L94
 .L560:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   435      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   436  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   435      int                          cs        = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   436      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
 	ret
 .L265:
 	
@@ -3698,14 +3698,14 @@ __IfxQspi_write32_function_end:
 	.global	IfxQspi_write8
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   437  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   438  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   439  void IfxQspi_write8(Ifx_QSPI *qspi, IfxQspi_ChannelId channelId, uint8 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   438      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   439      {
 ; Function IfxQspi_write8
 .L138:
 IfxQspi_write8:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   440  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   441      int                          cs        = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   440          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   441          count--;
 	mov	d15,#0
 .L485:
 	ins.t	d15,d15:3,d4:31
@@ -3713,20 +3713,20 @@ IfxQspi_write8:	.type	func
 	csub	d15,d0,d0,d15
 .L565:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   442      volatile Ifx_QSPI_DATAENTRY *dataEntry = &qspi->DATAENTRY[cs];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   442      }
 	mul	d15,d15,#4
 .L486:
 	addsc.a	a15,a4,d15,#0
 	lea	a15,[a15]100
 .L487:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   443  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   444      while (count > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   443  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   444  
 	j	.L95
 .L96:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   445      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   446          dataEntry->U = *(data++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   445  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   446  void IfxQspi_calculateDelayConstants(const Ifx_QSPI *qspi, const IfxQspi_ChannelId channelId, const SpiIf_ChMode *chMode, IfxQspi_DelayConst *delayConst)
 	ld.bu	d15,[a5]
 .L566:
 	st.w	[a15],d15
@@ -3734,14 +3734,14 @@ IfxQspi_write8:	.type	func
 	add.a	a5,#1
 .L568:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   447          count--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   447  {
 	add	d5,#-1
 .L95:
 	jge	d5,#1,.L96
 .L569:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   448      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   449  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   448      uint32                            divFactor;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   449      const SpiIf_SlsoTiming_HalfTsclk *dlyFactorPtr;
 	ret
 .L272:
 	
@@ -3756,30 +3756,30 @@ __IfxQspi_write8_function_end:
 	
 	.global	IfxQspi_calculateDelayConstants
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   450  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   451  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   452  void IfxQspi_calculateDelayConstants(const Ifx_QSPI *qspi, const IfxQspi_ChannelId channelId, const SpiIf_ChMode *chMode, IfxQspi_DelayConst *delayConst)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   450      float32                           scaleTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   451      uint8                             preTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   452      uint8                             preFinal   = 0U;
 ; Function IfxQspi_calculateDelayConstants
 .L140:
 IfxQspi_calculateDelayConstants:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   453  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   454      uint32                            divFactor;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   455      const SpiIf_SlsoTiming_HalfTsclk *dlyFactorPtr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   456      float32                           scaleTemp;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   457      uint8                             preTemp;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   458      uint8                             preFinal   = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   453      uint8                             delayTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   454      uint8                             delayFinal = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   455      boolean                           matchFound;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   456      uint8                             index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   457      uint8                             cs = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   458  
 	mov	d2,#0
 .L488:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   459      uint8                             delayTemp;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   460      uint8                             delayFinal = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   459      /* obtain the peripheral frequency / sclk frequency multiplication factor */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   460      divFactor = (qspi->GLOBALCON.B.TQ + 1) * (qspi->ECON[cs].B.Q + 1) * (qspi->ECON[cs].B.A + 1 + qspi->ECON[cs].B.B + qspi->ECON[cs].B.C);
 	mov	d3,#0
 .L489:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   461      boolean                           matchFound;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   462      uint8                             index;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   463      uint8                             cs = channelId % 8;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   461  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   462      /* The user defined delay factor is here - point to it */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   463      dlyFactorPtr = &(chMode->csInactiveDelay);
 	mov	d5,#0
 .L490:
 	ins.t	d5,d5:3,d4:31
@@ -3788,8 +3788,8 @@ IfxQspi_calculateDelayConstants:	.type	func
 .L758:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   464  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   465      /* obtain the peripheral frequency / sclk frequency multiplication factor */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   466      divFactor = (qspi->GLOBALCON.B.TQ + 1) * (qspi->ECON[cs].B.Q + 1) * (qspi->ECON[cs].B.A + 1 + qspi->ECON[cs].B.B + qspi->ECON[cs].B.C);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   465      for (index = 0; index < 3; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   466      {
 	ld.bu	d15,[a4]16
 	and	d15,#255
 .L759:
@@ -3832,22 +3832,22 @@ IfxQspi_calculateDelayConstants:	.type	func
 	mul	d0,d1
 .L773:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   467  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   468      /* The user defined delay factor is here - point to it */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   469      dlyFactorPtr = &(chMode->csInactiveDelay);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   467          /* multiply the div_factor and delay_factor and divide by 2 - this is product of (4^pre)*(delay_mult) */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   468          scaleTemp = (dlyFactorPtr[index] * divFactor) / (float32)2.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   469  
 	add.a	a5,#2
 .L774:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   470  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   471      for (index = 0; index < 3; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   470          /* loop through the possible pre values to find pre and delay */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   471          matchFound = FALSE;
 	mov	d5,#0
 .L491:
 	j	.L97
 .L98:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   472      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   473          /* multiply the div_factor and delay_factor and divide by 2 - this is product of (4^pre)*(delay_mult) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   474          scaleTemp = (dlyFactorPtr[index] * divFactor) / (float32)2.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   472  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   473          for (preTemp = 0; preTemp < 8; preTemp++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   474          {
 	mul	d15,d5,#4
 	addsc.a	a15,a5,d15,#0
 	ld.w	d15,[a15]
@@ -3860,21 +3860,21 @@ IfxQspi_calculateDelayConstants:	.type	func
 	div.f	d6,d15,d1
 .L493:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   475  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   476          /* loop through the possible pre values to find pre and delay */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   477          matchFound = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   475              delayTemp = (uint8)((scaleTemp / (1 << (2 * preTemp))) + 0.5); /* divide the scale_temp by ( 4 ^ pre_temp) to find delay_temp */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   476  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   477              if (delayTemp <= 8)                                            /* if delay_temp is <= 8; we can get a good value pair */
 	mov	d7,#0
 .L494:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   478  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   479          for (preTemp = 0; preTemp < 8; preTemp++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   478              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   479                  if ((float32)(delayTemp << (2 * preTemp)) >= scaleTemp)    /* greater delays are tolerated. less is not */
 	mov	d8,#0
 .L495:
 	j	.L99
 .L100:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   480          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   481              delayTemp = (uint8)((scaleTemp / (1 << (2 * preTemp))) + 0.5); /* divide the scale_temp by ( 4 ^ pre_temp) to find delay_temp */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   480                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   481                      delayFinal = __max(delayTemp - 1, 0);                  /* subtract 1 to set to register */
 	mov	d1,#1
 .L778:
 	mul	d4,d8,#2
@@ -3893,13 +3893,13 @@ IfxQspi_calculateDelayConstants:	.type	func
 	sat.bu	d1
 .L784:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   482  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   483              if (delayTemp <= 8)                                            /* if delay_temp is <= 8; we can get a good value pair */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   482                      preFinal   = preTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   483                      matchFound = TRUE;
 	jge.u	d1,#9,.L101
 .L785:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   484              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   485                  if ((float32)(delayTemp << (2 * preTemp)) >= scaleTemp)    /* greater delays are tolerated. less is not */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   484                      break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   485                  }
 	mul	d4,d8,#2
 .L786:
 	sha	d15,d1,d4
@@ -3913,52 +3913,52 @@ IfxQspi_calculateDelayConstants:	.type	func
 	jeq	d15,#0,.L102
 .L790:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   486                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   487                      delayFinal = __max(delayTemp - 1, 0);                  /* subtract 1 to set to register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   486                  else if (delayTemp < (uint8)8)            /* delay is less than 8 - add 1 and finalize parameters */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   487                  {
 	add	d1,#-1
 .L497:
 	max	d15,d1,#0
 	extr.u	d3,d15,#0,#8
 .L791:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   488                      preFinal   = preTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   488                      delayTemp += 1;
 	mov	d2,d8
 .L792:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   489                      matchFound = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   489                      delayFinal = __max(delayTemp - 1, 0); /* subtract 1 to set to register */
 	mov	d7,#1
 .L793:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   490                      break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   490                      preFinal   = preTemp;
 	j	.L103
 .L102:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   491                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   492                  else if (delayTemp < (uint8)8)            /* delay is less than 8 - add 1 and finalize parameters */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   491                      matchFound = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   492                      break;
 	jge.u	d1,#8,.L104
 .L794:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   493                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   494                      delayTemp += 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   493                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   494                  else
 	add	d15,d1,#1
 .L498:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   495                      delayFinal = __max(delayTemp - 1, 0); /* subtract 1 to set to register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   495                  {
 	add	d15,#-1
 .L499:
 	max	d15,d15,#0
 	extr.u	d3,d15,#0,#8
 .L795:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   496                      preFinal   = preTemp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   496                      /* do nothing - proceed to next pre_temp value */
 	mov	d2,d8
 .L796:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   497                      matchFound = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   497                  }
 	mov	d7,#1
 .L797:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   498                      break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   498              }
 	j	.L105
 .L104:
 .L101:
@@ -3966,44 +3966,50 @@ IfxQspi_calculateDelayConstants:	.type	func
 .L99:
 	jlt.u	d8,#8,.L100
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   499                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   500                  else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   501                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   502                      /* do nothing - proceed to next pre_temp value */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   503                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   504              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   505          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   506  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   507          if (matchFound == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   499          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   500  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   501          if (matchFound == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   502          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   503              /* max limit reached. set max values for pre and delay and exit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   504              delayFinal = 7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   505              preFinal   = 7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   506          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   507  
 .L105:
 .L103:
 	jne	d7,#0,.L106
 .L798:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   508          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   509              /* max limit reached. set max values for pre and delay and exit */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   510              delayFinal = 7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   508          /* write back to delay const structure before looping to next factor */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   509          delayConst[index].delay = delayFinal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   510          delayConst[index].pre   = preFinal;
 	mov	d3,#7
 .L799:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   511              preFinal   = 7;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   511      }
 	mov	d2,#7
 .L106:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   512          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   513  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   514          /* write back to delay const structure before looping to next factor */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   515          delayConst[index].delay = delayFinal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   512  }
+
 	mul	d15,d5,#2
+
+
 	addsc.a	a15,a6,d15,#0
 .L800:
+
+
 	st.b	[a15]1,d3
 .L801:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   516          delayConst[index].pre   = preFinal;
+
 	mul	d15,d5,#2
+
+
 	addsc.a	a15,a6,d15,#0
 .L802:
+
+
 	st.b	[a15],d2
 .L803:
 	add	d5,#1
@@ -4011,8 +4017,7 @@ IfxQspi_calculateDelayConstants:	.type	func
 	jlt.u	d5,#3,.L98
 .L804:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   517      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Qspi\Std\IfxQspi.c	   518  }
+
 	ret
 .L383:
 	

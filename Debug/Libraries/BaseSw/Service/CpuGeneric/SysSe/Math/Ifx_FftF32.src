@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\.Ifx_FftF32.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_FftF32.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_FftF32.src ..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_FftF32.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_FftF32.c'
@@ -480,14 +480,14 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.h	   105  }      (inlined)
 .L12:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   123              {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   124                  //printf("P = %d; b = %d; Np = %d; k = %d\n", P, b, Np, k);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   125                  /*butterfly loop*/
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   126                  top          = Ifx_FftF32_lookUpTwiddleFactor(Np, k);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   123  /*calc odd base index*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   124  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   125              for (k = 0; k < Npx; k++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   126              {
 	st.d	[a10]0,e0
 .L308:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   127                  bot          = IFX_Cf32_mul(&R[BaseB + k], &top); /*twiddle the odd n results*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   127                  //printf("P = %d; b = %d; Np = %d; k = %d\n", P, b, Np, k);
 	add	d15,d7,d8
 .L309:
 	mul	d15,d15,#8
@@ -603,7 +603,7 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	st.d	[a10]8,e0
 .L130:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   128                  top          = R[BaseT + k];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   128   //printf("P = %d; b = %d; Np = %d; k = %d\n", P, b, Np, k);
 	add	d15,d5,d8
 .L323:
 	mul	d15,d15,#8
@@ -613,7 +613,7 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	st.da	[a10]0,a2/a3
 .L325:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   129                  R[BaseT + k] = IFX_Cf32_add(&top, &bot);          /*top    subset*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   129                  /*butterfly loop*/
 	lea	a15,[a10]0
 .L326:
 	lea	a2,[a10]8
@@ -759,7 +759,7 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	st.d	[a15]0,e0
 .L146:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   130                  R[BaseB + k] = IFX_Cf32_sub(&top, &bot);          /*bottom subset*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   130  k = %d\n", P, b, Np, k);
 	lea	a15,[a10]0
 .L333:
 	lea	a2,[a10]8
@@ -918,9 +918,9 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	jlt.u	d8,d4,.L11
 .L340:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   131              } /*butterfly loop*/
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   132  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   133              BaseT = BaseT + Np;                                   /*start of next block*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   131   //printf("P = %d; b = %d; Np = %d; k = %d\n", P, b, Np, k);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   132                  /*butterfly loop*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   133                  top          = Ifx_FftF32_lookUpTwiddleFactor(Np, k);
 	add	d5,d3
 .L341:
 	add	d6,#1
@@ -928,14 +928,14 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	jlt.u	d6,d2,.L9
 .L342:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   134          } /*block loop*/
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   135  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   136          /*calc parameters for next pass*/
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   137          Bp = Bp >> 1; /*half as many blocks*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   134                  bot          = IFX_Cf32_mul(&R[BaseB + k], &top); /*twiddle the odd n results*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   135                  top          = R[BaseT + k];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   136                  R[BaseT + k] = IFX_Cf32_add(&top, &bot);          /*top    subset*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   137                  R[BaseB + k] = IFX_Cf32_sub(&top, &bot);          /*bottom subset*/
 	sh	d2,#-1
 .L343:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   138          Np = Np << 1; /*twice as many points in each block*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   138              } /*butterfly loop*/
 	sh	d3,#1
 .L344:
 	add	d9,#1
@@ -943,8 +943,8 @@ Ifx_FftF32_radix2DecimationInTime:	.type	func
 	jlt.u	d9,d10,.L7
 .L345:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   139      } /*pass loop*/
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   140  } /*Ifx_FftF32_radix2DecimationInTime*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   139  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   140              BaseT = BaseT + Np;                                   /*start of next block*/
 	ret
 .L108:
 	
@@ -959,26 +959,26 @@ __Ifx_FftF32_radix2DecimationInTime_function_end:
 	
 	.global	Ifx_FftF32_radix2
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   141  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   141          } /*block loop*/
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   142  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   143  cfloat32 *Ifx_FftF32_radix2(cfloat32 *R, const cfloat32 *X, unsigned short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   143          /*calc parameters for next pass*/
 ; Function Ifx_FftF32_radix2
 .L33:
 Ifx_FftF32_radix2:	.type	func
 	mov.aa	a12,a4
 .L194:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   144  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   145      unsigned int   logN = 31 - __clz(nX);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   144          Bp = Bp >> 1; /*half as many blocks*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   145          Np = Np << 1; /*twice as many points in each block*/
 	clz	d15,d4
 .L237:
 	rsub	d1,d15,#31
 .L195:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   146      unsigned short n, k;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   147  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   148      /* Arrange in bit-reversed index */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   149      for (n = 0; n < nX; n++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   146      } /*pass loop*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   147  } /*Ifx_FftF32_radix2DecimationInTime*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   148  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   149  
 	mov	d0,#0
 .L196:
 	j	.L16
@@ -1103,10 +1103,10 @@ Ifx_FftF32_radix2:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.h	    98  }      (inlined)
 .L18:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   150      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   151          //k = Ifx_FftF32_reverseBits(n, logN);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   152          k    = Ifx_FftF32_lookUpReversedBits(n, logN);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   153          R[k] = X[n];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   150  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   151  } /*Ifx_FftF32_radix2DecimationInTime*/
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   152  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   153  
 	mul	d15,d15,#8
 	addsc.a	a15,a12,d15,#0
 .L240:
@@ -1123,22 +1123,22 @@ Ifx_FftF32_radix2:	.type	func
 	jlt.u	d0,d4,.L17
 .L243:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   154      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   155  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   156      Ifx_FftF32_radix2DecimationInTime(R, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   154  cfloat32 *Ifx_FftF32_radix2(cfloat32 *R, const cfloat32 *X, unsigned short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   155  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   156      unsigned int   logN = 31 - __clz(nX);
 	mov.aa	a4,a12
 	mov	d4,d1
 .L193:
 	call	Ifx_FftF32_radix2DecimationInTime
 .L192:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   157  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   158      return R;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   157      unsigned short n, k;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   158  
 	mov.aa	a2,a12
 .L201:
 	j	.L19
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   159  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   159      /* Arrange in bit-reversed index */
 .L19:
 	ret
 .L74:
@@ -1154,9 +1154,9 @@ __Ifx_FftF32_radix2_function_end:
 	
 	.global	Ifx_FftF32_radix2I
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   160  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   161  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   162  cfloat32 *Ifx_FftF32_radix2I(cfloat32 *R, const cfloat32 *X, unsigned short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   160      for (n = 0; n < nX; n++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   161      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   162          //k = Ifx_FftF32_reverseBits(n, logN);
 ; Function Ifx_FftF32_radix2I
 .L35:
 Ifx_FftF32_radix2I:	.type	func
@@ -1165,17 +1165,17 @@ Ifx_FftF32_radix2I:	.type	func
 	mov	d8,d4
 .L205:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   163  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   164      unsigned int   logN = 31 - __clz(nX);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   163          k    = Ifx_FftF32_lookUpReversedBits(n, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   164          R[k] = X[n];
 	clz	d15,d8
 .L248:
 	rsub	d4,d15,#31
 .L203:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   165      unsigned short n, k = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   165      }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   166  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   167      /* Arrange in bit-reversed index, and conjugate the input */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   168      for (n = 0; n < nX; n++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   167      Ifx_FftF32_radix2DecimationInTime(R, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   168  
 	mov	d0,#0
 .L206:
 	j	.L20
@@ -1300,10 +1300,10 @@ Ifx_FftF32_radix2I:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.h	    98  }      (inlined)
 .L22:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   169      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   170          //k = Ifx_FftF32_reverseBits(n, logN);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   171          k         = Ifx_FftF32_lookUpReversedBits(n, logN);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   172          R[k].real = X[n].real;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   169  DecimationInTime(R, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   170  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   171      return R;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   172  }
 	mul	d15,d1,#8
 	addsc.a	a15,a12,d15,#0
 .L251:
@@ -1315,7 +1315,7 @@ Ifx_FftF32_radix2I:	.type	func
 	st.w	[a15],d15
 .L254:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   173          R[k].imag = -X[n].imag;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   173  
 	mul	d15,d1,#8
 	addsc.a	a15,a12,d15,#0
 .L255:
@@ -1335,23 +1335,23 @@ Ifx_FftF32_radix2I:	.type	func
 	jlt.u	d0,d8,.L21
 .L260:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   174      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   175  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   176      Ifx_FftF32_radix2DecimationInTime(R, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   174  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   175  cfloat32 *Ifx_FftF32_radix2I(cfloat32 *R, const cfloat32 *X, unsigned short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   176  {
 	mov.aa	a4,a12
 	call	Ifx_FftF32_radix2DecimationInTime
 .L202:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   177  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   178      /* Conjugate the output */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   179      for (n = 0; n < nX; n++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   177      unsigned int   logN = 31 - __clz(nX);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   178      unsigned short n, k = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   179  
 	mov	d0,#0
 .L211:
 	j	.L23
 .L24:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   180      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   181          R[n].imag = -R[n].imag;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   180      /* Arrange in bit-reversed index, and conjugate the input */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   181      for (n = 0; n < nX; n++)
 	mul	d15,d0,#8
 	addsc.a	a15,a12,d15,#0
 .L261:
@@ -1371,14 +1371,14 @@ Ifx_FftF32_radix2I:	.type	func
 	jlt.u	d0,d8,.L24
 .L266:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   182      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   183  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   184      return R;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   182      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   183          //k = Ifx_FftF32_reverseBits(n, logN);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   184          k         = Ifx_FftF32_lookUpReversedBits(n, logN);
 	mov.aa	a2,a12
 .L213:
 	j	.L25
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   185  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   185          R[k].real = X[n].real;
 .L25:
 	ret
 .L92:
@@ -1768,7 +1768,7 @@ __Ifx_FftF32_radix2I_function_end:
 .L216:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
 	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
 	.byte	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.h',0,0,0,0
@@ -2911,5 +2911,5 @@ __Ifx_FftF32_radix2I_function_end:
 	.word	12
 	.word	.L346,.L35,.L92-.L35
 
-
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_FftF32.c	   186          R[k].imag = -X[n].imag;
 	; Module end

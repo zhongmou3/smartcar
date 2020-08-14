@@ -8,12 +8,12 @@ USER\control.o :	"D:\smartcar\smartcar\Libraries\seekfree_libraries\common\commo
 "D:\smartcar\smartcar\Libraries\seekfree_libraries\common\common.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H" :
-USER\control.o :	"D:\tasking\ctc\include\math.h"
-"D:\tasking\ctc\include\math.h" :
-USER\control.o :	"D:\tasking\ctc\include\typeinfo.h"
-"D:\tasking\ctc\include\typeinfo.h" :
-USER\control.o :	"D:\tasking\ctc\include\string.h"
-"D:\tasking\ctc\include\string.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\seekfree_libraries\common\zf_assert.h"
 "D:\smartcar\smartcar\Libraries\seekfree_libraries\common\zf_assert.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_Types.h"
@@ -24,16 +24,16 @@ USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-USER\control.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
-USER\control.o :	"D:\tasking\ctc\include\stdio.h"
-"D:\tasking\ctc\include\stdio.h" :
-USER\control.o :	"D:\tasking\ctc\include\stdarg.h"
-"D:\tasking\ctc\include\stdarg.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdio.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdio.h" :
+USER\control.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdarg.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stdarg.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Sfr\TC26B\_Reg\ifxAsclin_reg.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Sfr\TC26B\_Reg\ifxAsclin_reg.h" :
 USER\control.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Sfr\TC26B\_Reg\IfxAsclin_regdef.h"

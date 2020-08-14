@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\.Ifx_Cf32.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.src ..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.c'
@@ -327,12 +327,12 @@ CplxVecPwr_f32:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.h	    88  }      (inlined)
 .L10:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    86      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    87          *r = IFX_Cf32_dot(X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    86  float32 *CplxVecMag_f32(cfloat32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    87  {
 	st.w	[a15],d15
 .L408:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    88          r++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    88      unsigned short i;
 	add.a	a15,#4
 .L409:
 	lea	a4,[a4]8
@@ -344,9 +344,9 @@ CplxVecPwr_f32:	.type	func
 	jlt	d0,d4,.L9
 .L411:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    89      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    89      float32       *r = (float32 *)X;
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    90  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    91      return &r[-nX];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    91      for (i = 0; i < nX; i++)
 	rsub	d4,#0
 .L412:
 	mul	d15,d4,#4
@@ -354,7 +354,7 @@ CplxVecPwr_f32:	.type	func
 .L413:
 	j	.L11
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    92  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    92      {
 .L11:
 	ret
 .L205:
@@ -370,9 +370,9 @@ __CplxVecPwr_f32_function_end:
 	
 	.global	CplxVecMag_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    93  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    94  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    95  float32 *CplxVecMag_f32(cfloat32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    93          *r = IFX_Cf32_mag(X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    94          r++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    95      }
 ; Function CplxVecMag_f32
 .L68:
 CplxVecMag_f32:	.type	func
@@ -381,14 +381,14 @@ CplxVecMag_f32:	.type	func
 	mov	d9,d4
 .L314:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    96  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    97      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    98      float32       *r = (float32 *)X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    96  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    97      return &r[-nX];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    98  }
 	mov.aa	a12,a15
 .L315:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	    99  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   100      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   100  
 	mov	d8,#0
 .L316:
 	j	.L12
@@ -515,12 +515,12 @@ CplxVecMag_f32:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.h	    94  }      (inlined)
 .L15:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   101      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   102          *r = IFX_Cf32_mag(X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   101  _f32(cfloat32 *X, const cfloat32 *mul, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   102  {
 	st.w	[a12],d2
 .L425:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   103          r++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   103      for ( ; nX > 0; nX--)
 	add.a	a12,#4
 .L426:
 	lea	a15,[a15]8
@@ -532,9 +532,9 @@ CplxVecMag_f32:	.type	func
 	jlt	d8,d9,.L13
 .L428:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   104      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   105  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   106      return &r[-nX];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   104      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   105          *X = IFX_Cf32_mul(X, mul);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   106          X++;
 	rsub	d9,#0
 .L429:
 	mul	d15,d9,#4
@@ -542,7 +542,7 @@ CplxVecMag_f32:	.type	func
 .L430:
 	j	.L16
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   107  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   107      }
 .L16:
 	ret
 .L215:
@@ -558,15 +558,15 @@ __CplxVecMag_f32_function_end:
 	
 	.global	CplxVecMul_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   108  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   108  }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   109  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   110  void CplxVecMul_f32(cfloat32 *X, const cfloat32 *mul, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   110  
 ; Function CplxVecMul_f32
 .L70:
 CplxVecMul_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   111  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   112      for ( ; nX > 0; nX--)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   111  void VecPwrdB_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   112  {
 	j	.L17
 .L18:
 
@@ -675,12 +675,12 @@ CplxVecMul_f32:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.h	    73  }      (inlined)
 .L19:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   113      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   114          *X = IFX_Cf32_mul(X, mul);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   113   short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   114  
 	st.d	[a4]0,e0
 .L231:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   115          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   115      for (i = 0; i < nX; i++)
 	lea	a4,[a4]8
 .L447:
 	add	d4,#-1
@@ -688,8 +688,8 @@ CplxVecMul_f32:	.type	func
 	jge	d4,#1,.L18
 .L448:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   116      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   117  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   116      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   117          *X = (float32)20.0 * log10f(*X);
 	ret
 .L225:
 	
@@ -704,9 +704,9 @@ __CplxVecMul_f32_function_end:
 	
 	.global	VecPwrdB_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   118  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   119  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   120  void VecPwrdB_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   118          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   119      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   120  }
 ; Function VecPwrdB_f32
 .L72:
 VecPwrdB_f32:	.type	func
@@ -715,17 +715,17 @@ VecPwrdB_f32:	.type	func
 	mov	d8,d4
 .L320:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   121  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   122      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   123  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   124      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   121  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   122  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   123  void VecPwrdB_SF(sint16 *R, float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   124  {
 	mov	d15,#0
 .L321:
 	j	.L20
 .L21:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   125      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   126          *X = (float32)20.0 * log10f(*X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   125      unsigned short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   126  
 	ld.w	d4,[a15]
 	call	log10f
 .L472:
@@ -736,7 +736,7 @@ VecPwrdB_f32:	.type	func
 	st.w	[a15],d0
 .L475:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   127          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   127      for (i = 0; i < nX; i++)
 	add.a	a15,#4
 .L476:
 	add	d15,#1
@@ -746,8 +746,8 @@ VecPwrdB_f32:	.type	func
 	jlt	d15,d8,.L21
 .L477:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   128      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   129  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   128      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   129          *R = (sint16)(20.0 * log10f(*X));
 	ret
 .L249:
 	
@@ -762,9 +762,9 @@ __VecPwrdB_f32_function_end:
 	
 	.global	VecPwrdB_SF
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   130  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   131  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   132  void VecPwrdB_SF(sint16 *R, float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   130          R++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   131      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   132  }
 ; Function VecPwrdB_SF
 .L74:
 VecPwrdB_SF:	.type	func
@@ -775,17 +775,17 @@ VecPwrdB_SF:	.type	func
 	mov	d8,d4
 .L325:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   133  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   134      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   135  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   136      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   133  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   134  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   135  float32 VecMaxIdx_f32(float32 *X, short nX, sint16 *minIdx, sint16 *maxIdx)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   136  {
 	mov	d15,#0
 .L326:
 	j	.L22
 .L23:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   137      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   138          *R = (sint16)(20.0 * log10f(*X));
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   137      float32        maxPeak = FLT_MIN;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   138      unsigned short m;
 	ld.w	d4,[a12]
 	call	log10f
 .L482:
@@ -799,7 +799,7 @@ VecPwrdB_SF:	.type	func
 	st.h	[a15],d0
 .L486:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   139          R++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   139  
 	add.a	a15,#2
 .L487:
 	add.a	a12,#4
@@ -811,8 +811,8 @@ VecPwrdB_SF:	.type	func
 	jlt	d15,d8,.L23
 .L489:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   140      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   141  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   140      for (m = 0; m < nX; m++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   141      {
 	ret
 .L253:
 	
@@ -827,28 +827,28 @@ __VecPwrdB_SF_function_end:
 	
 	.global	VecMaxIdx_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   142  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   143  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   144  float32 VecMaxIdx_f32(float32 *X, short nX, sint16 *minIdx, sint16 *maxIdx)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   142          if (*X > maxPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   143          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   144              maxPeak = *X;
 ; Function VecMaxIdx_f32
 .L76:
 VecMaxIdx_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   145  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   146      float32        maxPeak = FLT_MIN;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   145              *minIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   146          }
 	movh	d2,#128
 .L328:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   147      unsigned short m;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   148  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   149      for (m = 0; m < nX; m++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   147  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   148          if (*X >= maxPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   149          {
 	mov	d0,#0
 .L329:
 	j	.L24
 .L25:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   150      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   151          if (*X > maxPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   150              *maxIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   151          }
 	ld.w	d15,[a4]
 .L551:
 	cmp.f	d15,d15,d2
@@ -857,18 +857,18 @@ VecMaxIdx_f32:	.type	func
 	jeq	d15,#0,.L26
 .L553:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   152          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   153              maxPeak = *X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   152  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   153          X++;
 	ld.w	d2,[a4]
 .L554:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   154              *minIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   154      }
 	st.h	[a5],d0
 .L26:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   155          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   156  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   157          if (*X >= maxPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   155  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   156      return maxPeak;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   157  }
 	ld.w	d15,[a4]
 .L555:
 	cmp.f	d15,d15,d2
@@ -878,14 +878,14 @@ VecMaxIdx_f32:	.type	func
 	jeq	d15,#0,.L27
 .L557:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   158          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   159              *maxIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   158  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   159  
 	st.h	[a6],d0
 .L27:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   160          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   161  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   162          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   160  float32 VecMinIdx_f32(float32 *X, short nX, sint16 *minIdx, sint16 *maxIdx)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   161  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   162      float32 minPeak = FLT_MAX;
 	add.a	a4,#4
 .L558:
 	add	d0,#1
@@ -895,12 +895,12 @@ VecMaxIdx_f32:	.type	func
 	jlt	d0,d4,.L25
 .L559:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   163      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   163      short   m;
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   164  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   165      return maxPeak;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   165      for (m = 0; m < nX; m++)
 	j	.L28
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   166  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   166      {
 .L28:
 	ret
 .L295:
@@ -916,30 +916,30 @@ __VecMaxIdx_f32_function_end:
 	
 	.global	VecMinIdx_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   167  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   168  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   169  float32 VecMinIdx_f32(float32 *X, short nX, sint16 *minIdx, sint16 *maxIdx)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   167          if (*X < minPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   168          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   169              minPeak = *X;
 ; Function VecMinIdx_f32
 .L78:
 VecMinIdx_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   170  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   171      float32 minPeak = FLT_MAX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   170              *minIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   171          }
 	mov.u	d2,#65535
 .L331:
 	addih	d2,d2,#32639
 .L537:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   172      short   m;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   173  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   174      for (m = 0; m < nX; m++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   172  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   173          if (*X <= minPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   174          {
 	mov	d0,#0
 .L332:
 	j	.L29
 .L30:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   175      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   176          if (*X < minPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   175              *maxIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   176          }
 	ld.w	d15,[a4]
 .L538:
 	cmp.f	d15,d15,d2
@@ -948,18 +948,18 @@ VecMinIdx_f32:	.type	func
 	jeq	d15,#0,.L31
 .L540:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   177          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   178              minPeak = *X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   177  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   178          X++;
 	ld.w	d2,[a4]
 .L541:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   179              *minIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   179      }
 	st.h	[a5],d0
 .L31:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   180          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   181  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   182          if (*X <= minPeak)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   180  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   181      return minPeak;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   182  }
 	ld.w	d15,[a4]
 .L542:
 	cmp.f	d15,d15,d2
@@ -969,14 +969,14 @@ VecMinIdx_f32:	.type	func
 	jeq	d15,#0,.L32
 .L544:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   183          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   184              *maxIdx = m;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   183  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   184  
 	st.h	[a6],d0
 .L32:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   185          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   186  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   187          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   185  void VecOfs_f32(float32 *X, float32 offset, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   186  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   187      unsigned short i;
 	add.a	a4,#4
 .L545:
 	add	d0,#1
@@ -986,12 +986,12 @@ VecMinIdx_f32:	.type	func
 	jlt	d0,d4,.L30
 .L546:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   188      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   189  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   190      return minPeak;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   188  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   189      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   190      {
 	j	.L33
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   191  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   191          *X -= offset;
 .L33:
 	ret
 .L288:
@@ -1007,31 +1007,31 @@ __VecMinIdx_f32_function_end:
 	
 	.global	VecOfs_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   192  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   193  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   194  void VecOfs_f32(float32 *X, float32 offset, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   192          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   193      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   194  }
 ; Function VecOfs_f32
 .L80:
 VecOfs_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   195  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   196      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   197  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   198      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   195  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   196  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   197  void VecGain_f32(float32 *X, float32 gain, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   198  {
 	mov	d15,#0
 .L334:
 	j	.L34
 .L35:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   199      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   200          *X -= offset;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   199      unsigned short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   200  
 	ld.w	d0,[a4]
 .L503:
 	sub.f	d0,d0,d4
 	st.w	[a4],d0
 .L504:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   201          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   201      for (i = 0; i < nX; i++)
 	add.a	a4,#4
 .L505:
 	add	d15,#1
@@ -1041,8 +1041,8 @@ VecOfs_f32:	.type	func
 	jlt	d15,d5,.L35
 .L506:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   202      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   203  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   202      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   203          *X = *X * gain;
 	ret
 .L265:
 	
@@ -1057,24 +1057,24 @@ __VecOfs_f32_function_end:
 	
 	.global	VecGain_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   204  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   205  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   206  void VecGain_f32(float32 *X, float32 gain, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   204          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   205      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   206  }
 ; Function VecGain_f32
 .L82:
 VecGain_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   207  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   208      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   209  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   210      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   207  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   208  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   209  float32 VecSum_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   210  {
 	mov	d15,#0
 .L336:
 	j	.L36
 .L37:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   211      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   212          *X = *X * gain;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   211      float32        sumX = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   212      unsigned short i;
 	ld.w	d0,[a4]
 .L494:
 	mul.f	d0,d0,d4
@@ -1082,7 +1082,7 @@ VecGain_f32:	.type	func
 	st.w	[a4],d0
 .L496:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   213          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   213  
 	add.a	a4,#4
 .L497:
 	add	d15,#1
@@ -1092,8 +1092,8 @@ VecGain_f32:	.type	func
 	jlt	d15,d5,.L37
 .L498:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   214      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   215  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   214      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   215      {
 	ret
 .L259:
 	
@@ -1108,34 +1108,34 @@ __VecGain_f32_function_end:
 	
 	.global	VecSum_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   216  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   217  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   218  float32 VecSum_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   216          sumX += *X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   217          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   218      }
 ; Function VecSum_f32
 .L84:
 VecSum_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   219  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   220      float32        sumX = 0;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   219  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   220      return sumX;
 	mov	d2,#0
 .L338:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   221      unsigned short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   221  }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   222  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   223      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   223  
 	mov	d15,#0
 .L339:
 	j	.L38
 .L39:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   224      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   225          sumX += *X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   224  float32 VecAvg_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   225  {
 	ld.w	d0,[a4]
 .L511:
 	add.f	d2,d2,d0
 .L512:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   226          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   226      return VecSum_f32(X, nX) / nX;
 	add.a	a4,#4
 .L513:
 	add	d15,#1
@@ -1145,12 +1145,12 @@ VecSum_f32:	.type	func
 	jlt	d15,d4,.L39
 .L514:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   227      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   227  }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   228  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   229      return sumX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   229  
 	j	.L40
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   230  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   230  float32 VecMax_f32(float32 *X, short nX)
 .L40:
 	ret
 .L270:
@@ -1166,17 +1166,17 @@ __VecSum_f32_function_end:
 	
 	.global	VecAvg_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   231  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   232  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   233  float32 VecAvg_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   231  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   232      unsigned short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   233      float32        r = FLT_MIN;
 ; Function VecAvg_f32
 .L86:
 VecAvg_f32:	.type	func
 	mov	d15,d4
 .L342:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   234  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   235      return VecSum_f32(X, nX) / nX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   234  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   235      for (i = 0; i < nX; i++)
 	mov	d4,d15
 	call	VecSum_f32
 .L341:
@@ -1186,7 +1186,7 @@ VecAvg_f32:	.type	func
 .L519:
 	j	.L41
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   236  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   236      {
 .L41:
 	ret
 .L275:
@@ -1202,28 +1202,28 @@ __VecAvg_f32_function_end:
 	
 	.global	VecMax_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   237  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   238  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   239  float32 VecMax_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   237          r = __maxf(r, *X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   238          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   239      }
 ; Function VecMax_f32
 .L88:
 VecMax_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   240  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   241      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   242      float32        r = FLT_MIN;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   240  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   241      return r;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   242  }
 	movh	d2,#128
 .L344:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   243  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   244      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   244  
 	mov	d0,#0
 .L345:
 	j	.L42
 .L43:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   245      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   246          r = __maxf(r, *X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   245  float32 VecMin_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   246  {
 	ld.w	d15,[a4]
 	cmp.f	d15,d2,d15
 	jnz.t	d15:2,.L44
@@ -1232,7 +1232,7 @@ VecMax_f32:	.type	func
 .L44:
 .L45:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   247          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   247      unsigned short i;
 	add.a	a4,#4
 .L524:
 	add	d0,#1
@@ -1242,12 +1242,12 @@ VecMax_f32:	.type	func
 	jlt	d0,d4,.L43
 .L525:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   248      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   248      float32        r = FLT_MAX;
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   249  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   250      return r;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   250      for (i = 0; i < nX; i++)
 	j	.L46
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   251  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   251      {
 .L46:
 	ret
 .L278:
@@ -1263,30 +1263,30 @@ __VecMax_f32_function_end:
 	
 	.global	VecMin_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   252  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   253  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   254  float32 VecMin_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   252          r = __minf(r, *X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   253          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   254      }
 ; Function VecMin_f32
 .L90:
 VecMin_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   255  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   256      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   257      float32        r = FLT_MAX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   255  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   256      return r;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   257  }
 	mov.u	d2,#65535
 .L347:
 	addih	d2,d2,#32639
 .L530:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   258  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   259      for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   259  
 	mov	d0,#0
 .L348:
 	j	.L47
 .L48:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   260      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   261          r = __minf(r, *X);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   260  void VecHalfSwap_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   261  {
 	ld.w	d15,[a4]
 	cmp.f	d15,d2,d15
 	jnz.t	d15:0,.L49
@@ -1295,7 +1295,7 @@ VecMin_f32:	.type	func
 .L49:
 .L50:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   262          X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   262      unsigned short i;
 	add.a	a4,#4
 .L531:
 	add	d0,#1
@@ -1305,12 +1305,12 @@ VecMin_f32:	.type	func
 	jlt	d0,d4,.L48
 .L532:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   263      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   264  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   265      return r;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   263      unsigned short half = nX / 2;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   264      float32       *F    = &X[half];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   265  
 	j	.L51
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   266  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   266      for (i = 0; i < half; i++)
 .L51:
 	ret
 .L283:
@@ -1326,16 +1326,16 @@ __VecMin_f32_function_end:
 	
 	.global	VecHalfSwap_f32
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   267  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   268  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   269  void VecHalfSwap_f32(float32 *X, short nX)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   267      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   268          float32 tmp = *F;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   269          *F = *X;
 ; Function VecHalfSwap_f32
 .L92:
 VecHalfSwap_f32:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   270  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   271      unsigned short i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   272      unsigned short half = nX / 2;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   270          *X = tmp;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   271          F++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   272      }
 	ge	d15,d4,#0
 	caddn	d4,d15,#1
 .L350:
@@ -1343,34 +1343,34 @@ VecHalfSwap_f32:	.type	func
 	extr.u	d0,d4,#0,#16
 .L351:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   273      float32       *F    = &X[half];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   273  }
 	mul	d15,d0,#4
 	addsc.a	a15,a4,d15,#0
 .L352:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   274  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   275      for (i = 0; i < half; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   275  
 	mov	d15,#0
 .L353:
 	j	.L52
 .L53:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   276      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   277          float32 tmp = *F;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   276  /* NOTE:
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   277   * (nX <= nW) && ((nW % nX) == 0) && ((nX % 2) == 0)
 	ld.w	d1,[a15]
 .L355:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   278          *F = *X;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   278   * (symW != 0) when the window is symmetrical */
 	ld.w	d2,[a4]
 .L564:
 	st.w	[a15],d2
 .L565:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   279          *X = tmp;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   279  void VecWin_f32(float32 *X, const float32 *W, short nX, short nW, short incrX, short symW)
 	st.w	[a4],d1
 .L566:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   280          F++; X++;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   280  {
 	add.a	a15,#4
 .L567:
 	add.a	a4,#4
@@ -1382,8 +1382,8 @@ VecHalfSwap_f32:	.type	func
 	jlt.u	d15,d0,.L53
 .L568:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   281      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   282  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   281      short step = nW / nX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   282      short i;
 	ret
 .L302:
 	
@@ -1399,31 +1399,31 @@ __VecHalfSwap_f32_function_end:
 	.global	VecWin_f32
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   283  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   284  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   285  /* NOTE:
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   286   * (nX <= nW) && ((nW % nX) == 0) && ((nX % 2) == 0)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   287   * (symW != 0) when the window is symmetrical */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   288  void VecWin_f32(float32 *X, const float32 *W, short nX, short nW, short incrX, short symW)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   284      if (symW != 0)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   285      {   /* symmetrical window, using half of the length */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   286          for (i = 0; i < nX / 2; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   287          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   288              *X = *X * *W;
 ; Function VecWin_f32
 .L94:
 VecWin_f32:	.type	func
 	mov	d15,d7
 .L357:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   289  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   290      short step = nW / nX;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   289              X  = &X[incrX];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   290              W  = &W[step];
 	div	e0,d5,d4
 	extr	d2,d0,#0,#16
 .L358:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   291      short i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   291          }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   292  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   293      if (symW != 0)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   293          W = &W[-step];
 	jeq	d15,#0,.L54
 .L453:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   294      {   /* symmetrical window, using half of the length */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   295          for (i = 0; i < nX / 2; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   294  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   295          for ( ; i < nX; i++)
 	mov	d3,#0
 .L360:
 	j	.L55
@@ -1445,7 +1445,7 @@ VecWin_f32:	.type	func
 	addsc.a	a4,a4,d15,#0
 .L458:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   299              W  = &W[step];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   299              W  = &W[-step];
 	mul	d15,d2,#4
 	addsc.a	a5,a5,d15,#0
 .L459:
@@ -1460,8 +1460,8 @@ VecWin_f32:	.type	func
 .L461:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   300          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   301  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   302          W = &W[-step];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   301      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   302  }
 	mov	d0,d2
 .L362:
 	rsub	d0,#0
@@ -1471,12 +1471,12 @@ VecWin_f32:	.type	func
 .L356:
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   303  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   304          for ( ; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   304  
 	j	.L57
 .L58:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   305          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   306              *X = *X * *W;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   305  #ifdef __WIN32__
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   306  
 	ld.w	d0,[a4]
 .L462:
 	ld.w	d1,[a15]
@@ -1486,12 +1486,12 @@ VecWin_f32:	.type	func
 	st.w	[a4],d0
 .L465:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   307              X  = &X[incrX];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   307  #define ENDL "\r\n"
 	mul	d15,d6,#4
 	addsc.a	a4,a4,d15,#0
 .L363:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   308              W  = &W[-step];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   308  
 	mov	d15,d2
 .L364:
 	rsub	d15,#0
@@ -1507,9 +1507,9 @@ VecWin_f32:	.type	func
 	jlt	d3,d4,.L58
 .L54:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   309          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   310      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   311  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   309  void DataF_printf(FILE *fp, pchar fileName, float32 *data, long nX, int enclosed)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   310  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   311      long i;
 	ret
 .L239:
 	
@@ -1826,7 +1826,7 @@ __VecWin_f32_function_end:
 .L368:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
 	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
 	.byte	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Math\\Ifx_Cf32.h',0,0,0,0
@@ -4066,83 +4066,74 @@ __VecWin_f32_function_end:
 	.byte	8,18,8,19,8,22,8,23
 
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   312  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   313  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   314  #ifdef __WIN32__
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   315  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   316  #define ENDL "\r\n"
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   313      if (fileName != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   314      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   315          fp = fopen(fileName, "w+");
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   316      }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   317  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   318  void DataF_printf(FILE *fp, pchar fileName, float32 *data, long nX, int enclosed)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   319  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   320      long i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   321  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   322      if (fileName != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   323      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   324          fp = fopen(fileName, "w+");
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   325      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   326  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   327      if (fp != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   328      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   329          if (enclosed)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   330          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   331              for (i = 0; i < nX; i++)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   332              {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   333                  fprintf(fp, "_DATAF(%10.20f),"ENDL, *data);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   334                  data = &data[1];
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   335              }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   336          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   337          else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   338          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   339              for (i = 0; i < nX; i++)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   340              {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   341                  fprintf(fp, "%10.20f,"ENDL, *data);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   342                  data = &data[1];
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   343              }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   344          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   345      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   346  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   347      if (fileName != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   348      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   349          fclose(fp);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   350      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   351  }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   352  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   318      if (fp != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   319      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   320          if (enclosed)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   321          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   322              for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   323              {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   324                  fprintf(fp, "_DATAF(%10.20f),"ENDL, *data);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   325                  data = &data[1];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   326              }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   327          }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   328          else
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   329          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   330              for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   331              {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   332                  fprintf(fp, "%10.20f,"ENDL, *data);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   333                  data = &data[1];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   334              }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   335          }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   336      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   337  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   338      if (fileName != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   339      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   340          fclose(fp);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   341      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   342  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   343  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   344  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   345  void Cplx_f32_printf(FILE *fp, pchar fileName, cfloat32 *data, long nX, int encloseData)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   346  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   347      long i;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   348  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   349      if (fileName != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   350      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   351          fp = fopen(fileName, "w+");
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   352      }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   353  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   354  void Cplx_f32_printf(FILE *fp, pchar fileName, cfloat32 *data, long nX, int encloseData)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   355  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   356      long i;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   357  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   358      if (fileName != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   359      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   360          fp = fopen(fileName, "w+");
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   361      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   362  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   363      if (fp != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   364      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   365          if (encloseData)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   366          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   367              for (i = 0; i < nX; i++)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   368              {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   369                  fprintf(fp, "{_DATAF(%10.20f), _DATAF(%10.20f)},"ENDL, data->real, data->imag);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   370                  data = &data[1];
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   371              }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   372          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   373          else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   374          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   375              for (i = 0; i < nX; i++)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   376              {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   377                  fprintf(fp, "%10.20f, %10.20f"ENDL, data->real, data->imag);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   378                  data = &data[1];
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   379              }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   380          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   381      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   382  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   383      if (fileName != NULL)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   384      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   385          fclose(fp);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   386      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   387  }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   388  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   389  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   390  #endif
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   354      if (fp != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   355      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   356          if (encloseData)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   357          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   358              for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   359              {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   360                  fprintf(fp, "{_DATAF(%10.20f), _DATAF(%10.20f)},"ENDL, data->real, data->imag);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   361                  data = &data[1];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   362              }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   363          }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   364          else
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   365          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   366              for (i = 0; i < nX; i++)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   367              {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   368                  fprintf(fp, "%10.20f, %10.20f"ENDL, data->real, data->imag);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   369                  data = &data[1];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   370              }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   371          }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   372      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   373  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   374      if (fileName != NULL)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   375      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   376          fclose(fp);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   377      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   378  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   379  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   380  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Math\Ifx_Cf32.c	   381  #endif
 
 	; Module end

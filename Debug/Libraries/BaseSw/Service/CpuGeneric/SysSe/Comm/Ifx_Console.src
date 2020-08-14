@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Comm\\.Ifx_Console.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Comm\\Ifx_Console.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Comm\\Ifx_Console.src ..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Comm\\Ifx_Console.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Comm\\Ifx_Console.c'
@@ -461,16 +461,16 @@ Ifx_Console_print:	.type	func
 	j	.L4
 .L2:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    86      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    87      else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    88      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    89          return TRUE;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    86  ing into \ref Ifx_g_console.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    87   * Indented with a number of spaces.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    88   * \param format printf-compatible formatted string.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    89   * \retval TRUE if the string is printed successfully
 	mov	d2,#1
 .L123:
 	j	.L5
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    90      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    91  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    90   * \retval FALSE if the function failed.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    91   */
 .L5:
 .L4:
 	ret
@@ -487,16 +487,16 @@ __Ifx_Console_print_function_end:
 	
 	.global	Ifx_Console_printAlign
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    92  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    93  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    94  /**
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    95   * \brief Print formatted string into \ref Ifx_g_console.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    96   * Indented with a number of spaces.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    97   * \param format printf-compatible formatted string.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    98   * \retval TRUE if the string is printed successfully
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    99   * \retval FALSE if the function failed.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   100   */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   101  boolean Ifx_Console_printAlign(pchar format, ...)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    92  boolean Ifx_Console_printAlign(pchar format, ...)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    93  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    94      if (!Ifx_g_console.standardIo->txDisabled)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    95      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    96          char      message[STDIF_DPIPE_MAX_PRINT_SIZE + 1];
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    97          Ifx_SizeT align, count;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    98          char      spaces[17] = "                ";
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	    99          va_list   args;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   100          va_start(args, format);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   101          vsprintf((char *)message, format, args);
 ; Function Ifx_Console_printAlign
 .L19:
 Ifx_Console_printAlign:	.type	func
@@ -505,8 +505,8 @@ Ifx_Console_printAlign:	.type	func
 	mov.aa	a5,a4
 .L89:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   102  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   103      if (!Ifx_g_console.standardIo->txDisabled)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   102          va_end(args);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   103          count = (Ifx_SizeT)strlen(message);
 	movh.a	a15,#@his(Ifx_g_console)
 	lea	a15,[a15]@los(Ifx_g_console)
 .L128:
@@ -517,10 +517,10 @@ Ifx_Console_printAlign:	.type	func
 	jne	d15,#0,.L6
 .L68:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   104      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   105          char      message[STDIF_DPIPE_MAX_PRINT_SIZE + 1];
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   106          Ifx_SizeT align, count;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   107          char      spaces[17] = "                ";
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   104          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, count < STDIF_DPIPE_MAX_PRINT_SIZE);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   105          align = Ifx_g_console.align;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   106  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   107          while (align > 0)
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
@@ -533,47 +533,47 @@ Ifx_Console_printAlign:	.type	func
 	loop	a4,.L7
 .L132:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   108          va_list   args;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   109          va_start(args, format);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   108          {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   109              Ifx_SizeT scount;
 	lea	a6,[a10]280
 .L91:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   110          vsprintf((char *)message, format, args);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   110              scount = __min(align, 10);
 	lea	a4,[a10]0
 .L133:
 	call	vsprintf
 .L90:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   111          va_end(args);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   112          count = (Ifx_SizeT)strlen(message);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   111              IfxStdIf_DPipe_write(Ifx_g_console.standardIo, (void *)spaces, &scount, TIME_INFINITE);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   112              align  = align - scount;
 	lea	a4,[a10]0
 	call	strlen
 .L134:
 	st.h	[a10]256,d2
 .L135:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   113          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, count < STDIF_DPIPE_MAX_PRINT_SIZE);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   114          align = Ifx_g_console.align;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   113          }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   114  
 	movh.a	a15,#@his(Ifx_g_console)
 	lea	a15,[a15]@los(Ifx_g_console)
 .L136:
 	ld.h	d15,[a15]4
 .L92:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   115  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   116          while (align > 0)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   115          return IfxStdIf_DPipe_write(Ifx_g_console.standardIo, (void *)message, &count, TIME_INFINITE);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   116      }
 	j	.L8
 .L9:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   117          {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   118              Ifx_SizeT scount;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   119              scount = __min(align, 10);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   117      else
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   118      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   119          return TRUE;
 	min	d0,d15,#10
 .L137:
 	st.h	[a10]276,d0
 .L138:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   120              IfxStdIf_DPipe_write(Ifx_g_console.standardIo, (void *)spaces, &scount, TIME_INFINITE);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   120      }
 	movh.a	a15,#@his(Ifx_g_console)
 	lea	a15,[a15]@los(Ifx_g_console)
 .L139:
@@ -865,7 +865,7 @@ Ifx_Console_printAlign:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_DPipe.h	   265  }      (inlined)
 .L10:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   121              align  = align - scount;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   121  
 	ld.h	d0,[a10]276
 .L146:
 	sub	d15,d0
@@ -875,20 +875,33 @@ Ifx_Console_printAlign:	.type	func
 	jge	d15,#1,.L9
 .L147:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   122          }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   123  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   124          return IfxStdIf_DPipe_write(Ifx_g_console.standardIo, (void *)message, &count, TIME_INFINITE);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   122  }
+
 	movh.a	a15,#@his(Ifx_g_console)
+
+
 	lea	a15,[a15]@los(Ifx_g_console)
 .L148:
+
+
 	ld.a	a15,[a15]
 .L149:
+
+
 	lea	a5,[a10]0
 .L150:
+
+
 	lea	a6,[a10]256
 .L151:
+
+
 	movh.a	a2,#@his(.2.cnt)
+
+
 	lea	a2,[a2]@los(.2.cnt)
+
+
 	ld.d	e4,[a2]0
 .L81:
 
@@ -1168,21 +1181,25 @@ Ifx_Console_printAlign:	.type	func
 
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_DPipe.h	   265  }      (inlined)
 .L11:
+
+
 	j	.L12
 .L6:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   125      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   126      else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   127      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   128          return TRUE;
+
 	mov	d2,#1
 .L155:
+
+
 	j	.L13
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   129      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Comm\Ifx_Console.c	   130  }
+
 .L13:
+
+
 .L12:
+
+
 	ret
 .L66:
 	
@@ -1726,7 +1743,7 @@ Ifx_g_console:	.type	object
 .L96:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h',0,0,0,0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric\\StdIf\\IfxStdIf.h',0,0,0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std\\.IfxStm.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std\\IfxStm.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std\\IfxStm.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std\\IfxStm.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std\\IfxStm.c'
@@ -970,11 +970,11 @@ IfxStm_initCompare:	.type	func
 	st.b	[a2]1,d15
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   207          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   208      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   207   ticks to current value to avoid any wrong triggering*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   208      stm->CMP[config->comparator].U = IfxStm_getOffsetTimer(stm, (uint8)config->compareOffset);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   209  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   210      /*Configure the comparator ticks to current value to avoid any wrong triggering*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   211      stm->CMP[config->comparator].U = IfxStm_getOffsetTimer(stm, (uint8)config->compareOffset);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   210      /* clear the interrupt flag of the selected comparator before enabling the interrupt */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   211      /* this is to avaoid the unneccesary interrupt for the compare match of reset values of the registers */
 	ld.bu	d0,[a15]2
 .L212:
 
@@ -1658,27 +1658,27 @@ IfxStm_initCompare:	.type	func
 	st.w	[a2]48,d3
 .L419:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   212  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   213      /* clear the interrupt flag of the selected comparator before enabling the interrupt */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   214      /* this is to avaoid the unneccesary interrupt for the compare match of reset values of the registers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   215      IfxStm_clearCompareFlag(stm, config->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   212  eccesary interrupt for the compare match of reset values of the registers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   213      IfxStm_clearCompareFlag(stm, config->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   214      /* enable the interrupt for the selected comparator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   215      IfxStm_enableComparatorInterrupt(stm, config->comparator);
 	ld.bu	d4,[a15]
 	mov.aa	a4,a12
 .L288:
 	call	IfxStm_clearCompareFlag
 .L289:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   216      /* enable the interrupt for the selected comparator */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   217      IfxStm_enableComparatorInterrupt(stm, config->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   216  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   217      /*Configure the comparator ticks */
 	ld.bu	d4,[a15]
 	mov.aa	a4,a12
 .L290:
 	call	IfxStm_enableComparatorInterrupt
 .L291:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   219      /*Configure the comparator ticks */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   220      stm->CMP[config->comparator].U = IfxStm_getOffsetTimer(stm, (uint8)config->compareOffset) + config->ticks;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   218      stm->CMP[config->comparator].U = IfxStm_getOffsetTimer(stm, (uint8)config->compareOffset) + config->ticks;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   219  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   220      return result;
 	ld.bu	d0,[a15]2
 .L232:
 
@@ -2366,13 +2366,13 @@ IfxStm_initCompare:	.type	func
 	st.w	[a2]48,d0
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   221  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   222      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   221  , (uint8)config->compareOffset) + config->ticks;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   222  
 	mov	d2,d8
 .L293:
 	j	.L42
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   223  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   223      return result;
 .L42:
 	ret
 .L179:
@@ -2388,57 +2388,57 @@ __IfxStm_initCompare_function_end:
 	
 	.global	IfxStm_initCompareConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   224  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   224  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   226  void IfxStm_initCompareConfig(IfxStm_CompareConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   226  
 ; Function IfxStm_initCompareConfig
 .L69:
 IfxStm_initCompareConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   227  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   228      config->comparator          = IfxStm_Comparator_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   227  void IfxStm_initCompareConfig(IfxStm_CompareConfig *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   228  {
 	mov	d15,#0
 .L432:
 	st.b	[a4],d15
 .L433:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   229      config->compareOffset       = IfxStm_ComparatorOffset_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   229      config->comparator          = IfxStm_Comparator_0;
 	mov	d15,#0
 .L434:
 	st.b	[a4]2,d15
 .L435:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   230      config->compareSize         = IfxStm_ComparatorSize_32Bits;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   230      config->compareOffset       = IfxStm_ComparatorOffset_0;
 	mov	d15,#31
 .L436:
 	st.b	[a4]3,d15
 .L437:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   231      config->comparatorInterrupt = IfxStm_ComparatorInterrupt_ir0;     /*User must select the interrupt output */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   231      config->compareSize         = IfxStm_ComparatorSize_32Bits;
 	mov	d15,#0
 .L438:
 	st.b	[a4]1,d15
 .L439:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   232      config->ticks               = 0xFFFFFFFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   232      config->comparatorInterrupt = IfxStm_ComparatorInterrupt_ir0;     /*User must select the interrupt output */
 	mov	d15,#-1
 .L440:
 	st.w	[a4]4,d15
 .L441:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   233      config->triggerPriority     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   233      config->ticks               = 0xFFFFFFFF;
 	mov	d15,#0
 .L442:
 	st.h	[a4]8,d15
 .L443:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   234      config->typeOfService       = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   234      config->triggerPriority     = 0;
 	mov	d15,#0
 .L444:
 	st.b	[a4]10,d15
 .L445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   235  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   235      config->typeOfService       = IfxSrc_Tos_cpu0;
 	ret
 .L242:
 	
@@ -2453,37 +2453,37 @@ __IfxStm_initCompareConfig_function_end:
 	
 	.global	IfxStm_isCompareFlagSet
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   236  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   236  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   237  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   238  boolean IfxStm_isCompareFlagSet(Ifx_STM *stm, IfxStm_Comparator comparator)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   238  
 ; Function IfxStm_isCompareFlagSet
 .L71:
 IfxStm_isCompareFlagSet:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   239  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   240      if (comparator == IfxStm_Comparator_0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   239  boolean IfxStm_isCompareFlagSet(Ifx_STM *stm, IfxStm_Comparator comparator)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   240  {
 	jne	d4,#0,.L43
 .L450:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   241      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   242          return stm->ICR.B.CMP0IR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   241      if (comparator == IfxStm_Comparator_0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   242      {
 	ld.bu	d15,[a4]60
 	extr.u	d2,d15,#1,#1
 .L451:
 	j	.L44
 .L43:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   243      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   244      else // if (comparator == IfxStm_Comparator_1)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   245      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   246          return stm->ICR.B.CMP1IR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   243          return stm->ICR.B.CMP0IR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   244      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   245      else // if (comparator == IfxStm_Comparator_1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   246      {
 	ld.bu	d15,[a4]60
 	extr.u	d2,d15,#5,#1
 .L452:
 	j	.L45
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   247      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   248  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   247          return stm->ICR.B.CMP1IR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   248      }
 .L45:
 .L44:
 	ret
@@ -2500,51 +2500,51 @@ __IfxStm_isCompareFlagSet_function_end:
 	
 	.global	IfxStm_resetModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   249  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   249  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   250  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   251  void IfxStm_resetModule(Ifx_STM *stm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   251  
 ; Function IfxStm_resetModule
 .L73:
 IfxStm_resetModule:	.type	func
 	mov.aa	a15,a4
 .L295:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   252  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   253      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   252  void IfxStm_resetModule(Ifx_STM *stm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   253  {
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L294:
 	mov	d8,d2
 .L297:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   254  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   255      IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   254      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   255  
 	mov	d4,d8
 .L296:
 	call	IfxScuWdt_clearCpuEndinit
 .L298:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   256      stm->KRST0.B.RST = 1;           /* Only if both Kernel reset bits are set a reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   256      IfxScuWdt_clearCpuEndinit(passwd);
 	ld.bu	d15,[a15]244
 .L469:
 	or	d15,#1
 	st.b	[a15]244,d15
 .L470:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   257      stm->KRST1.B.RST = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   257      stm->KRST0.B.RST = 1;           /* Only if both Kernel reset bits are set a reset is executed */
 	ld.bu	d15,[a15]240
 .L471:
 	or	d15,#1
 	st.b	[a15]240,d15
 .L472:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   258      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   258      stm->KRST1.B.RST = 1;
 	mov	d4,d8
 .L299:
 	call	IfxScuWdt_setCpuEndinit
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   259  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   260      while (0 == stm->KRST0.B.RSTSTAT)   /* Wait until reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   259      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   260  
 	j	.L46
 .L47:
 .L46:
@@ -2553,30 +2553,30 @@ IfxStm_resetModule:	.type	func
 	jz.t	d15:1,.L47
 .L474:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   261  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   262      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   263  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   264      IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   261      while (0 == stm->KRST0.B.RSTSTAT)   /* Wait until reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   262  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   263      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   264  
 	mov	d4,d8
 .L301:
 	call	IfxScuWdt_clearCpuEndinit
 .L302:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   265      stm->KRSTCLR.B.CLR = 1;         /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   265      IfxScuWdt_clearCpuEndinit(passwd);
 	ld.bu	d15,[a15]236
 .L475:
 	or	d15,#1
 	st.b	[a15]236,d15
 .L476:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   266  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   267      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   266      stm->KRSTCLR.B.CLR = 1;         /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   267  
 	mov	d4,d8
 .L303:
 	call	IfxScuWdt_setCpuEndinit
 .L304:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   268  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   268      IfxScuWdt_setCpuEndinit(passwd);
 	ret
 .L259:
 	
@@ -2591,68 +2591,68 @@ __IfxStm_resetModule_function_end:
 	
 	.global	IfxStm_setCompareControl
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   269  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   269  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   270  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   271  void IfxStm_setCompareControl(Ifx_STM *stm, IfxStm_Comparator comparator, IfxStm_ComparatorOffset offset, IfxStm_ComparatorSize size, IfxStm_ComparatorInterrupt interrupt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   271  
 ; Function IfxStm_setCompareControl
 .L75:
 IfxStm_setCompareControl:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   272  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   273      Ifx_STM_CMCON comcon = stm->CMCON;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   272  void IfxStm_setCompareControl(Ifx_STM *stm, IfxStm_Comparator comparator, IfxStm_ComparatorOffset offset, IfxStm_ComparatorSize size, IfxStm_ComparatorInterrupt interrupt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   273  {
 	ld.w	d15,[a4]56
 .L305:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   274      Ifx_STM_ICR   icr    = stm->ICR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   274      Ifx_STM_CMCON comcon = stm->CMCON;
 	ld.w	d0,[a4]60
 .L306:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   275  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   276      if (comparator == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   275      Ifx_STM_ICR   icr    = stm->ICR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   276  
 	jne	d4,#0,.L48
 .L457:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   277      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   278          comcon.B.MSIZE0  = size;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   277      if (comparator == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   278      {
 	insert	d15,d15,d6,#0,#5
 .L458:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   279          comcon.B.MSTART0 = offset;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   279          comcon.B.MSIZE0  = size;
 	insert	d15,d15,d5,#8,#5
 .L459:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   280          icr.B.CMP0OS     = interrupt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   280          comcon.B.MSTART0 = offset;
 	insert	d0,d0,d7,#2,#1
 .L460:
 	j	.L49
 .L48:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   281      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   282      else // if (comparator == 1)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   283      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   284          comcon.B.MSIZE1  = size;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   281          icr.B.CMP0OS     = interrupt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   282      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   283      else // if (comparator == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   284      {
 	insert	d15,d15,d6,#16,#5
 .L461:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   285          comcon.B.MSTART1 = offset;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   285          comcon.B.MSIZE1  = size;
 	insert	d15,d15,d5,#24,#5
 .L462:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   286          icr.B.CMP1OS     = interrupt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   286          comcon.B.MSTART1 = offset;
 	insert	d0,d0,d7,#6,#1
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   287      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   288  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   289      stm->ICR.U   = icr.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   287          icr.B.CMP1OS     = interrupt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   288      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   289  
 	st.w	[a4]60,d0
 .L463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   290      stm->CMCON.U = comcon.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   290      stm->ICR.U   = icr.U;
 	st.w	[a4]56,d15
 .L464:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   291  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   291      stm->CMCON.U = comcon.U;
 	ret
 .L248:
 	
@@ -16398,5 +16398,5 @@ __IfxStm_setCompareControl_function_end:
 	.word	.L477,.L75,.L248-.L75
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.c	   292  }
 	; Module end

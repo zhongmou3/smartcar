@@ -12,8 +12,8 @@ Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Librari
 "D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
@@ -114,12 +114,12 @@ Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Librari
 "D:\smartcar\smartcar\Libraries\seekfree_libraries\common\common.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H" :
-Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\tasking\ctc\include\math.h"
-"D:\tasking\ctc\include\math.h" :
-Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\tasking\ctc\include\typeinfo.h"
-"D:\tasking\ctc\include\typeinfo.h" :
-Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\tasking\ctc\include\string.h"
-"D:\tasking\ctc\include\string.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\seekfree_libraries\zf_gpio.h"
 "D:\smartcar\smartcar\Libraries\seekfree_libraries\zf_gpio.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Port\Std\IFXPORT.h"

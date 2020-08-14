@@ -20,8 +20,8 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigg
 "D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
@@ -118,5 +118,5 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigg
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Port\Std\IfxPort.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"D:\tasking\ctc\include\string.h"
-"D:\tasking\ctc\include\string.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Ccu6\TimerWithTrigger\IfxCcu6_TimerWithTrigger.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h" :

@@ -14,8 +14,8 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar
 "D:\smartcar\smartcar\Libraries\BaseSw\Ifx_Cfg.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\tasking\ctc\include\stddef.h"
-"D:\tasking\ctc\include\stddef.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\stddef.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Platform_Types.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\Ifx_TypesTasking.h"
@@ -96,10 +96,10 @@ Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Port\Std\IfxPort.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\tasking\ctc\include\math.h"
-"D:\tasking\ctc\include\math.h" :
-Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\tasking\ctc\include\typeinfo.h"
-"D:\tasking\ctc\include\typeinfo.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h" :
+Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	"D:\smartcar\smartcar\Libraries\BaseSw\Infra\Sfr\TC26B\_Reg\IfxGtm_bf.h"
 "D:\smartcar\smartcar\Libraries\BaseSw\Infra\Sfr\TC26B\_Reg\IfxGtm_bf.h" :
 Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Cmu.o :	..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm.h

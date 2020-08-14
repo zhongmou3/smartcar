@@ -6,12 +6,12 @@ Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"D:\smartcar\smartcar\Librari
 "D:\smartcar\smartcar\Libraries\seekfree_libraries\common\common.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H"
 "D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\PLATFORM_TYPES.H" :
-Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"D:\tasking\ctc\include\math.h"
-"D:\tasking\ctc\include\math.h" :
-Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"D:\tasking\ctc\include\typeinfo.h"
-"D:\tasking\ctc\include\typeinfo.h" :
-Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"D:\tasking\ctc\include\string.h"
-"D:\tasking\ctc\include\string.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\math.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\typeinfo.h" :
+Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h"
+"C:\Program Files\TASKING\TriCore v6.3r1\ctc\include\string.h" :
 Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h
 ..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h :
 Libraries\seekfree_peripheral\SEEKFREE_MMA8451.o :	..\Libraries\seekfree_peripheral\SEEKFREE_MMA8451.h

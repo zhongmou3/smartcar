@@ -3,7 +3,7 @@
 ################################################################################
 
 PROJ 	= new_car_tc264_v1.3
-PRODDIR = D:\tasking\ctc
+PRODDIR = C:\Program Files\TASKING\TriCore v6.3r1\ctc
 
 -include "..\makefile.init"
 

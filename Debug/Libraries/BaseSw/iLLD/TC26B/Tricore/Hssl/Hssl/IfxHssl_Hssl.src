@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl\\.IfxHssl_Hssl.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl\\IfxHssl_Hssl.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl\\IfxHssl_Hssl.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl\\IfxHssl_Hssl.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl\\IfxHssl_Hssl.c'
@@ -1125,7 +1125,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L221:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   170      IfxPort_setPinModeInput(&MODULE_P21, 3, IfxPort_InputMode_noPullDevice);                          /* RXDP */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   170  fxPort_InputMode_noPullDevice);                          /* RXDP */
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c100)
 .L470:
@@ -1719,7 +1719,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L230:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   171      IfxPort_setPinModeOutput(&MODULE_P21, 4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general); /* TXDN */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   171     IfxPort_setPinModeOutput(&MODULE_P21, 4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general); /* TXDN */
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c100)
 .L472:
@@ -2323,7 +2323,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L233:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   172      IfxPort_setPinModeOutput(&MODULE_P21, 5, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general); /* TXDP */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   172     IfxPort_setPinModeOutput(&MODULE_P21, 5, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general); /* TXDP */
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c100)
 .L476:
@@ -2927,16 +2927,16 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L244:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   173  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   174      /* select the clock direction */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   175      if (config->interfaceMode == IfxHssl_InterfaceMode_master)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   173      /* select the clock direction */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   174      if (config->interfaceMode == IfxHssl_InterfaceMode_master)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   175      {
 	ld.bu	d15,[a15]4
 .L480:
 	jne	d15,#0,.L14
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   176      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   177          IfxPort_setPinModeOutput(&MODULE_P20, 0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_alt5); /* CLKOUT */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   176          IfxPort_setPinModeOutput(&MODULE_P20, 0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_alt5); /* CLKOUT */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   177          IfxPort_setPinPadDriver(&MODULE_P20, 0, IfxPort_PadDriver_cmosAutomotiveSpeed1);
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c000)
 .L482:
@@ -3540,7 +3540,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L246:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   178          IfxPort_setPinPadDriver(&MODULE_P20, 0, IfxPort_PadDriver_cmosAutomotiveSpeed1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   178  
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c000)
 .L486:
@@ -3552,10 +3552,10 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	j	.L15
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   179      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   180      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   181      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   182          IfxPort_setPinModeInput(&MODULE_P20, 0, IfxPort_InputMode_pullDown); /* CLKIN */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   179      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   180      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   181          IfxPort_setPinModeInput(&MODULE_P20, 0, IfxPort_InputMode_pullDown); /* CLKIN */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   182      }
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003c000)
 .L489:
@@ -4149,30 +4149,30 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	call	IfxPort_setPinMode
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   183      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   184  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   185      if (config->loopBack == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   183   if (config->loopBack == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   184      /* LVDS configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   185      {
 	ld.bu	d15,[a15]6
 .L491:
 	jne	d15,#0,.L16
 .L248:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   186      /* LVDS configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   187      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   188          uint16 psw = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   186          uint16 psw = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   187          IfxScuWdt_clearCpuEndinit(psw);         /* clears the endinit protection */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   188  
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L351:
 	mov	d8,d2
 .L353:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   189          IfxScuWdt_clearCpuEndinit(psw);         /* clears the endinit protection */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   189          P21_LPCR1.B_P21.RDIS_CTRL = 1;
 	mov	d4,d8
 .L352:
 	call	IfxScuWdt_clearCpuEndinit
 .L354:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   190  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   191          P21_LPCR1.B_P21.RDIS_CTRL = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   190          P21_LPCR1.B_P21.RX_DIS    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   191  
 	movh.a	a2,#61444
 	ld.bu	d15,[a2]@los(0xf003c1a4)
 .L492:
@@ -4181,7 +4181,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a2]@los(0xf003c1a4),d15
 .L493:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   192          P21_LPCR1.B_P21.RX_DIS    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   192          P21_LPCR2.B.TDIS_CTRL     = 1;
 	movh.a	a2,#61444
 	ld.bu	d15,[a2]@los(0xf003c1a4)
 .L494:
@@ -4190,8 +4190,8 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a2]@los(0xf003c1a4),d15
 .L495:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   193  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   194          P21_LPCR2.B.TDIS_CTRL     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   193          P21_LPCR2.B.TX_DIS        = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   194          P21_LPCR2.B.TX_PD         = 0;
 	movh.a	a2,#61444
 	ld.bu	d15,[a2]@los(0xf003c1a9)
 .L496:
@@ -4200,7 +4200,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a2]@los(0xf003c1a9),d15
 .L497:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   195          P21_LPCR2.B.TX_DIS        = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   195  
 	movh.a	a2,#61444
 	ld.bu	d15,[a2]@los(0xf003c1a9)
 .L498:
@@ -4209,7 +4209,7 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a2]@los(0xf003c1a9),d15
 .L499:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   196          P21_LPCR2.B.TX_PD         = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   196          IfxScuWdt_setCpuEndinit(psw);           /* sets the endinit protection back on */
 	movh.a	a2,#61444
 	ld.bu	d15,[a2]@los(0xf003c1a9)
 .L500:
@@ -4218,77 +4218,77 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a2]@los(0xf003c1a9),d15
 .L501:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   197  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   198          IfxScuWdt_setCpuEndinit(psw);           /* sets the endinit protection back on */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   197      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   198  
 	mov	d4,d8
 .L355:
 	call	IfxScuWdt_setCpuEndinit
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   199      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   199  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   200  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   201  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   202  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   203      /* HSCT initialisation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   204      IfxHssl_enableHsctModule(hsctSFR);                                                  /* enabling the HSCT module */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   201      /* HSCT initialisation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   202      IfxHssl_enableHsctModule(hsctSFR);                                                  /* enabling the HSCT module */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   203  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   204      hsctSFR->IRQCLR.B.TXTECLR = 1;                                                      /* due to AI */
 	mov.aa	a4,a12
 .L356:
 	call	IfxHssl_enableHsctModule
 .L357:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   206      hsctSFR->IRQCLR.B.TXTECLR = 1;                                                      /* due to AI */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   206      /* slave interface initialisation */
 	ld.bu	d15,[a12]73
 .L502:
 	or	d15,#4
 	st.b	[a12]73,d15
 .L503:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   207  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   208      /* slave interface initialisation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   209      if (config->interfaceMode == IfxHssl_InterfaceMode_slave)                           /* slave mode initialisation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   207      if (config->interfaceMode == IfxHssl_InterfaceMode_slave)                           /* slave mode initialisation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   208      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   209          hsctSFR->INIT.B.IFM           = IfxHssl_InterfaceMode_slave;                    /* slave mode */
 	ld.bu	d15,[a15]4
 .L504:
 	jne	d15,#1,.L17
 .L505:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   210      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   211          hsctSFR->INIT.B.IFM           = IfxHssl_InterfaceMode_slave;                    /* slave mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   210          hsctSFR->INIT.B.SYS_CLK_EN    = 0;                                              /* disabling the system clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   211          hsctSFR->INIT.B.SRCF          = IfxHssl_ClockFrequencyRate_20Mhz;               /* Reference Clock Frequency rate 20 MHz */
 	ld.bu	d15,[a12]16
 .L506:
 	or	d15,#8
 	st.b	[a12]16,d15
 .L507:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   212          hsctSFR->INIT.B.SYS_CLK_EN    = 0;                                              /* disabling the system clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   212          hsctSFR->CONFIGPHY.B.OSCCLKEN = IfxHssl_PllReferenceClock_hsctSystemClockInput; /* PLL reference clock is hsct system clock input */
 	ld.bu	d15,[a12]16
 .L508:
 	insert	d15,d15,#0,#1,#1
 	st.b	[a12]16,d15
 .L509:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   213          hsctSFR->INIT.B.SRCF          = IfxHssl_ClockFrequencyRate_20Mhz;               /* Reference Clock Frequency rate 20 MHz */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   213          hsctSFR->CONFIGPHY.B.PHYRST   = 0;                                              /* disable PHY reset */
 	ld.bu	d15,[a12]16
 .L510:
 	insert	d15,d15,#0,#2,#1
 	st.b	[a12]16,d15
 .L511:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   214          hsctSFR->CONFIGPHY.B.OSCCLKEN = IfxHssl_PllReferenceClock_hsctSystemClockInput; /* PLL reference clock is hsct system clock input */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   214          hsctSFR->CONFIGPHY.B.PLLWMF   = 16;                                             /* PLL frequency control word multiplication factor */
 	ld.bu	d15,[a12]51
 .L512:
 	insert	d15,d15,#0,#4,#1
 	st.b	[a12]51,d15
 .L513:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   215          hsctSFR->CONFIGPHY.B.PHYRST   = 0;                                              /* disable PHY reset */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   215      }
 	ld.bu	d15,[a12]49
 .L514:
 	insert	d15,d15,#0,#7,#1
 	st.b	[a12]49,d15
 .L515:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   216          hsctSFR->CONFIGPHY.B.PLLWMF   = 16;                                             /* PLL frequency control word multiplication factor */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   216  
 	ld.bu	d0,[a12]49
 .L516:
 	mov	d15,#16
@@ -4299,54 +4299,54 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	j	.L18
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   217      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   218  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   219      /* master interface initialisation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   220      else                                                                           /* master mode initialisation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   221      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   222          hsctSFR->INIT.B.IFM           = IfxHssl_InterfaceMode_master;              /* master mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   217      /* master interface initialisation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   218      else                                                                           /* master mode initialisation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   219      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   220          hsctSFR->INIT.B.IFM           = IfxHssl_InterfaceMode_master;              /* master mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   221          hsctSFR->INIT.B.SYS_CLK_EN    = 1;                                         /* enabling the system clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   222          hsctSFR->INIT.B.SRCF          = IfxHssl_ClockFrequencyRate_20Mhz;          /* Reference Clock Frequency rate 20 MHz */
 	ld.bu	d15,[a12]16
 .L519:
 	insert	d15,d15,#0,#3,#1
 	st.b	[a12]16,d15
 .L520:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   223          hsctSFR->INIT.B.SYS_CLK_EN    = 1;                                         /* enabling the system clock */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   223          hsctSFR->CONFIGPHY.B.OSCCLKEN = IfxHssl_PllReferenceClock_oscillatorInput; /* PLL reference clock is Oscillator input */
 	ld.bu	d15,[a12]16
 .L521:
 	or	d15,#2
 	st.b	[a12]16,d15
 .L522:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   224          hsctSFR->INIT.B.SRCF          = IfxHssl_ClockFrequencyRate_20Mhz;          /* Reference Clock Frequency rate 20 MHz */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   224          hsctSFR->CONFIGPHY.B.PHYRST   = 0;                                         /* disable PHY reset */
 	ld.bu	d15,[a12]16
 .L523:
 	insert	d15,d15,#0,#2,#1
 	st.b	[a12]16,d15
 .L524:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   225          hsctSFR->CONFIGPHY.B.OSCCLKEN = IfxHssl_PllReferenceClock_oscillatorInput; /* PLL reference clock is Oscillator input */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   225          hsctSFR->CONFIGPHY.B.PLLPON   = 1;                                         /* PLL power on */
 	ld.bu	d15,[a12]51
 .L525:
 	or	d15,#16
 	st.b	[a12]51,d15
 .L526:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   226          hsctSFR->CONFIGPHY.B.PHYRST   = 0;                                         /* disable PHY reset */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   226          hsctSFR->CONFIGPHY.B.PLLWMF   = 16;                                        /* PLL frequency control word multiplication factor */
 	ld.bu	d15,[a12]49
 .L527:
 	insert	d15,d15,#0,#7,#1
 	st.b	[a12]49,d15
 .L528:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   227          hsctSFR->CONFIGPHY.B.PLLPON   = 1;                                         /* PLL power on */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   227          hsctSFR->IFCTRL.B.MTXSPEED    = IfxHssl_MasterModeTxSpeed_lowSpeed;        /* Tx low speed */
 	ld.bu	d15,[a12]48
 .L529:
 	or	d15,#2
 	st.b	[a12]48,d15
 .L530:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   228          hsctSFR->CONFIGPHY.B.PLLWMF   = 16;                                        /* PLL frequency control word multiplication factor */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   228          hsctSFR->IFCTRL.B.MRXSPEED    = IfxHssl_MasterModeRxSpeed_lowSpeed;        /* Rx low speed */
 	ld.bu	d0,[a12]49
 .L531:
 	mov	d15,#16
@@ -4355,46 +4355,46 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	st.b	[a12]49,d15
 .L533:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   229          hsctSFR->IFCTRL.B.MTXSPEED    = IfxHssl_MasterModeTxSpeed_lowSpeed;        /* Tx low speed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   229  
 	ld.bu	d15,[a12]22
 .L534:
 	insert	d15,d15,#0,#2,#2
 	st.b	[a12]22,d15
 .L535:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   230          hsctSFR->IFCTRL.B.MRXSPEED    = IfxHssl_MasterModeRxSpeed_lowSpeed;        /* Rx low speed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   230          /* change from low speed to high speed */
 	ld.bu	d15,[a12]22
 .L536:
 	insert	d15,d15,#0,#0,#2
 	st.b	[a12]22,d15
 .L537:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   231  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   232          /* change from low speed to high speed */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   233          if (config->highSpeedMode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   231          if (config->highSpeedMode)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   232          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   233              hsctSFR->IFCTRL.B.MTXSPEED = IfxHssl_MasterModeTxSpeed_highSpeed;      /* Tx high speed */
 	ld.bu	d15,[a15]5
 .L538:
 	jeq	d15,#0,.L19
 .L539:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   234          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   235              hsctSFR->IFCTRL.B.MTXSPEED = IfxHssl_MasterModeTxSpeed_highSpeed;      /* Tx high speed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   234              hsctSFR->IFCTRL.B.MRXSPEED = IfxHssl_MasterModeRxSpeed_highSpeed;      /* Rx high speed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   235          }
 	ld.bu	d15,[a12]22
 .L540:
 	insert	d15,d15,#2,#2,#2
 	st.b	[a12]22,d15
 .L541:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   236              hsctSFR->IFCTRL.B.MRXSPEED = IfxHssl_MasterModeRxSpeed_highSpeed;      /* Rx high speed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   236  
 	ld.bu	d15,[a12]22
 .L542:
 	insert	d15,d15,#2,#0,#2
 	st.b	[a12]22,d15
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   237          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   239          while (hsctSFR->STATPHY.B.PLOCK == 0)                                      /* wait until pll is locked */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   237          while (hsctSFR->STATPHY.B.PLOCK == 0)                                      /* wait until pll is locked */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   238          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   239      }
 	j	.L20
 .L21:
 .L20:
@@ -4403,16 +4403,16 @@ IfxHssl_Hssl_initHsctModule:	.type	func
 	jz.t	d15:0,.L21
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   240          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   241      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   242  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   243      hsctSFR->DISABLE.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   240  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   241      hsctSFR->DISABLE.U = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   242  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   243  
 	mov	d15,#0
 .L544:
 	st.w	[a12]32,d15
 .L545:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   244  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   244  
 	ret
 .L212:
 	
@@ -4427,42 +4427,42 @@ __IfxHssl_Hssl_initHsctModule_function_end:
 	
 	.global	IfxHssl_Hssl_initHsctModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   245  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   246  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   247  void IfxHssl_Hssl_initHsctModuleConfig(IfxHssl_Hsct_Config *config, Ifx_HSCT *hsct)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   245  void IfxHssl_Hssl_initHsctModuleConfig(IfxHssl_Hsct_Config *config, Ifx_HSCT *hsct)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   246  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   247      config->hsct = hsct;
 ; Function IfxHssl_Hssl_initHsctModuleConfig
 .L109:
 IfxHssl_Hssl_initHsctModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   248  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   249      config->hsct = hsct;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   248  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   249      /* interface mode */
 	st.a	[a4],a5
 .L550:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   250  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   251      /* interface mode */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   252      config->interfaceMode = IfxHssl_InterfaceMode_master;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   250      config->interfaceMode = IfxHssl_InterfaceMode_master;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   251  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   252      /* high speed mode disabled */
 	mov	d15,#0
 .L551:
 	st.b	[a4]4,d15
 .L552:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   253  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   254      /* high speed mode disabled */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   255      config->highSpeedMode = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   253      config->highSpeedMode = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   254  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   255      config->loopBack      = FALSE; /* default with out loopback */
 	mov	d15,#0
 .L553:
 	st.b	[a4]5,d15
 .L554:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   256  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   257      config->loopBack      = FALSE; /* default with out loopback */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   256  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   257  
 	mov	d15,#0
 .L555:
 	st.b	[a4]6,d15
 .L556:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   258  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   258  
 	ret
 .L251:
 	
@@ -4477,34 +4477,34 @@ __IfxHssl_Hssl_initHsctModuleConfig_function_end:
 	
 	.global	IfxHssl_Hssl_initHsslModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   259  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   261  void IfxHssl_Hssl_initHsslModule(IfxHssl_Hssl *hssl, const IfxHssl_Hssl_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   259  void IfxHssl_Hssl_initHsslModule(IfxHssl_Hssl *hssl, const IfxHssl_Hssl_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   260  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   261      Ifx_HSSL *hsslSFR = config->hssl;                           /* pointer to HSSL registers */
 ; Function IfxHssl_Hssl_initHsslModule
 .L111:
 IfxHssl_Hssl_initHsslModule:	.type	func
 	mov.aa	a15,a5
 .L360:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   262  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   263      Ifx_HSSL *hsslSFR = config->hssl;                           /* pointer to HSSL registers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   262  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   263      hssl->hssl = hsslSFR;                                       /* adding HSSL register pointer to module handle */
 	ld.a	a12,[a15]
 .L361:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   265      hssl->hssl = hsslSFR;                                       /* adding HSSL register pointer to module handle */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   265      /* HSSL initialisation */
 	st.a	[a4],a12
 .L561:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   266  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   267      /* HSSL initialisation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   268      IfxHssl_enableHsslModule(hsslSFR);                          /* enabling the HSSL module */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   266      IfxHssl_enableHsslModule(hsslSFR);                          /* enabling the HSSL module */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   267      hsslSFR->CFG.B.PREDIV = config->preDivider;                 /* predivivder */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   268      hsslSFR->CFG.B.SCM    = 0;                                  /* command mode */
 	mov.aa	a4,a12
 .L359:
 	call	IfxHssl_enableHsslModule
 .L358:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   269      hsslSFR->CFG.B.PREDIV = config->preDivider;                 /* predivivder */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   269  
 	ld.hu	d15,[a12]16
 .L562:
 	ld.hu	d0,[a15]36
@@ -4513,87 +4513,87 @@ IfxHssl_Hssl_initHsslModule:	.type	func
 	st.h	[a12]16,d15
 .L564:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   270      hsslSFR->CFG.B.SCM    = 0;                                  /* command mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   270      /* Access windows */
 	ld.bu	d15,[a12]18
 .L565:
 	insert	d15,d15,#0,#2,#1
 	st.b	[a12]18,d15
 .L566:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   271  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   272      /* Access windows */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   273      hsslSFR->AW[0].AWSTART.U = config->accessWindow0.start;     /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   271      hsslSFR->AW[0].AWSTART.U = config->accessWindow0.start;     /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   272      hsslSFR->AW[0].AWEND.U   = config->accessWindow0.end;       /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   273      hsslSFR->AW[1].AWSTART.U = config->accessWindow1.start;     /* start of access window */
 	ld.w	d15,[a15]4
 .L567:
 	st.w	[a12]192,d15
 .L568:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   274      hsslSFR->AW[0].AWEND.U   = config->accessWindow0.end;       /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   274      hsslSFR->AW[1].AWEND.U   = config->accessWindow1.end;       /* end of access window */
 	ld.w	d15,[a15]8
 .L569:
 	st.w	[a12]196,d15
 .L570:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   275      hsslSFR->AW[1].AWSTART.U = config->accessWindow1.start;     /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   275      hsslSFR->AW[2].AWSTART.U = config->accessWindow2.start;     /* start of access window */
 	ld.w	d15,[a15]12
 .L571:
 	st.w	[a12]200,d15
 .L572:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   276      hsslSFR->AW[1].AWEND.U   = config->accessWindow1.end;       /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   276      hsslSFR->AW[2].AWEND.U   = config->accessWindow2.end;       /* end of access window */
 	ld.w	d15,[a15]16
 .L573:
 	st.w	[a12]204,d15
 .L574:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   277      hsslSFR->AW[2].AWSTART.U = config->accessWindow2.start;     /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   277      hsslSFR->AW[3].AWSTART.U = config->accessWindow3.start;     /* start of access window */
 	ld.w	d15,[a15]20
 .L575:
 	st.w	[a12]208,d15
 .L576:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   278      hsslSFR->AW[2].AWEND.U   = config->accessWindow2.end;       /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   278      hsslSFR->AW[3].AWEND.U   = config->accessWindow3.end;       /* end of access window */
 	ld.w	d15,[a15]24
 .L577:
 	st.w	[a12]212,d15
 .L578:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   279      hsslSFR->AW[3].AWSTART.U = config->accessWindow3.start;     /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   279  
 	ld.w	d15,[a15]28
 .L579:
 	st.w	[a12]216,d15
 .L580:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   280      hsslSFR->AW[3].AWEND.U   = config->accessWindow3.end;       /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   280      hsslSFR->AR.U            = 0x000000ff;                      /* allow read/write access for all windows */
 	ld.w	d15,[a15]32
 .L581:
 	st.w	[a12]220,d15
 .L582:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   281  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   282      hsslSFR->AR.U            = 0x000000ff;                      /* allow read/write access for all windows */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   282      hsslSFR->MFLAGSCL.B.INIC = 1;                               /* chnage into run mode */
 	mov	d15,#255
 .L583:
 	st.w	[a12]224,d15
 .L584:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   283  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   284      hsslSFR->MFLAGSCL.B.INIC = 1;                               /* chnage into run mode */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   283      hsslSFR->TIDADD.U        = (uint32)IFXHSSL_JTAG_ID_ADDRESS; /* Writing JTAG_ID of the device to TIDADD.This'll be used in the response when the other device queries for ID */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   284  
 	ld.bu	d15,[a12]35
 .L585:
 	or	d15,#128
 	st.b	[a12]35,d15
 .L586:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   285      hsslSFR->TIDADD.U        = (uint32)IFXHSSL_JTAG_ID_ADDRESS; /* Writing JTAG_ID of the device to TIDADD.This'll be used in the response when the other device queries for ID */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   285      while (hsslSFR->MFLAGS.B.INI)                               /* wait until the mode changes */
 	mov	d15,#1124
 	addih	d15,d15,#61440
 .L587:
 	st.w	[a12]148,d15
 .L588:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   286  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   287      while (hsslSFR->MFLAGS.B.INI)                               /* wait until the mode changes */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   286      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   287  }
 	j	.L22
 .L23:
 .L22:
@@ -4602,8 +4602,8 @@ IfxHssl_Hssl_initHsslModule:	.type	func
 	jnz.t	d15:7,.L23
 .L590:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   288      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   289  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   288  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   289  
 	ret
 .L255:
 	
@@ -4618,77 +4618,77 @@ __IfxHssl_Hssl_initHsslModule_function_end:
 	
 	.global	IfxHssl_Hssl_initHsslModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   290  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   291  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   292  void IfxHssl_Hssl_initHsslModuleConfig(IfxHssl_Hssl_Config *config, Ifx_HSSL *hssl)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   290  void IfxHssl_Hssl_initHsslModuleConfig(IfxHssl_Hssl_Config *config, Ifx_HSSL *hssl)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   291  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   292      config->hssl = hssl;
 ; Function IfxHssl_Hssl_initHsslModuleConfig
 .L113:
 IfxHssl_Hssl_initHsslModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   293  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   294      config->hssl = hssl;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   293  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   294      /* Access windows */
 	st.a	[a4],a5
 .L595:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   295  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   296      /* Access windows */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   297      config->accessWindow0.start = 0x00000000; /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   295      config->accessWindow0.start = 0x00000000; /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   296      config->accessWindow0.end   = 0xffffffff; /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   297      config->accessWindow1.start = 0x00000000; /* start of access window */
 	mov	d15,#0
 .L596:
 	st.w	[a4]4,d15
 .L597:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   298      config->accessWindow0.end   = 0xffffffff; /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   298      config->accessWindow1.end   = 0xffffffff; /* end of access window */
 	mov	d15,#-1
 .L598:
 	st.w	[a4]8,d15
 .L599:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   299      config->accessWindow1.start = 0x00000000; /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   299      config->accessWindow2.start = 0x00000000; /* start of access window */
 	mov	d15,#0
 .L600:
 	st.w	[a4]12,d15
 .L601:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   300      config->accessWindow1.end   = 0xffffffff; /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   300      config->accessWindow2.end   = 0xffffffff; /* end of access window */
 	mov	d15,#-1
 .L602:
 	st.w	[a4]16,d15
 .L603:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   301      config->accessWindow2.start = 0x00000000; /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   301      config->accessWindow3.start = 0x00000000; /* start of access window */
 	mov	d15,#0
 .L604:
 	st.w	[a4]20,d15
 .L605:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   302      config->accessWindow2.end   = 0xffffffff; /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   302      config->accessWindow3.end   = 0xffffffff; /* end of access window */
 	mov	d15,#-1
 .L606:
 	st.w	[a4]24,d15
 .L607:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   303      config->accessWindow3.start = 0x00000000; /* start of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   303  
 	mov	d15,#0
 .L608:
 	st.w	[a4]28,d15
 .L609:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   304      config->accessWindow3.end   = 0xffffffff; /* end of access window */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   304      /* predivider */
 	mov	d15,#-1
 .L610:
 	st.w	[a4]32,d15
 .L611:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   305  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   306      /* predivider */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   307      config->preDivider = 256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   305      config->preDivider = 256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   306  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   307  
 	mov	d15,#256
 .L612:
 	st.h	[a4]36,d15
 .L613:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   308  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   308  
 	ret
 .L262:
 	
@@ -4703,9 +4703,9 @@ __IfxHssl_Hssl_initHsslModuleConfig_function_end:
 	
 	.global	IfxHssl_Hssl_prepareStream
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   309  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   310  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   311  IfxHssl_Hssl_Status IfxHssl_Hssl_prepareStream(IfxHssl_Hssl_Channel *channel, uint32 slaveTargetAddress, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   309  IfxHssl_Hssl_Status IfxHssl_Hssl_prepareStream(IfxHssl_Hssl_Channel *channel, uint32 slaveTargetAddress, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   310  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   311      IfxHssl_ChannelId channelId = channel->channelId;
 ; Function IfxHssl_Hssl_prepareStream
 .L115:
 IfxHssl_Hssl_prepareStream:	.type	func
@@ -4716,28 +4716,28 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	mov	d8,d5
 .L367:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   312  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   313      IfxHssl_ChannelId channelId = channel->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   312      Ifx_HSSL_TS_FC    tsfcReg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   313  
 	ld.bu	d15,[a15]8
 .L368:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   314      Ifx_HSSL_TS_FC    tsfcReg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   315  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   316      if (channelId == IfxHssl_ChannelId_2)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   314      if (channelId == IfxHssl_ChannelId_2)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   315      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   316          return IfxHssl_Hssl_Status_error;
 	jne	d15,#2,.L24
 .L801:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   317      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   318          return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   317      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   318  
 	mov	d2,#2
 .L802:
 	j	.L25
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   319      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   320  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   321      /* target start address to memeroy block 0 on target device (writing into HSSL_TSSA0 of the target) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   322      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.SA[0], slaveTargetAddress, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   319      /* target start address to memeroy block 0 on target device (writing into HSSL_TSSA0 of the target) */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   320      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.SA[0], slaveTargetAddress, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   321  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   322      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
 	mov	d4,#2
 .L364:
 	ld.w	d15,[a15]
@@ -4749,13 +4749,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L362:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   323  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   324      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   323      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   324          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	j	.L26
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   325      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   326          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   325          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   326              return IfxHssl_Hssl_Status_error;
 	mov.aa	a4,a15
 .L370:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -4763,8 +4763,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L28
 .L803:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   327          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   328              return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   327          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   328      }
 	mov	d2,#2
 .L804:
 	j	.L29
@@ -4777,12 +4777,12 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L27
 .L805:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   329          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   330      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   331  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   332      /* Precautionary measure on target for any last streaming interruption */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   333      /* Read count register on the target */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   334      IfxHssl_Hssl_read(channel, (uint32)&channel->hssl->TS.FC, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   329  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   330      /* Precautionary measure on target for any last streaming interruption */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   331      /* Read count register on the target */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   332      IfxHssl_Hssl_read(channel, (uint32)&channel->hssl->TS.FC, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   333  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   334      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
 	ld.a	a2,[a15]
 .L806:
 	lea	a2,[a2]188
@@ -4794,13 +4794,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_read
 .L375:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   335  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   336      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   335      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   336          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	j	.L30
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   337      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   338          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   337          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   338              return IfxHssl_Hssl_Status_error;
 	mov.aa	a4,a15
 .L376:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -4808,8 +4808,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L32
 .L808:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   339          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   340              return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   339          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   340      }
 	mov	d2,#2
 .L809:
 	j	.L33
@@ -5617,13 +5617,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.h	   777  }      (inlined)
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   341          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   342      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   343  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   344      tsfcReg.U          = IfxHssl_Hssl_getReadData(channel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   345      tsfcReg.B.RELCOUNT = tsfcReg.B.CURCOUNT;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   346      /* Set the RELCOUNT equal to CURCOUNT on the target */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   347      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.FC, count, IfxHssl_DataLength_16bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   341  RELCOUNT = tsfcReg.B.CURCOUNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   342      /* Set the RELCOUNT equal to CURCOUNT on the target */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   343      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.FC, count, IfxHssl_DataLength_16bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   344  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   345      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   346      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   347          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	mov	d4,#2
 .L813:
 	ld.a	a2,[a15]
@@ -5639,13 +5639,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L385:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   348  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   349      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   348          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   349              return IfxHssl_Hssl_Status_error;
 	j	.L35
 .L36:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   350      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   351          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   350          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   351      }
 	mov.aa	a4,a15
 .L387:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -5653,8 +5653,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L37
 .L815:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   352          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   353              return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   352  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   353      /* Disable the streaming on the target */
 	mov	d2,#2
 .L816:
 	j	.L38
@@ -5667,11 +5667,11 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L36
 .L817:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   354          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   355      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   356  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   357      /* Disable the streaming on the target */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   358      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->MFLAGSCL, (1 << IFX_HSSL_MFLAGSCL_TSEC_OFF), IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   354      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->MFLAGSCL, (1 << IFX_HSSL_MFLAGSCL_TSEC_OFF), IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   355  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   356      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   357      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   358          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	mov	d4,#2
 .L818:
 	ld.w	d15,[a15]
@@ -5686,13 +5686,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L392:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   359  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   360      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   359          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   360              return IfxHssl_Hssl_Status_error;
 	j	.L39
 .L40:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   361      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   362          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   361          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   362      }
 	mov.aa	a4,a15
 .L393:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -5700,8 +5700,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L41
 .L821:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   363          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   364              return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   363  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   364      /* memory count into target reload count register on target device */
 	mov	d2,#2
 .L822:
 	j	.L42
@@ -5714,11 +5714,11 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L40
 .L823:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   365          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   366      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   367  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   368      /* memory count into target reload count register on target device */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   369      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.FC, count, IfxHssl_DataLength_16bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   365      IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->TS.FC, count, IfxHssl_DataLength_16bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   366  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   367      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   368      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   369          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	mov	d4,#2
 .L824:
 	ld.a	a2,[a15]
@@ -5734,13 +5734,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   370  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   371      while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   370          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   371              return IfxHssl_Hssl_Status_error;
 	j	.L43
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   372      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   373          if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   372          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   373      }
 	mov.aa	a4,a15
 .L400:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -5748,8 +5748,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L45
 .L827:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   374          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   375              return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   374  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   375      /* incase of transfers between two different devices (loopback off) */
 	mov	d2,#2
 .L828:
 	j	.L46
@@ -5762,19 +5762,19 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L44
 .L829:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   376          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   377      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   378  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   379      /* incase of transfers between two different devices (loopback off) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   380      if (!channel->loopBack)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   376      if (!channel->loopBack)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   377      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   378          /* Get the target configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   379          IfxHssl_Hssl_read(channel, (uint32)&channel->hssl->CFG, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   380  
 	ld.bu	d15,[a15]11
 .L830:
 	jne	d15,#0,.L47
 .L831:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   381      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   382          /* Get the target configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   383          IfxHssl_Hssl_read(channel, (uint32)&channel->hssl->CFG, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   381          while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   382          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   383              if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	ld.w	d15,[a15]
 .L832:
 	add	d4,d15,#16
@@ -5785,13 +5785,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_read
 .L405:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   384  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   385          while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   384              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   385                  return IfxHssl_Hssl_Status_error;
 	j	.L48
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   386          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   387              if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   386              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   387          }
 	mov.aa	a4,a15
 .L406:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -5799,8 +5799,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L50
 .L834:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   388              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   389                  return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   388  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   389          /* Check if the target streaming is enabled */
 	mov	d2,#2
 .L835:
 	j	.L51
@@ -6608,11 +6608,11 @@ IfxHssl_Hssl_prepareStream:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.h	   777  }      (inlined)
 .L52:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   390              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   391          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   392  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   393          /* Check if the target streaming is enabled */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   394          if ((IfxHssl_Hssl_getReadData(channel) & (0x00070100)) != 0x00070100)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   390  (0x00070100)) != 0x00070100)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   391          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   392              /* enable streaming mode (single) of channel 2 on target device */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   393              IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->CFG, 0x00070100, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   394  
 	mov	d0,#256
 	addih	d0,d0,#7
 .L840:
@@ -6624,9 +6624,9 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jeq	d15,d0,.L53
 .L843:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   395          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   396              /* enable streaming mode (single) of channel 2 on target device */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   397              IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->CFG, 0x00070100, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   395              while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   396              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   397                  if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	mov	d4,#2
 .L844:
 	ld.w	d15,[a15]
@@ -6642,13 +6642,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L411:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   398  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   399              while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   398                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   399                      return IfxHssl_Hssl_Status_error;
 	j	.L54
 .L55:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   400              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   401                  if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   400                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   401              }
 	mov.aa	a4,a15
 .L413:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -6656,8 +6656,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L56
 .L848:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   402                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   403                      return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   402          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   403  
 	mov	d2,#2
 .L849:
 	j	.L57
@@ -6670,12 +6670,12 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L55
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   404                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   405              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   406          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   407  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   408          /* enable streaming on target device */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   409          IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->MFLAGSSET, 0x10000000, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   404          /* enable streaming on target device */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   405          IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, (uint32)&channel->hssl->MFLAGSSET, 0x10000000, IfxHssl_DataLength_32bit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   406  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   407          while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   408          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   409              if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
 	mov	d4,#2
 .L850:
 	ld.w	d15,[a15]
@@ -6690,13 +6690,13 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	call	IfxHssl_Hssl_singleFrameRequest
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   410  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   411          while (IfxHssl_Hssl_waitAcknowledge(channel) != IfxHssl_Hssl_Status_ok)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   410              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   411                  return IfxHssl_Hssl_Status_error;
 	j	.L58
 .L59:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   412          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   413              if (IfxHssl_Hssl_waitAcknowledge(channel) == IfxHssl_Hssl_Status_error)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   412              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   413          }
 	mov.aa	a4,a15
 .L419:
 	call	IfxHssl_Hssl_waitAcknowledge
@@ -6704,8 +6704,8 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#2,.L60
 .L854:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   414              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   415                  return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   414      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   415  
 	mov	d2,#2
 .L855:
 	j	.L61
@@ -6718,23 +6718,23 @@ IfxHssl_Hssl_prepareStream:	.type	func
 	jne	d2,#0,.L59
 .L47:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   416              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   417          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   418      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   419  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   420      channel->streamingModeOn = TRUE;    /* for waitAcknowledge function */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   416      channel->streamingModeOn = TRUE;    /* for waitAcknowledge function */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   417      /* preperation was successful */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   418      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   419  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   420  
 	mov	d15,#1
 .L856:
 	st.b	[a15]12,d15
 .L857:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   421      /* preperation was successful */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   422      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   421  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   422  IfxHssl_Hssl_Status IfxHssl_Hssl_read(IfxHssl_Hssl_Channel *channel, uint32 address, IfxHssl_DataLength dataLength)
 	mov	d2,#0
 .L858:
 	j	.L62
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   423  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   423  {
 .L62:
 .L61:
 .L57:
@@ -6759,9 +6759,9 @@ __IfxHssl_Hssl_prepareStream_function_end:
 	
 	.global	IfxHssl_Hssl_read
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   424  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   425  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   426  IfxHssl_Hssl_Status IfxHssl_Hssl_read(IfxHssl_Hssl_Channel *channel, uint32 address, IfxHssl_DataLength dataLength)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   424      uint32 data = 0;                                                                                                 /* not required, data will be read back */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   425      return IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_readFrame, address, data, dataLength); /* initiate the read request */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   426  }
 ; Function IfxHssl_Hssl_read
 .L117:
 IfxHssl_Hssl_read:	.type	func
@@ -6770,12 +6770,12 @@ IfxHssl_Hssl_read:	.type	func
 	mov	d7,d5
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   427  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   428      uint32 data = 0;                                                                                                 /* not required, data will be read back */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   427  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   428  
 	mov	d6,#0
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   429      return IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_readFrame, address, data, dataLength); /* initiate the read request */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   429  void IfxHssl_Hssl_sendControlCommand(IfxHssl_Hsct *hsct, uint8 command)
 	mov	d4,#1
 .L423:
 	mov	d5,d15
@@ -6784,7 +6784,7 @@ IfxHssl_Hssl_read:	.type	func
 .L424:
 	j	.L63
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   430  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   430  {
 .L63:
 	ret
 .L277:
@@ -6800,27 +6800,27 @@ __IfxHssl_Hssl_read_function_end:
 	
 	.global	IfxHssl_Hssl_sendControlCommand
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   431  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   431      Ifx_HSCT *hsctSFR = hsct->hsct;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   432  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   433  void IfxHssl_Hssl_sendControlCommand(IfxHssl_Hsct *hsct, uint8 command)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   433      hsctSFR->IFCTRL.B.IFCVS = command; /* write the command into the register */
 ; Function IfxHssl_Hssl_sendControlCommand
 .L119:
 IfxHssl_Hssl_sendControlCommand:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   434  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   435      Ifx_HSCT *hsctSFR = hsct->hsct;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   434      hsctSFR->IFCTRL.B.SIFCV = 1;       /* activate the command */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   435  
 	ld.a	a15,[a4]
 .L430:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   436  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   437      hsctSFR->IFCTRL.B.IFCVS = command; /* write the command into the register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   436      IfxHssl_Hssl_delay(hsct);          /* wait until the change happens */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   437  }
 	ld.bu	d15,[a15]20
 .L656:
 	insert	d15,d15,d4,#0,#8
 	st.b	[a15]20,d15
 .L657:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   438      hsctSFR->IFCTRL.B.SIFCV = 1;       /* activate the command */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   438  
 	ld.bu	d15,[a15]21
 .L658:
 	or	d15,#1
@@ -6828,11 +6828,11 @@ IfxHssl_Hssl_sendControlCommand:	.type	func
 .L659:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   439  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   440      IfxHssl_Hssl_delay(hsct);          /* wait until the change happens */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   440  IfxHssl_Hssl_Status IfxHssl_Hssl_singleFrameRequest(IfxHssl_Hssl_Channel *channel, IfxHssl_Hssl_FrameRequest frameRequest, uint32 address, uint32 data, IfxHssl_DataLength dataLength)
 	call	IfxHssl_Hssl_delay
 .L429:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   441  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   441  {
 	ret
 .L284:
 	
@@ -6847,15 +6847,15 @@ __IfxHssl_Hssl_sendControlCommand_function_end:
 	
 	.global	IfxHssl_Hssl_singleFrameRequest
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   442  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   442      Ifx_HSSL_I *hsslI = (Ifx_HSSL_I *)&channel->hssl->I[channel->channelId];
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   443  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   444  IfxHssl_Hssl_Status IfxHssl_Hssl_singleFrameRequest(IfxHssl_Hssl_Channel *channel, IfxHssl_Hssl_FrameRequest frameRequest, uint32 address, uint32 data, IfxHssl_DataLength dataLength)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   444      if (channel->currentFrameRequest != IfxHssl_Hssl_FrameRequest_noAction)
 ; Function IfxHssl_Hssl_singleFrameRequest
 .L121:
 IfxHssl_Hssl_singleFrameRequest:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   445  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   446      Ifx_HSSL_I *hsslI = (Ifx_HSSL_I *)&channel->hssl->I[channel->channelId];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   445      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   446          return IfxHssl_Hssl_Status_busy;
 	ld.bu	d15,[a4]8
 .L664:
 	mul	d15,d15,#16
@@ -6866,66 +6866,66 @@ IfxHssl_Hssl_singleFrameRequest:	.type	func
 	lea	a15,[a15]48
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   447  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   448      if (channel->currentFrameRequest != IfxHssl_Hssl_FrameRequest_noAction)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   447      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   448  
 	ld.bu	d15,[a4]9
 .L667:
 	jeq	d15,#5,.L64
 .L668:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   449      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   450          return IfxHssl_Hssl_Status_busy;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   449      hsslI->ICON.B.DATLEN = dataLength;               /* 0x2 -> word size */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   450      hsslI->ICON.B.TOREL  = 0xff;                     /* max reload value */
 	mov	d2,#1
 .L669:
 	j	.L65
 .L64:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   451      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   452  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   453      hsslI->ICON.B.DATLEN = dataLength;               /* 0x2 -> word size */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   451  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   452      switch (frameRequest)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   453      {
 	ld.bu	d15,[a15]6
 .L670:
 	insert	d15,d15,d7,#0,#2
 	st.b	[a15]6,d15
 .L671:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   454      hsslI->ICON.B.TOREL  = 0xff;                     /* max reload value */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   454      case IfxHssl_Hssl_FrameRequest_readFrame:
 	ld.bu	d15,[a15]7
 .L672:
 	or	d15,#255
 	st.b	[a15]7,d15
 .L673:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   455  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   456      switch (frameRequest)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   457      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   458      case IfxHssl_Hssl_FrameRequest_readFrame:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   455          hsslI->ICON.B.RWT = IfxHssl_Command_readFrame;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   456          hsslI->IRWA.U     = address;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   457          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   458      case IfxHssl_Hssl_FrameRequest_writeFrame:
 	mov	d15,#1
 	jeq	d15,d4,.L66
 .L674:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   459          hsslI->ICON.B.RWT = IfxHssl_Command_readFrame;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   460          hsslI->IRWA.U     = address;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   461          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   462      case IfxHssl_Hssl_FrameRequest_writeFrame:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   459          hsslI->ICON.B.RWT = IfxHssl_Command_writeFrame;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   460          hsslI->IWD.U      = data;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   461          hsslI->IRWA.U     = address;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   462          break;
 	mov	d15,#2
 	jeq	d15,d4,.L67
 .L675:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   463          hsslI->ICON.B.RWT = IfxHssl_Command_writeFrame;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   464          hsslI->IWD.U      = data;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   465          hsslI->IRWA.U     = address;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   466          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   467      case IfxHssl_Hssl_FrameRequest_triggerFrame:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   463      case IfxHssl_Hssl_FrameRequest_triggerFrame:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   464          hsslI->ICON.B.RWT = IfxHssl_Command_triggerFrame;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   465          hsslI->IWD.U      = data;    /* dummy */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   466          hsslI->IRWA.U     = address; /* dummy */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   467          break;
 	mov	d15,#3
 	jeq	d15,d4,.L68
 .L676:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   468          hsslI->ICON.B.RWT = IfxHssl_Command_triggerFrame;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   469          hsslI->IWD.U      = data;    /* dummy */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   470          hsslI->IRWA.U     = address; /* dummy */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   468      case IfxHssl_Hssl_FrameRequest_readId:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   469          /* request an ID frame  */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   470          hsslI->ICON.B.IDQ = 1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   471          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   472      case IfxHssl_Hssl_FrameRequest_readId:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   472      default:
 	mov	d15,#4
 	jeq	d15,d4,.L69
 	j	.L70
@@ -6962,29 +6962,29 @@ IfxHssl_Hssl_singleFrameRequest:	.type	func
 	j	.L73
 .L69:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   473          /* request an ID frame  */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   474          hsslI->ICON.B.IDQ = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   473          /* invalid request */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   474          return IfxHssl_Hssl_Status_error;
 	ld.bu	d15,[a15]4
 .L688:
 	or	d15,#1
 	st.b	[a15]4,d15
 .L689:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   475          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   475      }
 	j	.L74
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   476      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   476  
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   477          /* invalid request */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   478          return IfxHssl_Hssl_Status_error;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   477      channel->currentFrameRequest = frameRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   478  
 	mov	d2,#2
 .L690:
 	j	.L75
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   479      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   480  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   481      channel->currentFrameRequest = frameRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   479      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   480  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   481  
 .L74:
 .L73:
 .L72:
@@ -6993,12 +6993,12 @@ IfxHssl_Hssl_singleFrameRequest:	.type	func
 .L691:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   482  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   483      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   483  IfxHssl_Hssl_Status IfxHssl_Hssl_waitAcknowledge(IfxHssl_Hssl_Channel *channel)
 	mov	d2,#0
 .L692:
 	j	.L76
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   484  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   484  {
 .L76:
 .L75:
 .L65:
@@ -7016,24 +7016,24 @@ __IfxHssl_Hssl_singleFrameRequest_function_end:
 	
 	.global	IfxHssl_Hssl_waitAcknowledge
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   485  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   486  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   487  IfxHssl_Hssl_Status IfxHssl_Hssl_waitAcknowledge(IfxHssl_Hssl_Channel *channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   485      uint32            requestType = channel->currentFrameRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   486      IfxHssl_ChannelId channelId   = channel->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   487  
 ; Function IfxHssl_Hssl_waitAcknowledge
 .L123:
 IfxHssl_Hssl_waitAcknowledge:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   488  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   489      uint32            requestType = channel->currentFrameRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   488      if ((channelId == IfxHssl_ChannelId_2) && (channel->hssl->CFG.B.SCM == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   489      {
 	ld.bu	d0,[a4]9
 .L432:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   490      IfxHssl_ChannelId channelId   = channel->channelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   490          while (channel->hssl->MFLAGS.B.ISB)
 	ld.bu	d2,[a4]8
 .L434:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   491  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   492      if ((channelId == IfxHssl_ChannelId_2) && (channel->hssl->CFG.B.SCM == 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   491          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   492              /* transfer in progress */
 	jne	d2,#2,.L77
 .L697:
 	ld.a	a15,[a4]
@@ -7044,8 +7044,8 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 	jne	d15,#1,.L78
 .L700:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   493      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   494          while (channel->hssl->MFLAGS.B.ISB)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   493          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   494      }
 	j	.L79
 .L80:
 .L79:
@@ -7059,27 +7059,27 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 .L78:
 .L77:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   495          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   496              /* transfer in progress */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   497          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   498      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   499      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   500      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   501          if (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_writeFrame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   495      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   496      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   497          if (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_writeFrame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   498          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   499              requestType = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   500          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   501  
 	ld.bu	d15,[a4]9
 .L704:
 	jne	d15,#2,.L82
 .L705:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   502          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   503              requestType = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   502          /* expect a read frame when requestType == IfxHssl_Hssl_FrameRequest_readId */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   503          if ((channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_readFrame) || (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_readId))
 	mov	d0,#1
 .L82:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   504          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   505  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   506          /* expect a read frame when requestType == IfxHssl_Hssl_FrameRequest_readId */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   507          if ((channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_readFrame) || (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_readId))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   504          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   505              requestType = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   506          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   507  
 	ld.bu	d15,[a4]9
 .L706:
 	jeq	d15,#1,.L83
@@ -7089,39 +7089,39 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 	jne	d15,#4,.L84
 .L83:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   508          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   509              requestType = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   508          if (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_triggerFrame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   509          {
 	mov	d0,#2
 .L84:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   510          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   511  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   512          if (channel->currentFrameRequest == IfxHssl_Hssl_FrameRequest_triggerFrame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   510              requestType = 3;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   511          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   512  
 	ld.bu	d15,[a4]9
 .L709:
 	jne	d15,#3,.L85
 .L710:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   513          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   514              requestType = 3;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   513          uint32 qFlags               = channel->hssl->QFLAGS.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   514          uint32 mFlags               = channel->hssl->MFLAGS.U;
 	mov	d0,#3
 .L85:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   515          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   516  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   517          uint32 qFlags               = channel->hssl->QFLAGS.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   515          uint32 acknwoledgeFlagsMask = ((requestType << (16 + (channel->channelId * 2))) | (1 << channel->channelId));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   516          uint32 errorFlagsMask       = ((0x03E00000) | (4369 << channel->channelId)); /* all the possible errors */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   517  
 	ld.a	a15,[a4]
 .L711:
 	ld.w	d4,[a15]20
 .L436:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   518          uint32 mFlags               = channel->hssl->MFLAGS.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   518          if (channel->hssl->I[channelId].ICON.B.BSY == 1)
 	ld.a	a15,[a4]
 .L712:
 	ld.w	d5,[a15]24
 .L438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   519          uint32 acknwoledgeFlagsMask = ((requestType << (16 + (channel->channelId * 2))) | (1 << channel->channelId));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   519          {
 	ld.bu	d15,[a4]8
 .L713:
 	mul	d1,d15,#2
@@ -7139,7 +7139,7 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 	or	d0,d1
 .L718:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   520          uint32 errorFlagsMask       = ((0x03E00000) | (4369 << channel->channelId)); /* all the possible errors */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   520              return IfxHssl_Hssl_Status_busy;
 	mov	d1,#4369
 .L719:
 	ld.bu	d15,[a4]8
@@ -7151,8 +7151,8 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 	or	d1,d3
 .L722:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   521  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   522          if (channel->hssl->I[channelId].ICON.B.BSY == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   521          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   522  
 	mul	d15,d2,#16
 .L723:
 	ld.a	a15,[a4]
@@ -7165,66 +7165,66 @@ IfxHssl_Hssl_waitAcknowledge:	.type	func
 	jne	d15,#1,.L86
 .L727:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   523          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   524              return IfxHssl_Hssl_Status_busy;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   523          if (qFlags & acknwoledgeFlagsMask)     /* transfer in progress? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   524          {
 	mov	d2,#1
 .L435:
 	j	.L87
 .L86:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   525          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   526  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   527          if (qFlags & acknwoledgeFlagsMask)     /* transfer in progress? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   525              return IfxHssl_Hssl_Status_busy;   /* return busy status in case of no error */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   526          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   527  
 	and	d4,d0
 .L437:
 	jeq	d4,#0,.L88
 .L728:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   528          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   529              return IfxHssl_Hssl_Status_busy;   /* return busy status in case of no error */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   528          if (mFlags & errorFlagsMask)           /* check for errors */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   529          {
 	mov	d2,#1
 .L442:
 	j	.L89
 .L88:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   530          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   531  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   532          if (mFlags & errorFlagsMask)           /* check for errors */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   530              channel->currentFrameRequest = IfxHssl_Hssl_FrameRequest_noAction;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   531              return IfxHssl_Hssl_Status_error;  /* return error status in case of an error */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   532          }
 	and	d5,d1
 .L439:
 	jeq	d5,#0,.L90
 .L729:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   533          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   534              channel->currentFrameRequest = IfxHssl_Hssl_FrameRequest_noAction;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   533  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   534          /* transfer is finished */
 	mov	d15,#5
 .L730:
 	st.b	[a4]9,d15
 .L731:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   535              return IfxHssl_Hssl_Status_error;  /* return error status in case of an error */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   535          channel->currentFrameRequest = IfxHssl_Hssl_FrameRequest_noAction;
 	mov	d2,#2
 .L443:
 	j	.L91
 .L90:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   536          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   536      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   537  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   538          /* transfer is finished */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   539          channel->currentFrameRequest = IfxHssl_Hssl_FrameRequest_noAction;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   538      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   539  }
 	mov	d15,#5
 .L732:
 	st.b	[a4]9,d15
 .L81:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   540      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   540  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   541  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   542      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   542  IfxHssl_Hssl_Status IfxHssl_Hssl_write(IfxHssl_Hssl_Channel *channel, uint32 address, uint32 data, IfxHssl_DataLength dataLength)
 	mov	d2,#0
 .L444:
 	j	.L92
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   543  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   543  {
 .L92:
 .L91:
 .L89:
@@ -7243,9 +7243,9 @@ __IfxHssl_Hssl_waitAcknowledge_function_end:
 	
 	.global	IfxHssl_Hssl_write
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   544  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   545  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   546  IfxHssl_Hssl_Status IfxHssl_Hssl_write(IfxHssl_Hssl_Channel *channel, uint32 address, uint32 data, IfxHssl_DataLength dataLength)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   544      return IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, address, data, dataLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   545  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   546  
 ; Function IfxHssl_Hssl_write
 .L125:
 IfxHssl_Hssl_write:	.type	func
@@ -7256,8 +7256,8 @@ IfxHssl_Hssl_write:	.type	func
 	mov	d7,d6
 .L451:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   547  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   548      return IfxHssl_Hssl_singleFrameRequest(channel, IfxHssl_Hssl_FrameRequest_writeFrame, address, data, dataLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   547  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   548  IfxHssl_Hssl_Status IfxHssl_Hssl_writeStream(IfxHssl_Hssl *hssl, uint32 *data, Ifx_SizeT count)
 	mov	d4,#2
 .L445:
 	mov	d5,d15
@@ -7268,7 +7268,7 @@ IfxHssl_Hssl_write:	.type	func
 .L446:
 	j	.L93
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   549  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   549  {
 .L93:
 	ret
 .L307:
@@ -7284,36 +7284,36 @@ __IfxHssl_Hssl_write_function_end:
 	
 	.global	IfxHssl_Hssl_writeStream
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   550  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   551  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   552  IfxHssl_Hssl_Status IfxHssl_Hssl_writeStream(IfxHssl_Hssl *hssl, uint32 *data, Ifx_SizeT count)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   550      Ifx_HSSL             *hsslSFR       = hssl->hssl;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   551      Ifx_HSSL_IS          *hsslIS        = (Ifx_HSSL_IS *)&hsslSFR->IS;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   552      IfxHssl_StreamingMode streamingMode = IfxHssl_StreamingMode_single;
 ; Function IfxHssl_Hssl_writeStream
 .L127:
 IfxHssl_Hssl_writeStream:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   553  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   554      Ifx_HSSL             *hsslSFR       = hssl->hssl;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   553  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   554      /* single memory block streaming */
 	ld.a	a15,[a4]
 .L452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   555      Ifx_HSSL_IS          *hsslIS        = (Ifx_HSSL_IS *)&hsslSFR->IS;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   555      hsslIS->SA[0].U                              = (uint32)data;  /* initiator start address to memeroy block 0 */
 	lea	a2,[a15]160
 .L453:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   556      IfxHssl_StreamingMode streamingMode = IfxHssl_StreamingMode_single;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   556  
 	mov	d0,#1
 .L454:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   557  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   558      /* single memory block streaming */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   559      hsslIS->SA[0].U                              = (uint32)data;  /* initiator start address to memeroy block 0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   557      hsslIS->FC.B.RELCOUNT                        = count;         /* memory count into initiator reload count register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   558  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   559      hsslSFR->CFG.B.SCM                           = 1;             /* enable streaming mode of channel 2 on the initiator */
 	mov.d	d15,a5
 .L455:
 	st.w	[a2],d15
 .L863:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   560  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   561      hsslIS->FC.B.RELCOUNT                        = count;         /* memory count into initiator reload count register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   560      hsslSFR->CFG.B.SMT                           = streamingMode; /* set transmitter streaming mode ( single / continuous ) on the initiator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   561      hsslSFR->CFG.B.SMR                           = streamingMode; /* set receiver streaming mode ( single / continuous ) on the initiator */
 	ld.hu	d15,[a15]172
 .L456:
 	extr.u	d1,d4,#0,#16
@@ -7322,71 +7322,73 @@ IfxHssl_Hssl_writeStream:	.type	func
 	st.h	[a15]172,d15
 .L865:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   562  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   563      hsslSFR->CFG.B.SCM                           = 1;             /* enable streaming mode of channel 2 on the initiator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   562      /* streaming is supported only on IfxHssl_ChannelId_2 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   563      hsslSFR->I[IfxHssl_ChannelId_2].ICON.B.TOREL = 0xff;          /* set the transmitter reload value to 0xff.*/
 	ld.bu	d15,[a15]18
 .L866:
 	or	d15,#4
 	st.b	[a15]18,d15
 .L867:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   564      hsslSFR->CFG.B.SMT                           = streamingMode; /* set transmitter streaming mode ( single / continuous ) on the initiator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   564  
 	ld.bu	d15,[a15]18
 .L868:
 	insert	d15,d15,d0,#0,#1
 	st.b	[a15]18,d15
 .L869:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   565      hsslSFR->CFG.B.SMR                           = streamingMode; /* set receiver streaming mode ( single / continuous ) on the initiator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   565      /* incase of transfers within the device(loopback on) */
 	ld.bu	d15,[a15]18
 .L870:
 	insert	d15,d15,d0,#1,#1
 	st.b	[a15]18,d15
 .L871:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   566      /* streaming is supported only on IfxHssl_ChannelId_2 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   567      hsslSFR->I[IfxHssl_ChannelId_2].ICON.B.TOREL = 0xff;          /* set the transmitter reload value to 0xff.*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   566      if (hssl->loopBack)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   567      {
 	ld.bu	d15,[a15]87
 .L872:
 	or	d15,#255
 	st.b	[a15]87,d15
 .L873:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   568  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   569      /* incase of transfers within the device(loopback on) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   570      if (hssl->loopBack)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   568          hsslSFR->MFLAGSSET.B.TSES = 1; /* enable target */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   569      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   570  
 	ld.bu	d15,[a4]6
 .L874:
 	jeq	d15,#0,.L94
 .L875:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   571      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   572          hsslSFR->MFLAGSSET.B.TSES = 1; /* enable target */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   571      /* initiate the transfer */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   572      hsslSFR->MFLAGSSET.B.ISBS = 1;
 	ld.bu	d15,[a15]31
 .L876:
 	or	d15,#16
 	st.b	[a15]31,d15
 .L94:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   573      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   574  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   575      /* initiate the transfer */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   576      hsslSFR->MFLAGSSET.B.ISBS = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   573  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   574      /* streaming started */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   575      return IfxHssl_Hssl_Status_ok;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   576  }
 	ld.bu	d15,[a15]30
 .L877:
 	or	d15,#16
 	st.b	[a15]30,d15
 .L878:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   577  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   578      /* streaming started */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   579      return IfxHssl_Hssl_Status_ok;
+
 	mov	d2,#0
 .L879:
+
+
 	j	.L95
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Hssl\Hssl\IfxHssl_Hssl.c	   580  }
+
 .L95:
+
+
 	ret
 .L336:
 	

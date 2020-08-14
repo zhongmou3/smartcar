@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\.IfxCpu_CStart0.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\IfxCpu_CStart0.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\IfxCpu_CStart0.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\IfxCpu_CStart0.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\IfxCpu_CStart0.c'
@@ -641,46 +641,46 @@ _Core0_start:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   494  }      (inlined)
 .L2:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   111  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   112      IFX_CFG_CPU_CSTART_PRE_C_INIT_HOOK(0);  /*Test Stack, CSA and Cache */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   113  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   114      /* Load user stack pointer */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   115      __setareg(sp, __USTACK(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   111  _CSTART_PRE_C_INIT_HOOK(0);  /*Test Stack, CSA and Cache */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   112  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   113      /* Load user stack pointer */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   114      __setareg(sp, __USTACK(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   115      __dsync();
 	 movh.a	 sp,#@his(__USTACK0)
  lea	 sp,[sp]@los(__USTACK0)
 .L188:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   116      __dsync();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   116  
 	dsync
 .L189:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   117  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   118      /* Set the PSW to its reset value in case of a warm start,clear PSW.IS */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   119      __mtcr(CPU_PSW, IFXCSTART0_PSW_DEFAULT);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   117      /* Set the PSW to its reset value in case of a warm start,clear PSW.IS */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   118      __mtcr(CPU_PSW, IFXCSTART0_PSW_DEFAULT);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   119  
 	mov	d15,#2432
 .L190:
 	mtcr	#65028,d15
 	isync
 .L191:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   120  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   121      /* Set the PCXS and PCXO to its reset value in case of a warm start */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   122      pcxi  = __mfcr(CPU_PCXI);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   120      /* Set the PCXS and PCXO to its reset value in case of a warm start */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   121      pcxi  = __mfcr(CPU_PCXI);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   122      pcxi &= IFXCSTART0_PCX_O_S_DEFAULT; /*0xfff00000; */
 	mfcr	d15,#65024
 .L149:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   123      pcxi &= IFXCSTART0_PCX_O_S_DEFAULT; /*0xfff00000; */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   123      __mtcr(CPU_PCXI, pcxi);
 	insert	d15,d15,#0,#0,#20
 .L192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   124      __mtcr(CPU_PCXI, pcxi);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   124  
 	mtcr	#65024,d15
 	isync
 .L193:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   125  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   126      /*enable/disable program cache depending on the configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   127      IfxCpu_setProgramCache(IFX_CFG_CPU_CSTART_ENABLE_TRICORE0_PCACHE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   125      /*enable/disable program cache depending on the configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   126      IfxCpu_setProgramCache(IFX_CFG_CPU_CSTART_ENABLE_TRICORE0_PCACHE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   127  
 	mov	d1,#1
 .L69:
 
@@ -2204,9 +2204,9 @@ _Core0_start:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   494  }      (inlined)
 .L5:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   984      /*PCACHE enable steps */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   985      {                           /* Step 1: Set PCBYP to 0 if cache is enabled */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   986          IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   984  t PCBYP to 0 if cache is enabled */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   985          IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   986          Ifx_CPU_PCON0 pcon0;
 	mul	d0,d2,#12
 	mov.a	a15,d0
 	movh.a	a3,#61443
@@ -2719,8 +2719,8 @@ _Core0_start:	.type	func
 	jeq	d15,#1,.L8
 .L89:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   987          Ifx_CPU_PCON0 pcon0;
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   988          pcon0.U       = 0;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   987  cuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   988          Ifx_CPU_PCON0 pcon0;
 	mov	d15,#0
 .L156:
 
@@ -2728,7 +2728,7 @@ _Core0_start:	.type	func
 	jeq	d1,#0,.L9
 .L207:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   989          pcon0.B.PCBYP = enable ? 0 : 1; /*depending on the enable bypass bit is reset/set */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   989          pcon0.U       = 0;
 	mov	d0,#0
 .L208:
 
@@ -2742,12 +2742,12 @@ _Core0_start:	.type	func
 	insert	d15,d15,d0,#1,#1
 .L209:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   990          __mtcr(CPU_PCON0, pcon0.U);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   990          pcon0.B.PCBYP = enable ? 0 : 1; /*depending on the enable bypass bit is reset/set */
 	mtcr	#37388,d15
 	isync
 .L210:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   991          IfxScuWdt_setCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   991          __mtcr(CPU_PCON0, pcon0.U);
 	mul	d15,d2,#12
 .L157:
 	mov.a	a15,d15
@@ -3348,15 +3348,15 @@ _Core0_start:	.type	func
 	jz.t	d15:0,.L13
 .L96:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   992      }
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   993      /* Step 2: Call Isync */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   994      __isync();
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   992   ? 0 : 1; /*depending on the enable bypass bit is reset/set */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   993          __mtcr(CPU_PCON0, pcon0.U);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   994          IfxScuWdt_setCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
 	isync
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   128  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   129      /*enable/disable data cache depending on the configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   130      IfxCpu_setDataCache(IFX_CFG_CPU_CSTART_ENABLE_TRICORE0_DCACHE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   128  ble data cache depending on the configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   129      IfxCpu_setDataCache(IFX_CFG_CPU_CSTART_ENABLE_TRICORE0_DCACHE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   130  
 	mov	d1,#1
 .L107:
 
@@ -4831,9 +4831,9 @@ _Core0_start:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   494  }      (inlined)
 .L15:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   949      /*PCACHE enable steps */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   950      {                           /* Step 1: Set PCBYP to 0 if cache is enabled */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   951          IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   949                        /* Step 1: Set PCBYP to 0 if cache is enabled */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   950          IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   951          Ifx_CPU_DCON0 dcon0;
 	mul	d0,d2,#12
 	mov.a	a15,d0
 	movh.a	a3,#61443
@@ -5346,8 +5346,8 @@ _Core0_start:	.type	func
 	jeq	d15,#1,.L18
 .L118:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   952          Ifx_CPU_DCON0 dcon0;
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   953          dcon0.U       = 0;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   952  if cache is enabled */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   953          IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
 	mov	d15,#0
 .L163:
 
@@ -5355,7 +5355,7 @@ _Core0_start:	.type	func
 	jeq	d1,#0,.L19
 .L235:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   954          dcon0.B.DCBYP = enable ? 0 : 1; /*depending on the enable bypas bit is reset/set */
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   954          Ifx_CPU_DCON0 dcon0;
 	mov	d0,#0
 .L236:
 
@@ -5369,12 +5369,12 @@ _Core0_start:	.type	func
 	insert	d15,d15,d0,#1,#1
 .L237:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   955          __mtcr(CPU_DCON0, dcon0.U);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   955          dcon0.U       = 0;
 	mtcr	#36928,d15
 	isync
 .L238:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   956          IfxScuWdt_setCpuEndinitInline(&MODULE_SCU.WDTCPU[coreIndex], wdtPassword);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   956          dcon0.B.DCBYP = enable ? 0 : 1; /*depending on the enable bypas bit is reset/set */
 	mul	d15,d2,#12
 .L164:
 	mov.a	a15,d15
@@ -5975,15 +5975,15 @@ _Core0_start:	.type	func
 	jz.t	d15:0,.L23
 .L120:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   957      }
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   958      /* Step 2: Call Isync */
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   959      __isync();
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   957  PU_DCON0 dcon0;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   958          dcon0.U       = 0;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   959          dcon0.B.DCBYP = enable ? 0 : 1; /*depending on the enable bypas bit is reset/set */
 	isync
 .L108:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   131  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   132      /* Clear the ENDINIT bit in the WDT_CON0 register, inline funtion */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   133      IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[0], cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   131   /* Clear the ENDINIT bit in the WDT_CON0 register, inline funtion */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   132      IfxScuWdt_clearCpuEndinitInline(&MODULE_SCU.WDTCPU[0], cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   133  
 	movh.a	a15,#61443
 	lea	a15,[a15]@los(0xf0036100)
 .L124:
@@ -6493,9 +6493,9 @@ _Core0_start:	.type	func
 	jeq	d15,#1,.L26
 .L125:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   134  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   135      /* Load Base Address of Trap Vector Table. */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   136      __mtcr(CPU_BTV, (uint32)__TRAPTAB(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   134   /* Load Base Address of Trap Vector Table. */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   135      __mtcr(CPU_BTV, (uint32)__TRAPTAB(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   136  
 	movh.a	a15,#@his(__TRAPTAB_CPU0)
 	lea	a15,[a15]@los(__TRAPTAB_CPU0)
 	mov.d	d15,a15
@@ -6504,9 +6504,9 @@ _Core0_start:	.type	func
 	isync
 .L264:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   137  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   138      /* Load Base Address of Interrupt Vector Table. we will do this later in the program */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   139      __mtcr(CPU_BIV, (uint32)__INTTAB(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   137      /* Load Base Address of Interrupt Vector Table. we will do this later in the program */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   138      __mtcr(CPU_BIV, (uint32)__INTTAB(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   139  
 	movh.a	a15,#@his(__INTTAB_CPU0)
 	lea	a15,[a15]@los(__INTTAB_CPU0)
 	mov.d	d15,a15
@@ -6515,9 +6515,9 @@ _Core0_start:	.type	func
 	isync
 .L266:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   140  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   141      /* Load interupt stack pointer. */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   142      __mtcr(CPU_ISP, (uint32)__ISTACK(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   140      /* Load interupt stack pointer. */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   141      __mtcr(CPU_ISP, (uint32)__ISTACK(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   142  
 	movh.a	a15,#@his(__ISTACK0)
 	lea	a15,[a15]@los(__ISTACK0)
 	mov.d	d15,a15
@@ -6526,8 +6526,8 @@ _Core0_start:	.type	func
 	isync
 .L268:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   143  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   144      IfxScuWdt_setCpuEndinitInline(&MODULE_SCU.WDTCPU[0], cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   143      IfxScuWdt_setCpuEndinitInline(&MODULE_SCU.WDTCPU[0], cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   144  
 	movh.a	a15,#61443
 	lea	a15,[a15]@los(0xf0036100)
 .L126:
@@ -7123,33 +7123,33 @@ _Core0_start:	.type	func
 	jz.t	d15:0,.L29
 .L127:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   145  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   146      /* initialize SDA base pointers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   147      __setareg(a0, __SDATA1(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   145  ialize SDA base pointers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   146      __setareg(a0, __SDATA1(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   147      __setareg(a1, __SDATA2(0));
 	 movh.a	 a0,#@his(_SMALL_DATA_)
  lea	 a0,[a0]@los(_SMALL_DATA_)
 .L281:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   148      __setareg(a1, __SDATA2(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   148  
 	 movh.a	 a1,#@his(_LITERAL_DATA_)
  lea	 a1,[a1]@los(_LITERAL_DATA_)
 .L282:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   150      /* These to be un commented if A8 and A9 are required to be initialized */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   151      __setareg(a8, __SDATA3(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   149      /* These to be un commented if A8 and A9 are required to be initialized */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   150      __setareg(a8, __SDATA3(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   151      __setareg(a9, __SDATA4(0));
 	 movh.a	 a8,#@his(_A8_DATA_)
  lea	 a8,[a8]@los(_A8_DATA_)
 .L283:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   152      __setareg(a9, __SDATA4(0));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   152      /* Setup the context save area linked list. */
 	 movh.a	 a9,#@his(_A9_DATA_)
  lea	 a9,[a9]@los(_A9_DATA_)
 .L284:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   153      /* Setup the context save area linked list. */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   154  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   155      IfxCpu_initCSA((uint32 *)__CSA(0), (uint32 *)__CSA_END(0));     /*Initialize the context save area for CPU0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   153  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   154      IfxCpu_initCSA((uint32 *)__CSA(0), (uint32 *)__CSA_END(0));     /*Initialize the context save area for CPU0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   155  
 	movh.a	a15,#@his(__CSA0)
 .L165:
 	lea	a15,[a15]@los(__CSA0)
@@ -8135,58 +8135,58 @@ _Core0_start:	.type	func
 	st.w	[a4],d15
 .L130:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   156  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   157      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   158          /*CPU and safety watchdogs are enabled by default, C initialization functions are not servicing the watchdogs */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   159          uint16 safetyWdtPassword = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   156     /*CPU and safety watchdogs are enabled by default, C initialization functions are not servicing the watchdogs */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   157          uint16 safetyWdtPassword = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   158          IfxScuWdt_disableCpuWatchdog(cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   159          IfxScuWdt_disableSafetyWatchdog(safetyWdtPassword);
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L168:
 	mov	d15,d2
 .L173:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   160          IfxScuWdt_disableCpuWatchdog(cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   160  
 	mov	d4,d8
 .L174:
 	call	IfxScuWdt_disableCpuWatchdog
 .L172:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   161          IfxScuWdt_disableSafetyWatchdog(safetyWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   161          Ifx_C_Init();           /*Initialization of C runtime variables */
 	mov	d4,d15
 .L175:
 	call	IfxScuWdt_disableSafetyWatchdog
 .L176:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   162  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   163          Ifx_C_Init();           /*Initialization of C runtime variables */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   163          IfxScuWdt_enableCpuWatchdog(cpuWdtPassword);
 	call	Ifx_C_Init
 .L304:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   164  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   165          IfxScuWdt_enableCpuWatchdog(cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   164          IfxScuWdt_enableSafetyWatchdog(safetyWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   165      }
 	mov	d4,d8
 .L177:
 	call	IfxScuWdt_enableCpuWatchdog
 .L178:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   166          IfxScuWdt_enableSafetyWatchdog(safetyWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   166  
 	mov	d4,d15
 .L179:
 	call	IfxScuWdt_enableSafetyWatchdog
 .L142:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   167      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   168  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   169      /*Initialize the clock system */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   170      IFXCPU_CSTART_CCU_INIT_HOOK();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   167      /*Initialize the clock system */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   168      IFXCPU_CSTART_CCU_INIT_HOOK();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   169  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   170      /*Start remaining cores */
 	movh.a	a4,#@his(IfxScuCcu_defaultClockConfig)
 	lea	a4,[a4]@los(IfxScuCcu_defaultClockConfig)
 	call	IfxScuCcu_init
 .L305:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   171  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   172      /*Start remaining cores */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   173  #if (IFX_CFG_CPU_CSTART_ENABLE_TRICORE1 != 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   174      (void)IfxCpu_startCore(&MODULE_CPU1, (uint32)&_Core1_start);       /*The status returned by function call is ignored */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   171  #if (IFX_CFG_CPU_CSTART_ENABLE_TRICORE1 != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   172      (void)IfxCpu_startCore(&MODULE_CPU1, (uint32)&_Core1_start);       /*The status returned by function call is ignored */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   173  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   174  
 	movh.a	a4,#63619
 .L306:
 	movh.a	a15,#@his(_Core1_start)
@@ -8197,22 +8197,22 @@ _Core0_start:	.type	func
 	call	IfxCpu_startCore
 .L308:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   175  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   176  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   177  #if (IFX_CFG_CPU_CSTART_ENABLE_TRICORE0 == 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   178      IfxScuWdt_disableCpuWatchdog(cpuWdtPassword);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   179      /*halt the CPU 0 if it is not needed to be enabled */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   180      IfxCpu_setCoreMode(&MODULE_CPU0, IfxCpu_CoreMode_idle);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   181  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   183      /*Call main function of Cpu0 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   184      __non_return_call(core0_main);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   175  #if (IFX_CFG_CPU_CSTART_ENABLE_TRICORE0 == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   176      IfxScuWdt_disableCpuWatchdog(cpuWdtPassword);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   177      /*halt the CPU 0 if it is not needed to be enabled */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   178      IfxCpu_setCoreMode(&MODULE_CPU0, IfxCpu_CoreMode_idle);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   179  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   180  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   181      /*Call main function of Cpu0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   182      __non_return_call(core0_main);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   183  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   184  
 	movh.a	a15,#@his(core0_main)
 	lea	a15,[a15]@los(core0_main)
 		ji a15
 .L309:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   185  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   185  #if defined(__HIGHTEC__)
 	ret
 .L57:
 	
@@ -8227,38 +8227,38 @@ ___Core0_start_function_end:
 	
 	.global	_START
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   186  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   187  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   188  #pragma GCC reset_options
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   189  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   190  /******************************************************************************
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   191   * reset vector address, user section to inform linker to locate the code at 0x8000 0020
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   192   *****************************************************************************/ 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   193  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   194  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   195  #pragma section ".start" x
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   196  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   197  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   198  #pragma protect on
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   199  #pragma section code "start"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   200  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   201  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   202  #pragma section CODE ".start" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   203  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   204  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   205  void _START(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   186  #pragma GCC reset_options
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   187  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   188  /******************************************************************************
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   189   * reset vector address, user section to inform linker to locate the code at 0x8000 0020
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   190   *****************************************************************************/ 
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   191  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   192  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   193  #pragma section ".start" x
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   194  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   195  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   196  #pragma protect on
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   197  #pragma section code "start"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   198  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   199  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   200  #pragma section CODE ".start" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   201  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   202  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   203  void _START(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   204  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   205      __non_return_call(_Core0_start);
 ; Function _START
 .L38:
 _START:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   206  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   207      __non_return_call(_Core0_start);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   206  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   207  
 	movh.a	a15,#@his(_Core0_start)
 	lea	a15,[a15]@los(_Core0_start)
 		ji a15
 .L314:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   208  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   208  
 	ret
 .L144:
 	
@@ -21075,106 +21075,104 @@ BootModeHeader_1:	.type	object
 	.word	.L315,.L38,.L144-.L38
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   209  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   210  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   211  /* reset the sections defined above, to normal region */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   212  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   213  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   214  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   215  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   216  #pragma protect restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   217  #pragma section code restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   218  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   219  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   220  #pragma section CODE
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   221  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   222  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   223  /*******************************************************************************
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   224  **                      Boot Mode Headers                                     **
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   225  *******************************************************************************/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   226  /*Boot Mode Header 0 sections to inform linker to locate them at 0x8000 0000 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   227  #ifndef IFX_CFG_CPUCSTART_BMHD_NOT_NEEDED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   228  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   229  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   230  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   231  #pragma section ".bmhd_0" a
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   232  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   233  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   234  #pragma protect on
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   235  #pragma section farrom "bmhd_0"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   236  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   237  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   238  #pragma section CONST ".bmhd_0" R
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   239  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   240  /** \brief Boot Mode Header 0
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   241   * Boot mode header at memory location 0c8000 0000.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   242   */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   243  const uint32 BootModeHeader_0[] = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   244      0x00000000u,                 /* STADBM first user code at 0x8000 0020h */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   245      0xb3590070u,                 /* BMI = 0070h BMHDID = B359h */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   246      0x00000000u,                 /* ChkStart */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   247      0x00000000u,                 /* ChkEnd */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   248      0x00000000u,                 /* CRCrange */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   249      0x00000000u,                 /* !CRCrange */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   250      0x791eb864u,                 /* CRChead */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   251      0x86e1479bu                  /* !CRChead */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   252  };
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   253  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   254  /*reset the sections defined above */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   255  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   256  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   257  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   258  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   259  #pragma protect restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   260  #pragma section farrom restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   261  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   262  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   263  #pragma section CONST
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   264  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   265  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   266  #ifndef IFX_CFG_CPUCSTART_BMI01_NOT_NEEDED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   267  /*Boot Mode Header 1 sections to inform linker to locate them at 0x8002 0000 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   268  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   269  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   270  #pragma section ".bmhd_1" a
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   271  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   272  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   273  #pragma protect on
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   274  #pragma section farrom "bmhd_1"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   275  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   276  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   277  #pragma section CONST ".bmhd_1" R
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   278  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   280  /** \brief Boot Mode Header 1
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   281   * Boot mode header at memory location 0c8002 0000.
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   282   */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   283  const uint32 BootModeHeader_1[] = {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   284      0x00000000u,                 /* STADBM first user code at 0x8000 0020h */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   285      0xB3590070u,                 /* BMI = 0070h BMHDID = B359h */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   286      0x00000000u,                 /* ChkStart */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   287      0x00000000u,                 /* ChkEnd */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   288      0x00000000u,                 /* CRCrange */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   289      0x00000000u,                 /* !CRCrange */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   290      0x791eb864u,                 /* CRChead */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   291      0x86e1479bu                  /* !CRChead */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   292  };
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   293  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   294  /*reset the sections defined above */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   295  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   296  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   297  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   298  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   299  #pragma protect restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   300  #pragma section farrom restore
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   301  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   302  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   303  #pragma section CONST
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   304  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   305  #endif /*IFX_CFG_CPUCSTART_BMI01_NOT_NEEDED*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   209  /* reset the sections defined above, to normal region */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   210  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   211  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   212  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   213  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   214  #pragma protect restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   215  #pragma section code restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   216  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   217  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   218  #pragma section CODE
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   219  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   220  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   221  /*******************************************************************************
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   222  **                      Boot Mode Headers                                     **
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   223  *******************************************************************************/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   224  /*Boot Mode Header 0 sections to inform linker to locate them at 0x8000 0000 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   225  #ifndef IFX_CFG_CPUCSTART_BMHD_NOT_NEEDED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   226  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   227  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   228  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   229  #pragma section ".bmhd_0" a
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   230  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   231  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   232  #pragma protect on
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   233  #pragma section farrom "bmhd_0"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   234  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   235  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   236  #pragma section CONST ".bmhd_0" R
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   237  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   238  /** \brief Boot Mode Header 0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   239   * Boot mode header at memory location 0c8000 0000.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   240   */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   241  const uint32 BootModeHeader_0[] = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   242      0x00000000u,                 /* STADBM first user code at 0x8000 0020h */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   243      0xb3590070u,                 /* BMI = 0070h BMHDID = B359h */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   244      0x00000000u,                 /* ChkStart */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   245      0x00000000u,                 /* ChkEnd */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   246      0x00000000u,                 /* CRCrange */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   247      0x00000000u,                 /* !CRCrange */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   248      0x791eb864u,                 /* CRChead */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   249      0x86e1479bu                  /* !CRChead */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   250  };
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   251  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   252  /*reset the sections defined above */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   253  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   254  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   255  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   256  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   257  #pragma protect restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   258  #pragma section farrom restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   259  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   260  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   261  #pragma section CONST
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   262  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   263  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   264  #ifndef IFX_CFG_CPUCSTART_BMI01_NOT_NEEDED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   265  /*Boot Mode Header 1 sections to inform linker to locate them at 0x8002 0000 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   266  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   267  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   268  #pragma section ".bmhd_1" a
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   269  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   270  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   271  #pragma protect on
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   272  #pragma section farrom "bmhd_1"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   273  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   274  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   275  #pragma section CONST ".bmhd_1" R
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   276  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   277  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   278  /** \brief Boot Mode Header 1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   279   * Boot mode header at memory location 0c8002 0000.
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   280   */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   281  const uint32 BootModeHeader_1[] = {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   282      0x00000000u,                 /* STADBM first user code at 0x8000 0020h */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   283      0xB3590070u,                 /* BMI = 0070h BMHDID = B359h */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   284      0x00000000u,                 /* ChkStart */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   285      0x00000000u,                 /* ChkEnd */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   286      0x00000000u,                 /* CRCrange */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   287      0x00000000u,                 /* !CRCrange */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   288      0x791eb864u,                 /* CRChead */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   289      0x86e1479bu                  /* !CRChead */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   290  };
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   291  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   292  /*reset the sections defined above */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   293  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   294  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   295  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   296  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   297  #pragma protect restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   298  #pragma section farrom restore
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   299  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   300  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   301  #pragma section CONST
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   302  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   303  #endif /*IFX_CFG_CPUCSTART_BMI01_NOT_NEEDED*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   304  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   305  #endif /*IFX_CFG_CPUCSTART_BMHD_NOT_NEEDED*/
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   306  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   307  #endif /*IFX_CFG_CPUCSTART_BMHD_NOT_NEEDED*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   309  #endif /*#ifndef IFX_CFG_USE_COMPILER_DEFAULT_LINKER */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   307  #endif /*#ifndef IFX_CFG_USE_COMPILER_DEFAULT_LINKER */
 
 	; Module end

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std\\.IfxMtu.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std\\IfxMtu.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std\\IfxMtu.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std\\IfxMtu.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std\\IfxMtu.c'
@@ -664,43 +664,43 @@ IfxMtu_clearSram:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   506  }      (inlined)
 .L2:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    86  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    87      /* Check if the Endinit is cleared by application. If not, then handle it internally inside teh function.*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    88      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    86  ally inside teh function.*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    87      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    88      {
 	jne	d15,#1,.L3
 .L531:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    89      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    90          /* Clear EndInit */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    91          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    89          /* Clear EndInit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    90          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    91          isEndInitEnabled = 1;
 	mov	d4,d10
 .L351:
 	call	IfxScuWdt_clearSafetyEndinit
 .L352:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    92          isEndInitEnabled = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    92      }
 	mov	d9,#1
 .L3:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    93      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    94  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    95      IfxMtu_clearSramStart(mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    93  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    94      IfxMtu_clearSramStart(mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    95  
 	mov	d4,d8
 .L353:
 	call	IfxMtu_clearSramStart
 .L354:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    96  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    97      /* Set EndInit Watchdog (to prevent Watchdog TO)*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    98      IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    96      /* Set EndInit Watchdog (to prevent Watchdog TO)*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    97      IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    98  
 	mov	d4,d10
 .L355:
 	call	IfxScuWdt_setSafetyEndinit
 .L356:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    99  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   100      /* wait for the end of the fill operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   101      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 1, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	    99      /* wait for the end of the fill operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   100      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 1, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   101      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (((Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel))->MSTATUS.B.DONE != 0));
 	mul	d15,d8,#12
 .L532:
 	movh.a	a15,#@his(IfxMtu_sramTable)
@@ -717,14 +717,14 @@ IfxMtu_clearSram:	.type	func
 	call	IfxMtu_waitForMbistDone
 .L358:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   102      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (((Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel))->MSTATUS.B.DONE != 0));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   103  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   104      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   102  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   103      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   104      {
 	j	.L4
 .L5:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   105      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   106          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   105          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   106      }
 	nop
 .L4:
 
@@ -1310,37 +1310,37 @@ IfxMtu_clearSram:	.type	func
 	jeq	d15,#0,.L5
 .L540:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   107      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   108  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   109      /* Clear EndInit */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   110      IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   107   */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   108      IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   109  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   110      IfxMtu_clearSramContinue(mbistSel);
 	mov	d4,d10
 .L364:
 	call	IfxScuWdt_clearSafetyEndinit
 .L360:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   111  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   112      IfxMtu_clearSramContinue(mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   112      if (isEndInitEnabled == 1)
 	mov	d4,d8
 .L365:
 	call	IfxMtu_clearSramContinue
 .L366:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   113  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   114      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   113      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   114          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
 	jne	d9,#1,.L7
 .L541:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   115      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   116          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   117          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   115          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   116      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   117  }
 	mov	d4,d10
 .L367:
 	call	IfxScuWdt_setSafetyEndinit
 .L7:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   118      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   119  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   118  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   119  
 	ret
 .L187:
 	
@@ -1355,18 +1355,18 @@ __IfxMtu_clearSram_function_end:
 	
 	.global	IfxMtu_clearSramContinue
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   120  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   121  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   122  void IfxMtu_clearSramContinue(IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   120  void IfxMtu_clearSramContinue(IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   121  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   122      /* Before clearing the ECC error flags we've to issue a dummy SRAM access to get a valid memory output */
 ; Function IfxMtu_clearSramContinue
 .L111:
 IfxMtu_clearSramContinue:	.type	func
 	mov	d8,d4
 .L368:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   123  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   124      /* Before clearing the ECC error flags we've to issue a dummy SRAM access to get a valid memory output */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   125      IfxMtu_readSramAddress(mbistSel, 0x0000);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   123      IfxMtu_readSramAddress(mbistSel, 0x0000);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   124      /* Note: a SMU alarm will be flagged HERE if the wrong ECC has been written! */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   125      IfxMtu_disableMbistShell(mbistSel);
 	mov	d5,#0
 	mov	d4,d8
 	call	IfxMtu_readSramAddress
@@ -1895,11 +1895,11 @@ IfxMtu_clearSramContinue:	.type	func
 	st.w	[a15],d15
 .L208:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   126      /* Note: a SMU alarm will be flagged HERE if the wrong ECC has been written! */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   127      IfxMtu_disableMbistShell(mbistSel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   128  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   129      /* for auto-init memories: wait for the end of the clear operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   130      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   126  it memories: wait for the end of the clear operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   127      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   128      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   129  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   130  
 	j	.L8
 .L9:
 .L8:
@@ -2470,8 +2470,8 @@ IfxMtu_clearSramContinue:	.type	func
 	jne	d15,#0,.L9
 .L558:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   131      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   132  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   131   IfxMtu_clearSramStart(IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   132  {
 	ret
 .L204:
 	
@@ -2486,15 +2486,15 @@ __IfxMtu_clearSramContinue_function_end:
 	
 	.global	IfxMtu_clearSramStart
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   133  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   133      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   134  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   135  void IfxMtu_clearSramStart(IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   135      IfxMtu_enableMbistShell(mbistSel);
 ; Function IfxMtu_clearSramStart
 .L113:
 IfxMtu_clearSramStart:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   136  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   137      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   136  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   137      /* for auto-init memories: wait for the end of the clear operation */
 	mov	d15,#256
 .L563:
 	mul	d15,d4
@@ -3035,11 +3035,11 @@ IfxMtu_clearSramStart:	.type	func
 	st.w	[a15],d15
 .L227:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   138  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   139      IfxMtu_enableMbistShell(mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   138  le (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   139      {}
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   140  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   141      /* for auto-init memories: wait for the end of the clear operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   142      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   141      /* write valid ECC code for all-zero data into RDBFL registers */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   142      {
 	j	.L11
 .L12:
 .L11:
@@ -3610,12 +3610,12 @@ IfxMtu_clearSramStart:	.type	func
 	jne	d15,#0,.L12
 .L236:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   143      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   144  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   145      /* write valid ECC code for all-zero data into RDBFL registers */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   146      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   147          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mbistSel < IFXMTU_NUM_MBIST_TABLE_ITEMS);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   148          const IfxMtu_SramItem *item      = (IfxMtu_SramItem *)&IfxMtu_sramTable[mbistSel];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   143     IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mbistSel < IFXMTU_NUM_MBIST_TABLE_ITEMS);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   144          const IfxMtu_SramItem *item      = (IfxMtu_SramItem *)&IfxMtu_sramTable[mbistSel];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   145  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   146          uint8                  numBlocks = item->numBlocks;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   147          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, numBlocks > 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   148  
 	mul	d15,d4,#12
 .L577:
 	movh.a	a15,#@his(IfxMtu_sramTable)
@@ -3625,78 +3625,78 @@ IfxMtu_clearSramStart:	.type	func
 	addsc.a	a15,a15,d15,#0
 .L391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   150          uint8                  numBlocks = item->numBlocks;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   149          uint16                 dataSize   = item->dataSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   150          uint8                  eccSize    = item->eccSize;
 	ld.bu	d8,[a15]
 .L240:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   151          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, numBlocks > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   152  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   153          uint16                 dataSize   = item->dataSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   151          uint32                 eccInvPos0 = dataSize + item->eccInvPos0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   152          uint32                 eccInvPos1 = dataSize + item->eccInvPos1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   153  
 	ld.hu	d0,[a15]2
 .L390:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   154          uint8                  eccSize    = item->eccSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   154          uint32                 memSize    = dataSize + eccSize;
 	ld.bu	d1,[a15]4
 .L393:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   155          uint32                 eccInvPos0 = dataSize + item->eccInvPos0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   155  
 	ld.bu	d15,[a15]5
 .L579:
 	add	d2,d15,d0
 .L395:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   156          uint32                 eccInvPos1 = dataSize + item->eccInvPos1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   156          uint32                 bitPos     = 0;
 	ld.bu	d15,[a15]6
 .L580:
 	add	d3,d15,d0
 .L396:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   157  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   158          uint32                 memSize    = dataSize + eccSize;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   157          uint32                 wordIx     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   158          uint16                 data       = 0;
 	add	d0,d1
 .L392:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   159  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   160          uint32                 bitPos     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   159          /* de-serialize data stream into 16bit packets */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   160          uint32                 mem;
 	mov	d1,#0
 .L394:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   161          uint32                 wordIx     = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   161  
 	mov	d4,#0
 .L378:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   162          uint16                 data       = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   162          for (mem = 0; mem < numBlocks; ++mem)
 	mov	d5,#0
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   163          /* de-serialize data stream into 16bit packets */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   164          uint32                 mem;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   163          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   164              uint32 i;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   165  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   166          for (mem = 0; mem < numBlocks; ++mem)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   166              for (i = 0; i < memSize; ++i)
 	mov	d6,#0
 .L399:
 	j	.L14
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   167          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   168              uint32 i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   169  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   170              for (i = 0; i < memSize; ++i)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   167              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   168                  if ((i == eccInvPos0) || (i == eccInvPos1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   169                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   170                      data |= (1 << bitPos);
 	mov	d7,#0
 .L400:
 	j	.L16
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   171              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   172                  if ((i == eccInvPos0) || (i == eccInvPos1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   171                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   172  
 	jeq	d7,d2,.L18
 .L581:
 	jne	d7,d3,.L19
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   173                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   174                      data |= (1 << bitPos);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   173                  ++bitPos;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   174  
 	mov	d15,#1
 .L582:
 	sha	d15,d15,d1
@@ -3704,21 +3704,21 @@ IfxMtu_clearSramStart:	.type	func
 	or	d5,d15
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   175                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   176  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   177                  ++bitPos;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   175                  if (bitPos >= 16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   176                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   177                      mc->RDBFL[wordIx++].U = data;
 	add	d1,#1
 .L584:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   178  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   179                  if (bitPos >= 16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   178                      bitPos                = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   179                      data                  = 0;
 	mov	d15,#16
 .L585:
 	jlt.u	d1,d15,.L20
 .L586:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   180                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   181                      mc->RDBFL[wordIx++].U = data;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   180                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   181              }
 	mul	d15,d4,#2
 	addsc.a	a15,a2,d15,#0
 .L587:
@@ -3727,11 +3727,11 @@ IfxMtu_clearSramStart:	.type	func
 	add	d4,#1
 .L589:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   182                      bitPos                = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   182          }
 	mov	d1,#0
 .L590:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   183                      data                  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   183  
 	mov	d5,#0
 .L20:
 	add	d7,#1
@@ -3743,32 +3743,32 @@ IfxMtu_clearSramStart:	.type	func
 	jlt.u	d6,d8,.L15
 .L591:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   184                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   185              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   186          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   187  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   188          /* final word? */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   189          if (bitPos != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   184          /* final word? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   185          if (bitPos != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   186          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   187              mc->RDBFL[wordIx].U = data;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   188          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   189      }
 	jeq	d1,#0,.L21
 .L592:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   190          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   191              mc->RDBFL[wordIx].U = data;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   190  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   191      /* start fill operation */
 	mul	d15,d4,#2
 	addsc.a	a15,a2,d15,#0
 .L593:
 	st.h	[a15]160,d5
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   192          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   193      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   194  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   195      /* start fill operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   196      uint16 mcontrolMask = 0x4000;                                                                        /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   192      uint16 mcontrolMask = 0x4000;                                                                        /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   193      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DINIT_OFF) | (1 << IFX_MC_MCONTROL_START_OFF); /* START = DINIT = 1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   194      mc->MCONTROL.U = mcontrolMask | (0 << IFX_MC_MCONTROL_DINIT_OFF) | (1 << IFX_MC_MCONTROL_DINIT_OFF); /* START = 0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   195  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   196  
 	mov	d0,#16384
 .L397:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   197      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DINIT_OFF) | (1 << IFX_MC_MCONTROL_START_OFF); /* START = DINIT = 1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   197  
 	or	d15,d0,#16
 .L594:
 	or	d15,#1
@@ -3776,13 +3776,13 @@ IfxMtu_clearSramStart:	.type	func
 	st.h	[a2]4,d15
 .L596:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   198      mc->MCONTROL.U = mcontrolMask | (0 << IFX_MC_MCONTROL_DINIT_OFF) | (1 << IFX_MC_MCONTROL_DINIT_OFF); /* START = 0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   198  void IfxMtu_enableErrorTracking(IfxMtu_MbistSel mbistSel, boolean enable)
 	or	d15,d0,#16
 .L597:
 	st.h	[a2]4,d15
 .L598:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   199  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   199  {
 	ret
 .L222:
 	
@@ -3797,15 +3797,15 @@ __IfxMtu_clearSramStart_function_end:
 	
 	.global	IfxMtu_enableErrorTracking
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   200  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   200      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   201  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   202  void IfxMtu_enableErrorTracking(IfxMtu_MbistSel mbistSel, boolean enable)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   202      if (enable == FALSE)
 ; Function IfxMtu_enableErrorTracking
 .L115:
 IfxMtu_enableErrorTracking:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   203  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   204      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   203      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   204          mc->ECCS.U &= ~(1 << IFX_MC_ECCS_TRE_OFF);
 	mov	d15,#256
 .L722:
 	mul	d4,d15
@@ -3818,13 +3818,13 @@ IfxMtu_enableErrorTracking:	.type	func
 	mov.a	a15,d4
 .L403:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   206      if (enable == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   205      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   206      else
 	jne	d5,#0,.L22
 .L724:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   207      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   208          mc->ECCS.U &= ~(1 << IFX_MC_ECCS_TRE_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   208          mc->ECCS.U |= (1 << IFX_MC_ECCS_TRE_OFF);
 	ld.hu	d15,[a15]14
 .L725:
 	insert	d15,d15,#0,#4,#1
@@ -3834,17 +3834,17 @@ IfxMtu_enableErrorTracking:	.type	func
 .L22:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   209      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   210      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   211      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   212          mc->ECCS.U |= (1 << IFX_MC_ECCS_TRE_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   210  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   211  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   212  
 	ld.hu	d15,[a15]14
 .L727:
 	or	d15,#16
 	st.h	[a15]14,d15
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   213      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   214  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   213  uint32 IfxMtu_getSystemAddress(IfxMtu_MbistSel mbistSel, Ifx_MC_ETRR trackedSramAddress)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   214  {
 	ret
 .L309:
 	
@@ -3859,39 +3859,39 @@ __IfxMtu_enableErrorTracking_function_end:
 	
 	.global	IfxMtu_getSystemAddress
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   215  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   216  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   217  uint32 IfxMtu_getSystemAddress(IfxMtu_MbistSel mbistSel, Ifx_MC_ETRR trackedSramAddress)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   215      uint32 sramAddress   = trackedSramAddress.B.ADDR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   216      uint32 mbi           = trackedSramAddress.B.MBI;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   217      uint32 systemAddress = 0;
 ; Function IfxMtu_getSystemAddress
 .L117:
 IfxMtu_getSystemAddress:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   218  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   219      uint32 sramAddress   = trackedSramAddress.B.ADDR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   218  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   219      switch (mbistSel)
 	extr.u	d0,d5,#0,#13
 .L404:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   220      uint32 mbi           = trackedSramAddress.B.MBI;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   220      {
 	extr.u	d1,d5,#13,#3
 .L406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   221      uint32 systemAddress = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   222  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   223      switch (mbistSel)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   224      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   225      case IfxMtu_MbistSel_cpu0Pspr:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   226          systemAddress = 0x70100000 | ((sramAddress << 3) | ((mbi & 1) << 2));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   221      case IfxMtu_MbistSel_cpu0Pspr:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   222          systemAddress = 0x70100000 | ((sramAddress << 3) | ((mbi & 1) << 2));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   223          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   224  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   225      case IfxMtu_MbistSel_cpu0Dspr:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   226          systemAddress = 0x70000000 | ((sramAddress << 4) | ((mbi & 3) << 2));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   227          break;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   228  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   229      case IfxMtu_MbistSel_cpu0Dspr:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   230          systemAddress = 0x70000000 | ((sramAddress << 4) | ((mbi & 3) << 2));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   229      case IfxMtu_MbistSel_cpu1Pspr:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   230          systemAddress = 0x60100000 | ((sramAddress << 4) | ((mbi & 1) << 3));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   231          break;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   232  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   233      case IfxMtu_MbistSel_cpu1Pspr:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   234          systemAddress = 0x60100000 | ((sramAddress << 4) | ((mbi & 1) << 3));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   233      case IfxMtu_MbistSel_cpu1Dspr:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   234          systemAddress = 0x60000000 | ((sramAddress << 4) | ((mbi & 3) << 2));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   235          break;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   236  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   237      case IfxMtu_MbistSel_cpu1Dspr:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   237      case IfxMtu_MbistSel_dma:
 	mov	d15,#6
 	jeq	d15,d4,.L24
 .L732:
@@ -3905,10 +3905,10 @@ IfxMtu_getSystemAddress:	.type	func
 	jeq	d15,d4,.L27
 .L735:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   238          systemAddress = 0x60000000 | ((sramAddress << 4) | ((mbi & 3) << 2));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   238          systemAddress = 0xf0012000 | ((sramAddress << 5) | ((mbi & 3) << 3));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   239          break;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   240  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   241      case IfxMtu_MbistSel_dma:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   241      default:
 	mov	d15,#83
 	jeq	d15,d4,.L28
 	j	.L29
@@ -3966,7 +3966,7 @@ IfxMtu_getSystemAddress:	.type	func
 	j	.L33
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   242          systemAddress = 0xf0012000 | ((sramAddress << 5) | ((mbi & 3) << 3));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   242          systemAddress = 0; /* unsupported address descrambling */
 	sh	d0,#5
 .L414:
 	and	d15,d1,#3
@@ -3981,19 +3981,19 @@ IfxMtu_getSystemAddress:	.type	func
 	or	d2,d0
 .L753:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   243          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   243      }
 	j	.L34
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   244  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   245      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   245      return systemAddress;
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   246          systemAddress = 0; /* unsupported address descrambling */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   246  }
 	mov	d2,#0
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   247      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   247  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   248  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   249      return systemAddress;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   249  uint8 IfxMtu_getTrackedSramAddresses(IfxMtu_MbistSel mbistSel, Ifx_MC_ETRR *trackedSramAddresses)
 .L34:
 .L33:
 .L32:
@@ -4001,7 +4001,7 @@ IfxMtu_getSystemAddress:	.type	func
 .L30:
 	j	.L35
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   250  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   250  {
 .L35:
 	ret
 .L313:
@@ -4017,15 +4017,15 @@ __IfxMtu_getSystemAddress_function_end:
 	
 	.global	IfxMtu_getTrackedSramAddresses
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   251  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   252  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   253  uint8 IfxMtu_getTrackedSramAddresses(IfxMtu_MbistSel mbistSel, Ifx_MC_ETRR *trackedSramAddresses)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   251      Ifx_MC *mc                  = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   252      uint8   validFlags          = (mc->ECCD.U >> IFX_MC_ECCD_VAL_OFF) & IFX_MC_ECCD_VAL_MSK;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   253      uint8   numTrackedAddresses = 0;
 ; Function IfxMtu_getTrackedSramAddresses
 .L119:
 IfxMtu_getTrackedSramAddresses:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   254  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   255      Ifx_MC *mc                  = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   254      int     i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   255  
 	mov	d15,#256
 .L758:
 	mul	d4,d15
@@ -4038,7 +4038,7 @@ IfxMtu_getTrackedSramAddresses:	.type	func
 	mov.a	a15,d4
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   256      uint8   validFlags          = (mc->ECCD.U >> IFX_MC_ECCD_VAL_OFF) & IFX_MC_ECCD_VAL_MSK;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   256  #if IFX_MC_ECCD_VAL_LEN > IFXMTU_MAX_TRACKED_ADDRESSES
 	ld.hu	d15,[a15]16
 .L760:
 	sha	d15,#-5
@@ -4046,24 +4046,24 @@ IfxMtu_getTrackedSramAddresses:	.type	func
 	and	d0,d15,#31
 .L419:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   257      uint8   numTrackedAddresses = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   257  # error "Unexpected size of VAL mask"
 	mov	d2,#0
 .L420:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   258      int     i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   258  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   259  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   260  #if IFX_MC_ECCD_VAL_LEN > IFXMTU_MAX_TRACKED_ADDRESSES
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   261  # error "Unexpected size of VAL mask"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   262  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   263  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   264      for (i = 0; i < IFXMTU_MAX_TRACKED_ADDRESSES; ++i)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   260      for (i = 0; i < IFXMTU_MAX_TRACKED_ADDRESSES; ++i)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   261      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   262          if (validFlags & (1 << i))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   263          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   264              trackedSramAddresses[numTrackedAddresses].U = mc->ETRR[i].U;
 	mov	d1,#0
 .L422:
 	j	.L36
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   265      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   266          if (validFlags & (1 << i))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   265              ++numTrackedAddresses;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   266          }
 	mov	d15,#1
 .L762:
 	sha	d15,d15,d1
@@ -4073,8 +4073,8 @@ IfxMtu_getTrackedSramAddresses:	.type	func
 	jeq	d15,#0,.L38
 .L765:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   267          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   268              trackedSramAddresses[numTrackedAddresses].U = mc->ETRR[i].U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   267      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   268  
 	mul	d15,d2,#2
 	addsc.a	a2,a4,d15,#0
 .L766:
@@ -4086,7 +4086,7 @@ IfxMtu_getTrackedSramAddresses:	.type	func
 	st.h	[a2],d15
 .L769:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   269              ++numTrackedAddresses;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   269      return numTrackedAddresses;
 	add	d2,#1
 .L421:
 	extr.u	d2,d2,#0,#8
@@ -4096,13 +4096,13 @@ IfxMtu_getTrackedSramAddresses:	.type	func
 	jlt	d1,#5,.L37
 .L770:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   270          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   271      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   270  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   271  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   272  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   273      return numTrackedAddresses;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   273  void IfxMtu_readSramAddress(IfxMtu_MbistSel mbistSel, uint16 sramAddress)
 	j	.L39
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   274  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   274  {
 .L39:
 	ret
 .L320:
@@ -4118,17 +4118,17 @@ __IfxMtu_getTrackedSramAddresses_function_end:
 	
 	.global	IfxMtu_readSramAddress
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   275  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   275      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   276  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   277  void IfxMtu_readSramAddress(IfxMtu_MbistSel mbistSel, uint16 sramAddress)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   277      /* configure MBIST for single read opeation */
 ; Function IfxMtu_readSramAddress
 .L121:
 IfxMtu_readSramAddress:	.type	func
 	mov	d8,d4
 .L425:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   278  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   279      Ifx_MC *mc = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   278      uint16  mcontrolMask = 0x4000;                                                           /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   279      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
 	mov	d15,#256
 .L603:
 	mul	d15,d8
@@ -4141,39 +4141,39 @@ IfxMtu_readSramAddress:	.type	func
 	mov.a	a15,d15
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   281      /* configure MBIST for single read opeation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   282      uint16  mcontrolMask = 0x4000;                                                           /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   280      mc->CONFIG0.U  = (1 << IFX_MC_CONFIG0_NUMACCS_OFF) | (1 << IFX_MC_CONFIG0_ACCSTYPE_OFF); /* 1 read access */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   281      mc->CONFIG1.U  = 0;                                                                      /* ensure that linear scrambling is used */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   282  
 	mov	d0,#16384
 .L429:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   283      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   283      /* Set the address to be read (RAEN = 0) */
 	or	d15,d0,#8
 .L427:
 	st.h	[a15]4,d15
 .L606:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   284      mc->CONFIG0.U  = (1 << IFX_MC_CONFIG0_NUMACCS_OFF) | (1 << IFX_MC_CONFIG0_ACCSTYPE_OFF); /* 1 read access */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   284      mc->RANGE.U = sramAddress;
 	mov	d15,#4097
 .L607:
 	st.h	[a15],d15
 .L608:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   285      mc->CONFIG1.U  = 0;                                                                      /* ensure that linear scrambling is used */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   285  
 	mov	d15,#0
 .L609:
 	st.h	[a15]2,d15
 .L610:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   286  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   287      /* Set the address to be read (RAEN = 0) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   288      mc->RANGE.U = sramAddress;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   286      /* Start operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   287      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF) | (1 << IFX_MC_MCONTROL_START_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   288      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
 	st.h	[a15]8,d5
 .L611:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   289  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   290      /* Start operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   291      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF) | (1 << IFX_MC_MCONTROL_START_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   290      /* wait for the end of the fill operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   291      IfxMtu_waitForMbistDone(256, 1, mbistSel);
 	or	d15,d0,#8
 .L612:
 	or	d15,#1
@@ -4181,15 +4181,15 @@ IfxMtu_readSramAddress:	.type	func
 	st.h	[a15]4,d15
 .L614:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   292      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   292  
 	or	d15,d0,#8
 .L615:
 	st.h	[a15]4,d15
 .L616:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   293  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   294      /* wait for the end of the fill operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   295      IfxMtu_waitForMbistDone(256, 1, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   293      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   294      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   295          __nop();
 	mov	d4,#256
 .L423:
 	mov	d5,#1
@@ -4199,13 +4199,13 @@ IfxMtu_readSramAddress:	.type	func
 	call	IfxMtu_waitForMbistDone
 .L430:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   296  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   297      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   296      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   297  }
 	j	.L40
 .L41:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   298      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   299          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   298  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   299  
 	nop
 .L40:
 
@@ -4791,8 +4791,8 @@ IfxMtu_readSramAddress:	.type	func
 	jeq	d15,#0,.L41
 .L620:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   300      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   301  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   300  ctiveInversionTest(IfxMtu_MbistSel mbistSel, uint8 rangeSel, uint8 rangeAddrUp, uint8 rangeAddrLow, uint16 *errorAddr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   301  {
 	ret
 .L253:
 	
@@ -4807,9 +4807,9 @@ __IfxMtu_readSramAddress_function_end:
 	
 	.global	IfxMtu_runNonDestructiveInversionTest
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   302  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   303  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   304  uint8 IfxMtu_runNonDestructiveInversionTest(IfxMtu_MbistSel mbistSel, uint8 rangeSel, uint8 rangeAddrUp, uint8 rangeAddrLow, uint16 *errorAddr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   302      /* Select MBIST Memory Controller:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   303       * Ifx_MC is a type describing structure of MBIST Memory Controller
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   304       * registers defined in IfxMc_regdef.h file - MC object */
 ; Function IfxMtu_runNonDestructiveInversionTest
 .L123:
 IfxMtu_runNonDestructiveInversionTest:	.type	func
@@ -4824,11 +4824,11 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	mov.aa	a12,a4
 .L443:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   305  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   306      /* Select MBIST Memory Controller:
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   307       * Ifx_MC is a type describing structure of MBIST Memory Controller
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   308       * registers defined in IfxMc_regdef.h file - MC object */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   309      Ifx_MC *mc               = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   305      Ifx_MC *mc               = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   306      uint16  password         = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   307      uint8   retVal           = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   308      uint8   isEndInitEnabled = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   309      password = IfxScuWdt_getSafetyWatchdogPassword();
 	mov	d0,#256
 .L625:
 	mul	d0,d8
@@ -4841,16 +4841,16 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	mov.a	a15,d0
 .L445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   310      uint16  password         = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   311      uint8   retVal           = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   310  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   311      /* Check if the Endinit is cleared by application. If not, then handle it internally inside teh function.*/
 	mov	d12,#0
 .L447:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   312      uint8   isEndInitEnabled = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   312      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
 	mov	d13,#0
 .L448:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   313      password = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   313      {
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L436:
 	mov	d14,d2
@@ -5372,21 +5372,21 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   506  }      (inlined)
 .L43:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   314  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   315      /* Check if the Endinit is cleared by application. If not, then handle it internally inside teh function.*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   316      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   314  ar EndInit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   315          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   316          isEndInitEnabled = 1;
 	jne	d15,#1,.L44
 .L629:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   317      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   318          /* Clear EndInit */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   319          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   317      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   318  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   319      /* Enable MBIST Memory Controller */
 	mov	d4,d14
 .L449:
 	call	IfxScuWdt_clearSafetyEndinit
 .L450:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   320          isEndInitEnabled = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   320      IfxMtu_enableMbistShell(mbistSel);
 	mov	d13,#1
 .L44:
 
@@ -5918,13 +5918,13 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	st.w	[a2],d15
 .L273:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   321      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   322  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   323      /* Enable MBIST Memory Controller */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   324      IfxMtu_enableMbistShell(mbistSel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   325  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   326      /* for auto-init memories: wait for the end of the clear operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   327      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   321   for auto-init memories: wait for the end of the clear operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   322      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   323      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   324  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   325      /* Configure Non-destructive Inversion test */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   326      mc->CONFIG0.U = 0x4005; //NUMACCS=4, ACCSTYPE=5
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   327      mc->CONFIG1.U = 0x5000; //AG_MOD=5
 	j	.L45
 .L46:
 .L45:
@@ -6495,23 +6495,23 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	jne	d15,#0,.L46
 .L642:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   328      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   329  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   330      /* Configure Non-destructive Inversion test */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   331      mc->CONFIG0.U = 0x4005; //NUMACCS=4, ACCSTYPE=5
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   328  Set the range register */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   329      mc->RANGE.U   = (rangeSel << 15) | (rangeAddrUp << 7) | (rangeAddrLow << 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   330      /* Run the tests */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   331      /* As per AP32917 and Errata MTU_TC.007 DIR is set to 0 */
 	mov	d15,#16389
 .L643:
 	st.h	[a15],d15
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   332      mc->CONFIG1.U = 0x5000; //AG_MOD=5
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   332      mc->MCONTROL.U       = 0x4001;
 	mov	d15,#20480
 .L645:
 	st.h	[a15]2,d15
 .L646:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   333      /* Set the range register */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   334      mc->RANGE.U   = (rangeSel << 15) | (rangeAddrUp << 7) | (rangeAddrLow << 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   333      mc->MCONTROL.B.START = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   334      /* Set EndInit Watchdog (to prevent Watchdog TO)*/
 	sha	d15,d10,#15
 .L647:
 	sha	d9,#7
@@ -6523,31 +6523,31 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	st.h	[a15]8,d11
 .L649:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   335      /* Run the tests */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   336      /* As per AP32917 and Errata MTU_TC.007 DIR is set to 0 */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   337      mc->MCONTROL.U       = 0x4001;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   335      IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   336  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   337      /* wait for the end of the fill operation */
 	mov	d15,#16385
 .L650:
 	st.h	[a15]4,d15
 .L651:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   338      mc->MCONTROL.B.START = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   338      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 4, mbistSel);
 	ld.hu	d15,[a15]4
 .L652:
 	insert	d15,d15,#0,#0,#1
 	st.h	[a15]4,d15
 .L653:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   339      /* Set EndInit Watchdog (to prevent Watchdog TO)*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   340      IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   339      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mc->MSTATUS.B.DONE != 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   340  
 	mov	d4,d14
 .L460:
 	call	IfxScuWdt_setSafetyEndinit
 .L458:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   341  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   342      /* wait for the end of the fill operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   343      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 4, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   341      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   342      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   343          __nop();
 	mul	d15,d8,#12
 .L654:
 	movh.a	a2,#@his(IfxMtu_sramTable)
@@ -6564,14 +6564,14 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	call	IfxMtu_waitForMbistDone
 .L462:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   344      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mc->MSTATUS.B.DONE != 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   344      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   345  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   346      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   346      /* Clear EndInit Again */
 	j	.L48
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   347      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   348          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   347      IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   348  
 	nop
 .L48:
 
@@ -7157,10 +7157,10 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	jeq	d15,#0,.L49
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   349      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   350  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   351      /* Clear EndInit Again */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   352      IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   349   Status */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   350      if (IfxMtu_checkErrorFlags(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   351      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   352          /* Read the Error tracking register and return saying test failed */
 	mov	d4,d14
 .L467:
 	call	IfxScuWdt_clearSafetyEndinit
@@ -7762,21 +7762,21 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.h	   570  }      (inlined)
 .L51:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   353  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   354      /* Check the Fail Status */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   355      if (IfxMtu_checkErrorFlags(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   353      *errorAddr = mc->ETRR[0].U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   354          retVal     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   355      }
 	jeq	d15,#0,.L52
 .L669:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   356      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   357          /* Read the Error tracking register and return saying test failed */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   358          *errorAddr = mc->ETRR[0].U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   356  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   357      /* Disable Memory Controller */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   358      IfxMtu_disableMbistShell(mbistSel);
 	ld.hu	d15,[a15]18
 .L670:
 	st.h	[a12],d15
 .L671:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   359          retVal     = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   359  
 	mov	d12,#1
 .L52:
 
@@ -8303,13 +8303,13 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	st.w	[a15],d15
 .L289:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   360      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   361  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   362      /* Disable Memory Controller */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   363      IfxMtu_disableMbistShell(mbistSel);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   364  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   365      /* for auto-init memories: wait for the end of the clear operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   366      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   360  for auto-init memories: wait for the end of the clear operation */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   361      while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   362      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   363  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   364      /* Restore the endinit state */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   365      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   366      {
 	j	.L53
 .L54:
 .L53:
@@ -8880,29 +8880,29 @@ IfxMtu_runNonDestructiveInversionTest:	.type	func
 	jne	d15,#0,.L54
 .L684:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   367      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   368  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   369      /* Restore the endinit state */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   370      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   367  while (IfxMtu_isAutoInitRunning(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   368      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   369  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   370      /* Restore the endinit state */
 	jne	d13,#1,.L56
 .L685:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   371      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   372          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   373          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   371      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   372      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   373          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
 	mov	d4,d14
 .L479:
 	call	IfxScuWdt_setSafetyEndinit
 .L56:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   374      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   375  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   376      return retVal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   374          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   375      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   376  
 	mov	d2,d12
 .L480:
 	j	.L57
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   377  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   377      return retVal;
 .L57:
 	ret
 .L261:
@@ -8918,17 +8918,17 @@ __IfxMtu_runNonDestructiveInversionTest_function_end:
 	
 	.global	IfxMtu_writeSramAddress
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   378  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   378  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   379  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   380  void IfxMtu_writeSramAddress(IfxMtu_MbistSel mbistSel, uint16 sramAddress)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   380  
 ; Function IfxMtu_writeSramAddress
 .L125:
 IfxMtu_writeSramAddress:	.type	func
 	mov	e8,d5,d4
 .L690:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   381  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   382      Ifx_MC *mc               = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   381  void IfxMtu_writeSramAddress(IfxMtu_MbistSel mbistSel, uint16 sramAddress)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   382  {
 	mov	d0,#256
 .L482:
 	mul	d0,d8
@@ -8941,12 +8941,12 @@ IfxMtu_writeSramAddress:	.type	func
 	mov.a	a15,d0
 .L485:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   383      uint8   isEndInitEnabled = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   383      Ifx_MC *mc               = (Ifx_MC *)(IFXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
 	mov	d10,#0
 .L487:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   384      uint16  password         = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   385      password = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   384      uint8   isEndInitEnabled = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   385      uint16  password         = 0;
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .L481:
 	mov	d11,d2
@@ -9468,58 +9468,58 @@ IfxMtu_writeSramAddress:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Scu\Std\IfxScuWdt.h	   506  }      (inlined)
 .L58:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   386  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   387      /* Check if the Endinit is cleared by application. If not, then handle it internally inside teh function.*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   388      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   386  FXMTU_MC_ADDRESS_BASE + 0x100 * mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   387      uint8   isEndInitEnabled = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   388      uint16  password         = 0;
 	jne	d15,#1,.L59
 .L693:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   389      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   390          /* Clear EndInit */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   391          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   389      password = IfxScuWdt_getSafetyWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   390  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   391      /* Check if the Endinit is cleared by application. If not, then handle it internally inside teh function.*/
 	mov	d4,d11
 .L488:
 	call	IfxScuWdt_clearSafetyEndinit
 .L489:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   392          isEndInitEnabled = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   392      if (IfxScuWdt_getSafetyWatchdogEndInit() == 1U)
 	mov	d10,#1
 .L59:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   393      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   394  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   395      /* configure MBIST for single write opeation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   396      uint16 mcontrolMask = 0x4000;                                                            /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   393      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   394          /* Clear EndInit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   395          IfxScuWdt_clearSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   396          isEndInitEnabled = 1;
 	mov	d0,#16384
 .L490:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   397      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   397      }
 	or	d15,d0,#8
 .L694:
 	st.h	[a15]4,d15
 .L695:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   398      mc->CONFIG0.U  = (1 << IFX_MC_CONFIG0_NUMACCS_OFF) | (0 << IFX_MC_CONFIG0_ACCSTYPE_OFF); /* 1 write access */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   398  
 	mov	d15,#4096
 .L696:
 	st.h	[a15],d15
 .L697:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   399      mc->CONFIG1.U  = 0;                                                                      /* ensure that linear scrambling is used */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   399      /* configure MBIST for single write opeation */
 	mov	d15,#0
 .L698:
 	st.h	[a15]2,d15
 .L491:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   400  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   401      /* Set the address to be written (RAEN = 0) */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   402      mc->RANGE.U = sramAddress;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   400      uint16 mcontrolMask = 0x4000;                                                            /* set USERED flag */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   401      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   402      mc->CONFIG0.U  = (1 << IFX_MC_CONFIG0_NUMACCS_OFF) | (0 << IFX_MC_CONFIG0_ACCSTYPE_OFF); /* 1 write access */
 	st.h	[a15]8,d9
 .L492:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   403  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   404      /* Start operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   405      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF) | (1 << IFX_MC_MCONTROL_START_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   403      mc->CONFIG1.U  = 0;                                                                      /* ensure that linear scrambling is used */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   404  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   405      /* Set the address to be written (RAEN = 0) */
 	or	d15,d0,#8
 .L699:
 	or	d15,#1
@@ -9527,29 +9527,29 @@ IfxMtu_writeSramAddress:	.type	func
 	st.h	[a15]4,d15
 .L701:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   406      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   406      mc->RANGE.U = sramAddress;
 	or	d15,d0,#8
 .L702:
 	st.h	[a15]4,d15
 .L703:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   407  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   408      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   408      /* Start operation */
 	jne	d10,#1,.L60
 .L704:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   409      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   410          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   411          IfxScuWdt_setSafetyEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   409      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF) | (1 << IFX_MC_MCONTROL_START_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   410      mc->MCONTROL.U = mcontrolMask | (1 << IFX_MC_MCONTROL_DIR_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   411  
 	mov	d4,d11
 .L493:
 	call	IfxScuWdt_setSafetyEndinit
 .L60:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   412      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   413  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   414      /* Wait for the end of the operation */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   415      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 1, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   412      if (isEndInitEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   413      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   414          /* Set EndInit Watchdog (to prevent Watchdog TO)*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   415          IfxScuWdt_setSafetyEndinit(password);
 	mul	d15,d8,#12
 .L494:
 	movh.a	a15,#@his(IfxMtu_sramTable)
@@ -9567,14 +9567,14 @@ IfxMtu_writeSramAddress:	.type	func
 	call	IfxMtu_waitForMbistDone
 .L497:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   416      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mc->MSTATUS.B.DONE != 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   416      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   417  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   418      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   418      /* Wait for the end of the operation */
 	j	.L61
 .L62:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   419      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   420          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   419      IfxMtu_waitForMbistDone(IfxMtu_sramTable[mbistSel].mbistDelay, 1, mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   420      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mc->MSTATUS.B.DONE != 0);
 	nop
 .L61:
 
@@ -10160,8 +10160,8 @@ IfxMtu_writeSramAddress:	.type	func
 	jeq	d15,#0,.L62
 .L709:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   421      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   422  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   421  , mbistSel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   422      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, mc->MSTATUS.B.DONE != 0);
 	ret
 .L295:
 	
@@ -10176,8 +10176,8 @@ __IfxMtu_writeSramAddress_function_end:
 	
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   423  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   424  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   425  IFX_STATIC void IfxMtu_waitForMbistDone(uint32 towerDepth, uint8 numInstructions, IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   424      while (!IfxMtu_isMbistDone(mbistSel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   425      {
 ; Function IfxMtu_waitForMbistDone
 .L127:
 IfxMtu_waitForMbistDone:	.type	func
@@ -10186,8 +10186,8 @@ IfxMtu_waitForMbistDone:	.type	func
 	mov	e8,d5,d4
 .L775:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   426  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   427      uint32          waitFact = (SCU_CCUCON0.B.SPBDIV / SCU_CCUCON0.B.SRIDIV) * numInstructions;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   426          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   427      }
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036032)
 	and	d0,d15,#15
@@ -10201,9 +10201,9 @@ IfxMtu_waitForMbistDone:	.type	func
 	mul	d0,d9
 .L507:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   428      volatile uint32 waitTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   428  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   429  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   430      switch (mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   430  
 	movh.a	a15,#@his(.1.jmp)
 	lea	a15,[a15]@los(.1.jmp)
 	mov	d15,#87
@@ -10291,26 +10291,26 @@ IfxMtu_waitForMbistDone:	.type	func
 	
 	.sect	'.text.IfxMtu.IfxMtu_waitForMbistDone'
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   431      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   432      case IfxMtu_MbistSel_gtmFifo:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   431  IFX_STATIC void IfxMtu_waitForMbistDone(uint32 towerDepth, uint8 numInstructions, IfxMtu_MbistSel mbistSel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   432  {
 .L67:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   433      case IfxMtu_MbistSel_gtmMcs0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   433      uint32          waitFact = (SCU_CCUCON0.B.SPBDIV / SCU_CCUCON0.B.SRIDIV) * numInstructions;
 .L68:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   434      case IfxMtu_MbistSel_gtmMcs1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   434      volatile uint32 waitTime;
 .L69:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   435      case IfxMtu_MbistSel_gtmDpll1a:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   435  
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   436      case IfxMtu_MbistSel_gtmDpll1b:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   436      switch (mbistSel)
 .L71:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   437      case IfxMtu_MbistSel_gtmDpll2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   437      {
 .L72:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   438          waitFact = waitFact * SCU_CCUCON1.B.GTMDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   438      case IfxMtu_MbistSel_gtmFifo:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036035)
 	extr.u	d15,d15,#4,#4
@@ -10318,13 +10318,13 @@ IfxMtu_waitForMbistDone:	.type	func
 	mul	d0,d15
 .L779:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   439          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   439      case IfxMtu_MbistSel_gtmMcs0:
 	j	.L93
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   440      case IfxMtu_MbistSel_ethermac:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   440      case IfxMtu_MbistSel_gtmMcs1:
 .L66:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   441          waitFact = waitFact * SCU_CCUCON1.B.GTMDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   441      case IfxMtu_MbistSel_gtmDpll1a:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036035)
 	extr.u	d15,d15,#4,#4
@@ -10332,17 +10332,17 @@ IfxMtu_waitForMbistDone:	.type	func
 	mul	d0,d15
 .L781:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   442          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   442      case IfxMtu_MbistSel_gtmDpll1b:
 	j	.L94
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   443  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   444      case IfxMtu_MbistSel_mcan:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   443      case IfxMtu_MbistSel_gtmDpll2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   444          waitFact = waitFact * SCU_CCUCON1.B.GTMDIV;
 .L74:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   445      case IfxMtu_MbistSel_psi5:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   445          break;
 .L73:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   446          waitFact = waitFact * SCU_CCUCON0.B.BAUD1DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   446      case IfxMtu_MbistSel_ethermac:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036030)
 	and	d15,#15
@@ -10350,18 +10350,18 @@ IfxMtu_waitForMbistDone:	.type	func
 	mul	d0,d15
 .L783:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   447  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   447          waitFact = waitFact * SCU_CCUCON1.B.GTMDIV;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   448          break;
 	j	.L95
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   449  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   450      case IfxMtu_MbistSel_erayObf:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   450      case IfxMtu_MbistSel_mcan:
 .L75:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   451      case IfxMtu_MbistSel_erayIbfTbf:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   451      case IfxMtu_MbistSel_psi5:
 .L76:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   452          waitFact = (IfxScuCcu_getSriFrequency() / IfxScuCcu_getPll2ErayFrequency()) * numInstructions;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   452          waitFact = waitFact * SCU_CCUCON0.B.BAUD1DIV;
 	call	IfxScuCcu_getSriFrequency
 .L508:
 	mov	d10,d2
@@ -11493,14 +11493,14 @@ IfxMtu_waitForMbistDone:	.type	func
 	ftouz	d0,d15
 .L511:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   453          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   453     waitFact = waitFact * SCU_CCUCON0.B.BAUD1DIV;
 	j	.L97
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   454  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   455      case IfxMtu_MbistSel_erayMbf:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   455          break;
 .L77:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   456          waitFact = (IfxScuCcu_getSriFrequency() / IfxScuCcu_getPll2ErayFrequency()) * numInstructions * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   456  
 	call	IfxScuCcu_getSriFrequency
 .L512:
 	mov	d10,d2
@@ -12636,56 +12636,56 @@ IfxMtu_waitForMbistDone:	.type	func
 	ftouz	d0,d15
 .L515:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   457          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   457  ct * SCU_CCUCON0.B.BAUD1DIV;
 	j	.L99
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   458  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   459      case IfxMtu_MbistSel_emem0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   459          break;
 .L78:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   460      case IfxMtu_MbistSel_emem1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   460  
 .L79:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   461      case IfxMtu_MbistSel_emem2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   461      case IfxMtu_MbistSel_erayObf:
 .L80:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   462      case IfxMtu_MbistSel_emem3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   462      case IfxMtu_MbistSel_erayIbfTbf:
 .L81:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   463      case IfxMtu_MbistSel_emem4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   463          waitFact = (IfxScuCcu_getSriFrequency() / IfxScuCcu_getPll2ErayFrequency()) * numInstructions;
 .L82:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   464      case IfxMtu_MbistSel_emem5:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   464          break;
 .L83:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   465      case IfxMtu_MbistSel_emem6:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   465  
 .L84:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   466      case IfxMtu_MbistSel_emem7:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   466      case IfxMtu_MbistSel_erayMbf:
 .L85:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   467      case IfxMtu_MbistSel_ememXtm0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   467          waitFact = (IfxScuCcu_getSriFrequency() / IfxScuCcu_getPll2ErayFrequency()) * numInstructions * 4;
 .L89:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   468      case IfxMtu_MbistSel_ememXtm1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   468          break;
 .L90:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   469      case IfxMtu_MbistSel_fft0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   469  
 .L91:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   470      case IfxMtu_MbistSel_fft1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   470      case IfxMtu_MbistSel_emem0:
 .L92:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   471      case IfxMtu_MbistSel_cifJpeg1_4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   471      case IfxMtu_MbistSel_emem1:
 .L86:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   472      case IfxMtu_MbistSel_cifJpeg3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   472      case IfxMtu_MbistSel_emem2:
 .L87:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   473      case IfxMtu_MbistSel_cifCif:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   473      case IfxMtu_MbistSel_emem3:
 .L88:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   474          waitFact = waitFact * SCU_CCUCON2.B.BBBDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   474      case IfxMtu_MbistSel_emem4:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036040)
 	and	d15,#15
@@ -12693,18 +12693,18 @@ IfxMtu_waitForMbistDone:	.type	func
 	mul	d0,d15
 .L793:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   475          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   475      case IfxMtu_MbistSel_emem5:
 	j	.L100
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   476      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   476      case IfxMtu_MbistSel_emem6:
 .L65:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   477          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   477      case IfxMtu_MbistSel_emem7:
 	j	.L101
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   478      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   479  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   480      if (numInstructions == 4)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   478      case IfxMtu_MbistSel_ememXtm0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   479      case IfxMtu_MbistSel_ememXtm1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   480      case IfxMtu_MbistSel_fft0:
 .L101:
 .L100:
 .L99:
@@ -12715,8 +12715,8 @@ IfxMtu_waitForMbistDone:	.type	func
 	jne	d9,#4,.L102
 .L517:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   481      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   482          waitTime = (towerDepth * waitFact) + 30;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   481      case IfxMtu_MbistSel_fft1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   482      case IfxMtu_MbistSel_cifJpeg1_4:
 	mov	d15,#30
 .L518:
 	madd	d15,d15,d8,d0
@@ -12726,10 +12726,10 @@ IfxMtu_waitForMbistDone:	.type	func
 	j	.L103
 .L102:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   483      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   484      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   485      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   486          waitTime = ((towerDepth / 4) * waitFact) + 30;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   483      case IfxMtu_MbistSel_cifJpeg3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   484      case IfxMtu_MbistSel_cifCif:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   485          waitFact = waitFact * SCU_CCUCON2.B.BBBDIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   486          break;
 	mov	d15,#0
 	addih	d15,d15,#16384
 .L520:
@@ -12742,9 +12742,9 @@ IfxMtu_waitForMbistDone:	.type	func
 	st.w	[a10],d15
 .L103:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   487      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   488  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   489      waitTime = waitTime / 3;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   487      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   488          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   489      }
 	ld.w	d15,[a10]
 .L797:
 	mov	d0,#3
@@ -12755,12 +12755,12 @@ IfxMtu_waitForMbistDone:	.type	func
 .L799:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   490  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   491      while (waitTime--)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   491      if (numInstructions == 4)
 	j	.L104
 .L105:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   492      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   493          __nop();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   493          waitTime = (towerDepth * waitFact) + 30;
 	nop
 .L104:
 	ld.w	d15,[a10]
@@ -12773,7 +12773,7 @@ IfxMtu_waitForMbistDone:	.type	func
 .L802:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   494      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   495  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   495      else
 	ret
 .L329:
 	
@@ -28358,5 +28358,5 @@ __IfxMtu_waitForMbistDone_function_end:
 	.word	(.L329-.L504)/2
 	.byte	19,0,8,26,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Mtu\Std\IfxMtu.c	   496      {
 	; Module end

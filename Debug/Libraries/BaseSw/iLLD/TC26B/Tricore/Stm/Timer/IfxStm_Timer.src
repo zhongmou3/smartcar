@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer\\.IfxStm_Timer.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer\\IfxStm_Timer.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer\\IfxStm_Timer.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer\\IfxStm_Timer.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer\\IfxStm_Timer.c'
@@ -816,10 +816,10 @@ IfxStm_Timer_acknowledgeTimerIrq:	.type	func
 	j	.L4
 .L3:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    69          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    70          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    71          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    72              IfxStm_disableComparatorInterrupt(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    69  rInterrupt(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    70          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    71      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    72      else
 	ld.a	a4,[a15]12
 .L336:
 	ld.bu	d4,[a15]16
@@ -828,19 +828,19 @@ IfxStm_Timer_acknowledgeTimerIrq:	.type	func
 	j	.L5
 .L2:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    73          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    74      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    75      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    73      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    74  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    75      return event;
 .L5:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    76      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    76  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    77  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    78      return event;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    78  
 	mov	d2,d8
 .L291:
 	j	.L6
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    79  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    79  float32 IfxStm_Timer_getFrequency(IfxStm_Timer *driver)
 .L6:
 	ret
 .L142:
@@ -856,15 +856,15 @@ __IfxStm_Timer_acknowledgeTimerIrq_function_end:
 	
 	.global	IfxStm_Timer_getFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    80  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    81  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    82  float32 IfxStm_Timer_getFrequency(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    80  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    81      return 1.0 / IfxStdIf_Timer_tickToS(driver->base.clockFreq, driver->base.period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    82  }
 ; Function IfxStm_Timer_getFrequency
 .L42:
 IfxStm_Timer_getFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    83  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    84      return 1.0 / IfxStdIf_Timer_tickToS(driver->base.clockFreq, driver->base.period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    83  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    84  
 	ld.w	d15,[a4]6
 .L341:
 	ld.w	d0,[a4]
@@ -1326,7 +1326,7 @@ IfxStm_Timer_getFrequency:	.type	func
 .L345:
 	j	.L8
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    85  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    85  imer_getInputFrequency(IfxStm_Timer *driver)
 .L8:
 	ret
 .L157:
@@ -1342,20 +1342,20 @@ __IfxStm_Timer_getFrequency_function_end:
 	
 	.global	IfxStm_Timer_getInputFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    86  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    87  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    88  float32 IfxStm_Timer_getInputFrequency(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    86  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    87      return driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    88  }
 ; Function IfxStm_Timer_getInputFrequency
 .L44:
 IfxStm_Timer_getInputFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    89  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    90      return driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    89  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    90  
 	ld.w	d2,[a4]6
 .L350:
 	j	.L9
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    91  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    91  Ifx_TimerValue IfxStm_Timer_getPeriod(IfxStm_Timer *driver)
 .L9:
 	ret
 .L166:
@@ -1371,20 +1371,20 @@ __IfxStm_Timer_getInputFrequency_function_end:
 	
 	.global	IfxStm_Timer_getPeriod
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    92  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    93  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    94  Ifx_TimerValue IfxStm_Timer_getPeriod(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    92  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    93      return driver->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    94  }
 ; Function IfxStm_Timer_getPeriod
 .L46:
 IfxStm_Timer_getPeriod:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    95  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    96      return driver->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    95  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    96  
 	ld.w	d2,[a4]
 .L355:
 	j	.L10
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    97  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    97  float32 IfxStm_Timer_getResolution(IfxStm_Timer *driver)
 .L10:
 	ret
 .L169:
@@ -1400,15 +1400,15 @@ __IfxStm_Timer_getPeriod_function_end:
 	
 	.global	IfxStm_Timer_getResolution
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    98  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    99  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   100  float32 IfxStm_Timer_getResolution(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    98  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	    99      return 1.0 / driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   100  }
 ; Function IfxStm_Timer_getResolution
 .L48:
 IfxStm_Timer_getResolution:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   101  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   102      return 1.0 / driver->base.clockFreq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   101  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   102  
 	movh	d15,#16256
 .L360:
 	ld.w	d0,[a4]6
@@ -1417,7 +1417,7 @@ IfxStm_Timer_getResolution:	.type	func
 .L362:
 	j	.L11
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   103  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   103  void IfxStm_Timer_run(IfxStm_Timer *driver)
 .L11:
 	ret
 .L171:
@@ -1433,9 +1433,9 @@ __IfxStm_Timer_getResolution_function_end:
 	
 	.global	IfxStm_Timer_run
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   104  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   105  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   106  void IfxStm_Timer_run(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   104  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   105      boolean interruptState;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   106      uint64  timer;
 ; Function IfxStm_Timer_run
 .L50:
 IfxStm_Timer_run:	.type	func
@@ -2130,12 +2130,12 @@ IfxStm_Timer_run:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   666  }      (inlined)
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   107  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   108      boolean interruptState;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   109      uint64  timer;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   107  IfxCpu_disableInterrupts();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   108      timer          = IfxStm_get(driver->stm);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   109      IfxCpu_restoreInterrupts(interruptState);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   110  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   111      interruptState = IfxCpu_disableInterrupts();
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   112      timer          = IfxStm_get(driver->stm);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   111      driver->comparatorValue = (Ifx_TimerValue)(timer >> driver->comparatorShift) + driver->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   112  
 	ld.a	a15,[a4]12
 .L186:
 
@@ -3658,9 +3658,9 @@ IfxStm_Timer_run:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Std\IfxCpu.h	   938      if (enabled != FALSE)      (inlined)
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   113      IfxCpu_restoreInterrupts(interruptState);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   114  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   115      driver->comparatorValue = (Ifx_TimerValue)(timer >> driver->comparatorShift) + driver->base.period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   113  xStm_updateCompare(driver->stm, driver->comparator, driver->comparatorValue);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   114      IfxStm_enableComparatorInterrupt(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   115  }
 	ld.bu	d0,[a4]22
 .L296:
 	rsub	d0,#0
@@ -3696,7 +3696,7 @@ IfxStm_Timer_run:	.type	func
 .L375:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   116  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   117      IfxStm_updateCompare(driver->stm, driver->comparator, driver->comparatorValue);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   117  
 	ld.a	a2,[a4]12
 .L376:
 	ld.bu	d0,[a4]16
@@ -4394,7 +4394,7 @@ IfxStm_Timer_run:	.type	func
 	st.w	[a5]48,d1
 .L203:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   118      IfxStm_enableComparatorInterrupt(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   118  an IfxStm_Timer_setFrequency(IfxStm_Timer *driver, float32 frequency)
 	ld.a	a15,[a4]12
 .L380:
 	ld.bu	d4,[a4]16
@@ -4403,7 +4403,7 @@ IfxStm_Timer_run:	.type	func
 	call	IfxStm_enableComparatorInterrupt
 .L381:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   119  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   119  {
 	ret
 .L173:
 	
@@ -4418,15 +4418,15 @@ __IfxStm_Timer_run_function_end:
 	
 	.global	IfxStm_Timer_setFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   120  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   120      Ifx_TimerValue period = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / frequency);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   121  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   122  boolean IfxStm_Timer_setFrequency(IfxStm_Timer *driver, float32 frequency)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   122      return IfxStm_Timer_setPeriod(driver, period);
 ; Function IfxStm_Timer_setFrequency
 .L52:
 IfxStm_Timer_setFrequency:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   123  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   124      Ifx_TimerValue period = IfxStdIf_Timer_sToTick(driver->base.clockFreq, 1.0 / frequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   123  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   124  
 	ld.w	d15,[a4]6
 .L386:
 	movh	d0,#16256
@@ -4895,13 +4895,13 @@ IfxStm_Timer_setFrequency:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\StdIf\IfxStdIf_Timer.h	   452  }      (inlined)
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   125  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   126      return IfxStm_Timer_setPeriod(driver, period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   125  n IfxStm_Timer_setPeriod(IfxStm_Timer *driver, Ifx_TimerValue period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   126  {
 	call	IfxStm_Timer_setPeriod
 .L298:
 	j	.L22
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   127  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   127      driver->base.period = period;
 .L22:
 	ret
 .L207:
@@ -4918,24 +4918,24 @@ __IfxStm_Timer_setFrequency_function_end:
 	.global	IfxStm_Timer_setPeriod
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   128  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   130  boolean IfxStm_Timer_setPeriod(IfxStm_Timer *driver, Ifx_TimerValue period)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   129      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   130  }
 ; Function IfxStm_Timer_setPeriod
 .L54:
 IfxStm_Timer_setPeriod:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   131  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   132      driver->base.period = period;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   131  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   132  
 	st.w	[a4],d4
 .L392:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   133  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   134      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   133  void IfxStm_Timer_setSingleMode(IfxStm_Timer *driver, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   134  {
 	mov	d2,#1
 .L393:
 	j	.L23
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   135  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   135      driver->base.singleShot = enabled;
 .L23:
 	ret
 .L218:
@@ -4951,19 +4951,19 @@ __IfxStm_Timer_setPeriod_function_end:
 	
 	.global	IfxStm_Timer_setSingleMode
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   136  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   136  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   137  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   138  void IfxStm_Timer_setSingleMode(IfxStm_Timer *driver, boolean enabled)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   138  
 ; Function IfxStm_Timer_setSingleMode
 .L56:
 IfxStm_Timer_setSingleMode:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   139  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   140      driver->base.singleShot = enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   139  boolean IfxStm_Timer_stdIfTimerInit(IfxStdIf_Timer *stdif, IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   140  {
 	st.b	[a4]11,d4
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   141  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   141      IfxStdIf_Timer_initStdIf(stdif, driver);
 	ret
 .L221:
 	
@@ -4978,111 +4978,111 @@ __IfxStm_Timer_setSingleMode_function_end:
 	
 	.global	IfxStm_Timer_stdIfTimerInit
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   142  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   143  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   144  boolean IfxStm_Timer_stdIfTimerInit(IfxStdIf_Timer *stdif, IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   142      /* Set the API link */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   143      stdif->getFrequency         = (IfxStdIf_Timer_GetFrequency) & IfxStm_Timer_getFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   144      stdif->getPeriod            = (IfxStdIf_Timer_GetPeriod) & IfxStm_Timer_getPeriod;
 ; Function IfxStm_Timer_stdIfTimerInit
 .L58:
 IfxStm_Timer_stdIfTimerInit:	.type	func
 	mov.aa	a15,a4
 .L301:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   145  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   146      IfxStdIf_Timer_initStdIf(stdif, driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   145      stdif->getResolution        = (IfxStdIf_Timer_GetResolution) & IfxStm_Timer_getResolution;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   146      //stdif->getTrigger
 	mov.aa	a4,a15
 	call	IfxStdIf_Timer_initStdIf
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   147      /* Set the API link */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   148      stdif->getFrequency         = (IfxStdIf_Timer_GetFrequency) & IfxStm_Timer_getFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   147      stdif->setFrequency         = (IfxStdIf_Timer_SetFrequency) & IfxStm_Timer_setFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   148      stdif->updateInputFrequency = (IfxStdIf_Timer_UpdateInputFrequency) & IfxStm_Timer_updateInputFrequency;
 	movh.a	a2,#@his(IfxStm_Timer_getFrequency)
 	lea	a2,[a2]@los(IfxStm_Timer_getFrequency)
 .L403:
 	st.a	[a15]4,a2
 .L404:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   149      stdif->getPeriod            = (IfxStdIf_Timer_GetPeriod) & IfxStm_Timer_getPeriod;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   149      //stdif->applyUpdate
 	movh.a	a2,#@his(IfxStm_Timer_getPeriod)
 	lea	a2,[a2]@los(IfxStm_Timer_getPeriod)
 .L405:
 	st.a	[a15]8,a2
 .L406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   150      stdif->getResolution        = (IfxStdIf_Timer_GetResolution) & IfxStm_Timer_getResolution;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   150      //stdif->disableUpdate
 	movh.a	a2,#@his(IfxStm_Timer_getResolution)
 	lea	a2,[a2]@los(IfxStm_Timer_getResolution)
 .L407:
 	st.a	[a15]12,a2
 .L408:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   151      //stdif->getTrigger
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   152      stdif->setFrequency         = (IfxStdIf_Timer_SetFrequency) & IfxStm_Timer_setFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   151      stdif->getInputFrequency = (IfxStdIf_Timer_GetInputFrequency) & IfxStm_Timer_getInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   152      stdif->run               = (IfxStdIf_Timer_Run) & IfxStm_Timer_run;
 	movh.a	a2,#@his(IfxStm_Timer_setFrequency)
 	lea	a2,[a2]@los(IfxStm_Timer_setFrequency)
 .L409:
 	st.a	[a15]20,a2
 .L410:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   153      stdif->updateInputFrequency = (IfxStdIf_Timer_UpdateInputFrequency) & IfxStm_Timer_updateInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   153      stdif->setPeriod         = (IfxStdIf_Timer_SetPeriod) & IfxStm_Timer_setPeriod;
 	movh.a	a2,#@his(IfxStm_Timer_updateInputFrequency)
 	lea	a2,[a2]@los(IfxStm_Timer_updateInputFrequency)
 .L411:
 	st.a	[a15]24,a2
 .L412:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   154      //stdif->applyUpdate
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   155      //stdif->disableUpdate
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   156      stdif->getInputFrequency = (IfxStdIf_Timer_GetInputFrequency) & IfxStm_Timer_getInputFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   154      stdif->setSingleMode     = (IfxStdIf_Timer_SetSingleMode) & IfxStm_Timer_setSingleMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   155      //stdif->setTrigger
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   156      stdif->stop              = (IfxStdIf_Timer_Stop) & IfxStm_Timer_stop;
 	movh.a	a2,#@his(IfxStm_Timer_getInputFrequency)
 	lea	a2,[a2]@los(IfxStm_Timer_getInputFrequency)
 .L413:
 	st.a	[a15]36,a2
 .L414:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   157      stdif->run               = (IfxStdIf_Timer_Run) & IfxStm_Timer_run;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   157      stdif->ackTimerIrq       = (IfxStdIf_Timer_AckTimerIrq) & IfxStm_Timer_acknowledgeTimerIrq;
 	movh.a	a2,#@his(IfxStm_Timer_run)
 	lea	a2,[a2]@los(IfxStm_Timer_run)
 .L415:
 	st.a	[a15]40,a2
 .L416:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   158      stdif->setPeriod         = (IfxStdIf_Timer_SetPeriod) & IfxStm_Timer_setPeriod;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   158      //stdif->ackTriggerIrq
 	movh.a	a2,#@his(IfxStm_Timer_setPeriod)
 	lea	a2,[a2]@los(IfxStm_Timer_setPeriod)
 .L417:
 	st.a	[a15]44,a2
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   159      stdif->setSingleMode     = (IfxStdIf_Timer_SetSingleMode) & IfxStm_Timer_setSingleMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   159  
 	movh.a	a2,#@his(IfxStm_Timer_setSingleMode)
 	lea	a2,[a2]@los(IfxStm_Timer_setSingleMode)
 .L419:
 	st.a	[a15]48,a2
 .L420:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   160      //stdif->setTrigger
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   161      stdif->stop              = (IfxStdIf_Timer_Stop) & IfxStm_Timer_stop;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   160      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   161  }
 	movh.a	a2,#@his(IfxStm_Timer_stop)
 	lea	a2,[a2]@los(IfxStm_Timer_stop)
 .L421:
 	st.a	[a15]56,a2
 .L422:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   162      stdif->ackTimerIrq       = (IfxStdIf_Timer_AckTimerIrq) & IfxStm_Timer_acknowledgeTimerIrq;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   162  
 	movh.a	a2,#@his(IfxStm_Timer_acknowledgeTimerIrq)
 	lea	a2,[a2]@los(IfxStm_Timer_acknowledgeTimerIrq)
 .L423:
 	st.a	[a15]60,a2
 .L424:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   163      //stdif->ackTriggerIrq
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   164  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   165      return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   163  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   164  void IfxStm_Timer_stop(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   165  {
 	mov	d2,#1
 .L425:
 	j	.L24
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   166  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   166      IfxStm_disableComparatorInterrupt(driver->stm, driver->comparator);
 .L24:
 	ret
 .L224:
@@ -5098,15 +5098,15 @@ __IfxStm_Timer_stdIfTimerInit_function_end:
 	
 	.global	IfxStm_Timer_stop
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   167  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   167  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   168  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   169  void IfxStm_Timer_stop(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   169  
 ; Function IfxStm_Timer_stop
 .L60:
 IfxStm_Timer_stop:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   170  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   171      IfxStm_disableComparatorInterrupt(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   170  void IfxStm_Timer_updateInputFrequency(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   171  {
 	ld.a	a15,[a4]12
 .L430:
 	ld.bu	d4,[a4]16
@@ -5115,7 +5115,7 @@ IfxStm_Timer_stop:	.type	func
 	call	IfxStm_disableComparatorInterrupt
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   172  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   172      float32 freqency;
 	ret
 .L228:
 	
@@ -5130,18 +5130,18 @@ __IfxStm_Timer_stop_function_end:
 	
 	.global	IfxStm_Timer_updateInputFrequency
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   173  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   174  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   175  void IfxStm_Timer_updateInputFrequency(IfxStm_Timer *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   173      freqency               = IfxStm_getFrequency(driver->stm);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   174      driver->base.clockFreq = freqency / (1 << driver->comparatorShift);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   175  }
 ; Function IfxStm_Timer_updateInputFrequency
 .L62:
 IfxStm_Timer_updateInputFrequency:	.type	func
 	mov.aa	a15,a4
 .L304:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   176  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   177      float32 freqency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   178      freqency               = IfxStm_getFrequency(driver->stm);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   176  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   177  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   178  boolean IfxStm_Timer_init(IfxStm_Timer *driver, const IfxStm_Timer_Config *config)
 	ld.a	a2,[a15]12
 .L234:
 
@@ -6295,7 +6295,7 @@ IfxStm_Timer_updateInputFrequency:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Std\IfxStm.h	   571  }      (inlined)
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   179      driver->base.clockFreq = freqency / (1 << driver->comparatorShift);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   179  er_Base *base   = &driver->base;
 	mov	d15,#1
 .L438:
 	ld.bu	d1,[a15]22
@@ -6308,7 +6308,7 @@ IfxStm_Timer_updateInputFrequency:	.type	func
 	st.w	[a15]6,d15
 .L440:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   180  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   180  
 	ret
 .L230:
 	
@@ -6323,9 +6323,9 @@ __IfxStm_Timer_updateInputFrequency_function_end:
 	
 	.global	IfxStm_Timer_init
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   181  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   181      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.countDir == IfxStdIf_Timer_CountDir_up); /* only this mode is supported */
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   183  boolean IfxStm_Timer_init(IfxStm_Timer *driver, const IfxStm_Timer_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   183      driver->stm          = config->stm;
 ; Function IfxStm_Timer_init
 .L64:
 IfxStm_Timer_init:	.type	func
@@ -6334,49 +6334,49 @@ IfxStm_Timer_init:	.type	func
 	mov.aa	a12,a5
 .L307:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   184  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   185      boolean            result = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   184      driver->comparator   = config->comparator;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   185  
 	mov	d8,#1
 .L308:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   186      IfxStm_Timer_Base *base   = &driver->base;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   187  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   188      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.countDir == IfxStdIf_Timer_CountDir_up); /* only this mode is supported */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   189  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   190      driver->stm          = config->stm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   186      base->triggerEnabled = config->base.trigger.enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   187      base->singleShot     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   188  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   189      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.trigger.enabled == FALSE); /* Trigger feature not supported */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   190      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.startOffset == 0);         /* Trigger feature not supported */
 	ld.a	a2,[a12]36
 .L445:
 	st.a	[a15]12,a2
 .L446:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   191      driver->comparator   = config->comparator;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   191  
 	ld.bu	d15,[a12]40
 .L447:
 	st.b	[a15]16,d15
 .L448:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   192  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   193      base->triggerEnabled = config->base.trigger.enabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   192      /* Initialize the timer part */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   193      // STM timer is already running after reset (free running timer)
 	ld.bu	d15,[a12]12
 .L449:
 	st.b	[a15]4,d15
 .L450:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   194      base->singleShot     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   194  
 	mov	d15,#0
 .L451:
 	st.b	[a15]11,d15
 .L452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   195  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   196      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.trigger.enabled == FALSE); /* Trigger feature not supported */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   197      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->base.startOffset == 0);         /* Trigger feature not supported */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   198  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   199      /* Initialize the timer part */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   200      // STM timer is already running after reset (free running timer)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   201  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   202      // Calculate shift
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   203      driver->comparatorShift = 32 - __clz((uint32)(config->base.minResolution * IfxStm_getFrequency(driver->stm)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   195      // Calculate shift
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   196      driver->comparatorShift = 32 - __clz((uint32)(config->base.minResolution * IfxStm_getFrequency(driver->stm)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   197  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   198      if (driver->comparatorShift > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   199      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   200          driver->comparatorShift--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   201      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   202  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   203      IfxStm_Timer_updateInputFrequency(driver);
 	ld.a	a2,[a15]12
 .L252:
 
@@ -7542,31 +7542,31 @@ IfxStm_Timer_init:	.type	func
 	st.b	[a15]22,d15
 .L458:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   204  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   205      if (driver->comparatorShift > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   204  m_Timer_updateInputFrequency(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   205  
 	ld.bu	d15,[a15]22
 .L459:
 	jlt.u	d15,#1,.L31
 .L460:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   206      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   207          driver->comparatorShift--;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   206      if ((config->base.minResolution > 0) && ((1.0 / base->clockFreq) > config->base.minResolution))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   207      {
 	ld.bu	d15,[a15]22
 .L461:
 	add	d15,#-1
 	st.b	[a15]22,d15
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   208      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   209  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   210      IfxStm_Timer_updateInputFrequency(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   208          result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   209          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   210      }
 	mov.aa	a4,a15
 .L309:
 	call	IfxStm_Timer_updateInputFrequency
 .L310:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   211  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   212      if ((config->base.minResolution > 0) && ((1.0 / base->clockFreq) > config->base.minResolution))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   211      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   212      {}
 	ld.w	d15,[a12]8
 .L462:
 	mov	d0,#0
@@ -7589,33 +7589,33 @@ IfxStm_Timer_init:	.type	func
 	jeq	d15,#0,.L33
 .L470:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   213      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   214          result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   213  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   214      IfxStm_Timer_setFrequency(driver, config->base.frequency);
 	mov	d8,#0
 .L471:
 	j	.L34
 .L33:
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   215          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, FALSE);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   216      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   217      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   215  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   216      IfxStm_setCompareControl(driver->stm, driver->comparator,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   217          (IfxStm_ComparatorOffset)driver->comparatorShift,
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   218      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   219  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   220      IfxStm_Timer_setFrequency(driver, config->base.frequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   218          IfxStm_ComparatorSize_32Bits,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   219          driver->comparator == IfxStm_Comparator_0 ? IfxStm_ComparatorInterrupt_ir0 : IfxStm_ComparatorInterrupt_ir1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   220  
 	ld.w	d4,[a12]
 	mov.aa	a4,a15
 .L311:
 	call	IfxStm_Timer_setFrequency
 .L312:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   221  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   222      IfxStm_setCompareControl(driver->stm, driver->comparator,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   223          (IfxStm_ComparatorOffset)driver->comparatorShift,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   224          IfxStm_ComparatorSize_32Bits,
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   225          driver->comparator == IfxStm_Comparator_0 ? IfxStm_ComparatorInterrupt_ir0 : IfxStm_ComparatorInterrupt_ir1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   221      /* Interrupt configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   222      if (config->base.isrPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   223      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   224          /* clear the interrupt flag of the selected comparator */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   225          IfxStm_clearCompareFlag(driver->stm, driver->comparator);
 	ld.bu	d15,[a15]16
 .L472:
 	jne	d15,#0,.L35
@@ -7638,16 +7638,16 @@ IfxStm_Timer_init:	.type	func
 .L479:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   226  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   227      /* Interrupt configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   228      if (config->base.isrPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   227          volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   228          src = IfxStm_getSrcPointer(driver->stm, config->comparator);
 	ld.hu	d15,[a12]4
 .L480:
 	jlt.u	d15,#1,.L37
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   229      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   230          /* clear the interrupt flag of the selected comparator */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   231          IfxStm_clearCompareFlag(driver->stm, driver->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   229          IfxSrc_init(src, config->base.isrProvider, config->base.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   230          IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   231      }
 	ld.a	a4,[a15]12
 .L482:
 	ld.bu	d4,[a15]16
@@ -7655,15 +7655,15 @@ IfxStm_Timer_init:	.type	func
 .L258:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   232  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   233          volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   234          src = IfxStm_getSrcPointer(driver->stm, config->comparator);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   233      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   234  }
 	ld.a	a4,[a15]12
 .L483:
 	ld.bu	d4,[a12]40
 	call	IfxStm_getSrcPointer
 .L313:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   235          IfxSrc_init(src, config->base.isrProvider, config->base.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   235  
 	ld.bu	d0,[a12]6
 .L484:
 	ld.hu	d15,[a12]4
@@ -7970,15 +7970,15 @@ IfxStm_Timer_init:	.type	func
 	st.b	[a2]1,d15
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   236          IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   237      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   236  lt;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   237  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   239      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   239  
 	mov	d2,d8
 .L314:
 	j	.L38
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   240  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   240  void IfxStm_Timer_initConfig(IfxStm_Timer_Config *config, Ifx_STM *stm)
 .L38:
 	ret
 .L245:
@@ -7994,9 +7994,9 @@ __IfxStm_Timer_init_function_end:
 	
 	.global	IfxStm_Timer_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   241  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   242  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   243  void IfxStm_Timer_initConfig(IfxStm_Timer_Config *config, Ifx_STM *stm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   241  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   242      IfxStdIf_Timer_initConfig(&config->base);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   243      config->stm        = stm;
 ; Function IfxStm_Timer_initConfig
 .L66:
 IfxStm_Timer_initConfig:	.type	func
@@ -8005,23 +8005,25 @@ IfxStm_Timer_initConfig:	.type	func
 	mov.aa	a12,a5
 .L317:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   244  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   245      IfxStdIf_Timer_initConfig(&config->base);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   244      config->comparator = IfxStm_Comparator_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   245  }
 	mov.aa	a4,a15
 	call	IfxStdIf_Timer_initConfig
 .L315:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   246      config->stm        = stm;
+
 	st.a	[a15]36,a12
 .L495:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   247      config->comparator = IfxStm_Comparator_0;
+
 	mov	d15,#0
 .L496:
+
+
 	st.b	[a15]40,d15
 .L497:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Stm\Timer\IfxStm_Timer.c	   248  }
+
 	ret
 .L280:
 	

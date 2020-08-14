@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s\\.IfxPsi5s_Psi5s.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s\\IfxPsi5s_Psi5s.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s\\IfxPsi5s_Psi5s.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s\\IfxPsi5s_Psi5s.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s\\IfxPsi5s_Psi5s.c'
@@ -2283,7 +2283,7 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 	call	IfxPort_setPinMode
 .L212:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   478          IfxPort_setPinPadDriver(rx->pin.port, rx->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   478         IfxPsi5s_setRxInput(rx->module, (IfxPsi5s_AlternateInput)rx->select);
 	ld.a	a4,[a15]4
 .L545:
 	ld.bu	d4,[a15]8
@@ -2292,41 +2292,41 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 	call	IfxPort_setPinPadDriver
 .L547:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   479          IfxPsi5s_setRxInput(rx->module, (IfxPsi5s_AlternateInput)rx->select);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   479      }
 	ld.a	a2,[a15]
 .L548:
 	ld.bu	d15,[a15]12
 .L221:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   480      }
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   481  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   480  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   481  
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   482  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   483  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   484  IFX_INLINE void IfxPsi5s_initTxPin(const IfxPsi5s_Tx_Out *tx, IfxPort_OutputMode outputMode, IfxPort_PadDriver padDriver)
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   485  {
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   486      if (tx->pin.port != NULL_PTR)
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   487      {
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   488          IfxPort_setPinModeOutput(tx->pin.port, tx->pin.pinIndex, outputMode, tx->select);
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   489          IfxPort_setPinPadDriver(tx->pin.port, tx->pin.pinIndex, padDriver);
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   490      }
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   491  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   483  IFX_INLINE void IfxPsi5s_initTxPin(const IfxPsi5s_Tx_Out *tx, IfxPort_OutputMode outputMode, IfxPort_PadDriver padDriver)
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   484  {
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   485      if (tx->pin.port != NULL_PTR)
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   486      {
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   487          IfxPort_setPinModeOutput(tx->pin.port, tx->pin.pinIndex, outputMode, tx->select);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   488          IfxPort_setPinPadDriver(tx->pin.port, tx->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   489      }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   490  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   491  
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   492  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   493  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   494  IFX_INLINE boolean IfxPsi5s_isModuleSuspended(Ifx_PSI5S *psi5s)
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   495  {
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   496      Ifx_PSI5S_OCS ocs;
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   497  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   498      // read the status
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   499      ocs.U = psi5s->OCS.U;
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   500  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   501      // return the status
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   502      return ocs.B.SUSSTA;
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   503  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   493  IFX_INLINE boolean IfxPsi5s_isModuleSuspended(Ifx_PSI5S *psi5s)
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   494  {
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   495      Ifx_PSI5S_OCS ocs;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   496  
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   497      // read the status
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   498      ocs.U = psi5s->OCS.U;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   499  
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   500      // return the status
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   501      return ocs.B.SUSSTA;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   502  }
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   503  
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   504  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   505  
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   506  IFX_INLINE void IfxPsi5s_setRxInput(Ifx_PSI5S *psi5s, IfxPsi5s_AlternateInput alti)
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   507  {
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   508      psi5s->IOCR.B.ALTI = alti;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   505  IFX_INLINE void IfxPsi5s_setRxInput(Ifx_PSI5S *psi5s, IfxPsi5s_AlternateInput alti)
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   506  {
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   507      psi5s->IOCR.B.ALTI = alti;
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   508  }
 	ld.bu	d0,[a2]40
 .L549:
 	insert	d15,d0,d15,#0,#2
@@ -2336,19 +2336,19 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 .L30:
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   369          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   370  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   371          const IfxPsi5s_Tx_Out *tx = pins->tx;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   369  R)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   370          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   371              IfxPsi5s_initTxPin(tx, pins->txMode, pins->pinDriver);
 	ld.a	a15,[a12]8
 .L451:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   372  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   373          if (tx != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   372          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   373  
 	jz.a	a15,.L31
 .L550:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   374          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   375              IfxPsi5s_initTxPin(tx, pins->txMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   374          const IfxPsi5s_Clk_Out *clk = pins->clk;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   375  
 	ld.bu	d5,[a12]12
 .L551:
 	ld.bu	d9,[a12]21
@@ -3449,7 +3449,7 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 	call	IfxPort_setPinMode
 .L240:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   489          IfxPort_setPinPadDriver(tx->pin.port, tx->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   489  X_INLINE boolean IfxPsi5s_isModuleSuspended(Ifx_PSI5S *psi5s)
 	ld.a	a4,[a15]4
 .L557:
 	ld.bu	d4,[a15]8
@@ -3461,19 +3461,19 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 .L32:
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   376          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   377  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   378          const IfxPsi5s_Clk_Out *clk = pins->clk;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   376   if (clk != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   377          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   378              IfxPsi5s_initClkPin(clk, pins->clkMode, pins->pinDriver);
 	ld.a	a15,[a12]16
 .L452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   379  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   380          if (clk != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   379          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   380      }
 	jz.a	a15,.L33
 .L559:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   381          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   382              IfxPsi5s_initClkPin(clk, pins->clkMode, pins->pinDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   381  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   382      return status;
 	ld.bu	d5,[a12]20
 .L560:
 	ld.bu	d9,[a12]21
@@ -4553,7 +4553,7 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 	call	IfxPort_setPinMode
 .L262:
 
-; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   468          IfxPort_setPinPadDriver(clk->pin.port, clk->pin.pinIndex, padDriver);
+; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Std\IfxPsi5s.h	   468  adDriver);
 	ld.a	a4,[a15]4
 .L566:
 	ld.bu	d4,[a15]8
@@ -4566,15 +4566,15 @@ IfxPsi5s_Psi5s_initModule:	.type	func
 .L33:
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   383          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   384      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   385  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   386      return status;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   383  d IfxPsi5s_Psi5s_initModuleConfig(IfxPsi5s_Psi5s_Config *config, Ifx_PSI5S *psi5s)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   384  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   385      uint32 spbFrequency = IfxScuCcu_getSpbFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   386      config->module                                                 = psi5s;
 	mov	d2,d8
 .L453:
 	j	.L35
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   387  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   387      config->fracDiv.frequency                                      = spbFrequency;
 .L35:
 .L27:
 .L25:
@@ -4594,9 +4594,9 @@ __IfxPsi5s_Psi5s_initModule_function_end:
 	
 	.global	IfxPsi5s_Psi5s_initModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   388  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   389  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   390  void IfxPsi5s_Psi5s_initModuleConfig(IfxPsi5s_Psi5s_Config *config, Ifx_PSI5S *psi5s)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   388      config->fracDiv.mode                                           = IfxPsi5s_DividerMode_normal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   389      config->fracDiv.type                                           = IfxPsi5s_ClockType_fracDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   390      config->timestampClock.frequency                               = spbFrequency;
 ; Function IfxPsi5s_Psi5s_initModuleConfig
 .L95:
 IfxPsi5s_Psi5s_initModuleConfig:	.type	func
@@ -4605,229 +4605,229 @@ IfxPsi5s_Psi5s_initModuleConfig:	.type	func
 	mov.aa	a12,a5
 .L456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   391  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   392      uint32 spbFrequency = IfxScuCcu_getSpbFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   391      config->timestampClock.mode                                    = IfxPsi5s_DividerMode_normal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   392      config->timestampClock.type                                    = IfxPsi5s_ClockType_timeStamp;
 	call	IfxScuCcu_getSpbFrequency
 .L454:
 	ftouz	d0,d2
 .L457:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   393      config->module                                                 = psi5s;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   393      config->timestampCounterA.externalTimeBaseSelect               = IfxPsi5s_Trigger_0;
 	st.a	[a15],a12
 .L572:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   394      config->fracDiv.frequency                                      = spbFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   394      config->timestampCounterA.timeBaseSelect                       = IfxPsi5s_TimeBase_internal;
 	st.w	[a15]4,d0
 .L573:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   395      config->fracDiv.mode                                           = IfxPsi5s_DividerMode_normal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   395      config->timestampCounterB.externalTimeBaseSelect               = IfxPsi5s_Trigger_0;
 	mov	d15,#1
 .L574:
 	st.b	[a15]8,d15
 .L575:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   396      config->fracDiv.type                                           = IfxPsi5s_ClockType_fracDiv;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   396      config->timestampCounterB.timeBaseSelect                       = IfxPsi5s_TimeBase_internal;
 	mov	d15,#0
 .L576:
 	st.b	[a15]9,d15
 .L577:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   397      config->timestampClock.frequency                               = spbFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   397      config->ascConfig.baudrateFrequency                            = IFXPSI5S_BAUDRATE_1562500;
 	st.w	[a15]10,d0
 .L578:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   398      config->timestampClock.mode                                    = IfxPsi5s_DividerMode_normal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   398      config->ascConfig.clockOutput.frequency                        = spbFrequency;
 	mov	d15,#1
 .L579:
 	st.b	[a15]14,d15
 .L580:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   399      config->timestampClock.type                                    = IfxPsi5s_ClockType_timeStamp;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   399      config->ascConfig.clockOutput.mode                             = IfxPsi5s_DividerMode_normal;
 	mov	d15,#1
 .L581:
 	st.b	[a15]15,d15
 .L582:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   400      config->timestampCounterA.externalTimeBaseSelect               = IfxPsi5s_Trigger_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   400      config->ascConfig.clockOutput.type                             = IfxPsi5s_ClockType_ascOutput;
 	mov	d15,#0
 .L583:
 	st.b	[a15]16,d15
 .L584:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   401      config->timestampCounterA.timeBaseSelect                       = IfxPsi5s_TimeBase_internal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   401      config->ascConfig.receiveMode                                  = IfxPsi5s_AscMode_sync;
 	mov	d15,#0
 .L585:
 	st.b	[a15]17,d15
 .L586:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   402      config->timestampCounterB.externalTimeBaseSelect               = IfxPsi5s_Trigger_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   402      config->ascConfig.stopBits                                     = IfxPsi5s_AscStopBits_1;
 	mov	d15,#0
 .L587:
 	st.b	[a15]18,d15
 .L588:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   403      config->timestampCounterB.timeBaseSelect                       = IfxPsi5s_TimeBase_internal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   403      config->ascConfig.parityCheckEnabled                           = FALSE;
 	mov	d15,#0
 .L589:
 	st.b	[a15]19,d15
 .L590:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   404      config->ascConfig.baudrateFrequency                            = IFXPSI5S_BAUDRATE_1562500;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   404      config->ascConfig.framingCheckEnabled                          = FALSE;
 	mov.u	d15,#55172
 	addih	d15,d15,#23
 .L591:
 	st.w	[a15]28,d15
 .L592:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   405      config->ascConfig.clockOutput.frequency                        = spbFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   405      config->ascConfig.overrunCheckEnabled                          = FALSE;
 	st.w	[a15]36,d0
 .L593:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   406      config->ascConfig.clockOutput.mode                             = IfxPsi5s_DividerMode_normal;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   406      config->ascConfig.fractionalDividerEnabled                     = FALSE;
 	mov	d15,#1
 .L594:
 	st.b	[a15]40,d15
 .L595:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   407      config->ascConfig.clockOutput.type                             = IfxPsi5s_ClockType_ascOutput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   407      config->ascConfig.receiverOddParityEnabled                     = FALSE;
 	mov	d15,#3
 .L596:
 	st.b	[a15]41,d15
 .L597:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   408      config->ascConfig.receiveMode                                  = IfxPsi5s_AscMode_sync;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   408      config->ascConfig.baudrateSelection                            = IfxPsi5s_AscBaudratePrescalar_divideBy2;
 	mov	d15,#0
 .L598:
 	st.b	[a15]33,d15
 .L599:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   409      config->ascConfig.stopBits                                     = IfxPsi5s_AscStopBits_1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   409      config->ascConfig.loopbackEnabled                              = IfxPsi5s_LoopBackMode_disable;
 	mov	d15,#0
 .L600:
 	st.b	[a15]32,d15
 .L601:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   410      config->ascConfig.parityCheckEnabled                           = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   410      config->ascConfig.transmitMode                                 = IfxPsi5s_AscMode_sync;
 	mov	d15,#0
 .L602:
 	st.b	[a15]20,d15
 .L603:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   411      config->ascConfig.framingCheckEnabled                          = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   411      config->ascConfig.transmitterOddParityEnabled                  = FALSE;
 	mov	d15,#0
 .L604:
 	st.b	[a15]21,d15
 .L605:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   412      config->ascConfig.overrunCheckEnabled                          = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   412      config->globalControlConfig.crcErrorConsideredForRSI           = TRUE;
 	mov	d15,#0
 .L606:
 	st.b	[a15]22,d15
 .L607:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   413      config->ascConfig.fractionalDividerEnabled                     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   413      config->globalControlConfig.xcrcErrorConsideredForRSI          = TRUE;
 	mov	d15,#0
 .L608:
 	st.b	[a15]23,d15
 .L609:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   414      config->ascConfig.receiverOddParityEnabled                     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   414      config->globalControlConfig.transmitErrorConsideredForRSI      = TRUE;
 	mov	d15,#0
 .L610:
 	st.b	[a15]24,d15
 .L611:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   415      config->ascConfig.baudrateSelection                            = IfxPsi5s_AscBaudratePrescalar_divideBy2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   415      config->globalControlConfig.parityErrorConsideredForRSI        = TRUE;
 	mov	d15,#0
 .L612:
 	st.b	[a15]34,d15
 .L613:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   416      config->ascConfig.loopbackEnabled                              = IfxPsi5s_LoopBackMode_disable;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   416      config->globalControlConfig.framingErrorConsideredForRSI       = TRUE;
 	mov	d15,#0
 .L614:
 	st.b	[a15]25,d15
 .L615:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   417      config->ascConfig.transmitMode                                 = IfxPsi5s_AscMode_sync;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   417      config->globalControlConfig.overrunErrorConsideredForRSI       = FALSE;
 	mov	d15,#0
 .L616:
 	st.b	[a15]35,d15
 .L617:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   418      config->ascConfig.transmitterOddParityEnabled                  = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   418      config->globalControlConfig.receiveBufferErrorConsideredForRSI = FALSE;
 	mov	d15,#0
 .L618:
 	st.b	[a15]26,d15
 .L619:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   419      config->globalControlConfig.crcErrorConsideredForRSI           = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   419      config->globalControlConfig.headerErrorConsideredForRSI        = FALSE;
 	mov	d15,#1
 .L620:
 	st.b	[a15]45,d15
 .L621:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   420      config->globalControlConfig.xcrcErrorConsideredForRSI          = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   420      config->globalControlConfig.idleTime                           = IfxPsi5s_IdleTime_1;
 	mov	d15,#1
 .L622:
 	st.b	[a15]46,d15
 .L623:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   421      config->globalControlConfig.transmitErrorConsideredForRSI      = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   421      config->globalControlConfig.ascOnlyMode                        = FALSE;
 	mov	d15,#1
 .L624:
 	st.b	[a15]47,d15
 .L625:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   422      config->globalControlConfig.parityErrorConsideredForRSI        = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   422      config->pins                                                   = NULL_PTR;
 	mov	d15,#1
 .L626:
 	st.b	[a15]48,d15
 .L627:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   423      config->globalControlConfig.framingErrorConsideredForRSI       = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   423  }
 	mov	d15,#1
 .L628:
 	st.b	[a15]49,d15
 .L629:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   424      config->globalControlConfig.overrunErrorConsideredForRSI       = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   424  
 	mov	d15,#0
 .L630:
 	st.b	[a15]50,d15
 .L631:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   425      config->globalControlConfig.receiveBufferErrorConsideredForRSI = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   425  
 	mov	d15,#0
 .L632:
 	st.b	[a15]51,d15
 .L633:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   426      config->globalControlConfig.headerErrorConsideredForRSI        = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   426  IFX_STATIC uint32 IfxPsi5s_Psi5s_initializeClock(Ifx_PSI5S *psi5s, const IfxPsi5s_Psi5s_Clock *clock)
 	mov	d15,#0
 .L634:
 	st.b	[a15]52,d15
 .L635:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   427      config->globalControlConfig.idleTime                           = IfxPsi5s_IdleTime_1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   427  {
 	mov	d15,#0
 .L636:
 	st.w	[a15]54,d15
 .L637:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   428      config->globalControlConfig.ascOnlyMode                        = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   428      uint64               step           = 0;
 	mov	d15,#0
 .L638:
 	st.b	[a15]44,d15
 .L639:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   429      config->pins                                                   = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   429      uint32               stepRange      = IFXPSI5S_STEP_RANGE;
 	mov.a	a2,#0
 .L640:
 	st.a	[a15]60,a2
 .L641:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   430  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   430      uint32               result         = 0;
 	ret
 .L263:
 	
@@ -4841,45 +4841,45 @@ __IfxPsi5s_Psi5s_initModuleConfig_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   431  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   432  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   433  IFX_STATIC uint32 IfxPsi5s_Psi5s_initializeClock(Ifx_PSI5S *psi5s, const IfxPsi5s_Psi5s_Clock *clock)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   431      IfxPsi5s_DividerMode divMode        = clock->mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   432      IfxPsi5s_ClockType   clockType      = clock->type;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   433      uint32               clockFrequency = clock->frequency;
 ; Function IfxPsi5s_Psi5s_initializeClock
 .L97:
 IfxPsi5s_Psi5s_initializeClock:	.type	func
 	mov.aa	a15,a4
 .L459:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   434  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   435      uint64               step           = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   436      uint32               stepRange      = IFXPSI5S_STEP_RANGE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   434      uint32               fInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   435      Ifx_PSI5S_FDR        tempFDR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   436      Ifx_PSI5S_FDRT       tempFDRT;
 	mov	d8,#1024
 .L460:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   437      uint32               result         = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   438      IfxPsi5s_DividerMode divMode        = clock->mode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   437      Ifx_PSI5S_FDO        tempFDO;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   438  
 	ld.bu	d9,[a5]4
 .L461:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   439      IfxPsi5s_ClockType   clockType      = clock->type;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   439      if (clockType == IfxPsi5s_ClockType_fracDiv)
 	ld.bu	d10,[a5]5
 .L462:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   440      uint32               clockFrequency = clock->frequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   440      {
 	ld.w	d12,[a5]
 .L463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   441      uint32               fInput;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   442      Ifx_PSI5S_FDR        tempFDR;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   443      Ifx_PSI5S_FDRT       tempFDRT;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   444      Ifx_PSI5S_FDO        tempFDO;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   445  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   446      if (clockType == IfxPsi5s_ClockType_fracDiv)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   441          fInput = IfxScuCcu_getSpbFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   442      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   443      else if (clockType == IfxPsi5s_ClockType_ascOutput)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   444      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   445          fInput    = IfxScuCcu_getSpbFrequency(); // assumption here is that fBaud2 is equal to fSPB
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   446          stepRange = 2 * IFXPSI5S_STEP_RANGE;
 	jne	d10,#0,.L36
 .L851:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   447      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   448          fInput = IfxScuCcu_getSpbFrequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   447      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   448      else
 	call	IfxScuCcu_getSpbFrequency
 .L458:
 	ftouz	d11,d2
@@ -4887,96 +4887,96 @@ IfxPsi5s_Psi5s_initializeClock:	.type	func
 	j	.L37
 .L36:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   449      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   450      else if (clockType == IfxPsi5s_ClockType_ascOutput)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   449      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   450          fInput = IfxPsi5s_Psi5s_getFracDivClock(psi5s);
 	jne	d10,#3,.L38
 .L852:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   451      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   452          fInput    = IfxScuCcu_getSpbFrequency(); // assumption here is that fBaud2 is equal to fSPB
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   451  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   452          if (fInput == 0)
 	call	IfxScuCcu_getSpbFrequency
 .L466:
 	ftouz	d11,d2
 .L467:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   453          stepRange = 2 * IFXPSI5S_STEP_RANGE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   453          {
 	mov	d8,#2048
 .L853:
 	j	.L39
 .L38:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   454      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   455      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   456      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   457          fInput = IfxPsi5s_Psi5s_getFracDivClock(psi5s);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   454              result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   455              return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   456          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   457          else
 	mov.aa	a4,a15
 	call	IfxPsi5s_Psi5s_getFracDivClock
 .L468:
 	mov	d11,d2
 .L470:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   458  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   459          if (fInput == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   458          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   459      }
 	jne	d11,#0,.L40
 .L854:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   460          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   461              result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   460  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   461      switch (divMode)
 	mov	d2,#0
 .L469:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   462              return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   462      {
 	j	.L41
 .L40:
 .L39:
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   463          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   464          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   465          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   466      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   467  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   468      switch (divMode)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   469      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   470      case IfxPsi5s_DividerMode_normal:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   463      case IfxPsi5s_DividerMode_normal:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   464          step = stepRange - (fInput / clockFrequency);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   465  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   466          if (step > (stepRange - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   467          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   468              step = stepRange - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   469          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   470          else
 	mov	d15,#1
 	jeq	d15,d9,.L42
 .L855:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   471          step = stepRange - (fInput / clockFrequency);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   472  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   473          if (step > (stepRange - 1))
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   474          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   475              step = stepRange - 1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   476          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   477          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   478          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   479              /* do nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   480          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   481  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   482          result = (uint32)(fInput / (stepRange - step));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   483          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   484  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   485      case IfxPsi5s_DividerMode_fractional:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   471          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   472              /* do nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   473          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   474  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   475          result = (uint32)(fInput / (stepRange - step));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   476          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   477  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   478      case IfxPsi5s_DividerMode_fractional:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   479          step = (uint64)((uint64)clockFrequency * stepRange) / fInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   480  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   481          if (step > (stepRange - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   482          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   483              step = stepRange - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   484          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   485          else
 	mov	d15,#2
 	jeq	d15,d9,.L43
 .L856:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   486          step = (uint64)((uint64)clockFrequency * stepRange) / fInput;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   487  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   488          if (step > (stepRange - 1))
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   489          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   490              step = stepRange - 1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   491          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   492          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   493          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   494              /* do nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   495          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   496  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   497          result = (uint32)((uint64)((uint64)fInput * step)) / stepRange;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   498          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   486          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   487              /* do nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   488          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   489  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   490          result = (uint32)((uint64)((uint64)fInput * step)) / stepRange;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   491          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   492  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   493      case IfxPsi5s_DividerMode_off:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   494      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   495          step   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   496          result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   497          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   498      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   499  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   500      case IfxPsi5s_DividerMode_off:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   500      if (result != 0)
 	mov	d15,#3
 	jeq	d15,d9,.L44
 	j	.L45
@@ -5060,55 +5060,55 @@ IfxPsi5s_Psi5s_initializeClock:	.type	func
 	j	.L51
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   501      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   501      {
 .L45:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   502          step   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   502          switch (clockType)
 	mov	e12,#0
 .L480:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   503          result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   503          {
 	mov	d2,#0
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   504          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   504          case IfxPsi5s_ClockType_fracDiv:
 	j	.L52
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   505      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   506  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   507      if (result != 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   505              tempFDR.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   506              tempFDR.B.DM   = divMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   507              tempFDR.B.STEP = (uint32)step;
 .L52:
 .L51:
 .L48:
 	jeq	d2,#0,.L53
 .L482:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   508      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   509          switch (clockType)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   510          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   511          case IfxPsi5s_ClockType_fracDiv:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   508              psi5s->FDR.U   = tempFDR.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   509              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   510  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   511          case IfxPsi5s_ClockType_timeStamp:
 	mov	d15,#0
 	jeq	d15,d10,.L54
 .L870:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   512              tempFDR.U      = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   513              tempFDR.B.DM   = divMode;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   514              tempFDR.B.STEP = (uint32)step;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   515              psi5s->FDR.U   = tempFDR.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   512              tempFDRT.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   513              tempFDRT.B.DM   = divMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   514              tempFDRT.B.STEP = (uint32)step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   515              psi5s->FDRT.U   = tempFDRT.U;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   516              break;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   517  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   518          case IfxPsi5s_ClockType_timeStamp:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   518          case IfxPsi5s_ClockType_ascOutput:
 	mov	d15,#1
 	jeq	d15,d10,.L55
 .L871:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   519              tempFDRT.U      = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   520              tempFDRT.B.DM   = divMode;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   521              tempFDRT.B.STEP = (uint32)step;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   522              psi5s->FDRT.U   = tempFDRT.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   519              tempFDO.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   520              tempFDO.B.DM   = divMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   521              tempFDO.B.STEP = (uint32)step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   522              psi5s->FDO.U   = tempFDO.U;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   523              break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   524  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   525          case IfxPsi5s_ClockType_ascOutput:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   524          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   525              break;
 	mov	d15,#3
 	jeq	d15,d10,.L56
 	j	.L57
@@ -5138,46 +5138,46 @@ IfxPsi5s_Psi5s_initializeClock:	.type	func
 	j	.L59
 .L56:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   526              tempFDO.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   526          }
 	mov	d15,#0
 .L485:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   527              tempFDO.B.DM   = divMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   527      }
 	insert	d15,d15,d9,#14,#2
 .L880:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   528              tempFDO.B.STEP = (uint32)step;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   528  
 	extr.u	d0,d12,#0,#16
 .L881:
 	insert	d15,d15,d0,#0,#11
 .L882:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   529              psi5s->FDO.U   = tempFDO.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   529      return result;
 	st.w	[a15]540,d15
 .L883:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   530              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   530  }
 	j	.L60
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   531          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   531  
 .L57:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   532              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   532  
 	j	.L61
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   533          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   534      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   533  void IfxPsi5s_Psi5s_readFrame(IfxPsi5s_Psi5s_Channel *channel, IfxPsi5s_Psi5s_Frame *frame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   534  {
 .L61:
 .L60:
 .L59:
 .L58:
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   535  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   536      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   535      frame->data.rdr                                       = channel->module->psi5s->RDR.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   536      frame->status.rds                                     = channel->module->psi5s->RDS.U;
 	j	.L62
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   537  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   537      frame->timestamp.tsm                                  = channel->module->psi5s->TSM.U;
 .L62:
 .L41:
 	ret
@@ -5195,14 +5195,14 @@ __IfxPsi5s_Psi5s_initializeClock_function_end:
 	.global	IfxPsi5s_Psi5s_readFrame
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   538  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   539  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   540  void IfxPsi5s_Psi5s_readFrame(IfxPsi5s_Psi5s_Channel *channel, IfxPsi5s_Psi5s_Frame *frame)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   539      channel->module->psi5s->INTCLR[channel->channelId].U |= (IFX_PSI5S_INTCLR_RDI_MSK << IFX_PSI5S_INTCLR_RDI_OFF) | (IFX_PSI5S_INTCLR_RSI_MSK << IFX_PSI5S_INTCLR_RSI_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   540  }
 ; Function IfxPsi5s_Psi5s_readFrame
 .L99:
 IfxPsi5s_Psi5s_readFrame:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   541  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   542      frame->data.rdr                                       = channel->module->psi5s->RDR.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   541  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   542  
 	ld.a	a15,[a4]
 .L769:
 	ld.a	a15,[a15]
@@ -5212,7 +5212,7 @@ IfxPsi5s_Psi5s_readFrame:	.type	func
 	st.w	[a5],d15
 .L772:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   543      frame->status.rds                                     = channel->module->psi5s->RDS.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   543  void IfxPsi5s_Psi5s_resetModule(Ifx_PSI5S *psi5s)
 	ld.a	a15,[a4]
 .L773:
 	ld.a	a15,[a15]
@@ -5222,7 +5222,7 @@ IfxPsi5s_Psi5s_readFrame:	.type	func
 	st.w	[a5]6,d15
 .L776:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   544      frame->timestamp.tsm                                  = channel->module->psi5s->TSM.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   544  {
 	ld.a	a15,[a4]
 .L777:
 	ld.a	a15,[a15]
@@ -5232,8 +5232,8 @@ IfxPsi5s_Psi5s_readFrame:	.type	func
 	st.w	[a5]12,d15
 .L780:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   545  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   546      channel->module->psi5s->INTCLR[channel->channelId].U |= (IFX_PSI5S_INTCLR_RDI_MSK << IFX_PSI5S_INTCLR_RDI_OFF) | (IFX_PSI5S_INTCLR_RSI_MSK << IFX_PSI5S_INTCLR_RSI_OFF);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   545      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   546      IfxScuWdt_clearSafetyEndinit(passwd);
 	ld.b	d15,[a4]4
 .L781:
 	mul	d15,d15,#4
@@ -5260,7 +5260,7 @@ IfxPsi5s_Psi5s_readFrame:	.type	func
 	st.w	[a15]672,d15
 .L792:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   547  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   547      psi5s->KRST1.B.RST = 1;     /* Only if both Kernel reset bits are set a reset is executed */
 	ret
 .L299:
 	
@@ -5275,44 +5275,44 @@ __IfxPsi5s_Psi5s_readFrame_function_end:
 	
 	.global	IfxPsi5s_Psi5s_resetModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   548  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   548      psi5s->KRST0.B.RST = 1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   549  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   550  void IfxPsi5s_Psi5s_resetModule(Ifx_PSI5S *psi5s)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   550      while (psi5s->KRST0.B.RSTSTAT == 0)
 ; Function IfxPsi5s_Psi5s_resetModule
 .L101:
 IfxPsi5s_Psi5s_resetModule:	.type	func
 	mov.aa	a15,a4
 .L487:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   551  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   552      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   551      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   552          /* Wait until reset is executed */
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L486:
 	mov	d8,d2
 .L489:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   553      IfxScuWdt_clearSafetyEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   553      }
 	mov	d4,d8
 .L488:
 	call	IfxScuWdt_clearSafetyEndinit
 .L490:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   554      psi5s->KRST1.B.RST = 1;     /* Only if both Kernel reset bits are set a reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   554  
 	ld.bu	d15,[a15]988
 .L823:
 	or	d15,#1
 	st.b	[a15]988,d15
 .L824:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   555      psi5s->KRST0.B.RST = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   555      psi5s->KRSTCLR.B.CLR = 1;   /* Clear Kernel reset status bit */
 	ld.bu	d15,[a15]984
 .L825:
 	or	d15,#1
 	st.b	[a15]984,d15
 .L826:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   556  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   557      while (psi5s->KRST0.B.RSTSTAT == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   556      IfxScuWdt_setSafetyEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   557  }
 	j	.L63
 .L64:
 .L63:
@@ -5321,24 +5321,24 @@ IfxPsi5s_Psi5s_resetModule:	.type	func
 	jz.t	d15:1,.L64
 .L828:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   558      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   559          /* Wait until reset is executed */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   560      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   561  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   562      psi5s->KRSTCLR.B.CLR = 1;   /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   558  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   559  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   560  boolean IfxPsi5s_Psi5s_sendChannelData(IfxPsi5s_Psi5s_Channel *channel, uint32 data)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   561  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   562      channel->module->psi5s->SDR[channel->channelId].U = data & 0x00FFFFFF;
 	ld.bu	d15,[a15]992
 .L829:
 	or	d15,#1
 	st.b	[a15]992,d15
 .L830:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   563      IfxScuWdt_setSafetyEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   563  
 	mov	d4,d8
 .L491:
 	call	IfxScuWdt_setSafetyEndinit
 .L492:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   564  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   564      if (channel->module->psi5s->INTSTAT[channel->channelId].B.TPOI)
 	ret
 .L308:
 	
@@ -5353,15 +5353,15 @@ __IfxPsi5s_Psi5s_resetModule_function_end:
 	
 	.global	IfxPsi5s_Psi5s_sendChannelData
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   565  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   566  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   567  boolean IfxPsi5s_Psi5s_sendChannelData(IfxPsi5s_Psi5s_Channel *channel, uint32 data)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   565      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   566          return FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   567      }
 ; Function IfxPsi5s_Psi5s_sendChannelData
 .L103:
 IfxPsi5s_Psi5s_sendChannelData:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   568  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   569      channel->module->psi5s->SDR[channel->channelId].U = data & 0x00FFFFFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   568      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   569      {
 	ld.b	d15,[a4]4
 .L797:
 	mul	d15,d15,#4
@@ -5377,8 +5377,8 @@ IfxPsi5s_Psi5s_sendChannelData:	.type	func
 	st.w	[a15]336,d15
 .L803:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   570  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   571      if (channel->module->psi5s->INTSTAT[channel->channelId].B.TPOI)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   570          return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   571      }
 	ld.b	d15,[a4]4
 .L804:
 	mul	d15,d15,#4
@@ -5394,23 +5394,23 @@ IfxPsi5s_Psi5s_sendChannelData:	.type	func
 	jz.t	d15:7,.L65
 .L810:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   572      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   573          return FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   572  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   573  
 	mov	d2,#0
 .L811:
 	j	.L66
 .L65:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   574      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   575      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   576      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   577          return TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   574  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   575  IFX_STATIC uint32 IfxPsi5s_Psi5s_setBaudrate(Ifx_PSI5S *psi5s, uint32 baudrate, IfxPsi5s_Psi5s_AscConfig *ascConfig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   576  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   577      uint32 bgValue = 0;
 	mov	d2,#1
 .L812:
 	j	.L67
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   578      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   579  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   578      uint32 fdValue = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   579      uint32 result  = 0;
 .L67:
 .L66:
 	ret
@@ -5426,9 +5426,9 @@ __IfxPsi5s_Psi5s_sendChannelData_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   580  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   580      uint32 fInput;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   581  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   582  IFX_STATIC uint32 IfxPsi5s_Psi5s_setBaudrate(Ifx_PSI5S *psi5s, uint32 baudrate, IfxPsi5s_Psi5s_AscConfig *ascConfig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   582      if (ascConfig->receiveMode == IfxPsi5s_AscMode_sync)
 ; Function IfxPsi5s_Psi5s_setBaudrate
 .L105:
 IfxPsi5s_Psi5s_setBaudrate:	.type	func
@@ -5439,39 +5439,39 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	mov.aa	a15,a5
 .L496:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   583  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   584      uint32 bgValue = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   585      uint32 fdValue = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   583      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   584          if (ascConfig->transmitMode != IfxPsi5s_AscMode_sync)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   585          {
 	mov	d9,#0
 .L497:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   586      uint32 result  = 0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   587      uint32 fInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   586              // sync modes must be set for both receive and transmit
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   587          }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   588  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   589      if (ascConfig->receiveMode == IfxPsi5s_AscMode_sync)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   589          fInput  = IfxScuCcu_getBaud2Frequency();
 	ld.bu	d15,[a15]13
 .L888:
 	jne	d15,#0,.L68
 .L889:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   590      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   591          if (ascConfig->transmitMode != IfxPsi5s_AscMode_sync)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   590          bgValue = (uint32)(fInput / ((ascConfig->baudrateSelection + 2) * 4 * (uint64)baudrate) - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   591  
 	ld.bu	d15,[a15]15
 .L890:
 	jeq	d15,#0,.L69
 .L69:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   592          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   593              // sync modes must be set for both receive and transmit
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   594          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   595  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   596          fInput  = IfxScuCcu_getBaud2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   592          if (bgValue > (IFXPSI5S_BG_RANGE - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   593          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   594              bgValue = IFXPSI5S_BG_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   595          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   596          else
 	call	IfxScuCcu_getBaud2Frequency
 .L493:
 	ftouz	d10,d2
 .L498:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   597          bgValue = (uint32)(fInput / ((ascConfig->baudrateSelection + 2) * 4 * (uint64)baudrate) - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   597          {
 	mov	d5,#0
 	mov	d4,d10
 .L499:
@@ -5495,29 +5495,29 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	addx	d2,d2,#-1
 .L502:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   598  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   599          if (bgValue > (IFXPSI5S_BG_RANGE - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   598              /* do nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   599          }
 	mov	d0,#8191
 .L895:
 	jge.u	d0,d2,.L70
 .L896:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   600          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   601              bgValue = IFXPSI5S_BG_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   600  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   601          result = fInput / ((ascConfig->baudrateSelection + 2) * 4 * (bgValue + 1));
 	mov	d2,#8191
 .L897:
 	j	.L71
 .L70:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   602          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   603          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   602      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   603      else if (ascConfig->fractionalDividerEnabled == FALSE)
 .L71:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   604          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   605              /* do nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   606          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   604      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   605          fInput  = IfxScuCcu_getBaud2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   606          bgValue = (uint32)(fInput / ((ascConfig->baudrateSelection + 2) * 16 * (uint64)baudrate) - 1);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   607  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   608          result = fInput / ((ascConfig->baudrateSelection + 2) * 4 * (bgValue + 1));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   608          if (bgValue > (IFXPSI5S_BG_RANGE - 1))
 	ld.bu	d15,[a15]14
 .L898:
 	add	d0,d15,#2
@@ -5533,21 +5533,21 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	j	.L72
 .L68:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   609      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   610      else if (ascConfig->fractionalDividerEnabled == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   609          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   610              bgValue = IFXPSI5S_BG_RANGE - 1;
 	ld.bu	d15,[a15]3
 .L903:
 	jne	d15,#0,.L73
 .L904:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   611      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   612          fInput  = IfxScuCcu_getBaud2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   611          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   612          else
 	call	IfxScuCcu_getBaud2Frequency
 .L504:
 	ftouz	d10,d2
 .L505:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   613          bgValue = (uint32)(fInput / ((ascConfig->baudrateSelection + 2) * 16 * (uint64)baudrate) - 1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   613          {
 	mov	d5,#0
 	mov	d4,d10
 .L506:
@@ -5571,29 +5571,29 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	addx	d2,d2,#-1
 .L509:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   614  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   615          if (bgValue > (IFXPSI5S_BG_RANGE - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   614              /* do nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   615          }
 	mov	d0,#8191
 .L909:
 	jge.u	d0,d2,.L74
 .L910:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   616          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   617              bgValue = IFXPSI5S_BG_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   616  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   617          result = fInput / ((ascConfig->baudrateSelection + 2) * 16 * (bgValue + 1));
 	mov	d2,#8191
 .L911:
 	j	.L75
 .L74:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   618          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   619          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   618      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   619      else
 .L75:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   620          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   621              /* do nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   622          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   620      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   621          fInput  = IfxScuCcu_getBaud2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   622          fdValue = (((uint64)baudrate * IFXPSI5S_FDV_RANGE * 16)) / (float)fInput;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   623  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   624          result = fInput / ((ascConfig->baudrateSelection + 2) * 16 * (bgValue + 1));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   624          if (fdValue > (IFXPSI5S_FDV_RANGE - 1))
 	ld.bu	d15,[a15]14
 .L912:
 	add	d0,d15,#2
@@ -5609,16 +5609,16 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	j	.L76
 .L73:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   625      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   626      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   627      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   628          fInput  = IfxScuCcu_getBaud2Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   625          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   626              fdValue = IFXPSI5S_FDV_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   627              bgValue = ((float)fdValue / IFXPSI5S_FDV_RANGE) * (fInput / (16 * baudrate)) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   628  
 	call	IfxScuCcu_getBaud2Frequency
 .L511:
 	ftouz	d10,d2
 .L512:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   629          fdValue = (((uint64)baudrate * IFXPSI5S_FDV_RANGE * 16)) / (float)fInput;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   629              if (bgValue > (IFXPSI5S_BG_RANGE - 1))
 	mov	d1,#0
 	mov	d0,d8
 .L513:
@@ -5642,19 +5642,19 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	ftouz	d9,d15
 .L921:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   630  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   631          if (fdValue > (IFXPSI5S_FDV_RANGE - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   630              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   631                  bgValue = IFXPSI5S_BG_RANGE - 1;
 	mov	d15,#2047
 .L922:
 	jge.u	d15,d9,.L77
 .L923:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   632          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   633              fdValue = IFXPSI5S_FDV_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   632              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   633              else
 	mov	d9,#2047
 .L924:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   634              bgValue = ((float)fdValue / IFXPSI5S_FDV_RANGE) * (fInput / (16 * baudrate)) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   634              {
 	utof	d15,d9
 .L925:
 	movh	d0,#17664
@@ -5674,39 +5674,39 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 	ftouz	d2,d15
 .L515:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   635  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   636              if (bgValue > (IFXPSI5S_BG_RANGE - 1))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   635                  /* do nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   636              }
 	mov	d15,#8191
 .L932:
 	jge.u	d15,d2,.L78
 .L933:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   637              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   638                  bgValue = IFXPSI5S_BG_RANGE - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   637          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   638          else
 	mov	d2,#8191
 .L934:
 	j	.L79
 .L78:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   639              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   640              else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   639          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   640              bgValue = 0;
 .L79:
 	j	.L80
 .L77:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   641              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   642                  /* do nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   643              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   644          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   645          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   646          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   647              bgValue = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   641          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   642  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   643          result = ((float)fdValue / IFXPSI5S_FDV_RANGE) * (fInput / (16 * (bgValue + 1)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   644      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   645  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   646      psi5s->FDV.U = fdValue;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   647      psi5s->BG.U  = bgValue;
 	mov	d2,#0
 .L80:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   648          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   649  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   650          result = ((float)fdValue / IFXPSI5S_FDV_RANGE) * (fInput / (16 * (bgValue + 1)));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   648  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   649      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   650  }
 	utof	d15,d9
 .L935:
 	movh	d0,#17664
@@ -5725,24 +5725,25 @@ IfxPsi5s_Psi5s_setBaudrate:	.type	func
 .L76:
 .L72:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   651      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   652  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   653      psi5s->FDV.U = fdValue;
+
 	st.w	[a12]536,d9
 .L941:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   654      psi5s->BG.U  = bgValue;
+
 	st.w	[a12]532,d2
 .L517:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   655  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   656      return result;
+
 	mov	d2,d0
 .L516:
+
+
 	j	.L81
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Psi5s\Psi5s\IfxPsi5s_Psi5s.c	   657  }
+
 .L81:
+
+
 	ret
 .L335:
 	

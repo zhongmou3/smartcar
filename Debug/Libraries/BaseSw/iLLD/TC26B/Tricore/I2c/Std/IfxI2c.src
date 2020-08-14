@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std\\.IfxI2c.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std\\IfxI2c.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std\\IfxI2c.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std\\IfxI2c.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std\\IfxI2c.c'
@@ -1005,93 +1005,93 @@ IfxI2c_configureAsMaster:	.type	func
 	st.w	[a4]16,d15
 .L175:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    56  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    57      // enter config Mode
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    58      IfxI2c_stop(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    59  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    60      i2c->ADDRCFG.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    56  2c->ADDRCFG.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    57      i2c->ADDRCFG.B.MnS  = 1; // master mode
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    58      i2c->ADDRCFG.B.SONA = 0; // don't release the bus on NACK
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    59      i2c->ADDRCFG.B.SOPE = 0; // after transfer go into master restart state
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    60      i2c->ADDRCFG.B.TBAM = 0; // 7 bit address mode
 	mov	d15,#0
 .L456:
 	st.w	[a4]32,d15
 .L457:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    61      i2c->ADDRCFG.B.MnS  = 1; // master mode
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    61      i2c->FIFOCFG.U      = 0;
 	ld.bu	d15,[a4]34
 .L458:
 	or	d15,#8
 	st.b	[a4]34,d15
 .L459:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    62      i2c->ADDRCFG.B.SONA = 0; // don't release the bus on NACK
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    62      i2c->FIFOCFG.B.TXFC = 1; // FIFO as flow controller
 	ld.bu	d15,[a4]34
 .L460:
 	insert	d15,d15,#0,#4,#1
 	st.b	[a4]34,d15
 .L461:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    63      i2c->ADDRCFG.B.SOPE = 0; // after transfer go into master restart state
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    63      i2c->FIFOCFG.B.RXFC = 1; // FIFO as flow controller
 	ld.bu	d15,[a4]34
 .L462:
 	insert	d15,d15,#0,#5,#1
 	st.b	[a4]34,d15
 .L463:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    64      i2c->ADDRCFG.B.TBAM = 0; // 7 bit address mode
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    64      i2c->FIFOCFG.B.TXBS = 0; // Burst size 1 word
 	ld.bu	d15,[a4]34
 .L464:
 	insert	d15,d15,#0,#0,#1
 	st.b	[a4]34,d15
 .L465:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    65      i2c->FIFOCFG.U      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    65      i2c->FIFOCFG.B.RXBS = 0; // Burst size 1 word
 	mov	d15,#0
 .L466:
 	st.w	[a4]40,d15
 .L467:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    66      i2c->FIFOCFG.B.TXFC = 1; // FIFO as flow controller
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    66      i2c->FIFOCFG.B.TXFA = 0; // fifo is byte aligned
 	ld.bu	d15,[a4]42
 .L468:
 	or	d15,#2
 	st.b	[a4]42,d15
 .L469:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    67      i2c->FIFOCFG.B.RXFC = 1; // FIFO as flow controller
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    67      i2c->FIFOCFG.B.RXFA = 0; // fifo is byte aligned
 	ld.bu	d15,[a4]42
 .L470:
 	or	d15,#1
 	st.b	[a4]42,d15
 .L471:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    68      i2c->FIFOCFG.B.TXBS = 0; // Burst size 1 word
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    68  }
 	ld.bu	d15,[a4]40
 .L472:
 	insert	d15,d15,#0,#4,#2
 	st.b	[a4]40,d15
 .L473:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    69      i2c->FIFOCFG.B.RXBS = 0; // Burst size 1 word
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    69  
 	ld.bu	d15,[a4]40
 .L474:
 	insert	d15,d15,#0,#0,#2
 	st.b	[a4]40,d15
 .L475:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    70      i2c->FIFOCFG.B.TXFA = 0; // fifo is byte aligned
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    70  
 	ld.bu	d15,[a4]41
 .L476:
 	insert	d15,d15,#0,#4,#2
 	st.b	[a4]41,d15
 .L477:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    71      i2c->FIFOCFG.B.RXFA = 0; // fifo is byte aligned
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    71  void IfxI2c_disableModule(Ifx_I2C *i2c)
 	ld.bu	d15,[a4]41
 .L478:
 	insert	d15,d15,#0,#0,#2
 	st.b	[a4]41,d15
 .L479:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    72  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    72  {
 	ret
 .L171:
 	
@@ -1106,31 +1106,31 @@ __IfxI2c_configureAsMaster_function_end:
 	
 	.global	IfxI2c_disableModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    73  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    73      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    74  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    75  void IfxI2c_disableModule(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    75      IfxScuWdt_clearCpuEndinit(pwd);
 ; Function IfxI2c_disableModule
 .L51:
 IfxI2c_disableModule:	.type	func
 	mov.aa	a15,a4
 .L380:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    76  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    77      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    76  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    77      i2c->CLC.B.DISR = 1;
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L379:
 	mov	d8,d2
 .L382:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    78  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    79      IfxScuWdt_clearCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    79      while (i2c->CLC.B.DISS == 0)
 	mov	d4,d8
 .L381:
 	call	IfxScuWdt_clearCpuEndinit
 .L383:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    80  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    81      i2c->CLC.B.DISR = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    80      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    81  
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]0
@@ -1143,8 +1143,8 @@ IfxI2c_disableModule:	.type	func
 	st.b	[a3],d15
 .L485:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    82  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    83      while (i2c->CLC.B.DISS == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    82      IfxScuWdt_setCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    83  }
 	j	.L2
 .L3:
 .L2:
@@ -1156,15 +1156,15 @@ IfxI2c_disableModule:	.type	func
 	jz.t	d15:1,.L3
 .L487:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    84      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    84  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    85  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    86      IfxScuWdt_setCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    86  void IfxI2c_enableBurstDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
 	mov	d4,d8
 .L384:
 	call	IfxScuWdt_setCpuEndinit
 .L385:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    87  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    87  {
 	ret
 .L179:
 	
@@ -1179,9 +1179,9 @@ __IfxI2c_disableModule_function_end:
 	
 	.global	IfxI2c_enableBurstDataTransferInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    88  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    89  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    90  void IfxI2c_enableBurstDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    88      volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    89      src = IfxI2c_getBurstDataTransferSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    90      IfxSrc_init(src, typeOfService, priority);
 ; Function IfxI2c_enableBurstDataTransferInterrupt
 .L53:
 IfxI2c_enableBurstDataTransferInterrupt:	.type	func
@@ -2277,12 +2277,12 @@ IfxI2c_enableBurstDataTransferInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L209:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    91  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    92      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    93      src = IfxI2c_getBurstDataTransferSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    94      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    95      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    96  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    91  xI2c_enableErrorInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    92  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    93      volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    94      src = IfxI2c_getErrorSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    95      IfxSrc_init(src, typeOfService, priority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    96      IfxSrc_enable(src);
 	ret
 .L183:
 	
@@ -2297,9 +2297,9 @@ __IfxI2c_enableBurstDataTransferInterrupt_function_end:
 	
 	.global	IfxI2c_enableErrorInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    97  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    97  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    98  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    99  void IfxI2c_enableErrorInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	    99  
 ; Function IfxI2c_enableErrorInterrupt
 .L55:
 IfxI2c_enableErrorInterrupt:	.type	func
@@ -3432,12 +3432,12 @@ IfxI2c_enableErrorInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L228:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   100  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   101      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   102      src = IfxI2c_getErrorSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   103      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   104      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   105  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   100  2c_enableLastBurstDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   101  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   102      volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   103      src = IfxI2c_getLastBurstDataTransferSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   104      IfxSrc_init(src, typeOfService, priority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   105      IfxSrc_enable(src);
 	ret
 .L213:
 	
@@ -3452,9 +3452,9 @@ __IfxI2c_enableErrorInterrupt_function_end:
 	
 	.global	IfxI2c_enableLastBurstDataTransferInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   106  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   106  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   107  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   108  void IfxI2c_enableLastBurstDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   108  
 ; Function IfxI2c_enableLastBurstDataTransferInterrupt
 .L57:
 IfxI2c_enableLastBurstDataTransferInterrupt:	.type	func
@@ -4600,12 +4600,12 @@ IfxI2c_enableLastBurstDataTransferInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L245:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   109  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   110      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   111      src = IfxI2c_getLastBurstDataTransferSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   112      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   113      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   114  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   109  2c_enableLastSingleDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   110  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   111      volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   112      src = IfxI2c_getLastSingleDataTransferSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   113      IfxSrc_init(src, typeOfService, priority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   114      IfxSrc_enable(src);
 	ret
 .L230:
 	
@@ -4620,9 +4620,9 @@ __IfxI2c_enableLastBurstDataTransferInterrupt_function_end:
 	
 	.global	IfxI2c_enableLastSingleDataTransferInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   115  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   115  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   116  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   117  void IfxI2c_enableLastSingleDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   117  
 ; Function IfxI2c_enableLastSingleDataTransferInterrupt
 .L59:
 IfxI2c_enableLastSingleDataTransferInterrupt:	.type	func
@@ -5787,12 +5787,12 @@ IfxI2c_enableLastSingleDataTransferInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L262:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   118  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   119      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   120      src = IfxI2c_getLastSingleDataTransferSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   121      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   122      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   123  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   118  2c_enableModule(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   119  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   120      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   121  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   122      IfxScuWdt_clearCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   123      i2c->CLC.B.DISR = 0U;
 	ret
 .L247:
 	
@@ -5808,29 +5808,29 @@ __IfxI2c_enableLastSingleDataTransferInterrupt_function_end:
 	.global	IfxI2c_enableModule
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   124  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   125  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   126  void IfxI2c_enableModule(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   125      while (i2c->CLC.B.DISS == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   126      {}
 ; Function IfxI2c_enableModule
 .L61:
 IfxI2c_enableModule:	.type	func
 	mov.aa	a15,a4
 .L395:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   127  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   128      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   127  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   128      i2c->CLC1.B.RMC = 1U;
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L394:
 	mov	d8,d2
 .L397:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   130      IfxScuWdt_clearCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   130      while (i2c->CLC1.B.RMC != 1U)
 	mov	d4,d8
 .L396:
 	call	IfxScuWdt_clearCpuEndinit
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   131      i2c->CLC.B.DISR = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   131      {}
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]0
@@ -5844,7 +5844,7 @@ IfxI2c_enableModule:	.type	func
 .L549:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   132  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   133      while (i2c->CLC.B.DISS == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   133      i2c->CLC1.B.DISR = 0U;
 	j	.L16
 .L17:
 .L16:
@@ -5857,9 +5857,9 @@ IfxI2c_enableModule:	.type	func
 	jeq	d15,#1,.L17
 .L551:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   134      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   135  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   136      i2c->CLC1.B.RMC = 1U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   134  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   135      while (i2c->CLC1.B.DISS == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   136      {}
 	ld.bu	d15,[a15]1
 .L552:
 	insert	d15,d15,#1,#0,#8
@@ -5867,7 +5867,7 @@ IfxI2c_enableModule:	.type	func
 .L553:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   137  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   138      while (i2c->CLC1.B.RMC != 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   138      // disable all interrupts
 	j	.L18
 .L19:
 .L18:
@@ -5877,9 +5877,9 @@ IfxI2c_enableModule:	.type	func
 	jne	d15,#1,.L19
 .L555:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   139      {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   140  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   141      i2c->CLC1.B.DISR = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   139      i2c->ERRIRQSM.U = 0x00;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   140      i2c->PIRQSM.U   = 0x00;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   141      i2c->IMSC.U     = 0x00;
 	ld.bu	d15,[a15]
 .L556:
 	insert	d15,d15,#0,#0,#1
@@ -5887,7 +5887,7 @@ IfxI2c_enableModule:	.type	func
 .L557:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   142  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   143      while (i2c->CLC1.B.DISS == 1U)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   143      IfxScuWdt_setCpuEndinit(pwd);
 	j	.L20
 .L21:
 .L20:
@@ -5897,35 +5897,35 @@ IfxI2c_enableModule:	.type	func
 	jeq	d15,#1,.L21
 .L559:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   144      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   144  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   145  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   146      // disable all interrupts
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   147      i2c->ERRIRQSM.U = 0x00;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   146  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   147  void IfxI2c_enableProtocolInterrupt(void *i2c, IfxSrc_Tos typeOfService, uint16 priority)
 	mov	d15,#0
 .L560:
 	st.w	[a15]96,d15
 .L561:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   148      i2c->PIRQSM.U   = 0x00;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   148  {
 	mov	d15,#0
 .L562:
 	st.w	[a15]112,d15
 .L563:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   149      i2c->IMSC.U     = 0x00;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   149      volatile Ifx_SRC_SRCR *src;
 	mov	d15,#0
 .L564:
 	st.w	[a15]132,d15
 .L565:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   150  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   151      IfxScuWdt_setCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   150      src = IfxI2c_getProtocolSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   151      IfxSrc_init(src, typeOfService, priority);
 	mov	d4,d8
 .L399:
 	call	IfxScuWdt_setCpuEndinit
 .L400:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   152  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   152      IfxSrc_enable(src);
 	ret
 .L264:
 	
@@ -5940,9 +5940,9 @@ __IfxI2c_enableModule_function_end:
 	
 	.global	IfxI2c_enableProtocolInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   153  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   153  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   154  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   155  void IfxI2c_enableProtocolInterrupt(void *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   155  
 ; Function IfxI2c_enableProtocolInterrupt
 .L63:
 IfxI2c_enableProtocolInterrupt:	.type	func
@@ -7138,12 +7138,12 @@ IfxI2c_enableProtocolInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L283:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   156  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   157      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   158      src = IfxI2c_getProtocolSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   159      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   160      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   161  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   156  terrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   157  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   158      volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   159      src = IfxI2c_getSingleDataTransferSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   160      IfxSrc_init(src, typeOfService, priority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   161      IfxSrc_enable(src);
 	ret
 .L267:
 	
@@ -7158,9 +7158,9 @@ __IfxI2c_enableProtocolInterrupt_function_end:
 	
 	.global	IfxI2c_enableSingleDataTransferInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   162  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   162  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   163  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   164  void IfxI2c_enableSingleDataTransferInterrupt(Ifx_I2C *i2c, IfxSrc_Tos typeOfService, uint16 priority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   164  
 ; Function IfxI2c_enableSingleDataTransferInterrupt
 .L65:
 IfxI2c_enableSingleDataTransferInterrupt:	.type	func
@@ -8369,12 +8369,12 @@ IfxI2c_enableSingleDataTransferInterrupt:	.type	func
 	st.b	[a15]1,d15
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   165  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   166      volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   167      src = IfxI2c_getSingleDataTransferSrcPointer(i2c);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   168      IfxSrc_init(src, typeOfService, priority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   169      IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   170  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   165   *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   166      src = IfxI2c_getSingleDataTransferSrcPointer(i2c);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   167      IfxSrc_init(src, typeOfService, priority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   168      IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   169  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   170  
 	ret
 .L285:
 	
@@ -8390,21 +8390,21 @@ __IfxI2c_enableSingleDataTransferInterrupt_function_end:
 	.global	IfxI2c_getAddress
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   171  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   172  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   173  Ifx_I2C *IfxI2c_getAddress(IfxI2c_Index i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   172  Ifx_I2C *IfxI2c_getAddress(IfxI2c_Index i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   173  {
 ; Function IfxI2c_getAddress
 .L67:
 IfxI2c_getAddress:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   174  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   175      Ifx_I2C *module;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   176  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   177      if (i2c < IFXI2C_NUM_MODULES)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   174      Ifx_I2C *module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   175  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   176      if (i2c < IFXI2C_NUM_MODULES)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   177      {
 	jge	d4,#1,.L28
 .L598:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   178      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   179          module = (Ifx_I2C *)IfxI2c_cfg_indexMap[i2c].module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   178          module = (Ifx_I2C *)IfxI2c_cfg_indexMap[i2c].module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   179      }
 	mul	d15,d4,#8
 .L599:
 	movh.a	a15,#@his(IfxI2c_cfg_indexMap)
@@ -8417,19 +8417,19 @@ IfxI2c_getAddress:	.type	func
 	j	.L29
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   180      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   181      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   182      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   183          module = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   180      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   181      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   182          module = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   183      }
 	mov.a	a2,#0
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   184      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   185  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   186      return module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   184  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   185      return module;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   186  }
 	j	.L30
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   187  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   187  
 .L30:
 	ret
 .L302:
@@ -8446,35 +8446,35 @@ __IfxI2c_getAddress_function_end:
 	.global	IfxI2c_getBaudrate
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   188  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   189  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   190  float32 IfxI2c_getBaudrate(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   189  float32 IfxI2c_getBaudrate(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   190  {
 ; Function IfxI2c_getBaudrate
 .L69:
 IfxI2c_getBaudrate:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   191  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   192      uint8   inc     = i2c->FDIVCFG.B.INC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   191      uint8   inc     = i2c->FDIVCFG.B.INC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   192      uint16  dec     = i2c->FDIVCFG.B.DEC;
 	ld.bu	d15,[a4]26
 	and	d8,d15,#255
 .L407:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   193      uint16  dec     = i2c->FDIVCFG.B.DEC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   193      uint8   rmc     = i2c->CLC1.B.RMC;
 	ld.hu	d15,[a4]24
 	extr.u	d9,d15,#0,#11
 .L408:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   194      uint8   rmc     = i2c->CLC1.B.RMC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   194      float32 fKernel = IfxScuCcu_getBaud1Frequency();
 	ld.bu	d15,[a4]1
 .L409:
 	and	d15,#255
 .L606:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   195      float32 fKernel = IfxScuCcu_getBaud1Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   195  
 	call	IfxScuCcu_getBaud1Frequency
 .L406:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   197      return (fKernel / rmc) / ((2 * dec / inc) + 3);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   196      return (fKernel / rmc) / ((2 * dec / inc) + 3);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   197  }
 	utof	d15,d15
 .L410:
 	div.f	d15,d2,d15
@@ -8490,7 +8490,7 @@ IfxI2c_getBaudrate:	.type	func
 .L411:
 	j	.L31
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   198  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   198  
 .L31:
 	ret
 .L307:
@@ -8507,29 +8507,29 @@ __IfxI2c_getBaudrate_function_end:
 	.global	IfxI2c_getIndex
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   199  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   200  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   201  IfxI2c_Index IfxI2c_getIndex(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   200  IfxI2c_Index IfxI2c_getIndex(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   201  {
 ; Function IfxI2c_getIndex
 .L71:
 IfxI2c_getIndex:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   202  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   203      uint32       index;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   204      IfxI2c_Index result;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   205  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   206      result = IfxI2c_Index_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   202      uint32       index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   203      IfxI2c_Index result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   204  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   205      result = IfxI2c_Index_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   206  
 	mov	d2,#-1
 .L412:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   207  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   208      for (index = 0; index < IFXI2C_NUM_MODULES; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   207      for (index = 0; index < IFXI2C_NUM_MODULES; index++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   208      {
 	mov	d0,#0
 .L413:
 	j	.L32
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   209      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   210          if (IfxI2c_cfg_indexMap[index].module == i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   209          if (IfxI2c_cfg_indexMap[index].module == i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   210          {
 	movh.a	a15,#@his(IfxI2c_cfg_indexMap)
 	lea	a15,[a15]@los(IfxI2c_cfg_indexMap)
 .L615:
@@ -8541,8 +8541,8 @@ IfxI2c_getIndex:	.type	func
 	jne.a	a15,a4,.L34
 .L618:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   211          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   212              result = (IfxI2c_Index)IfxI2c_cfg_indexMap[index].index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   211              result = (IfxI2c_Index)IfxI2c_cfg_indexMap[index].index;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   212              break;
 	movh.a	a15,#@his(IfxI2c_cfg_indexMap)
 	lea	a15,[a15]@los(IfxI2c_cfg_indexMap)
 .L619:
@@ -8554,21 +8554,21 @@ IfxI2c_getIndex:	.type	func
 	extr	d2,d15,#0,#8
 .L622:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   213              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   213          }
 	j	.L35
 .L34:
 	add	d0,#1
 .L32:
 	jlt.u	d0,#1,.L33
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   214          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   215      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   216  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   217      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   214      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   215  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   216      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   217  }
 .L35:
 	j	.L36
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   218  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   218  
 .L36:
 	ret
 .L314:
@@ -8585,8 +8585,8 @@ __IfxI2c_getIndex_function_end:
 	.global	IfxI2c_initSclSdaPin
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   219  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   220  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   221  void IfxI2c_initSclSdaPin(const IfxI2c_Scl_InOut *scl, const IfxI2c_Sda_InOut *sda, IfxPort_PadDriver padDriver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   220  void IfxI2c_initSclSdaPin(const IfxI2c_Scl_InOut *scl, const IfxI2c_Sda_InOut *sda, IfxPort_PadDriver padDriver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   221  {
 ; Function IfxI2c_initSclSdaPin
 .L73:
 IfxI2c_initSclSdaPin:	.type	func
@@ -8597,12 +8597,12 @@ IfxI2c_initSclSdaPin:	.type	func
 	mov	d8,d4
 .L418:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   222  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   223      IfxPort_OutputMode mode = (IfxPort_OutputMode)IfxPort_Mode_outputOpenDrainGeneral;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   222      IfxPort_OutputMode mode = (IfxPort_OutputMode)IfxPort_Mode_outputOpenDrainGeneral;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   223      IfxPort_setPinModeOutput(scl->pin.port, scl->pin.pinIndex, mode, scl->outSelect);
 	mov	d9,#192
 .L419:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   224      IfxPort_setPinModeOutput(scl->pin.port, scl->pin.pinIndex, mode, scl->outSelect);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   224      IfxPort_setPinModeOutput(sda->pin.port, sda->pin.pinIndex, mode, sda->outSelect);
 	ld.a	a4,[a15]4
 .L415:
 	ld.bu	d4,[a15]8
@@ -9203,7 +9203,7 @@ IfxI2c_initSclSdaPin:	.type	func
 	call	IfxPort_setPinMode
 .L330:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   225      IfxPort_setPinModeOutput(sda->pin.port, sda->pin.pinIndex, mode, sda->outSelect);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   225    IfxPort_setPinModeOutput(sda->pin.port, sda->pin.pinIndex, mode, sda->outSelect);
 	ld.a	a4,[a12]4
 .L628:
 	ld.bu	d4,[a12]8
@@ -9804,7 +9804,7 @@ IfxI2c_initSclSdaPin:	.type	func
 	call	IfxPort_setPinMode
 .L341:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   226      IfxPort_setPinPadDriver(scl->pin.port, scl->pin.pinIndex, padDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   226    IfxPort_setPinModeOutput(sda->pin.port, sda->pin.pinIndex, mode, sda->outSelect);
 	ld.a	a4,[a15]4
 .L631:
 	ld.bu	d4,[a15]8
@@ -9814,7 +9814,7 @@ IfxI2c_initSclSdaPin:	.type	func
 	call	IfxPort_setPinPadDriver
 .L421:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   227      IfxPort_setPinPadDriver(sda->pin.port, sda->pin.pinIndex, padDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   227      IfxPort_setPinPadDriver(scl->pin.port, scl->pin.pinIndex, padDriver);
 	ld.a	a4,[a12]4
 .L633:
 	ld.bu	d4,[a12]8
@@ -9824,7 +9824,7 @@ IfxI2c_initSclSdaPin:	.type	func
 	call	IfxPort_setPinPadDriver
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   228      IfxI2c_setPinSelection(scl->module, (IfxI2c_PinSelect)scl->inSelect); // note: uses the same PISEL register like SDA
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   228      IfxPort_setPinPadDriver(sda->pin.port, sda->pin.pinIndex, padDriver);
 	ld.a	a2,[a15]
 .L635:
 	ld.bu	d15,[a15]12
@@ -10740,7 +10740,7 @@ IfxI2c_initSclSdaPin:	.type	func
 	st.b	[a3],d15
 .L344:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   229  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   229  river);
 	ret
 .L319:
 	
@@ -10755,33 +10755,33 @@ __IfxI2c_initSclSdaPin_function_end:
 	
 	.global	IfxI2c_releaseBus
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   230  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   231  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   232  void IfxI2c_releaseBus(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   230      IfxPort_setPinPadDriver(sda->pin.port, sda->pin.pinIndex, padDriver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   231      IfxI2c_setPinSelection(scl->module, (IfxI2c_PinSelect)scl->inSelect); // note: uses the same PISEL register like SDA
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   232  }
 ; Function IfxI2c_releaseBus
 .L75:
 IfxI2c_releaseBus:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   233  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   234      // only set the set end of transmisson bit if bus is not free
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   235      if (i2c->BUSSTAT.B.BS != IfxI2c_BusStatus_idle)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   233  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   234  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   235  void IfxI2c_releaseBus(Ifx_I2C *i2c)
 	ld.bu	d15,[a4]36
 	and	d15,#3
 .L641:
 	jeq	d15,#0,.L37
 .L642:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   236      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   237          i2c->ENDDCTRL.B.SETEND = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   236  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   237      // only set the set end of transmisson bit if bus is not free
 	ld.bu	d15,[a4]20
 .L643:
 	or	d15,#2
 	st.b	[a4]20,d15
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   239          // wait until bus is free
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   240          while (IfxI2c_getProtocolInterruptSourceStatus(i2c, IfxI2c_ProtocolInterruptSource_transmissionEnd) == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   238      if (i2c->BUSSTAT.B.BS != IfxI2c_BusStatus_idle)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   239      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   240          i2c->ENDDCTRL.B.SETEND = 1;
 	j	.L38
 .L39:
 .L38:
@@ -11665,9 +11665,9 @@ IfxI2c_releaseBus:	.type	func
 	jeq	d15,#0,.L39
 .L354:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   241          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   242  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   243          IfxI2c_clearProtocolInterruptSource(i2c, IfxI2c_ProtocolInterruptSource_transmissionEnd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   241  .BS != IfxI2c_BusStatus_idle)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   242      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   243          i2c->ENDDCTRL.B.SETEND = 1;
 	mov	d0,#5
 .L361:
 
@@ -12324,8 +12324,8 @@ IfxI2c_releaseBus:	.type	func
 	st.w	[a4]120,d15
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   244      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   245  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   244  .BS != IfxI2c_BusStatus_idle)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   245      {
 	ret
 .L350:
 	
@@ -12340,64 +12340,64 @@ __IfxI2c_releaseBus_function_end:
 	
 	.global	IfxI2c_resetFifo
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   246  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   246          i2c->ENDDCTRL.B.SETEND = 1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   247  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   248  void IfxI2c_resetFifo(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   248          // wait until bus is free
 ; Function IfxI2c_resetFifo
 .L77:
 IfxI2c_resetFifo:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   249  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   250      /* reset FIFO */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   251      i2c->FIFOCFG.U      = 0x0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   249          while (IfxI2c_getProtocolInterruptSourceStatus(i2c, IfxI2c_ProtocolInterruptSource_transmissionEnd) == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   250          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   251  
 	mov	d15,#0
 .L657:
 	st.w	[a4]40,d15
 .L658:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   252      i2c->FIFOCFG.B.TXFC = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   252          IfxI2c_clearProtocolInterruptSource(i2c, IfxI2c_ProtocolInterruptSource_transmissionEnd);
 	ld.bu	d15,[a4]42
 .L659:
 	insert	d15,d15,#0,#1,#1
 	st.b	[a4]42,d15
 .L660:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   253      i2c->FIFOCFG.B.RXFC = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   253      }
 	ld.bu	d15,[a4]42
 .L661:
 	insert	d15,d15,#0,#0,#1
 	st.b	[a4]42,d15
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   254      i2c->FIFOCFG.B.TXBS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   254  }
 	ld.bu	d15,[a4]40
 .L663:
 	insert	d15,d15,#0,#4,#2
 	st.b	[a4]40,d15
 .L664:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   255      i2c->FIFOCFG.B.RXBS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   255  
 	ld.bu	d15,[a4]40
 .L665:
 	insert	d15,d15,#0,#0,#2
 	st.b	[a4]40,d15
 .L666:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   256      i2c->FIFOCFG.B.TXFA = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   256  
 	ld.bu	d15,[a4]41
 .L667:
 	insert	d15,d15,#0,#4,#2
 	st.b	[a4]41,d15
 .L668:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   257      i2c->FIFOCFG.B.RXFA = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   257  void IfxI2c_resetFifo(Ifx_I2C *i2c)
 	ld.bu	d15,[a4]41
 .L669:
 	insert	d15,d15,#0,#0,#2
 	st.b	[a4]41,d15
 .L670:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   258  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   258  {
 	ret
 .L367:
 	
@@ -12412,30 +12412,30 @@ __IfxI2c_resetFifo_function_end:
 	
 	.global	IfxI2c_resetModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   259  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   261  void IfxI2c_resetModule(Ifx_I2C *i2c)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   259      /* reset FIFO */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   260      i2c->FIFOCFG.U      = 0x0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   261      i2c->FIFOCFG.B.TXFC = 0U;
 ; Function IfxI2c_resetModule
 .L79:
 IfxI2c_resetModule:	.type	func
 	mov.aa	a15,a4
 .L425:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   262  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   263      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   262      i2c->FIFOCFG.B.RXFC = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   263      i2c->FIFOCFG.B.TXBS = 0U;
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L424:
 	mov	d8,d2
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   265      IfxScuWdt_clearCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   264      i2c->FIFOCFG.B.RXBS = 0U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   265      i2c->FIFOCFG.B.TXFA = 0U;
 	mov	d4,d8
 .L426:
 	call	IfxScuWdt_clearCpuEndinit
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   266      i2c->KRST0.B.RST = 1;           /* Only if both Kernel reset bits are set a reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   266      i2c->FIFOCFG.B.RXFA = 0U;
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]20
@@ -12448,7 +12448,7 @@ IfxI2c_resetModule:	.type	func
 	st.b	[a3],d15
 .L676:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   267      i2c->KRST1.B.RST = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   267  }
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]24
@@ -12461,14 +12461,14 @@ IfxI2c_resetModule:	.type	func
 	st.b	[a3],d15
 .L678:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   268      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   268  
 	mov	d4,d8
 .L429:
 	call	IfxScuWdt_setCpuEndinit
 .L430:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   269  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   270      while (0 == i2c->KRST0.B.RSTSTAT)   /* Wait until reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   270  void IfxI2c_resetModule(Ifx_I2C *i2c)
 	j	.L43
 .L44:
 .L43:
@@ -12480,8 +12480,8 @@ IfxI2c_resetModule:	.type	func
 	jz.t	d15:1,.L44
 .L680:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   271  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   272      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   271  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   272      uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   273  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   274      IfxScuWdt_clearCpuEndinit(passwd);
 	mov	d4,d8
@@ -12489,7 +12489,7 @@ IfxI2c_resetModule:	.type	func
 	call	IfxScuWdt_clearCpuEndinit
 .L432:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   275      i2c->KRSTCLR.B.CLR = 1;         /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   275      i2c->KRST0.B.RST = 1;           /* Only if both Kernel reset bits are set a reset is executed */
 	movh.a	a3,#1
 	add.a	a3,a15
 	lea	a3,[a3]28
@@ -12502,13 +12502,13 @@ IfxI2c_resetModule:	.type	func
 	st.b	[a3],d15
 .L682:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   276      IfxScuWdt_setCpuEndinit(passwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   276      i2c->KRST1.B.RST = 1;
 	mov	d4,d8
 .L433:
 	call	IfxScuWdt_setCpuEndinit
 .L434:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   277  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   277      IfxScuWdt_setCpuEndinit(passwd);
 	ret
 .L369:
 	
@@ -12524,8 +12524,8 @@ __IfxI2c_resetModule_function_end:
 	.global	IfxI2c_setBaudrate
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   278  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   280  void IfxI2c_setBaudrate(Ifx_I2C *i2c, float32 baudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   279      while (0 == i2c->KRST0.B.RSTSTAT)   /* Wait until reset is executed */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   280  
 ; Function IfxI2c_setBaudrate
 .L81:
 IfxI2c_setBaudrate:	.type	func
@@ -12534,19 +12534,19 @@ IfxI2c_setBaudrate:	.type	func
 	mov	d8,d4
 .L437:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   281  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   282      float32 fKernel = IfxScuCcu_getBaud1Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   281      {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   282  
 	call	IfxScuCcu_getBaud1Frequency
 .L435:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   283      uint8   rmc     = i2c->CLC1.B.RMC;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   283      IfxScuWdt_clearCpuEndinit(passwd);
 	ld.bu	d15,[a15]1
 .L440:
 	and	d15,#255
 .L687:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   284      float32 dec;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   285      dec = (((fKernel / rmc) / baudrate) - 3) / 2;     // always: Inc = 1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   284      i2c->KRSTCLR.B.CLR = 1;         /* Clear Kernel reset status bit */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   285      IfxScuWdt_setCpuEndinit(passwd);
 	utof	d15,d15
 .L441:
 	div.f	d15,d2,d15
@@ -12562,9 +12562,9 @@ IfxI2c_setBaudrate:	.type	func
 	div.f	d8,d15,d0
 .L438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   286  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   287      // dec:inc must be at least 6
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   288      if (dec < 6)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   286  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   287  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   288  
 	movh	d15,#16576
 .L693:
 	cmp.f	d15,d8,d15
@@ -12573,15 +12573,15 @@ IfxI2c_setBaudrate:	.type	func
 	jeq	d15,#0,.L45
 .L695:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   289      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   290          dec = 6;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   289  void IfxI2c_setBaudrate(Ifx_I2C *i2c, float32 baudrate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   290  {
 	movh	d8,#16576
 .L696:
 	j	.L46
 .L45:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   291      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   292      else if (dec > (1 << IFX_I2C_FDIVCFG_DEC_LEN) - 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   291      float32 fKernel = IfxScuCcu_getBaud1Frequency();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   292      uint8   rmc     = i2c->CLC1.B.RMC;
 	mov.u	d15,#57344
 	addih	d15,d15,#17663
 .L697:
@@ -12591,37 +12591,37 @@ IfxI2c_setBaudrate:	.type	func
 	jeq	d15,#0,.L47
 .L699:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   293      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   294          dec = (1 << IFX_I2C_FDIVCFG_DEC_LEN) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   293      float32 dec;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   294      dec = (((fKernel / rmc) / baudrate) - 3) / 2;     // always: Inc = 1
 	mov.u	d8,#57344
 	addih	d8,d8,#17663
 .L47:
 .L46:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   295      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   296  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   297      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   295  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   296      // dec:inc must be at least 6
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   297      if (dec < 6)
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L439:
 	mov	d9,d2
 .L443:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   299      IfxScuWdt_clearCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   298      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   299          dec = 6;
 	mov	d4,d9
 .L442:
 	call	IfxScuWdt_clearCpuEndinit
 .L444:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   300      /* Baudrate configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   301      i2c->FDIVCFG.B.INC           = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   300      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   301      else if (dec > (1 << IFX_I2C_FDIVCFG_DEC_LEN) - 1)
 	ld.bu	d15,[a15]26
 .L700:
 	insert	d15,d15,#1,#0,#8
 	st.b	[a15]26,d15
 .L701:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   302      i2c->FDIVCFG.B.DEC           = (uint16)(dec + 0.5);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   302      {
 	ld.hu	d15,[a15]24
 .L702:
 	movh	d0,#16128
@@ -12635,28 +12635,28 @@ IfxI2c_setBaudrate:	.type	func
 	st.h	[a15]24,d15
 .L706:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   303      i2c->TIMCFG.B.SDA_DEL_HD_DAT = 0x3F;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   303          dec = (1 << IFX_I2C_FDIVCFG_DEC_LEN) - 1;
 	ld.bu	d15,[a15]64
 .L707:
 	or	d15,#63
 	st.b	[a15]64,d15
 .L708:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   304      i2c->TIMCFG.B.FS_SCL_LOW     = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   304      }
 	ld.bu	d15,[a15]65
 .L709:
 	or	d15,#128
 	st.b	[a15]65,d15
 .L710:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   305      i2c->TIMCFG.B.EN_SCL_LOW_LEN = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   305  
 	ld.bu	d15,[a15]65
 .L711:
 	or	d15,#64
 	st.b	[a15]65,d15
 .L712:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   306      i2c->TIMCFG.B.SCL_LOW_LEN    = 0x20;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   306      uint16 pwd = IfxScuWdt_getCpuWatchdogPassword();
 	ld.bu	d0,[a15]67
 .L713:
 	mov	d15,#32
@@ -12666,13 +12666,13 @@ IfxI2c_setBaudrate:	.type	func
 .L715:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   307  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   308      IfxScuWdt_setCpuEndinit(pwd);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   308      IfxScuWdt_clearCpuEndinit(pwd);
 	mov	d4,d9
 .L445:
 	call	IfxScuWdt_setCpuEndinit
 .L446:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   309  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   309      /* Baudrate configuration */
 	ret
 .L372:
 	
@@ -28563,5 +28563,5 @@ __IfxI2c_setBaudrate_function_end:
 	.word	12
 	.word	.L716,.L81,.L372-.L81
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\I2c\Std\IfxI2c.c	   310      i2c->FDIVCFG.B.INC           = 1;
 	; Module end

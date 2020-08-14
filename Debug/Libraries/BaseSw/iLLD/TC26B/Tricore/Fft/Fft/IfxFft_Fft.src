@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft\\.IfxFft_Fft.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft\\IfxFft_Fft.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft\\IfxFft_Fft.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft\\IfxFft_Fft.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft\\IfxFft_Fft.c'
@@ -1895,7 +1895,7 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.w	[a5]8204,d15
 .L339:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   174      IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID, job->count64.output);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   174  ob->count64.output);
 	ld.b	d0,[a6]4
 .L789:
 	ld.hu	d1,[a15]20
@@ -3582,7 +3582,7 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.h	[a4]8212,d15
 .L349:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   175  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   175  endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   176      discardCount = (job->count64.result - job->count64.output);
 	ld.hu	d15,[a15]22
 .L792:
@@ -5205,7 +5205,7 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.w	[a5]8204,d15
 .L358:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   185          IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMADISCARDCHANNELID, discardCount);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   185  xDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMADISCARDCHANNELID, discardCount);
 	ld.b	d1,[a2]4
 .L359:
 
@@ -6893,7 +6893,7 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.h	[a2]8212,d15
 .L360:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   186  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   186  endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   187  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   188  #if IFXFFT_FFT_OPTIMIZED
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   189          srcr    = IfxDma_getSrcPointer(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID_OPT);
@@ -8453,7 +8453,7 @@ IfxFft_Fft_unloadOutput:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L8:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   192  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   192  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   193          srcr->B = job->fft->srcrOutDis;
 	ld.a	a15,[a15]
 .L409:
@@ -10026,8 +10026,8 @@ IfxFft_Fft_unloadOutput:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L11:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   201  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   202          srcr->B = job->fft->srcrOutEnd;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   201         srcr->B = job->fft->srcrOutEnd;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   202      }
 	ld.a	a15,[a15]
 .L417:
 	ld.w	d15,[a15]60
@@ -10035,12 +10035,12 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.w	[a2],d15
 .L9:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   203      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   204  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   205  #if IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   206      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID_OPT);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   207  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   208      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   203  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   204  #if IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   205      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID_OPT);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   206  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   207      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAOUTPUTCHANNELID);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   208  #endif
 	ld.b	d0,[a6]4
 .L366:
 
@@ -11740,30 +11740,30 @@ IfxFft_Fft_unloadOutput:	.type	func
 	st.b	[a15]8223,d15
 .L367:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   209  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   210  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   211  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   212  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   213      sint16  i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   214      uint64 *output64;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   215  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   216      output64 = job->outputPtr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   217  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   218      for (i = 0; i < job->count64.output; i++)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   219      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   220          *(output64++) = IFXFFT_FFT_DATA_TRANSFER;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   221      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   222  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   223      for ( ; i < job->count64.result; i++)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   224      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   225          volatile uint64 dummy64 = IFXFFT_FFT_DATA_TRANSFER;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   226  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   227          if (dummy64) // avoid warning message (unused variable)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   228          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   229      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   209  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   210      sint16  i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   211      uint64 *output64;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   212  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   213      output64 = job->outputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   214  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   215      for (i = 0; i < job->count64.output; i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   216      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   217          *(output64++) = IFXFFT_FFT_DATA_TRANSFER;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   218      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   219  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   220      for ( ; i < job->count64.result; i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   221      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   222          volatile uint64 dummy64 = IFXFFT_FFT_DATA_TRANSFER;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   223  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   224          if (dummy64) // avoid warning message (unused variable)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   225          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   226      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   227  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   228  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   229  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   230  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   231  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   232  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   231  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   232  void IfxFft_Fft_initJob(IfxFft_Fft_Job *job, const IfxFft_Fft_JobConfig *jobConfig)
 	ret
 .L329:
 	
@@ -11778,9 +11778,9 @@ __IfxFft_Fft_unloadOutput_function_end:
 	
 	.global	IfxFft_Fft_initJob
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   233  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   234  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   235  void IfxFft_Fft_initJob(IfxFft_Fft_Job *job, const IfxFft_Fft_JobConfig *jobConfig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   233  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   234      // take over FFT handle
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   235      job->fft     = jobConfig->fft;
 ; Function IfxFft_Fft_initJob
 .L61:
 IfxFft_Fft_initJob:	.type	func
@@ -11789,23 +11789,23 @@ IfxFft_Fft_initJob:	.type	func
 	mov.aa	a13,a5
 .L420:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   236  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   237      // take over FFT handle
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   238      job->fft     = jobConfig->fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   236      job->nextJob = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   237  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   238      // engine control
 	ld.a	a2,[a13]
 .L590:
 	st.a	[a12],a2
 .L591:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   239      job->nextJob = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   239      job->csr.U     = IfxFft_Fft_calcCSR(jobConfig);
 	mov.a	a15,#0
 .L592:
 	st.a	[a12]24,a15
 .L593:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   240  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   241      // engine control
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   242      job->csr.U     = IfxFft_Fft_calcCSR(jobConfig);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   240      job->inputPtr  = jobConfig->inputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   241      job->outputPtr = jobConfig->outputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   242  
 	mov.aa	a4,a13
 .L418:
 	call	IfxFft_Fft_calcCSR
@@ -11813,21 +11813,21 @@ IfxFft_Fft_initJob:	.type	func
 	st.w	[a12]4,d2
 .L594:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   243      job->inputPtr  = jobConfig->inputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   243      // move counters
 	ld.a	a15,[a13]16
 .L595:
 	st.a	[a12]8,a15
 .L596:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   244      job->outputPtr = jobConfig->outputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   244      IfxFft_Fft_calcCounters(job, jobConfig);
 	ld.a	a15,[a13]20
 .L597:
 	st.a	[a12]12,a15
 .L598:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   245  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   246      // move counters
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   247      IfxFft_Fft_calcCounters(job, jobConfig);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   246      // config check
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   247      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) <= IFXFFT_MAX_LENGTH);
 	mov.aa	a4,a12
 .L422:
 	mov.aa	a5,a13
@@ -11835,21 +11835,21 @@ IfxFft_Fft_initJob:	.type	func
 	call	IfxFft_Fft_calcCounters
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   248  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   249      // config check
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   250      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) <= IFXFFT_MAX_LENGTH);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   251      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, jobConfig->inputLength > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   252      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, jobConfig->outputLength > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   253  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   254      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) == jobConfig->inputLength);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   255  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   256      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) >= jobConfig->inputLength);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   257  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   258      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) >= jobConfig->outputLength);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   259      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(jobConfig->outputLength));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   260      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(job->inputPtr));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   261      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(job->outputPtr));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   262  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   248      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, jobConfig->inputLength > 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   249      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, jobConfig->outputLength > 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   250  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   251      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) == jobConfig->inputLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   252  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   253      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) >= jobConfig->inputLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   254  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   255      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (IfxFft_getLengthFromCode(jobConfig->fftLength)) >= jobConfig->outputLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   256      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(jobConfig->outputLength));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   257      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(job->inputPtr));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   258      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IFXFFT_FFT_ISALIGNED(job->outputPtr));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   259  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   260  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   261  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   262  void IfxFft_Fft_initJobConfig(IfxFft_Fft_JobConfig *config, IfxFft_Fft *fft)
 	ret
 .L212:
 	
@@ -11864,73 +11864,73 @@ __IfxFft_Fft_initJob_function_end:
 	
 	.global	IfxFft_Fft_initJobConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   263  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   264  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   265  void IfxFft_Fft_initJobConfig(IfxFft_Fft_JobConfig *config, IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   263  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   264      config->fft               = fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   265      config->inputLength       = 256;
 ; Function IfxFft_Fft_initJobConfig
 .L63:
 IfxFft_Fft_initJobConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   266  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   267      config->fft               = fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   266      config->outputLength      = 256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   267      config->fftLength         = IfxFft_Length_256;
 	st.a	[a4],a5
 .L603:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   268      config->inputLength       = 256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   268      config->inputFormat       = IfxFft_Input_realSInt32;
 	mov	d15,#256
 .L604:
 	st.h	[a4]4,d15
 .L605:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   269      config->outputLength      = 256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   269      config->outputFormat      = IfxFft_Output_complexSInt32;
 	mov	d15,#256
 .L606:
 	st.h	[a4]6,d15
 .L607:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   270      config->fftLength         = IfxFft_Length_256;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   270      config->operation         = IfxFft_Operation_fft;
 	mov	d15,#8
 .L608:
 	st.b	[a4]8,d15
 .L609:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   271      config->inputFormat       = IfxFft_Input_realSInt32;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   271      config->useWindowFunction = FALSE;
 	mov	d15,#1
 .L610:
 	st.b	[a4]9,d15
 .L611:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   272      config->outputFormat      = IfxFft_Output_complexSInt32;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   272      config->inputPtr          = NULL_PTR;
 	mov	d15,#0
 .L612:
 	st.b	[a4]10,d15
 .L613:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   273      config->operation         = IfxFft_Operation_fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   273      config->outputPtr         = NULL_PTR;
 	mov	d15,#0
 .L614:
 	st.b	[a4]11,d15
 .L615:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   274      config->useWindowFunction = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   274  }
 	mov	d15,#0
 .L616:
 	st.b	[a4]12,d15
 .L617:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   275      config->inputPtr          = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   275  
 	mov.a	a15,#0
 .L618:
 	st.a	[a4]16,a15
 .L619:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   276      config->outputPtr         = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   276  
 	mov.a	a15,#0
 .L620:
 	st.a	[a4]20,a15
 .L621:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   277  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   277  void IfxFft_Fft_initModule(IfxFft_Fft *fft, const IfxFft_Fft_Config *config)
 	ret
 .L216:
 	
@@ -11945,9 +11945,9 @@ __IfxFft_Fft_initJobConfig_function_end:
 	
 	.global	IfxFft_Fft_initModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   278  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   279  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   280  void IfxFft_Fft_initModule(IfxFft_Fft *fft, const IfxFft_Fft_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   278  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   279  #if !IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   280      Ifx_FFT *fftSFR = config->fft;
 ; Function IfxFft_Fft_initModule
 .L65:
 IfxFft_Fft_initModule:	.type	func
@@ -11956,44 +11956,44 @@ IfxFft_Fft_initModule:	.type	func
 	mov.aa	a12,a5
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   281  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   282  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   283      Ifx_FFT *fftSFR = config->fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   281      Ifx_LMU *lmuSFR = config->lmu;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   282  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   283      fft->fft = fftSFR;
 	ld.a	a13,[a12]
 .L428:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   284      Ifx_LMU *lmuSFR = config->lmu;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   284      fft->lmu = lmuSFR;
 	ld.a	a2,[a12]4
 .L429:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   285  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   286      fft->fft = fftSFR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   285  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   286      Ifx_FFT *fftSFR = (&MODULE_FFT);
 	st.a	[a15],a13
 .L504:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   287      fft->lmu = lmuSFR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   287      Ifx_LMU *lmuSFR = (&MODULE_LMU);
 	st.a	[a15]4,a2
 .L505:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   288  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   289      Ifx_FFT *fftSFR = (&MODULE_FFT);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   290      Ifx_LMU *lmuSFR = (&MODULE_LMU);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   291  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   292  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   293  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   294      fft->inputIdx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   288  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   289  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   290  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   291      fft->inputIdx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   292      fft->job[0]   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   293      fft->job[1]   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   294  #endif
 	mov	d15,#0
 .L506:
 	st.w	[a15]48,d15
 .L507:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   295      fft->job[0]   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   295  
 	mov.a	a2,#0
 .L430:
 	st.a	[a15]64,a2
 .L508:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   296      fft->job[1]   = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   296      if (IfxFft_isModuleEnabled(fftSFR) == FALSE)
 	mov.a	a2,#0
 .L509:
 	st.a	[a15]68,a2
@@ -12324,9 +12324,9 @@ IfxFft_Fft_initModule:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Std\IfxFft.h	   314  }      (inlined)
 .L12:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   297  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   299      if (IfxFft_isModuleEnabled(fftSFR) == FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   297   IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->outputPriority > 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   298      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputPriority > 0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   299      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->intraPriority > 0);
 	jne	d15,#0,.L13
 .L187:
 
@@ -12601,20 +12601,20 @@ IfxFft_Fft_initModule:	.type	func
 	call	IfxScuWdt_setCpuEndinit
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   300      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   301          IfxFft_enableModule(fftSFR, lmuSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   302      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   300    IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputDmaChannelId != IfxDma_ChannelId_none);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   301      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->outputDmaChannelId != IfxDma_ChannelId_none);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   302      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->discardDmaChannelId != IfxDma_ChannelId_none);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   303  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   304  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   305      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->outputPriority > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   306      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputPriority > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   307      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->intraPriority > 0);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   309      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputDmaChannelId != IfxDma_ChannelId_none);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   310      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->outputDmaChannelId != IfxDma_ChannelId_none);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   311      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->discardDmaChannelId != IfxDma_ChannelId_none);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   313      IfxFft_Fft_initDma(fft, config);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   304      IfxFft_Fft_initDma(fft, config);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   305  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   306      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->typeOfService != IfxSrc_Tos_dma);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   307  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   308      if (config->outputPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   309      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   310          volatile Ifx_SRC_SRCR *srcr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   311          // FFT DONE as ISR output
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   312          srcr = IfxFft_getSrcPointerDone(fftSFR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   313          IfxSrc_init(srcr, config->typeOfService, config->outputPriority);
 	mov.aa	a4,a15
 .L435:
 	mov.aa	a5,a12
@@ -12622,20 +12622,20 @@ IfxFft_Fft_initModule:	.type	func
 	call	IfxFft_Fft_initDma
 .L436:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   314  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   315      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->typeOfService != IfxSrc_Tos_dma);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   314          IfxSrc_enable(srcr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   315      }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   316  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   317      if (config->outputPriority > 0)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   318      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   319          volatile Ifx_SRC_SRCR *srcr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   320          // FFT DONE as ISR output
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   321          srcr = IfxFft_getSrcPointerDone(fftSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   322          IfxSrc_init(srcr, config->typeOfService, config->outputPriority);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   323          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   324      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   325  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   317  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   318  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   319  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   320  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   321  void IfxFft_Fft_initModuleConfig(IfxFft_Fft_Config *config, Ifx_FFT *fft, Ifx_LMU *lmu)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   322  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   323  #if !IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   324      config->fft = fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   325      config->lmu = lmu;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   326  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   327  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   327  
 	ret
 .L172:
 	
@@ -12650,78 +12650,78 @@ __IfxFft_Fft_initModule_function_end:
 	
 	.global	IfxFft_Fft_initModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   328  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   329  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   330  void IfxFft_Fft_initModuleConfig(IfxFft_Fft_Config *config, Ifx_FFT *fft, Ifx_LMU *lmu)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   328  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   329  #if IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   330      config->inputDmaChannelId   = IFXFFT_FFT_DMA_CHANNEL_BASE;
 ; Function IfxFft_Fft_initModuleConfig
 .L67:
 IfxFft_Fft_initModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   331  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   332  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   333      config->fft = fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   331      config->outputDmaChannelId  = IFXFFT_FFT_DMA_CHANNEL_BASE + 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   332      config->discardDmaChannelId = IFXFFT_FFT_DMA_CHANNEL_BASE + 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   333  #else
 	st.a	[a4],a5
 .L518:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   334      config->lmu = lmu;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   334      config->fft                 = fft;
 	st.a	[a4]4,a6
 .L519:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   335  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   336  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   337  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   338  #if IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   339      config->inputDmaChannelId   = IFXFFT_FFT_DMA_CHANNEL_BASE;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   340      config->outputDmaChannelId  = IFXFFT_FFT_DMA_CHANNEL_BASE + 1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   341      config->discardDmaChannelId = IFXFFT_FFT_DMA_CHANNEL_BASE + 2;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   342  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   343      config->fft                 = fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   335      config->lmu                 = lmu;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   336      config->inputDmaChannelId   = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   337      config->outputDmaChannelId  = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   338      config->discardDmaChannelId = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   339  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   340  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   341      config->inputPriority  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   342      config->outputPriority = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   343      config->typeOfService  = IfxSrc_Tos_cpu0;
 	st.a	[a4],a5
 .L520:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   344      config->lmu                 = lmu;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   344  }
 	st.a	[a4]4,a6
 .L521:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   345      config->inputDmaChannelId   = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   345  
 	mov	d15,#-1
 .L522:
 	st.b	[a4]15,d15
 .L523:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   346      config->outputDmaChannelId  = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   346  
 	mov	d15,#-1
 .L524:
 	st.b	[a4]16,d15
 .L525:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   347      config->discardDmaChannelId = IfxDma_ChannelId_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   347  void IfxFft_Fft_initWindow(IfxFft_Fft *fft, const uint64 *windowData)
 	mov	d15,#-1
 .L526:
 	st.b	[a4]17,d15
 .L527:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   348  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   349  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   350      config->inputPriority  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   348  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   349      int           i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   350      const uint64 *ptr = windowData;
 	mov	d15,#0
 .L528:
 	st.h	[a4]8,d15
 .L529:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   351      config->outputPriority = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   351  
 	mov	d15,#0
 .L530:
 	st.h	[a4]12,d15
 .L531:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   352      config->typeOfService  = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   352  #if !IFXFFT_FFT_OPTIMIZED
 	mov	d15,#0
 .L532:
 	st.b	[a4]14,d15
 .L533:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   353  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   353      /*IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, MODULE_LMU.MEMCON.B.FFTPFT == 0);*/
 	ret
 .L195:
 	
@@ -12736,40 +12736,40 @@ __IfxFft_Fft_initModuleConfig_function_end:
 	
 	.global	IfxFft_Fft_initWindow
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   354  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   355  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   356  void IfxFft_Fft_initWindow(IfxFft_Fft *fft, const uint64 *windowData)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   354      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, !IfxFft_isEngineBusy(fft->fft));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   355      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IfxFft_isReadyForStart(fft->fft));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   356  #else
 ; Function IfxFft_Fft_initWindow
 .L69:
 IfxFft_Fft_initWindow:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   357  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   358      int           i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   359      const uint64 *ptr = windowData;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   360  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   361  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   362      /*IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, MODULE_LMU.MEMCON.B.FFTPFT == 0);*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   363      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, !IfxFft_isEngineBusy(fft->fft));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   364      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IfxFft_isReadyForStart(fft->fft));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   365  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   366      /*IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, MODULE_LMU.MEMCON.B.FFTPFT == 0);*/
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   367      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, !IfxFft_isEngineBusy(&MODULE_FFT));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   368      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IfxFft_isReadyForStart(&MODULE_FFT));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   369  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   357      /*IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, MODULE_LMU.MEMCON.B.FFTPFT == 0);*/
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   358      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, !IfxFft_isEngineBusy(&MODULE_FFT));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   359      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, IfxFft_isReadyForStart(&MODULE_FFT));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   360  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   361  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   362      uint64 *wmem = (uint64 *)IFXFFT_WINDOW_SPACE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   363  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   364      for (i = 0; i < (IFXFFT_MAX_WINDOW_LENGTH / (sizeof(uint64) / sizeof(uint16))); i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   365      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   366          *(wmem++) = *(ptr++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   367      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   368  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   369  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   370  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   371      uint64 *wmem = (uint64 *)IFXFFT_WINDOW_SPACE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   371  void IfxFft_Fft_isrInput(IfxFft_Fft *fft)
 	movh.a	a15,#48656
 .L438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   372  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   373      for (i = 0; i < (IFXFFT_MAX_WINDOW_LENGTH / (sizeof(uint64) / sizeof(uint16))); i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   372  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   373  #if IFXFFT_FFT_DMA_SUPPORT
 	mov	d15,#0
 .L439:
 	j	.L14
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   374      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   375          *(wmem++) = *(ptr++);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   374  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   375  #if IFXFFT_FFT_PIPELINED
 	ld.d	e0,[a5]0
 .L626:
 	st.d	[a15]0,e0
@@ -12785,8 +12785,8 @@ IfxFft_Fft_initWindow:	.type	func
 	jlt.u	d15,d0,.L15
 .L631:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   376      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   377  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   376      IfxFft_Fft_Job *inputJob = fft->job[0];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   377  
 	ret
 .L220:
 	
@@ -12801,66 +12801,66 @@ __IfxFft_Fft_initWindow_function_end:
 	
 	.global	IfxFft_Fft_isrInput
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   378  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   379  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   380  void IfxFft_Fft_isrInput(IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   378      if (fft->inputIdx == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   379      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   380          if (inputJob != NULL_PTR)
 ; Function IfxFft_Fft_isrInput
 .L71:
 IfxFft_Fft_isrInput:	.type	func
 	mov.aa	a15,a4
 .L441:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   381  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   382  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   383  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   384  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   385      IfxFft_Fft_Job *inputJob = fft->job[0];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   381          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   382              IfxFft_Fft_startJob(inputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   383          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   384      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   385      else
 	ld.a	a4,[a15]64
 .L440:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   386  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   387      if (fft->inputIdx == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   386      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   387          if (fft->flags & IFXFFT_FFT_FLAG_DONE)
 	ld.w	d15,[a15]48
 .L538:
 	jne	d15,#0,.L16
 .L539:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   388      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   389          if (inputJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   388          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   389              fft->flags  = 0;
 	jz.a	a4,.L17
 .L540:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   390          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   391              IfxFft_Fft_startJob(inputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   390              IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   391              fft->job[1] = fft->job[1]->nextJob;
 	call	IfxFft_Fft_startJob
 .L17:
 	j	.L18
 .L16:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   392          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   393      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   394      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   395      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   396          if (fft->flags & IFXFFT_FFT_FLAG_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   393          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   394          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   395              if (fft->inputIdx > fft->intraIdx)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   396              {
 	ld.w	d15,[a15]44
 .L541:
 	jz.t	d15:1,.L19
 .L542:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   397          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   398              fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   397                  fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   398              }
 	mov	d15,#0
 .L543:
 	st.w	[a15]44,d15
 .L544:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   399              IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   399          }
 	ld.a	a4,[a15]68
 .L442:
 	call	IfxFft_Fft_unloadOutput
 .L545:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   400              fft->job[1] = fft->job[1]->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   400      }
 	ld.a	a2,[a15]68
 .L546:
 	ld.a	a2,[a2]24
@@ -12870,10 +12870,10 @@ IfxFft_Fft_isrInput:	.type	func
 	j	.L20
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   401          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   402          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   403          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   404              if (fft->inputIdx > fft->intraIdx)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   401  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   402      if (fft->inputIdx == IFXFFT_FFT_NUM_JOBS)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   403      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   404          __debug();
 	ld.w	d15,[a15]48
 .L549:
 	ld.w	d0,[a15]52
@@ -12881,8 +12881,8 @@ IfxFft_Fft_isrInput:	.type	func
 	jge.u	d0,d15,.L21
 .L551:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   405              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   406                  fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   405      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   406  
 	mov	d15,#1
 .L552:
 	st.w	[a15]44,d15
@@ -12890,11 +12890,11 @@ IfxFft_Fft_isrInput:	.type	func
 .L20:
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   407              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   408          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   409      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   410  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   411      if (fft->inputIdx == IFXFFT_FFT_NUM_JOBS)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   407      fft->inputIdx++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   408  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   409  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   410  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   411  }
 	ld.w	d15,[a15]48
 .L553:
 	mov	d0,#8
@@ -12902,24 +12902,24 @@ IfxFft_Fft_isrInput:	.type	func
 	jne	d15,d0,.L22
 .L555:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   412      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   413          __debug();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   412  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   413  
 	debug
 .L22:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   414      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   415  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   416      fft->inputIdx++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   414  void IfxFft_Fft_isrOutput(IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   415  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   416  #if IFXFFT_FFT_PIPELINED
 	ld.w	d15,[a15]48
 .L556:
 	add	d15,#1
 	st.w	[a15]48,d15
 .L557:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   417  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   418  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   419  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   420  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   417      IfxFft_Fft_Job *outputJob = fft->job[1];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   418  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   419      if (outputJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   420      {
 	ret
 .L200:
 	
@@ -12934,73 +12934,73 @@ __IfxFft_Fft_isrInput_function_end:
 	
 	.global	IfxFft_Fft_isrOutput
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   421  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   422  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   423  void IfxFft_Fft_isrOutput(IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   421          if (outputJob->nextJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   422          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   423              IfxFft_Fft_Job *inputJob = fft->job[0];
 ; Function IfxFft_Fft_isrOutput
 .L73:
 IfxFft_Fft_isrOutput:	.type	func
 	mov.aa	a15,a4
 .L444:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   424  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   425  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   426      IfxFft_Fft_Job *outputJob = fft->job[1];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   424  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   425              if (inputJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   426              {
 	ld.a	a12,[a15]68
 .L445:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   427  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   428      if (outputJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   427                  IfxFft_Fft_startJob(inputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   428              }
 	jz.a	a12,.L23
 .L562:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   429      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   430          if (outputJob->nextJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   429              else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   430              {
 	ld.w	d15,[a12]24
 .L563:
 	jeq	d15,#0,.L24
 .L207:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   431          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   432              IfxFft_Fft_Job *inputJob = fft->job[0];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   431                  if (fft->flags & IFXFFT_FFT_FLAG_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   432                  {
 	ld.a	a4,[a15]64
 .L443:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   433  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   434              if (inputJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   433                      fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   434                      IfxFft_Fft_unloadOutput(outputJob);
 	jz.a	a4,.L25
 .L564:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   435              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   436                  IfxFft_Fft_startJob(inputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   435                      fft->job[1] = outputJob->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   436                  }
 	call	IfxFft_Fft_startJob
 .L446:
 	j	.L26
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   437              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   438              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   439              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   440                  if (fft->flags & IFXFFT_FFT_FLAG_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   437                  else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   438                  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   439                      fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   440                  }
 	ld.w	d15,[a15]44
 .L565:
 	jz.t	d15:1,.L27
 .L566:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   441                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   442                      fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   441              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   442          }
 	mov	d15,#0
 .L567:
 	st.w	[a15]44,d15
 .L568:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   443                      IfxFft_Fft_unloadOutput(outputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   443          else
 	mov.aa	a4,a12
 .L447:
 	call	IfxFft_Fft_unloadOutput
 .L448:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   444                      fft->job[1] = outputJob->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   444          {
 	ld.a	a2,[a12]24
 .L569:
 	st.a	[a15]68,a2
@@ -13008,10 +13008,10 @@ IfxFft_Fft_isrOutput:	.type	func
 	j	.L28
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   445                  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   446                  else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   447                  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   448                      fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   445              if (fft->flags & IFXFFT_FFT_FLAG_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   446              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   447                  fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   448                  IfxFft_Fft_unloadOutput(outputJob);
 	mov	d15,#1
 .L571:
 	st.w	[a15]44,d15
@@ -13020,31 +13020,31 @@ IfxFft_Fft_isrOutput:	.type	func
 	j	.L29
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   449                  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   449                  fft->job[1] = outputJob->nextJob;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   450              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   451          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   452          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   453          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   454              if (fft->flags & IFXFFT_FFT_FLAG_DONE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   451              else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   452              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   453                  fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   454              }
 	ld.w	d15,[a15]44
 .L572:
 	jz.t	d15:1,.L30
 .L573:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   455              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   456                  fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   455          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   456      }
 	mov	d15,#0
 .L574:
 	st.w	[a15]44,d15
 .L575:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   457                  IfxFft_Fft_unloadOutput(outputJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   457  
 	mov.aa	a4,a12
 .L449:
 	call	IfxFft_Fft_unloadOutput
 .L450:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   458                  fft->job[1] = outputJob->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   458  #else
 	ld.a	a2,[a12]24
 .L576:
 	st.a	[a15]68,a2
@@ -13052,10 +13052,10 @@ IfxFft_Fft_isrOutput:	.type	func
 	j	.L31
 .L30:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   459              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   460              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   461              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   462                  fft->flags = IFXFFT_FFT_FLAG_INPUT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   459      IfxFft_Fft_Job *outputJob = fft->job[0];
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   460  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   461  #if !IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   462      IfxFft_Fft_unloadOutput(outputJob);
 	mov	d15,#1
 .L578:
 	st.w	[a15]44,d15
@@ -13063,29 +13063,29 @@ IfxFft_Fft_isrOutput:	.type	func
 .L29:
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   463              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   464          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   465      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   466  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   467  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   468      IfxFft_Fft_Job *outputJob = fft->job[0];
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   469  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   470  #if !IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   471      IfxFft_Fft_unloadOutput(outputJob);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   472  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   473  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   474      if (outputJob->nextJob != NULL_PTR)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   475      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   476          boolean result = IfxFft_Fft_startJob(outputJob->nextJob);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   477          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   478      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   479      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   480      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   481          fft->job[0] = NULL_PTR;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   482      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   483  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   484  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   485  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   463  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   464  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   465      if (outputJob->nextJob != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   466      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   467          boolean result = IfxFft_Fft_startJob(outputJob->nextJob);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   468          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   469      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   470      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   471      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   472          fft->job[0] = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   473      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   474  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   475  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   476  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   477  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   478  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   479  IFX_STATIC void IfxFft_Fft_loadInput(IfxFft_Fft_Job *job)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   480  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   481  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   482  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   483  #if !IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   484      IfxDma_Dma_Channel *dmaInput = &job->fft->inputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   485      Ifx_DMA            *dmaSFR   = dmaInput->dma;
 	ret
 .L204:
 	
@@ -13099,37 +13099,37 @@ __IfxFft_Fft_isrOutput_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   486  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   487  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   488  IFX_STATIC void IfxFft_Fft_loadInput(IfxFft_Fft_Job *job)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   486  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   487      Ifx_DMA            *dmaSFR   = (&MODULE_DMA);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   488  #endif
 ; Function IfxFft_Fft_loadInput
 .L75:
 IfxFft_Fft_loadInput:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   489  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   490  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   491  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   492  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   493      IfxDma_Dma_Channel *dmaInput = &job->fft->inputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   489  #if IFXFFT_FFT_HW_EXEC
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   490  #if IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   491      IfxDma_setChannelSourceAddress(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT, job->inputPtr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   492      IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT, job->count64.input);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   493      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT);
 	ld.a	a15,[a4]
 .L811:
 	lea	a15,[a15]8
 .L452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   494      Ifx_DMA            *dmaSFR   = dmaInput->dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   494  #else
 	ld.a	a2,[a15]
 .L454:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   495  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   496      Ifx_DMA            *dmaSFR   = (&MODULE_DMA);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   497  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   498  #if IFXFFT_FFT_HW_EXEC
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   499  #if IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   500      IfxDma_setChannelSourceAddress(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT, job->inputPtr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   501      IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT, job->count64.input);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   502      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID_OPT);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   503  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   504      IfxDma_setChannelSourceAddress(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID, job->inputPtr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   495      IfxDma_setChannelSourceAddress(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID, job->inputPtr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   496      IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID, job->count64.input);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   497      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   498  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   499  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   500  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   501      sint16        i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   502      const uint64 *input64 = job->inputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   503  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   504      for (i = 0; i < job->count64.input; i++)
 	ld.b	d15,[a15]4
 .L812:
 	ld.a	a5,[a4]8
@@ -14790,7 +14790,7 @@ IfxFft_Fft_loadInput:	.type	func
 	st.w	[a6]8200,d15
 .L379:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   505      IfxDma_setChannelTransferCount(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID, job->count64.input);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   505  
 	ld.b	d0,[a15]4
 .L815:
 	ld.hu	d1,[a4]16
@@ -16478,7 +16478,7 @@ IfxFft_Fft_loadInput:	.type	func
 	st.h	[a4]8212,d15
 .L388:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   506      IfxDma_startChannelTransaction(dmaSFR, IFXFFT_FFT_DMAINPUTCHANNELID);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   506      }
 	ld.b	d0,[a15]4
 .L392:
 
@@ -18179,24 +18179,24 @@ IfxFft_Fft_loadInput:	.type	func
 	st.b	[a15]8223,d15
 .L393:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   507  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   508  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   509  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   510      sint16        i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   511      const uint64 *input64 = job->inputPtr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   512  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   513      for (i = 0; i < job->count64.input; i++)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   514      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   515          IFXFFT_FFT_DATA_TRANSFER = *(input64++);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   516      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   517  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   518      for ( ; i < job->count64.expect; i++)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   519      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   520          IFXFFT_FFT_DATA_TRANSFER = (uint64)0ULL;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   521      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   507      for ( ; i < job->count64.expect; i++)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   508      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   509          IFXFFT_FFT_DATA_TRANSFER = (uint64)0ULL;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   510      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   511  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   512  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   513  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   514  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   515  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   516  void IfxFft_Fft_modifyDataPointers(IfxFft_Fft_Job *job, const void *inputPtr, void *outputPtr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   517  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   518      job->inputPtr  = inputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   519      job->outputPtr = outputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   520  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   521  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   522  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   523  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   524  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   523  boolean IfxFft_Fft_startJob(IfxFft_Fft_Job *job)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   524  {
 	ret
 .L373:
 	
@@ -18211,23 +18211,23 @@ __IfxFft_Fft_loadInput_function_end:
 	
 	.global	IfxFft_Fft_modifyDataPointers
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   525  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   526  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   527  void IfxFft_Fft_modifyDataPointers(IfxFft_Fft_Job *job, const void *inputPtr, void *outputPtr)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   525      IfxFft_Fft *fft    = job->fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   526  #if !IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   527      Ifx_FFT    *fftSFR = fft->fft;
 ; Function IfxFft_Fft_modifyDataPointers
 .L77:
 IfxFft_Fft_modifyDataPointers:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   528  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   529      job->inputPtr  = inputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   528  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   529      Ifx_FFT    *fftSFR = (&MODULE_FFT);
 	st.a	[a4]8,a5
 .L636:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   530      job->outputPtr = outputPtr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   530  #endif
 	st.a	[a4]12,a6
 .L637:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   531  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   531      boolean     result = IfxFft_isReadyForStart(fftSFR);
 	ret
 .L229:
 	
@@ -18243,21 +18243,21 @@ __IfxFft_Fft_modifyDataPointers_function_end:
 	.global	IfxFft_Fft_startJob
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   532  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   533  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   534  boolean IfxFft_Fft_startJob(IfxFft_Fft_Job *job)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   533      if (result != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   534      {
 ; Function IfxFft_Fft_startJob
 .L79:
 IfxFft_Fft_startJob:	.type	func
 	mov.aa	a12,a4
 .L457:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   535  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   536      IfxFft_Fft *fft    = job->fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   535          IfxFft_Fft_triggerEngine(fftSFR, job->csr.U);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   536  #if IFXFFT_FFT_PIPELINED
 	ld.a	a15,[a12]
 .L458:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   537  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   538      Ifx_FFT    *fftSFR = fft->fft;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   537  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   538          if (fft->job[1] == NULL_PTR)
 	ld.a	a2,[a15]
 .L242:
 
@@ -18604,17 +18604,17 @@ IfxFft_Fft_startJob:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Std\IfxFft.h	   332  }      (inlined)
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   539  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   540      Ifx_FFT    *fftSFR = (&MODULE_FFT);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   541  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   542      boolean     result = IfxFft_isReadyForStart(fftSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   543  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   544      if (result != FALSE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   539  Idx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   540              fft->intraIdx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   541              fft->job[1]   = job;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   542              fft->flags    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   543          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   544  
 	jeq	d8,#0,.L33
 .L644:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   545      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   546          IfxFft_Fft_triggerEngine(fftSFR, job->csr.U);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   545  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   546          IfxFft_Fft_loadInput(job);
 	ld.w	d15,[a12]4
 .L247:
 
@@ -19081,63 +19081,63 @@ IfxFft_Fft_startJob:	.type	func
 	st.w	[a2]64,d15
 .L248:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   547  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   548  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   549          if (fft->job[1] == NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   547  FFT_FFT_PIPELINED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   548          fft->job[0] = job->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   549  #else
 	ld.w	d15,[a15]68
 .L646:
 	jne	d15,#0,.L34
 .L647:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   550          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   551              fft->inputIdx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   550          fft->job[0] = job;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   551  #endif
 	mov	d15,#0
 .L648:
 	st.w	[a15]48,d15
 .L649:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   552              fft->intraIdx = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   552      }
 	mov	d15,#0
 .L650:
 	st.w	[a15]52,d15
 .L651:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   553              fft->job[1]   = job;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   553  
 	st.a	[a15]68,a12
 .L652:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   554              fft->flags    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   554      return result;
 	mov	d15,#0
 .L653:
 	st.w	[a15]44,d15
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   555          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   555  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   556  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   557  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   558          IfxFft_Fft_loadInput(job);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   557  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   558  IFX_STATIC void IfxFft_Fft_calcCounters(IfxFft_Fft_Job *job, const IfxFft_Fft_JobConfig *jobConfig)
 	mov.aa	a4,a12
 	call	IfxFft_Fft_loadInput
 .L456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   559  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   560  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   561          fft->job[0] = job->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   559  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   560      uint16 shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   561  
 	ld.a	a2,[a12]24
 .L654:
 	st.a	[a15]64,a2
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   562  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   563          fft->job[0] = job;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   564  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   565      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   566  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   567      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   562      /* input counters */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   563      if (jobConfig->inputFormat == IfxFft_Input_complexSInt32)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   564      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   565          shift = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   566      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   567      else if (jobConfig->inputFormat == IfxFft_Input_realSInt16)
 	mov	d2,d8
 	j	.L35
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   568  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   568      {
 .L35:
 	ret
 .L236:
@@ -19152,55 +19152,55 @@ __IfxFft_Fft_startJob_function_end:
 	.align	2
 	
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   569  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   570  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   571  IFX_STATIC void IfxFft_Fft_calcCounters(IfxFft_Fft_Job *job, const IfxFft_Fft_JobConfig *jobConfig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   569          shift = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   570      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   571      else
 ; Function IfxFft_Fft_calcCounters
 .L81:
 IfxFft_Fft_calcCounters:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   572  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   573      uint16 shift;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   574  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   575      /* input counters */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   576      if (jobConfig->inputFormat == IfxFft_Input_complexSInt32)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   572      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   573          shift = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   574      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   575  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   576      uint16 fftLength = IfxFft_getLengthFromCode(jobConfig->fftLength);
 	ld.bu	d15,[a5]9
 .L823:
 	jne	d15,#0,.L36
 .L824:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   577      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   578          shift = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   577  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   578      job->count64.input  = (jobConfig->inputLength >> shift) / IFXFFT_FFT_MOVE_DIV;
 	mov	d1,#0
 .L459:
 	j	.L37
 .L36:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   579      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   580      else if (jobConfig->inputFormat == IfxFft_Input_realSInt16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   579      job->count64.expect = (fftLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   580  #else
 	ld.bu	d15,[a5]9
 .L825:
 	jne	d15,#3,.L38
 .L826:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   581      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   582          shift = 2;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   581      job->count64.input  = jobConfig->inputLength >> shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   582      job->count64.expect = fftLength >> shift;
 	mov	d1,#2
 .L460:
 	j	.L39
 .L38:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   583      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   584      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   585      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   586          shift = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   583  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   584      /* output counters */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   585      shift               = (jobConfig->outputFormat == IfxFft_Output_complexSInt32) ? 0 : 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   586  #if IFXFFT_FFT_DMA_SUPPORT
 	mov	d1,#1
 .L39:
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   587      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   588  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   589      uint16 fftLength = IfxFft_getLengthFromCode(jobConfig->fftLength);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   587      job->count64.result = (fftLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   588      job->count64.output = (jobConfig->outputLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   589  #else
 	ld.bu	d15,[a5]8
 .L402:
 
@@ -19491,8 +19491,8 @@ IfxFft_Fft_calcCounters:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Std\IfxFft.h	   276  }      (inlined)
 .L40:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   590  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   591      job->count64.input  = (jobConfig->inputLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   590  t;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   591      job->count64.output = jobConfig->outputLength >> shift;
 	ld.hu	d2,[a5]4
 .L829:
 	mov	d15,d1
@@ -19509,7 +19509,7 @@ IfxFft_Fft_calcCounters:	.type	func
 	st.h	[a4]16,d2
 .L464:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   592      job->count64.expect = (fftLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   592  #endif
 	rsub	d1,#0
 	sha	d1,d0,d1
 .L465:
@@ -19520,12 +19520,12 @@ IfxFft_Fft_calcCounters:	.type	func
 	st.h	[a4]18,d1
 .L833:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   593  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   594      job->count64.input  = jobConfig->inputLength >> shift;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   595      job->count64.expect = fftLength >> shift;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   596  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   597      /* output counters */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   598      shift               = (jobConfig->outputFormat == IfxFft_Output_complexSInt32) ? 0 : 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   593  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   594  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   595  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   596  void IfxFft_Fft_isrIntra(IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   597  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   598  #if IFXFFT_FFT_DMA_SUPPORT
 	ld.bu	d15,[a5]10
 .L834:
 	jne	d15,#0,.L41
@@ -19537,8 +19537,8 @@ IfxFft_Fft_calcCounters:	.type	func
 	mov	d1,#1
 .L42:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   599  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   600      job->count64.result = (fftLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   599  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   600  # if IFXFFT_FFT_PIPELINED
 	mov	d15,d1
 	rsub	d15,#0
 	sha	d0,d0,d15
@@ -19550,7 +19550,7 @@ IfxFft_Fft_calcCounters:	.type	func
 	st.h	[a4]22,d0
 .L838:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   601      job->count64.output = (jobConfig->outputLength >> shift) / IFXFFT_FFT_MOVE_DIV;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   601  
 	ld.hu	d0,[a5]6
 .L839:
 	rsub	d1,#0
@@ -19563,11 +19563,11 @@ IfxFft_Fft_calcCounters:	.type	func
 	st.h	[a4]20,d0
 .L842:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   602  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   603      job->count64.result = fftLength >> shift;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   604      job->count64.output = jobConfig->outputLength >> shift;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   605  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   606  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   602      if (fft->intraIdx == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   603      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   604          fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   605          IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   606          fft->job[1] = fft->job[1]->nextJob;
 	ret
 .L396:
 	
@@ -19582,40 +19582,40 @@ __IfxFft_Fft_calcCounters_function_end:
 	
 	.global	IfxFft_Fft_isrIntra
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   607  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   608  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   609  void IfxFft_Fft_isrIntra(IfxFft_Fft *fft)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   607      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   608      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   609      {
 ; Function IfxFft_Fft_isrIntra
 .L83:
 IfxFft_Fft_isrIntra:	.type	func
 	mov.aa	a15,a4
 .L468:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   610  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   611  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   612  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   613  # if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   614  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   615      if (fft->intraIdx == 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   610          if (fft->flags & IFXFFT_FFT_FLAG_INPUT)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   611          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   612              fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   613              IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   614              fft->job[1] = fft->job[1]->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   615          }
 	ld.w	d15,[a15]52
 .L659:
 	jne	d15,#0,.L43
 .L660:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   616      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   617          fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   616          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   617          {
 	mov	d15,#0
 .L661:
 	st.w	[a15]44,d15
 .L662:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   618          IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   618              fft->flags = IFXFFT_FFT_FLAG_DONE;
 	ld.a	a4,[a15]68
 .L467:
 	call	IfxFft_Fft_unloadOutput
 .L663:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   619          fft->job[1] = fft->job[1]->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   619          }
 	ld.a	a2,[a15]68
 .L664:
 	ld.a	a2,[a2]24
@@ -19626,28 +19626,28 @@ IfxFft_Fft_isrIntra:	.type	func
 .L43:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   620      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   621      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   622      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   623          if (fft->flags & IFXFFT_FFT_FLAG_INPUT)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   621  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   622      fft->intraIdx++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   623  # else
 	ld.w	d15,[a15]44
 .L667:
 	jz.t	d15:0,.L45
 .L668:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   624          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   625              fft->flags  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   624      IfxFft_Fft_unloadOutput(fft->job[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   625  # endif
 	mov	d15,#0
 .L669:
 	st.w	[a15]44,d15
 .L670:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   626              IfxFft_Fft_unloadOutput(fft->job[1]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   626  #endif
 	ld.a	a4,[a15]68
 .L469:
 	call	IfxFft_Fft_unloadOutput
 .L671:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   627              fft->job[1] = fft->job[1]->nextJob;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   627  }
 	ld.a	a2,[a15]68
 .L672:
 	ld.a	a2,[a2]24
@@ -19657,31 +19657,31 @@ IfxFft_Fft_isrIntra:	.type	func
 	j	.L46
 .L45:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   628          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   629          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   630          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   631              fft->flags = IFXFFT_FFT_FLAG_DONE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   628  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   629  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   630  void IfxFft_Fft_initDma(IfxFft_Fft *fft, const IfxFft_Fft_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   631  {
 	mov	d15,#2
 .L675:
 	st.w	[a15]44,d15
 .L46:
 .L44:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   632          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   633      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   634  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   635      fft->intraIdx++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   632  #if IFXFFT_FFT_DMA_SUPPORT
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   633  #if !IFXFFT_FFT_OPTIMIZED
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   634      Ifx_DMA                 *dmaSFR            = &MODULE_DMA;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   635      Ifx_FFT                 *fftSFR            = config->fft;
 	ld.w	d15,[a15]52
 .L676:
 	add	d15,#1
 	st.w	[a15]52,d15
 .L677:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   636  # else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   637      IfxFft_Fft_unloadOutput(fft->job[0]);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   638  # endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   639  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   640  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   636      IfxDma_Dma_Channel      *inputDmaChannel   = &fft->inputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   637      IfxDma_Dma_Channel      *discardDmaChannel = &fft->discardDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   638      IfxDma_Dma_Channel      *outputDmaChannel  = &fft->outputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   639  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   640      Ifx_FFT                 *fftSFR            = (&MODULE_FFT);
 	ret
 .L254:
 	
@@ -19696,9 +19696,9 @@ __IfxFft_Fft_isrIntra_function_end:
 	
 	.global	IfxFft_Fft_initDma
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   641  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   642  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   643  void IfxFft_Fft_initDma(IfxFft_Fft *fft, const IfxFft_Fft_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   641      Ifx_DMA                 *dmaSFR            = (&MODULE_DMA);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   642      IfxDma_Dma_Channel       dmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   643      IfxDma_Dma_Channel      *inputDmaChannel   = &dmaChannel;
 ; Function IfxFft_Fft_initDma
 .L85:
 IfxFft_Fft_initDma:	.type	func
@@ -19709,88 +19709,88 @@ IfxFft_Fft_initDma:	.type	func
 	st.a	[a10]60,a5
 .L474:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   644  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   645  #if IFXFFT_FFT_DMA_SUPPORT
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   646  #if !IFXFFT_FFT_OPTIMIZED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   647      Ifx_DMA                 *dmaSFR            = &MODULE_DMA;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   644      IfxDma_Dma_Channel      *discardDmaChannel = &dmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   645      IfxDma_Dma_Channel      *outputDmaChannel  = &dmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   646  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   647  
 	movh.a	a5,#61441
 .L471:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   648      Ifx_FFT                 *fftSFR            = config->fft;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   649      IfxDma_Dma_Channel      *inputDmaChannel   = &fft->inputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   648      IfxDma_Dma               dma;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   649      IfxDma_Dma_createModuleHandle(&dma, dmaSFR);
 	lea	a13,[a12]8
 .L475:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   650      IfxDma_Dma_Channel      *discardDmaChannel = &fft->discardDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   650  
 	lea	a14,[a12]32
 .L476:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   651      IfxDma_Dma_Channel      *outputDmaChannel  = &fft->outputDmaChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   651      IfxDma_Dma_ChannelConfig dmaCfg;
 	lea	a15,[a12]20
 .L477:
 	st.a	[a10]64,a15
 .L479:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   652  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   653      Ifx_FFT                 *fftSFR            = (&MODULE_FFT);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   654      Ifx_DMA                 *dmaSFR            = (&MODULE_DMA);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   655      IfxDma_Dma_Channel       dmaChannel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   656      IfxDma_Dma_Channel      *inputDmaChannel   = &dmaChannel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   657      IfxDma_Dma_Channel      *discardDmaChannel = &dmaChannel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   658      IfxDma_Dma_Channel      *outputDmaChannel  = &dmaChannel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   659  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   660  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   661      IfxDma_Dma               dma;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   662      IfxDma_Dma_createModuleHandle(&dma, dmaSFR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   652      IfxDma_Dma_initChannelConfig(&dmaCfg, &dma);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   653  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   654      dmaCfg.requestMode                     = IfxDma_ChannelRequestMode_completeTransactionPerRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   655      dmaCfg.operationMode                   = IfxDma_ChannelOperationMode_continuous;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   656      dmaCfg.moveSize                        = IFXFFT_FFT_MOVE_SIZE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   657      dmaCfg.sourceAddressCircularRange      = IfxDma_ChannelIncrementCircular_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   658      dmaCfg.destinationAddressCircularRange = IfxDma_ChannelIncrementCircular_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   659  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   660      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   661          /* output channel */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   662          dmaCfg.channelId               = config->outputDmaChannelId;
 	lea	a4,[a10]0
 .L472:
 	call	IfxDma_Dma_createModuleHandle
 .L269:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   663  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   664      IfxDma_Dma_ChannelConfig dmaCfg;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   665      IfxDma_Dma_initChannelConfig(&dmaCfg, &dma);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   663          dmaCfg.hardwareRequestEnabled  = FALSE; // will be triggered via software
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   664          dmaCfg.channelInterruptEnabled = TRUE;  // trigger interrupt after transaction
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   665  
 	lea	a4,[a10]4
 .L682:
 	lea	a5,[a10]0
 	call	IfxDma_Dma_initChannelConfig
 .L683:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   666  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   667      dmaCfg.requestMode                     = IfxDma_ChannelRequestMode_completeTransactionPerRequest;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   666          // source address is fixed; use circular mode to stay at this address for each move
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   667          dmaCfg.sourceAddress               = IFXFFT_DATA_SPACE;
 	mov	d15,#1
 .L684:
 	st.b	[a10]33,d15
 .L685:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   668      dmaCfg.operationMode                   = IfxDma_ChannelOperationMode_continuous;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   668          dmaCfg.sourceCircularBufferEnabled = TRUE;
 	mov	d15,#1
 .L686:
 	st.b	[a10]34,d15
 .L687:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   669      dmaCfg.moveSize                        = IFXFFT_FFT_MOVE_SIZE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   669  
 	mov	d15,#5
 .L688:
 	st.b	[a10]35,d15
 .L689:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   670      dmaCfg.sourceAddressCircularRange      = IfxDma_ChannelIncrementCircular_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   670          // destination address and transfer count will be configured during runtime
 	mov	d15,#0
 .L690:
 	st.b	[a10]42,d15
 .L691:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   671      dmaCfg.destinationAddressCircularRange = IfxDma_ChannelIncrementCircular_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   671          dmaCfg.destinationAddress               = 0;
 	mov	d15,#0
 .L692:
 	st.b	[a10]45,d15
 .L693:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   672  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   673      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   674          /* output channel */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   675          dmaCfg.channelId               = config->outputDmaChannelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   672          dmaCfg.destinationCircularBufferEnabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   673          dmaCfg.transferCount                    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   674  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   675          IfxDma_Dma_initChannel(outputDmaChannel, &dmaCfg);
 	ld.a	a15,[a10]60
 .L478:
 	ld.b	d15,[a15]16
@@ -19798,156 +19798,156 @@ IfxFft_Fft_initDma:	.type	func
 	st.b	[a10]8,d15
 .L695:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   676          dmaCfg.hardwareRequestEnabled  = FALSE; // will be triggered via software
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   676      }
 	mov	d15,#0
 .L696:
 	st.b	[a10]39,d15
 .L697:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   677          dmaCfg.channelInterruptEnabled = TRUE;  // trigger interrupt after transaction
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   677      {
 	mov	d15,#1
 .L698:
 	st.b	[a10]52,d15
 .L699:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   678  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   679          // source address is fixed; use circular mode to stay at this address for each move
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   680          dmaCfg.sourceAddress               = IFXFFT_DATA_SPACE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   678          /* discard channel, reuse most configuration of output channel */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   679          dmaCfg.channelId              = config->discardDmaChannelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   680          dmaCfg.hardwareRequestEnabled = TRUE;  // will be triggered via output DMA channel
 	movh	d15,#48640
 .L700:
 	st.w	[a10]10,d15
 .L701:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   681          dmaCfg.sourceCircularBufferEnabled = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   681          IfxDma_Dma_initChannel(discardDmaChannel, &dmaCfg);
 	mov	d15,#1
 .L702:
 	st.b	[a10]47,d15
 .L703:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   682  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   683          // destination address and transfer count will be configured during runtime
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   684          dmaCfg.destinationAddress               = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   682      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   683      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   684          /* input channel */
 	mov	d15,#0
 .L704:
 	st.w	[a10]14,d15
 .L705:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   685          dmaCfg.destinationCircularBufferEnabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   685          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputDmaChannelId != config->outputDmaChannelId);
 	mov	d15,#0
 .L706:
 	st.b	[a10]48,d15
 .L707:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   686          dmaCfg.transferCount                    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   686          dmaCfg.channelId               = config->inputDmaChannelId;
 	mov	d15,#0
 .L708:
 	st.h	[a10]30,d15
 .L709:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   687  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   688          IfxDma_Dma_initChannel(outputDmaChannel, &dmaCfg);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   687          dmaCfg.hardwareRequestEnabled  = FALSE; // will be triggered via software
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   688  #if IFXFFT_FFT_PIPELINED
 	lea	a5,[a10]4
 	ld.a	a4,[a10]64
 .L480:
 	call	IfxDma_Dma_initChannel
 .L481:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   689      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   690      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   691          /* discard channel, reuse most configuration of output channel */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   692          dmaCfg.channelId              = config->discardDmaChannelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   689          dmaCfg.channelInterruptEnabled = TRUE;  // trigger interrupt after transaction
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   690  #else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   691          dmaCfg.channelInterruptEnabled = FALSE; // no interrupt at end of transaction
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   692  #endif
 	ld.b	d15,[a15]17
 .L710:
 	st.b	[a10]8,d15
 .L711:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   693          dmaCfg.hardwareRequestEnabled = TRUE;  // will be triggered via output DMA channel
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   693          // source address and transfer count will be configured during runtime
 	mov	d15,#1
 .L712:
 	st.b	[a10]39,d15
 .L713:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   694          IfxDma_Dma_initChannel(discardDmaChannel, &dmaCfg);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   694          dmaCfg.sourceAddress               = 0;
 	lea	a5,[a10]4
 	mov.aa	a4,a14
 .L482:
 	call	IfxDma_Dma_initChannel
 .L483:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   695      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   696      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   697          /* input channel */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   698          IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, config->inputDmaChannelId != config->outputDmaChannelId);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   699          dmaCfg.channelId               = config->inputDmaChannelId;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   695          dmaCfg.sourceCircularBufferEnabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   696          dmaCfg.transferCount               = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   697  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   698          // destination address is fixed; use circular mode to stay at this address for each move
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   699          dmaCfg.destinationAddress               = IFXFFT_DATA_SPACE;
 	ld.b	d15,[a15]15
 .L714:
 	st.b	[a10]8,d15
 .L715:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   700          dmaCfg.hardwareRequestEnabled  = FALSE; // will be triggered via software
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   700          dmaCfg.destinationCircularBufferEnabled = TRUE;
 	mov	d15,#0
 .L716:
 	st.b	[a10]39,d15
 .L717:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   701  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   702          dmaCfg.channelInterruptEnabled = TRUE;  // trigger interrupt after transaction
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   701  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   702          IfxDma_Dma_initChannel(inputDmaChannel, &dmaCfg);
 	mov	d15,#1
 .L718:
 	st.b	[a10]52,d15
 .L719:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   703  #else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   704          dmaCfg.channelInterruptEnabled = FALSE; // no interrupt at end of transaction
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   705  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   706          // source address and transfer count will be configured during runtime
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   707          dmaCfg.sourceAddress               = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   703      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   704  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   705      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   706          volatile Ifx_SRC_SRCR *srcr;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   707  #if IFXFFT_FFT_PIPELINED
 	mov	d15,#0
 .L720:
 	st.w	[a10]10,d15
 .L721:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   708          dmaCfg.sourceCircularBufferEnabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   708          //Route DMA input SRC to CPU as ISR input
 	mov	d15,#0
 .L722:
 	st.b	[a10]47,d15
 .L723:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   709          dmaCfg.transferCount               = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   709          srcr = IfxDma_getSrcPointer(dmaSFR, config->inputDmaChannelId);
 	mov	d15,#0
 .L724:
 	st.h	[a10]30,d15
 .L725:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   710  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   711          // destination address is fixed; use circular mode to stay at this address for each move
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   712          dmaCfg.destinationAddress               = IFXFFT_DATA_SPACE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   710          IfxSrc_init(srcr, config->typeOfService, config->inputPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   711          IfxSrc_enable(srcr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   712  #endif
 	movh	d15,#48640
 .L726:
 	st.w	[a10]14,d15
 .L727:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   713          dmaCfg.destinationCircularBufferEnabled = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   713          //Route FFT DONE SRC to CPU as ISR midjob
 	mov	d15,#1
 .L728:
 	st.b	[a10]48,d15
 .L729:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   714  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   715          IfxDma_Dma_initChannel(inputDmaChannel, &dmaCfg);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   714          srcr = IfxFft_getSrcPointerDone(fftSFR);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   715          IfxSrc_init(srcr, config->typeOfService, config->intraPriority);
 	lea	a5,[a10]4
 	mov.aa	a4,a13
 .L484:
 	call	IfxDma_Dma_initChannel
 .L279:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   716      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   716          IfxSrc_enable(srcr);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   717  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   718      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   719          volatile Ifx_SRC_SRCR *srcr;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   720  #if IFXFFT_FFT_PIPELINED
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   721          //Route DMA input SRC to CPU as ISR input
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   722          srcr = IfxDma_getSrcPointer(dmaSFR, config->inputDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   718          //Route output DMA request to discard DMA
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   719          srcr = IfxDma_getSrcPointer(dmaSFR, config->outputDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   720          IfxSrc_init(srcr, IfxSrc_Tos_dma, (Ifx_Priority)config->discardDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   721          IfxSrc_enable(srcr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   722          fft->srcrOutDis = srcr->B;
 	ld.b	d15,[a15]15
 .L270:
 	movh.a	a15,#61441
@@ -21505,7 +21505,7 @@ IfxFft_Fft_initDma:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L48:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   723          IfxSrc_init(srcr, config->typeOfService, config->inputPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   723  srcr->B;
 	ld.a	a2,[a10]60
 .L488:
 	ld.bu	d0,[a2]14
@@ -22112,11 +22112,11 @@ IfxFft_Fft_initDma:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Std\IfxFft.h	   289  }      (inlined)
 .L49:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   724          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   725  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   726          //Route FFT DONE SRC to CPU as ISR midjob
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   727          srcr = IfxFft_getSrcPointerDone(fftSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   728          IfxSrc_init(srcr, config->typeOfService, config->intraPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   724  srcr->B;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   725  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   726          //Route DMA discard interrupt to CPU as ISR output
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   727          srcr = IfxDma_getSrcPointer(dmaSFR, config->discardDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   728          IfxSrc_init(srcr, config->typeOfService, config->outputPriority);
 	ld.bu	d0,[a2]14
 .L738:
 	ld.hu	d15,[a2]10
@@ -22423,10 +22423,10 @@ IfxFft_Fft_initDma:	.type	func
 	st.b	[a15]1,d15
 .L316:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   729          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   730  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   731          //Route output DMA request to discard DMA
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   732          srcr = IfxDma_getSrcPointer(dmaSFR, config->outputDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   729  ty);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   730          IfxSrc_enable(srcr);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   731          fft->srcrOutEnd = srcr->B;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   732      }
 	ld.a	a15,[a10]60
 .L487:
 	ld.b	d15,[a15]16
@@ -23986,7 +23986,7 @@ IfxFft_Fft_initDma:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L51:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   733          IfxSrc_init(srcr, IfxSrc_Tos_dma, (Ifx_Priority)config->discardDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   733  }
 	mov	d0,#3
 .L492:
 	ld.b	d15,[a2]17
@@ -24295,18 +24295,19 @@ IfxFft_Fft_initDma:	.type	func
 	st.b	[a15]1,d15
 .L320:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   734          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   735          fft->srcrOutDis = srcr->B;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   734  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   735  #endif
 	ld.w	d15,[a15]
 .L751:
 	st.w	[a12]56,d15
 .L752:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   736  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   737          //Route DMA discard interrupt to CPU as ISR output
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   738          srcr = IfxDma_getSrcPointer(dmaSFR, config->discardDmaChannelId);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   736  }
+
 	ld.a	a15,[a10]60
 .L491:
+
+
 	ld.b	d15,[a15]17
 .L274:
 	movh.a	a15,#61441
@@ -25864,9 +25865,11 @@ IfxFft_Fft_initDma:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dma\Std\IfxDma.h	  1535  }      (inlined)
 .L53:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   739          IfxSrc_init(srcr, config->typeOfService, config->outputPriority);
+
 	ld.bu	d0,[a2]14
 .L753:
+
+
 	ld.hu	d15,[a2]12
 .L321:
 
@@ -26171,16 +26174,15 @@ IfxFft_Fft_initDma:	.type	func
 	st.b	[a15]1,d15
 .L324:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   740          IfxSrc_enable(srcr);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   741          fft->srcrOutEnd = srcr->B;
+
 	ld.w	d15,[a15]
 .L760:
+
+
 	st.w	[a12]60,d15
 .L280:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   742      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   743  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fft\Fft\IfxFft_Fft.c	   744  }
+
 	ret
 .L256:
 	

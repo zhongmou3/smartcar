@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc\\.IfxFce_Crc.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc\\IfxFce_Crc.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc\\IfxFce_Crc.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc\\IfxFce_Crc.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc\\IfxFce_Crc.c'
@@ -672,15 +672,15 @@ IfxFce_Crc_clearErrorFlags:	.type	func
 	j	.L16
 .L15:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   168      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   169      else if (fce->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   168         IfxFce_clearCrc16ErrorFlags(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   169      }
 	ld.bu	d15,[a4]4
 .L430:
 	jne	d15,#1,.L17
 .L431:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   170      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   171          IfxFce_clearCrc16ErrorFlags(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   170      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   171      {
 	ld.a	a15,[a4]
 .L218:
 
@@ -893,10 +893,10 @@ IfxFce_Crc_clearErrorFlags:	.type	func
 	j	.L18
 .L17:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   172      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   173      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   174      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   175          IfxFce_clearCrc32ErrorFlags(fce->fce, fce->crc32Kernel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   172  f (fce->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   173      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   174          IfxFce_clearCrc16ErrorFlags(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   175      }
 	ld.a	a15,[a4]
 .L433:
 	ld.bu	d15,[a4]10
@@ -1140,8 +1140,8 @@ IfxFce_Crc_clearErrorFlags:	.type	func
 .L18:
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   176      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   177  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   176  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   177      }
 	ret
 .L209:
 	
@@ -1156,21 +1156,21 @@ __IfxFce_Crc_clearErrorFlags_function_end:
 	
 	.global	IfxFce_Crc_deInitModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   178  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   179  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   180  void IfxFce_Crc_deInitModule(IfxFce_Crc_Crc *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   178      else if (fce->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   179      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   180          IfxFce_clearCrc16ErrorFlags(fce->fce);
 ; Function IfxFce_Crc_deInitModule
 .L43:
 IfxFce_Crc_deInitModule:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   181  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   182      IfxFce_resetModule(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   181      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   182      else
 	ld.a	a4,[a4]
 .L246:
 	call	IfxFce_resetModule
 .L274:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   183  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   183      {
 	ret
 .L108:
 	
@@ -1185,22 +1185,22 @@ __IfxFce_Crc_deInitModule_function_end:
 	
 	.global	IfxFce_Crc_getInterruptStatus
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   184  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   185  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   186  Ifx_FCE_STS IfxFce_Crc_getInterruptStatus(IfxFce_Crc_Crc *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   184          IfxFce_clearCrc32ErrorFlags(fce->fce, fce->crc32Kernel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   185      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   186  }
 ; Function IfxFce_Crc_getInterruptStatus
 .L45:
 IfxFce_Crc_getInterruptStatus:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   187  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   188      if (fce->crcMode == IfxFce_CrcMode_8)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   187  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   188  
 	ld.bu	d15,[a4]4
 .L442:
 	jne	d15,#0,.L21
 .L443:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   189      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   190          return IfxFce_getCrc8InterruptStatus(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   189  void IfxFce_Crc_deInitModule(IfxFce_Crc_Crc *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   190  {
 	ld.a	a4,[a4]
 .L247:
 	call	IfxFce_getCrc8InterruptStatus
@@ -1208,15 +1208,15 @@ IfxFce_Crc_getInterruptStatus:	.type	func
 	j	.L22
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   191      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   192      else if (fce->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   191      IfxFce_resetModule(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   192  }
 	ld.bu	d15,[a4]4
 .L445:
 	jne	d15,#1,.L23
 .L446:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   193      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   194          return IfxFce_getCrc16InterruptStatus(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   193  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   194  
 	ld.a	a4,[a4]
 .L248:
 	call	IfxFce_getCrc16InterruptStatus
@@ -1224,10 +1224,10 @@ IfxFce_Crc_getInterruptStatus:	.type	func
 	j	.L24
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   195      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   196      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   197      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   198          return IfxFce_getCrc32InterruptStatus(fce->fce, fce->crc32Kernel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   195  Ifx_FCE_STS IfxFce_Crc_getInterruptStatus(IfxFce_Crc_Crc *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   196  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   197      if (fce->crcMode == IfxFce_CrcMode_8)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   198      {
 	ld.a	a15,[a4]
 .L448:
 	ld.bu	d4,[a4]10
@@ -1237,8 +1237,8 @@ IfxFce_Crc_getInterruptStatus:	.type	func
 .L449:
 	j	.L25
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   199      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   200  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   199          return IfxFce_getCrc8InterruptStatus(fce->fce);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   200      }
 .L25:
 .L24:
 .L22:
@@ -1256,9 +1256,9 @@ __IfxFce_Crc_getInterruptStatus_function_end:
 	
 	.global	IfxFce_Crc_initCrc
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   201  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   202  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   203  void IfxFce_Crc_initCrc(IfxFce_Crc_Crc *fceCrc, const IfxFce_Crc_CrcConfig *crcConfig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   201      else if (fce->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   202      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   203          return IfxFce_getCrc16InterruptStatus(fce->fce);
 ; Function IfxFce_Crc_initCrc
 .L47:
 IfxFce_Crc_initCrc:	.type	func
@@ -1267,173 +1267,173 @@ IfxFce_Crc_initCrc:	.type	func
 	mov.aa	a15,a5
 .L252:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   204  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   205      fceCrc->fce = crcConfig->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   204      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   205      else
 	ld.a	a2,[a15]
 .L279:
 	st.a	[a12],a2
 .L115:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   206      Ifx_FCE *fceSFR = crcConfig->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   206      {
 	ld.a	a13,[a15]
 .L253:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   207  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   208      fceCrc->crcMode     = crcConfig->crcMode;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   207          return IfxFce_getCrc32InterruptStatus(fce->fce, fce->crc32Kernel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   208      }
 	ld.bu	d15,[a15]12
 .L280:
 	st.b	[a12]4,d15
 .L281:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   209      fceCrc->expectedCrc = crcConfig->expectedCrc;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   209  }
 	ld.w	d15,[a15]8
 .L282:
 	st.w	[a12]6,d15
 .L118:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   210  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   211      uint16      password = IfxScuWdt_getCpuWatchdogPassword();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   211  
 	call	IfxScuWdt_getCpuWatchdogPassword
 .L250:
 	mov	d8,d2
 .L255:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   212      IfxScuWdt_clearCpuEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   212  void IfxFce_Crc_initCrc(IfxFce_Crc_Crc *fceCrc, const IfxFce_Crc_CrcConfig *crcConfig)
 	mov	d4,d8
 .L254:
 	call	IfxScuWdt_clearCpuEndinit
 .L121:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   213  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   214      Ifx_FCE_CFG tempCFG;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   215      tempCFG.U        = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   213  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   214      fceCrc->fce = crcConfig->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   215      Ifx_FCE *fceSFR = crcConfig->fce;
 	mov	d0,#0
 .L256:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   216      tempCFG.B.CMI    = crcConfig->enabledInterrupts.crcMismatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   216  
 	ld.bu	d15,[a15]16
 .L283:
 	insert	d0,d0,d15,#0,#1
 .L284:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   217      tempCFG.B.CEI    = crcConfig->enabledInterrupts.configError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   217      fceCrc->crcMode     = crcConfig->crcMode;
 	ld.bu	d15,[a15]17
 .L285:
 	insert	d0,d0,d15,#1,#1
 .L286:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   218      tempCFG.B.LEI    = crcConfig->enabledInterrupts.lengthError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   218      fceCrc->expectedCrc = crcConfig->expectedCrc;
 	ld.bu	d15,[a15]18
 .L287:
 	insert	d0,d0,d15,#2,#1
 .L288:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   219      tempCFG.B.BEI    = crcConfig->enabledInterrupts.busError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   219  
 	ld.bu	d15,[a15]19
 .L289:
 	insert	d0,d0,d15,#3,#1
 .L290:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   220      tempCFG.B.CCE    = crcConfig->crcCheckCompared;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   220      uint16      password = IfxScuWdt_getCpuWatchdogPassword();
 	ld.bu	d15,[a15]4
 .L291:
 	insert	d0,d0,d15,#4,#1
 .L292:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   221      tempCFG.B.ALR    = crcConfig->automaticLengthReload;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   221      IfxScuWdt_clearCpuEndinit(password);
 	ld.bu	d15,[a15]5
 .L293:
 	insert	d0,d0,d15,#5,#1
 .L294:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   222      tempCFG.B.REFIN  = crcConfig->dataByteReflectionEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   222  
 	ld.bu	d15,[a15]6
 .L295:
 	insert	d0,d0,d15,#8,#1
 .L296:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   223      tempCFG.B.REFOUT = crcConfig->crc32BitReflectionEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   223      Ifx_FCE_CFG tempCFG;
 	ld.bu	d15,[a15]7
 .L297:
 	insert	d0,d0,d15,#9,#1
 .L298:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   224      tempCFG.B.XSEL   = crcConfig->crcResultInverted;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   224      tempCFG.U        = 0;
 	ld.bu	d15,[a15]13
 .L299:
 	insert	d0,d0,d15,#10,#1
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   226      if (crcConfig->crcMode == IfxFce_CrcMode_8)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   225      tempCFG.B.CMI    = crcConfig->enabledInterrupts.crcMismatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   226      tempCFG.B.CEI    = crcConfig->enabledInterrupts.configError;
 	ld.bu	d15,[a15]12
 .L301:
 	jne	d15,#0,.L26
 .L302:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   227      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   228          fceSFR->IN3.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   227      tempCFG.B.LEI    = crcConfig->enabledInterrupts.lengthError;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   228      tempCFG.B.BEI    = crcConfig->enabledInterrupts.busError;
 	st.w	[a13]136,d0
 .L303:
 	j	.L27
 .L26:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   229      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   230      else if (crcConfig->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   229      tempCFG.B.CCE    = crcConfig->crcCheckCompared;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   230      tempCFG.B.ALR    = crcConfig->automaticLengthReload;
 	ld.bu	d15,[a15]12
 .L304:
 	jne	d15,#1,.L28
 .L305:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   231      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   232          fceSFR->IN2.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   231      tempCFG.B.REFIN  = crcConfig->dataByteReflectionEnabled;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   232      tempCFG.B.REFOUT = crcConfig->crc32BitReflectionEnabled;
 	st.w	[a13]104,d0
 .L306:
 	j	.L29
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   233      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   234      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   235      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   236          fceCrc->crc32Kernel = crcConfig->crc32Kernel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   233      tempCFG.B.XSEL   = crcConfig->crcResultInverted;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   234  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   235      if (crcConfig->crcMode == IfxFce_CrcMode_8)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   236      {
 	ld.bu	d15,[a15]14
 .L307:
 	st.b	[a12]10,d15
 .L308:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   237  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   238          if (crcConfig->crc32Kernel == IfxFce_Crc32Kernel_0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   237          fceSFR->IN3.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   238      }
 	ld.bu	d15,[a15]14
 .L309:
 	jne	d15,#0,.L30
 .L310:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   239          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   240              fceSFR->IN0.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   239      else if (crcConfig->crcMode == IfxFce_CrcMode_16)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   240      {
 	st.w	[a13]40,d0
 .L311:
 	j	.L31
 .L30:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   241          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   242          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   243          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   244              fceSFR->IN1.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   241          fceSFR->IN2.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   242      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   243      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   244      {
 	st.w	[a13]72,d0
 .L31:
 .L29:
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   245          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   246      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   247  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   248      IfxScuWdt_setCpuEndinit(password);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   245          fceCrc->crc32Kernel = crcConfig->crc32Kernel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   246  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   247          if (crcConfig->crc32Kernel == IfxFce_Crc32Kernel_0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   248          {
 	mov	d4,d8
 .L258:
 	call	IfxScuWdt_setCpuEndinit
 .L257:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   249  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   249              fceSFR->IN0.CFG.U = tempCFG.U;
 	ret
 .L111:
 	
@@ -1448,81 +1448,81 @@ __IfxFce_Crc_initCrc_function_end:
 	
 	.global	IfxFce_Crc_initCrcConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   250  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   251  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   252  void IfxFce_Crc_initCrcConfig(IfxFce_Crc_CrcConfig *crcConfig, IfxFce_Crc *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   250          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   251          else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   252          {
 ; Function IfxFce_Crc_initCrcConfig
 .L49:
 IfxFce_Crc_initCrcConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   253  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   254      crcConfig->fce                           = fce->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   253              fceSFR->IN1.CFG.U = tempCFG.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   254          }
 	ld.a	a15,[a5]
 .L316:
 	st.a	[a4],a15
 .L317:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   255      crcConfig->crcMode                       = IfxFce_CrcMode_32;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   255      }
 	mov	d15,#2
 .L318:
 	st.b	[a4]12,d15
 .L319:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   256      crcConfig->crcCheckCompared              = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   256  
 	mov	d15,#1
 .L320:
 	st.b	[a4]4,d15
 .L321:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   257      crcConfig->automaticLengthReload         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   257      IfxScuWdt_setCpuEndinit(password);
 	mov	d15,#0
 .L322:
 	st.b	[a4]5,d15
 .L323:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   258      crcConfig->dataByteReflectionEnabled     = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   258  }
 	mov	d15,#1
 .L324:
 	st.b	[a4]6,d15
 .L325:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   259      crcConfig->crc32BitReflectionEnabled     = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   259  
 	mov	d15,#1
 .L326:
 	st.b	[a4]7,d15
 .L327:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   260      crcConfig->crcResultInverted             = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   260  
 	mov	d15,#1
 .L328:
 	st.b	[a4]13,d15
 .L329:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   261      crcConfig->enabledInterrupts.crcMismatch = FALSE; // enable if CRC is already known
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   261  void IfxFce_Crc_initCrcConfig(IfxFce_Crc_CrcConfig *crcConfig, IfxFce_Crc *fce)
 	mov	d15,#0
 .L330:
 	st.b	[a4]16,d15
 .L331:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   262      crcConfig->enabledInterrupts.configError = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   262  {
 	mov	d15,#1
 .L332:
 	st.b	[a4]17,d15
 .L333:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   263      crcConfig->enabledInterrupts.lengthError = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   263      crcConfig->fce                           = fce->fce;
 	mov	d15,#1
 .L334:
 	st.b	[a4]18,d15
 .L335:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   264      crcConfig->enabledInterrupts.busError    = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   264      crcConfig->crcMode                       = IfxFce_CrcMode_32;
 	mov	d15,#1
 .L336:
 	st.b	[a4]19,d15
 .L337:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   265  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   265      crcConfig->crcCheckCompared              = TRUE;
 	ret
 .L124:
 	
@@ -1537,23 +1537,23 @@ __IfxFce_Crc_initCrcConfig_function_end:
 	
 	.global	IfxFce_Crc_initModule
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   266  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   267  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   268  void IfxFce_Crc_initModule(IfxFce_Crc *fce, const IfxFce_Crc_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   266      crcConfig->automaticLengthReload         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   267      crcConfig->dataByteReflectionEnabled     = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   268      crcConfig->crc32BitReflectionEnabled     = TRUE;
 ; Function IfxFce_Crc_initModule
 .L51:
 IfxFce_Crc_initModule:	.type	func
 	mov.aa	a12,a5
 .L260:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   269  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   270      fce->fce = config->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   269      crcConfig->crcResultInverted             = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   270      crcConfig->enabledInterrupts.crcMismatch = FALSE; // enable if CRC is already known
 	ld.a	a15,[a12]
 .L342:
 	st.a	[a4],a15
 .L133:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   271      Ifx_FCE               *fceSFR = config->fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   271      crcConfig->enabledInterrupts.configError = TRUE;
 	ld.a	a15,[a12]
 .L136:
 
@@ -1839,11 +1839,11 @@ IfxFce_Crc_initModule:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Std\IfxFce.h	   247  }      (inlined)
 .L33:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   272  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   273      IfxFce_enableModule(fceSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   274  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   275      volatile Ifx_SRC_SRCR *src = IfxFce_getSrcPointer(fceSFR);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   276      IfxSrc_init(src, config->isrTypeOfService, config->isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   272  pts.configError = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   273      crcConfig->enabledInterrupts.lengthError = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   274      crcConfig->enabledInterrupts.busError    = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   275  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   276  
 	ld.bu	d0,[a12]6
 .L346:
 	ld.hu	d15,[a12]4
@@ -2150,7 +2150,7 @@ IfxFce_Crc_initModule:	.type	func
 	st.b	[a15]1,d15
 .L164:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   277      IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   277  Error    = TRUE;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   278  }
 	ret
 .L129:
@@ -2168,29 +2168,29 @@ __IfxFce_Crc_initModule_function_end:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   279  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   280  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   281  void IfxFce_Crc_initModuleConfig(IfxFce_Crc_Config *config, Ifx_FCE *fce)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   281  void IfxFce_Crc_initModule(IfxFce_Crc *fce, const IfxFce_Crc_Config *config)
 ; Function IfxFce_Crc_initModuleConfig
 .L53:
 IfxFce_Crc_initModuleConfig:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   282  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   283      config->fce              = fce;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   283      fce->fce = config->fce;
 	st.a	[a4],a5
 .L357:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   284      config->isrPriority      = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   284      Ifx_FCE               *fceSFR = config->fce;
 	mov	d15,#0
 .L358:
 	st.h	[a4]4,d15
 .L359:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   285      config->isrTypeOfService = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   285  
 	mov	d15,#0
 .L360:
 	st.b	[a4]6,d15
 .L361:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   286  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   286      IfxFce_enableModule(fceSFR);
 	ret
 .L168:
 	
@@ -16572,5 +16572,5 @@ __IfxFce_Crc_initModuleConfig_function_end:
 	.word	.L450,.L53,.L168-.L53
 	.byte	8,18,8,19,8,22,8,23
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Fce\Crc\IfxFce_Crc.c	   287  
 	; Module end

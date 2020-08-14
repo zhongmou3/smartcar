@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig\\.IfxGtm_Trig.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig\\IfxGtm_Trig.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig\\IfxGtm_Trig.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig\\IfxGtm_Trig.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig\\IfxGtm_Trig.c'
@@ -352,12 +352,12 @@ IfxGtm_Trig_fromDsadc:	.type	func
 	st.w	[a15],d15
 .L2:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   185      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   186  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   187      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   185  ult;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   186  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   187  
 	j	.L3
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   188  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   188  
 .L3:
 	ret
 .L82:
@@ -373,39 +373,39 @@ __IfxGtm_Trig_fromDsadc_function_end:
 	
 	.global	IfxGtm_Trig_toDsadc
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   189  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   190  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   191  void IfxGtm_Trig_toDsadc(Ifx_GTM *gtm, uint32 dsadcChannel, IfxGtm_Trig_DsadcTrig dsadcTrig, IfxGtm_Trig_DsadcTrigSource sel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   189  void IfxGtm_Trig_toDsadc(Ifx_GTM *gtm, uint32 dsadcChannel, IfxGtm_Trig_DsadcTrig dsadcTrig, IfxGtm_Trig_DsadcTrigSource sel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   190  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   191      uint32 shift = dsadcChannel * 4;
 ; Function IfxGtm_Trig_toDsadc
 .L46:
 IfxGtm_Trig_toDsadc:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   192  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   193      uint32 shift = dsadcChannel * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   192      uint32 mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   193      uint32 value = sel << shift;
 	mul	d1,d4,#4
 .L174:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   194      uint32 mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   194  
 	mov	d15,#15
 .L223:
 	sh	d0,d15,d1
 .L176:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   195      uint32 value = sel << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   195      switch (dsadcTrig)
 	sha	d6,d6,d1
 .L173:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   197      switch (dsadcTrig)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   198      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   199      case IfxGtm_Trig_DsadcTrig_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   196      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   197      case IfxGtm_Trig_DsadcTrig_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   198          __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL00.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   199          break;
 	mov	d15,#0
 	jeq	d15,d5,.L4
 .L224:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   200          __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL00.U), mask, value);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   201          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   202      case IfxGtm_Trig_DsadcTrig_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   200      case IfxGtm_Trig_DsadcTrig_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   201          __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL10.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   202          break;
 	mov	d15,#1
 	jeq	d15,d5,.L5
 	j	.L6
@@ -545,7 +545,7 @@ IfxGtm_Trig_toDsadc:	.type	func
 	j	.L7
 .L5:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   203          __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL10.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   203  se IfxGtm_Trig_DsadcTrig_1:
 	movh.a	a3,#10
 	add.a	a3,a4
 	lea	a15,[a3]-624
@@ -679,12 +679,12 @@ IfxGtm_Trig_toDsadc:	.type	func
 	st.w	[a15],d15
 .L119:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   204          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   204      __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL00.U), mask, value);
 	j	.L8
 .L6:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   205      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   206  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   205          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   206      case IfxGtm_Trig_DsadcTrig_1:
 .L8:
 .L7:
 	ret
@@ -701,50 +701,50 @@ __IfxGtm_Trig_toDsadc_function_end:
 	
 	.global	IfxGtm_Trig_toVadc
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   207  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   208  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   209  boolean IfxGtm_Trig_toVadc(Ifx_GTM *gtm, IfxGtm_Trig_AdcGroup adcGroup, IfxGtm_Trig_AdcTrig adcTrig, IfxGtm_Trig_AdcTrigSource source, IfxGtm_Trig_AdcTrigChannel channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   207          __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL10.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   208          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   209      }
 ; Function IfxGtm_Trig_toVadc
 .L48:
 IfxGtm_Trig_toVadc:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   210  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   211      IFX_CONST IfxGtm_Trig_AdcTrig_Table *table = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   210  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   211  
 	mov.a	a15,#0
 .L180:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   212      uint8                                config;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   213  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   214      boolean                              result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   212  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   213  boolean IfxGtm_Trig_toVadc(Ifx_GTM *gtm, IfxGtm_Trig_AdcGroup adcGroup, IfxGtm_Trig_AdcTrig adcTrig, IfxGtm_Trig_AdcTrigSource source, IfxGtm_Trig_AdcTrigChannel channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   214  {
 	mov	d3,#0
 .L182:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   215  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   216      switch (adcGroup)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   217      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   218      case IfxGtm_Trig_AdcGroup_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   215      IFX_CONST IfxGtm_Trig_AdcTrig_Table *table = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   216      uint8                                config;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   217  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   218      boolean                              result = 0;
 	mov	d15,#0
 	jeq	d15,d4,.L9
 .L237:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   219      case IfxGtm_Trig_AdcGroup_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   219  
 	mov	d15,#1
 	jeq	d15,d4,.L10
 .L238:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   220      case IfxGtm_Trig_AdcGroup_2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   220      switch (adcGroup)
 	mov	d15,#2
 	jeq	d15,d4,.L11
 .L239:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   221          table = &IfxGtm_Trig_AdcTrig_tableAdc0_1_2;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   222          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   223      case IfxGtm_Trig_AdcGroup_3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   221      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   222      case IfxGtm_Trig_AdcGroup_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   223      case IfxGtm_Trig_AdcGroup_1:
 	mov	d15,#3
 	jeq	d15,d4,.L12
 .L240:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   224      case IfxGtm_Trig_AdcGroup_4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   224      case IfxGtm_Trig_AdcGroup_2:
 	mov	d15,#4
 	jeq	d15,d4,.L13
 	j	.L14
@@ -758,7 +758,7 @@ IfxGtm_Trig_toVadc:	.type	func
 .L12:
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   225          table = &IfxGtm_Trig_AdcTrig_tableAdc3_4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   225          table = &IfxGtm_Trig_AdcTrig_tableAdc0_1_2;
 	movh.a	a15,#@his(IfxGtm_Trig_AdcTrig_tableAdc3_4)
 	lea	a15,[a15]@los(IfxGtm_Trig_AdcTrig_tableAdc3_4)
 .L242:
@@ -766,23 +766,23 @@ IfxGtm_Trig_toVadc:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   226          break;
 	j	.L16
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   227      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   227      case IfxGtm_Trig_AdcGroup_3:
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   228          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   228      case IfxGtm_Trig_AdcGroup_4:
 	j	.L17
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   229      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   230  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   231      if (table != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   229          table = &IfxGtm_Trig_AdcTrig_tableAdc3_4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   230          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   231      default:
 .L17:
 .L16:
 .L15:
 	jz.a	a15,.L18
 .L243:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   232      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   233          config = table->trigger[adcTrig].source[source].channel[channel].config;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   232          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   233      }
 	mul	d0,d6,#8
 .L244:
 	mul	d15,d5,#48
@@ -796,35 +796,35 @@ IfxGtm_Trig_toVadc:	.type	func
 	extr.u	d0,d0,#0,#8
 .L183:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   234          result = config != 0xFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   234  
 	ne	d3,d0,#255
 .L134:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   235          uint32 shift = adcGroup * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   235      if (table != NULL_PTR)
 	mul	d1,d4,#4
 .L185:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   236          uint32 mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   236      {
 	mov	d15,#15
 .L247:
 	sh	d2,d15,d1
 .L187:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   237          uint32 value = config << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   237          config = table->trigger[adcTrig].source[source].channel[channel].config;
 	sha	d0,d0,d1
 .L184:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   238  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   239          switch (adcTrig)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   240          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   241          case IfxGtm_Trig_AdcTrig_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   238          result = config != 0xFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   239          uint32 shift = adcGroup * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   240          uint32 mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   241          uint32 value = config << shift;
 	mov	d15,#0
 	jeq	d15,d5,.L19
 .L248:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   242              __ldmst_c(&(gtm->ADCTRIG0OUT0.U), mask, value);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   243              break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   244          case IfxGtm_Trig_AdcTrig_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   242  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   243          switch (adcTrig)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   244          {
 	mov	d15,#1
 	jeq	d15,d5,.L20
 	j	.L21
@@ -964,7 +964,7 @@ IfxGtm_Trig_toVadc:	.type	func
 	j	.L22
 .L20:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   245              __ldmst_c(&(gtm->ADCTRIG1OUT0.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   245        uint32 value = config << shift;
 	movh.a	a3,#10
 	add.a	a3,a4
 	lea	a15,[a3]-584
@@ -1098,35 +1098,35 @@ IfxGtm_Trig_toVadc:	.type	func
 	st.w	[a15],d15
 .L144:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   246              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   246         uint32 mask  = 0xFU << shift;
 	j	.L23
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   247          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   247          uint32 value = config << shift;
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   248              result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   248  
 	mov	d3,#0
 .L257:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   249              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   249          switch (adcTrig)
 	j	.L24
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   250          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   251      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   250          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   251          case IfxGtm_Trig_AdcTrig_0:
 .L24:
 .L23:
 .L22:
 .L18:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   252  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   253      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   254  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   255      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   252              __ldmst_c(&(gtm->ADCTRIG0OUT0.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   253              break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   254          case IfxGtm_Trig_AdcTrig_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   255              __ldmst_c(&(gtm->ADCTRIG1OUT0.U), mask, value);
 	mov	d2,d3
 .L191:
 	j	.L25
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   256  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   256              break;
 .L25:
 	ret
 .L120:
@@ -1142,57 +1142,57 @@ __IfxGtm_Trig_toVadc_function_end:
 	
 	.global	IfxGtm_Trig_toSent
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   257  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   258  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   259  boolean IfxGtm_Trig_toSent(Ifx_GTM *gtm, IfxGtm_Trig_SentGroup sentGroup, IfxGtm_Trig_SentTrig sentTrig, IfxGtm_Trig_SentTrigSource source, IfxGtm_Trig_SentTrigChannel channel)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   257          default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   258              result = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   259              break;
 ; Function IfxGtm_Trig_toSent
 .L50:
 IfxGtm_Trig_toSent:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   260  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   261      IFX_CONST IfxGtm_Trig_AdcTrig_Table *table = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   260          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   261      }
 	mov.a	a15,#0
 .L192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   262      uint8                                config;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   263      uint32                               shift, mask, value;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   264      boolean                              result = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   262  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   263      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   264  
 	mov	d1,#0
 .L194:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   265  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   266      switch (sentGroup)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   267      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   268      case IfxGtm_Trig_SentGroup_0:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   265      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   266  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   267  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   268  
 	mov	d15,#0
 	jeq	d15,d4,.L26
 .L262:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   269      case IfxGtm_Trig_SentGroup_1:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   269  boolean IfxGtm_Trig_toSent(Ifx_GTM *gtm, IfxGtm_Trig_SentGroup sentGroup, IfxGtm_Trig_SentTrig sentTrig, IfxGtm_Trig_SentTrigSource source, IfxGtm_Trig_SentTrigChannel channel)
 	mov	d15,#1
 	jeq	d15,d4,.L27
 .L263:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   270      case IfxGtm_Trig_SentGroup_2:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   270  {
 	mov	d15,#2
 	jeq	d15,d4,.L28
 .L264:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   271          table = &IfxGtm_Trig_AdcTrig_tableAdc0_1_2;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   272          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   273      case IfxGtm_Trig_SentGroup_3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   271      IFX_CONST IfxGtm_Trig_AdcTrig_Table *table = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   272      uint8                                config;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   273      uint32                               shift, mask, value;
 	mov	d15,#3
 	jeq	d15,d4,.L29
 .L265:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   274      case IfxGtm_Trig_SentGroup_4:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   274      boolean                              result = 0;
 	mov	d15,#4
 	jeq	d15,d4,.L30
 .L266:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   275          table = &IfxGtm_Trig_AdcTrig_tableAdc3_4;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   276          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   277      case IfxGtm_Trig_SentGroup_5:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   275  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   276      switch (sentGroup)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   277      {
 	mov	d15,#5
 	jeq	d15,d4,.L31
 	j	.L32
@@ -1211,23 +1211,23 @@ IfxGtm_Trig_toSent:	.type	func
 	j	.L34
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   278          table = &IfxGtm_Trig_SentTrig_table;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   278      case IfxGtm_Trig_SentGroup_0:
 	movh.a	a15,#@his(IfxGtm_Trig_SentTrig_table)
 	lea	a15,[a15]@los(IfxGtm_Trig_SentTrig_table)
 .L269:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   279          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   279      case IfxGtm_Trig_SentGroup_1:
 	j	.L35
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   280      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   280      case IfxGtm_Trig_SentGroup_2:
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   281          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   281          table = &IfxGtm_Trig_AdcTrig_tableAdc0_1_2;
 	j	.L36
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   282      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   283  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   284      if (table != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   282          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   283      case IfxGtm_Trig_SentGroup_3:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   284      case IfxGtm_Trig_SentGroup_4:
 .L36:
 .L35:
 .L34:
@@ -1235,8 +1235,8 @@ IfxGtm_Trig_toSent:	.type	func
 	jz.a	a15,.L37
 .L270:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   285      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   286          config = table->trigger[sentTrig].source[source].channel[channel].config;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   285          table = &IfxGtm_Trig_AdcTrig_tableAdc3_4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   286          break;
 	mul	d0,d6,#8
 .L271:
 	mul	d15,d5,#48
@@ -1250,12 +1250,12 @@ IfxGtm_Trig_toSent:	.type	func
 	extr.u	d0,d0,#0,#8
 .L195:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   287          result = config != 0xFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   287      case IfxGtm_Trig_SentGroup_5:
 	ne	d1,d0,#255
 .L274:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   288  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   289          if ((sentGroup / 6) == 0) // write to VADC registers
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   288          table = &IfxGtm_Trig_SentTrig_table;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   289          break;
 	mov.u	d15,#43691
 	addih	d15,d15,#10922
 	mul	e2,d4,d15
@@ -1263,8 +1263,8 @@ IfxGtm_Trig_toSent:	.type	func
 	jne	d3,#0,.L38
 .L276:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   290          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   291              shift = (sentGroup % 5) * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   290      default:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   291          break;
 	mov	d15,#5
 .L277:
 	div	e2,d4,d15
@@ -1274,10 +1274,10 @@ IfxGtm_Trig_toSent:	.type	func
 	j	.L39
 .L38:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   292          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   293          else            // write to DSADC registers
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   294          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   295              shift = (sentGroup % 6) * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   292      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   293  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   294      if (table != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   295      {
 	mov	d15,#6
 .L279:
 	div	e2,d4,d15
@@ -1285,20 +1285,20 @@ IfxGtm_Trig_toSent:	.type	func
 	mul	d2,d3,#4
 .L39:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   296          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   297  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   298          mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   296          config = table->trigger[sentTrig].source[source].channel[channel].config;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   297          result = config != 0xFF;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   298  
 	mov	d15,#15
 .L281:
 	sh	d15,d15,d2
 .L199:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   299          value = config << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   299          if ((sentGroup / 6) == 0) // write to VADC registers
 	sha	d0,d0,d2
 .L196:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   300  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   301          if ((sentGroup / 6) == 0) // write to VADC registers
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   300          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   301              shift = (sentGroup % 5) * 4;
 	mov.u	d2,#43691
 .L198:
 	addih	d2,d2,#10922
@@ -1307,8 +1307,8 @@ IfxGtm_Trig_toSent:	.type	func
 	jne	d3,#0,.L40
 .L283:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   302          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   303              __ldmst_c(&(gtm->ADCTRIG0OUT0.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   302          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   303          else            // write to DSADC registers
 	movh.a	a3,#10
 	add.a	a3,a4
 	lea	a15,[a3]-592
@@ -1443,10 +1443,10 @@ IfxGtm_Trig_toSent:	.type	func
 	j	.L41
 .L40:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   304          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   305          else                // write to DSADC registers
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   306          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   307              __ldmst_c(&(gtm->INOUTSEL.DSADC.OUTSEL00.U), mask, value);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   304  e to DSADC registers
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   305          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   306              shift = (sentGroup % 6) * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   307          }
 	movh.a	a3,#10
 	add.a	a3,a4
 	lea	a15,[a3]-632
@@ -1580,17 +1580,17 @@ IfxGtm_Trig_toSent:	.type	func
 .L41:
 .L37:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   308          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   309      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   308  6) * 4;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   309          }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   310  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   311      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, result);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   312  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   313      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   311          mask  = 0xFU << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   312          value = config << shift;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   313  
 	mov	d2,d1
 .L202:
 	j	.L42
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   314  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   314          if ((sentGroup / 6) == 0) // write to VADC registers
 .L42:
 	ret
 .L145:
@@ -24680,5 +24680,5 @@ IfxGtm_Trig_SentTrig_table:	.type	object
 	.word	.L292,.L50,.L145-.L50
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Trig\IfxGtm_Trig.c	   315          {
 	; Module end

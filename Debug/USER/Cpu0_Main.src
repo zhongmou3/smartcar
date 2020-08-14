@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=USER\\.Cpu0_Main.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=USER\\Cpu0_Main.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o USER\\Cpu0_Main.src ..\\USER\\Cpu0_Main.c"
 	.compiler_name		"ctc"
 	;source	'..\\USER\\Cpu0_Main.c'
@@ -734,32 +734,32 @@ core0_main:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   111  }      (inlined)
 .L4:
 
-; ..\USER\Cpu0_Main.c	    25  ************/
-; ..\USER\Cpu0_Main.c	    26  
-; ..\USER\Cpu0_Main.c	    27  
+; ..\USER\Cpu0_Main.c	    25  {
+; ..\USER\Cpu0_Main.c	    26  	disableInterrupts();
+; ..\USER\Cpu0_Main.c	    27  	uint8 start_count=0;
 	mov	d9,#0
 .L55:
 
-; ..\USER\Cpu0_Main.c	    28  #include "headfile.h"
+; ..\USER\Cpu0_Main.c	    28  	uint8 startpre_count=0;
 	mov	d8,#0
 .L57:
 
-; ..\USER\Cpu0_Main.c	    29  #include "control.h"
+; ..\USER\Cpu0_Main.c	    29  	uint8 start_prepare_flag=0;
 	mov	d10,#0
 .L59:
 
-; ..\USER\Cpu0_Main.c	    30  
+; ..\USER\Cpu0_Main.c	    30  	uint8 start_flag=0;
 	mov	d11,#0
 .L60:
 
-; ..\USER\Cpu0_Main.c	    31  void core0_main(void)
+; ..\USER\Cpu0_Main.c	    31      IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
 	call	IfxScuWdt_getCpuWatchdogPassword
 	mov	d4,d2
 	call	IfxScuWdt_disableCpuWatchdog
 .L73:
 
-; ..\USER\Cpu0_Main.c	    32  {
-; ..\USER\Cpu0_Main.c	    33  	disableInterrupts();
+; ..\USER\Cpu0_Main.c	    32      //编码器初始化
+; ..\USER\Cpu0_Main.c	    33  	gpt12_init(GPT12_T5, GPT12_T5INB_P10_3, GPT12_T5EUDB_P10_1);
 	mov	d4,#3
 .L74:
 	mov	d5,#12
@@ -768,7 +768,7 @@ core0_main:	.type	func
 	call	gpt12_init
 .L76:
 
-; ..\USER\Cpu0_Main.c	    34  	uint8 start_count=0;
+; ..\USER\Cpu0_Main.c	    34  	gpt12_init(GPT12_T2, GPT12_T2INB_P33_7, GPT12_T2EUDB_P33_6);
 	mov	d4,#0
 .L77:
 	mov	d5,#1
@@ -777,17 +777,17 @@ core0_main:	.type	func
 	call	gpt12_init
 .L79:
 
-; ..\USER\Cpu0_Main.c	    35  	uint8 startpre_count=0;
+; ..\USER\Cpu0_Main.c	    35  	pit_interrupt_ms(CCU6_0, PIT_CH0, 10);
 	mov	d4,#0
 	mov	d5,#0
 	mov	d6,#10000
 	call	pit_init
 .L80:
 
-; ..\USER\Cpu0_Main.c	    36  	uint8 start_prepare_flag=0;
-; ..\USER\Cpu0_Main.c	    37  	uint8 start_flag=0;
-; ..\USER\Cpu0_Main.c	    38      IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
-; ..\USER\Cpu0_Main.c	    39      //编码器初始化
+; ..\USER\Cpu0_Main.c	    36  
+; ..\USER\Cpu0_Main.c	    37      //用户在此处调用各种初始化函数等
+; ..\USER\Cpu0_Main.c	    38      //舵机，占空比、频率与旧车相同
+; ..\USER\Cpu0_Main.c	    39  	gtm_pwm_init(ATOM2_CH0_P33_4, 50, MID_STEER);
 	mov	d4,#104
 .L81:
 	mov	d5,#50
@@ -796,9 +796,9 @@ core0_main:	.type	func
 	call	gtm_pwm_init
 .L83:
 
-; ..\USER\Cpu0_Main.c	    40  	gpt12_init(GPT12_T5, GPT12_T5INB_P10_3, GPT12_T5EUDB_P10_1);
-; ..\USER\Cpu0_Main.c	    41  	gpt12_init(GPT12_T2, GPT12_T2INB_P33_7, GPT12_T2EUDB_P33_6);
-; ..\USER\Cpu0_Main.c	    42  	pit_interrupt_ms(CCU6_0, PIT_CH0, 10);
+; ..\USER\Cpu0_Main.c	    40  
+; ..\USER\Cpu0_Main.c	    41  
+; ..\USER\Cpu0_Main.c	    42  	uart_init(UART_0, 9600, UART0_TX_P14_0, UART0_RX_P14_1);
 	mov	d4,#0
 .L84:
 	mov	d5,#9600
@@ -809,10 +809,10 @@ core0_main:	.type	func
 	call	uart_init
 .L87:
 
-; ..\USER\Cpu0_Main.c	    43  
-; ..\USER\Cpu0_Main.c	    44      //用户在此处调用各种初始化函数等
-; ..\USER\Cpu0_Main.c	    45      //舵机，占空比、频率与旧车相同
-; ..\USER\Cpu0_Main.c	    46  	gtm_pwm_init(ATOM2_CH0_P33_4, 50, MID_STEER);
+; ..\USER\Cpu0_Main.c	    43  	//PWM初始化
+; ..\USER\Cpu0_Main.c	    44  	//管脚均已经与车上接口对应
+; ..\USER\Cpu0_Main.c	    45  	//电机，占空比、频率与旧车相同
+; ..\USER\Cpu0_Main.c	    46  	gtm_pwm_init(ATOM0_CH4_P02_4, 10000, 0);//右前//ATOM 0模块的通道4 使用P02_4引脚输出PWM  PWM频率10000HZ  占空比百分之0/GTM_ATOM0_PWM_DUTY_MAX*100  GTM_ATOM0_PWM_DUTY_MAX宏定义在zf_gtm_pwm.h
 	mov	d4,#29
 .L88:
 	mov	d5,#10000
@@ -821,7 +821,7 @@ core0_main:	.type	func
 	call	gtm_pwm_init
 .L90:
 
-; ..\USER\Cpu0_Main.c	    47  
+; ..\USER\Cpu0_Main.c	    47  	gtm_pwm_init(ATOM0_CH5_P02_5, 10000, 0);//左前
 	mov	d4,#35
 .L91:
 	mov	d5,#10000
@@ -830,7 +830,7 @@ core0_main:	.type	func
 	call	gtm_pwm_init
 .L93:
 
-; ..\USER\Cpu0_Main.c	    48  
+; ..\USER\Cpu0_Main.c	    48  	gtm_pwm_init(ATOM0_CH6_P02_6, 10000, 0);//右后
 	mov	d4,#39
 .L94:
 	mov	d5,#10000
@@ -839,7 +839,7 @@ core0_main:	.type	func
 	call	gtm_pwm_init
 .L96:
 
-; ..\USER\Cpu0_Main.c	    49  	uart_init(UART_0, 9600, UART0_TX_P14_0, UART0_RX_P14_1);
+; ..\USER\Cpu0_Main.c	    49  	gtm_pwm_init(ATOM0_CH7_P02_7, 10000, 0);//左后
 	mov	d4,#43
 .L97:
 	mov	d5,#10000
@@ -848,37 +848,37 @@ core0_main:	.type	func
 	call	gtm_pwm_init
 .L99:
 
-; ..\USER\Cpu0_Main.c	    50  	//PWM初始化
-; ..\USER\Cpu0_Main.c	    51  	//管脚均已经与车上接口对应
+; ..\USER\Cpu0_Main.c	    50  
+; ..\USER\Cpu0_Main.c	    51  	pwm_duty(ATOM2_CH0_P33_4, MID_STEER);	//waiting for the ball
 	mov	d4,#104
 .L100:
 	mov	d5,#705
 	call	pwm_duty
 .L101:
 
-; ..\USER\Cpu0_Main.c	    52  	//电机，占空比、频率与旧车相同
-; ..\USER\Cpu0_Main.c	    53  	gtm_pwm_init(ATOM0_CH4_P02_4, 10000, 0);//右前//ATOM 0模块的通道4 使用P02_4引脚输出PWM  PWM频率10000HZ  占空比百分之0/GTM_ATOM0_PWM_DUTY_MAX*100  GTM_ATOM0_PWM_DUTY_MAX宏定义在zf_gtm_pwm.h
+; ..\USER\Cpu0_Main.c	    52  			//改变电机占空比
+; ..\USER\Cpu0_Main.c	    53  	pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 	mov	d4,#29
 .L102:
 	mov	d5,#0
 	call	pwm_duty
 .L103:
 
-; ..\USER\Cpu0_Main.c	    54  	gtm_pwm_init(ATOM0_CH5_P02_5, 10000, 0);//左前
+; ..\USER\Cpu0_Main.c	    54  	pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
 	mov	d4,#35
 .L104:
 	mov	d5,#0
 	call	pwm_duty
 .L105:
 
-; ..\USER\Cpu0_Main.c	    55  	gtm_pwm_init(ATOM0_CH6_P02_6, 10000, 0);//右后
+; ..\USER\Cpu0_Main.c	    55  	pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 	mov	d4,#39
 .L106:
 	mov	d5,#0
 	call	pwm_duty
 .L107:
 
-; ..\USER\Cpu0_Main.c	    56  	gtm_pwm_init(ATOM0_CH7_P02_7, 10000, 0);//左后
+; ..\USER\Cpu0_Main.c	    56  	pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
 	mov	d4,#43
 .L108:
 	mov	d5,#0
@@ -1559,9 +1559,9 @@ core0_main:	.type	func
 	enable
 .L48:
 
-; ..\USER\Cpu0_Main.c	    57  );//右后
-; ..\USER\Cpu0_Main.c	    58  	gtm_pwm_init(ATOM0_CH7_P02_7, 10000, 0);//左后
-; ..\USER\Cpu0_Main.c	    59  
+; ..\USER\Cpu0_Main.c	    57  
+; ..\USER\Cpu0_Main.c	    58  	enableInterrupts();
+; ..\USER\Cpu0_Main.c	    59  	uint8 temp[9]={0};
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
@@ -1574,13 +1574,13 @@ core0_main:	.type	func
 	loop	a4,.L5
 .L110:
 
-; ..\USER\Cpu0_Main.c	    60  	pwm_duty(ATOM2_CH0_P33_4, MID_STEER);	//waiting for the ball
-; ..\USER\Cpu0_Main.c	    61  			//改变电机占空比
+; ..\USER\Cpu0_Main.c	    60  	int data;
+; ..\USER\Cpu0_Main.c	    61  	while(start_prepare_flag == 0)
 	j	.L6
 .L7:
 
-; ..\USER\Cpu0_Main.c	    62  	pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-; ..\USER\Cpu0_Main.c	    63  	pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
+; ..\USER\Cpu0_Main.c	    62  	{
+; ..\USER\Cpu0_Main.c	    63  		cardegree = degree_calculation();
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 .L111:
@@ -1589,7 +1589,7 @@ core0_main:	.type	func
 	st.w	[a15],d2
 .L113:
 
-; ..\USER\Cpu0_Main.c	    64  	pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+; ..\USER\Cpu0_Main.c	    64  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER + cardegree);	//waiting for the ball
 	mov	d4,#104
 .L114:
 	movh.a	a15,#@his(cardegree)
@@ -1600,37 +1600,37 @@ core0_main:	.type	func
 	call	pwm_duty
 .L116:
 
-; ..\USER\Cpu0_Main.c	    65  	pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
-; ..\USER\Cpu0_Main.c	    66  
+; ..\USER\Cpu0_Main.c	    65  		//改变电机占空比
+; ..\USER\Cpu0_Main.c	    66  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 	mov	d4,#29
 .L117:
 	mov	d5,#0
 	call	pwm_duty
 .L118:
 
-; ..\USER\Cpu0_Main.c	    67  	enableInterrupts();
+; ..\USER\Cpu0_Main.c	    67  		pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
 	mov	d4,#35
 .L119:
 	mov	d5,#0
 	call	pwm_duty
 .L120:
 
-; ..\USER\Cpu0_Main.c	    68  	uint8 temp[9]={0};
+; ..\USER\Cpu0_Main.c	    68  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 	mov	d4,#39
 .L121:
 	mov	d5,#0
 	call	pwm_duty
 .L122:
 
-; ..\USER\Cpu0_Main.c	    69  	int data;
+; ..\USER\Cpu0_Main.c	    69  	    pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
 	mov	d4,#43
 .L123:
 	mov	d5,#0
 	call	pwm_duty
 .L124:
 
-; ..\USER\Cpu0_Main.c	    70  	while(start_prepare_flag == 0)
-; ..\USER\Cpu0_Main.c	    71  	{
+; ..\USER\Cpu0_Main.c	    70  
+; ..\USER\Cpu0_Main.c	    71      	if(speed>100)
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
@@ -1640,8 +1640,8 @@ core0_main:	.type	func
 	jge	d15,d0,.L8
 .L127:
 
-; ..\USER\Cpu0_Main.c	    72  		cardegree = degree_calculation();
-; ..\USER\Cpu0_Main.c	    73  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER + cardegree);	//waiting for the ball
+; ..\USER\Cpu0_Main.c	    72          {
+; ..\USER\Cpu0_Main.c	    73            	startpre_count++;
 	add	d8,#1
 .L58:
 	extr.u	d8,d8,#0,#8
@@ -1649,29 +1649,29 @@ core0_main:	.type	func
 	j	.L9
 .L8:
 
-; ..\USER\Cpu0_Main.c	    74  		//改变电机占空比
-; ..\USER\Cpu0_Main.c	    75  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+; ..\USER\Cpu0_Main.c	    74          }
+; ..\USER\Cpu0_Main.c	    75  		else startpre_count=0;
 	mov	d8,#0
 .L9:
 
-; ..\USER\Cpu0_Main.c	    76  		pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
+; ..\USER\Cpu0_Main.c	    76  		if(startpre_count>5)
 	jlt.u	d8,#6,.L10
 .L128:
 
-; ..\USER\Cpu0_Main.c	    77  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+; ..\USER\Cpu0_Main.c	    77  			start_prepare_flag=1;
 	mov	d10,#1
 .L10:
 .L6:
 	jeq	d10,#0,.L7
 .L129:
 
-; ..\USER\Cpu0_Main.c	    78  	    pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
-; ..\USER\Cpu0_Main.c	    79  
+; ..\USER\Cpu0_Main.c	    78  	}
+; ..\USER\Cpu0_Main.c	    79  	while(start_flag==0&&start_prepare_flag==1)								//preparing to start
 	j	.L11
 .L12:
 
-; ..\USER\Cpu0_Main.c	    80      	if(speed>100)
-; ..\USER\Cpu0_Main.c	    81          {
+; ..\USER\Cpu0_Main.c	    80  	{
+; ..\USER\Cpu0_Main.c	    81  		cardegree=degree_calculation();
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 .L130:
@@ -1680,7 +1680,7 @@ core0_main:	.type	func
 	st.w	[a15],d2
 .L132:
 
-; ..\USER\Cpu0_Main.c	    82            	startpre_count++;
+; ..\USER\Cpu0_Main.c	    82  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+cardegree);
 	mov	d4,#104
 .L133:
 	movh.a	a15,#@his(cardegree)
@@ -1691,36 +1691,36 @@ core0_main:	.type	func
 	call	pwm_duty
 .L135:
 
-; ..\USER\Cpu0_Main.c	    83          }
-; ..\USER\Cpu0_Main.c	    84  		else startpre_count=0;
+; ..\USER\Cpu0_Main.c	    83  		//改变电机占空比
+; ..\USER\Cpu0_Main.c	    84  		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
 	mov	d4,#29
 .L136:
 	mov	d5,#200
 	call	pwm_duty
 .L137:
 
-; ..\USER\Cpu0_Main.c	    85  		if(startpre_count>5)
+; ..\USER\Cpu0_Main.c	    85          pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
 	mov	d4,#43
 .L138:
 	mov	d5,#200
 	call	pwm_duty
 .L139:
 
-; ..\USER\Cpu0_Main.c	    86  			start_prepare_flag=1;
+; ..\USER\Cpu0_Main.c	    86          pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 	mov	d4,#39
 .L140:
 	mov	d5,#0
 	call	pwm_duty
 .L141:
 
-; ..\USER\Cpu0_Main.c	    87  	}
+; ..\USER\Cpu0_Main.c	    87          pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 	mov	d4,#35
 .L142:
 	mov	d5,#0
 	call	pwm_duty
 .L143:
 
-; ..\USER\Cpu0_Main.c	    88  	while(start_flag==0&&start_prepare_flag==1)								//preparing to start
+; ..\USER\Cpu0_Main.c	    88  		if(speed>300)
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d15,[a15]
@@ -1730,8 +1730,8 @@ core0_main:	.type	func
 	jge	d0,d15,.L13
 .L146:
 
-; ..\USER\Cpu0_Main.c	    89  	{
-; ..\USER\Cpu0_Main.c	    90  		cardegree=degree_calculation();
+; ..\USER\Cpu0_Main.c	    89      	{
+; ..\USER\Cpu0_Main.c	    90      	   	start_count++;
 	add	d9,#1
 .L56:
 	extr.u	d9,d9,#0,#8
@@ -1739,17 +1739,17 @@ core0_main:	.type	func
 	j	.L14
 .L13:
 
-; ..\USER\Cpu0_Main.c	    91  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+cardegree);
-; ..\USER\Cpu0_Main.c	    92  		//改变电机占空比
+; ..\USER\Cpu0_Main.c	    91      	}
+; ..\USER\Cpu0_Main.c	    92      	else start_count=0;
 	mov	d9,#0
 .L14:
 
-; ..\USER\Cpu0_Main.c	    93  		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
+; ..\USER\Cpu0_Main.c	    93  		if(start_count>5)
 	jlt.u	d9,#6,.L15
 .L147:
 
-; ..\USER\Cpu0_Main.c	    94          pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
-; ..\USER\Cpu0_Main.c	    95          pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+; ..\USER\Cpu0_Main.c	    94  		{
+; ..\USER\Cpu0_Main.c	    95  			start_flag=1;
 	mov	d11,#1
 .L15:
 .L11:
@@ -1758,16 +1758,16 @@ core0_main:	.type	func
 	jeq	d10,#1,.L12
 .L16:
 
-; ..\USER\Cpu0_Main.c	    96          pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-; ..\USER\Cpu0_Main.c	    97  		if(speed>300)
-; ..\USER\Cpu0_Main.c	    98      	{
+; ..\USER\Cpu0_Main.c	    96  		}
+; ..\USER\Cpu0_Main.c	    97  	}
+; ..\USER\Cpu0_Main.c	    98      while (start_flag==1)
 	j	.L17
 .L18:
 
-; ..\USER\Cpu0_Main.c	    99      	   	start_count++;
-; ..\USER\Cpu0_Main.c	   100      	}
-; ..\USER\Cpu0_Main.c	   101      	else start_count=0;
-; ..\USER\Cpu0_Main.c	   102  		if(start_count>5)
+; ..\USER\Cpu0_Main.c	    99      {
+; ..\USER\Cpu0_Main.c	   100  		//用户在此处编写任务代码
+; ..\USER\Cpu0_Main.c	   101  
+; ..\USER\Cpu0_Main.c	   102      	cardegree=degree_calculation();
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 .L149:
@@ -1776,7 +1776,7 @@ core0_main:	.type	func
 	st.w	[a15],d2
 .L151:
 
-; ..\USER\Cpu0_Main.c	   103  		{
+; ..\USER\Cpu0_Main.c	   103      	rotate(cardegree);
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 	ld.w	d4,[a15]
@@ -1785,9 +1785,9 @@ core0_main:	.type	func
 	jeq	d11,#1,.L18
 .L152:
 
-; ..\USER\Cpu0_Main.c	   104  			start_flag=1;
-; ..\USER\Cpu0_Main.c	   105  		}
-; ..\USER\Cpu0_Main.c	   106  	}
+; ..\USER\Cpu0_Main.c	   104  
+; ..\USER\Cpu0_Main.c	   105      }
+; ..\USER\Cpu0_Main.c	   106  }
 	ret
 .L30:
 	
@@ -36554,7 +36554,7 @@ __core0_main_function_end:
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\seekfree_libraries',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common',0
-	.byte	'D:\\tasking\\ctc\\include\\',0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc',0
@@ -36982,5 +36982,5 @@ __core0_main_function_end:
 	.word	(.L30-.L32)/2
 	.byte	19,0,8,26,0,0
 
-; ..\USER\Cpu0_Main.c	   107      while (start_flag==1)
+
 	; Module end

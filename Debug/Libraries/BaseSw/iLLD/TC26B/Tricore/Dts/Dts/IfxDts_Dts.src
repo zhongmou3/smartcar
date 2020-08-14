@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts\\.IfxDts_Dts.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts\\IfxDts_Dts.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts\\IfxDts_Dts.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts\\IfxDts_Dts.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts\\IfxDts_Dts.c'
@@ -323,15 +323,15 @@ IfxDts_Dts_initModule:	.type	func
 	st.b	[a2]@los(0xf00360e4),d15
 .L62:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    79  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    80      IfxDts_enableSensor();
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    81  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    82      /* wait for two measurements before enabling the limits */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    83      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    84          int i;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    85  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    86          /* disable limits */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    87          MODULE_SCU.DTSLIM.B.LOWER = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    79   the limits */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    80      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    81          int i;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    82  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    83          /* disable limits */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    84          MODULE_SCU.DTSLIM.B.LOWER = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    85          MODULE_SCU.DTSLIM.B.UPPER = 1023;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    86  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    87          /* wait until DTS is ready */
 	movh.a	a2,#61443
 	ld.hu	d15,[a2]@los(0xf0036240)
 .L130:
@@ -340,7 +340,7 @@ IfxDts_Dts_initModule:	.type	func
 	st.h	[a15]@los(0xf0036240),d15
 .L131:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    88          MODULE_SCU.DTSLIM.B.UPPER = 1023;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    88          while (!IfxDts_isReady())
 	movh.a	a15,#61443
 	ld.hu	d15,[a15]@los(0xf0036242)
 .L132:
@@ -351,9 +351,9 @@ IfxDts_Dts_initModule:	.type	func
 	st.h	[a15]@los(0xf0036242),d15
 .L134:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    89  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    90          /* wait until DTS is ready */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    91          while (!IfxDts_isReady())
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    89          {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    90  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    91          /* two dummy measurements */
 	j	.L7
 .L8:
 .L7:
@@ -362,10 +362,10 @@ IfxDts_Dts_initModule:	.type	func
 	jeq	d2,#0,.L8
 .L136:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    92          {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    93  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    94          /* two dummy measurements */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    95          for (i = 0; i < 2; ++i)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    92          for (i = 0; i < 2; ++i)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    93          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    94              IfxDts_Dts_startSensor();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    95  
 	mov	d0,#0
 .L118:
 	j	.L9
@@ -561,7 +561,7 @@ IfxDts_Dts_initModule:	.type	func
 	jeq	d15,#0,.L14
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    96          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    96  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    97              IfxDts_Dts_startSensor();
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    98  
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	    99              while (IfxDts_Dts_isBusy())
@@ -754,12 +754,12 @@ IfxDts_Dts_initModule:	.type	func
 	jlt	d0,#2,.L10
 .L64:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   100              {}
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   101          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   102      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   103  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   104      /* change to the requested limits */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   105      MODULE_SCU.DTSLIM.B.LOWER = IfxDts_Dts_convertFromCelsius(config->lowerTemperatureLimit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   100             while (IfxDts_Dts_isBusy())
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   101              {}
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   102          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   103      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   104  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   105      /* change to the requested limits */
 	ld.w	d4,[a12]2
 	call	IfxDts_Dts_convertFromCelsius
 .L119:
@@ -771,7 +771,7 @@ IfxDts_Dts_initModule:	.type	func
 	st.h	[a15]@los(0xf0036240),d15
 .L145:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   106      MODULE_SCU.DTSLIM.B.UPPER = IfxDts_Dts_convertFromCelsius(config->upperTemperatureLimit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   106      MODULE_SCU.DTSLIM.B.LOWER = IfxDts_Dts_convertFromCelsius(config->lowerTemperatureLimit);
 	ld.w	d4,[a12]6
 	call	IfxDts_Dts_convertFromCelsius
 .L146:
@@ -783,9 +783,9 @@ IfxDts_Dts_initModule:	.type	func
 	st.h	[a15]@los(0xf0036242),d15
 .L148:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   107  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   108      /* lock configuration? */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   109      if (config->enableSecureLock == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   107      MODULE_SCU.DTSLIM.B.UPPER = IfxDts_Dts_convertFromCelsius(config->upperTemperatureLimit);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   108  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   109      /* lock configuration? */
 	ld.bu	d15,[a12]13
 .L149:
 	jne	d15,#1,.L21
@@ -933,21 +933,21 @@ IfxDts_Dts_initModule:	.type	func
 	st.b	[a15]@los(0xf0036243),d15
 .L80:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   110      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   111          IfxDts_disableSensorControl();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   110      /* lock configuration? */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   111      if (config->enableSecureLock == TRUE)
 	j	.L22
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   112      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   113      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   112      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   113          IfxDts_disableSensorControl();
 .L22:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   114      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   115          /* do Nothing */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   116      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   117  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   118      /* enable DTS IRQ */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   119      if (config->isrPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   114      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   115      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   116      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   117          /* do Nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   118      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   119  
 	ld.hu	d15,[a12]10
 .L153:
 	jlt.u	d15,#1,.L23
@@ -1102,9 +1102,9 @@ IfxDts_Dts_initModule:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Std\IfxDts.h	   139  }      (inlined)
 .L24:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   120      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   121          volatile Ifx_SRC_SRCR *src = IfxDts_getSrcPointer();
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   122          IfxSrc_init(src, config->isrTypeOfService, config->isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   120  do Nothing */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   121      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   122  
 	ld.bu	d0,[a12]12
 .L155:
 	ld.hu	d15,[a12]10
@@ -1411,9 +1411,9 @@ IfxDts_Dts_initModule:	.type	func
 	st.b	[a15]1,d15
 .L23:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   123          IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   123  do Nothing */
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   124      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   125  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   125  
 	ret
 .L57:
 	
@@ -1428,53 +1428,53 @@ __IfxDts_Dts_initModule_function_end:
 	
 	.global	IfxDts_Dts_initModuleConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   126  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   127  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   128  void IfxDts_Dts_initModuleConfig(IfxDts_Dts_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   126      /* enable DTS IRQ */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   127      if (config->isrPriority > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   128      {
 ; Function IfxDts_Dts_initModuleConfig
 .L32:
 IfxDts_Dts_initModuleConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   129  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   130      config->sensorControlDisabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   129          volatile Ifx_SRC_SRCR *src = IfxDts_getSrcPointer();
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   130          IfxSrc_init(src, config->isrTypeOfService, config->isrPriority);
 	mov	d15,#0
 .L166:
 	st.b	[a4],d15
 .L167:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   131      config->lowerTemperatureLimit = -40.0; // Celsius
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   131          IfxSrc_enable(src);
 	movh	d15,#49696
 .L168:
 	st.w	[a4]2,d15
 .L169:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   132      config->upperTemperatureLimit = 170.0; // Celsius
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   132      }
 	movh	d15,#17194
 .L170:
 	st.w	[a4]6,d15
 .L171:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   133  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   134      config->isrTypeOfService      = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   133  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   134  
 	mov	d15,#0
 .L172:
 	st.b	[a4]12,d15
 .L173:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   135      config->isrPriority           = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   135  
 	mov	d15,#0
 .L174:
 	st.h	[a4]10,d15
 .L175:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   136  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   137      config->enableSecureLock      = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   136  void IfxDts_Dts_initModuleConfig(IfxDts_Dts_Config *config)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   137  {
 	mov	d15,#0
 .L176:
 	st.b	[a4]13,d15
 .L177:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   138  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   138      config->sensorControlDisabled = FALSE;
 	ret
 .L106:
 	
@@ -13890,5 +13890,5 @@ __IfxDts_Dts_initModuleConfig_function_end:
 	.word	.L199,.L32,.L106-.L32
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Dts\Dts\IfxDts_Dts.c	   139      config->lowerTemperatureLimit = -40.0; // Celsius
 	; Module end

@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\.Bsp.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.src ..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\Service\\CpuGeneric\\SysSe\\Bsp\\Bsp.c'
@@ -1237,8 +1237,8 @@ initTime:	.type	func
 	ftoiz	d2,d15
 .L57:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    60  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    61      TimeConst[TIMER_INDEX_10NS]  = Fsys / (1000000000 / 10);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    60  Stm_getFrequency(BSP_DEFAULT_TIMER);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    61  
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L148:
@@ -1251,7 +1251,7 @@ initTime:	.type	func
 	st.d	[a15]0,e0
 .L151:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    62      TimeConst[TIMER_INDEX_100NS] = Fsys / (1000000000 / 100);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    62      TimeConst[TIMER_INDEX_10NS]  = Fsys / (1000000000 / 10);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L152:
@@ -1264,7 +1264,7 @@ initTime:	.type	func
 	st.d	[a15]8,e0
 .L155:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    63      TimeConst[TIMER_INDEX_1US]   = Fsys / (1000000 / 1);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    63      TimeConst[TIMER_INDEX_100NS] = Fsys / (1000000000 / 100);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L156:
@@ -1277,7 +1277,7 @@ initTime:	.type	func
 	st.d	[a15]16,e0
 .L159:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    64      TimeConst[TIMER_INDEX_10US]  = Fsys / (1000000 / 10);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    64      TimeConst[TIMER_INDEX_1US]   = Fsys / (1000000 / 1);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L160:
@@ -1290,7 +1290,7 @@ initTime:	.type	func
 	st.d	[a15]24,e0
 .L163:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    65      TimeConst[TIMER_INDEX_100US] = Fsys / (1000000 / 100);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    65      TimeConst[TIMER_INDEX_10US]  = Fsys / (1000000 / 10);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L164:
@@ -1302,7 +1302,7 @@ initTime:	.type	func
 	st.d	[a15]32,e0
 .L167:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    66      TimeConst[TIMER_INDEX_1MS]   = Fsys / (1000 / 1);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    66      TimeConst[TIMER_INDEX_100US] = Fsys / (1000000 / 100);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L168:
@@ -1314,7 +1314,7 @@ initTime:	.type	func
 	st.d	[a15]40,e0
 .L171:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    67      TimeConst[TIMER_INDEX_10MS]  = Fsys / (1000 / 10);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    67      TimeConst[TIMER_INDEX_1MS]   = Fsys / (1000 / 1);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L172:
@@ -1326,7 +1326,7 @@ initTime:	.type	func
 	st.d	[a15]48,e0
 .L175:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    68      TimeConst[TIMER_INDEX_100MS] = Fsys / (1000 / 100);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    68      TimeConst[TIMER_INDEX_10MS]  = Fsys / (1000 / 10);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L176:
@@ -1338,7 +1338,7 @@ initTime:	.type	func
 	st.d	[a15]56,e0
 .L179:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    69      TimeConst[TIMER_INDEX_1S]    = Fsys * (1);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    69      TimeConst[TIMER_INDEX_100MS] = Fsys / (1000 / 100);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L180:
@@ -1348,7 +1348,7 @@ initTime:	.type	func
 	st.d	[a15]64,e0
 .L182:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    70      TimeConst[TIMER_INDEX_10S]   = Fsys * (10);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    70      TimeConst[TIMER_INDEX_1S]    = Fsys * (1);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L183:
@@ -1358,7 +1358,7 @@ initTime:	.type	func
 	st.d	[a15]72,e0
 .L185:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    71      TimeConst[TIMER_INDEX_100S]  = Fsys * (100);
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    71      TimeConst[TIMER_INDEX_10S]   = Fsys * (10);
 	movh.a	a15,#@his(TimeConst)
 	lea	a15,[a15]@los(TimeConst)
 .L186:
@@ -1368,7 +1368,7 @@ initTime:	.type	func
 	st.d	[a15]80,e0
 .L188:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    72  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    72      TimeConst[TIMER_INDEX_100S]  = Fsys * (100);
 	ret
 .L52:
 	
@@ -1383,20 +1383,20 @@ __initTime_function_end:
 	
 	.global	waitPoll
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    73  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    73  }
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    74  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    75  /** \brief Wait function.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    76   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    77   * This is an empty function that just spend some time waiting.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    78   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    79   * \return None.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    80   */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    81  void waitPoll(void)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    75  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    76  /** \brief Wait function.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    77   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    78   * This is an empty function that just spend some time waiting.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    79   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    80   * \return None.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    81   */
 ; Function waitPoll
 .L28:
 waitPoll:	.type	func
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    82  {}
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    82  void waitPoll(void)
 	ret
 .L66:
 	
@@ -1411,17 +1411,17 @@ __waitPoll_function_end:
 	
 	.global	waitTime
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    83  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    84  /** \brief Wait time function.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    85   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    86   * This is an empty function that that returns after the timeout elapsed. The
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    87   * minimal time spend in the function is guaranteed, but not the max time.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    88   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    89   * \param timeout Specifies the time the function waits for before returning
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    90   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    91   * \return None.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    92   */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    93  void waitTime(Ifx_TickTime timeout)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    83  {}
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    84  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    85  /** \brief Wait time function.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    86   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    87   * This is an empty function that that returns after the timeout elapsed. The
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    88   * minimal time spend in the function is guaranteed, but not the max time.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    89   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    90   * \param timeout Specifies the time the function waits for before returning
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    91   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    92   * \return None.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    93   */
 ; Function waitTime
 .L30:
 waitTime:	.type	func
@@ -3977,10 +3977,10 @@ waitTime:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   231  }      (inlined)
 .L12:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   299      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   300      else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   301      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   302          deadLine = now() + timeout;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   299  turn the time until the dead line.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   300   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   301   * \param deadline Specifies the dead line from now: Deadline = Now + Timeout
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   302   *
 	addx	d2,d0,d4
 	addc	d3,d1,d5
 
@@ -3998,47 +3998,47 @@ waitTime:	.type	func
 .L15:
 .L14:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   303      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   304  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   305      return deadLine;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   306  }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   307  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   303   * \return Return the time until the dead line.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   304   */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   305  IFX_INLINE Ifx_TickTime getTimeout(Ifx_TickTime deadline)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   306  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   307      Ifx_TickTime timeout;
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   308  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   309  /** \brief Return the time until the dead line.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   310   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   311   * \param deadline Specifies the dead line from now: Deadline = Now + Timeout
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   312   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   313   * \return Return the time until the dead line.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   314   */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   315  IFX_INLINE Ifx_TickTime getTimeout(Ifx_TickTime deadline)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   316  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   317      Ifx_TickTime timeout;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   318  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   319      if (deadline == TIME_INFINITE)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   320      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   321          timeout = TIME_INFINITE;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   322      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   323      else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   324      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   325          timeout = deadline - now();
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   326      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   327  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   328      return timeout;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   329  }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   330  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   331  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   332  /** \brief Return TRUE if the dead line is over.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   333   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   334   * \param deadLine Specifies the dead line.
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   335   *
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   336   * \retval TRUE Returns TRUE if the dead line is over
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   337   * \retval FALSE Returns FALSE if the dead line is not yet over
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   338   */
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   339  IFX_INLINE boolean isDeadLine(Ifx_TickTime deadLine)
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   340  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   341      boolean result;
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   342  
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   343      if (deadLine == TIME_INFINITE)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   309      if (deadline == TIME_INFINITE)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   310      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   311          timeout = TIME_INFINITE;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   312      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   313      else
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   314      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   315          timeout = deadline - now();
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   316      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   317  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   318      return timeout;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   319  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   320  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   321  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   322  /** \brief Return TRUE if the dead line is over.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   323   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   324   * \param deadLine Specifies the dead line.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   325   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   326   * \retval TRUE Returns TRUE if the dead line is over
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   327   * \retval FALSE Returns FALSE if the dead line is not yet over
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   328   */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   329  IFX_INLINE boolean isDeadLine(Ifx_TickTime deadLine)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   330  {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   331      boolean result;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   332  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   333      if (deadLine == TIME_INFINITE)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   334      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   335          result = FALSE;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   336      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   337      else
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   338      {
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   339          result = now() >= deadLine;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   340      }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   341  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   342      return result;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   343  }
 	movh.a	a15,#@his(.1.cnt)
 	lea	a15,[a15]@los(.1.cnt)
 	ld.d	e0,[a15]0
@@ -4051,8 +4051,8 @@ waitTime:	.type	func
 	jne	d15,#0,.L16
 .L209:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   344      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   345          result = FALSE;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   344  
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   345  
 	mov	d15,#0
 .L129:
 
@@ -6292,10 +6292,10 @@ waitTime:	.type	func
 ; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   231  }      (inlined)
 .L23:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   346      }
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   347      else
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   348      {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   349          result = now() >= deadLine;
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   346  aram test Specifies the variable to test.
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   347   * \param timeout Specifies the maximal time the variable will be tested
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   348   *
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.h	   349   * \retval TRUE Returns TRUE if the variable gets TRUE before the timeout elapse
 	ge.u	d15,d0,d2
 .L133:
 	and.eq	d15,d1,d3
@@ -6314,9 +6314,9 @@ waitTime:	.type	func
 	jeq	d15,#0,.L15
 .L71:
 
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    94  {
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    95      wait(timeout);
-; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    96  }
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    94   */
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    95  void waitTime(Ifx_TickTime timeout)
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    96  {
 	ret
 .L67:
 	
@@ -19308,5 +19308,5 @@ TimeConst:	.type	object
 	.word	.L217,.L30,.L67-.L30
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 
-
+; ..\Libraries\BaseSw\Service\CpuGeneric\SysSe\Bsp\Bsp.c	    97      wait(timeout);
 	; Module end

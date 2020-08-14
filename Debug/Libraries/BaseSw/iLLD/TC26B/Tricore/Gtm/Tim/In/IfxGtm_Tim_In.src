@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In\\.IfxGtm_Tim_In.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In\\IfxGtm_Tim_In.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In\\IfxGtm_Tim_In.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In\\IfxGtm_Tim_In.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In\\IfxGtm_Tim_In.c'
@@ -536,82 +536,82 @@ IfxGtm_Tim_In_init:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Tim.h	   376  }      (inlined)
 .L4:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    81      driver->timIndex         = config->timIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    81  config->channelIndex;
 	ld.bu	d15,[a13]4
 .L261:
 	st.b	[a12]26,d15
 .L262:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    82      driver->channelIndex     = config->channelIndex;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    82      driver->channel          = channel;
 	ld.bu	d15,[a13]5
 .L263:
 	st.b	[a12]27,d15
 .L264:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    83      driver->channel          = channel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    83      driver->periodTick       = 0;
 	st.a	[a12],a15
 .L265:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    84      driver->periodTick       = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    84      driver->pulseLengthTick  = 0;
 	mov	d15,#0
 .L266:
 	st.w	[a12]4,d15
 .L267:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    85      driver->pulseLengthTick  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    85      driver->dataCoherent     = FALSE;
 	mov	d15,#0
 .L268:
 	st.w	[a12]8,d15
 .L269:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    86      driver->dataCoherent     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    86      driver->newData          = FALSE;
 	mov	d15,#0
 .L270:
 	st.b	[a12]12,d15
 .L271:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    87      driver->newData          = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    87      driver->dataLost         = FALSE;
 	mov	d15,#0
 .L272:
 	st.b	[a12]14,d15
 .L273:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    88      driver->dataLost         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    88      driver->overflowCnt      = FALSE;
 	mov	d15,#0
 .L274:
 	st.b	[a12]15,d15
 .L275:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    89      driver->overflowCnt      = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    89      driver->edgeCounterUpper = 0;
 	mov	d15,#0
 .L276:
 	st.b	[a12]13,d15
 .L277:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    90      driver->edgeCounterUpper = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    90  
 	mov	d15,#0
 .L278:
 	st.w	[a12]16,d15
 .L279:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    91  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    92      channel->CTRL.B.TIM_MODE = IfxGtm_Tim_Mode_pwmMeasurement;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    91      channel->CTRL.B.TIM_MODE = IfxGtm_Tim_Mode_pwmMeasurement;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    92  
 	ld.w	d15,[a15]36
 .L280:
 	insert	d15,d15,#0,#1,#3
 	st.w	[a15]36,d15
 .L281:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    93  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    94      IfxGtm_Tim_Ch_setClockSource(channel, config->capture.clock);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    93      IfxGtm_Tim_Ch_setClockSource(channel, config->capture.clock);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    94  
 	ld.bu	d4,[a13]14
 	mov.aa	a4,a15
 .L215:
 	call	IfxGtm_Tim_Ch_setClockSource
 .L214:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    95  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    96      driver->captureClockFrequency = IfxGtm_Tim_Ch_getCaptureClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    95      driver->captureClockFrequency = IfxGtm_Tim_Ch_getCaptureClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    96  
 	ld.a	a4,[a13]
 .L282:
 	mov.aa	a5,a15
@@ -620,10 +620,10 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a12]22,d2
 .L284:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    97  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    98      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (config->capture.mode == Ifx_Pwm_Mode_leftAligned) || (config->capture.mode == Ifx_Pwm_Mode_rightAligned));
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    99  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   100      result                  &= (config->capture.mode == Ifx_Pwm_Mode_leftAligned) || (config->capture.mode == Ifx_Pwm_Mode_rightAligned);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    97      IFX_ASSERT(IFX_VERBOSE_LEVEL_ERROR, (config->capture.mode == Ifx_Pwm_Mode_leftAligned) || (config->capture.mode == Ifx_Pwm_Mode_rightAligned));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    98  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	    99      result                  &= (config->capture.mode == Ifx_Pwm_Mode_leftAligned) || (config->capture.mode == Ifx_Pwm_Mode_rightAligned);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   100      channel->CTRL.B.DSL      = config->capture.mode == Ifx_Pwm_Mode_leftAligned ? 1 : 0;
 	mov	d0,#0
 .L285:
 	ld.bu	d15,[a13]15
@@ -639,7 +639,7 @@ IfxGtm_Tim_In_init:	.type	func
 	and	d10,d0
 .L289:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   101      channel->CTRL.B.DSL      = config->capture.mode == Ifx_Pwm_Mode_leftAligned ? 1 : 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   101  
 	ld.bu	d15,[a13]15
 .L290:
 	jne	d15,#2,.L7
@@ -656,49 +656,49 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a15]36,d15
 .L294:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   102  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   103      channel->CTRL.B.CNTS_SEL = IfxGtm_Tim_CntsSel_cntReg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   102      channel->CTRL.B.CNTS_SEL = IfxGtm_Tim_CntsSel_cntReg;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   103      channel->CTRL.B.GPR0_SEL = IfxGtm_Tim_GprSel_cnts; /* Use CNTS as input for GPR0 */
 	ld.w	d15,[a15]36
 .L295:
 	insert	d15,d15,#0,#12,#1
 	st.w	[a15]36,d15
 .L296:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   104      channel->CTRL.B.GPR0_SEL = IfxGtm_Tim_GprSel_cnts; /* Use CNTS as input for GPR0 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   104      channel->CTRL.B.GPR1_SEL = IfxGtm_Tim_GprSel_cnts; /* Use CNT as input for GPR1 */
 	ld.w	d15,[a15]36
 .L297:
 	insert	d15,d15,#3,#8,#2
 	st.w	[a15]36,d15
 .L298:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   105      channel->CTRL.B.GPR1_SEL = IfxGtm_Tim_GprSel_cnts; /* Use CNT as input for GPR1 */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   105  
 	ld.w	d15,[a15]36
 .L299:
 	insert	d15,d15,#3,#10,#2
 	st.w	[a15]36,d15
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   106  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   107      /* Interrupt configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   108      if (config->isrPriority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   106      /* Interrupt configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   107      if (config->isrPriority)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   108      {
 	ld.hu	d15,[a13]8
 .L301:
 	jeq	d15,#0,.L9
 .L111:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   109      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   110          volatile Ifx_SRC_SRCR *src;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   111          IfxGtm_Tim_Ch_setNotificationMode(channel, config->irqMode);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   109          volatile Ifx_SRC_SRCR *src;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   110          IfxGtm_Tim_Ch_setNotificationMode(channel, config->irqMode);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   111          IfxGtm_Tim_Ch_setChannelNotification(channel, config->capture.irqOnNewVal,
 	ld.bu	d4,[a13]6
 	mov.aa	a4,a15
 	call	IfxGtm_Tim_Ch_setNotificationMode
 .L302:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   112          IfxGtm_Tim_Ch_setChannelNotification(channel, config->capture.irqOnNewVal,
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   112              config->capture.irqOnCntOverflow, config->capture.irqOnEcntOverflow, config->capture.irqOnDatalost);
 	ld.bu	d4,[a13]10
 .L303:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   113              config->capture.irqOnCntOverflow, config->capture.irqOnEcntOverflow, config->capture.irqOnDatalost);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   113  
 	ld.bu	d5,[a13]11
 .L304:
 	ld.bu	d6,[a13]12
@@ -708,8 +708,8 @@ IfxGtm_Tim_In_init:	.type	func
 	call	IfxGtm_Tim_Ch_setChannelNotification
 .L306:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   114  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   115          src = IfxGtm_Tim_Ch_getSrcPointer(config->gtm, timIndex, channelIndex);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   114          src = IfxGtm_Tim_Ch_getSrcPointer(config->gtm, timIndex, channelIndex);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   115          IfxSrc_init(src, config->isrProvider, config->isrPriority);
 	ld.a	a2,[a13]
 .L115:
 
@@ -1073,7 +1073,7 @@ IfxGtm_Tim_In_init:	.type	func
 ; D:\smartcar\smartcar\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Std\IfxGtm_Tim.h	   340  }      (inlined)
 .L11:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   116          IfxSrc_init(src, config->isrProvider, config->isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   116      /* Timeout configuration */
 	ld.bu	d0,[a13]7
 .L309:
 	ld.hu	d15,[a13]8
@@ -1380,11 +1380,11 @@ IfxGtm_Tim_In_init:	.type	func
 	st.b	[a2]1,d15
 .L9:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   117          IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   118      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   119  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   120      /* Timeout configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   121      if (config->timeout.timeout > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   117     if (config->timeout.timeout > 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   118      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   119          float32 clockFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   120          sint32  timeout;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   121          channel->TDUV.B.TCS = config->timeout.clock;
 	ld.w	d15,[a13]42
 .L316:
 	mov	d0,#0
@@ -1395,10 +1395,10 @@ IfxGtm_Tim_In_init:	.type	func
 	jeq	d15,#0,.L12
 .L142:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   122      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   123          float32 clockFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   124          sint32  timeout;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   125          channel->TDUV.B.TCS = config->timeout.clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   122          clockFrequency      = IfxGtm_Tim_Ch_getTimeoutClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   123  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   124          timeout             = (uint32)(config->timeout.timeout * clockFrequency) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   125  
 	ld.w	d15,[a15]24
 .L319:
 	ld.bu	d0,[a13]40
@@ -1407,15 +1407,15 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a15]24,d15
 .L321:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   126          clockFrequency      = IfxGtm_Tim_Ch_getTimeoutClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   126          if (timeout < 0)
 	ld.a	a4,[a13]
 .L322:
 	mov.aa	a5,a15
 	call	IfxGtm_Tim_Ch_getTimeoutClockFrequency
 .L226:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   127  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   128          timeout             = (uint32)(config->timeout.timeout * clockFrequency) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   127          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   128              timeout = 0;
 	ld.w	d15,[a13]42
 .L323:
 	mul.f	d15,d15,d2
@@ -1425,38 +1425,38 @@ IfxGtm_Tim_In_init:	.type	func
 	add	d0,#-1
 .L325:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   129  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   130          if (timeout < 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   129          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   130          else if (timeout >= (1 << IFX_GTM_TIM_CH_TDUV_TCS_MSK))
 	jge	d0,#0,.L13
 .L326:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   131          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   132              timeout = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   132              timeout = IFX_GTM_TIM_CH_TDUV_TCS_MSK;
 	mov	d0,#0
 .L327:
 	j	.L14
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   133          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   134          else if (timeout >= (1 << IFX_GTM_TIM_CH_TDUV_TCS_MSK))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   133              result  = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   134          }
 	mov	d15,#128
 .L328:
 	jlt	d0,d15,.L15
 .L329:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   135          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   136              timeout = IFX_GTM_TIM_CH_TDUV_TCS_MSK;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   135  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   136          channel->CTRL.B.TOCTRL = config->capture.mode == Ifx_Pwm_Mode_leftAligned ? IfxGtm_Tim_Timeout_risingEdge : IfxGtm_Tim_Timeout_fallingEdge;
 	mov	d0,#7
 .L330:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   137              result  = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   137          channel->TDUV.B.TOV    = timeout;
 	mov	d10,#0
 .L15:
 .L14:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   138          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   139  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   140          channel->CTRL.B.TOCTRL = config->capture.mode == Ifx_Pwm_Mode_leftAligned ? IfxGtm_Tim_Timeout_risingEdge : IfxGtm_Tim_Timeout_fallingEdge;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   138  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   139          IfxGtm_Tim_Ch_setTimeoutNotification(channel, config->timeout.irqOnTimeout);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   140      }
 	ld.bu	d15,[a13]15
 .L331:
 	jne	d15,#2,.L16
@@ -1473,25 +1473,25 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a15]36,d15
 .L335:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   141          channel->TDUV.B.TOV    = timeout;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   141  
 	ld.w	d15,[a15]24
 .L336:
 	insert	d15,d15,d0,#0,#8
 	st.w	[a15]24,d15
 .L337:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   142  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   143          IfxGtm_Tim_Ch_setTimeoutNotification(channel, config->timeout.irqOnTimeout);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   142      /* Input configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   143  
 	ld.bu	d4,[a13]46
 	mov.aa	a4,a15
 	call	IfxGtm_Tim_Ch_setTimeoutNotification
 .L12:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   144      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   144      config->gtm->TIM[timIndex].IN_SRC.U = 1 << (IFX_GTM_TIM_IN_SRC_MODE_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_MODE_1_OFF - IFX_GTM_TIM_IN_SRC_MODE_0_OFF)); // MODE 0
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   145  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   146      /* Input configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   147  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   148      config->gtm->TIM[timIndex].IN_SRC.U = 1 << (IFX_GTM_TIM_IN_SRC_MODE_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_MODE_1_OFF - IFX_GTM_TIM_IN_SRC_MODE_0_OFF)); // MODE 0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   146      switch (input)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   147      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   148      case IfxGtm_Tim_In_Input_currentChannel:
 	mov	d15,#2048
 	mul	d15,d9
 .L338:
@@ -1510,26 +1510,26 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a2]4216,d15
 .L345:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   150      switch (input)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   151      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   152      case IfxGtm_Tim_In_Input_currentChannel:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   149          config->gtm->TIM[timIndex].IN_SRC.U = 1 << (IFX_GTM_TIM_IN_SRC_VAL_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_VAL_1_OFF - IFX_GTM_TIM_IN_SRC_VAL_0_OFF)); // VAL 0
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   150          channel->CTRL.B.CICTRL              = IfxGtm_Tim_Input_currentChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   151          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   152      case IfxGtm_Tim_In_Input_adjacentChannel:
 	mov	d15,#0
 	jeq	d15,d11,.L18
 .L346:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   153          config->gtm->TIM[timIndex].IN_SRC.U = 1 << (IFX_GTM_TIM_IN_SRC_VAL_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_VAL_1_OFF - IFX_GTM_TIM_IN_SRC_VAL_0_OFF)); // VAL 0
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   154          channel->CTRL.B.CICTRL              = IfxGtm_Tim_Input_currentChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   154          channel->CTRL.B.CICTRL              = IfxGtm_Tim_Input_adjacentChannel;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   155          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   156      case IfxGtm_Tim_In_Input_adjacentChannel:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   156      case IfxGtm_Tim_In_Input_aux:
 	mov	d15,#1
 	jeq	d15,d11,.L19
 .L347:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   157          config->gtm->TIM[timIndex].IN_SRC.U = 1 << (IFX_GTM_TIM_IN_SRC_VAL_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_VAL_1_OFF - IFX_GTM_TIM_IN_SRC_VAL_0_OFF)); // VAL 0
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   158          channel->CTRL.B.CICTRL              = IfxGtm_Tim_Input_adjacentChannel;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   159          break;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   160      case IfxGtm_Tim_In_Input_aux:
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   157          config->gtm->TIM[timIndex].IN_SRC.U = 2 << (IFX_GTM_TIM_IN_SRC_VAL_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_VAL_1_OFF - IFX_GTM_TIM_IN_SRC_VAL_0_OFF)); // VAL 1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   158          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   159      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   160  
 	mov	d15,#2
 	jeq	d15,d11,.L20
 	j	.L21
@@ -1579,7 +1579,7 @@ IfxGtm_Tim_In_init:	.type	func
 	j	.L23
 .L20:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   161          config->gtm->TIM[timIndex].IN_SRC.U = 2 << (IFX_GTM_TIM_IN_SRC_VAL_0_OFF + channelIndex * (IFX_GTM_TIM_IN_SRC_VAL_1_OFF - IFX_GTM_TIM_IN_SRC_VAL_0_OFF)); // VAL 1
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   161      if (config->filter.inputPin != NULL_PTR)
 	mov	d15,#2048
 	mul	d9,d15
 .L229:
@@ -1596,13 +1596,13 @@ IfxGtm_Tim_In_init:	.type	func
 	st.w	[a2]4216,d15
 .L369:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   162          break;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   162      {
 	j	.L24
 .L21:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   163      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   164  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   165      if (config->filter.inputPin != NULL_PTR)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   163          IfxGtm_PinMap_setTimTin(config->filter.inputPin, config->filter.inputPinMode);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   164      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   165  
 .L24:
 .L23:
 .L22:
@@ -1611,42 +1611,42 @@ IfxGtm_Tim_In_init:	.type	func
 	jeq	d15,#0,.L25
 .L371:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   166      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   167          IfxGtm_PinMap_setTimTin(config->filter.inputPin, config->filter.inputPinMode);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   166      /*Filter configuration */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   167      if ((config->filter.fallingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
 	ld.a	a4,[a13]32
 .L372:
 	ld.b	d4,[a13]36
 	call	IfxGtm_PinMap_setTimTin
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   168      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   169  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   170      /*Filter configuration */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   171      if ((config->filter.fallingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   168          || (config->filter.risingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   169      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   170          float32 clockFrequency;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   171          sint32  fallingfilterTime;
 	ld.bu	d15,[a13]18
 .L373:
 	jne	d15,#3,.L26
 .L374:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   172          || (config->filter.risingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   172          sint32  risingfilterTime;
 	ld.bu	d15,[a13]17
 .L375:
 	jeq	d15,#3,.L27
 .L26:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   173      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   174          float32 clockFrequency;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   175          sint32  fallingfilterTime;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   176          sint32  risingfilterTime;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   177  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   178          channel->CTRL.B.FLT_EN      = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   173  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   174          channel->CTRL.B.FLT_EN      = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   175          channel->CTRL.B.FLT_CNT_FRQ = config->filter.clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   176  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   177          clockFrequency              = IfxGtm_Tim_Ch_getFilterClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   178  
 	ld.w	d15,[a15]36
 .L376:
 	insert	d15,d15,#1,#16,#1
 	st.w	[a15]36,d15
 .L377:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   179          channel->CTRL.B.FLT_CNT_FRQ = config->filter.clock;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   179          fallingfilterTime           = (uint32)(config->filter.fallingEdgeFilterTime * clockFrequency) - 1;
 	ld.w	d15,[a15]36
 .L378:
 	ld.bu	d0,[a13]16
@@ -1656,15 +1656,15 @@ IfxGtm_Tim_In_init:	.type	func
 .L380:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   180  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   181          clockFrequency              = IfxGtm_Tim_Ch_getFilterClockFrequency(config->gtm, channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   181          if (fallingfilterTime < 0)
 	ld.a	a4,[a13]
 .L381:
 	mov.aa	a5,a15
 	call	IfxGtm_Tim_Ch_getFilterClockFrequency
 .L230:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   183          fallingfilterTime           = (uint32)(config->filter.fallingEdgeFilterTime * clockFrequency) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   182          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   183              fallingfilterTime = 0;
 	ld.w	d15,[a13]24
 .L382:
 	mul.f	d15,d15,d2
@@ -1674,48 +1674,48 @@ IfxGtm_Tim_In_init:	.type	func
 	add	d0,#-1
 .L384:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   184  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   185          if (fallingfilterTime < 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   184          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   185          else if (fallingfilterTime > (sint32)IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK)
 	jge	d0,#0,.L28
 .L385:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   186          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   187              fallingfilterTime = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   187              fallingfilterTime = IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK;
 	mov	d0,#0
 .L386:
 	j	.L29
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   188          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   189          else if (fallingfilterTime > (sint32)IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   188              result            = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   189          }
 	mov.u	d15,#65535
 	addih	d15,d15,#255
 .L387:
 	jge	d15,d0,.L30
 .L388:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   190          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   191              fallingfilterTime = IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   190  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   191          channel->FLT_FE.B.FLT_FE = fallingfilterTime;
 	mov.u	d0,#65535
 	addih	d0,d0,#255
 .L389:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   192              result            = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   192  
 	mov	d10,#0
 .L30:
 .L29:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   193          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   193          risingfilterTime         = (uint32)(config->filter.risingEdgeFilterTime * clockFrequency) - 1;
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   194  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   195          channel->FLT_FE.B.FLT_FE = fallingfilterTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   195          if (risingfilterTime < 0)
 	ld.w	d15,[a15]32
 .L390:
 	insert	d15,d15,d0,#0,#24
 	st.w	[a15]32,d15
 .L391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   196  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   197          risingfilterTime         = (uint32)(config->filter.risingEdgeFilterTime * clockFrequency) - 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   196          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   197              risingfilterTime = 0;
 	ld.w	d15,[a13]20
 .L392:
 	mul.f	d15,d15,d2
@@ -1725,62 +1725,62 @@ IfxGtm_Tim_In_init:	.type	func
 	add	d0,#-1
 .L394:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   198  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   199          if (risingfilterTime < 0)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   198          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   199          else if (risingfilterTime > (sint32)IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK)
 	jge	d0,#0,.L31
 .L395:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   200          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   201              risingfilterTime = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   201              risingfilterTime = IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK;
 	mov	d0,#0
 .L396:
 	j	.L32
 .L31:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   202          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   203          else if (risingfilterTime > (sint32)IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   202              result           = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   203          }
 	mov.u	d15,#65535
 	addih	d15,d15,#255
 .L397:
 	jge	d15,d0,.L33
 .L398:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   204          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   205              risingfilterTime = IFX_GTM_TIM_CH_FLT_FE_FLT_FE_MSK;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   204  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   205          channel->FLT_RE.B.FLT_RE = risingfilterTime;
 	mov.u	d0,#65535
 	addih	d0,d0,#255
 .L399:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   206              result           = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   206  
 	mov	d10,#0
 .L33:
 .L32:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   207          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   208  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   209          channel->FLT_RE.B.FLT_RE = risingfilterTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   207          if (config->filter.fallingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   208          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   209              if (config->filter.fallingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_immediateEdgePropagation)
 	ld.w	d15,[a15]28
 .L400:
 	insert	d15,d15,d0,#0,#24
 	st.w	[a15]28,d15
 .L401:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   210  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   211          if (config->filter.fallingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   210              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   211                  channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
 	ld.bu	d15,[a13]18
 .L402:
 	jeq	d15,#3,.L34
 .L403:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   212          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   213              if (config->filter.fallingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_immediateEdgePropagation)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   212              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   213              else
 	ld.bu	d15,[a13]18
 .L404:
 	jne	d15,#0,.L35
 .L405:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   214              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   215                  channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   215                  channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_individualDeglitchTime;
 	ld.w	d15,[a15]36
 .L406:
 	insert	d15,d15,#0,#22,#1
@@ -1789,17 +1789,17 @@ IfxGtm_Tim_In_init:	.type	func
 	j	.L36
 .L35:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   216              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   217              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   218              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   219                  channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_individualDeglitchTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   216                  channel->CTRL.B.FLT_CTR_FE  = config->filter.fallingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_individualDeglitchTimeUpDown ? IfxGtm_Tim_FilterCounter_upDown : IfxGtm_Tim_FilterCounter_hold;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   217              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   218          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   219          else
 	ld.w	d15,[a15]36
 .L408:
 	insert	d15,d15,#1,#22,#1
 	st.w	[a15]36,d15
 .L409:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   220                  channel->CTRL.B.FLT_CTR_FE  = config->filter.fallingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_individualDeglitchTimeUpDown ? IfxGtm_Tim_FilterCounter_upDown : IfxGtm_Tim_FilterCounter_hold;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   220          {
 	ld.bu	d15,[a13]18
 .L410:
 	jne	d15,#1,.L37
@@ -1818,41 +1818,41 @@ IfxGtm_Tim_In_init:	.type	func
 	j	.L39
 .L34:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   221              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   222          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   223          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   224          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   225              channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   221              channel->CTRL.B.FLT_MODE_FE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   222              channel->FLT_FE.B.FLT_FE    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   223          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   224  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   225          if (config->filter.risingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
 	ld.w	d15,[a15]36
 .L413:
 	insert	d15,d15,#0,#22,#1
 	st.w	[a15]36,d15
 .L414:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   226              channel->FLT_FE.B.FLT_FE    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   226          {
 	ld.w	d15,[a15]32
 .L415:
 	insert	d15,d15,#0,#0,#24
 	st.w	[a15]32,d15
 .L39:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   227          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   228  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   229          if (config->filter.risingEdgeMode != IfxGtm_Tim_In_ConfigFilterMode_none)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   227              if (config->filter.risingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_immediateEdgePropagation)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   228              {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   229                  channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
 	ld.bu	d15,[a13]17
 .L416:
 	jeq	d15,#3,.L40
 .L417:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   230          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   231              if (config->filter.risingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_immediateEdgePropagation)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   230              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   231              else
 	ld.bu	d15,[a13]17
 .L418:
 	jne	d15,#0,.L41
 .L419:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   232              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   233                  channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   233                  channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_individualDeglitchTime;
 	ld.w	d15,[a15]36
 .L420:
 	insert	d15,d15,#0,#20,#1
@@ -1861,17 +1861,17 @@ IfxGtm_Tim_In_init:	.type	func
 	j	.L42
 .L41:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   234              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   235              else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   236              {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   237                  channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_individualDeglitchTime;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   234                  channel->CTRL.B.FLT_CTR_RE  = config->filter.risingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_individualDeglitchTimeUpDown ? IfxGtm_Tim_FilterCounter_upDown : IfxGtm_Tim_FilterCounter_hold;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   235              }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   236          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   237          else
 	ld.w	d15,[a15]36
 .L422:
 	insert	d15,d15,#1,#20,#1
 	st.w	[a15]36,d15
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   238                  channel->CTRL.B.FLT_CTR_RE  = config->filter.risingEdgeMode == IfxGtm_Tim_In_ConfigFilterMode_individualDeglitchTimeUpDown ? IfxGtm_Tim_FilterCounter_upDown : IfxGtm_Tim_FilterCounter_hold;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   238          {
 	ld.bu	d15,[a13]17
 .L424:
 	jne	d15,#1,.L43
@@ -1890,36 +1890,36 @@ IfxGtm_Tim_In_init:	.type	func
 	j	.L45
 .L40:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   239              }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   240          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   241          else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   242          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   243              channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   239              channel->CTRL.B.FLT_MODE_RE = IfxGtm_Tim_FilterMode_immediateEdgePropagation;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   240              channel->FLT_RE.B.FLT_RE    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   241          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   242  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   243          IfxGtm_Tim_Ch_setFilterNotification(channel, config->filter.irqOnGlitch);
 	ld.w	d15,[a15]36
 .L428:
 	insert	d15,d15,#0,#20,#1
 	st.w	[a15]36,d15
 .L429:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   244              channel->FLT_RE.B.FLT_RE    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   244      }
 	ld.w	d15,[a15]28
 .L430:
 	insert	d15,d15,#0,#0,#24
 	st.w	[a15]28,d15
 .L45:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   245          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   246  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   247          IfxGtm_Tim_Ch_setFilterNotification(channel, config->filter.irqOnGlitch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   245  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   246      /* Enable TIM channel */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   247      channel->CTRL.B.TIM_EN = 1;
 	ld.bu	d4,[a13]28
 	mov.aa	a4,a15
 	call	IfxGtm_Tim_Ch_setFilterNotification
 .L27:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   248      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   249  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   250      /* Enable TIM channel */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   251      channel->CTRL.B.TIM_EN = 1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   248  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   249      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   250  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   251  
 	ld.w	d15,[a15]36
 .L431:
 	or	d15,#1
@@ -1927,12 +1927,12 @@ IfxGtm_Tim_In_init:	.type	func
 .L432:
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   252  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   253      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   253  void IfxGtm_Tim_In_initConfig(IfxGtm_Tim_In_Config *config, Ifx_GTM *gtm)
 	mov	d2,d10
 .L234:
 	j	.L46
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   254  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   254  {
 .L46:
 	ret
 .L90:
@@ -1948,9 +1948,9 @@ __IfxGtm_Tim_In_init_function_end:
 	
 	.global	IfxGtm_Tim_In_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   255  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   255      memset(config, 0, sizeof(IfxGtm_Tim_In_Config));
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   256  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   257  void IfxGtm_Tim_In_initConfig(IfxGtm_Tim_In_Config *config, Ifx_GTM *gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   257      config->gtm                          = gtm;
 ; Function IfxGtm_Tim_In_initConfig
 .L60:
 IfxGtm_Tim_In_initConfig:	.type	func
@@ -1959,8 +1959,8 @@ IfxGtm_Tim_In_initConfig:	.type	func
 	mov.aa	a12,a5
 .L237:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   258  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   259      memset(config, 0, sizeof(IfxGtm_Tim_In_Config));
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   258      config->timIndex                     = IfxGtm_Tim_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   259      config->channelIndex                 = IfxGtm_Tim_Ch_0;
 	mov	d4,#0
 .L437:
 	mov	d5,#48
@@ -1968,144 +1968,144 @@ IfxGtm_Tim_In_initConfig:	.type	func
 	call	memset
 .L235:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   260  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   261      config->gtm                          = gtm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   260      config->irqMode                      = IfxGtm_IrqMode_pulseNotify;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   261      config->isrProvider                  = IfxSrc_Tos_cpu0;
 	st.a	[a15],a12
 .L438:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   262      config->timIndex                     = IfxGtm_Tim_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   262      config->isrPriority                  = 0;
 	mov	d15,#0
 .L439:
 	st.b	[a15]4,d15
 .L440:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   263      config->channelIndex                 = IfxGtm_Tim_Ch_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   263      config->capture.irqOnNewVal          = FALSE;
 	mov	d15,#0
 .L441:
 	st.b	[a15]5,d15
 .L442:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   264      config->irqMode                      = IfxGtm_IrqMode_pulseNotify;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   264      config->capture.irqOnCntOverflow     = FALSE;
 	mov	d15,#2
 .L443:
 	st.b	[a15]6,d15
 .L444:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   265      config->isrProvider                  = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   265      config->capture.irqOnEcntOverflow    = FALSE;
 	mov	d15,#0
 .L445:
 	st.b	[a15]7,d15
 .L446:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   266      config->isrPriority                  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   266      config->capture.irqOnDatalost        = FALSE;
 	mov	d15,#0
 .L447:
 	st.h	[a15]8,d15
 .L448:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   267      config->capture.irqOnNewVal          = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   267      config->capture.clock                = IfxGtm_Cmu_Clk_0;
 	mov	d15,#0
 .L449:
 	st.b	[a15]10,d15
 .L450:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   268      config->capture.irqOnCntOverflow     = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   268      config->capture.mode                 = Ifx_Pwm_Mode_leftAligned;
 	mov	d15,#0
 .L451:
 	st.b	[a15]11,d15
 .L452:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   269      config->capture.irqOnEcntOverflow    = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   269      config->timeout.irqOnTimeout         = FALSE;
 	mov	d15,#0
 .L453:
 	st.b	[a15]12,d15
 .L454:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   270      config->capture.irqOnDatalost        = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   270      config->timeout.clock                = IfxGtm_Cmu_Clk_0;
 	mov	d15,#0
 .L455:
 	st.b	[a15]13,d15
 .L456:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   271      config->capture.clock                = IfxGtm_Cmu_Clk_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   271      config->timeout.timeout              = 0.0;
 	mov	d15,#0
 .L457:
 	st.b	[a15]14,d15
 .L458:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   272      config->capture.mode                 = Ifx_Pwm_Mode_leftAligned;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   272      config->filter.input                 = IfxGtm_Tim_In_Input_currentChannel;
 	mov	d15,#2
 .L459:
 	st.b	[a15]15,d15
 .L460:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   273      config->timeout.irqOnTimeout         = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   273      config->filter.inputPin              = NULL_PTR;
 	mov	d15,#0
 .L461:
 	st.b	[a15]46,d15
 .L462:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   274      config->timeout.clock                = IfxGtm_Cmu_Clk_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   274      config->filter.inputPinMode          = IfxPort_InputMode_noPullDevice;
 	mov	d15,#0
 .L463:
 	st.b	[a15]40,d15
 .L464:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   275      config->timeout.timeout              = 0.0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   275      config->filter.risingEdgeMode        = IfxGtm_Tim_In_ConfigFilterMode_none;
 	mov	d15,#0
 .L465:
 	st.w	[a15]42,d15
 .L466:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   276      config->filter.input                 = IfxGtm_Tim_In_Input_currentChannel;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   276      config->filter.fallingEdgeMode       = IfxGtm_Tim_In_ConfigFilterMode_none;
 	mov	d15,#0
 .L467:
 	st.b	[a15]29,d15
 .L468:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   277      config->filter.inputPin              = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   277      config->filter.risingEdgeFilterTime  = 0;
 	mov.a	a2,#0
 .L469:
 	st.a	[a15]32,a2
 .L470:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   278      config->filter.inputPinMode          = IfxPort_InputMode_noPullDevice;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   278      config->filter.fallingEdgeFilterTime = 0;
 	mov	d15,#0
 .L471:
 	st.b	[a15]36,d15
 .L472:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   279      config->filter.risingEdgeMode        = IfxGtm_Tim_In_ConfigFilterMode_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   279      config->filter.clock                 = IfxGtm_Cmu_Tim_Filter_Clk_0;
 	mov	d15,#3
 .L473:
 	st.b	[a15]17,d15
 .L474:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   280      config->filter.fallingEdgeMode       = IfxGtm_Tim_In_ConfigFilterMode_none;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   280  }
 	mov	d15,#3
 .L475:
 	st.b	[a15]18,d15
 .L476:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   281      config->filter.risingEdgeFilterTime  = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   281  
 	mov	d15,#0
 .L477:
 	st.w	[a15]20,d15
 .L478:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   282      config->filter.fallingEdgeFilterTime = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   282  
 	mov	d15,#0
 .L479:
 	st.w	[a15]24,d15
 .L480:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   283      config->filter.clock                 = IfxGtm_Cmu_Tim_Filter_Clk_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   283  void IfxGtm_Tim_In_onIsr(IfxGtm_Tim_In *driver)
 	mov	d15,#0
 .L481:
 	st.b	[a15]16,d15
 .L482:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   284  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   284  {
 	ret
 .L150:
 	
@@ -2120,19 +2120,19 @@ __IfxGtm_Tim_In_initConfig_function_end:
 	
 	.global	IfxGtm_Tim_In_onIsr
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   285  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   286  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   287  void IfxGtm_Tim_In_onIsr(IfxGtm_Tim_In *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   285      IfxGtm_Tim_In_update(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   286  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   287  
 ; Function IfxGtm_Tim_In_onIsr
 .L62:
 IfxGtm_Tim_In_onIsr:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   288  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   289      IfxGtm_Tim_In_update(driver);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   288  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   289  void IfxGtm_Tim_In_update(IfxGtm_Tim_In *driver)
 	call	IfxGtm_Tim_In_update
 .L238:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   290  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   290  {
 	ret
 .L155:
 	
@@ -2147,15 +2147,15 @@ __IfxGtm_Tim_In_onIsr_function_end:
 	
 	.global	IfxGtm_Tim_In_update
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   291  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   291      driver->dataLost = IfxGtm_Tim_Ch_isDataLostEvent(driver->channel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   292  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   293  void IfxGtm_Tim_In_update(IfxGtm_Tim_In *driver)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   293      if (driver->dataLost)
 ; Function IfxGtm_Tim_In_update
 .L64:
 IfxGtm_Tim_In_update:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   294  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   295      driver->dataLost = IfxGtm_Tim_Ch_isDataLostEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   294      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   295          IfxGtm_Tim_Ch_clearDataLostEvent(driver->channel);
 	ld.a	a15,[a4]
 .L160:
 
@@ -2524,13 +2524,13 @@ IfxGtm_Tim_In_update:	.type	func
 	st.b	[a4]15,d15
 .L493:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   296  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   297      if (driver->dataLost)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   296  f (driver->glitch)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   297      {
 	jeq	d15,#0,.L48
 .L494:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   298      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   299          IfxGtm_Tim_Ch_clearDataLostEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   298          IfxGtm_Tim_Ch_clearGlitchEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   299      }
 	ld.a	a15,[a4]
 .L165:
 
@@ -2853,9 +2853,9 @@ IfxGtm_Tim_In_update:	.type	func
 	st.w	[a15]44,d15
 .L48:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   300      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   301  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   302      driver->glitch = IfxGtm_Tim_Ch_isGlitchEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   300  itchEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   301      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   302  
 	ld.a	a15,[a4]
 .L170:
 
@@ -3236,13 +3236,13 @@ IfxGtm_Tim_In_update:	.type	func
 	st.b	[a4]20,d15
 .L498:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   303  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   304      if (driver->glitch)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   303  chEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   304      }
 	jeq	d15,#0,.L50
 .L499:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   305      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   306          IfxGtm_Tim_Ch_clearGlitchEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   305  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   306      driver->newData = IfxGtm_Tim_Ch_isNewValueEvent(driver->channel);
 	ld.a	a15,[a4]
 .L175:
 
@@ -3577,9 +3577,9 @@ IfxGtm_Tim_In_update:	.type	func
 	st.w	[a15]44,d15
 .L50:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   307      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   307  NewValueEvent(driver->channel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   308  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   309      driver->newData = IfxGtm_Tim_Ch_isNewValueEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   309      if (driver->newData)
 	ld.a	a15,[a4]
 .L180:
 
@@ -3966,40 +3966,40 @@ IfxGtm_Tim_In_update:	.type	func
 	st.b	[a4]14,d15
 .L503:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   310  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   311      if (driver->newData)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   310  l);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   311  
 	jeq	d15,#0,.L52
 .L184:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   312      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   313          Ifx_GTM_TIM_CH_GPR0 gpr0;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   314          Ifx_GTM_TIM_CH_GPR1 gpr1;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   315  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   316          gpr0.U                  = driver->channel->GPR0.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   312      if (driver->newData)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   313      {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   314          Ifx_GTM_TIM_CH_GPR0 gpr0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   315          Ifx_GTM_TIM_CH_GPR1 gpr1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   316  
 	ld.a	a15,[a4]
 .L504:
 	ld.w	d0,[a15]
 .L239:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   317          gpr1.U                  = driver->channel->GPR1.U;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   317          gpr0.U                  = driver->channel->GPR0.U;
 	ld.a	a15,[a4]
 .L505:
 	ld.w	d1,[a15]4
 .L241:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   318          driver->periodTick      = gpr1.B.GPR1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   318          gpr1.U                  = driver->channel->GPR1.U;
 	extr.u	d15,d1,#0,#24
 .L506:
 	st.w	[a4]4,d15
 .L507:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   319          driver->pulseLengthTick = gpr0.B.GPR0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   319          driver->periodTick      = gpr1.B.GPR1;
 	extr.u	d15,d0,#0,#24
 .L508:
 	st.w	[a4]8,d15
 .L509:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   320          driver->dataCoherent    = gpr0.B.ECNT == gpr1.B.ECNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   320          driver->pulseLengthTick = gpr0.B.GPR0;
 	extr.u	d15,d0,#24,#8
 .L510:
 	extr.u	d0,d1,#24,#8
@@ -4009,9 +4009,9 @@ IfxGtm_Tim_In_update:	.type	func
 	st.b	[a4]12,d15
 .L512:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   321  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   322          // read the edge counter
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   323          driver->edgeCount = driver->channel->ECNT.B.ECNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   321          driver->dataCoherent    = gpr0.B.ECNT == gpr1.B.ECNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   322  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   323          // read the edge counter
 	ld.a	a15,[a4]
 .L513:
 	ld.w	d15,[a15]12
@@ -4020,8 +4020,8 @@ IfxGtm_Tim_In_update:	.type	func
 	st.h	[a4]28,d15
 .L515:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   324  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   325          if (IfxGtm_Tim_Ch_isEcntOverflowEvent(driver->channel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   324          driver->edgeCount = driver->channel->ECNT.B.ECNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   325  
 	ld.a	a15,[a4]
 .L190:
 
@@ -4396,15 +4396,15 @@ IfxGtm_Tim_In_update:	.type	func
 	jeq	d15,#0,.L54
 .L518:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   326          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   327              driver->edgeCounterUpper++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   326  l->ECNT.B.ECNT;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   327  
 	ld.w	d15,[a4]16
 .L519:
 	add	d15,#1
 	st.w	[a4]16,d15
 .L520:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   328              IfxGtm_Tim_Ch_clearEcntOverflowEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   328          if (IfxGtm_Tim_Ch_isEcntOverflowEvent(driver->channel))
 	ld.a	a15,[a4]
 .L195:
 
@@ -4733,9 +4733,9 @@ IfxGtm_Tim_In_update:	.type	func
 	st.w	[a15]44,d15
 .L54:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   329          }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   330  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   331          driver->overflowCnt = IfxGtm_Tim_Ch_isCntOverflowEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   329  iver->channel))
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   330          {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   331              driver->edgeCounterUpper++;
 	ld.a	a15,[a4]
 .L200:
 
@@ -5098,19 +5098,19 @@ IfxGtm_Tim_In_update:	.type	func
 	st.b	[a4]13,d15
 .L524:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   332  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   333          if (driver->overflowCnt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   332  unterUpper++;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   333              IfxGtm_Tim_Ch_clearEcntOverflowEvent(driver->channel);
 	jeq	d15,#0,.L56
 .L525:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   334          {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   335              driver->newData = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   334          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   335  
 	mov	d15,#0
 .L526:
 	st.b	[a4]14,d15
 .L527:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   336              IfxGtm_Tim_Ch_clearCntOverflowEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   336          driver->overflowCnt = IfxGtm_Tim_Ch_isCntOverflowEvent(driver->channel);
 	ld.a	a15,[a4]
 .L205:
 
@@ -5427,9 +5427,9 @@ IfxGtm_Tim_In_update:	.type	func
 	st.w	[a15]44,d15
 .L56:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   337          }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   337  channel);
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   338  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   339          IfxGtm_Tim_Ch_clearNewValueEvent(driver->channel);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   339          if (driver->overflowCnt)
 	ld.a	a15,[a4]
 .L210:
 
@@ -5770,8 +5770,8 @@ IfxGtm_Tim_In_update:	.type	func
 	st.w	[a15]44,d15
 .L52:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   340      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   341  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   340  lowCnt)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   341          {
 	ret
 .L157:
 	
@@ -33467,7 +33467,7 @@ __IfxGtm_Tim_In_update_function_end:
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std',0
 	.byte	'D:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap',0
-	.byte	'D:\\tasking\\ctc\\include\\',0,0
+	.byte	'C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\include\\',0,0
 	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
 	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
 	.byte	'IfxScuWdt.h',0,2,0,0
@@ -34796,5 +34796,5 @@ __IfxGtm_Tim_In_update_function_end:
 	.word	.L530,.L64,.L157-.L64
 	.byte	8,18,8,19,8,21,8,22,8,23,0,0
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tim\In\IfxGtm_Tim_In.c	   342              driver->newData = FALSE;
 	; Module end

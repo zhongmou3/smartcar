@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap\\.IfxCpu_Trap.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap\\IfxCpu_Trap.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap\\IfxCpu_Trap.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap\\IfxCpu_Trap.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap\\IfxCpu_Trap.c'
@@ -973,29 +973,29 @@ IfxCpu_Trap_memoryManagementError:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L4:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   130  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   131      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   132      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_memoryManagement, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   130    trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_memoryManagement, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   131      IFX_CFG_CPU_TRAP_MME_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   132      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L117:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   133      IFX_CFG_CPU_TRAP_MME_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   133      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L299:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   134      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   134      __asm("rfe");
 	debug
 .L300:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   135      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   135  }
 	rslcx
 .L301:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   136      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   136  
 	rfe
 .L302:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   137  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   137  
 	ret
 .L110:
 	
@@ -1010,9 +1010,9 @@ __IfxCpu_Trap_memoryManagementError_function_end:
 	
 	.global	IfxCpu_Trap_internalProtectionError
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   138  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   139  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   140  void IfxCpu_Trap_internalProtectionError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   138  void IfxCpu_Trap_internalProtectionError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   139  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   140      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_internalProtectionError
 .L32:
 IfxCpu_Trap_internalProtectionError:	.type	func
@@ -1844,29 +1844,29 @@ IfxCpu_Trap_internalProtectionError:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L7:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   141  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   142      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   143      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_internalProtection, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   141  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_internalProtection, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   142      IFX_CFG_CPU_TRAP_IPE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   143      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L140:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   144      IFX_CFG_CPU_TRAP_IPE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   144      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L312:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   145      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   145      __asm("rfe");
 	debug
 .L313:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   146      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   146  }
 	rslcx
 .L314:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   147      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   147  
 	rfe
 .L315:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   148  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   148  
 	ret
 .L135:
 	
@@ -1881,9 +1881,9 @@ __IfxCpu_Trap_internalProtectionError_function_end:
 	
 	.global	IfxCpu_Trap_instructionError
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   149  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   150  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   151  void IfxCpu_Trap_instructionError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   149  void IfxCpu_Trap_instructionError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   150  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   151      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_instructionError
 .L34:
 IfxCpu_Trap_instructionError:	.type	func
@@ -2715,29 +2715,29 @@ IfxCpu_Trap_instructionError:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L10:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   152  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   153      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   154      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_instructionErrors, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   152  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_instructionErrors, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   153      IFX_CFG_CPU_TRAP_IE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   154      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L153:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   155      IFX_CFG_CPU_TRAP_IE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   155      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L325:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   156      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   156      __asm("rfe");
 	debug
 .L326:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   157      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   157  }
 	rslcx
 .L327:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   158      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   158  
 	rfe
 .L328:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   159  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   159  
 	ret
 .L148:
 	
@@ -2752,9 +2752,9 @@ __IfxCpu_Trap_instructionError_function_end:
 	
 	.global	IfxCpu_Trap_contextManagementError
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   160  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   161  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   162  void IfxCpu_Trap_contextManagementError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   160  void IfxCpu_Trap_contextManagementError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   161  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   162      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_contextManagementError
 .L36:
 IfxCpu_Trap_contextManagementError:	.type	func
@@ -3586,29 +3586,29 @@ IfxCpu_Trap_contextManagementError:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L13:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   163  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   164      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   165      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_contextManagement, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   163  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_contextManagement, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   164      IFX_CFG_CPU_TRAP_CME_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   165      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L166:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   166      IFX_CFG_CPU_TRAP_CME_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   166      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L338:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   167      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   167      __asm("rfe");
 	debug
 .L339:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   168      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   168  }
 	rslcx
 .L340:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   169      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   169  
 	rfe
 .L341:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   170  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   170  
 	ret
 .L161:
 	
@@ -3623,9 +3623,9 @@ __IfxCpu_Trap_contextManagementError_function_end:
 	
 	.global	IfxCpu_Trap_busError
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   171  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   172  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   173  void IfxCpu_Trap_busError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   171  void IfxCpu_Trap_busError(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   172  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   173      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_busError
 .L38:
 IfxCpu_Trap_busError:	.type	func
@@ -4457,29 +4457,29 @@ IfxCpu_Trap_busError:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L16:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   174  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   175      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   176      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_bus, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   174  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_bus, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   175      IFX_CFG_CPU_TRAP_BE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   176      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L179:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   177      IFX_CFG_CPU_TRAP_BE_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   177      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L351:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   178      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   178      __asm("rfe");
 	debug
 .L352:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   179      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   179  }
 	rslcx
 .L353:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   180      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   180  
 	rfe
 .L354:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   181  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   181  
 	ret
 .L174:
 	
@@ -4494,9 +4494,9 @@ __IfxCpu_Trap_busError_function_end:
 	
 	.global	IfxCpu_Trap_assertion
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   182  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   183  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   184  void IfxCpu_Trap_assertion(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   182  void IfxCpu_Trap_assertion(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   183  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   184      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_assertion
 .L40:
 IfxCpu_Trap_assertion:	.type	func
@@ -5328,29 +5328,29 @@ IfxCpu_Trap_assertion:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L19:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   185  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   186      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   187      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_assertion, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   185  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_assertion, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   186      IFX_CFG_CPU_TRAP_ASSERT_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   187      IFX_CFG_CPU_TRAP_DEBUG;
 	st.d	[a10]0,e2
 .L192:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   188      IFX_CFG_CPU_TRAP_ASSERT_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   188      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	ld.d	e0,[a10]0
 .L364:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   189      IFX_CFG_CPU_TRAP_DEBUG;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   189      __asm("rfe");
 	debug
 .L365:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   190      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   190  }
 	rslcx
 .L366:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   191      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   191  
 	rfe
 .L367:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   192  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   192  
 	ret
 .L187:
 	
@@ -5365,9 +5365,9 @@ __IfxCpu_Trap_assertion_function_end:
 	
 	.global	IfxCpu_Trap_systemCall_Cpu0
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   193  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   194  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   195  void IfxCpu_Trap_systemCall_Cpu0(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   193  void IfxCpu_Trap_systemCall_Cpu0(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   194  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   195      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_systemCall_Cpu0
 .L42:
 IfxCpu_Trap_systemCall_Cpu0:	.type	func
@@ -6199,25 +6199,25 @@ IfxCpu_Trap_systemCall_Cpu0:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L22:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   196  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   197      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   198      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   196  ch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   197      IFX_CFG_CPU_TRAP_SYSCALL_CPU0_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   198      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	st.d	[a10]0,e2
 .L205:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   199      IFX_CFG_CPU_TRAP_SYSCALL_CPU0_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   199      __asm("rfe");
 	ld.d	e0,[a10]0
 .L377:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   200      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   200  }
 	rslcx
 .L378:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   201      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   201  
 	rfe
 .L379:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   202  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   202  #if IFXCPU_NUM_MODULES >= 2
 	ret
 .L200:
 	
@@ -6232,9 +6232,9 @@ __IfxCpu_Trap_systemCall_Cpu0_function_end:
 	
 	.global	IfxCpu_Trap_systemCall_Cpu1
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   203  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   204  #if IFXCPU_NUM_MODULES >= 2
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   205  void IfxCpu_Trap_systemCall_Cpu1(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   203  void IfxCpu_Trap_systemCall_Cpu1(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   204  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   205      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_systemCall_Cpu1
 .L44:
 IfxCpu_Trap_systemCall_Cpu1:	.type	func
@@ -7066,25 +7066,25 @@ IfxCpu_Trap_systemCall_Cpu1:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L25:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   206  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   207      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   208      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   206  tch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   207      IFX_CFG_CPU_TRAP_SYSCALL_CPU1_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   208      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	st.d	[a10]0,e2
 .L218:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   209      IFX_CFG_CPU_TRAP_SYSCALL_CPU1_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   209      __asm("rfe");
 	ld.d	e0,[a10]0
 .L389:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   210      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   210  }
 	rslcx
 .L390:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   211      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   211  #endif
 	rfe
 .L391:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   212  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   212  
 	ret
 .L213:
 	
@@ -7099,53 +7099,53 @@ __IfxCpu_Trap_systemCall_Cpu1_function_end:
 	
 	.global	IfxCpu_Trap_nonMaskableInterrupt
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   213  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   214  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   215  #if IFXCPU_NUM_MODULES >= 3
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   216  void IfxCpu_Trap_systemCall_Cpu2(uint32 tin)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   217  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   218      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   219      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   220      IFX_CFG_CPU_TRAP_SYSCALL_CPU2_HOOK(trapWatch);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   221      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   222      __asm("rfe");
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   223  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   224  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   225  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   226  #if IFXCPU_NUM_MODULES >= 4
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   227  void IfxCpu_Trap_systemCall_Cpu3(uint32 tin)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   228  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   229      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   230      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   231      IFX_CFG_CPU_TRAP_SYSCALL_CPU3_HOOK(trapWatch);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   232      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   233      __asm("rfe");
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   234  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   235  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   236  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   237  #if IFXCPU_NUM_MODULES >= 5
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   238  void IfxCpu_Trap_systemCall_Cpu4(uint32 tin)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   239  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   240      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   241      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   242      IFX_CFG_CPU_TRAP_SYSCALL_CPU4_HOOK(trapWatch);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   243      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   244      __asm("rfe");
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   245  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   246  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   247  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   248  #if IFXCPU_NUM_MODULES >= 6
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   249  void IfxCpu_Trap_systemCall_Cpu5(uint32 tin)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   250  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   251      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   252      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   253      IFX_CFG_CPU_TRAP_SYSCALL_CPU5_HOOK(trapWatch);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   254      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   255      __asm("rfe");
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   256  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   257  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   258  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   259  void IfxCpu_Trap_nonMaskableInterrupt(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   213  #if IFXCPU_NUM_MODULES >= 3
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   214  void IfxCpu_Trap_systemCall_Cpu2(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   215  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   216      volatile IfxCpu_Trap trapWatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   217      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   218      IFX_CFG_CPU_TRAP_SYSCALL_CPU2_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   219      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   220      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   221  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   222  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   223  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   224  #if IFXCPU_NUM_MODULES >= 4
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   225  void IfxCpu_Trap_systemCall_Cpu3(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   226  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   227      volatile IfxCpu_Trap trapWatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   228      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   229      IFX_CFG_CPU_TRAP_SYSCALL_CPU3_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   230      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   231      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   232  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   233  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   234  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   235  #if IFXCPU_NUM_MODULES >= 5
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   236  void IfxCpu_Trap_systemCall_Cpu4(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   237  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   238      volatile IfxCpu_Trap trapWatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   239      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   240      IFX_CFG_CPU_TRAP_SYSCALL_CPU4_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   241      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   242      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   243  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   244  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   245  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   246  #if IFXCPU_NUM_MODULES >= 6
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   247  void IfxCpu_Trap_systemCall_Cpu5(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   248  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   249      volatile IfxCpu_Trap trapWatch;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   250      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_systemCall, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   251      IFX_CFG_CPU_TRAP_SYSCALL_CPU5_HOOK(trapWatch);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   252      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   253      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   254  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   255  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   256  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   257  void IfxCpu_Trap_nonMaskableInterrupt(uint32 tin)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   258  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   259      volatile IfxCpu_Trap trapWatch;
 ; Function IfxCpu_Trap_nonMaskableInterrupt
 .L46:
 IfxCpu_Trap_nonMaskableInterrupt:	.type	func
@@ -7977,25 +7977,25 @@ IfxCpu_Trap_nonMaskableInterrupt:	.type	func
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   126  }      (inlined)
 .L28:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   260  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   261      volatile IfxCpu_Trap trapWatch;
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   262      trapWatch = IfxCpu_Trap_extractTrapInfo(IfxCpu_Trap_Class_nonMaskableInterrupt, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   260  p_Class_nonMaskableInterrupt, tin);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   261      IFX_CFG_CPU_TRAP_NMI_HOOK(trapWatch);    
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   262      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
 	st.d	[a10]0,e2
 .L231:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   263      IFX_CFG_CPU_TRAP_NMI_HOOK(trapWatch);    
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   263      __asm("rfe");
 	ld.d	e0,[a10]0
 .L401:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   264      __asm("rslcx"); /* Restore lower context before returning. lower context was stored in the trap vector */
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   264  }
 	rslcx
 .L402:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   265      __asm("rfe");
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   265  
 	rfe
 .L403:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   266  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   266  
 	ret
 .L226:
 	
@@ -8010,32 +8010,32 @@ __IfxCpu_Trap_nonMaskableInterrupt_function_end:
 	
 	.global	IfxCpu_Trap_vectorTable0
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   267  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   268  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   269  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   270  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   271  #pragma section ".traptab_cpu0" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   272  #pragma GCC optimize ("O2")
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   273  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   274  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   275  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   276  #pragma section CODE ".traptab_cpu0" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   277  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   278  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   279  #pragma protect on
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   280  #pragma section code "traptab_cpu0"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   281  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   282  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   283  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   284  #pragma ghs section text=".traptab_cpu0"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   285  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   286  void IfxCpu_Trap_vectorTable0(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   267  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   268  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   269  #pragma section ".traptab_cpu0" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   270  #pragma GCC optimize ("O2")
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   271  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   272  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   273  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   274  #pragma section CODE ".traptab_cpu0" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   275  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   276  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   277  #pragma protect on
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   278  #pragma section code "traptab_cpu0"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   279  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   280  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   281  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   282  #pragma ghs section text=".traptab_cpu0"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   283  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   284  void IfxCpu_Trap_vectorTable0(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   285  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   286      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
 ; Function IfxCpu_Trap_vectorTable0
 .L48:
 IfxCpu_Trap_vectorTable0:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   287  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   288      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   287      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   288      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_memoryManagementError)
 	lea	a15,[a15]@los(IfxCpu_Trap_memoryManagementError)
@@ -8047,7 +8047,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L408:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   289      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   289      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_internalProtectionError)
 	lea	a15,[a15]@los(IfxCpu_Trap_internalProtectionError)
@@ -8059,7 +8059,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L409:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   290      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   290      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_instructionError)
 	lea	a15,[a15]@los(IfxCpu_Trap_instructionError)
@@ -8071,7 +8071,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L410:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   291      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   291      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_contextManagementError)
 	lea	a15,[a15]@los(IfxCpu_Trap_contextManagementError)
@@ -8083,7 +8083,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L411:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   292      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   292      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu0);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_busError)
 	lea	a15,[a15]@los(IfxCpu_Trap_busError)
@@ -8095,7 +8095,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L412:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   293      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   293      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_assertion)
 	lea	a15,[a15]@los(IfxCpu_Trap_assertion)
@@ -8107,7 +8107,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L413:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   294      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu0);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   294  }
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_systemCall_Cpu0)
 	lea	a15,[a15]@los(IfxCpu_Trap_systemCall_Cpu0)
@@ -8119,7 +8119,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L414:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   295      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   295  
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_nonMaskableInterrupt)
 	lea	a15,[a15]@los(IfxCpu_Trap_nonMaskableInterrupt)
@@ -8131,7 +8131,7 @@ IfxCpu_Trap_vectorTable0:	.type	func
 	
 .L415:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   296  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   296  
 	ret
 .L239:
 	
@@ -8146,31 +8146,31 @@ __IfxCpu_Trap_vectorTable0_function_end:
 	
 	.global	IfxCpu_Trap_vectorTable1
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   297  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   298  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   299  #if IFXCPU_NUM_MODULES >= 2
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   300  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   301  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   302  #pragma section ".traptab_cpu1" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   303  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   304  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   305  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   306  #pragma section CODE ".traptab_cpu1" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   307  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   308  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   309  #pragma section code "traptab_cpu1"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   310  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   311  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   312  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   313  #pragma ghs section text=".traptab_cpu1"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   314  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   315  void IfxCpu_Trap_vectorTable1(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   297  #if IFXCPU_NUM_MODULES >= 2
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   298  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   299  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   300  #pragma section ".traptab_cpu1" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   301  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   302  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   303  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   304  #pragma section CODE ".traptab_cpu1" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   305  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   306  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   307  #pragma section code "traptab_cpu1"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   308  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   309  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   310  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   311  #pragma ghs section text=".traptab_cpu1"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   312  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   313  void IfxCpu_Trap_vectorTable1(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   314  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   315      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
 ; Function IfxCpu_Trap_vectorTable1
 .L50:
 IfxCpu_Trap_vectorTable1:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   316  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   317      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   316      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   317      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_memoryManagementError)
 	lea	a15,[a15]@los(IfxCpu_Trap_memoryManagementError)
@@ -8182,7 +8182,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L420:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   318      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   318      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_internalProtectionError)
 	lea	a15,[a15]@los(IfxCpu_Trap_internalProtectionError)
@@ -8194,7 +8194,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L421:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   319      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   319      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_instructionError)
 	lea	a15,[a15]@los(IfxCpu_Trap_instructionError)
@@ -8206,7 +8206,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L422:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   320      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   320      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_contextManagementError)
 	lea	a15,[a15]@los(IfxCpu_Trap_contextManagementError)
@@ -8218,7 +8218,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L423:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   321      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   321      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu1);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_busError)
 	lea	a15,[a15]@los(IfxCpu_Trap_busError)
@@ -8230,7 +8230,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L424:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   322      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   322      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_assertion)
 	lea	a15,[a15]@los(IfxCpu_Trap_assertion)
@@ -8242,7 +8242,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L425:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   323      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu1);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   323  }
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_systemCall_Cpu1)
 	lea	a15,[a15]@los(IfxCpu_Trap_systemCall_Cpu1)
@@ -8254,7 +8254,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L426:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   324      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   324  
 	 .align 32
 	movh.a	a15,#@his(IfxCpu_Trap_nonMaskableInterrupt)
 	lea	a15,[a15]@los(IfxCpu_Trap_nonMaskableInterrupt)
@@ -8266,7 +8266,7 @@ IfxCpu_Trap_vectorTable1:	.type	func
 	
 .L427:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   325  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   325  
 	ret
 .L240:
 	
@@ -21814,153 +21814,151 @@ __IfxCpu_Trap_vectorTable1_function_end:
 	.word	.L428,.L50,.L240-.L50
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   326  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   326  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   327  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   328  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   329  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   330  #if IFXCPU_NUM_MODULES >= 3
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   331  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   332  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   333  #pragma section ".traptab_cpu2" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   334  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   335  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   336  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   337  #pragma section CODE ".traptab_cpu2" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   338  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   339  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   340  #pragma section code "traptab_cpu2"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   341  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   342  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   343  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   344  #pragma ghs section text=".traptab_cpu2"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   345  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   346  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   347  void IfxCpu_Trap_vectorTable2(void)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   348  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   349      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   350      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   351      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   352      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   353      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   354      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   355      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu2);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   356      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   357  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   358  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   328  #if IFXCPU_NUM_MODULES >= 3
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   329  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   330  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   331  #pragma section ".traptab_cpu2" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   332  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   333  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   334  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   335  #pragma section CODE ".traptab_cpu2" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   336  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   337  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   338  #pragma section code "traptab_cpu2"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   339  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   340  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   341  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   342  #pragma ghs section text=".traptab_cpu2"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   343  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   344  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   345  void IfxCpu_Trap_vectorTable2(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   346  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   347      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   348      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   349      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   350      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   351      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   352      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   353      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu2);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   354      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   355  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   356  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   357  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   358  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   359  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   360  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   361  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   362  #if IFXCPU_NUM_MODULES >= 4
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   363  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   364  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   365  #pragma section ".traptab_cpu3" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   366  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   367  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   368  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   369  #pragma section CODE ".traptab_cpu3" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   370  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   371  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   372  #pragma section code "traptab_cpu3"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   373  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   374  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   375  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   376  #pragma ghs section text=".traptab_cpu3"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   377  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   378  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   379  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   380  void IfxCpu_Trap_vectorTable3(void)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   381  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   382      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   383      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   384      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   385      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   386      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   387      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   388      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu3);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   389      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   390  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   391  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   360  #if IFXCPU_NUM_MODULES >= 4
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   361  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   362  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   363  #pragma section ".traptab_cpu3" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   364  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   365  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   366  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   367  #pragma section CODE ".traptab_cpu3" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   368  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   369  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   370  #pragma section code "traptab_cpu3"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   371  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   372  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   373  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   374  #pragma ghs section text=".traptab_cpu3"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   375  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   376  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   377  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   378  void IfxCpu_Trap_vectorTable3(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   379  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   380      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   381      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   382      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   383      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   384      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   385      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   386      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu3);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   387      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   388  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   389  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   390  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   391  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   392  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   393  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   394  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   395  #if IFXCPU_NUM_MODULES >= 5
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   396  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   397  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   398  #pragma section ".traptab_cpu4" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   399  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   400  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   401  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   402  #pragma section CODE ".traptab_cpu4" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   403  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   404  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   405  #pragma section code "traptab_cpu4"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   406  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   407  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   408  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   409  #pragma ghs section text=".traptab_cpu4"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   410  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   411  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   412  void IfxCpu_Trap_vectorTable4(void)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   413  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   414      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   415      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   416      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   417      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   418      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   419      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   420      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu4);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   421      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   422  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   423  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   393  #if IFXCPU_NUM_MODULES >= 5
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   394  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   395  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   396  #pragma section ".traptab_cpu4" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   397  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   398  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   399  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   400  #pragma section CODE ".traptab_cpu4" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   401  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   402  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   403  #pragma section code "traptab_cpu4"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   404  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   405  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   406  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   407  #pragma ghs section text=".traptab_cpu4"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   408  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   409  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   410  void IfxCpu_Trap_vectorTable4(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   411  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   412      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   413      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   414      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   415      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   416      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   417      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   418      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu4);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   419      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   420  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   421  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   422  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   423  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   424  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   425  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   426  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   427  #if IFXCPU_NUM_MODULES >= 6
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   428  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   429  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   430  #pragma section ".traptab_cpu5" awx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   431  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   432  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   433  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   434  #pragma section CODE ".traptab_cpu5" X
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   435  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   436  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   437  #pragma section code "traptab_cpu5"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   438  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   439  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   440  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   441  #pragma ghs section text=".traptab_cpu5"
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   442  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   443  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   444  void IfxCpu_Trap_vectorTable5(void)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   445  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   446      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   447      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   448      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   449      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   450      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   451      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   452      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu5);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   453      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   454  }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   455  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   425  #if IFXCPU_NUM_MODULES >= 6
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   426  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   427  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   428  #pragma section ".traptab_cpu5" awx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   429  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   430  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   431  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   432  #pragma section CODE ".traptab_cpu5" X
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   433  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   434  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   435  #pragma section code "traptab_cpu5"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   436  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   437  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   438  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   439  #pragma ghs section text=".traptab_cpu5"
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   440  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   441  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   442  void IfxCpu_Trap_vectorTable5(void)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   443  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   444      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_memoryManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   445      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_internalProtectionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   446      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_instructionError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   447      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_contextManagementError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   448      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_busError);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   449      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_assertion);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   450      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_systemCall_Cpu5);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   451      IfxCpu_Tsr_CallTSR(IfxCpu_Trap_nonMaskableInterrupt);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   452  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   453  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   454  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   455  #endif
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   456  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   457  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   458  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   459  #if defined(__HIGHTEC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   460  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   461  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   462  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   463  #pragma section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   464  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   465  #if defined(__DCC__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   466  #pragma interrupt IfxInterruptEx
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   467  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   468  #if defined(__TASKING__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   469  #pragma endprotect
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   470  #endif
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   471  #if defined(__ghs__)
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   472  #pragma ghs section
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   473  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   457  #if defined(__HIGHTEC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   458  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   459  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   460  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   461  #pragma section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   462  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   463  #if defined(__DCC__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   464  #pragma interrupt IfxInterruptEx
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   465  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   466  #if defined(__TASKING__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   467  #pragma endprotect
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   468  #endif
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   469  #if defined(__ghs__)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   470  #pragma ghs section
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\Trap\IfxCpu_Trap.c	   471  #endif
 
 	; Module end

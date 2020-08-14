@@ -1,5 +1,5 @@
 	; Module start
-	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728"
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99754241"
 	.compiler_invocation	"ctc --dep-file=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm\\.IfxGtm_Tom_Pwm.o.d --fp-model=c,f,l,n,r,S,T,z -D__CPU__=tc26x -D__CPU_TC26X__ --core=tc1.6.x --iso=99 -ID:\\smartcar\\smartcar -ID:\\smartcar\\smartcar\\CODE -ID:\\smartcar\\smartcar\\Libraries -ID:\\smartcar\\smartcar\\Libraries\\BaseSw -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Build -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Impl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\DataHandling -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_Lib\\InternalMux -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\_PinMap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Asc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Lin -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Spi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Asclin\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Icu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmBc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Ccu6\\TPwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Cam -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cif\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Irq -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\Trap -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Dma -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dma\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Dsadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Rdc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dsadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Dts -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Dts\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Emem\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Eray -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eray\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Phy_Pef7071 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Eth\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Crc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fce\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Fft -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Fft\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Flash\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\IncrEnc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gpt12\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Atom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tim\\In -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Trig -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Hssl -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Hssl\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\I2c -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\I2c\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Driver -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Iom\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Msc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Msc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Mtu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Can -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Multican\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Io -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Port\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Psi5 -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Psi5s -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Psi5s\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiMaster -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\SpiSlave -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Qspi\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Scu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Sent -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Sent\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Smu\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Src\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Stm\\Timer -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Adc -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Vadc\\Std -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Platform\\Tricore\\Compilers -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Infra\\Sfr\\TC26B\\_Reg -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service -ID:\\smartcar\\smartcar\\Libraries\\BaseSw\\Service\\CpuGeneric -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries -ID:\\smartcar\\smartcar\\Libraries\\seekfree_libraries\\common -ID:\\smartcar\\smartcar\\Libraries\\seekfree_peripheral -ID:\\smartcar\\smartcar\\USER -g2 --make-target=Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm\\IfxGtm_Tom_Pwm.o -t0 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm\\IfxGtm_Tom_Pwm.src ..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm\\IfxGtm_Tom_Pwm.c"
 	.compiler_name		"ctc"
 	;source	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Gtm\\Tom\\Pwm\\IfxGtm_Tom_Pwm.c'
@@ -581,17 +581,17 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	st.b	[a2]1,d15
 .L7:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   102          IfxSrc_enable(src);
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   103      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   104  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   105      if (config->synchronousUpdateEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   102  t(src, config->interrupt.isrProvider, config->interrupt.isrPriority);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   103          IfxSrc_enable(src);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   104      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   105  
 	ld.bu	d15,[a12]18
 .L180:
 	jne	d15,#1,.L8
 .L181:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   106      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   107          IfxGtm_Tom_Ch_setCompareZeroShadow(tomSFR, config->tomChannel, config->period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   106      if (config->synchronousUpdateEnabled == 1)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   107      {
 	ld.b	d4,[a12]5
 .L182:
 	ld.w	d5,[a12]8
@@ -600,7 +600,7 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Ch_setCompareZeroShadow
 .L102:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   108          IfxGtm_Tom_Ch_setCompareOneShadow(tomSFR, config->tomChannel, config->dutyCycle);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   108          IfxGtm_Tom_Ch_setCompareZeroShadow(tomSFR, config->tomChannel, config->period);
 	ld.b	d4,[a12]5
 .L183:
 	ld.w	d5,[a12]12
@@ -609,17 +609,17 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Ch_setCompareOneShadow
 .L104:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   109          IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   109          IfxGtm_Tom_Ch_setCompareOneShadow(tomSFR, config->tomChannel, config->dutyCycle);
 	ld.a	a4,[a15]12
 	call	IfxGtm_Tom_Tgc_trigger
 .L184:
 	j	.L9
 .L8:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   110      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   111      else
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   112      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   113          IfxGtm_Tom_Ch_setCompareZero(tomSFR, config->tomChannel, config->period);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   110          IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   111      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   112      else
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   113      {
 	ld.b	d4,[a12]5
 .L185:
 	ld.w	d5,[a12]8
@@ -628,7 +628,7 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Ch_setCompareZero
 .L106:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   114          IfxGtm_Tom_Ch_setCompareOne(tomSFR, config->tomChannel, config->dutyCycle);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   114          IfxGtm_Tom_Ch_setCompareZero(tomSFR, config->tomChannel, config->period);
 	ld.b	d4,[a12]5
 .L186:
 	ld.w	d5,[a12]12
@@ -637,9 +637,9 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Ch_setCompareOne
 .L9:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   115      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   116  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   117      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], config->tomChannel, TRUE, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   115          IfxGtm_Tom_Ch_setCompareOne(tomSFR, config->tomChannel, config->dutyCycle);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   116      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   117  
 	ld.a	a4,[a15]12
 .L187:
 	ld.b	d4,[a12]5
@@ -650,7 +650,7 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannel
 .L190:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   118      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], config->tomChannel, TRUE, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   118      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], config->tomChannel, TRUE, FALSE);
 	ld.a	a4,[a15]12
 .L191:
 	ld.b	d4,[a12]5
@@ -661,27 +661,27 @@ IfxGtm_Tom_Pwm_init:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannelOutput
 .L194:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   119  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   120      if (config->immediateStartEnabled == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   119      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], config->tomChannel, TRUE, FALSE);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   120  
 	ld.bu	d15,[a12]36
 .L195:
 	jne	d15,#1,.L10
 .L196:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   121      {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   122          IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   121      if (config->immediateStartEnabled == TRUE)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   122      {
 	ld.a	a4,[a15]12
 	call	IfxGtm_Tom_Tgc_trigger
 .L10:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   123      }
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   124  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   125      return result;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   123          IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   124      }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   125  
 	mov	d2,d8
 .L108:
 	j	.L11
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   126  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   126      return result;
 .L11:
 	ret
 .L45:
@@ -697,121 +697,121 @@ __IfxGtm_Tom_Pwm_init_function_end:
 	
 	.global	IfxGtm_Tom_Pwm_initConfig
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   127  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   127  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   128  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   129  void IfxGtm_Tom_Pwm_initConfig(IfxGtm_Tom_Pwm_Config *config, Ifx_GTM *gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   129  
 ; Function IfxGtm_Tom_Pwm_initConfig
 .L15:
 IfxGtm_Tom_Pwm_initConfig:	.type	func
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   130  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   131      config->gtm                      = gtm;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   130  void IfxGtm_Tom_Pwm_initConfig(IfxGtm_Tom_Pwm_Config *config, Ifx_GTM *gtm)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   131  {
 	st.a	[a4],a5
 .L201:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   132      config->tom                      = IfxGtm_Tom_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   132      config->gtm                      = gtm;
 	mov	d15,#0
 .L202:
 	st.b	[a4]4,d15
 .L203:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   133      config->tomChannel               = IfxGtm_Tom_Ch_0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   133      config->tom                      = IfxGtm_Tom_0;
 	mov	d15,#0
 .L204:
 	st.b	[a4]5,d15
 .L205:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   134      config->clock                    = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   134      config->tomChannel               = IfxGtm_Tom_Ch_0;
 	mov	d15,#0
 .L206:
 	st.b	[a4]6,d15
 .L207:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   135      config->period                   = 20;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   135      config->clock                    = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
 	mov	d15,#20
 .L208:
 	st.w	[a4]8,d15
 .L209:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   136      config->dutyCycle                = 10;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   136      config->period                   = 20;
 	mov	d15,#10
 .L210:
 	st.w	[a4]12,d15
 .L211:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   137      config->signalLevel              = Ifx_ActiveState_high;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   137      config->dutyCycle                = 10;
 	mov	d15,#1
 .L212:
 	st.b	[a4]16,d15
 .L213:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   138      config->oneShotModeEnabled       = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   138      config->signalLevel              = Ifx_ActiveState_high;
 	mov	d15,#0
 .L214:
 	st.b	[a4]17,d15
 .L215:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   139      config->synchronousUpdateEnabled = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   139      config->oneShotModeEnabled       = FALSE;
 	mov	d15,#0
 .L216:
 	st.b	[a4]18,d15
 .L217:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   140      config->immediateStartEnabled    = TRUE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   140      config->synchronousUpdateEnabled = FALSE;
 	mov	d15,#1
 .L218:
 	st.b	[a4]36,d15
 .L219:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   141      config->interrupt.ccu0Enabled    = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   141      config->immediateStartEnabled    = TRUE;
 	mov	d15,#0
 .L220:
 	st.b	[a4]20,d15
 .L221:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   142      config->interrupt.ccu1Enabled    = FALSE;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   142      config->interrupt.ccu0Enabled    = FALSE;
 	mov	d15,#0
 .L222:
 	st.b	[a4]21,d15
 .L223:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   143      config->interrupt.mode           = IfxGtm_IrqMode_pulseNotify;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   143      config->interrupt.ccu1Enabled    = FALSE;
 	mov	d15,#2
 .L224:
 	st.b	[a4]22,d15
 .L225:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   144      config->interrupt.isrProvider    = IfxSrc_Tos_cpu0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   144      config->interrupt.mode           = IfxGtm_IrqMode_pulseNotify;
 	mov	d15,#0
 .L226:
 	st.b	[a4]23,d15
 .L227:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   145      config->interrupt.isrPriority    = 0;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   145      config->interrupt.isrProvider    = IfxSrc_Tos_cpu0;
 	mov	d15,#0
 .L228:
 	st.h	[a4]24,d15
 .L229:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   146      config->pin.outputPin            = NULL_PTR;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   146      config->interrupt.isrPriority    = 0;
 	mov.a	a15,#0
 .L230:
 	st.a	[a4]28,a15
 .L231:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   147      config->pin.outputMode           = IfxPort_OutputMode_pushPull;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   147      config->pin.outputPin            = NULL_PTR;
 	mov	d15,#128
 .L232:
 	st.b	[a4]32,d15
 .L233:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   148      config->pin.padDriver            = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   148      config->pin.outputMode           = IfxPort_OutputMode_pushPull;
 	mov	d15,#0
 .L234:
 	st.b	[a4]33,d15
 .L235:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   149  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   149      config->pin.padDriver            = IfxPort_PadDriver_cmosAutomotiveSpeed1;
 	ret
 .L76:
 	
@@ -826,9 +826,9 @@ __IfxGtm_Tom_Pwm_initConfig_function_end:
 	
 	.global	IfxGtm_Tom_Pwm_start
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   150  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   150  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   151  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   152  void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   152  
 ; Function IfxGtm_Tom_Pwm_start
 .L17:
 IfxGtm_Tom_Pwm_start:	.type	func
@@ -837,9 +837,9 @@ IfxGtm_Tom_Pwm_start:	.type	func
 	mov	d15,d4
 .L112:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   153  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   154      /* Enable channel if not enabled already */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   155      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], driver->tomChannel, TRUE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   153  void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   154  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   155      /* Enable channel if not enabled already */
 	ld.a	a4,[a15]12
 .L109:
 	ld.b	d4,[a15]5
@@ -851,7 +851,7 @@ IfxGtm_Tom_Pwm_start:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannel
 .L114:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   156      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], driver->tomChannel, TRUE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   156      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], driver->tomChannel, TRUE, immediate);
 	ld.a	a4,[a15]12
 .L241:
 	ld.b	d4,[a15]5
@@ -863,14 +863,14 @@ IfxGtm_Tom_Pwm_start:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannelOutput
 .L116:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   157  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   158      /* Trigger the start now */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   159      IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   157      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], driver->tomChannel, TRUE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   158  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   159      /* Trigger the start now */
 	ld.a	a4,[a15]12
 	call	IfxGtm_Tom_Tgc_trigger
 .L244:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   160  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   160      IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
 	ret
 .L81:
 	
@@ -885,9 +885,9 @@ __IfxGtm_Tom_Pwm_start_function_end:
 	
 	.global	IfxGtm_Tom_Pwm_stop
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   161  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   161  }
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   162  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   163  void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   163  
 ; Function IfxGtm_Tom_Pwm_stop
 .L19:
 IfxGtm_Tom_Pwm_stop:	.type	func
@@ -896,9 +896,9 @@ IfxGtm_Tom_Pwm_stop:	.type	func
 	mov	d15,d4
 .L120:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   164  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   165      /* Disable channels */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   166      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], driver->tomChannel, FALSE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   164  void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate)
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   165  {
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   166      /* Disable channels */
 	ld.a	a4,[a15]12
 .L117:
 	ld.b	d4,[a15]5
@@ -910,7 +910,7 @@ IfxGtm_Tom_Pwm_stop:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannel
 .L122:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   167      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], driver->tomChannel, FALSE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   167      IfxGtm_Tom_Tgc_enableChannel(driver->tgc[0], driver->tomChannel, FALSE, immediate);
 	ld.a	a4,[a15]12
 .L250:
 	ld.b	d4,[a15]5
@@ -922,14 +922,14 @@ IfxGtm_Tom_Pwm_stop:	.type	func
 	call	IfxGtm_Tom_Tgc_enableChannelOutput
 .L124:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   168  
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   169      /* Trigger the stop now */
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   170      IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   168      IfxGtm_Tom_Tgc_enableChannelOutput(driver->tgc[0], driver->tomChannel, FALSE, immediate);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   169  
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   170      /* Trigger the stop now */
 	ld.a	a4,[a15]12
 	call	IfxGtm_Tom_Tgc_trigger
 .L253:
 
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   171  }
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   171      IfxGtm_Tom_Tgc_trigger(driver->tgc[0]);
 	ret
 .L84:
 	
@@ -29139,5 +29139,5 @@ __IfxGtm_Tom_Pwm_stop_function_end:
 	.word	12
 	.word	.L254,.L19,.L84-.L19
 
-
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Gtm\Tom\Pwm\IfxGtm_Tom_Pwm.c	   172  }
 	; Module end

@@ -75,11 +75,12 @@ int degree_calculation(void)
     /*if(AbsInclineValue < 20) ExcursionValueCoeff = 0.5;
     else ExcursionValueCoeff = (double)1/(AbsInclineValue*AbsInclineValue*0.015);
     //OLED_Refresh_Gram();*/
-    if(AbsExcursionValue > 60) ExcursionValueCoeff = 2;
-    else
-    	ExcursionValueCoeff = (double)(0.00025*AbsExcursionValue*AbsExcursionValue+0.01*AbsExcursionValue+0.5);
+    if(AbsExcursionValue > 60) ExcursionValueCoeff = 0.2;
+    else if(AbsExcursionValue > 30)
+    	ExcursionValueCoeff = (double)(0.004*AbsExcursionValue-0.04);
+    else ExcursionValueCoeff = 0.08;
     //ExcursionValueCoeff=2;
-    cardegree = (int)(InclineValue*1.925 - ExcursionValueCoeff*ExcursionValue*0.13);
+    cardegree = (int)(InclineValue*1.945 - 0.14*ExcursionValue);
     if (cardegree>88) cardegree=88;
     if (cardegree<-88) cardegree=-88;
     return cardegree;
@@ -101,21 +102,38 @@ int speedctrl_calculation(int degree)
 		set_speed = speed_limit_value;
 	}
 	else if(degree<=20)
-	set_speed = 3200;
+	set_speed = 3500;
 	else if(degree<=70)
-		set_speed=3200-10*(degree-20);
+		set_speed=3500-10*(degree-20);
 	else
-		set_speed=2700;
+		set_speed=3000;
 
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
 	ek = set_speed - speed;//计算当前误差
 	//oled_int16(40, 3, ek);
-
-	//设置PID系数
-	kp = 0.35;
-	ki = 0.0025;
-	kd = 0.012;
+	uint16 absek;
+	if(ek>=0) absek=ek;
+	else absek=-ek;
+	if(absek>2000)
+	{
+		//设置PID系数
+		kp = 0.45;
+		ki = 0.0035;
+		kd = 0;
+	}
+	else if(absek>1000&&absek<=2000)
+	{
+		kp = (double)(0.0002*absek+0.05);
+		ki = (double)(0.000002*absek-0.0005);
+		kd = 0;
+	}
+	else
+	{
+		kp = 0.25;
+		ki = 0.0015;
+		kd = 0;
+	}
 
 	//进行增量式PID运算
 	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
@@ -194,7 +212,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		xishu = rear_diff(90);
 		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+90);
 		speed_limit_flag=1;
-		speed_limit_value=1800;
+		speed_limit_value=2400;
 		int ideal_speedctrl = speedctrl_calculation(90);
 		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}

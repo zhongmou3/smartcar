@@ -8604,10 +8604,10 @@ __core0_main_function_end:
 	.byte	'dir_pin',0,26,60,70
 	.word	45296
 	.byte	0,31
-	.byte	'degree_calculation',0,27,42,5
+	.byte	'degree_calculation',0,27,44,5
 	.word	461
 	.byte	1,1,1,1,30
-	.byte	'rotate',0,27,44,6,1,1,1,1,35,27,44,13
+	.byte	'rotate',0,27,46,6,1,1,1,1,35,27,46,13
 	.word	461
 	.byte	0,11
 	.byte	'_Ifx_CPU_ICR_Bits',0,28,246,2,16,4,12
@@ -36514,7 +36514,7 @@ __core0_main_function_end:
 	.byte	'speed',0,27,8,14
 	.word	39227
 	.byte	1,1,40
-	.byte	'cardegree',0,27,26,12
+	.byte	'cardegree',0,27,27,12
 	.word	461
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug

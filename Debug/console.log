@@ -2,9 +2,45 @@
 **** Build of configuration Debug for project new_car_tc264_v1.3 ****
 
 "D:\\tasking\\ctc\\bin\\amk" -j4 all 
+Compiling Cpu1_Main.c
+ctc W560: ["..\USER\Cpu1_Main.c" 64/57] possible truncation at implicit conversion to type "unsigned char"
+ctc W560: ["..\USER\Cpu1_Main.c" 430/19] possible truncation at implicit conversion to type "unsigned char"
+ctc W537: ["..\USER\Cpu1_Main.c" 155/11] unused variable "FitCur_k"
+ctc W537: ["..\USER\Cpu1_Main.c" 155/20] unused variable "FitCur_b"
+ctc W537: ["..\USER\Cpu1_Main.c" 156/8] unused variable "FitCur_A1"
+ctc W537: ["..\USER\Cpu1_Main.c" 156/21] unused variable "FitCur_B1"
+ctc W537: ["..\USER\Cpu1_Main.c" 156/34] unused variable "FitCur_C1"
+ctc W537: ["..\USER\Cpu1_Main.c" 156/47] unused variable "FitCur_D1"
+ctc W537: ["..\USER\Cpu1_Main.c" 156/59] unused variable "FitCur_E1"
+ctc W537: ["..\USER\Cpu1_Main.c" 157/11] unused variable "FitCur_k1"
+ctc W537: ["..\USER\Cpu1_Main.c" 157/21] unused variable "FitCur_b1"
+ctc W537: ["..\USER\Cpu1_Main.c" 158/10] unused variable "SST"
+ctc W537: ["..\USER\Cpu1_Main.c" 159/10] unused variable "SSR"
+ctc W537: ["..\USER\Cpu1_Main.c" 160/10] unused variable "x_aver"
+ctc W537: ["..\USER\Cpu1_Main.c" 161/10] unused variable "r"
+ctc W537: ["..\USER\Cpu1_Main.c" 169/11] unused variable "L_M_R"
+ctc W537: ["..\USER\Cpu1_Main.c" 178/9] unused variable "counter_1"
+ctc W537: ["..\USER\Cpu1_Main.c" 179/8] unused variable "fitting_flag1"
+ctc W537: ["..\USER\Cpu1_Main.c" 180/8] unused variable "fitting_flag2"
+ctc W537: ["..\USER\Cpu1_Main.c" 187/8] unused variable "count_right_exist"
+ctc W537: ["..\USER\Cpu1_Main.c" 188/8] unused variable "count_left_non1"
+ctc W537: ["..\USER\Cpu1_Main.c" 189/8] unused variable "count_right_non1"
+ctc W537: ["..\USER\Cpu1_Main.c" 190/8] unused variable "count_left_non2"
+ctc W537: ["..\USER\Cpu1_Main.c" 192/8] unused variable "turning_point"
+ctc W537: ["..\USER\Cpu1_Main.c" 194/8] unused variable "count_dec"
+ctc W537: ["..\USER\Cpu1_Main.c" 195/8] unused variable "count_inc"
+ctc W537: ["..\USER\Cpu1_Main.c" 197/8] unused variable "huandao_after"
+ctc W537: ["..\USER\Cpu1_Main.c" 198/8] unused variable "huandao_before"
+ctc W537: ["..\USER\Cpu1_Main.c" 201/9] unused variable "in_huandao1"
+0 errors, 29 warnings
+Linking to Tasking_TC264.elf
 
-Time consumed: 2186 ms
+Time consumed: 9679 ms
 **** End of build ****
 
 Tool info: 
+TASKING VX-toolset for TriCore: control program v6.3r1 Build 19041558
+TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 99835728
+TASKING VX-toolset for TriCore: object linker v6.3r1 Build 19041558 SN 99835728
+TASKING VX-toolset for TriCore: assembler v6.3r1 Build 19041558
 TASKING program builder v6.3r1 Build 19041558

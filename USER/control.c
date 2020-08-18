@@ -19,6 +19,7 @@ uint8 zebra_end_flag=0;
 uint8 stop_flag=0;
 uint8 stop_end_flag=0;
 uint8 out_huandao=0;
+//uint8 control_in_huandao_flag=0;
 uint8 in_huandao=0;
 uint8 in_huandao_end=0;
 uint8 huandao_count=0;
@@ -27,13 +28,14 @@ uint8 time_count_flag=0;
 uint32 timecounter=0;
 uint8 speed_limit_flag=0;
 int16 speed_limit_value=0;
-uint8 left_out_flag=0; //左侧将冲出赛道
-uint8 right_out_flag=0;//右侧将冲出赛道
-double kp,ki,kd;     //增量式PID参数
-int16 ek=0,ek1=0,ek2=0;   //前后三次误差
-double out_increment=0;//增量式PID输出增量
-double out=1200;          //输出量
+uint8 left_out_flag=0; 	//左侧将冲出赛道
+uint8 right_out_flag=0;	//右侧将冲出赛道
+double kp,ki,kd;     	//增量式PID参数
+int16 ek=0,ek1=0,ek2=0; //前后三次误差
+double out_increment=0;	//增量式PID输出增量
+double out=1200;  		//输出量
 int cardegree=0;
+uint8 speed_gear=2;		//速度挡位
 //uint8 start_prepare_flag=0;
 //uint8 start_flag=0;
 //int start_count=0;
@@ -140,9 +142,9 @@ int speedctrl_calculation(int degree)
 	else if(degree<=20)
 	set_speed = 3500;
 	else if(degree<=70)
-		set_speed=3500-10*(degree-20);
+		set_speed=3500-8*(degree-20);
 	else
-		set_speed=3000;
+		set_speed=3100;
 
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
@@ -151,11 +153,16 @@ int speedctrl_calculation(int degree)
 	uint16 absek;
 	if(ek>=0) absek=ek;
 	else absek=-ek;
-	kp = 0.9;
+	kp = 1;
+	if(absek>2500)
+	{
+		kp = 0.8;
+		ki = 0.0045;
+		kd = 0;
+	}
 	if(absek>2000)
 	{
 		//设置PID系数
-		//kp = 0.45;
 		ki = 0.0035;
 		kd = 0;
 	}
@@ -168,7 +175,7 @@ int speedctrl_calculation(int degree)
 	else
 	{
 		//kp = 0.25;
-		ki = 0.0015;
+		ki = 0.0005;
 		kd = 0;
 	}
 
@@ -207,7 +214,6 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 	int speedctrl2R;		//倒转
 	double xishu=0.1;                             	//后轮差速系数值
 
-
 	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
 	{
 		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
@@ -243,51 +249,85 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		if(time_count_flag==0)
 		{
 			time_count_flag=1;
-			timecounter=0;
+			timecounter=0;	
 		}
-
-		xishu = rear_diff(90);
-		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+90);
-		speed_limit_flag=1;
-		speed_limit_value=2400;
-		int ideal_speedctrl = speedctrl_calculation(90);
-		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
-		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
-		//改变电机占空比
-		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
-		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
-		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
-		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		//systick_delay_ms(STM1, 200);
-		//mt9v03x_init();	//初始化摄像头
-		if(timecounter==25)
+		if(timecounter<20)
 		{
-			time_count_flag=0;
-			speed_limit_flag=0;
-			out_huandao=0;
+			xishu = rear_diff(90);
+			pwm_duty(ATOM1_CH2_P10_5, MID_STEER+90);
+			speed_limit_flag=1;
+			speed_limit_value=2400;
+			int ideal_speedctrl = speedctrl_calculation(90);
+			if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
+			else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+			//改变电机占空比
+			pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+			pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+			pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+			pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
 		}
-
+		else 
+		{
+			speed_limit_flag=0;
+			int ideal_speedctrl = speedctrl_calculation(degree);
+			if(ideal_speedctrl < 0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
+			else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+    		if(zebra_flag==0)
+    		{
+    			pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
+    			//改变电机占空比
+				xishu = rear_diff(degree);
+    			pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
+    			pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
+    			pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
+    			pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
+			}
+			//systick_delay_ms(STM1, 200);
+			//mt9v03x_init();	//初始化摄像头
+			if(timecounter>100)
+			{
+				time_count_flag=0;
+				out_huandao=0;
+				in_huandao=0;
+				in_huandao_end=0;
+			}
+		}
 	}
 	else if(in_huandao==1&&in_huandao_end==0)
 	{
 		//改变电机占空比
 		degree = 80;
+		speed_limit_flag=1;
+		speed_limit_value=1500;
 		int ideal_speedctrl = speedctrl_calculation(80);
-		if(ideal_speedctrl<0){speedctrl=0; speedctrl2=-ideal_speedctrl;}
-		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
+		if(ideal_speedctrl<0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
+		else {speedctrl = ideal_speedctrl; speedctrl2 = 0;}
+		if(time_count_flag==0)
+		{
+			//control_in_huandao_flag=1;
+			time_count_flag=1;
+			timecounter=0;
+		}
 		xishu = rear_diff(80);
 		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
 		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+80);
-		systick_delay_ms(STM1, 200);
+		//systick_delay_ms(STM1, 200);
 		/*pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
 		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后*/
-		mt9v03x_init();	//初始化摄像头
-		in_huandao_end=1;
+		//mt9v03x_init();	//初始化摄像头
+		if(timecounter==30)
+		{
+			//time_count_flag=0;
+			speed_limit_flag=0;
+			in_huandao_end=1;
+			//control_in_huandao_flag=0;
+		}
+		
 	}
 	else										//正常行驶
 	{
@@ -308,33 +348,6 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		//遇斑马线转弯 
     	else									
     	{
-    		//改变电机占空比
-    		/*if(speed>30&&speed<=40)
-    		{
-    	    	speedctrl = 800 - (speed - 30)*80;
-    	    	speedctrl2L = 0;
-    	    	speedctrl2R = 0;
-    		}
-    		else if(speed>40)
-    		{
-    			speedctrl = 0;
-    			speedctrl2L = (speed-40) * 3000;
-    			speedctrl2R = (speed-40) * 3000;
-    			if(speedctrl2L>5000)speedctrl2L=8000;
-    			if(speedctrl2R>5000)speedctrl2R=8000;
-    		}
-    		else if(speed>20)
-    		{
-    			speedctrl = 800;
-    			speedctrl2L = 0;
-    			speedctrl2R = 0;
-    	  	}
-    	  	else
-    	  	{
-    	  		speedctrl = 800+(20-speed)*50;
-    	  		speedctrl2L = 0;
-    	  		speedctrl2R = 0;
-    	  	}*/
     		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
     		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
     		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后

@@ -88,7 +88,7 @@ void change_image(uint8 *p) //把左线，中线和右线放到数组之中
 /// </summary>
 /// <param name="p">摄像头的灰度矩阵</param>
 /// <returns></returns> 灰度阈值
-int GetMeanThreshold(uint8 * p)
+int GetMeanThreshold(uint8 * p)	//计算灰度阈值
 {
 	int HistGram[256];//灰度图像的直方图
 	uint8 i=0;
@@ -112,11 +112,43 @@ int GetMeanThreshold(uint8 * p)
     }
     return Sum / Amount;
 }
-void searchline_image(uint8 *p)
+void searchline_image(uint8 *p)	//图像处理
 {
+	uint16 i;
+	uint16 j;
 	int	CurL= 0, Start =0;             // CurL  ?前行   Start ?始??的行  第一行?0?始
 	uint8   Cur_Offset	= 64;     	// 初始中心64，为摄像头所有像素点中心中心
   	uint8   CurPoint = Cur_Offset;          // CurPoint为之前正在描的中心点
+	uint16 ahead_count = 0;
+	j = MT9V03X_H-1;
+	for (i=Cur_Offset-3; i<=Cur_Offset+3; i++)	//若车头前为黑色，重新调整扫描开始点
+	{
+		if(*(p + j * MT9V03X_W + i) < whiteRoad)
+			ahead_count++;
+	}
+	if(ahead_count>=3)
+	{
+		ahead_count=0;
+		for (i=0; i<=20; i++)	
+		{
+			if(*(p + j * MT9V03X_W + i) > whiteRoad)
+				ahead_count++;
+		}
+		if(ahead_count>15)
+			Cur_Offset = 10;
+		else
+		{
+			ahead_count=0;
+			for (i =  MT9V03X_W-20; i <  MT9V03X_W; i++)	
+			{
+				if(*(p + j * MT9V03X_W + i) > whiteRoad)
+					ahead_count++;
+			}
+			if(ahead_count>14)
+				Cur_Offset = MT9V03X_W-10;
+		}
+		
+	}
 
   	//最小二乘法各变量(拟合)
   	int FitCur_A=0, FitCur_B=0, FitCur_C=0, FitCur_D=0,FitCur_E=0;
@@ -161,8 +193,8 @@ void searchline_image(uint8 *p)
 	uint8 black_count=0;
 	uint8 huandao_after=0;
 	uint8 huandao_before=0;
-	uint16 i;
-	uint16 j;
+	uint8 count_lr_non=0;
+
 	uint16 in_huandao1;
 	if (zebra_end_flag==1)		//斑马线处理完毕，找底线
 	  	{
@@ -188,6 +220,7 @@ void searchline_image(uint8 *p)
 	  			stop_count = 0;
 	  		}
 	  	}
+	//找中线
 	for( CurL = MT9V03X_H; CurL >= Start; --CurL )
 	{
 		CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线 */
@@ -311,124 +344,7 @@ void searchline_image(uint8 *p)
     		//注意：由于考虑到中线应该是连续的，扫描边线时起点应该从上一次的中线开始
     		//这样可以避免因为弯道较大的因素，每次从中点开始找找不到中线。
 
-   /* 	while ( CurPoint > 0 )         //扫描原始右边界
-    	{
-    		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
-    		{
-    			Rx[CurL] = CurPoint;
-    			Rx1[CurL] = Rx[CurL];
-    			right_flag = 1;
-				right_non[CurL]=1;
-    			break;
-    		}
-    		else
-    		{//没找到
-			    right_non[CurL]=0;
-    			-- CurPoint;
-    			right_flag = 0;
-    			right_flag_count = right_flag_count + 1;
-    		}
-    	}
-    	CurPoint = Cur_Offset;
-
-    	while ( CurPoint < MT9V03X_W )     //扫描原始左边界
-    	{
-    		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-    		{
-    			Lx[CurL] = CurPoint;
-    	  		//left_old=Lx[CurL];
-    	  		Lx1[CurL]=Lx[CurL];
-    	  		left_flag=1;
-				left_non[CurL]=1;
-    			break;
-    		}
-    	 	else
-    		{//没找到
-				left_non[CurL]=0;
-    			++CurPoint;
-    	  		left_flag=0;
-    	  		left_flag_count=left_flag_count+1;
-    	  	}
-    	}
-
-    	if(CurL < MT9V03X_H - 2)                //舍弃斜率过于平坦的点
-    	{
-    	  	if(left_flag==1 && (2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]>50 || 2*Lx[CurL]-Lx1[CurL+1]-Lx1[CurL+2]<-50)) //如果边界找到，但与上一个点连线几乎是平的
-    	  	  	Lx[CurL]=Lx[CurL+1];
-    	  	if(right_flag==1 && (2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]>50 || 2*Rx[CurL]-Rx1[CurL+1]-Rx1[CurL+2]<-50))
-    	  	  	Rx[CurL]=Rx[CurL+1];                             //放弃找到的边线的点，取上一个点
-    	}
-    	if(left_flag==0 && CurL==MT9V03X_H-1)
-    	{
-    	  	Lx[CurL]=MT9V03X_W;
-    	  	Lx1[CurL]=Lx[CurL];
-    	  	fitting_flag1=1;
-    	}
-    	if(left_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
-    	{
-    	  	Lx[CurL]=Lx[CurL+1];                                  //
-    	  	Lx1[CurL]=Lx[CurL];
-    	  	fitting_flag1=1;
-    	}
-    	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==0)          //符合拟合条件
-    	{
-    	    FitCur_A=0;
-    	    FitCur_B=0;
-    	    FitCur_C=0;
-    	    FitCur_D=0;
-    	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
-    	    {
-    	      FitCur_A=FitCur_A+i;                        //sum yi
-    	      FitCur_B=FitCur_B+Lx[i];                    //sum xi
-    	      FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
-    	      FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
-    	    }
-    	    FitCur_k=(double)(8*FitCur_C-FitCur_A*FitCur_B)/(8*FitCur_D-FitCur_B*FitCur_B);
-    	    FitCur_b=(double)(FitCur_A-FitCur_k*FitCur_B)/8;
-    	    Lx[CurL]=(CurL-FitCur_b)/FitCur_k;
-    	    Lx1[CurL]=Lx[CurL];
-    	}                                      //根据第一次leftflag为0时的前八个点拟合
-    	if(left_flag==0&&CurL<MT9V03X_H-8&&fitting_flag1==1)
-    	{
-    	  	Lx[CurL]=Lx[CurL+1];
-    	  	Lx1[CurL]=Lx[CurL];
-    	}                                             //
-    	if(right_flag==0&&CurL>=MT9V03X_H-1)
-    	{
-    	  	Rx[CurL]=0;
-    	  	Rx1[CurL]=Rx[CurL];
-    	  	fitting_flag2=1;
-    	}
-    	if(right_flag==0&&CurL>=MT9V03X_H-8&&CurL<MT9V03X_H-1)
-    	{
-    	  	Rx[CurL]=Rx[CurL+1];
-    	  	Rx1[CurL]=Rx[CurL];
-    	  	fitting_flag2=1;
-    	}
-    	if(right_flag==0&&CurL<MT9V03X_H-8&&fitting_flag2==0)          //符合拟合条件
-    	{
-    	    FitCur_A1=0;
-    	    FitCur_B1=0;
-    	    FitCur_C1=0;
-    	    FitCur_D1=0;
-    	    for(i=MT9V03X_H-1;i>=MT9V03X_H-8;i--)
-    	    {
-    	      	FitCur_A1=FitCur_A1+i;                        //sum yi
-    	      	FitCur_B1=FitCur_B1+Rx[i];                    //sum xi
-    	      	FitCur_C1=FitCur_C1+i*Rx[i];                  //sum xiyi
-    	      	FitCur_D1=FitCur_D1+Rx[i]*Rx[i];              //sum xi^2
-    	    }
-    	    FitCur_k1=(double)(8*FitCur_C1-FitCur_A1*FitCur_B1)/(8*FitCur_D1-FitCur_B1*FitCur_B1);
-    	    FitCur_b1=(double)(FitCur_A1-FitCur_k1*FitCur_B1)/8;
-    	    Rx[CurL]=(CurL-FitCur_b1)/FitCur_k1;
-    	    Rx1[CurL]=Rx[CurL];
-    	}                                      //根据第一次leftflag为0时的前八个点拟合
-    	if(right_flag==0 && CurL<MT9V03X_H-8 && fitting_flag2==1)
-    	{
-    	  	Rx[CurL]=Rx[CurL+1];
-    	  	Rx1[CurL]=Rx[CurL];
-    	}
-	    */
+   
     	Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
     	Cur_Offset= Midx[CurL];
     }//	endfor
@@ -528,120 +444,95 @@ void searchline_image(uint8 *p)
 			time_count_flag=1;
 			timecounter=0;
         }
-	/*	for( CurL =Start ; CurL<MT9V03X_H; ++CurL )
-		{
-			        CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线
-					uint8 right_flag = 0;               //边界是否扫描到
-					uint8 left_flag = 0;
-		            while ( CurPoint > 0 )         //扫描原始右边界
-		    		{
-		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
-		    			{
-		    				Rx[CurL] = CurPoint;
-		    				Rx1[CurL] = Rx[CurL];
-		    		        right_flag = 1;
-		    				right_non[CurL]=1;
-		    				break;
-		    			}
-		    	  		else
-		    	  		{//没找到
-		    	  			right_non[CurL]=0;
-		    	  			-- CurPoint;
-		    	  			right_flag = 0;
-		    	  			right_flag_count = right_flag_count + 1;
-		    			}
-		    		}
-		    		CurPoint = Cur_Offset;
-
-		    		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
-		    		{
-		    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
-		    			{
-		    				Lx[CurL] = CurPoint;
-		    				//left_old=Lx[CurL];
-		    				Lx1[CurL]=Lx[CurL];
-		    				left_flag=1;
-		    			    left_non[CurL]=1;
-		    				break;
-		    			}
-		    	   		else
-		    	  		{//没找到
-		    	   			left_non[CurL]=0;
-		    	   			++CurPoint;
-		    	   			left_flag=0;
-		    	   			left_flag_count=left_flag_count+1;
-		    		  	}
-		    		}
-					if(right_flag == 0)
-					{
-						Rx[CurL] = Rx[CurL-1];
-					}
-					if(left_flag==0)
-					{
-						Lx[CurL]=Lx[CurL-1];
-					}
-					Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
-				    Cur_Offset= Midx[CurL];
-		}*/
-
-			/*			huandao_after=1;
-		else
-			huandao_after=0;
-		if(huandao_before==0&&huandao_after==1)
-			huandao_count++;
-		//printf("huandao_count: %d\n", huandao_count);
-		int huandao_fucker=huandao_count;
-		huandao_before=huandao_after;
-		if(huandao_count==2)
-			in_huandao=1;
-			*/
     }
-	//	in_huandao1= in_huandao;
-  /*    for( CurL = MT9V03X_H; CurL >= Start; --CurL )
-		{
-			L_M_R[CurL]=Lx[CurL]-Rx[CurL];
-		}
-		for( CurL = 40; CurL >=10 ; --CurL)//转折点
-        {
-			if(CurL<MT9V03X_H&&L_M_R[CurL]-L_M_R[CurL-1]<0&&L_M_R[CurL+1]-L_M_R[CurL]>0)
-				turning_point=CurL;
-		}
-		for( CurL = MT9V03X_H; CurL > Start; --CurL) //判断在转折点的前后变化趋势是否符合进入环岛的变化趋势，即右边线减去左边线先减后增加
-        {
-			if(L_M_R[CurL]-L_M_R[CurL-1]<0&&CurL>turning_point)
-				count_dec++;
-			if(L_M_R[CurL]-L_M_R[CurL-1]>0&&CurL<=turning_point)
-			    count_inc++;
-		}
-		count_right_non=0;
-		count_left_non=0;
-	    for(int t=0; t<=20; t++)	//入环岛边线条件
-	    {
-			if(right_non[t]==0)
-			    count_right_non1++;
-			if(left_non[t]==0)
-			    count_left_non1++;
-	    }
-	    for(int t=20; t<=40; t++)	//入环岛边线条件
-	    {
-	    	if(right_non[t]==0)
-	    		count_right_non2++;
-	    	if(left_non[t]==0)
-	    		count_left_non2++;
-	    }
-		if(count_dec<=3&&count_inc<=3&&r>0.9&&count_right_non1>=7&&count_left_non1>=7&&count_right_non2>=7&&count_left_non2>=7)
-			in_huandao=1;
-   */
-			//串口检查拟合误差
-    /*	  	int data1=r*100;
-    	  	for (i=0;i<6;i++)
-    	  	{
-    	  	  	UartData[i]=data1%10;
-    	  	  	data1=(data1-UartData[i])/10;
+    for( CurL = 20; CurL <= 45; ++CurL )
+	{
+		int right_flag;
+		int left_flag;
+		CurPoint = Cur_Offset;
+        while ( CurPoint > 0 )         //扫描原始右边界
+    	{
+    		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+    		{
+    	        right_flag = 1;
+    			break;
+    		}
+    		else
+    		{//没找到
+    			-- CurPoint;
+    			right_flag = 0;
+    		}
+    	}
+    	CurPoint = Cur_Offset;
+    	while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+    	{
+    		if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+    		{
+    			left_flag=1;
+    			break;
+    		}
+    		else
+    		{//没找到
+    			++CurPoint;
+    			left_flag=0;
     	  	}
-    	  	for(int i=5;i>=0;i--){ UART_WriteByte(HW_UART3,UartData[i]+48);}    //串口数据发送
-    	  	UART_printf(HW_UART3,"\n");
- */
+    	}
+		if(right_flag == 0&&left_flag==0)
+		{
+			count_lr_non++;
+		}
+	}
+	int count_mid_flag=0;
+	if(count_lr_non>=20)
+	{
+		int right_flag;
+		int left_flag;
+		CurPoint = Cur_Offset;
+	    for( CurL = Start; CurL <=  MT9V03X_H; ++CurL )
+	    {
+		    while ( CurPoint > 0 )         //扫描原始右边界
+    		{
+    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+    			{
+    				Rx[CurL] = CurPoint;
+    		        right_flag = 1;
+    				break;
+    			}
+    	  		else
+    	  		{//没找到
+    	  			-- CurPoint;
+    	  			right_flag = 0;
+    			}
+    		}
+    		CurPoint = Cur_Offset;
+
+    		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
+    		{
+    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+    			{
+    				Lx[CurL] = CurPoint;
+    				left_flag=1;
+    				break;
+    			}
+    	   		else
+    	  		{//没找到
+    	   			++CurPoint;
+    	   			left_flag=0;
+    		  	}
+    		}
+			Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
+			if((right_flag == 0||left_flag==0)&&count_mid_flag==0)
+			{
+				Midx[CurL]=Midx[CurL-3];
+				count_mid_flag=1;
+			}
+			if((right_flag == 0||left_flag==0)&&count_mid_flag==1)
+			{
+				Midx[CurL]=Midx[CurL-1];
+			}
+    	    Cur_Offset= Midx[CurL];
+	    }
+}
 }
 
 

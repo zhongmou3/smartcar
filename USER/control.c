@@ -27,6 +27,8 @@ uint8 time_count_flag=0;
 uint32 timecounter=0;
 uint8 speed_limit_flag=0;
 int16 speed_limit_value=0;
+uint8 left_out_flag=0; //左侧将冲出赛道
+uint8 right_out_flag=0;//右侧将冲出赛道
 double kp,ki,kd;     //增量式PID参数
 int16 ek=0,ek1=0,ek2=0;   //前后三次误差
 double out_increment=0;//增量式PID输出增量
@@ -42,26 +44,46 @@ int degree_calculation(void)
 {
 	uint16 i = 0;
   	uint16 j = 0;
+	double speed_fact = 1;
   	int cardegree=0;
 	//方向控制算法
+  	uint32 sum_out=0;
+  	uint16 out_mid=64;
+  	//uint32 sum_out_right=0;
 	int InclineValue=0;                       	//倾斜度
     float ExcursionValue=0;						//偏移量
     //中线倾斜度计算
-    for ( i = 1; i <= 15; i++ )
+    for ( i = 1; i <= 25; i++ )
     {
-      	if((Midx[50-i] - Midx[50-i-1] < 6) && (Midx[50-i] - Midx[50-i-1] > -6))
-        	InclineValue = InclineValue + (Midx[50-i] - Midx[50-i-2]);	//用差分方法求解中线倾斜度
-    }
-	//偏移量计算
-    for ( i = 1; i <= 8; i++ )
-    {
-        ExcursionValue = ExcursionValue + (Midx[50-i] - 63.5);	//用差分法求解总偏移值， 69为希望车在赛道所处的位置
+      	if((Midx[60-i] - Midx[60-i-1] < 6) && (Midx[60-i] - Midx[60-i-1] > -6))
+        	InclineValue = InclineValue + (Midx[60-i] - Midx[60-i-2]);	//用差分方法求解中线倾斜度
     }
 
+	//偏移量计算
+    for ( i = 1; i <= 20; i++ )
+    {
+        ExcursionValue = ExcursionValue + (Midx[60-i] - 63.5);	//用差分法求解总偏移值， 63.5为希望车在赛道所处的位置
+    }
+    for (i=1;i<6;i++)	//检测是否冲出赛道
+    {
+    	sum_out += Midx[MT9V03X_H-i];
+    }
+    out_mid = sum_out/5;
+    if(out_mid < 30)
+    {
+    	left_out_flag = 1; right_out_flag = 0;
+    }
+    else if(out_mid > MT9V03X_W - 30)
+    {
+    	left_out_flag = 0; right_out_flag = 1;
+    }
+
+    else {left_out_flag = 0; right_out_flag = 0;}
     //InclineValue = InclineValue*2.5;	//增大倾斜度的影响
     float AbsExcursionValue;			//偏移量绝对值
 	int	AbsInclineValue = InclineValue;	//倾斜度绝对值
 	double	ExcursionValueCoeff;		//偏移量系数
+	double	InclineValueCoeff;		//偏移量系数
 
     if(ExcursionValue > 0) AbsExcursionValue = ExcursionValue;
     else AbsExcursionValue = -ExcursionValue;
@@ -80,9 +102,23 @@ int degree_calculation(void)
     	ExcursionValueCoeff = (double)(0.004*AbsExcursionValue-0.04);
     else ExcursionValueCoeff = 0.08;
     //ExcursionValueCoeff=2;
-    cardegree = (int)(InclineValue*1.945 - 0.14*ExcursionValue);
+	if (speed>1000&&AbsInclineValue>20) speed_fact=(double)(speed*0.00008+1);
+	else speed_fact=1;
+	if(AbsInclineValue>17) InclineValueCoeff=0.85;
+	else InclineValueCoeff=0.1;
+    cardegree = (int)(InclineValue*speed_fact*InclineValueCoeff - 0.1*ExcursionValue);
     if (cardegree>88) cardegree=88;
     if (cardegree<-88) cardegree=-88;
+    if (left_out_flag == 1)
+    {
+    	cardegree = cardegree + 90;
+    	if(cardegree>95) cardegree = 95;
+    }
+    if (right_out_flag == 1)
+    {
+       	cardegree = cardegree - 90;
+       	if(cardegree>95) cardegree = -95;
+    }
     return cardegree;
 }
 
@@ -115,28 +151,29 @@ int speedctrl_calculation(int degree)
 	uint16 absek;
 	if(ek>=0) absek=ek;
 	else absek=-ek;
+	kp = 0.9;
 	if(absek>2000)
 	{
 		//设置PID系数
-		kp = 0.45;
+		//kp = 0.45;
 		ki = 0.0035;
 		kd = 0;
 	}
 	else if(absek>1000&&absek<=2000)
 	{
-		kp = (double)(0.0002*absek+0.05);
+		//kp = (double)(0.0002*absek+0.05);
 		ki = (double)(0.000002*absek-0.0005);
 		kd = 0;
 	}
 	else
 	{
-		kp = 0.25;
+		//kp = 0.25;
 		ki = 0.0015;
 		kd = 0;
 	}
 
 	//进行增量式PID运算
-	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek2+ek2));  //计算增量
+	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek1+ek2));  //计算增量
 	out = out + out_increment;       //输出增量
 
 	if(out>4000) out = 4000;     //输出限幅 不能超过占空比最大值
@@ -173,28 +210,28 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 
 	if(zebra_end_flag==1&&stop_flag==0)			//未到底线，慢速调整姿态
 	{
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-        pwm_duty(ATOM0_CH6_P02_6, 500);		//右后
-        pwm_duty(ATOM0_CH5_P02_5, 500);		//左后
+        pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+        pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 	}
 	else if(stop_flag == 1&&stop_end_flag==0)	//找到底线，刹车
 	{
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER);
         //改变电机占空比
         pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
         pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-        pwm_duty(ATOM0_CH6_P02_6, 1200);		//右后
-        pwm_duty(ATOM0_CH5_P02_5, 1200);		//左后
+        pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
+        pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
 		systick_delay_ms(STM1, 200);	//延时100MS  使用STM0定时器
 		mt9v03x_init();	//初始化摄像头
 		stop_end_flag=1;
 	}
 	else if(stop_end_flag==1)					//停车完成，熄火
 	{
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER);
 		//改变电机占空比
         pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
         pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
@@ -210,7 +247,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		}
 
 		xishu = rear_diff(90);
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+90);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+90);
 		speed_limit_flag=1;
 		speed_limit_value=2400;
 		int ideal_speedctrl = speedctrl_calculation(90);
@@ -243,24 +280,24 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+80);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+80);
 		systick_delay_ms(STM1, 200);
-		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+		/*pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 		pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
 		pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后*/
 		mt9v03x_init();	//初始化摄像头
 		in_huandao_end=1;
 	}
 	else										//正常行驶
 	{
-		//左转弯
+		//转弯
 		int ideal_speedctrl = speedctrl_calculation(degree);
 		if(ideal_speedctrl < 0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
 		else {speedctrl=ideal_speedctrl; speedctrl2=0;}
     	if(zebra_flag==0)
     	{
-    		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+degree);
+    		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
     		//改变电机占空比
 			xishu = rear_diff(degree);
     		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
@@ -272,7 +309,7 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     	else									
     	{
     		//改变电机占空比
-    		if(speed>30&&speed<=40)
+    		/*if(speed>30&&speed<=40)
     		{
     	    	speedctrl = 800 - (speed - 30)*80;
     	    	speedctrl2L = 0;
@@ -297,16 +334,16 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     	  		speedctrl = 800+(20-speed)*50;
     	  		speedctrl2L = 0;
     	  		speedctrl2R = 0;
-    	  	}
+    	  	}*/
     		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
     		pwm_duty(ATOM0_CH7_P02_7, 2000);	//左前
     		pwm_duty(ATOM0_CH6_P02_6, 2500);		//右后
     		pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 100);
+			pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 100);
 			systick_delay_ms(STM1, 200);
-			pwm_duty(ATOM2_CH0_P33_4, MID_STEER - 30);
-			pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
-			pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
+			pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 30);
+			pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
+			pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
 			pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 			pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
 			systick_delay_ms(STM1, 100);

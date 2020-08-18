@@ -788,11 +788,11 @@ core0_main:	.type	func
 ; ..\USER\Cpu0_Main.c	    37  	uint8 start_flag=0;
 ; ..\USER\Cpu0_Main.c	    38      IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
 ; ..\USER\Cpu0_Main.c	    39      //编码器初始化
-	mov	d4,#104
+	mov	d4,#67
 .L81:
 	mov	d5,#50
 .L82:
-	mov	d6,#705
+	mov	d6,#735
 	call	gtm_pwm_init
 .L83:
 
@@ -812,7 +812,7 @@ core0_main:	.type	func
 ; ..\USER\Cpu0_Main.c	    43  
 ; ..\USER\Cpu0_Main.c	    44      //用户在此处调用各种初始化函数等
 ; ..\USER\Cpu0_Main.c	    45      //舵机，占空比、频率与旧车相同
-; ..\USER\Cpu0_Main.c	    46  	gtm_pwm_init(ATOM2_CH0_P33_4, 50, MID_STEER);
+; ..\USER\Cpu0_Main.c	    46  	gtm_pwm_init(ATOM1_CH2_P10_5, 50, MID_STEER);
 	mov	d4,#29
 .L88:
 	mov	d5,#10000
@@ -850,9 +850,9 @@ core0_main:	.type	func
 
 ; ..\USER\Cpu0_Main.c	    50  	//PWM初始化
 ; ..\USER\Cpu0_Main.c	    51  	//管脚均已经与车上接口对应
-	mov	d4,#104
+	mov	d4,#67
 .L100:
-	mov	d5,#705
+	mov	d5,#735
 	call	pwm_duty
 .L101:
 
@@ -1574,7 +1574,7 @@ core0_main:	.type	func
 	loop	a4,.L5
 .L110:
 
-; ..\USER\Cpu0_Main.c	    60  	pwm_duty(ATOM2_CH0_P33_4, MID_STEER);	//waiting for the ball
+; ..\USER\Cpu0_Main.c	    60  	pwm_duty(ATOM1_CH2_P10_5, MID_STEER);	//waiting for the ball
 ; ..\USER\Cpu0_Main.c	    61  			//改变电机占空比
 	j	.L6
 .L7:
@@ -1590,18 +1590,18 @@ core0_main:	.type	func
 .L113:
 
 ; ..\USER\Cpu0_Main.c	    64  	pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#104
+	mov	d4,#67
 .L114:
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 	ld.w	d0,[a15]
 .L115:
-	addi	d5,d0,#705
+	addi	d5,d0,#735
 	call	pwm_duty
 .L116:
 
 ; ..\USER\Cpu0_Main.c	    65  	pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
-; ..\USER\Cpu0_Main.c	    66  
+; ..\USER\Cpu0_Main.c	    66  	//gpio_init(P02_8, GPO, 1, PUSHPULL);
 	mov	d4,#29
 .L117:
 	mov	d5,#0
@@ -1641,7 +1641,7 @@ core0_main:	.type	func
 .L127:
 
 ; ..\USER\Cpu0_Main.c	    72  		cardegree = degree_calculation();
-; ..\USER\Cpu0_Main.c	    73  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER + cardegree);	//waiting for the ball
+; ..\USER\Cpu0_Main.c	    73  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER + cardegree);	//waiting for the ball
 	add	d8,#1
 .L58:
 	extr.u	d8,d8,#0,#8
@@ -1681,13 +1681,13 @@ core0_main:	.type	func
 .L132:
 
 ; ..\USER\Cpu0_Main.c	    82            	startpre_count++;
-	mov	d4,#104
+	mov	d4,#67
 .L133:
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 	ld.w	d15,[a15]
 .L134:
-	addi	d5,d15,#705
+	addi	d5,d15,#735
 	call	pwm_duty
 .L135:
 
@@ -1739,7 +1739,7 @@ core0_main:	.type	func
 	j	.L14
 .L13:
 
-; ..\USER\Cpu0_Main.c	    91  		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+cardegree);
+; ..\USER\Cpu0_Main.c	    91  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+cardegree);
 ; ..\USER\Cpu0_Main.c	    92  		//改变电机占空比
 	mov	d9,#0
 .L14:
@@ -8604,10 +8604,10 @@ __core0_main_function_end:
 	.byte	'dir_pin',0,26,60,70
 	.word	45296
 	.byte	0,31
-	.byte	'degree_calculation',0,27,40,5
+	.byte	'degree_calculation',0,27,42,5
 	.word	461
 	.byte	1,1,1,1,30
-	.byte	'rotate',0,27,42,6,1,1,1,1,35,27,42,13
+	.byte	'rotate',0,27,44,6,1,1,1,1,35,27,44,13
 	.word	461
 	.byte	0,11
 	.byte	'_Ifx_CPU_ICR_Bits',0,28,246,2,16,4,12

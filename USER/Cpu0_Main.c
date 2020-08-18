@@ -36,7 +36,7 @@ void core0_main(void)
 
     //用户在此处调用各种初始化函数等
     //舵机，占空比、频率与旧车相同
-	gtm_pwm_init(ATOM2_CH0_P33_4, 50, MID_STEER);
+	gtm_pwm_init(ATOM1_CH2_P10_5, 50, MID_STEER);
 
 
 	uart_init(UART_0, 9600, UART0_TX_P14_0, UART0_RX_P14_1);
@@ -48,20 +48,20 @@ void core0_main(void)
 	gtm_pwm_init(ATOM0_CH6_P02_6, 10000, 0);//右后
 	gtm_pwm_init(ATOM0_CH7_P02_7, 10000, 0);//左后
 
-	pwm_duty(ATOM2_CH0_P33_4, MID_STEER);	//waiting for the ball
+	pwm_duty(ATOM1_CH2_P10_5, MID_STEER);	//waiting for the ball
 			//改变电机占空比
 	pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 	pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
 	pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
 	pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
-
+	//gpio_init(P02_8, GPO, 1, PUSHPULL);
 	enableInterrupts();
 	uint8 temp[9]={0};
 	int data;
 	while(start_prepare_flag == 0)
 	{
 		cardegree = degree_calculation();
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER + cardegree);	//waiting for the ball
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER + cardegree);	//waiting for the ball
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 		pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
@@ -79,7 +79,7 @@ void core0_main(void)
 	while(start_flag==0&&start_prepare_flag==1)								//preparing to start
 	{
 		cardegree=degree_calculation();
-		pwm_duty(ATOM2_CH0_P33_4, MID_STEER+cardegree);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+cardegree);
 		//改变电机占空比
 		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
         pwm_duty(ATOM0_CH7_P02_7, 200);	//左前

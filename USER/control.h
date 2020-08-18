@@ -24,13 +24,15 @@ extern int16 ek,ek1,ek2;   //前后三次误差
 extern double out_increment;//增量式PID输出增量
 extern double out;          //输出量
 extern int cardegree;
+extern uint8 left_out_flag; //左侧将冲出赛道
+extern uint8 right_out_flag;//右侧将冲出赛道
 //extern uint8 start_prepare_flag;
 //extern uint8 start_flag;
 //extern uint8 start_count;
 //extern uint8 startpre_count;
 
 
-#define MID_STEER 705   //舵机居中时对应的PWM值
+#define MID_STEER 735   //舵机居中时对应的PWM值
 //#define MAX_STEER 770
 //#define MIN_STEER 650
 #define H 0.2			//后轮差速系数值

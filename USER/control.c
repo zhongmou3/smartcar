@@ -97,10 +97,10 @@ int degree_calculation(void)
     /*if(AbsInclineValue < 20) ExcursionValueCoeff = 0.5;
     else ExcursionValueCoeff = (double)1/(AbsInclineValue*AbsInclineValue*0.015);
     //OLED_Refresh_Gram();*/
-    if(AbsExcursionValue > 60) ExcursionValueCoeff = 0.2;
+    /*if(AbsExcursionValue > 60) ExcursionValueCoeff = 0.2;
     else if(AbsExcursionValue > 30)
     	ExcursionValueCoeff = (double)(0.004*AbsExcursionValue-0.04);
-    else ExcursionValueCoeff = 0.08;
+    else ExcursionValueCoeff = 0.08;*/
     //ExcursionValueCoeff=2;
 	if (speed>1000&&AbsInclineValue>20) speed_fact=(double)(speed*0.00008+1);
 	else speed_fact=1;

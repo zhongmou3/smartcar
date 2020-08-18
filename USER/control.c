@@ -108,7 +108,7 @@ int degree_calculation(void)
 	else InclineValueCoeff=0.1;
     cardegree = (int)(InclineValue*speed_fact*InclineValueCoeff - 0.1*ExcursionValue);
     if (cardegree>88) cardegree=88;
-    if (cardegree<-88) cardegree=-88;
+    if (cardegree<-88) cardegree=-88; 
     if (left_out_flag == 1)
     {
     	cardegree = cardegree + 90;

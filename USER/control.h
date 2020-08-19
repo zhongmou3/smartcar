@@ -28,6 +28,7 @@ extern int cardegree;
 extern uint8 left_out_flag; //左侧将冲出赛道
 extern uint8 right_out_flag;//右侧将冲出赛道
 extern uint8 speed_gear;
+extern uint8 garage_flag;
 //extern uint8 start_prepare_flag;
 //extern uint8 start_flag;
 //extern uint8 start_count;

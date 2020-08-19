@@ -204,7 +204,7 @@ void searchline_image(uint8 *p)	//图像处理
 		uint8 stop_count=0;
 		//uint8 i;
 		//uint8 j;
-		for(i=40;i<90;i++)
+		for(i=40; i<90; i++)
 		{
 			for(j=10;j<62;j++)
 			{
@@ -441,7 +441,7 @@ void searchline_image(uint8 *p)	//图像处理
 		//从上往下到开始没有黑线的点的个数
         for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
         {
-			if(Rx[CurL]>=15)
+			if(Rx[CurL]>=17)
 				count_right_non2++;
 		}
         count_left_non=0;
@@ -451,7 +451,7 @@ void searchline_image(uint8 *p)	//图像处理
         	if(Lx[CurL]<MT9V03X_W-2)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-7 && count_right_non2 >= turning_point1-2 && count_right_non2>=7 && count_right_non>=8&&noroad_ahead_count<37&&count_left_non>=28)
+		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=20&&noroad_ahead_count<37&&count_left_non>=28)
         {
 			in_huandao=1;
 			out_begin=1;

@@ -60,6 +60,9 @@ void core0_main(void)
 	gpio_init(P20_9, GPO, 1, PUSHPULL);
 	gpio_init(P21_4, GPO, 1, PUSHPULL);
 	gpio_init(P21_5, GPO, 1, PUSHPULL);
+
+	gtm_pwm_init(ATOM3_CH1_P33_5, 500, 0);//左后
+	//gpio_init(P33_5, GPO, 0, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
     uint16 lowcount;
     uint16 highcount;
     uint16 gpio_proc_flag;

@@ -800,7 +800,7 @@ core0_main:	.type	func
 .L136:
 	mov	d5,#50
 .L137:
-	mov	d6,#735
+	mov	d6,#728
 	call	gtm_pwm_init
 .L138:
 
@@ -860,7 +860,7 @@ core0_main:	.type	func
 ; ..\USER\Cpu0_Main.c	    52  	pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
 	mov	d4,#67
 .L155:
-	mov	d5,#735
+	mov	d5,#728
 	call	pwm_duty
 .L156:
 
@@ -916,7 +916,7 @@ core0_main:	.type	func
 	call	gpio_init
 .L172:
 
-; ..\USER\Cpu0_Main.c	    61      uint16 lowcount;
+; ..\USER\Cpu0_Main.c	    61  
 	mov	d4,#676
 .L173:
 	mov	d5,#1
@@ -927,7 +927,7 @@ core0_main:	.type	func
 	call	gpio_init
 .L176:
 
-; ..\USER\Cpu0_Main.c	    62      uint16 highcount;
+; ..\USER\Cpu0_Main.c	    62  	gtm_pwm_init(ATOM3_CH1_P33_5, 500, 0);//左后
 	mov	d4,#677
 .L177:
 	mov	d5,#1
@@ -936,53 +936,64 @@ core0_main:	.type	func
 .L179:
 	mov	d7,#3
 	call	gpio_init
+.L180:
+
+; ..\USER\Cpu0_Main.c	    63  	//gpio_init(P33_5, GPO, 0, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
+; ..\USER\Cpu0_Main.c	    64      uint16 lowcount;
+	mov	d4,#149
+.L181:
+	mov	d5,#500
+.L182:
+	mov	d6,#0
+	call	gtm_pwm_init
 .L69:
 
-; ..\USER\Cpu0_Main.c	    63      uint16 gpio_proc_flag;
-; ..\USER\Cpu0_Main.c	    64  	uint16 left_lowcount;
-; ..\USER\Cpu0_Main.c	    65  	uint16 right_lowcount;
-; ..\USER\Cpu0_Main.c	    66  	gpio_init(P33_8, GPI, 1, PULLUP);		//up
-; ..\USER\Cpu0_Main.c	    67  	gpio_init(P33_9, GPI, 1, PULLUP);		//right
-; ..\USER\Cpu0_Main.c	    68  	gpio_init(P33_11, GPI, 1, PULLUP);		//left
+; ..\USER\Cpu0_Main.c	    65      uint16 highcount;
+; ..\USER\Cpu0_Main.c	    66      uint16 gpio_proc_flag;
+; ..\USER\Cpu0_Main.c	    67  	uint16 left_lowcount;
+; ..\USER\Cpu0_Main.c	    68  	uint16 right_lowcount;
+; ..\USER\Cpu0_Main.c	    69  	gpio_init(P33_8, GPI, 1, PULLUP);		//up
+; ..\USER\Cpu0_Main.c	    70  	gpio_init(P33_9, GPI, 1, PULLUP);		//right
+; ..\USER\Cpu0_Main.c	    71  	gpio_init(P33_11, GPI, 1, PULLUP);		//left
 	mov	d4,#1064
-.L180:
-	mov	d5,#0
-.L181:
-	mov	d6,#1
-.L182:
-	mov	d7,#1
-	call	gpio_init
 .L183:
-
-; ..\USER\Cpu0_Main.c	    69  	gpio_init(P33_12, GPI, 1, PULLUP);		//mid
-	mov	d4,#1065
+	mov	d5,#0
 .L184:
-	mov	d5,#0
+	mov	d6,#1
 .L185:
-	mov	d6,#1
+	mov	d7,#1
+	call	gpio_init
 .L186:
-	mov	d7,#1
-	call	gpio_init
+
+; ..\USER\Cpu0_Main.c	    72  	gpio_init(P33_12, GPI, 1, PULLUP);		//mid
+	mov	d4,#1065
 .L187:
-
-; ..\USER\Cpu0_Main.c	    70  	//gpio_init(P02_8, GPO, 1, PUSHPULL);
-	mov	d4,#1067
-.L188:
 	mov	d5,#0
-.L189:
+.L188:
 	mov	d6,#1
-.L190:
+.L189:
 	mov	d7,#1
 	call	gpio_init
-.L191:
+.L190:
 
-; ..\USER\Cpu0_Main.c	    71  	enableInterrupts();
-	mov	d4,#1068
-.L192:
+; ..\USER\Cpu0_Main.c	    73  	//gpio_init(P02_8, GPO, 1, PUSHPULL);
+	mov	d4,#1067
+.L191:
 	mov	d5,#0
-.L193:
+.L192:
 	mov	d6,#1
+.L193:
+	mov	d7,#1
+	call	gpio_init
 .L194:
+
+; ..\USER\Cpu0_Main.c	    74  	enableInterrupts();
+	mov	d4,#1068
+.L195:
+	mov	d5,#0
+.L196:
+	mov	d6,#1
+.L197:
 	mov	d7,#1
 	call	gpio_init
 .L77:
@@ -1661,78 +1672,78 @@ core0_main:	.type	func
 	enable
 .L78:
 
-; ..\USER\Cpu0_Main.c	    72  ==1)
-; ..\USER\Cpu0_Main.c	    73  	{
-; ..\USER\Cpu0_Main.c	    74  		if(gpio_get(P33_8))//高电平,没按下
+; ..\USER\Cpu0_Main.c	    75  )
+; ..\USER\Cpu0_Main.c	    76  	{
+; ..\USER\Cpu0_Main.c	    77  		if(gpio_get(P33_8))//高电平,没按下
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
-.L195:
+.L198:
 	lea	a2,[a10]0
 	mov.a	a4,#8
 .L5:
 	ld.bu	d0,[a15+]
 	st.b	[a2+],d0
 	loop	a4,.L5
-.L196:
+.L199:
 
-; ..\USER\Cpu0_Main.c	    75  		{
-; ..\USER\Cpu0_Main.c	    76  			highcount++;
+; ..\USER\Cpu0_Main.c	    78  		{
+; ..\USER\Cpu0_Main.c	    79  			highcount++;
 	j	.L6
 .L7:
 
-; ..\USER\Cpu0_Main.c	    77  			if(highcount>200)
-; ..\USER\Cpu0_Main.c	    78  			{
+; ..\USER\Cpu0_Main.c	    80  			if(highcount>200)
+; ..\USER\Cpu0_Main.c	    81  			{
 	mov	d4,#1064
 	call	gpio_get
-.L197:
+.L200:
 	jeq	d2,#0,.L8
-.L198:
+.L201:
 
-; ..\USER\Cpu0_Main.c	    79  				lowcount=0;
-; ..\USER\Cpu0_Main.c	    80  				gpio_proc_flag=0;
+; ..\USER\Cpu0_Main.c	    82  				lowcount=0;
+; ..\USER\Cpu0_Main.c	    83  				gpio_proc_flag=0;
 	add	d8,#1
 	extr.u	d8,d8,#0,#16
 .L95:
 
-; ..\USER\Cpu0_Main.c	    81  			}
+; ..\USER\Cpu0_Main.c	    84  			}
 	mov	d15,#200
 .L93:
 	jge.u	d15,d8,.L9
-.L199:
+.L202:
 
-; ..\USER\Cpu0_Main.c	    82  		}
-; ..\USER\Cpu0_Main.c	    83  		else
+; ..\USER\Cpu0_Main.c	    85  		}
+; ..\USER\Cpu0_Main.c	    86  		else
 	mov	d9,#0
 .L96:
 
-; ..\USER\Cpu0_Main.c	    84  		{
+; ..\USER\Cpu0_Main.c	    87  		{
 	mov	d10,#0
 .L9:
 	j	.L10
 .L8:
 
-; ..\USER\Cpu0_Main.c	    85  			highcount=0;
-; ..\USER\Cpu0_Main.c	    86  			if(gpio_proc_flag==0)//低电平,按下
-; ..\USER\Cpu0_Main.c	    87  				lowcount++;
-; ..\USER\Cpu0_Main.c	    88  		}
-; ..\USER\Cpu0_Main.c	    89  
+; ..\USER\Cpu0_Main.c	    88  			highcount=0;
+; ..\USER\Cpu0_Main.c	    89  			if(gpio_proc_flag==0)//低电平,按下
+; ..\USER\Cpu0_Main.c	    90  				lowcount++;
+; ..\USER\Cpu0_Main.c	    91  		}
+; ..\USER\Cpu0_Main.c	    92  
 	mov	d8,#0
 .L97:
 
-; ..\USER\Cpu0_Main.c	    90  		if(lowcount>200&&gpio_proc_flag==0)
+; ..\USER\Cpu0_Main.c	    93  		if(lowcount>200&&gpio_proc_flag==0)
 	jne	d10,#0,.L11
 .L98:
 
-; ..\USER\Cpu0_Main.c	    91  		{
+; ..\USER\Cpu0_Main.c	    94  		{
 	add	d9,#1
 	extr.u	d9,d9,#0,#16
 .L11:
 .L10:
 
-; ..\USER\Cpu0_Main.c	    92  			speed_gear++;
-; ..\USER\Cpu0_Main.c	    93  			if(speed_gear>3) speed_gear=0;
-; ..\USER\Cpu0_Main.c	    94  			gpio_proc_flag=1;
+; ..\USER\Cpu0_Main.c	    95  			speed_gear++;
+; ..\USER\Cpu0_Main.c	    96  			if(speed_gear>3) speed_gear=0;
+; ..\USER\Cpu0_Main.c	    97  			gpio_proc_flag=1;
 	mov	d15,#200
 .L99:
 	jge.u	d15,d9,.L12
@@ -1740,226 +1751,226 @@ core0_main:	.type	func
 	jne	d10,#0,.L13
 .L101:
 
-; ..\USER\Cpu0_Main.c	    95  		}
-; ..\USER\Cpu0_Main.c	    96  		if(speed_gear==0)
+; ..\USER\Cpu0_Main.c	    98  		}
+; ..\USER\Cpu0_Main.c	    99  		if(speed_gear==0)
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	movh.a	a2,#@his(speed_gear)
 	lea	a2,[a2]@los(speed_gear)
 	ld.bu	d15,[a2]
-.L200:
+.L203:
 	add	d15,#1
 	st.b	[a15],d15
-.L201:
+.L204:
 
-; ..\USER\Cpu0_Main.c	    97  		{
+; ..\USER\Cpu0_Main.c	   100  		{
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	ld.bu	d15,[a15]
-.L202:
+.L205:
 	jlt.u	d15,#4,.L14
-.L203:
+.L206:
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
-.L204:
+.L207:
 	mov	d15,#0
-.L205:
+.L208:
 	st.b	[a15],d15
 .L14:
 
-; ..\USER\Cpu0_Main.c	    98  			gpio_set(P21_5, 1);
+; ..\USER\Cpu0_Main.c	   101  			gpio_set(P21_5, 1);
 	mov	d10,#1
 .L13:
 .L12:
 
-; ..\USER\Cpu0_Main.c	    99  			gpio_set(P20_8, 1);
-; ..\USER\Cpu0_Main.c	   100  			gpio_set(P20_9, 1);
+; ..\USER\Cpu0_Main.c	   102  			gpio_set(P20_8, 1);
+; ..\USER\Cpu0_Main.c	   103  			gpio_set(P20_9, 1);
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	ld.bu	d15,[a15]
-.L206:
-	jne	d15,#0,.L15
-.L207:
-
-; ..\USER\Cpu0_Main.c	   101  		}
-; ..\USER\Cpu0_Main.c	   102  		if(speed_gear==1)
-	mov	d4,#677
-.L208:
-	mov	d5,#1
-	call	gpio_set
 .L209:
-
-; ..\USER\Cpu0_Main.c	   103  		{
-	mov	d4,#648
+	jne	d15,#0,.L15
 .L210:
+
+; ..\USER\Cpu0_Main.c	   104  		}
+; ..\USER\Cpu0_Main.c	   105  		if(speed_gear==1)
+	mov	d4,#677
+.L211:
 	mov	d5,#1
 	call	gpio_set
-.L211:
-
-; ..\USER\Cpu0_Main.c	   104  			gpio_set(P21_5, 1);
-	mov	d4,#649
 .L212:
+
+; ..\USER\Cpu0_Main.c	   106  		{
+	mov	d4,#648
+.L213:
+	mov	d5,#1
+	call	gpio_set
+.L214:
+
+; ..\USER\Cpu0_Main.c	   107  			gpio_set(P21_5, 1);
+	mov	d4,#649
+.L215:
 	mov	d5,#1
 	call	gpio_set
 .L15:
 
-; ..\USER\Cpu0_Main.c	   105  			gpio_set(P20_8, 1);
-; ..\USER\Cpu0_Main.c	   106  			gpio_set(P20_9, 0);
+; ..\USER\Cpu0_Main.c	   108  			gpio_set(P20_8, 1);
+; ..\USER\Cpu0_Main.c	   109  			gpio_set(P20_9, 0);
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	ld.bu	d15,[a15]
-.L213:
-	jne	d15,#1,.L16
-.L214:
-
-; ..\USER\Cpu0_Main.c	   107  		}
-; ..\USER\Cpu0_Main.c	   108  		if(speed_gear==2)
-	mov	d4,#677
-.L215:
-	mov	d5,#1
-	call	gpio_set
 .L216:
-
-; ..\USER\Cpu0_Main.c	   109  		{
-	mov	d4,#648
+	jne	d15,#1,.L16
 .L217:
+
+; ..\USER\Cpu0_Main.c	   110  		}
+; ..\USER\Cpu0_Main.c	   111  		if(speed_gear==2)
+	mov	d4,#677
+.L218:
 	mov	d5,#1
 	call	gpio_set
-.L218:
-
-; ..\USER\Cpu0_Main.c	   110  			gpio_set(P21_5, 1);
-	mov	d4,#649
 .L219:
+
+; ..\USER\Cpu0_Main.c	   112  		{
+	mov	d4,#648
+.L220:
+	mov	d5,#1
+	call	gpio_set
+.L221:
+
+; ..\USER\Cpu0_Main.c	   113  			gpio_set(P21_5, 1);
+	mov	d4,#649
+.L222:
 	mov	d5,#0
 	call	gpio_set
 .L16:
 
-; ..\USER\Cpu0_Main.c	   111  			gpio_set(P20_8, 0);
-; ..\USER\Cpu0_Main.c	   112  		    gpio_set(P20_9, 1);
+; ..\USER\Cpu0_Main.c	   114  			gpio_set(P20_8, 0);
+; ..\USER\Cpu0_Main.c	   115  		    gpio_set(P20_9, 1);
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	ld.bu	d15,[a15]
-.L220:
+.L223:
 	jne	d15,#2,.L17
-.L221:
+.L224:
 
-; ..\USER\Cpu0_Main.c	   113  		}
-; ..\USER\Cpu0_Main.c	   114  		if(speed_gear==3)
+; ..\USER\Cpu0_Main.c	   116  		}
+; ..\USER\Cpu0_Main.c	   117  		if(speed_gear==3)
 	mov	d4,#677
-.L222:
+.L225:
 	mov	d5,#1
 	call	gpio_set
-.L223:
+.L226:
 
-; ..\USER\Cpu0_Main.c	   115  		{
+; ..\USER\Cpu0_Main.c	   118  		{
 	mov	d4,#648
-.L224:
+.L227:
 	mov	d5,#0
 	call	gpio_set
-.L225:
+.L228:
 
-; ..\USER\Cpu0_Main.c	   116  			gpio_set(P21_5, 1);
+; ..\USER\Cpu0_Main.c	   119  			gpio_set(P21_5, 1);
 	mov	d4,#649
-.L226:
+.L229:
 	mov	d5,#1
 	call	gpio_set
 .L17:
 
-; ..\USER\Cpu0_Main.c	   117  			gpio_set(P20_8, 0);
-; ..\USER\Cpu0_Main.c	   118  		    gpio_set(P20_9, 0);
+; ..\USER\Cpu0_Main.c	   120  			gpio_set(P20_8, 0);
+; ..\USER\Cpu0_Main.c	   121  		    gpio_set(P20_9, 0);
 	movh.a	a15,#@his(speed_gear)
 	lea	a15,[a15]@los(speed_gear)
 	ld.bu	d15,[a15]
-.L227:
+.L230:
 	jne	d15,#3,.L18
-.L228:
+.L231:
 
-; ..\USER\Cpu0_Main.c	   119  		}
-; ..\USER\Cpu0_Main.c	   120  		if (gpio_get(P33_9))
+; ..\USER\Cpu0_Main.c	   122  		}
+; ..\USER\Cpu0_Main.c	   123  		if (gpio_get(P33_9))
 	mov	d4,#677
-.L229:
+.L232:
 	mov	d5,#1
 	call	gpio_set
-.L230:
+.L233:
 
-; ..\USER\Cpu0_Main.c	   121  		{
+; ..\USER\Cpu0_Main.c	   124  		{
 	mov	d4,#648
-.L231:
+.L234:
 	mov	d5,#0
 	call	gpio_set
-.L232:
+.L235:
 
-; ..\USER\Cpu0_Main.c	   122  			right_lowcount=0;
+; ..\USER\Cpu0_Main.c	   125  			right_lowcount=0;
 	mov	d4,#649
-.L233:
+.L236:
 	mov	d5,#0
 	call	gpio_set
 .L18:
 
-; ..\USER\Cpu0_Main.c	   123  		}
-; ..\USER\Cpu0_Main.c	   124  		else 
+; ..\USER\Cpu0_Main.c	   126  		}
+; ..\USER\Cpu0_Main.c	   127  		else 
 	mov	d4,#1065
 	call	gpio_get
-.L234:
+.L237:
 	jeq	d2,#0,.L19
-.L235:
+.L238:
 
-; ..\USER\Cpu0_Main.c	   125  		{
-; ..\USER\Cpu0_Main.c	   126  
+; ..\USER\Cpu0_Main.c	   128  		{
+; ..\USER\Cpu0_Main.c	   129  
 	mov	d14,#0
 .L102:
 	j	.L20
 .L19:
 
-; ..\USER\Cpu0_Main.c	   127  			if(right_lowcount>100)
-; ..\USER\Cpu0_Main.c	   128  			{
-; ..\USER\Cpu0_Main.c	   129  				gpio_set(P21_4, 1);		//右转灯暗
-; ..\USER\Cpu0_Main.c	   130  				garage_flag=1;
-; ..\USER\Cpu0_Main.c	   131  			}
+; ..\USER\Cpu0_Main.c	   130  			if(right_lowcount>100)
+; ..\USER\Cpu0_Main.c	   131  			{
+; ..\USER\Cpu0_Main.c	   132  				gpio_set(P21_4, 1);		//右转灯暗
+; ..\USER\Cpu0_Main.c	   133  				garage_flag=1;
+; ..\USER\Cpu0_Main.c	   134  			}
 	mov	d15,#100
 .L103:
 	jge.u	d15,d14,.L21
 .L104:
 
-; ..\USER\Cpu0_Main.c	   132  			else
-; ..\USER\Cpu0_Main.c	   133  			{
+; ..\USER\Cpu0_Main.c	   135  			else
+; ..\USER\Cpu0_Main.c	   136  			{
 	mov	d4,#676
-.L236:
+.L239:
 	mov	d5,#1
 	call	gpio_set
-.L237:
+.L240:
 
-; ..\USER\Cpu0_Main.c	   134  				right_lowcount++;
+; ..\USER\Cpu0_Main.c	   137  				right_lowcount++;
 	movh.a	a15,#@his(garage_flag)
 	lea	a15,[a15]@los(garage_flag)
-.L238:
+.L241:
 	mov	d15,#1
-.L239:
+.L242:
 	st.b	[a15],d15
-.L240:
+.L243:
 	j	.L22
 .L21:
 
-; ..\USER\Cpu0_Main.c	   135  			}
-; ..\USER\Cpu0_Main.c	   136  		}
-; ..\USER\Cpu0_Main.c	   137  		if (gpio_get(P33_11))
-; ..\USER\Cpu0_Main.c	   138  		{
+; ..\USER\Cpu0_Main.c	   138  			}
+; ..\USER\Cpu0_Main.c	   139  		}
+; ..\USER\Cpu0_Main.c	   140  		if (gpio_get(P33_11))
+; ..\USER\Cpu0_Main.c	   141  		{
 	add	d14,#1
 	extr.u	d14,d14,#0,#16
 .L22:
 .L20:
 
-; ..\USER\Cpu0_Main.c	   139  			left_lowcount=0;
-; ..\USER\Cpu0_Main.c	   140  		}
-; ..\USER\Cpu0_Main.c	   141  		else 
+; ..\USER\Cpu0_Main.c	   142  			left_lowcount=0;
+; ..\USER\Cpu0_Main.c	   143  		}
+; ..\USER\Cpu0_Main.c	   144  		else 
 	mov	d4,#1067
 	call	gpio_get
-.L241:
+.L244:
 	jeq	d2,#0,.L23
-.L242:
+.L245:
 
-; ..\USER\Cpu0_Main.c	   142  		{
-; ..\USER\Cpu0_Main.c	   143  			if(left_lowcount>100)
+; ..\USER\Cpu0_Main.c	   145  		{
+; ..\USER\Cpu0_Main.c	   146  			if(left_lowcount>100)
 	mov	d15,#0
 .L105:
 	st.w	[a10]12,d15
@@ -1967,40 +1978,40 @@ core0_main:	.type	func
 	j	.L24
 .L23:
 
-; ..\USER\Cpu0_Main.c	   144  			{
-; ..\USER\Cpu0_Main.c	   145  				gpio_set(P21_4, 0);		//左转灯亮
-; ..\USER\Cpu0_Main.c	   146  				garage_flag=2;
-; ..\USER\Cpu0_Main.c	   147  			}
+; ..\USER\Cpu0_Main.c	   147  			{
+; ..\USER\Cpu0_Main.c	   148  				gpio_set(P21_4, 0);		//左转灯亮
+; ..\USER\Cpu0_Main.c	   149  				garage_flag=2;
+; ..\USER\Cpu0_Main.c	   150  			}
 	mov	d0,#100
-.L243:
+.L246:
 	ld.w	d15,[a10]12
 .L107:
 	jge.u	d0,d15,.L25
-.L244:
+.L247:
 
-; ..\USER\Cpu0_Main.c	   148  			else
-; ..\USER\Cpu0_Main.c	   149  			{
+; ..\USER\Cpu0_Main.c	   151  			else
+; ..\USER\Cpu0_Main.c	   152  			{
 	mov	d4,#676
-.L245:
+.L248:
 	mov	d5,#0
 	call	gpio_set
-.L246:
+.L249:
 
-; ..\USER\Cpu0_Main.c	   150  				left_lowcount++;
+; ..\USER\Cpu0_Main.c	   153  				left_lowcount++;
 	movh.a	a15,#@his(garage_flag)
 	lea	a15,[a15]@los(garage_flag)
-.L247:
+.L250:
 	mov	d15,#2
 .L108:
 	st.b	[a15],d15
-.L248:
+.L251:
 	j	.L26
 .L25:
 
-; ..\USER\Cpu0_Main.c	   151  			}
-; ..\USER\Cpu0_Main.c	   152  		}
-; ..\USER\Cpu0_Main.c	   153  		if(gpio_get(P33_12)==0)
-; ..\USER\Cpu0_Main.c	   154  		{
+; ..\USER\Cpu0_Main.c	   154  			}
+; ..\USER\Cpu0_Main.c	   155  		}
+; ..\USER\Cpu0_Main.c	   156  		if(gpio_get(P33_12)==0)
+; ..\USER\Cpu0_Main.c	   157  		{
 	add	d15,#1
 .L109:
 	extr.u	d15,d15,#0,#16
@@ -2009,62 +2020,62 @@ core0_main:	.type	func
 .L26:
 .L24:
 
-; ..\USER\Cpu0_Main.c	   155  			menu_flag=0;
-; ..\USER\Cpu0_Main.c	   156  			gpio_init(P20_8, GPO, 0, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
-; ..\USER\Cpu0_Main.c	   157  			gpio_init(P20_9, GPO, 0, PUSHPULL);
+; ..\USER\Cpu0_Main.c	   158  			menu_flag=0;
+; ..\USER\Cpu0_Main.c	   159  			gpio_init(P20_8, GPO, 0, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
+; ..\USER\Cpu0_Main.c	   160  			gpio_init(P20_9, GPO, 0, PUSHPULL);
 	mov	d4,#1068
 	call	gpio_get
-.L249:
+.L252:
 	jne	d2,#0,.L27
-.L250:
+.L253:
 
-; ..\USER\Cpu0_Main.c	   158  			gpio_init(P21_4, GPO, 0, PUSHPULL);
-; ..\USER\Cpu0_Main.c	   159  			gpio_init(P21_5, GPO, 0, PUSHPULL);
+; ..\USER\Cpu0_Main.c	   161  			gpio_init(P21_4, GPO, 0, PUSHPULL);
+; ..\USER\Cpu0_Main.c	   162  			gpio_init(P21_5, GPO, 0, PUSHPULL);
 	mov	d15,#0
 .L111:
 	st.w	[a10]20,d15
-.L251:
-
-; ..\USER\Cpu0_Main.c	   160  		}
-	mov	d4,#648
-.L252:
-	mov	d5,#1
-.L253:
-	mov	d6,#0
 .L254:
-	mov	d7,#3
-	call	gpio_init
+
+; ..\USER\Cpu0_Main.c	   163  		}
+	mov	d4,#648
 .L255:
-
-; ..\USER\Cpu0_Main.c	   161  	
-	mov	d4,#649
+	mov	d5,#1
 .L256:
-	mov	d5,#1
+	mov	d6,#0
 .L257:
-	mov	d6,#0
+	mov	d7,#3
+	call	gpio_init
 .L258:
-	mov	d7,#3
-	call	gpio_init
+
+; ..\USER\Cpu0_Main.c	   164  	
+	mov	d4,#649
 .L259:
-
-; ..\USER\Cpu0_Main.c	   162  	}
-	mov	d4,#676
-.L260:
 	mov	d5,#1
-.L261:
+.L260:
 	mov	d6,#0
-.L262:
+.L261:
 	mov	d7,#3
 	call	gpio_init
-.L263:
+.L262:
 
-; ..\USER\Cpu0_Main.c	   163  	while(start_prepare_flag == 0)
-	mov	d4,#677
-.L264:
+; ..\USER\Cpu0_Main.c	   165  	}
+	mov	d4,#676
+.L263:
 	mov	d5,#1
-.L265:
+.L264:
 	mov	d6,#0
+.L265:
+	mov	d7,#3
+	call	gpio_init
 .L266:
+
+; ..\USER\Cpu0_Main.c	   166  	while(start_prepare_flag == 0)
+	mov	d4,#677
+.L267:
+	mov	d5,#1
+.L268:
+	mov	d6,#0
+.L269:
 	mov	d7,#3
 	call	gpio_init
 .L27:
@@ -2072,78 +2083,78 @@ core0_main:	.type	func
 	ld.w	d15,[a10]20
 .L112:
 	jeq	d15,#1,.L7
-.L267:
+.L270:
 
-; ..\USER\Cpu0_Main.c	   164  	{
-; ..\USER\Cpu0_Main.c	   165  		cardegree = degree_calculation();
-; ..\USER\Cpu0_Main.c	   166  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER + cardegree);	//waiting for the ball
-; ..\USER\Cpu0_Main.c	   167  		//改变电机占空比
+; ..\USER\Cpu0_Main.c	   167  	{
+; ..\USER\Cpu0_Main.c	   168  		cardegree = degree_calculation();
+; ..\USER\Cpu0_Main.c	   169  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER + cardegree);	//waiting for the ball
+; ..\USER\Cpu0_Main.c	   170  		//改变电机占空比
 	j	.L28
 .L29:
 
-; ..\USER\Cpu0_Main.c	   168  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-; ..\USER\Cpu0_Main.c	   169  		pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
+; ..\USER\Cpu0_Main.c	   171  		pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+; ..\USER\Cpu0_Main.c	   172  		pwm_duty(ATOM0_CH5_P02_5, 0);	//左前
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
-.L268:
-	call	degree_calculation
-.L269:
-	st.w	[a15],d2
-.L270:
-
-; ..\USER\Cpu0_Main.c	   170  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#67
 .L271:
+	call	degree_calculation
+.L272:
+	st.w	[a15],d2
+.L273:
+
+; ..\USER\Cpu0_Main.c	   173  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+	mov	d4,#67
+.L274:
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 	ld.w	d15,[a15]
-.L272:
-	addi	d5,d15,#735
-	call	pwm_duty
-.L273:
-
-; ..\USER\Cpu0_Main.c	   171  	    pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
-; ..\USER\Cpu0_Main.c	   172  
-	mov	d4,#29
-.L274:
-	mov	d5,#0
-	call	pwm_duty
 .L275:
-
-; ..\USER\Cpu0_Main.c	   173  		if(speed>100)
-	mov	d4,#35
+	addi	d5,d15,#728
+	call	pwm_duty
 .L276:
-	mov	d5,#0
-	call	pwm_duty
+
+; ..\USER\Cpu0_Main.c	   174  	    pwm_duty(ATOM0_CH7_P02_7, 0);		//左后
+; ..\USER\Cpu0_Main.c	   175  
+	mov	d4,#29
 .L277:
-
-; ..\USER\Cpu0_Main.c	   174  	    {
-	mov	d4,#39
+	mov	d5,#0
+	call	pwm_duty
 .L278:
-	mov	d5,#0
-	call	pwm_duty
+
+; ..\USER\Cpu0_Main.c	   176  		if(speed>100)
+	mov	d4,#35
 .L279:
-
-; ..\USER\Cpu0_Main.c	   175  	      	startpre_count++;
-	mov	d4,#43
-.L280:
 	mov	d5,#0
 	call	pwm_duty
-.L281:
+.L280:
 
-; ..\USER\Cpu0_Main.c	   176  	    }
-; ..\USER\Cpu0_Main.c	   177  		else startpre_count=0;
+; ..\USER\Cpu0_Main.c	   177  	    {
+	mov	d4,#39
+.L281:
+	mov	d5,#0
+	call	pwm_duty
+.L282:
+
+; ..\USER\Cpu0_Main.c	   178  	      	startpre_count++;
+	mov	d4,#43
+.L283:
+	mov	d5,#0
+	call	pwm_duty
+.L284:
+
+; ..\USER\Cpu0_Main.c	   179  	    }
+; ..\USER\Cpu0_Main.c	   180  		else startpre_count=0;
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d0,[a15]
-.L282:
+.L285:
 	mov	d15,#100
-.L283:
+.L286:
 	jge	d15,d0,.L30
-.L284:
+.L287:
 
-; ..\USER\Cpu0_Main.c	   178  		if(startpre_count>5)
-; ..\USER\Cpu0_Main.c	   179  			start_prepare_flag=1;
+; ..\USER\Cpu0_Main.c	   181  		if(startpre_count>5)
+; ..\USER\Cpu0_Main.c	   182  			start_prepare_flag=1;
 	add	d12,#1
 .L89:
 	extr.u	d12,d12,#0,#8
@@ -2151,89 +2162,89 @@ core0_main:	.type	func
 	j	.L31
 .L30:
 
-; ..\USER\Cpu0_Main.c	   180  	}
-; ..\USER\Cpu0_Main.c	   181  	while(start_flag==0&&start_prepare_flag==1)								//preparing to start
+; ..\USER\Cpu0_Main.c	   183  	}
+; ..\USER\Cpu0_Main.c	   184  	while(start_flag==0&&start_prepare_flag==1)								//preparing to start
 	mov	d12,#0
 .L31:
 
-; ..\USER\Cpu0_Main.c	   182  	{
+; ..\USER\Cpu0_Main.c	   185  	{
 	jlt.u	d12,#6,.L32
-.L285:
+.L288:
 
-; ..\USER\Cpu0_Main.c	   183  		cardegree=degree_calculation();
+; ..\USER\Cpu0_Main.c	   186  		cardegree=degree_calculation();
 	mov	d13,#1
 .L32:
 .L28:
 	jeq	d13,#0,.L29
-.L286:
+.L289:
 
-; ..\USER\Cpu0_Main.c	   184  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+cardegree);
-; ..\USER\Cpu0_Main.c	   185  		//改变电机占空比
+; ..\USER\Cpu0_Main.c	   187  		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+cardegree);
+; ..\USER\Cpu0_Main.c	   188  		//改变电机占空比
 	j	.L33
 .L34:
 
-; ..\USER\Cpu0_Main.c	   186  		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
-; ..\USER\Cpu0_Main.c	   187  	    pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
+; ..\USER\Cpu0_Main.c	   189  		pwm_duty(ATOM0_CH4_P02_4, 200);	//右前
+; ..\USER\Cpu0_Main.c	   190  	    pwm_duty(ATOM0_CH7_P02_7, 200);	//左前
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
-.L287:
-	call	degree_calculation
-.L288:
-	st.w	[a15],d2
-.L289:
-
-; ..\USER\Cpu0_Main.c	   188  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-	mov	d4,#67
 .L290:
+	call	degree_calculation
+.L291:
+	st.w	[a15],d2
+.L292:
+
+; ..\USER\Cpu0_Main.c	   191  	    pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+	mov	d4,#67
+.L293:
 	movh.a	a15,#@his(cardegree)
 	lea	a15,[a15]@los(cardegree)
 	ld.w	d15,[a15]
 .L114:
-	addi	d5,d15,#735
+	addi	d5,d15,#728
 	call	pwm_duty
-.L291:
-
-; ..\USER\Cpu0_Main.c	   189  	    pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-; ..\USER\Cpu0_Main.c	   190  		if(speed>300)
-	mov	d4,#29
-.L292:
-	mov	d5,#200
-	call	pwm_duty
-.L293:
-
-; ..\USER\Cpu0_Main.c	   191  		{
-	mov	d4,#43
 .L294:
+
+; ..\USER\Cpu0_Main.c	   192  	    pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+; ..\USER\Cpu0_Main.c	   193  		if(speed>300)
+	mov	d4,#29
+.L295:
 	mov	d5,#200
 	call	pwm_duty
-.L295:
-
-; ..\USER\Cpu0_Main.c	   192  		   	start_count++;
-	mov	d4,#39
 .L296:
-	mov	d5,#0
-	call	pwm_duty
+
+; ..\USER\Cpu0_Main.c	   194  		{
+	mov	d4,#43
 .L297:
-
-; ..\USER\Cpu0_Main.c	   193  		}
-	mov	d4,#35
+	mov	d5,#200
+	call	pwm_duty
 .L298:
+
+; ..\USER\Cpu0_Main.c	   195  		   	start_count++;
+	mov	d4,#39
+.L299:
 	mov	d5,#0
 	call	pwm_duty
-.L299:
+.L300:
 
-; ..\USER\Cpu0_Main.c	   194  		else start_count=0;
+; ..\USER\Cpu0_Main.c	   196  		}
+	mov	d4,#35
+.L301:
+	mov	d5,#0
+	call	pwm_duty
+.L302:
+
+; ..\USER\Cpu0_Main.c	   197  		else start_count=0;
 	movh.a	a15,#@his(speed)
 	lea	a15,[a15]@los(speed)
 	ld.h	d15,[a15]
-.L300:
+.L303:
 	mov	d0,#300
-.L301:
+.L304:
 	jge	d0,d15,.L35
-.L302:
+.L305:
 
-; ..\USER\Cpu0_Main.c	   195  		if(start_count>5)
-; ..\USER\Cpu0_Main.c	   196  		{
+; ..\USER\Cpu0_Main.c	   198  		if(start_count>5)
+; ..\USER\Cpu0_Main.c	   199  		{
 	add	d11,#1
 .L87:
 	extr.u	d11,d11,#0,#8
@@ -2241,17 +2252,17 @@ core0_main:	.type	func
 	j	.L36
 .L35:
 
-; ..\USER\Cpu0_Main.c	   197  			start_flag=1;
-; ..\USER\Cpu0_Main.c	   198  		}
+; ..\USER\Cpu0_Main.c	   200  			start_flag=1;
+; ..\USER\Cpu0_Main.c	   201  		}
 	mov	d11,#0
 .L36:
 
-; ..\USER\Cpu0_Main.c	   199  	}
+; ..\USER\Cpu0_Main.c	   202  	}
 	jlt.u	d11,#6,.L37
-.L303:
+.L306:
 
-; ..\USER\Cpu0_Main.c	   200  	while (start_flag==1)
-; ..\USER\Cpu0_Main.c	   201  	{
+; ..\USER\Cpu0_Main.c	   203  	while (start_flag==1)
+; ..\USER\Cpu0_Main.c	   204  	{
 	mov	d15,#1
 .L116:
 	st.w	[a10]16,d15
@@ -2260,32 +2271,32 @@ core0_main:	.type	func
 	ld.w	d15,[a10]16
 .L117:
 	jne	d15,#0,.L38
-.L304:
+.L307:
 	jeq	d13,#1,.L34
 .L38:
 
-; ..\USER\Cpu0_Main.c	   202  		//用户在此处编写任务代码
-; ..\USER\Cpu0_Main.c	   203  		cardegree=degree_calculation();
-; ..\USER\Cpu0_Main.c	   204  		rotate(cardegree);
+; ..\USER\Cpu0_Main.c	   205  		//用户在此处编写任务代码
+; ..\USER\Cpu0_Main.c	   206  		cardegree=degree_calculation();
+; ..\USER\Cpu0_Main.c	   207  		rotate(cardegree);
 	j	.L39
 .L40:
 
-; ..\USER\Cpu0_Main.c	   205  	}
-; ..\USER\Cpu0_Main.c	   206  }
+; ..\USER\Cpu0_Main.c	   208  	}
+; ..\USER\Cpu0_Main.c	   209  }
 
 	movh.a	a15,#@his(cardegree)
 
 
 	lea	a15,[a15]@los(cardegree)
-.L305:
+.L308:
 
 
 	call	degree_calculation
-.L306:
+.L309:
 
 
 	st.w	[a15],d2
-.L307:
+.L310:
 
 
 	movh.a	a15,#@his(cardegree)
@@ -2300,7 +2311,7 @@ core0_main:	.type	func
 	call	rotate
 .L39:
 	jeq	d15,#1,.L40
-.L308:
+.L311:
 
 
 	ret
@@ -9370,10 +9381,10 @@ __core0_main_function_end:
 	.byte	'dir_pin',0,28,60,70
 	.word	47460
 	.byte	0,31
-	.byte	'degree_calculation',0,29,45,5
+	.byte	'degree_calculation',0,29,49,5
 	.word	461
 	.byte	1,1,1,1,30
-	.byte	'rotate',0,29,47,6,1,1,1,1,36,29,47,13
+	.byte	'rotate',0,29,51,6,1,1,1,1,36,29,51,13
 	.word	461
 	.byte	0,11
 	.byte	'_Ifx_CPU_ICR_Bits',0,30,246,2,16,4,12
@@ -37289,13 +37300,13 @@ __core0_main_function_end:
 	.byte	'speed',0,29,8,14
 	.word	39227
 	.byte	1,1,41
-	.byte	'cardegree',0,29,27,12
+	.byte	'cardegree',0,29,31,12
 	.word	461
 	.byte	1,1,41
-	.byte	'speed_gear',0,29,30,14
+	.byte	'speed_gear',0,29,34,14
 	.word	620
 	.byte	1,1,41
-	.byte	'garage_flag',0,29,31,14
+	.byte	'garage_flag',0,29,35,14
 	.word	620
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
@@ -37450,19 +37461,19 @@ __core0_main_function_end:
 	.byte	4
 	.word	.L69,.L52
 	.byte	7
-	.byte	'lowcount',0,1,63,12
+	.byte	'lowcount',0,1,66,12
 	.word	.L70,.L71
 	.byte	7
-	.byte	'highcount',0,1,64,12
+	.byte	'highcount',0,1,67,12
 	.word	.L70,.L72
 	.byte	7
-	.byte	'gpio_proc_flag',0,1,65,12
+	.byte	'gpio_proc_flag',0,1,68,12
 	.word	.L70,.L73
 	.byte	7
-	.byte	'left_lowcount',0,1,66,9
+	.byte	'left_lowcount',0,1,69,9
 	.word	.L70,.L74
 	.byte	7
-	.byte	'right_lowcount',0,1,67,9
+	.byte	'right_lowcount',0,1,70,9
 	.word	.L70,.L75
 	.byte	5
 	.word	.L76,.L77,.L78
@@ -37475,7 +37486,7 @@ __core0_main_function_end:
 	.byte	0,0,0,4
 	.word	.L78,.L52
 	.byte	7
-	.byte	'temp',0,1,74,8
+	.byte	'temp',0,1,77,8
 	.word	.L82,.L83
 	.byte	0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('core0_main')
@@ -37628,60 +37639,66 @@ __core0_main_function_end:
 	.half	.L178-.L177
 	.byte	1,5,27,9
 	.half	.L179-.L178
-	.byte	1,5,12,9
-	.half	.L69-.L179
-	.byte	3,6,1,5,19,9
-	.half	.L180-.L69
-	.byte	1,5,24,9
+	.byte	1,5,15,9
+	.half	.L180-.L179
+	.byte	3,2,1,5,32,9
 	.half	.L181-.L180
-	.byte	1,5,27,9
+	.byte	1,5,37,9
 	.half	.L182-.L181
 	.byte	1,5,12,9
-	.half	.L183-.L182
-	.byte	3,1,1,5,19,9
-	.half	.L184-.L183
+	.half	.L69-.L182
+	.byte	3,7,1,5,19,9
+	.half	.L183-.L69
 	.byte	1,5,24,9
-	.half	.L185-.L184
+	.half	.L184-.L183
 	.byte	1,5,27,9
+	.half	.L185-.L184
+	.byte	1,5,12,9
 	.half	.L186-.L185
-	.byte	1,5,12,9
+	.byte	3,1,1,5,19,9
 	.half	.L187-.L186
-	.byte	3,1,1,5,20,9
+	.byte	1,5,24,9
 	.half	.L188-.L187
-	.byte	1,5,25,9
+	.byte	1,5,27,9
 	.half	.L189-.L188
-	.byte	1,5,28,9
-	.half	.L190-.L189
 	.byte	1,5,12,9
-	.half	.L191-.L190
+	.half	.L190-.L189
 	.byte	3,1,1,5,20,9
-	.half	.L192-.L191
+	.half	.L191-.L190
 	.byte	1,5,25,9
-	.half	.L193-.L192
+	.half	.L192-.L191
 	.byte	1,5,28,9
+	.half	.L193-.L192
+	.byte	1,5,12,9
 	.half	.L194-.L193
-	.byte	1,4,2,5,13,9
-	.half	.L77-.L194
-	.byte	3,216,4,1,4,1,5,16,9
-	.half	.L78-.L77
-	.byte	3,171,123,1,5,15,9
-	.half	.L195-.L78
-	.byte	1,5,20,9
+	.byte	3,1,1,5,20,9
+	.half	.L195-.L194
+	.byte	1,5,25,9
 	.half	.L196-.L195
+	.byte	1,5,28,9
+	.half	.L197-.L196
+	.byte	1,4,2,5,13,9
+	.half	.L77-.L197
+	.byte	3,213,4,1,4,1,5,16,9
+	.half	.L78-.L77
+	.byte	3,174,123,1,5,15,9
+	.half	.L198-.L78
+	.byte	1,5,20,9
+	.half	.L199-.L198
 	.byte	3,2,1,5,15,9
-	.half	.L7-.L196
+	.half	.L7-.L199
 	.byte	3,2,1,5,3,9
-	.half	.L197-.L7
+	.half	.L200-.L7
 	.byte	1,5,13,7,9
-	.half	.L198-.L197
+	.half	.L201-.L200
 	.byte	3,2,1,5,17,9
-	.half	.L95-.L198
+	.half	.L95-.L201
 	.byte	3,1,1,5,4,9
 	.half	.L93-.L95
 	.byte	1,5,13,7,9
-	.half	.L199-.L93
+	.half	.L202-.L93
 	.byte	3,2,1,5,19,9
-	.half	.L96-.L199
+	.half	.L96-.L202
 	.byte	3,1,1,5,4,9
 	.half	.L9-.L96
 	.byte	3,125,1,5,13,9
@@ -37699,91 +37716,91 @@ __core0_main_function_end:
 	.byte	1,5,4,7,9
 	.half	.L101-.L100
 	.byte	3,2,1,5,14,9
-	.half	.L200-.L101
+	.half	.L203-.L101
 	.byte	1,5,7,9
-	.half	.L201-.L200
-	.byte	3,1,1,5,4,9
-	.half	.L202-.L201
-	.byte	1,5,21,7,9
-	.half	.L203-.L202
-	.byte	1,5,32,9
 	.half	.L204-.L203
-	.byte	1,5,31,9
+	.byte	3,1,1,5,4,9
 	.half	.L205-.L204
+	.byte	1,5,21,7,9
+	.half	.L206-.L205
+	.byte	1,5,32,9
+	.half	.L207-.L206
+	.byte	1,5,31,9
+	.half	.L208-.L207
 	.byte	1,5,18,9
-	.half	.L14-.L205
+	.half	.L14-.L208
 	.byte	3,1,1,5,6,9
 	.half	.L12-.L14
 	.byte	3,2,1,5,3,9
-	.half	.L206-.L12
+	.half	.L209-.L12
 	.byte	1,5,13,7,9
-	.half	.L207-.L206
-	.byte	3,2,1,5,20,9
-	.half	.L208-.L207
-	.byte	1,5,13,9
-	.half	.L209-.L208
-	.byte	3,1,1,5,20,9
 	.half	.L210-.L209
-	.byte	1,5,13,9
+	.byte	3,2,1,5,20,9
 	.half	.L211-.L210
-	.byte	3,1,1,5,20,9
+	.byte	1,5,13,9
 	.half	.L212-.L211
-	.byte	1,5,6,9
-	.half	.L15-.L212
-	.byte	3,2,1,5,3,9
-	.half	.L213-.L15
-	.byte	1,5,13,7,9
+	.byte	3,1,1,5,20,9
+	.half	.L213-.L212
+	.byte	1,5,13,9
 	.half	.L214-.L213
-	.byte	3,2,1,5,20,9
+	.byte	3,1,1,5,20,9
 	.half	.L215-.L214
-	.byte	1,5,13,9
-	.half	.L216-.L215
-	.byte	3,1,1,5,20,9
+	.byte	1,5,6,9
+	.half	.L15-.L215
+	.byte	3,2,1,5,3,9
+	.half	.L216-.L15
+	.byte	1,5,13,7,9
 	.half	.L217-.L216
-	.byte	1,5,13,9
+	.byte	3,2,1,5,20,9
 	.half	.L218-.L217
-	.byte	3,1,1,5,20,9
+	.byte	1,5,13,9
 	.half	.L219-.L218
-	.byte	1,5,6,9
-	.half	.L16-.L219
-	.byte	3,2,1,5,3,9
-	.half	.L220-.L16
-	.byte	1,5,13,7,9
+	.byte	3,1,1,5,20,9
+	.half	.L220-.L219
+	.byte	1,5,13,9
 	.half	.L221-.L220
-	.byte	3,2,1,5,20,9
+	.byte	3,1,1,5,20,9
 	.half	.L222-.L221
-	.byte	1,5,13,9
-	.half	.L223-.L222
-	.byte	3,1,1,5,20,9
-	.half	.L224-.L223
-	.byte	1,5,16,9
-	.half	.L225-.L224
-	.byte	3,1,1,5,23,9
-	.half	.L226-.L225
 	.byte	1,5,6,9
-	.half	.L17-.L226
+	.half	.L16-.L222
 	.byte	3,2,1,5,3,9
-	.half	.L227-.L17
+	.half	.L223-.L16
 	.byte	1,5,13,7,9
-	.half	.L228-.L227
+	.half	.L224-.L223
 	.byte	3,2,1,5,20,9
-	.half	.L229-.L228
+	.half	.L225-.L224
 	.byte	1,5,13,9
-	.half	.L230-.L229
+	.half	.L226-.L225
 	.byte	3,1,1,5,20,9
-	.half	.L231-.L230
+	.half	.L227-.L226
 	.byte	1,5,16,9
-	.half	.L232-.L231
+	.half	.L228-.L227
 	.byte	3,1,1,5,23,9
-	.half	.L233-.L232
-	.byte	1,5,16,9
-	.half	.L18-.L233
+	.half	.L229-.L228
+	.byte	1,5,6,9
+	.half	.L17-.L229
 	.byte	3,2,1,5,3,9
-	.half	.L234-.L18
-	.byte	1,5,18,7,9
-	.half	.L235-.L234
+	.half	.L230-.L17
+	.byte	1,5,13,7,9
+	.half	.L231-.L230
 	.byte	3,2,1,5,20,9
-	.half	.L102-.L235
+	.half	.L232-.L231
+	.byte	1,5,13,9
+	.half	.L233-.L232
+	.byte	3,1,1,5,20,9
+	.half	.L234-.L233
+	.byte	1,5,16,9
+	.half	.L235-.L234
+	.byte	3,1,1,5,23,9
+	.half	.L236-.L235
+	.byte	1,5,16,9
+	.half	.L18-.L236
+	.byte	3,2,1,5,3,9
+	.half	.L237-.L18
+	.byte	1,5,18,7,9
+	.half	.L238-.L237
+	.byte	3,2,1,5,20,9
+	.half	.L102-.L238
 	.byte	1,5,22,9
 	.half	.L19-.L102
 	.byte	3,5,1,5,4,9
@@ -37791,197 +37808,197 @@ __core0_main_function_end:
 	.byte	1,5,14,7,9
 	.half	.L104-.L103
 	.byte	3,2,1,5,21,9
-	.half	.L236-.L104
+	.half	.L239-.L104
 	.byte	1,5,5,9
-	.half	.L237-.L236
-	.byte	3,1,1,5,17,9
-	.half	.L238-.L237
-	.byte	1,5,16,9
-	.half	.L239-.L238
-	.byte	1,5,23,9
 	.half	.L240-.L239
+	.byte	3,1,1,5,17,9
+	.half	.L241-.L240
+	.byte	1,5,16,9
+	.half	.L242-.L241
+	.byte	1,5,23,9
+	.half	.L243-.L242
 	.byte	3,127,1,5,19,9
-	.half	.L21-.L240
+	.half	.L21-.L243
 	.byte	3,5,1,5,16,9
 	.half	.L20-.L21
 	.byte	3,3,1,5,3,9
-	.half	.L241-.L20
+	.half	.L244-.L20
 	.byte	1,5,17,7,9
-	.half	.L242-.L241
+	.half	.L245-.L244
 	.byte	3,2,1,5,19,9
-	.half	.L106-.L242
+	.half	.L106-.L245
 	.byte	1,5,21,9
 	.half	.L23-.L106
 	.byte	3,4,1,5,4,9
-	.half	.L243-.L23
+	.half	.L246-.L23
 	.byte	1,5,14,9
-	.half	.L244-.L243
-	.byte	3,2,1,5,21,9
-	.half	.L245-.L244
-	.byte	1,5,5,9
-	.half	.L246-.L245
-	.byte	3,1,1,5,17,9
 	.half	.L247-.L246
+	.byte	3,2,1,5,21,9
+	.half	.L248-.L247
+	.byte	1,5,5,9
+	.half	.L249-.L248
+	.byte	3,1,1,5,17,9
+	.half	.L250-.L249
 	.byte	1,5,16,9
-	.half	.L108-.L247
+	.half	.L108-.L250
 	.byte	1,5,23,9
-	.half	.L248-.L108
+	.half	.L251-.L108
 	.byte	3,127,1,5,18,9
-	.half	.L25-.L248
+	.half	.L25-.L251
 	.byte	3,5,1,5,15,9
 	.half	.L24-.L25
 	.byte	3,3,1,5,3,9
-	.half	.L249-.L24
+	.half	.L252-.L24
 	.byte	1,5,13,7,9
-	.half	.L250-.L249
-	.byte	3,2,1,5,14,9
-	.half	.L251-.L250
-	.byte	3,1,1,5,21,9
-	.half	.L252-.L251
-	.byte	1,5,26,9
 	.half	.L253-.L252
-	.byte	1,5,29,9
+	.byte	3,2,1,5,14,9
 	.half	.L254-.L253
-	.byte	1,5,14,9
+	.byte	3,1,1,5,21,9
 	.half	.L255-.L254
-	.byte	3,1,1,5,21,9
+	.byte	1,5,26,9
 	.half	.L256-.L255
-	.byte	1,5,26,9
+	.byte	1,5,29,9
 	.half	.L257-.L256
-	.byte	1,5,29,9
+	.byte	1,5,14,9
 	.half	.L258-.L257
-	.byte	1,5,14,9
+	.byte	3,1,1,5,21,9
 	.half	.L259-.L258
-	.byte	3,1,1,5,21,9
+	.byte	1,5,26,9
 	.half	.L260-.L259
-	.byte	1,5,26,9
+	.byte	1,5,29,9
 	.half	.L261-.L260
-	.byte	1,5,29,9
-	.half	.L262-.L261
 	.byte	1,5,14,9
-	.half	.L263-.L262
+	.half	.L262-.L261
 	.byte	3,1,1,5,21,9
-	.half	.L264-.L263
+	.half	.L263-.L262
 	.byte	1,5,26,9
-	.half	.L265-.L264
+	.half	.L264-.L263
 	.byte	1,5,29,9
+	.half	.L265-.L264
+	.byte	1,5,14,9
 	.half	.L266-.L265
-	.byte	1,5,20,9
-	.half	.L6-.L266
-	.byte	3,169,127,1,5,31,9
-	.half	.L267-.L6
-	.byte	3,219,0,1,5,3,9
-	.half	.L29-.L267
-	.byte	3,2,1,5,33,9
-	.half	.L268-.L29
-	.byte	1,5,13,9
+	.byte	3,1,1,5,21,9
+	.half	.L267-.L266
+	.byte	1,5,26,9
+	.half	.L268-.L267
+	.byte	1,5,29,9
 	.half	.L269-.L268
-	.byte	1,5,12,9
-	.half	.L270-.L269
-	.byte	3,1,1,5,41,9
-	.half	.L271-.L270
-	.byte	1,5,39,9
+	.byte	1,5,20,9
+	.half	.L6-.L269
+	.byte	3,169,127,1,5,31,9
+	.half	.L270-.L6
+	.byte	3,219,0,1,5,3,9
+	.half	.L29-.L270
+	.byte	3,2,1,5,33,9
+	.half	.L271-.L29
+	.byte	1,5,13,9
 	.half	.L272-.L271
 	.byte	1,5,12,9
 	.half	.L273-.L272
-	.byte	3,2,1,5,29,9
+	.byte	3,1,1,5,41,9
 	.half	.L274-.L273
-	.byte	1,5,12,9
+	.byte	1,5,39,9
 	.half	.L275-.L274
-	.byte	3,1,1,5,29,9
+	.byte	1,5,12,9
 	.half	.L276-.L275
-	.byte	1,5,15,9
+	.byte	3,2,1,5,29,9
 	.half	.L277-.L276
-	.byte	3,1,1,5,32,9
+	.byte	1,5,12,9
 	.half	.L278-.L277
-	.byte	1,5,15,9
+	.byte	3,1,1,5,29,9
 	.half	.L279-.L278
-	.byte	3,1,1,5,32,9
+	.byte	1,5,15,9
 	.half	.L280-.L279
-	.byte	1,5,6,9
+	.byte	3,1,1,5,32,9
 	.half	.L281-.L280
-	.byte	3,2,1,5,12,9
+	.byte	1,5,15,9
 	.half	.L282-.L281
-	.byte	1,5,3,9
+	.byte	3,1,1,5,32,9
 	.half	.L283-.L282
-	.byte	1,5,23,7,9
+	.byte	1,5,6,9
 	.half	.L284-.L283
+	.byte	3,2,1,5,12,9
+	.half	.L285-.L284
+	.byte	1,5,3,9
+	.half	.L286-.L285
+	.byte	1,5,23,7,9
+	.half	.L287-.L286
 	.byte	3,2,1,5,25,9
-	.half	.L113-.L284
+	.half	.L113-.L287
 	.byte	1,5,22,9
 	.half	.L30-.L113
 	.byte	3,2,1,5,3,9
 	.half	.L31-.L30
 	.byte	3,1,1,5,22,7,9
-	.half	.L285-.L31
+	.half	.L288-.L31
 	.byte	3,1,1,5,31,9
-	.half	.L28-.L285
+	.half	.L28-.L288
 	.byte	3,112,1,5,44,7,9
-	.half	.L286-.L28
+	.half	.L289-.L28
 	.byte	3,18,1,5,3,9
-	.half	.L34-.L286
+	.half	.L34-.L289
 	.byte	3,2,1,5,31,9
-	.half	.L287-.L34
+	.half	.L290-.L34
 	.byte	1,5,12,9
-	.half	.L288-.L287
+	.half	.L291-.L290
 	.byte	1,9
-	.half	.L289-.L288
-	.byte	3,1,1,5,39,9
-	.half	.L290-.L289
-	.byte	1,5,38,9
-	.half	.L114-.L290
-	.byte	1,5,12,9
-	.half	.L291-.L114
-	.byte	3,2,1,5,29,9
 	.half	.L292-.L291
-	.byte	1,5,15,9
+	.byte	3,1,1,5,39,9
 	.half	.L293-.L292
-	.byte	3,1,1,5,32,9
-	.half	.L294-.L293
-	.byte	1,5,15,9
+	.byte	1,5,38,9
+	.half	.L114-.L293
+	.byte	1,5,12,9
+	.half	.L294-.L114
+	.byte	3,2,1,5,29,9
 	.half	.L295-.L294
-	.byte	3,1,1,5,32,9
-	.half	.L296-.L295
 	.byte	1,5,15,9
-	.half	.L297-.L296
+	.half	.L296-.L295
 	.byte	3,1,1,5,32,9
+	.half	.L297-.L296
+	.byte	1,5,15,9
 	.half	.L298-.L297
-	.byte	1,5,6,9
+	.byte	3,1,1,5,32,9
 	.half	.L299-.L298
-	.byte	3,1,1,5,12,9
+	.byte	1,5,15,9
 	.half	.L300-.L299
-	.byte	1,5,3,9
+	.byte	3,1,1,5,32,9
 	.half	.L301-.L300
-	.byte	1,5,18,7,9
+	.byte	1,5,6,9
 	.half	.L302-.L301
+	.byte	3,1,1,5,12,9
+	.half	.L303-.L302
+	.byte	1,5,3,9
+	.half	.L304-.L303
+	.byte	1,5,18,7,9
+	.half	.L305-.L304
 	.byte	3,2,1,5,20,9
-	.half	.L115-.L302
+	.half	.L115-.L305
 	.byte	1,5,19,9
 	.half	.L35-.L115
 	.byte	3,2,1,5,3,9
 	.half	.L36-.L35
 	.byte	3,1,1,5,14,7,9
-	.half	.L303-.L36
+	.half	.L306-.L36
 	.byte	3,2,1,5,8,9
-	.half	.L33-.L303
+	.half	.L33-.L306
 	.byte	3,112,1,5,41,9
-	.half	.L304-.L33
+	.half	.L307-.L33
 	.byte	1,5,22,7,9
-	.half	.L38-.L304
+	.half	.L38-.L307
 	.byte	3,19,1,5,3,9
 	.half	.L40-.L38
 	.byte	3,3,1,5,31,9
-	.half	.L305-.L40
+	.half	.L308-.L40
 	.byte	1,5,12,9
-	.half	.L306-.L305
+	.half	.L309-.L308
 	.byte	1,5,10,9
-	.half	.L307-.L306
+	.half	.L310-.L309
 	.byte	3,1,1,5,22,9
-	.half	.L39-.L307
+	.half	.L39-.L310
 	.byte	3,124,1,5,1,7,9
-	.half	.L308-.L39
+	.half	.L311-.L39
 	.byte	3,6,1,7,9
-	.half	.L51-.L308
+	.half	.L51-.L311
 	.byte	0,1,1
 .L123:
 	.sdecl	'.debug_ranges',debug,cluster('core0_main')
@@ -38116,7 +38133,7 @@ __core0_main_function_end:
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L309:
+.L312:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
@@ -38124,7 +38141,7 @@ __core0_main_function_end:
 	.sdecl	'.debug_frame',debug,cluster('core0_main')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L309,.L42,.L52-.L42
+	.word	.L312,.L42,.L52-.L42
 	.byte	4
 	.word	(.L54-.L42)/2
 	.byte	19,24,22,26,3,19,138,24,4

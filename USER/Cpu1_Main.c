@@ -184,6 +184,8 @@ void searchline_image(uint8 *p)	//图像处理
 	uint8 right_non[MT9V03X_H];              //右边是否未检测到边线,默认有未检测到边线则为0，反之为1
 	uint8 count_left_non=0;               //左边有几次未检测到边线
 	uint8 count_right_non=0;              //右边有几次未检测到边线
+	uint8 count_righthuandao_left_non=0;               //左边有几次未检测到边线
+	uint8 count_righthuandao_right_non=0;              //右边有几次未检测到边线
 	uint8 count_right_exist=0;              //右边有几次检测到边线
 	uint8 count_left_non1=0;               //左边有几次未检测到边线
 	uint8 count_right_non1=0;              //右边有几次未检测到边线
@@ -352,17 +354,61 @@ void searchline_image(uint8 *p)	//图像处理
     	Cur_Offset= Midx[CurL];
     }//	endfor
 
-	if(in_huandao==1 && timecounter>40 && out_begin==1)  //出环岛
+	if(in_right_huandao==1 && timecounter>50 && out_right_begin==1)  //右出环岛
 	{
+		gpio_init(P20_8, GPO, 1, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
+		gpio_init(P20_9, GPO, 0, PUSHPULL);
+		gpio_init(P21_4, GPO, 0, PUSHPULL);
+		gpio_init(P21_5, GPO, 0, PUSHPULL);
+		count_righthuandao_right_non=0;
+		count_righthuandao_left_non=0;
+		for(int t=10; t<50; t++)	//出环岛边线条件
+		{
+			if(right_non[t]==0)
+			    count_righthuandao_right_non++;
+			if(left_non[t]==0)
+			    count_righthuandao_left_non++;
+			//if(right_non[t]==1 && t>MT9V03X_H-32)
+			//  count_right_exist++;
+		}
+    	if(count_righthuandao_left_non>=27 && count_righthuandao_right_non>=27&&(count_righthuandao_left_non-count_righthuandao_right_non<10||count_righthuandao_left_non-count_righthuandao_right_non>-10))//检测是否出环岛，首先满足左右没有边线的条件
+		{
+			black_count=0;
+			for(i=20;i<100;i++)     //找底线
+			{
+				for(j=0;j<30;j++)
+				{
+					if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+					{
+						black_count++;
+						break;
+					}
+				}
+			}
+			if(black_count>74&&timecounter>10)	//还要满足找到底线的条件
+			{
+				time_count_flag=0;
+				out_right_huandao=1;
+				out_right_begin=0;//出了环岛之后就不要再判断是否出环岛
+				gpio_init(P20_8, GPO, 1, PUSHPULL);//设置P20_8为输出 默认输出低电平  PUSHPULL：推挽输出
+				gpio_init(P20_9, GPO, 1, PUSHPULL);
+				gpio_init(P21_4, GPO, 0, PUSHPULL);
+				gpio_init(P21_5, GPO, 0, PUSHPULL);
+			}
+		}
+	}
+	if(in_huandao==1 && timecounter>50 && out_begin==1)  //左出环岛
+	{
+		count_right_non=0;
+		count_left_non=0;
 		for(int t=10; t<50; t++)	//出环岛边线条件
 		{
 			if(right_non[t]==0)
 			    count_right_non++;
 			if(left_non[t]==0)
 			    count_left_non++;
-			//if(right_non[t]==1 && t>MT9V03X_H-32)
-			//  count_right_exist++;
 		}
+		black_count=0;
     	if(count_left_non>=27 && count_right_non>=27&&(count_left_non-count_right_non<5||count_left_non-count_right_non>-5))//检测是否出环岛，首先满足左右没有边线的条件
 		{
 			for(i=20;i<100;i++)     //找底线
@@ -383,27 +429,10 @@ void searchline_image(uint8 *p)	//图像处理
 				out_begin=0;//出了环岛之后就不要再判断是否出环岛
 			}
 		}
-	
 	}
-
 	//进环岛判定
     if(in_huandao==0)
-    {    FitCur_A=0;
-    	FitCur_B=0;
-    	FitCur_C=0;
-    	FitCur_D=0;
-		FitCur_E=0;
-//		int m=MT9V03X_H-20;
-/*    	for(i=MT9V03X_H-30;i>=13;i--)
-    	{
-    		FitCur_A=FitCur_A+i;                        //sum yi
-    		FitCur_B=FitCur_B+Lx[i];                    //sum xi
-    		FitCur_C=FitCur_C+i*Lx[i];                  //sum xiyi
-    		FitCur_D=FitCur_D+Lx[i]*Lx[i];              //sum xi^2
-    		FitCur_E=FitCur_E+i*i;                      //sum yi^2
-    	}
-		r=(double)(FitCur_C-FitCur_A*FitCur_B/m)/sqrt((FitCur_D-FitCur_B*FitCur_B/m)*(FitCur_E-FitCur_A*FitCur_A/m));
-*/
+    {   
 		for(CurL = MT9V03X_H-1; CurL >= Start; --CurL)
 	   {
 		   Rx2[CurL]=Rx[CurL];
@@ -439,10 +468,11 @@ void searchline_image(uint8 *p)	//图像处理
 				count_right_non++;
 		}
 		//从上往下到开始没有黑线的点的个数
+		count_right_non2=0;
         for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
         {
-			if(Rx[CurL]>=17)
-				count_right_non2++;
+			if(Rx[CurL]>=20)
+				count_right_non2++;  
 		}
         count_left_non=0;
 		//右边有线
@@ -451,7 +481,7 @@ void searchline_image(uint8 *p)	//图像处理
         	if(Lx[CurL]<MT9V03X_W-2)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=20&&noroad_ahead_count<37&&count_left_non>=28)
+		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
         {
 			in_huandao=1;
 			out_begin=1;
@@ -459,7 +489,69 @@ void searchline_image(uint8 *p)	//图像处理
 			timecounter=0;
         }
     }
+
+	//进右环岛判定
+    if(in_right_huandao==0)
+    {  
+		for(CurL = MT9V03X_H-1; CurL >= Start; --CurL)
+	    {
+		   Rx2[CurL]=Rx[CurL];
+		   Lx2[CurL]=Lx[CurL];
+	    }
+	   //前面有路
+		uint8 noroad_ahead_count=0;
+		for(i=20; i<100; i++)
+	    {
+		  	for(j=30; j<62; j++)
+		  	{
+		  		if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j + 1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+		  	    {
+		  			noroad_ahead_count++;
+		  			break;
+		  		}
+			}
+		}
+		turning_point1=0;
+		for( CurL = Start; CurL <MT9V03X_H; ++CurL)//从上往下右边第一个没有黑线
+        {
+			if(Lx[CurL]==MT9V03X_W-1)
+			{
+				turning_point1=CurL;
+				break;
+			}
+		}
+		count_right_non=0;
+		//从右边没有黑线往下扫都是没有黑线个数
+		for(CurL = turning_point1; CurL <=MT9V03X_H-1; ++CurL)//都是0
+        {
+			if(Lx[CurL]==MT9V03X_W-1)
+				count_right_non++;
+		}
+		//右边从上往下到开始没有黑线的点的个数
+		count_right_non2=0;
+        for( CurL = Start; CurL < turning_point1; ++CurL)//大于10
+        {
+			if(Lx[CurL]<=MT9V03X_W-21)
+				count_right_non2++;
+		}
+        count_left_non=0;
+		//左边有线
+        for( CurL = 0; CurL <= 35; ++CurL)
+        {
+        	if(Rx[CurL]>0)
+        		count_left_non++;
+        }
+		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
+        {
+			
+			in_right_huandao=1;
+			out_right_begin=1;
+			time_count_flag=1;
+			timecounter=0;
+        }
+    }
 	//十字路口
+	count_lr_non=0;
     for(CurL = 20; CurL <= 45; ++CurL )
 	{
 		int right_flag;
@@ -502,52 +594,70 @@ void searchline_image(uint8 *p)	//图像处理
 	{
 		int right_flag;
 		int left_flag;
+		uint16 road_count=0;
 		CurPoint = Cur_Offset;
-	    for( CurL = Start; CurL <=  MT9V03X_H; ++CurL )
-	    {
-		    while ( CurPoint > 0 )         //扫描原始右边界
-    		{
-    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+		for(i=10; i<120; i++)
+		{
+			for(j=0;j<22;j++)
+			{
+				if(*(p + j * MT9V03X_W + i) < whiteRoad)
+					break;
+			}
+			if(j==22) road_count++;
+		}
+		if(road_count>=35)
+		{
+		    for( CurL = Start; CurL <=  MT9V03X_H; ++CurL )
+	    	{
+			    while ( CurPoint > 0 )         //扫描原始右边界
     			{
-    				Rx[CurL] = CurPoint;
-    		        right_flag = 1;
-    				break;
+    				if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )      // 找到左边界  并且进行去噪
+    				{
+    					Rx[CurL] = CurPoint;
+    			        right_flag = 1;
+    					break;
+    				}
+    		  		else
+    		  		{//没找到
+    		  			-- CurPoint;
+    		  			right_flag = 0;
+    				}
     			}
-    	  		else
-    	  		{//没找到
-    	  			-- CurPoint;
-    	  			right_flag = 0;
-    			}
-    		}
-    		CurPoint = Cur_Offset;
+    			CurPoint = Cur_Offset;
 
-    		while ( CurPoint < MT9V03X_W )     //扫描原始左边界
-    		{
-    			if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+    			while ( CurPoint < MT9V03X_W )     //扫描原始左边界
     			{
-    				Lx[CurL] = CurPoint;
-    				left_flag=1;
-    				break;
+    				if ( *(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
+    				{
+    					Lx[CurL] = CurPoint;
+    					left_flag=1;
+    					break;
+    				}
+    		   		else
+    		  		{//没找到
+    		   			++CurPoint;
+    		   			left_flag=0;
+    			  	}
     			}
-    	   		else
-    	  		{//没找到
-    	   			++CurPoint;
-    	   			left_flag=0;
-    		  	}
-    		}
-			Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
-			if((right_flag == 0||left_flag==0)&&count_mid_flag==0)
-			{
-				Midx[CurL]=Midx[CurL-3];
-				count_mid_flag=1;
-			}
-			if((right_flag == 0||left_flag==0)&&count_mid_flag==1)
-			{
-				Midx[CurL]=Midx[CurL-1];
-			}
-    	    Cur_Offset= Midx[CurL];
-	    }
-}
+				Midx[CurL]	= (Lx[CurL] + Rx[CurL]) >> 1;
+				if((right_flag == 0||left_flag==0)&&count_mid_flag==0)
+				{
+					if(Lx[CurL] - Lx[CurL-1]>9||Lx[CurL] - Lx[CurL-1]<-9||Rx[CurL] - Rx[CurL-1]>9||Rx[CurL] - Rx[CurL-1]<-9)
+					{
+						Midx[CurL]=Midx[CurL-3];
+						count_mid_flag=1;					
+					}
+
+				}
+				if((right_flag == 0||left_flag==0)&&count_mid_flag==1)
+				{
+					Midx[CurL]=Midx[CurL-1];
+				}
+    		    Cur_Offset= Midx[CurL];
+	    	}
+		}
+
+	}
 }
 
 

@@ -97,7 +97,7 @@ void core0_main(void)
 		if(lowcount>200&&gpio_proc_flag==0)
 		{
 			speed_gear++;
-			if(speed_gear>3) speed_gear=0;
+			if(speed_gear>4) speed_gear=0;
 			gpio_proc_flag=1;
 		}
 		if(speed_gear==0)
@@ -123,6 +123,12 @@ void core0_main(void)
 			gpio_set(P21_5, 1);
 			gpio_set(P20_8, 0);
 		    gpio_set(P20_9, 0);
+		}
+		if(speed_gear==4)
+		{
+			gpio_set(P21_5, 0);
+			gpio_set(P20_8, 1);
+		    gpio_set(P20_9, 1);
 		}
 		if (gpio_get(P33_9))
 		{

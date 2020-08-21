@@ -3837,14 +3837,14 @@ searchline_image:	.type	func
 .L497:
 
 ; ..\USER\Cpu1_Main.c	   483          }
-; ..\USER\Cpu1_Main.c	   484  		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
+; ..\USER\Cpu1_Main.c	   484  		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=21&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
 	rsub	d15,d6,#64
 .L498:
 	add	d15,#-3
 .L1004:
 	jlt	d1,d15,.L162
 .L1005:
-	mov	d15,#20
+	mov	d15,#21
 .L499:
 	jlt.u	d15,d6,.L163
 .L500:
@@ -3858,7 +3858,7 @@ searchline_image:	.type	func
 .L1009:
 	jlt.u	d1,d15,.L166
 .L1010:
-	mov	d15,#37
+	mov	d15,#40
 .L1011:
 	jge.u	d3,d15,.L167
 .L1012:
@@ -4203,14 +4203,14 @@ searchline_image:	.type	func
 .L1082:
 
 ; ..\USER\Cpu1_Main.c	   543          }
-; ..\USER\Cpu1_Main.c	   544  		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
+; ..\USER\Cpu1_Main.c	   544  		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=22 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
 	rsub	d15,d5,#64
 .L1083:
 	add	d15,#-3
 .L1084:
 	jlt	d2,d15,.L193
 .L1085:
-	mov	d15,#20
+	mov	d15,#22
 .L1086:
 	jlt.u	d15,d5,.L194
 .L1087:
@@ -4224,7 +4224,7 @@ searchline_image:	.type	func
 .L1090:
 	jlt.u	d2,d15,.L197
 .L1091:
-	mov	d15,#37
+	mov	d15,#40
 .L1092:
 	jge.u	d3,d15,.L198
 .L1093:

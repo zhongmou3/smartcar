@@ -481,7 +481,7 @@ void searchline_image(uint8 *p)	//图像处理
         	if(Lx[CurL]<MT9V03X_W-2)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
+		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=21&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
         {
 			in_huandao=1;
 			out_begin=1;
@@ -541,7 +541,7 @@ void searchline_image(uint8 *p)	//图像处理
         	if(Rx[CurL]>0)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=20 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<37&&count_left_non>=28)
+		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=22 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
         {
 			
 			in_right_huandao=1;

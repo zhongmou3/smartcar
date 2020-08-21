@@ -97,6 +97,19 @@ int degree_calculation(void)
    	        ExcursionValue = ExcursionValue + (Midx[53-i] - 63.5);	//用差分法求解总偏移值， 63.5为希望车在赛道所处的位置
    	    }
     }
+	if(speed_gear==4)
+	{
+	   	for (i = 1; i <= 17; i++ )
+	    {
+	      	if((Midx[45-i] - Midx[45-i-1] < 6) && (Midx[45-i] - Midx[45-i-1] > -6))
+	          	InclineValue = InclineValue + (Midx[45-i] - Midx[45-i-2]);	//用差分方法求解中线倾斜度
+	    }
+	   	//偏移量计算
+	   	for ( i = 1; i <= 17; i++ )
+	   	{
+	   	    ExcursionValue = ExcursionValue + (Midx[51-i] - 63.5);	//用差分法求解总偏移值， 63.5为希望车在赛道所处的位置
+	   	}
+	}
     for (i=1;i<6;i++)	//检测是否冲出赛道
     {
     	sum_out += Midx[MT9V03X_H-i];
@@ -137,11 +150,10 @@ int degree_calculation(void)
     //ExcursionValueCoeff=2;
     if(speed_gear==0)
     {
-    	if (speed>1000&&AbsInclineValue>20) speed_fact=(double)(speed*0.00008+1);
-    	else speed_fact=1;
-    	if(AbsInclineValue>17) InclineValueCoeff=0.85;
-   		else InclineValueCoeff=0.1;
-   	    cardegree = (int)(InclineValue*speed_fact*InclineValueCoeff - 0.1*ExcursionValue);
+		if(AbsInclineValue>25) InclineValueCoeff=0.9;
+      	if(AbsInclineValue>12&&AbsInclineValue<=25) InclineValueCoeff=0.4;
+    	if(AbsInclineValue<=12)InclineValueCoeff=0.1;
+   	    cardegree = (int)(InclineValue*InclineValueCoeff - 0.1*ExcursionValue);
    	    if (cardegree>88) cardegree=88;
    	    if (cardegree<-88) cardegree=-88;
    	    if (left_out_flag == 1)
@@ -183,6 +195,29 @@ int degree_calculation(void)
        	else speed_fact=1;
     	//speed_fact=1;
        	if(AbsInclineValue>30) InclineValueCoeff=1.3;
+		if(AbsInclineValue>20&&AbsInclineValue<=30) InclineValueCoeff=0.8;
+      	if(AbsInclineValue>12&&AbsInclineValue<=20) InclineValueCoeff=0.4;
+    	if(AbsInclineValue<=12)InclineValueCoeff=0.1;
+        cardegree = (int)(InclineValue*speed_fact*InclineValueCoeff - 0.1*ExcursionValue);
+        if (cardegree>88) cardegree=88;
+        if (cardegree<-88) cardegree=-88;
+        if (left_out_flag == 1)
+        {
+        	cardegree = cardegree + 90;
+        	if(cardegree>95) cardegree = 95;
+        }
+        if (right_out_flag == 1)
+        {
+           	cardegree = cardegree - 90;
+         	if(cardegree>95) cardegree = -95;
+        }
+    }
+    if(speed_gear==4)
+    {
+       	if (speed>1000&&AbsInclineValue>22) speed_fact=(double)(speed*0.000062+1);
+       	else speed_fact=1;
+    	//speed_fact=1;
+       	if(AbsInclineValue>30) InclineValueCoeff=1.32;
 		if(AbsInclineValue>20&&AbsInclineValue<=30) InclineValueCoeff=0.8;
       	if(AbsInclineValue>12&&AbsInclineValue<=20) InclineValueCoeff=0.4;
     	if(AbsInclineValue<=12)InclineValueCoeff=0.1;
@@ -267,6 +302,19 @@ int speedctrl_calculation(int degree)
 		else
 			set_speed=3400;
 	}
+	if(speed_gear==4)
+	{
+		if(speed_limit_flag==1)
+		{
+			set_speed = speed_limit_value;
+		}
+		else if(degree<=20)
+		set_speed = 4200;
+		else if(degree<=70)
+			set_speed=4200-8*(degree-20);
+		else
+			set_speed=3800;
+	}
 	ek2 = ek1;//保存上上次误差
 	ek1 = ek; //保存上次误差
 	ek = set_speed - speed;//计算当前误差
@@ -329,8 +377,8 @@ int speedctrl_calculation(int degree)
 	out_increment = (int16)(kp*(ek-ek1) + ki*ek + kd*(ek-2*ek1+ek2));  //计算增量
 	out = out + out_increment;       //输出增量
 
-	if(out>4000) out = 4000;     //输出限幅 不能超过占空比最大值
-	if(out<-4000) out = -4000;
+	if(out>4400) out = 4400;     //输出限幅 不能超过占空比最大值
+	if(out<-4400) out = -4400;
 	speedctrl = (int)out;    //强制转换为整数后赋值给电机占空比变量
 	return speedctrl;
 }
@@ -356,6 +404,8 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 {
 	int speedctrl;      //后轮电机PWM占空比(正向)
 	int speedctrl2;
+	int speedctrlL;
+	int speedctrlR;
 	int speedctrl2L;		//倒转
 	int speedctrl2R;		//倒转
 	double xishu=0.1;                             	//后轮差速系数值
@@ -474,6 +524,16 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     				pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-1.03*xishu));		//右后
     				pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+1.03*xishu));		//左后
     			}
+				if(speed_gear==4)
+    			{
+    				pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
+    				//改变电机占空比
+    				xishu = rear_diff(degree);
+    				pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-1.07*xishu));	//右前
+    				pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+1.07*xishu));	//左前
+    				pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-1.07*xishu));		//右后
+    				pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+1.07*xishu));		//左后
+    			}
 			}
 			//systick_delay_ms(STM1, 200);
 			//mt9v03x_init();	//初始化摄像头
@@ -571,6 +631,16 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     				pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-1.03*xishu));		//右后
     				pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+1.03*xishu));		//左后
     			}
+				if(speed_gear==4)
+    			{
+    				pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
+    				//改变电机占空比
+    				xishu = rear_diff(degree);
+    				pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-1.06*xishu));	//右前
+    				pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+1.06*xishu));	//左前
+    				pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-1.06*xishu));		//右后
+    				pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+1.06*xishu));		//左后
+    			}
 			}
 			//systick_delay_ms(STM1, 200);
 			//mt9v03x_init();	//初始化摄像头
@@ -583,8 +653,10 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 			}
 		}
 	}
-	else if(in_huandao==1&&in_huandao_end==0)
+	else if((in_huandao==1&&in_huandao_end==0)||(in_right_huandao==1&&in_right_huandao_end==0))
 	{
+		if(in_right_huandao==1) degree = -75;
+		else if(in_huandao==1) degree = 75;
 		//改变电机占空比
 		if(speed_gear<=1)
 		{
@@ -601,10 +673,14 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 			in_huandao_time=30;
 			set_huandao_speed=2700;
 		}
-		degree = 80;
+		else if(speed_gear==4)
+		{
+			in_huandao_time=30;
+			set_huandao_speed=3000;
+		}
 		speed_limit_flag=1;
 		speed_limit_value=set_huandao_speed;
-		int ideal_speedctrl = speedctrl_calculation(80);
+		int ideal_speedctrl = speedctrl_calculation(degree);
 		if(ideal_speedctrl<0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
 		else {speedctrl = ideal_speedctrl; speedctrl2 = 0;}
 		if(time_count_flag==0)
@@ -613,65 +689,24 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
 			time_count_flag=1;
 			timecounter=0;
 		}
-		xishu = rear_diff(80);
+		xishu = rear_diff(degree);
 		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
 		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
 		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
 		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+80);
+		pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
 		if(timecounter==in_huandao_time)
 		{
-			//time_count_flag=0;
-			speed_limit_flag=0;
-			in_huandao_end=1;
-			//control_in_huandao_flag=0;
-		}	
-	}
-	else if(in_right_huandao==1&&in_right_huandao_end==0)
-	{
-		//改变电机占空比
-		if(speed_gear<=1)
-		{
-			in_huandao_time=40;
-			set_huandao_speed=2300;
-		}
-		else if(speed_gear==2)
-		{
-			in_huandao_time=30;
-			set_huandao_speed=2500;
-		}
-		else if(speed_gear==3)
-		{
-			in_huandao_time=30;
-			set_huandao_speed=2700;
-		}
-		degree = -80;
-		speed_limit_flag=1;
-		speed_limit_value=set_huandao_speed;
-		int ideal_speedctrl = speedctrl_calculation(-80);
-		if(ideal_speedctrl<0){speedctrl = 0; speedctrl2 = -ideal_speedctrl;}
-		else {speedctrl = ideal_speedctrl; speedctrl2 = 0;}
-		if(time_count_flag==0)
-		{
-			//pwm_duty(ATOM3_CH1_P33_5, 5000);
-			//control_in_huandao_flag=1;
-			time_count_flag=1;
-			timecounter=0;
-		}
-		xishu = rear_diff(-80);
-		pwm_duty(ATOM0_CH4_P02_4, speedctrl*(1-0.91*xishu));	//右前
-		pwm_duty(ATOM0_CH7_P02_7, speedctrl*(1+0.91*xishu));	//左前
-		pwm_duty(ATOM0_CH6_P02_6, speedctrl2*(1-0.91*xishu));		//右后
-		pwm_duty(ATOM0_CH5_P02_5, speedctrl2*(1+0.91*xishu));		//左后
-		pwm_duty(ATOM1_CH2_P10_5, MID_STEER-80);
-
-		if(timecounter==in_huandao_time)
-		{
-			//time_count_flag=0;
-			speed_limit_flag=0;
-			in_right_huandao_end=1;
-			//pwm_duty(ATOM3_CH1_P33_5, 0);
-			//control_in_huandao_flag=0;
+			if(in_huandao==1)
+			{
+				speed_limit_flag=0;
+				in_huandao_end=1;
+			}
+			if(in_right_huandao==1)
+			{
+				speed_limit_flag=0;
+				in_right_huandao_end=1;
+			}
 		}	
 	}
 	else										//正常行驶
@@ -713,78 +748,173 @@ void rotate(int degree)                         //后轮差速以及速度分级+舵机电机P
     		    pwm_duty(ATOM0_CH6_P02_6, speedctrl2*1.03*(1-xishu));		//右后
     		    pwm_duty(ATOM0_CH5_P02_5, speedctrl2*1.03*(1+xishu));		//左后
     		}
+			else if(speed_gear==4)
+   			{
+   				pwm_duty(ATOM1_CH2_P10_5, MID_STEER+degree);
+   				//改变电机占空比
+   				xishu = rear_diff(degree);
+    		    pwm_duty(ATOM0_CH4_P02_4, speedctrl*1.06*(1-xishu));	//右前
+    		    pwm_duty(ATOM0_CH7_P02_7, speedctrl*1.06*(1+xishu));	//左前
+    		    pwm_duty(ATOM0_CH6_P02_6, speedctrl2*1.06*(1-xishu));		//右后
+    		    pwm_duty(ATOM0_CH5_P02_5, speedctrl2*1.06*(1+xishu));		//左后
+    		}
     	}
 		//遇斑马线转弯 
     	else									
-    	{
-			if(garage_flag==1)
+    	{	
+			int degree_1=0;
+			int degree_2=0;
+			if(speed_gear==1||speed_gear==0)
 			{
-				if(speed_gear==1||speed_gear==0)
+				if(garage_flag==1)
 				{
-					pwm_duty(ATOM0_CH4_P02_4, 800);	//右前
-    				pwm_duty(ATOM0_CH7_P02_7, 800);	//左前
-    				pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-    				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 100);
-					systick_delay_ms(STM1, 400);
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 30);
-					pwm_duty(ATOM0_CH4_P02_4, 400);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 400);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					systick_delay_ms(STM1, 100);
-					pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 400);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 400);		//左后
-					systick_delay_ms(STM1, 100);
-					mt9v03x_init();	//初始化摄像头
-					zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+					degree_1 = -100;
+					degree_2 = -30;
 				}
-				if(speed_gear==2)
+				if(garage_flag==2)
 				{
-					pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-    				pwm_duty(ATOM0_CH7_P02_7, 3000);	//左前
-    				pwm_duty(ATOM0_CH6_P02_6, 3000);		//右后
-    				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 90);
-					systick_delay_ms(STM1, 450);
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 30);
-					pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					systick_delay_ms(STM1, 100);
-					pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
-					systick_delay_ms(STM1, 100);
-					mt9v03x_init();	//初始化摄像头
-					zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+					degree_1 = 100;
+					degree_2 = 30;					
 				}
-				if(speed_gear==3)
+				pwm_duty(ATOM0_CH4_P02_4, 800);	//右前
+    			pwm_duty(ATOM0_CH7_P02_7, 800);	//左前
+    			pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+    			pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_1);
+				systick_delay_ms(STM1, 400);
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_2);
+				pwm_duty(ATOM0_CH4_P02_4, 400);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 400);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+				systick_delay_ms(STM1, 100);
+				pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 400);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 400);		//左后
+				systick_delay_ms(STM1, 100);
+				mt9v03x_init();	//初始化摄像头
+				zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+			}
+			if(speed_gear==2)
+			{
+				if(garage_flag==1)
 				{
-					pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-    				pwm_duty(ATOM0_CH7_P02_7, 3500);	//左前
-    				pwm_duty(ATOM0_CH6_P02_6, 3000);		//右后
-    				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 90);
-					systick_delay_ms(STM1, 450);
-					pwm_duty(ATOM1_CH2_P10_5, MID_STEER - 30);
-					pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
-					systick_delay_ms(STM1, 100);
-					pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
-					pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
-					pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
-					pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
-					systick_delay_ms(STM1, 100);
-					mt9v03x_init();	//初始化摄像头
-					zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+					degree_1 = -90;
+					degree_2 = -30;
+					speedctrlR=0;
+					speedctrlL=3000;
+					speedctrl2R=3000;
+					speedctrl2L=0;
 				}
+				if(garage_flag==2)
+				{
+					degree_1 = 90;
+					degree_2 = 30;
+					speedctrlR=3000;
+					speedctrlL=0;
+					speedctrl2R=0;
+					speedctrl2L=3000;										
+				}				
+				pwm_duty(ATOM0_CH4_P02_4, speedctrlR);	//右前
+    			pwm_duty(ATOM0_CH7_P02_7, speedctrlL);	//左前
+    			pwm_duty(ATOM0_CH6_P02_6, speedctrl2R);		//右后
+    			pwm_duty(ATOM0_CH5_P02_5, speedctrl2L);		//左后
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_1);
+				systick_delay_ms(STM1, 450);
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_2);
+				pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+				systick_delay_ms(STM1, 100);
+				pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
+				systick_delay_ms(STM1, 100);
+				mt9v03x_init();	//初始化摄像头
+				zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+			}
+			if(speed_gear==3)
+			{
+				if(garage_flag==1)
+				{
+					degree_1 = -90;
+					degree_2 = -30;
+					speedctrlR=0;
+					speedctrlL=3000;
+					speedctrl2R=3000;
+					speedctrl2L=0;
+				}
+				if(garage_flag==2)
+				{
+					degree_1 = 90;
+					degree_2 = 30;
+					speedctrlR=0;
+					speedctrlL=0;
+					speedctrl2R=500;
+					speedctrl2L=2800;
+				}				
+				pwm_duty(ATOM0_CH4_P02_4, speedctrlR);	//右前
+    			pwm_duty(ATOM0_CH7_P02_7, speedctrlL);	//左前
+    			pwm_duty(ATOM0_CH6_P02_6, speedctrl2R);		//右后
+    			pwm_duty(ATOM0_CH5_P02_5, speedctrl2L);		//左后
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_1);
+				systick_delay_ms(STM1, 300);
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_2);
+				pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+				systick_delay_ms(STM1, 100);
+				pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
+				systick_delay_ms(STM1, 100);
+				mt9v03x_init();	//初始化摄像头
+				zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
+			}
+			if(speed_gear==4)
+			{
+				if(garage_flag==1)
+				{
+					degree_1 = -90;
+					degree_2 = -30;
+					speedctrlR=0;
+					speedctrlL=0;
+					speedctrl2R=3000;
+					speedctrl2L=800;
+				}
+				if(garage_flag==2)
+				{
+					degree_1 = 90;
+					degree_2 = 30;
+					speedctrlR=0;
+					speedctrlL=0;
+					speedctrl2R=800;
+					speedctrl2L=3000;
+				}
+				pwm_duty(ATOM0_CH4_P02_4, speedctrlR);	//右前
+    			pwm_duty(ATOM0_CH7_P02_7, speedctrlL);	//左前
+    			pwm_duty(ATOM0_CH6_P02_6, speedctrl2R);		//右后
+    			pwm_duty(ATOM0_CH5_P02_5, speedctrl2L);		//左后
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_1);
+				systick_delay_ms(STM1, 300);
+				pwm_duty(ATOM1_CH2_P10_5, MID_STEER + degree_2);
+				pwm_duty(ATOM0_CH4_P02_4, 1000);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 1000);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 0);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 0);		//左后
+				systick_delay_ms(STM1, 100);
+				pwm_duty(ATOM0_CH4_P02_4, 0);	//右前
+				pwm_duty(ATOM0_CH7_P02_7, 0);	//左前
+				pwm_duty(ATOM0_CH6_P02_6, 700);		//右后
+				pwm_duty(ATOM0_CH5_P02_5, 700);		//左后
+				systick_delay_ms(STM1, 100);
+				mt9v03x_init();	//初始化摄像头
+				zebra_end_flag=1;		//斑马线转弯程序已结束，进入最后停车阶段
 			}
     	}
     }

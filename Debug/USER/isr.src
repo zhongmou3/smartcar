@@ -41269,13 +41269,13 @@ __uart3_er_isr_function_end:
 	.byte	'GPTN_enum',0,27,34,2
 	.word	42281
 	.byte	37
-	.byte	'speed',0,53,8,14
+	.byte	'speed',0,53,9,14
 	.word	39798
 	.byte	1,1,37
-	.byte	'time_count_flag',0,53,9,14
+	.byte	'time_count_flag',0,53,10,14
 	.word	614
 	.byte	1,1,37
-	.byte	'timecounter',0,53,10,15
+	.byte	'timecounter',0,53,11,15
 	.word	10495
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug

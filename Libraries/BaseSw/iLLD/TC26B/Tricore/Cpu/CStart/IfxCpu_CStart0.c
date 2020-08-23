@@ -204,7 +204,7 @@ void _Core0_start(void)
 
 void _START(void)
 {
-    __non_return_call(_Core0_start);
+																																																																																																																																																																																																																																												__non_return_call(_Core0_start);
 }
 
 

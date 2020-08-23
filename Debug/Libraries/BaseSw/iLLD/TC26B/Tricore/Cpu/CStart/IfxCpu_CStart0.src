@@ -8252,7 +8252,7 @@ ___Core0_start_function_end:
 _START:	.type	func
 
 ; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   206  {
-; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   207      __non_return_call(_Core0_start);
+; ..\Libraries\BaseSw\iLLD\TC26B\Tricore\Cpu\CStart\IfxCpu_CStart0.c	   207  																																																																																																																																																																																																																																												__non_return_call(_Core0_start);
 	movh.a	a15,#@his(_Core0_start)
 	lea	a15,[a15]@los(_Core0_start)
 		ji a15
@@ -20861,7 +20861,7 @@ BootModeHeader_1:	.type	object
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'..\\Libraries\\BaseSw\\iLLD\\TC26B\\Tricore\\Cpu\\CStart\\IfxCpu_CStart0.c',0,0,0,0,0
 .L313:
-	.byte	5,5,7,0,5,2
+	.byte	5,237,1,7,0,5,2
 	.word	.L38
 	.byte	3,206,1,1,5,1,9
 	.half	.L314-.L38

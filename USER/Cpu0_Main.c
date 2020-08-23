@@ -78,6 +78,10 @@ void core0_main(void)
 	int data;
 	while(menu_flag==1)
 	{
+		/*oled_int16(40, 2, speed);
+		oled_int16(40, 3, ek);
+		int16 ou16= (int16)out;
+		oled_int16(40, 4, ou16);*/
 		if(gpio_get(P33_8))//高电平,没按下
 		{
 			highcount++;
@@ -97,7 +101,7 @@ void core0_main(void)
 		if(lowcount>200&&gpio_proc_flag==0)
 		{
 			speed_gear++;
-			if(speed_gear>4) speed_gear=0;
+			if(speed_gear>5) speed_gear=0;
 			gpio_proc_flag=1;
 		}
 		if(speed_gear==0)
@@ -130,7 +134,25 @@ void core0_main(void)
 			gpio_set(P20_8, 1);
 		    gpio_set(P20_9, 1);
 		}
-		if (gpio_get(P33_9))
+		if(speed_gear==5)
+		{
+			gpio_set(P21_5, 0);
+			gpio_set(P20_8, 1);
+		    gpio_set(P20_9, 0);
+		}
+		if(speed_gear==6)
+		{
+			gpio_set(P21_5, 0);
+			gpio_set(P20_8, 0);
+		    gpio_set(P20_9, 1);
+		}
+		if(speed_gear==7)
+		{
+			gpio_set(P21_5, 0);
+			gpio_set(P20_8, 0);
+		    gpio_set(P20_9, 0);
+		}				
+		if (gpio_get(P33_11))
 		{
 			right_lowcount=0;
 		}
@@ -147,7 +169,7 @@ void core0_main(void)
 				right_lowcount++;
 			}
 		}
-		if (gpio_get(P33_11))
+		if (gpio_get(P33_9))
 		{
 			left_lowcount=0;
 		}

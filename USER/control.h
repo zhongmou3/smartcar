@@ -39,7 +39,7 @@ extern uint8 garage_flag;
 //extern uint8 startpre_count;
 
 
-#define MID_STEER 728   //舵机居中时对应的PWM值
+#define MID_STEER 755   //舵机居中时对应的PWM值
 //#define MAX_STEER 770
 //#define MIN_STEER 650
 #define H 0.2			//后轮差速系数值

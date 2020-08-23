@@ -57,7 +57,7 @@ int core1_main(void)
     		//摄像头通过中断读取到mt9v03x_image,128*64,首地址为mt9v03x_image[0]
     		//后期会提升像素。
     		//disableInterrupts();
-			whiteRoad = GetMeanThreshold(mt9v03x_image[0]);
+			whiteRoad = GetMeanThreshold_n(mt9v03x_image[0]);
     		//printf("white: %dms\n", whiteRoad);
 			searchline_image(mt9v03x_image[0]);
     		change_image(mt9v03x_image[0]);
@@ -104,6 +104,7 @@ int GetMeanThreshold(uint8 * p)	//计算灰度阈值
 			HistGram[i]++;
 		}
 	}
+
     int Sum = 0, Amount = 0;
     for (int Y = 0; Y < 256; Y++)
     {
@@ -111,6 +112,59 @@ int GetMeanThreshold(uint8 * p)	//计算灰度阈值
         Sum += Y * HistGram[Y];
     }
     return Sum / Amount;
+}
+
+int GetMeanThreshold_n(uint8 * p)	//计算灰度阈值
+{
+	int HistGram[256];//灰度图像的直方图
+	uint8 i=0;
+	for (int Y = 0; Y < 256; Y++)
+    {
+		HistGram[Y]=0;
+	}
+    for(int CurL=0;CurL<MT9V03X_H;CurL++)
+	{
+        for(int CurPoint=0;CurPoint<MT9V03X_W;CurPoint++)
+		{
+			i=*(p + CurL * MT9V03X_W + CurPoint);
+			HistGram[i]++;
+		}
+	}
+    int X, Iter = 0;
+    int MeanValueOne, MeanValueTwo, SumOne, SumTwo, SumIntegralOne, SumIntegralTwo;
+    int MinValue, MaxValue;
+    int Threshold, NewThreshold;
+
+    for (MinValue = 0; MinValue < 256 && HistGram[MinValue] == 0; MinValue++) ;
+    for (MaxValue = 255; MaxValue > MinValue && HistGram[MinValue] == 0; MaxValue--) ;
+
+    if (MaxValue == MinValue) return MaxValue;          // 图像中只有一个颜色
+    if (MinValue + 1 == MaxValue) return MinValue;      // 图像中只有二个颜色
+
+    Threshold = MinValue;
+    NewThreshold = (MaxValue + MinValue) >> 1;
+    while (Threshold != NewThreshold)    // 当前后两次迭代的获得阈值相同时，结束迭代
+    {
+        SumOne = 0; SumIntegralOne = 0;
+        SumTwo = 0; SumIntegralTwo = 0;
+        Threshold = NewThreshold;
+        for (X = MinValue; X <= Threshold; X++)         //根据阈值将图像分割成目标和背景两部分，求出两部分的平均灰度值
+        {
+            SumIntegralOne += HistGram[X] * X;
+            SumOne += HistGram[X];
+        }
+        MeanValueOne = SumIntegralOne / SumOne;
+        for (X = Threshold + 1; X <= MaxValue; X++)
+        {
+            SumIntegralTwo += HistGram[X] * X;
+            SumTwo += HistGram[X];
+        }
+        MeanValueTwo = SumIntegralTwo / SumTwo;
+        NewThreshold = (MeanValueOne + MeanValueTwo) >> 1;       //求出新的阈值
+        Iter++;
+        if (Iter >= 1000) return -1;
+    }
+    return Threshold;
 }
 void searchline_image(uint8 *p)	//图像处理
 {
@@ -199,18 +253,20 @@ void searchline_image(uint8 *p)	//图像处理
 	uint8 huandao_after=0;
 	uint8 huandao_before=0;
 	uint8 count_lr_non=0;
-
+	uint8 left_non_straight_flag=0;
+	uint8 zebra_ahead_count=0;
 	uint16 in_huandao1;
+	uint8 huandao_straight_count=0;
 	if (zebra_end_flag==1)		//斑马线处理完毕，找底线
 	{
 		uint8 stop_count=0;
 		//uint8 i;
 		//uint8 j;
-		for(i=40; i<90; i++)
+		for(i=30; i<98; i++)
 		{
 			for(j=10;j<62;j++)
 			{
-				if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+				if(*(p + j * MT9V03X_W + i)  < whiteRoad)
 				{
 					stop_count++;
 					break;
@@ -218,7 +274,7 @@ void searchline_image(uint8 *p)	//图像处理
 			}
 		}
 		//printf("stop_count: %d\n", stop_count);
-		if (stop_count > 40)
+		if (stop_count > 45)
 			stop_flag = 1;
 		else
 		{
@@ -226,38 +282,47 @@ void searchline_image(uint8 *p)	//图像处理
 		}
 	}
 	//找中线
+    for(i=20;i<100;i++)
+    {
+        for(j=20;j>0;j--)
+    	{
+    	    if(*(p + j * MT9V03X_W + i) < whiteRoad )
+    		  	break;
+    	}
+		if(j==0)
+		{
+			zebra_ahead_count++;
+		}
+    }	
 	for( CurL = MT9V03X_H; CurL >= Start; --CurL )
 	{
 		CurPoint = Cur_Offset;          //CurPoint在每一行开始时为上一行中线 */
 		uint8 right_flag = 0;               //边界是否扫描到
 		uint8 left_flag = 0;
 
-		if(CurL<MT9V03X_H-5 && CurL>28)
+		if(CurL<MT9V03X_H-5 && CurL>28 &&zebra_ahead_count>=20)
 		{
 		    CurPoint=Cur_Offset;
 	        int crossing_num=0;//斑马线的数量
-	        uint8 stop_count=0;
-	        for(i=40;i<90;i++)
-	        {
-	            for(j=62;j>=5;j--)
-	        	{
-	        	    if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j+1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
-	        		{
-	        		  	stop_count++;
-	        		  	break;
-	        		}
-	        	}
-	        }
+			uint8 last_crossing1=0;
+			uint8 last_crossing2=0;
+
 	        while ( CurPoint > 0 )         //向右扫描寻找斑马线
 	        {
 		        if ( *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) < whiteRoad )
 		        {
-			        crossing_num=crossing_num+1;
+					last_crossing1 = last_crossing2;
+					last_crossing2 = CurPoint;
+					if(last_crossing2-last_crossing1<=2||last_crossing2-last_crossing1>=-2) 
+			        	crossing_num=crossing_num+1;
 					 -- CurPoint;
 		        }  //由白变为黑
 		        else if ( *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint - 2) > whiteRoad )
 		        {
-		            crossing_num=crossing_num+1;
+					last_crossing1 = last_crossing2;
+					last_crossing2 = CurPoint;
+					if(last_crossing2-last_crossing1<=2||last_crossing2-last_crossing1>=-2) 
+		            	crossing_num=crossing_num+1;
 					 -- CurPoint;
 		        }  //由黑变为白
             	else
@@ -270,12 +335,18 @@ void searchline_image(uint8 *p)	//图像处理
 	        {
 		        if ( *(p + CurL * MT9V03X_W + CurPoint - 1) > whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) < whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) < whiteRoad )
 		        {
-			        crossing_num=crossing_num+1;
+					last_crossing1 = last_crossing2;
+					last_crossing2 = CurPoint;
+					if(last_crossing2-last_crossing1<=2||last_crossing2-last_crossing1>=-2) 			        
+						crossing_num=crossing_num+1;
 					++ CurPoint;
 		        }  //由白变为黑
 		        else if ( *(p + CurL * MT9V03X_W + CurPoint - 1) < whiteRoad&&*(p + CurL * MT9V03X_W + CurPoint) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 1) > whiteRoad && *(p + CurL * MT9V03X_W + CurPoint + 2) > whiteRoad )
 		        {
-			        crossing_num=crossing_num+1;
+					last_crossing1 = last_crossing2;
+					last_crossing2 = CurPoint;
+					if(last_crossing2-last_crossing1<=2||last_crossing2-last_crossing1>=-2) 					
+			        	crossing_num=crossing_num+1;
 					++ CurPoint;
 		        }  //由黑变为白
       	        else
@@ -284,7 +355,7 @@ void searchline_image(uint8 *p)	//图像处理
 		        }
 	        }
 	        CurPoint = Cur_Offset;
-	        if(crossing_num >= 11&&stop_count<=35)
+	        if(crossing_num >= 11)
 			{
 	        	zebra_flag = 1;
 	        }
@@ -442,7 +513,7 @@ void searchline_image(uint8 *p)	//图像处理
 		uint8 noroad_ahead_count=0;
 		for(i=20; i<100; i++)
 	   {
-		  	for(j=30; j<62; j++)
+		  	for(j=5; j<30; j++)
 		  	{
 		  		if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j + 1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
 		  	    {
@@ -451,7 +522,7 @@ void searchline_image(uint8 *p)	//图像处理
 		  		}
 			}
 		}
-
+		huandao_straight_count=0;
 		for( CurL = Start; CurL <MT9V03X_H; ++CurL)//从上往下左边第一个没有黑线
         {
 			if(Rx[CurL]==0)
@@ -459,6 +530,8 @@ void searchline_image(uint8 *p)	//图像处理
 				turning_point1=CurL;
 				break;
 			}
+			if(Rx[CurL]-Rx[CurL+1]>=0)
+				huandao_straight_count++;
 		}
 		count_right_non=0;
 		//从左边没有黑线往下扫都是没有黑线个数
@@ -471,23 +544,36 @@ void searchline_image(uint8 *p)	//图像处理
 		count_right_non2=0;
         for( CurL = Start; CurL <turning_point1 ; ++CurL)//大于10
         {
-			if(Rx[CurL]>=20)
+			if(Rx[CurL]>=22)
 				count_right_non2++;  
 		}
         count_left_non=0;
 		//右边有线
-        for( CurL = 0; CurL <= 35; ++CurL)
+        for( CurL = 0; CurL <= 45; ++CurL)
         {
         	if(Lx[CurL]<MT9V03X_W-2)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=21&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
-        {
-			in_huandao=1;
-			out_begin=1;
-			time_count_flag=1;
-			timecounter=0;
-        }
+		if(speed_gear>=4)
+		{
+			if(count_right_non >= MT9V03X_H-turning_point1-3 && huandao_straight_count>=turning_point1 && turning_point1<=30&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=38&&noroad_ahead_count<40&&count_left_non>=30)
+        	{
+				in_huandao=1;
+				out_begin=1;
+				time_count_flag=1;
+				timecounter=0;
+        	}	
+		}
+		else 
+		{
+			if(count_right_non >= MT9V03X_H-turning_point1-3 && huandao_straight_count>=turning_point1-1&& turning_point1<=21&&count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=30)
+        	{
+				in_huandao=1;
+				out_begin=1;
+				time_count_flag=1;
+				timecounter=0;
+        	}	
+		}
     }
 
 	//进右环岛判定
@@ -502,9 +588,9 @@ void searchline_image(uint8 *p)	//图像处理
 		uint8 noroad_ahead_count=0;
 		for(i=20; i<100; i++)
 	    {
-		  	for(j=30; j<62; j++)
+		  	for(j=5; j<30; j++)
 		  	{
-		  		if(*(p + j * MT9V03X_W + i) > whiteRoad && *(p + (j + 1) * MT9V03X_W + i) > whiteRoad && *(p + (j-1) * MT9V03X_W + i) < whiteRoad)
+		  		if(*(p + j * MT9V03X_W + i) < whiteRoad)
 		  	    {
 		  			noroad_ahead_count++;
 		  			break;
@@ -512,6 +598,7 @@ void searchline_image(uint8 *p)	//图像处理
 			}
 		}
 		turning_point1=0;
+		huandao_straight_count=0;
 		for( CurL = Start; CurL <MT9V03X_H; ++CurL)//从上往下右边第一个没有黑线
         {
 			if(Lx[CurL]==MT9V03X_W-1)
@@ -519,6 +606,8 @@ void searchline_image(uint8 *p)	//图像处理
 				turning_point1=CurL;
 				break;
 			}
+			if(Lx[CurL]-Lx[CurL+1]<=0)
+				huandao_straight_count++;
 		}
 		count_right_non=0;
 		//从右边没有黑线往下扫都是没有黑线个数
@@ -536,19 +625,33 @@ void searchline_image(uint8 *p)	//图像处理
 		}
         count_left_non=0;
 		//左边有线
-        for( CurL = 0; CurL <= 35; ++CurL)
+        for( CurL = 0; CurL <= 40; ++CurL)
         {
         	if(Rx[CurL]>0)
         		count_left_non++;
         }
-		if(count_right_non >= MT9V03X_H-turning_point1-3 && turning_point1<=22 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=28)
-        {
-			
-			in_right_huandao=1;
-			out_right_begin=1;
-			time_count_flag=1;
-			timecounter=0;
-        }
+		if(speed_gear>=4)
+		{
+			if(count_right_non >= MT9V03X_H-turning_point1-3 && huandao_straight_count>=turning_point1 && turning_point1<=30 && count_right_non2 >= turning_point1-1 && count_right_non2>=5 && count_right_non>=35&&noroad_ahead_count<40&&count_left_non>=30)
+        	{
+
+				in_right_huandao=1;
+				out_right_begin=1;
+				time_count_flag=1;
+				timecounter=0;
+        	}		
+		}
+		else
+		{
+			if(count_right_non >= MT9V03X_H-turning_point1-3 && huandao_straight_count>=turning_point1-1 && turning_point1<=22 && count_right_non2 >= turning_point1-1 && count_right_non2>=7 && count_right_non>=22&&noroad_ahead_count<40&&count_left_non>=30)
+        	{
+
+				in_right_huandao=1;
+				out_right_begin=1;
+				time_count_flag=1;
+				timecounter=0;
+        	}		
+		}
     }
 	//十字路口
 	count_lr_non=0;
